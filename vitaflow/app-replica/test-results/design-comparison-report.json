@@ -1,0 +1,28 @@
+{
+  "deviceSize": {
+    "figma": {
+      "width": 402,
+      "height": 874
+    },
+    "implementation": {
+      "width": 402,
+      "height": 874
+    },
+    "match": true
+  },
+  "statusBarHeight": {
+    "figma": 62,
+    "implementation": 62,
+    "match": true
+  },
+  "bottomNavHeight": {
+    "figma": 98,
+    "implementation": 98,
+    "match": true
+  },
+  "macroCardsGap": {
+    "figma": 12,
+    "implementation": 12,
+    "match": true
+  }
+}

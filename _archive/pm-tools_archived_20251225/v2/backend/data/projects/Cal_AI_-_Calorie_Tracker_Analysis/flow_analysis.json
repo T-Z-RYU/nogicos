@@ -1,0 +1,24 @@
+{
+  "app_type": "生活服务/智能家居类App",
+  "onboarding": {
+    "start": 1,
+    "end": 15,
+    "steps": [
+      "启动页",
+      "权限请求",
+      "位置服务",
+      "通知权限",
+      "账户设置",
+      "初始配置"
+    ]
+  },
+  "paywall": {
+    "position": null,
+    "in_onboarding": false
+  },
+  "core_start": 16,
+  "summary": "这是一个功能丰富的智能生活服务App，采用渐进式引导，重视权限获取和用户体验",
+  "project": "Cal_AI_-_Calorie_Tracker_Analysis",
+  "total_screenshots": 93,
+  "analyzed_at": "2025-12-13T20:40:25.353587"
+}

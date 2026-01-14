@@ -1,0 +1,23 @@
+{
+  "app_type": "地图导航/位置服务类App",
+  "onboarding": {
+    "start": 1,
+    "end": 25,
+    "steps": [
+      "启动页面",
+      "权限请求",
+      "功能介绍",
+      "账户设置",
+      "位置权限配置"
+    ]
+  },
+  "paywall": {
+    "position": 18,
+    "in_onboarding": true
+  },
+  "core_start": 26,
+  "summary": "该App采用较长的引导流程，在用户体验核心功能前就展示付费选项，主要围绕地图和位置服务构建功能体系",
+  "project": "Strava_Run_Bike_Hike_Analysis",
+  "total_screenshots": 200,
+  "analyzed_at": "2025-12-13T20:41:11.211744"
+}

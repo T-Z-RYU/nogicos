@@ -1,0 +1,1092 @@
+{
+  "project": "Calm_Analysis",
+  "analyzed_at": "2025-12-13T20:33:50.041242",
+  "total": 120,
+  "summary": {
+    "Onboarding": 47,
+    "Paywall": 4,
+    "Core": 69
+  },
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "Screen_001.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个深呼吸引导页面，没有底部Tab导航栏，属于引导用户进入使用状态的Onboarding流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 2,
+      "filename": "Screen_002.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是权限请求弹窗，没有底部Tab栏，属于用户进入日常使用状态前的引导流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 3,
+      "filename": "Screen_003.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是欢迎页面，显示权限请求弹窗，没有底部Tab导航栏，属于引导流程中的权限获取环节",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 4,
+      "filename": "Screen_004.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是目标设定页面，询问用户使用Calm的目的并收集偏好信息，没有底部Tab导航栏，属于引导流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 5,
+      "filename": "Screen_005.png",
+      "category": "Onboarding",
+      "confidence": 1.0,
+      "reasoning": "这是注册登录页面，用户需要创建账户才能继续使用，明显属于引导流程，且没有底部Tab导航栏",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 6,
+      "filename": "Screen_006.png",
+      "category": "Onboarding",
+      "confidence": 1.0,
+      "reasoning": "这是账户注册页面，用户填写姓名、邮箱和密码来创建账户，属于引导流程中的注册环节，没有底部Tab导航栏",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 7,
+      "filename": "Screen_007.png",
+      "category": "Paywall",
+      "confidence": 1.0,
+      "reasoning": "页面显示明确的价格信息（$5.84/mo, $14.99/mo）和订阅选项，有7天免费试用按钮，这是典型的付费墙页面",
+      "has_tab_bar": false,
+      "has_price": true
+    },
+    {
+      "index": 8,
+      "filename": "Screen_008.png",
+      "category": "Paywall",
+      "confidence": 1.0,
+      "reasoning": "显示了明确的价格信息（$69.99 per year）和订阅选项，这是典型的付费墙页面",
+      "has_tab_bar": false,
+      "has_price": true
+    },
+    {
+      "index": 9,
+      "filename": "Screen_009.png",
+      "category": "Paywall",
+      "confidence": 1.0,
+      "reasoning": "页面显示明确的订阅价格（$5.84/mo, $69.99/yr, $14.99/mo）和付费套餐选择，属于典型的付费墙页面",
+      "has_tab_bar": false,
+      "has_price": true
+    },
+    {
+      "index": 10,
+      "filename": "Screen_010.png",
+      "category": "Paywall",
+      "confidence": 1.0,
+      "reasoning": "页面显示了明确的价格信息（$5.84/mo、$14.99/mo）和订阅选项，是典型的付费墙页面",
+      "has_tab_bar": false,
+      "has_price": true
+    },
+    {
+      "index": 11,
+      "filename": "Screen_011.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个信息收集页面，询问用户如何听说Calm应用的，没有底部Tab导航栏，属于引导流程中的用户信息收集环节",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 12,
+      "filename": "Screen_012.png",
+      "category": "Onboarding",
+      "confidence": 0.9,
+      "reasoning": "这是一个礼品赠送弹窗，出现在引导流程中，没有底部Tab导航栏，属于引导用户了解产品功能的环节",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 13,
+      "filename": "Screen_013.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是推荐奖励页面，用于引导用户分享获取奖励，没有底部Tab导航栏，仍属于引导流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 14,
+      "filename": "Screen_014.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个推荐页面，展示Calm应用的30天免费试用优惠，没有底部Tab导航栏，用户还未进入日常使用状态",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 15,
+      "filename": "Screen_015.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个推荐功能页面，显示推荐朋友获取Calm Premium的功能介绍和进度追踪，没有底部Tab导航栏，仍属于引导流程的一部分",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 16,
+      "filename": "Screen_016.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "页面有底部Tab导航栏（Home、Sleep、Discover、Profile），表明用户已进入日常使用状态的主界面",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 17,
+      "filename": "Screen_017.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是场景音效设置页面，没有底部Tab导航栏，属于引导用户配置应用环境的流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 18,
+      "filename": "Screen_018.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个时间设置弹窗，用户在选择播放声音的持续时间，没有底部Tab导航栏，属于引导流程中的偏好设置环节",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 19,
+      "filename": "Screen_019.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个场景选择页面，没有底部Tab导航栏，用户正在配置应用设置，属于引导流程的一部分",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 20,
+      "filename": "Screen_020.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是场景音频设置页面，属于核心功能的设置界面，用户可以调节音量、选择场景音频等",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 21,
+      "filename": "Screen_021.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile四个选项），用户已进入日常使用状态的主界面",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 22,
+      "filename": "Screen_022.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是一个音频/视频播放器界面，有播放控制按钮和进度条，虽然看不到底部Tab栏但具备核心功能特征",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 23,
+      "filename": "Screen_023.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是用户在播放音频内容时使用AirPlay功能的界面，属于核心播放功能的一部分",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 24,
+      "filename": "Screen_024.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是iOS系统原生的分享功能弹窗，出现在用户日常使用过程中分享内容时",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 25,
+      "filename": "Screen_025.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "显示分享成功的确认弹窗，没有底部Tab导航栏，仍处于引导流程中",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 26,
+      "filename": "Screen_026.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是App Store评分请求弹窗，属于引导流程的一部分，没有底部Tab导航栏且未进入日常使用状态",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 27,
+      "filename": "Screen_027.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个评价反馈弹窗，出现在引导流程中收集用户反馈，没有底部Tab导航栏且无价格信息",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 28,
+      "filename": "Screen_028.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "这是一个视频播放界面，显示播放控制按钮、进度条、播放速度和音频字幕设置等功能，属于用户日常使用的核心功能页面",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 29,
+      "filename": "Screen_029.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "这是一个视频播放界面，显示播放控制按钮、进度条和倍速设置功能，属于应用的核心功能使用场景",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 30,
+      "filename": "Screen_030.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "这是一个视频播放界面，具有完整的播放控制功能（播放/暂停、快进/快退、音频轨道选择），用户已进入核心功能使用状态",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 31,
+      "filename": "Screen_031.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "这是一个视频播放界面，用户正在观看内容并可以调整字幕设置，属于应用的核心功能使用状态",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 32,
+      "filename": "Screen_032.png",
+      "category": "Onboarding",
+      "confidence": 0.9,
+      "reasoning": "这是一个冥想/正念应用的会话结束反馈页面，没有底部Tab导航栏，属于引导用户体验和个性化推荐设置的流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 33,
+      "filename": "Screen_033.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是iOS系统分享界面，用户在使用核心功能时触发的系统级分享操作",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 34,
+      "filename": "Screen_034.png",
+      "category": "Onboarding",
+      "confidence": 0.9,
+      "reasoning": "这是设置正念提醒功能的配置页面，没有底部Tab导航栏，属于引导用户完成初始设置的流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 35,
+      "filename": "Screen_035.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是正念提醒设置页面，没有底部Tab导航栏，属于引导用户完成初始配置的流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 36,
+      "filename": "Screen_036.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个冥想前的情绪状态检查页面，没有底部Tab导航栏，属于引导用户进入冥想状态的准备流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 37,
+      "filename": "Screen_037.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是功能介绍页面，展示情绪记录功能说明，没有底部Tab导航栏，属于引导流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 38,
+      "filename": "Screen_038.png",
+      "category": "Onboarding",
+      "confidence": 1.0,
+      "reasoning": "这是介绍情绪签到功能的引导页面，没有底部Tab导航栏，属于用户进入日常使用状态前的功能介绍流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 39,
+      "filename": "Screen_039.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个情绪状态选择页面，没有底部Tab导航栏，属于App引导用户进行初始设置的流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 40,
+      "filename": "Screen_040.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是一个情绪记录页面，用户正在为积极情绪添加标签和笔记，属于应用的核心日常使用功能",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 41,
+      "filename": "Screen_041.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "这是一个冥想音频播放页面，具有完整的音频控制功能（播放/暂停、进度条、时间显示），用户已经进入日常使用状态",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 42,
+      "filename": "Screen_042.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是用户完成冥想后的反馈收集弹窗，属于核心功能使用过程中的交互",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 43,
+      "filename": "Screen_043.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是iOS系统分享功能界面，用户正在分享冥想内容，属于核心功能的扩展操作",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 44,
+      "filename": "Screen_044.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "用户正在创建播放列表，这是App的核心功能使用场景，且能看到底部有导航界面元素",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 45,
+      "filename": "Screen_045.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "这是一个音频播放页面，底部有完整的媒体播放控制栏（播放/暂停、进度条、设置等），用户已经在日常使用核心功能",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 46,
+      "filename": "Screen_046.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "这是一个播放列表添加功能的弹窗页面，用户已经在使用核心功能，虽然当前弹窗遮挡了底部导航栏，但用户明显处于日常使用状态中的操作流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 47,
+      "filename": "Screen_047.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是一个声音设置页面，用户已经进入App的日常使用状态，可以调节场景音量等核心功能设置",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 48,
+      "filename": "Screen_048.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "页面底部有清晰的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 49,
+      "filename": "Screen_049.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "这是一个音频播放页面，有完整的播放控制界面（播放/暂停、进度条、时间显示），用户已经在使用核心功能",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 50,
+      "filename": "Screen_050.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "这是一个分享功能的操作界面，用户已经在使用App的核心功能（冥想音频播放页面），并通过系统分享菜单进行内容分享",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 51,
+      "filename": "Screen_051.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "这是一个冥想音频播放页面，底部有完整的Tab导航栏（4个图标），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 52,
+      "filename": "Screen_052.png",
+      "category": "Onboarding",
+      "confidence": 0.9,
+      "reasoning": "这是一个情绪状态收集的弹窗页面，用于个性化推荐，没有底部Tab导航栏，属于引导流程中的信息收集环节",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 53,
+      "filename": "Screen_053.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有4个Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 54,
+      "filename": "Screen_054.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile四个选项），用户已进入日常使用状态的主界面",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 55,
+      "filename": "Screen_055.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有明显的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 56,
+      "filename": "Screen_056.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile四个选项），用户已进入日常使用的主界面状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 57,
+      "filename": "Screen_057.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "这是一个音频播放页面，具有完整的播放控制界面（播放/暂停、进度条、时长显示等），用户已进入日常使用状态",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 58,
+      "filename": "Screen_058.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是播放列表添加功能的弹窗界面，属于音乐应用的核心使用功能",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 59,
+      "filename": "Screen_059.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile四个选项），用户已进入日常使用状态的主界面",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 60,
+      "filename": "Screen_060.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有清晰的Tab导航栏，包含Home、Sleep、Discover、Profile四个选项，用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 61,
+      "filename": "Screen_061.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 62,
+      "filename": "Screen_062.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是睡前提醒设置页面，没有底部Tab导航栏，属于引导用户设置睡眠习惯的配置流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 63,
+      "filename": "Screen_063.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个睡前提醒设置页面，用于收集用户的睡眠偏好和建立睡前习惯，没有底部Tab导航栏，属于引导用户完成初始设置的流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 64,
+      "filename": "Screen_064.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 65,
+      "filename": "Screen_065.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有包含Home、Sleep、Discover、Profile四个图标的Tab导航栏，用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 66,
+      "filename": "Screen_066.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile四个选项），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 67,
+      "filename": "Screen_067.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是冥想开始前的情绪检测页面，没有底部Tab导航栏，属于引导用户进入冥想状态的前置流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 68,
+      "filename": "Screen_068.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "这是一个冥想音频播放页面，有底部媒体控制栏（播放/暂停、进度条等），用户已进入日常使用状态",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 69,
+      "filename": "Screen_069.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有明显的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 70,
+      "filename": "Screen_070.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 71,
+      "filename": "Screen_071.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态的主界面",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 72,
+      "filename": "Screen_072.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 73,
+      "filename": "Screen_073.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有包含Home、Sleep、Discover、Profile四个图标的Tab导航栏，用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 74,
+      "filename": "Screen_074.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "这是一个音频播放页面，有底部的播放控制栏和进度条，用户已经在使用核心功能",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 75,
+      "filename": "Screen_075.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个反馈收集弹窗，询问用户对睡眠故事的喜好以个性化推荐，没有底部Tab导航栏，属于引导流程的一部分",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 76,
+      "filename": "Screen_076.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有Home、Sleep、Discover、Profile四个Tab导航栏，用户已进入日常使用状态的主界面",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 77,
+      "filename": "Screen_077.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile），说明用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 78,
+      "filename": "Screen_078.png",
+      "category": "Onboarding",
+      "confidence": 0.9,
+      "reasoning": "这是一个推荐奖励页面，没有底部Tab导航栏，且用户还未进入日常使用状态",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 79,
+      "filename": "Screen_079.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是用户完成冥想后的成就分享页面，显示了冥想统计数据，用户已经在日常使用状态中",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 80,
+      "filename": "Screen_080.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是系统分享功能界面，用户已经在使用核心功能并进行分享操作，属于日常使用状态",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 81,
+      "filename": "Screen_081.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个权限请求弹窗页面，询问是否允许应用访问相册，且没有底部Tab导航栏，属于引导流程的一部分",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 82,
+      "filename": "Screen_082.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 83,
+      "filename": "Screen_083.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 84,
+      "filename": "Screen_084.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面有明显的底部Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 85,
+      "filename": "Screen_085.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是日记应用的主要功能页面，显示'Your Journal Entries'标题，有添加按钮，底部有导航指示器，用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 86,
+      "filename": "Screen_086.png",
+      "category": "Onboarding",
+      "confidence": 1.0,
+      "reasoning": "这是Quick Journal的欢迎介绍页面，没有底部Tab导航栏，属于引导用户了解应用功能的流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 87,
+      "filename": "Screen_087.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个引导用户开始记录想法的页面，没有底部Tab导航栏，属于引导流程的一部分",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 88,
+      "filename": "Screen_088.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个心理健康或冥想类应用的引导页面，要求用户填写关于悲伤情绪的问题，没有底部Tab导航栏，属于用户信息收集阶段",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 89,
+      "filename": "Screen_089.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个引导用户填写情绪/心理状态信息的页面，没有底部Tab导航栏，属于应用初始设置流程的一部分",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 90,
+      "filename": "Screen_090.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个引导用户进行情感反思的页面，没有底部Tab导航栏，属于应用的引导流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 91,
+      "filename": "Screen_091.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个引导结束页面，提示用户可以随时回来，没有底部Tab导航栏，属于Onboarding流程的结尾部分",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 92,
+      "filename": "Screen_092.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是日记应用的核心功能页面，显示用户的日记条目列表，虽然底部Tab栏在截图中不完全可见，但页面顶部有完整的导航结构（关闭按钮、标题、添加按钮），表明用户已进入日常使用状态",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 93,
+      "filename": "Screen_093.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "页面底部有明显的Tab导航栏（Home、Sleep、Discover、Profile四个选项），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 94,
+      "filename": "Screen_094.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个功能介绍页面，展示Daily Calm Reflection功能并有Get Started按钮引导用户开始使用，没有底部Tab导航栏",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 95,
+      "filename": "Screen_095.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个展示正念冥想理念的引导页面，有继续按钮和进度指示器，没有底部Tab导航栏，属于引导用户了解产品理念的onboarding流程。",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 96,
+      "filename": "Screen_096.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个收集用户呼吸情感信息的引导页面，没有底部Tab导航栏，属于Onboarding流程中的信息收集环节",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 97,
+      "filename": "Screen_097.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个引导用户感受当下情绪状态的页面，没有底部Tab导航栏，属于引导流程的一部分",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 98,
+      "filename": "Screen_098.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是完成反思后的日常功能页面，用户已进入正常使用状态，虽然看不到底部Tab栏但从页面功能和完成状态判断属于核心功能",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 99,
+      "filename": "Screen_099.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "这是一个日常冥想反思记录页面，用户已进入正常使用状态，可以查看和记录每日的情感状态",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 100,
+      "filename": "Screen_100.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "页面底部有清晰的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 101,
+      "filename": "Screen_101.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个感恩日记的信息收集页面，没有底部Tab导航栏，用户正在输入个人信息作为初始设置的一部分",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 102,
+      "filename": "Screen_102.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个深呼吸引导页面，显示冥想呼吸指导文案，没有底部Tab导航栏，属于引导用户进入冥想状态的流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 103,
+      "filename": "Screen_103.png",
+      "category": "Core",
+      "confidence": 0.9,
+      "reasoning": "这是一个感恩记录的核心功能页面，用户已经完成第一次打卡，正在进行日常的感恩记录功能使用",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 104,
+      "filename": "Screen_104.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "这是一个设置页面，底部有完整的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 105,
+      "filename": "Screen_105.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "页面底部有Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态，这是订阅成功后的确认页面",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 106,
+      "filename": "Screen_106.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "虽然页面显示错误信息，但底部有完整的Tab导航栏（Home、Sleep、Discover、Profile），说明用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 107,
+      "filename": "Screen_107.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态的账户设置页面",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 108,
+      "filename": "Screen_108.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个账户信息更新页面，没有底部Tab导航栏，属于用户进入主界面前的信息收集环节",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 109,
+      "filename": "Screen_109.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "页面底部有Tab导航栏且用户已进入日常使用状态，这是账户删除设置页面",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 110,
+      "filename": "Screen_110.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有完整的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 111,
+      "filename": "Screen_111.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是正念提醒设置页面，没有底部Tab导航栏，属于引导用户完成初始配置的流程",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 112,
+      "filename": "Screen_112.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有明确的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态的下载管理功能页面",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 113,
+      "filename": "Screen_113.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "这是下载管理页面，底部有完整的Tab导航栏（Home、Sleep、Discover、Profile），属于用户日常使用的核心功能。",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 114,
+      "filename": "Screen_114.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "页面底部有标准的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态，这是设置中的语言选择功能页面",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 115,
+      "filename": "Screen_115.png",
+      "category": "Onboarding",
+      "confidence": 0.95,
+      "reasoning": "这是一个健康数据访问权限请求页面，没有底部Tab导航栏，属于引导流程中的权限设置环节",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 116,
+      "filename": "Screen_116.png",
+      "category": "Onboarding",
+      "confidence": 0.9,
+      "reasoning": "这是Calm应用的帮助中心页面，没有底部Tab导航栏，用户还未进入日常使用的主界面状态",
+      "has_tab_bar": false,
+      "has_price": false
+    },
+    {
+      "index": 117,
+      "filename": "Screen_117.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "这是一个关于页面，有明显的底部Tab导航栏（Home、Sleep、Discover、Profile），用户已经进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 118,
+      "filename": "Screen_118.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "页面底部有清晰的Tab导航栏（Home、Sleep、Discover、Profile），表明用户已进入日常使用状态，正在查看服务条款页面",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 119,
+      "filename": "Screen_119.png",
+      "category": "Core",
+      "confidence": 0.95,
+      "reasoning": "页面底部有4个Tab导航栏（Home、Sleep、Discover、Profile），说明用户已进入日常使用状态，这是一个隐私政策设置页面",
+      "has_tab_bar": true,
+      "has_price": false
+    },
+    {
+      "index": 120,
+      "filename": "Screen_120.png",
+      "category": "Core",
+      "confidence": 1.0,
+      "reasoning": "这是应用的设置页面，底部有完整的Tab导航栏（Home、Sleep、Discover、Profile），用户已进入日常使用状态",
+      "has_tab_bar": true,
+      "has_price": false
+    }
+  ]
+}

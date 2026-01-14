@@ -1,0 +1,277 @@
+{
+  "app_name": "AllTrails",
+  "total_screenshots": 10,
+  "analyzed_at": "2025-12-24T10:20:00",
+  "model": "claude-opus-4-5-20251101",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "type": "VP",
+      "type_cn": "价值主张",
+      "elements": ["Headline", "Device_Mockup", "Gradient_BG", "Nature_Photo"],
+      "copywriting": {
+        "headline": "Find Your Next Adventure",
+        "subheadline": "Discover trails near you"
+      },
+      "psychology": {
+        "cialdini": ["liking"],
+        "cognitive_biases": ["primacy_effect", "aspiration"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 5.0,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "探险精神的价值主张，自然风景增强吸引力"
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "type": "CORE_FUNC",
+      "type_cn": "核心功能",
+      "elements": ["Device_Mockup", "App_UI", "Headline", "Map_Visual"],
+      "copywriting": {
+        "headline": "Explore 400K+ Trails",
+        "subheadline": "Maps, photos & reviews"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["abundance_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "40万条步道的丰富内容展示"
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "type": "SOCIAL_PROOF",
+      "type_cn": "社会证明",
+      "elements": ["Headline", "Download_Count", "Rating_Stars"],
+      "copywriting": {
+        "headline": "65M+ Adventurers",
+        "subheadline": "World's largest trail community"
+      },
+      "psychology": {
+        "cialdini": ["social_proof", "unity"],
+        "cognitive_biases": ["bandwagon_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "6500万户外爱好者社区"
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "type": "USP",
+      "type_cn": "差异化卖点",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Offline Maps",
+        "subheadline": "Navigate without signal"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["safety_assurance"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "离线地图差异化功能，解决户外痛点"
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "type": "PERSONALIZATION",
+      "type_cn": "个性化展示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Personalized Recommendations",
+        "subheadline": "Based on your preferences"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["endowment_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "个性化步道推荐"
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "type": "RESULT_PREVIEW",
+      "type_cn": "效果预览",
+      "elements": ["Device_Mockup", "App_UI", "Stat_Number"],
+      "copywriting": {
+        "headline": "Track Your Activities",
+        "subheadline": "GPS recording & stats"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["expectation_anchoring"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "活动追踪和数据统计"
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7_plus",
+      "type": "AUTHORITY",
+      "type_cn": "权威背书",
+      "elements": ["Headline", "Award_Badge"],
+      "copywriting": {
+        "headline": "Editor's Choice",
+        "subheadline": "Apple App Store featured"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["halo_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "App Store编辑精选"
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P7_plus",
+      "type": "DATA_PROOF",
+      "type_cn": "数据证明",
+      "elements": ["Headline", "Stat_Number"],
+      "copywriting": {
+        "headline": "450M+ Photos Shared",
+        "subheadline": "Real trail experiences"
+      },
+      "psychology": {
+        "cialdini": ["social_proof"],
+        "cognitive_biases": ["specificity_bias"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "4.5亿张照片的真实用户内容"
+    },
+    {
+      "index": 9,
+      "filename": "screenshot_09.png",
+      "position": "P7_plus",
+      "type": "HOW_IT_WORKS",
+      "type_cn": "使用流程",
+      "elements": ["Device_Mockup", "Icon_Set"],
+      "copywriting": {
+        "headline": "Easy to Get Started",
+        "subheadline": "Find, plan, explore"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "简单三步上手"
+    },
+    {
+      "index": 10,
+      "filename": "screenshot_10.png",
+      "position": "P7_plus",
+      "type": "FREE_TRIAL",
+      "type_cn": "免费试用提示",
+      "elements": ["Headline", "CTA_Text", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Try AllTrails+ Free",
+        "subheadline": "7-day premium trial"
+      },
+      "psychology": {
+        "cialdini": ["reciprocity"],
+        "cognitive_biases": ["loss_aversion"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "免费试用引导"
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → CORE_FUNC → SOCIAL_PROOF → USP → PERSONALIZATION → RESULT_PREVIEW → AUTHORITY → DATA_PROOF → HOW_IT_WORKS → FREE_TRIAL",
+    "strengths": [
+      "40万条步道的丰富内容",
+      "离线地图差异化功能",
+      "6500万用户社区",
+      "自然风景视觉吸引力"
+    ],
+    "weaknesses": [
+      "缺少AI功能",
+      "截图数量较多"
+    ],
+    "recommendations": [
+      "可加入AI步道推荐",
+      "精简截图至8张"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 1,
+      "CORE_FUNC": 1,
+      "SOCIAL_PROOF": 1,
+      "USP": 1,
+      "PERSONALIZATION": 1,
+      "RESULT_PREVIEW": 1,
+      "AUTHORITY": 1,
+      "DATA_PROOF": 1,
+      "HOW_IT_WORKS": 1,
+      "FREE_TRIAL": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 6,
+      "Headline": 10,
+      "App_UI": 5,
+      "Gradient_BG": 2,
+      "Nature_Photo": 1,
+      "Map_Visual": 1,
+      "Download_Count": 1,
+      "Rating_Stars": 1,
+      "Award_Badge": 1,
+      "Stat_Number": 2,
+      "Icon_Set": 1
+    },
+    "psychology_coverage": {
+      "cialdini": ["liking", "authority", "social_proof", "unity", "commitment", "reciprocity"],
+      "cognitive_biases": ["primacy_effect", "abundance_effect", "bandwagon_effect", "endowment_effect", "expectation_anchoring", "halo_effect", "specificity_bias", "cognitive_fluency", "loss_aversion"]
+    }
+  }
+}
+

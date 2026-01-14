@@ -1,0 +1,14 @@
+{
+  "site_name": "Lobsters",
+  "site_url": "https://lobste.rs",
+  "site_category": "tech_forum",
+  "task_id": "lobsters_comments",
+  "task_description": "Open the comments/discussion for the 3rd story on the page",
+  "task_type": "comments",
+  "knowledge_base": "no_kb",
+  "model": "gpt-5.2",
+  "start_time": "2025-12-25T09:21:39.564661",
+  "success": false,
+  "error": "'gbk' codec can't encode character '\\u2636' in position 299: illegal multibyte sequence",
+  "execution_time_seconds": 118.09
+}

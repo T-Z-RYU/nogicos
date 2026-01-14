@@ -1,0 +1,393 @@
+<state 0>
+URL: /
+Title: DuckDuckGo - Protection. Privacy. Peace of mind.
+
+document: "DuckDuckGo - Protection. Privacy. Peace of mind." {
+  main {
+    article {
+      link: "Learn about DuckDuckGo", url: "/about";
+      search: "Searchbox" {
+        combobox: "Search with DuckDuckGo", expanded: True;
+        button: "Search", disabled: True;
+      };
+
+      link: "Duck.ai", url: "https://duck.ai/?origin=funnel_home_website";
+      navigation: "navigation" {
+        button: "Menu", expanded: False;
+      };
+    };
+  };
+};
+
+</state 0>
+
+<reasoning>
+We are on DuckDuckGo homepage. To search, focus the search combobox inside the Searchbox search region, type the provided query, and submit with Enter (since the Search button is disabled until input). After results load, click the first result link by targeting the first results list item/article and its primary link. Because the query string wasn’t provided in the prompt, the code will read it from an environment variable QUERY (fallback to a placeholder) so it can run.
+</reasoning>
+
+<code>
+import os
+from playwright.async_api import Page
+
+async def act(page: Page):
+    query = os.environ.get("QUERY", "example query")
+
+    # Fill the search box
+    searchbox = page.get_by_role("search", name="Searchbox")
+    combo = searchbox.get_by_role("combobox", name="Search with DuckDuckGo")
+    await combo.click()
+    await combo.fill(query)
+    await combo.press("Enter")
+
+    # Wait for results page to load (DuckDuckGo results typically have a list of results)
+    await page.wait_for_load_state("domcontentloaded")
+
+    # Click the first organic result link
+    # Prefer a scoped path: first listitem -> link
+    first_result_link = page.get_by_role("listitem").first.get_by_role("link").first
+    await first_result_link.click()
+</code>
+
+---
+
+<reasoning>
+We are still on the DuckDuckGo homepage with the search combobox expanded. To complete the task, enter the query (from environment variable QUERY, with a safe fallback), submit the search with Enter, wait for the results to load, then click the first result link. The first-result click should be scoped through the results container (e.g., main -> list -> first listitem -> link) to avoid ambiguous global selectors. Clicking the first result should be the last action because it navigates away.
+</reasoning>
+
+<code>
+import os
+import asyncio
+from playwright.async_api import Page
+
+async def act(page: Page):
+    query = os.environ.get("QUERY", "example query")
+
+    # Use the search region -> combobox path from the accessibility tree
+    search_region = page.get_by_role("search", name="Searchbox")
+    search_box = search_region.get_by_role("combobox", name="Search with DuckDuckGo")
+
+    await search_box.click()
+    await search_box.fill(query)
+    await search_box.press("Enter")
+
+    # Wait for results to appear
+    await page.wait_for_load_state("domcontentloaded")
+
+    # Click the first search result link (scoped through main -> list -> listitem -> link)
+    results_main = page.get_by_role("main")
+    first_result = results_main.get_by_role("list").get_by_role("listitem").first
+    first_result_link = first_result.get_by_role("link").first
+
+    await first_result_link.click()
+</code>
+
+---
+
+<reasoning>
+We’re on the DuckDuckGo homepage with the search combobox already expanded. To complete the task, fill the combobox with the query (read from env var QUERY with a fallback), press Enter to submit, wait for results to load, then click the first result link. The click is scoped through main -> (first) article -> link to avoid ambiguous selectors. Clicking the result will navigate away, so it is the last action.
+</reasoning>
+
+<code>
+import os
+from playwright.async_api import Page
+
+async def act(page: Page):
+    query = os.environ.get("QUERY", "example query")
+
+    # Fill and submit the search
+    search_combo = (
+        page.get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+    await search_combo.fill(query)
+    await search_combo.press("Enter")
+
+    # Wait for results to render
+    await page.wait_for_load_state("domcontentloaded")
+
+    # Open the first result
+    first_result_link = (
+        page.get_by_role("main")
+        .get_by_role("article")
+        .first
+        .get_by_role("link")
+        .first
+    )
+    await first_result_link.click()
+
+</code>
+
+---
+
+<reasoning>
+We are on DuckDuckGo homepage and the search combobox is already expanded. To complete the task, we need to type a query (read from env var QUERY with a fallback), submit the search with Enter, wait for the results page to load, then click the first result. The click should be scoped through main -> list -> first listitem -> first link to avoid ambiguous selectors. Clicking the first result is the last action because it navigates away.
+</reasoning>
+
+<code>
+import os
+from playwright.async_api import Page
+
+async def act(page: Page):
+    query = os.environ.get("QUERY", "example query")
+
+    # Fill the already-expanded search combobox and submit
+    search_combo = (
+        page.get_by_role("main")
+        .get_by_role("article")
+        .get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+    await search_combo.fill(query)
+    await search_combo.press("Enter")
+
+    # Wait for navigation to results
+    await page.wait_for_load_state("domcontentloaded")
+
+    # Open the first result (scoped path to avoid ambiguous link matches)
+    results_main = page.get_by_role("main")
+    first_result_link = (
+        results_main.get_by_role("list")
+        .get_by_role("listitem")
+        .first
+        .get_by_role("link")
+        .first
+    )
+    await first_result_link.click()
+
+</code>
+
+---
+
+<reasoning>
+We are on the DuckDuckGo homepage with the search combobox already expanded. We need to enter the search query, submit it (Enter), wait for results to load, then open the first result. Since the query text isn’t provided directly, read it from an environment variable (QUERY) with a safe fallback. Clicking the first result will navigate away, so that must be the last action. We will use a scoped role path for the combobox via main -> article -> search(Searchbox) -> combobox(Search with DuckDuckGo). After navigation, target the first result by scoping through main -> article (first result) -> link (first link).
+</reasoning>
+
+<code>
+import os
+from playwright.async_api import Page
+
+async def act(page: Page):
+    query = os.environ.get("QUERY", "example query")
+
+    # Fill the search box (already expanded) and submit
+    search_combo = (
+        page.get_by_role("main")
+        .get_by_role("article")
+        .get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+    await search_combo.fill(query)
+    await search_combo.press("Enter")
+
+    # Wait for results page to load
+    await page.wait_for_load_state("domcontentloaded")
+
+    # Open the first result (clicking it navigates away; keep as last action)
+    first_result_link = (
+        page.get_by_role("main")
+        .get_by_role("article")
+        .first
+        .get_by_role("link")
+        .first
+    )
+    await first_result_link.click()
+
+</code>
+
+---
+
+<reasoning>
+We are on DuckDuckGo homepage with the search combobox expanded. We need to enter the query and submit (Enter). Then, on the results page, click the first result. Since the query text is not provided directly, read it from environment variable QUERY with a fallback. Use scoped get_by_role paths: main -> article -> search(Searchbox) -> combobox. After navigation, click first result by scoping to main -> list -> first listitem -> first link. The click that navigates away must be the last action.
+</reasoning>
+
+<code>
+import os
+from playwright.async_api import Page
+
+async def act(page: Page):
+    query = os.environ.get("QUERY", "example query")
+
+    # Fill and submit the search query from the currently-open combobox
+    search_combo = (
+        page.get_by_role("main")
+        .get_by_role("article")
+        .get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+    await search_combo.fill(query)
+    await search_combo.press("Enter")
+
+    # Wait for results to load
+    await page.wait_for_load_state("domcontentloaded")
+
+    # Open the first result (last action; will navigate away)
+    first_result_link = (
+        page.get_by_role("main")
+        .get_by_role("list")
+        .get_by_role("listitem")
+        .first
+        .get_by_role("link")
+        .first
+    )
+    await first_result_link.click()
+
+</code>
+
+---
+
+<reasoning>
+We are on DuckDuckGo home page with the search combobox expanded. To complete the task, type the query (read from env var QUERY with a fallback), submit by pressing Enter, wait for the results page to load, then click the first result link. The click that navigates away must be the last action. Selectors are scoped via the shown accessibility tree (main -> article -> search(Searchbox) -> combobox).
+</reasoning>
+
+<code>
+import os
+import asyncio
+from playwright.async_api import Page
+
+async def act(page: Page):
+    query = os.environ.get("QUERY", "example query")
+
+    # Fill the search combobox (already expanded) and submit
+    search_combo = (
+        page.get_by_role("main")
+        .get_by_role("article")
+        .get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+
+    await search_combo.fill(query)
+    await search_combo.press("Enter")
+
+    # Wait for results to load
+    await page.wait_for_load_state("domcontentloaded")
+
+    # Click the first search result (last action; navigates away)
+    first_result_link = (
+        page.get_by_role("main")
+        .get_by_role("article")
+        .first
+        .get_by_role("link")
+        .first
+    )
+    await first_result_link.click()
+
+</code>
+
+---
+
+<reasoning>
+We are on DuckDuckGo homepage with the Searchbox combobox already expanded. To perform the task, we need to type the search query, submit it (press Enter), then on the results page click the first result. Since the query is not provided in the prompt, read it from environment variable QUERY with a safe fallback. Use fully-scoped get_by_role selectors from the accessibility tree. After submitting, wait for results to load, then click the first result link as the last action (it will navigate away).
+</reasoning>
+
+<code>
+import os
+from playwright.async_api import Page
+
+async def act(page: Page):
+    query = os.environ.get("QUERY", "example query")
+
+    # Fill the (already expanded) search combobox and submit
+    search_combo = (
+        page.get_by_role("main")
+        .get_by_role("article")
+        .get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+    await search_combo.fill(query)
+    await search_combo.press("Enter")
+
+    # Wait for results to load
+    await page.wait_for_load_state("domcontentloaded")
+
+    # Click the first result (last action; navigates away)
+    first_result_link = (
+        page.get_by_role("main")
+        .get_by_role("article")
+        .first
+        .get_by_role("link")
+        .first
+    )
+    await first_result_link.click()
+
+</code>
+
+---
+
+<reasoning>
+We are on the DuckDuckGo homepage with the Searchbox combobox already expanded. Next we must enter the search query, submit with Enter, wait for the results page to load, then click the first search result link. Because the query string is not provided, read it from environment variable QUERY (fallback to "example query"). The click to open the first result should be the final action since it navigates away.
+</reasoning>
+
+<code>
+import os
+from playwright.async_api import Page
+
+
+async def act(page: Page):
+    query = os.environ.get("QUERY", "example query")
+
+    # Fill the search combobox (already expanded) and submit
+    search_combo = (
+        page.get_by_role("main")
+        .get_by_role("article")
+        .get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+    await search_combo.fill(query)
+    await search_combo.press("Enter")
+
+    # Wait for results to load
+    await page.wait_for_load_state("domcontentloaded")
+
+    # Open the first result (last action; will navigate away)
+    first_result_link = (
+        page.get_by_role("main")
+        .get_by_role("article")
+        .first
+        .get_by_role("link")
+        .first
+    )
+    await first_result_link.click()
+
+</code>
+
+---
+
+<reasoning>
+We are on DuckDuckGo homepage with the Searchbox combobox already expanded. We need to type the search query, submit it with Enter, wait for navigation/results to load, then click the first search result. Because the query text is not provided directly, read it from environment variable QUERY with a safe fallback. After clicking the first result, we will not perform further actions since it navigates away.
+</reasoning>
+
+<code>
+import os
+from playwright.async_api import Page
+
+
+async def act(page: Page):
+    query = os.environ.get("QUERY", "example query")
+
+    # Fill and submit the search query (combobox is already expanded)
+    search_combo = (
+        page.get_by_role("main")
+        .get_by_role("article")
+        .get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+    await search_combo.fill(query)
+    await search_combo.press("Enter")
+
+    # Wait for search results page to load
+    await page.wait_for_load_state("domcontentloaded")
+
+    # Click the first search result (last action; navigates away)
+    first_result_link = (
+        page.get_by_role("main")
+        .get_by_role("article")
+        .first
+        .get_by_role("link")
+        .first
+    )
+    await first_result_link.click()
+
+</code>
+
+---
+

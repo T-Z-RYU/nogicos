@@ -1,0 +1,149 @@
+{
+  "version": "1.0",
+  "description": "工具选择测试集 - 评估 Agent 对用户意图的理解和工具选择准确性",
+  "evaluation_metric": "首个工具选择准确率",
+  "pass_threshold": 0.85,
+  "test_cases": [
+    {
+      "id": "search_001",
+      "category": "搜索",
+      "user_input": "帮我找项目里哪里用了 useState",
+      "expected_tools": ["grep_search"],
+      "rationale": "代码内容搜索，使用 grep 精确匹配"
+    },
+    {
+      "id": "search_002",
+      "category": "搜索",
+      "user_input": "找到所有的 .tsx 文件",
+      "expected_tools": ["glob_search"],
+      "rationale": "按文件扩展名搜索，应使用 glob"
+    },
+    {
+      "id": "search_003",
+      "category": "搜索",
+      "user_input": "搜索 React 18 的新特性",
+      "expected_tools": ["web_search"],
+      "rationale": "外部信息查询，需要网络搜索"
+    },
+    {
+      "id": "file_001",
+      "category": "文件操作",
+      "user_input": "读取 package.json 的内容",
+      "expected_tools": ["read_file"],
+      "rationale": "读取特定文件内容"
+    },
+    {
+      "id": "file_002",
+      "category": "文件操作",
+      "user_input": "查看 src 目录有什么文件",
+      "expected_tools": ["list_directory"],
+      "rationale": "列出目录内容"
+    },
+    {
+      "id": "file_003",
+      "category": "文件操作",
+      "user_input": "把函数名 getUserData 改成 fetchUserData",
+      "expected_tools": ["search_replace", "grep_search"],
+      "rationale": "代码重命名，先搜索再替换"
+    },
+    {
+      "id": "file_004",
+      "category": "文件操作",
+      "user_input": "创建一个 test.py 文件，内容是 print hello",
+      "expected_tools": ["write_file"],
+      "rationale": "创建新文件"
+    },
+    {
+      "id": "file_005",
+      "category": "文件操作",
+      "user_input": "删除 temp.txt 这个临时文件",
+      "expected_tools": ["delete_file"],
+      "rationale": "删除文件"
+    },
+    {
+      "id": "file_006",
+      "category": "文件操作",
+      "user_input": "把 old.txt 移动到 archive 文件夹",
+      "expected_tools": ["move_file"],
+      "rationale": "移动文件"
+    },
+    {
+      "id": "file_007",
+      "category": "文件操作",
+      "user_input": "创建一个叫 backup 的新文件夹",
+      "expected_tools": ["create_directory"],
+      "rationale": "创建目录"
+    },
+    {
+      "id": "terminal_001",
+      "category": "终端",
+      "user_input": "安装 axios 依赖",
+      "expected_tools": ["shell_execute"],
+      "rationale": "运行 npm/pip 安装命令"
+    },
+    {
+      "id": "terminal_002",
+      "category": "终端",
+      "user_input": "启动开发服务器",
+      "expected_tools": ["shell_execute"],
+      "rationale": "运行服务器启动命令"
+    },
+    {
+      "id": "terminal_003",
+      "category": "终端",
+      "user_input": "运行测试",
+      "expected_tools": ["shell_execute"],
+      "rationale": "运行测试命令"
+    },
+    {
+      "id": "quality_001",
+      "category": "代码质量",
+      "user_input": "检查这个文件有没有语法错误",
+      "expected_tools": ["read_lints", "shell_execute"],
+      "rationale": "运行 linter 或读取 lint 结果"
+    },
+    {
+      "id": "browser_001",
+      "category": "浏览器",
+      "user_input": "打开 google.com",
+      "expected_tools": ["browser_navigate"],
+      "rationale": "导航到网页"
+    },
+    {
+      "id": "browser_002",
+      "category": "浏览器",
+      "user_input": "点击登录按钮",
+      "expected_tools": ["browser_click"],
+      "rationale": "点击页面元素"
+    },
+    {
+      "id": "browser_003",
+      "category": "浏览器",
+      "user_input": "截个屏给我看看",
+      "expected_tools": ["browser_screenshot"],
+      "rationale": "截取屏幕"
+    },
+    {
+      "id": "memory_001",
+      "category": "任务管理",
+      "user_input": "记住我喜欢用 pnpm 而不是 npm",
+      "expected_tools": ["update_memory"],
+      "rationale": "保存用户偏好"
+    },
+    {
+      "id": "memory_002",
+      "category": "任务管理",
+      "user_input": "给我列个 todo 清单",
+      "expected_tools": ["todo_write"],
+      "rationale": "创建任务列表"
+    },
+    {
+      "id": "combo_001",
+      "category": "组合任务",
+      "user_input": "找到所有包含 console.log 的地方并删除它们",
+      "expected_tools": ["grep_search"],
+      "rationale": "先搜索定位，然后再处理"
+    }
+  ]
+}
+

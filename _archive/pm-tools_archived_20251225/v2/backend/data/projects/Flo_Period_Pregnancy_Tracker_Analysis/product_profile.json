@@ -1,0 +1,24 @@
+{
+  "app_name": "Flo Period Pregnancy Tracker",
+  "app_category": "女性健康 (Women's Health)",
+  "sub_category": "经期追踪与备孕管理",
+  "target_users": "备孕期或关注生理周期的女性用户，年龄25-40岁，希望科学管理经期、提高受孕几率",
+  "core_value": "通过智能追踪经期和排卵期，帮助女性科学备孕并管理生理健康",
+  "business_model": "订阅制 (Subscription)",
+  "estimated_stages": [
+    "Launch",
+    "Onboarding",
+    "SignUp",
+    "Paywall",
+    "Home",
+    "Tracking",
+    "Content",
+    "Social",
+    "Symptom Checker",
+    "Settings",
+    "Profile"
+  ],
+  "visual_style": "温暖治愈 (Warm)",
+  "primary_color": "粉色",
+  "confidence": 0.95
+}

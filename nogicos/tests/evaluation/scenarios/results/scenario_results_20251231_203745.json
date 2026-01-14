@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-12-31T20:37:45.452646",
+  "total_scenarios": 1,
+  "rated_scenarios": 0,
+  "average_rating": null,
+  "pass_rate": null,
+  "results": [
+    {
+      "scenario_id": "memory_002",
+      "scenario_name": "应用记忆的偏好",
+      "category": "记忆能力",
+      "response": "<function_calls>\n<invoke name=\"shell_execute\">\n<parameter name=\"command\">npm install lodash</parameter>\n</invoke>\n</function_calls>\n",
+      "rating": null
+    }
+  ]
+}

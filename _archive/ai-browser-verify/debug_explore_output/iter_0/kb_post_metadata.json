@@ -1,0 +1,18 @@
+{
+  "functions": {
+    "hn_search_from_footer": {
+      "version": 0,
+      "test_count": 0,
+      "references": [
+        "iter_0"
+      ],
+      "events": [
+        {
+          "type": "update",
+          "reference": "iter_0"
+        }
+      ]
+    }
+  },
+  "global_version": 1
+}

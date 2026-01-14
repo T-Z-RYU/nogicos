@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-12-31T20:43:34.028312",
+  "total_scenarios": 10,
+  "rated_scenarios": 0,
+  "average_rating": null,
+  "pass_rate": null,
+  "results": [
+    {
+      "scenario_id": "intent_001",
+      "scenario_name": "模糊任务理解",
+      "category": "意图理解",
+      "response": "<tool_call>\n{\"name\": \"list_directory\", \"arguments\": {\"path\": \"C:\\\\Users\\\\WIN\\\\Desktop\"}}\n</tool_call>",
+      "rating": null
+    },
+    {
+      "scenario_id": "intent_002",
+      "scenario_name": "隐含需求识别",
+      "category": "意图理解",
+      "response": "<tool_call>\n{\"name\": \"list_directory\", \"arguments\": {\"path\": \".\"}}\n</tool_call>\n\n<tool_call>\n{\"name\": \"list_directory\", \"arguments\": {\"path\": \"logs\"}}\n</tool_call>",
+      "rating": null
+    },
+    {
+      "scenario_id": "error_001",
+      "scenario_name": "命令失败后处理",
+      "category": "错误恢复",
+      "response": "文件 `/not/exist/file.txt` 不存在（路径无效）。无需删除。",
+      "rating": null
+    },
+    {
+      "scenario_id": "error_002",
+      "scenario_name": "连续失败后策略调整",
+      "category": "错误恢复",
+      "response": "你想找哪个文件？请告诉我文件名或关键词。",
+      "rating": null
+    },
+    {
+      "scenario_id": "multi_001",
+      "scenario_name": "项目初始化",
+      "category": "多步骤任务",
+      "response": "✅ 已创建 Python 项目 `C:\\Users\\WIN\\Desktop\\new_project`\n\n```\nnew_project/\n├── src/\n│   ├── __init__.py\n│   └── main.py          # 入口\n├── tests/\n│   ├── __init__.py\n│   └── test_main.py     # 测试\n├── .gitignore\n├── README.md\n├── requirements.txt\n└── pyproject.toml       # 项目配置\n```\n\n**快速开始：**\n```bash\ncd C:\\Users\\WIN\\Desktop\\new_project\npip install -r requirements.txt\npython -m src.main\n```",
+      "rating": null
+    },
+    {
+      "scenario_id": "multi_002",
+      "scenario_name": "代码重构",
+      "category": "多步骤任务",
+      "response": "项目源码中没有找到 console.log 语句 ✓\n\n检查范围：\n- `nogicos-ui/src/**/*.ts, *.tsx`\n- `client/*.js` (main.js, preload.js)\n\n（node_modules 中的第三方库已忽略）",
+      "rating": null
+    },
+    {
+      "scenario_id": "memory_001",
+      "scenario_name": "记住用户偏好",
+      "category": "记忆能力",
+      "response": "已经记住了！✅\n\n你的偏好（pnpm > npm）已经存储在记忆中。以后安装包时我会自动使用 `pnpm` 命令。",
+      "rating": null
+    },
+    {
+      "scenario_id": "memory_002",
+      "scenario_name": "应用记忆的偏好",
+      "category": "记忆能力",
+      "response": "<tool_call>\n{\"name\": \"shell_execute\", \"arguments\": {\"command\": \"pnpm add lodash\"}}\n</tool_call>",
+      "rating": null
+    },
+    {
+      "scenario_id": "context_001",
+      "scenario_name": "代词指代",
+      "category": "上下文理解",
+      "response": "抱歉，我没有之前的操作记录，不确定\"它\"指的是哪个文件或文件夹。\n\n请告诉我你想移动什么？",
+      "rating": null
+    },
+    {
+      "scenario_id": "context_002",
+      "scenario_name": "撤销操作",
+      "category": "上下文理解",
+      "response": "当前会话没有之前的操作记录，无法还原。\n\n如果你指的是之前其他会话的操作，请告诉我具体是什么操作，我可以帮你处理。",
+      "rating": null
+    }
+  ]
+}

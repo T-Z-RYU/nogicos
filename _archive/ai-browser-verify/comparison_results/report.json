@@ -1,0 +1,87 @@
+{
+  "test_date": "2025-12-25T08:51:30.259621",
+  "model": "gpt-5.2",
+  "knowledge_base_path": "C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\debug_explore_output\\iter_1\\kb_post",
+  "no_kb_results": [
+    {
+      "task_id": "task1_search",
+      "task_description": "Search Hacker News for 'rust programming' using the footer search box",
+      "knowledge_base": "no_kb",
+      "model": "gpt-5.2",
+      "start_time": "2025-12-25T08:44:27.007015",
+      "success": false,
+      "num_steps": 4,
+      "execution_time_seconds": 107.36,
+      "skills_used": [],
+      "has_exception": true
+    },
+    {
+      "task_id": "task2_comments",
+      "task_description": "Open the comments page for the 5th story on the Hacker News front page",
+      "knowledge_base": "no_kb",
+      "model": "gpt-5.2",
+      "start_time": "2025-12-25T08:46:14.817246",
+      "success": true,
+      "num_steps": 2,
+      "execution_time_seconds": 44.26,
+      "skills_used": [],
+      "has_exception": false
+    },
+    {
+      "task_id": "task3_combined",
+      "task_description": "Search Hacker News for 'AI startup' and then navigate to view results",
+      "knowledge_base": "no_kb",
+      "model": "gpt-5.2",
+      "start_time": "2025-12-25T08:46:59.471035",
+      "success": false,
+      "num_steps": 3,
+      "execution_time_seconds": 52.5,
+      "skills_used": [],
+      "has_exception": true
+    }
+  ],
+  "with_kb_results": [
+    {
+      "task_id": "task1_search",
+      "task_description": "Search Hacker News for 'rust programming' using the footer search box",
+      "knowledge_base": "with_kb",
+      "model": "gpt-5.2",
+      "start_time": "2025-12-25T08:47:52.659663",
+      "success": true,
+      "num_steps": 2,
+      "execution_time_seconds": 29.62,
+      "skills_used": [
+        "hn_search_from_footer"
+      ],
+      "has_exception": false
+    },
+    {
+      "task_id": "task2_comments",
+      "task_description": "Open the comments page for the 5th story on the Hacker News front page",
+      "knowledge_base": "with_kb",
+      "model": "gpt-5.2",
+      "start_time": "2025-12-25T08:48:22.972357",
+      "success": true,
+      "num_steps": 10,
+      "execution_time_seconds": 157.46,
+      "skills_used": [
+        "open_hn_comments_thread_by_rank"
+      ],
+      "has_exception": false
+    },
+    {
+      "task_id": "task3_combined",
+      "task_description": "Search Hacker News for 'AI startup' and then navigate to view results",
+      "knowledge_base": "with_kb",
+      "model": "gpt-5.2",
+      "start_time": "2025-12-25T08:51:01.140625",
+      "success": true,
+      "num_steps": 2,
+      "execution_time_seconds": 29.1,
+      "skills_used": [
+        "hn_search_from_footer"
+      ],
+      "has_exception": false
+    }
+  ]
+}

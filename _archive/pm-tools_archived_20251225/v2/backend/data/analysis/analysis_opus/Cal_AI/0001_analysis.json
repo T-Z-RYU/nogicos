@@ -1,0 +1,78 @@
+{
+  "app_name": "Cal_AI",
+  "screenshot_index": 1,
+  "screenshot_filename": "0001.png",
+  "total_onboarding_screens": 37,
+  "position_percentage": 2.7,
+  
+  "classification": {
+    "functional_purpose": {
+      "primary_category": "Value",
+      "secondary_type": "Splash",
+      "confidence": 0.99,
+      "description": "应用启动闪屏，展示品牌Logo"
+    },
+    "funnel_stage": {
+      "stage": "Awareness",
+      "position_in_funnel": "top",
+      "description": "用户首次接触产品，品牌认知建立"
+    },
+    "psychological_tactic": {
+      "primary_tactic": "None",
+      "secondary_tactics": [],
+      "tactic_strength": "none",
+      "description": "纯品牌展示，无说服策略"
+    },
+    "interaction_pattern": {
+      "primary_interaction": "PassiveRead",
+      "is_skippable": false,
+      "input_effort": "none",
+      "description": "用户被动等待，无需任何操作"
+    },
+    "ui_pattern": {
+      "layout_type": "FullScreenIllustration",
+      "has_progress_indicator": false,
+      "has_illustration": true,
+      "has_animation": true,
+      "color_scheme": "light",
+      "description": "极简全白背景，中央Logo"
+    },
+    "commitment_level": {
+      "level": 1,
+      "commitment_type": "time",
+      "reversibility": "reversible",
+      "description": "仅需等待几秒，无任何承诺"
+    }
+  },
+  
+  "deep_analysis": {
+    "design_intent": "建立品牌认知，在应用加载期间展示品牌形象。苹果图标暗示这是一款与食物/营养相关的应用",
+    "ux_observation": "极度简洁的设计，白色背景配合黑色Logo，符合iOS现代设计语言。底部标注'curated by Mobbin'表明这是Mobbin平台收录的截图",
+    "conversion_impact": "neutral",
+    "potential_issues": [
+      "Splash页面过于简洁，没有传递任何产品价值主张",
+      "用户在此页面不知道App具体功能是什么"
+    ],
+    "best_practice_alignment": "符合Apple HIG建议的Launch Screen设计原则——简洁、快速、不包含营销内容。但现代最佳实践建议在等待期间可以展示一些微动画或价值提示"
+  },
+  
+  "raw_observation": {
+    "visible_text": [
+      "Cal AI",
+      "Cal AI curated by Mobbin"
+    ],
+    "ui_elements": [
+      "品牌Logo（苹果图标）",
+      "品牌名称",
+      "底部来源标注"
+    ],
+    "brand_elements": [
+      "Cal AI Logo",
+      "苹果形状的品牌图标",
+      "黑白配色"
+    ]
+  },
+  
+  "analysis_method": "claude_opus_4.5",
+  "analyzed_at": "2025-12-22T00:00:00"
+}

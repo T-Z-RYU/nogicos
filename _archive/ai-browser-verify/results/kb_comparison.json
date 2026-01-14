@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-12-25T07:55:46.004501",
+  "model": "gpt-5.2",
+  "website": "duckduckgo.com",
+  "task": "搜索 'Python programming' 并点击第一个结果",
+  "explore_time": 244.54417252540588,
+  "kb_generated": false,
+  "without_kb": {
+    "avg_time": 1.9442871411641438,
+    "avg_steps": 0.0,
+    "success_rate": 1.0
+  },
+  "with_kb": null
+}

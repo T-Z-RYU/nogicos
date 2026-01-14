@@ -1,0 +1,1 @@
+﻿# Network Error Tests placeholder

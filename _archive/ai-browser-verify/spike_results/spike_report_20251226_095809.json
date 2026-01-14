@@ -1,0 +1,121 @@
+{
+  "summary": {
+    "total_tests": 9,
+    "successful": 0,
+    "failed": 9,
+    "success_rate": 0.0,
+    "avg_duration": 82.61816175778706,
+    "avg_steps": 0,
+    "crashes": 6,
+    "verdict": "FAIL"
+  },
+  "results": [
+    {
+      "task_id": "task1",
+      "task_description": "Get the title of the first news item on the homepage",
+      "run_number": 1,
+      "success": false,
+      "duration": 615.292174577713,
+      "steps": 0,
+      "result": null,
+      "error": "Timeout after 60s",
+      "timestamp": "2025-12-26T09:56:00.817389"
+    },
+    {
+      "task_id": "task1",
+      "task_description": "Get the title of the first news item on the homepage",
+      "run_number": 2,
+      "success": false,
+      "duration": 28.698879957199097,
+      "steps": 0,
+      "result": null,
+      "error": "Task did not terminate with a result",
+      "timestamp": "2025-12-26T09:56:29.516299"
+    },
+    {
+      "task_id": "task1",
+      "task_description": "Get the title of the first news item on the homepage",
+      "run_number": 3,
+      "success": false,
+      "duration": 22.377252340316772,
+      "steps": 0,
+      "result": null,
+      "error": "Task did not terminate with a result",
+      "timestamp": "2025-12-26T09:56:51.893576"
+    },
+    {
+      "task_id": "task2",
+      "task_description": "Search for 'AI' and get the first result title",
+      "run_number": 1,
+      "success": false,
+      "duration": 62.357359170913696,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: OSError: [Errno 22] Invalid argument",
+      "timestamp": "2025-12-26T09:57:54.250962"
+    },
+    {
+      "task_id": "task2",
+      "task_description": "Search for 'AI' and get the first result title",
+      "run_number": 2,
+      "success": false,
+      "duration": 2.131714344024658,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: OSError: [Errno 22] Invalid argument",
+      "timestamp": "2025-12-26T09:57:56.382699"
+    },
+    {
+      "task_id": "task2",
+      "task_description": "Search for 'AI' and get the first result title",
+      "run_number": 3,
+      "success": false,
+      "duration": 2.599416732788086,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: OSError: [Errno 22] Invalid argument",
+      "timestamp": "2025-12-26T09:57:58.982135"
+    },
+    {
+      "task_id": "task3",
+      "task_description": "Go to 'new' page and get the first item title",
+      "run_number": 1,
+      "success": false,
+      "duration": 2.0988969802856445,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: OSError: [Errno 22] Invalid argument",
+      "timestamp": "2025-12-26T09:58:01.081054"
+    },
+    {
+      "task_id": "task3",
+      "task_description": "Go to 'new' page and get the first item title",
+      "run_number": 2,
+      "success": false,
+      "duration": 5.819750547409058,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: OSError: [Errno 22] Invalid argument",
+      "timestamp": "2025-12-26T09:58:06.900825"
+    },
+    {
+      "task_id": "task3",
+      "task_description": "Go to 'new' page and get the first item title",
+      "run_number": 3,
+      "success": false,
+      "duration": 2.1880111694335938,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: OSError: [Errno 22] Invalid argument",
+      "timestamp": "2025-12-26T09:58:09.088859"
+    }
+  ],
+  "timestamp": "2025-12-26T09:58:09.089077",
+  "config": {
+    "url": "https://news.ycombinator.com",
+    "tasks": 3,
+    "runs_per_task": 3,
+    "max_steps": 10,
+    "timeout": 60
+  }
+}

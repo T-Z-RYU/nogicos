@@ -1,0 +1,54 @@
+{
+  "app_name": "LoseIt",
+  "screenshot_index": 95,
+  "screenshot_filename": "0095.png",
+  "total_onboarding_screens": 102,
+  "position_percentage": 93.1,
+  
+  "classification": {
+    "functional_purpose": {
+      "primary_category": "Plan",
+      "secondary_type": "GuidedAction",
+      "confidence": 0.90
+    },
+    "funnel_stage": {
+      "stage": "Activation",
+      "position_in_funnel": "bottom"
+    },
+    "psychological_tactic": {
+      "primary_tactic": "CommitmentConsistency",
+      "secondary_tactics": ["Personalization"],
+      "tactic_strength": "strong"
+    },
+    "interaction_pattern": {
+      "primary_interaction": "SingleChoice",
+      "is_skippable": false,
+      "input_effort": "low"
+    },
+    "ui_pattern": {
+      "layout_type": "Form",
+      "has_progress_indicator": false,
+      "has_illustration": false,
+      "has_animation": false,
+      "color_scheme": "light"
+    },
+    "commitment_level": {
+      "level": 3,
+      "commitment_type": "information",
+      "reversibility": "reversible"
+    }
+  },
+  
+  "deep_analysis": {
+    "design_intent": "在用户进入主界面后引导首次记录行为，'Let's show you how you'll lose your first kilogram'承诺清晰价值",
+    "ux_observation": "弹窗叠加在主界面上，展示App核心功能（卡路里预算、断食追踪、餐食记录）。两个简单选项降低决策难度",
+    "conversion_impact": "positive",
+    "potential_issues": [
+      "主界面信息较多可能让新用户困惑"
+    ],
+    "best_practice_alignment": "符合'首次行动引导'最佳实践，通过具体承诺（lose first kilogram）引导用户开始使用"
+  },
+  
+  "analysis_method": "claude_opus_4.5",
+  "analyzed_at": "2025-12-22T00:00:00"
+}

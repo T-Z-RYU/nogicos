@@ -1,0 +1,81 @@
+{
+  "page_types": [
+    {"id": "Launch", "cn": "启动", "en": "Launch", "icon": "🚀", "description_cn": "启动页/闪屏页", "description_en": "Launch/Splash screen"},
+    {"id": "Welcome", "cn": "欢迎", "en": "Welcome", "icon": "👋", "description_cn": "欢迎页/价值主张", "description_en": "Welcome/Value proposition"},
+    {"id": "Permission", "cn": "权限", "en": "Permission", "icon": "🔔", "description_cn": "权限请求页面", "description_en": "Permission request"},
+    {"id": "SignUp", "cn": "注册", "en": "Sign Up", "icon": "🔐", "description_cn": "注册/登录页", "description_en": "Sign up/Login"},
+    {"id": "Onboarding", "cn": "引导", "en": "Onboarding", "icon": "🎯", "description_cn": "引导问卷/信息收集", "description_en": "Onboarding questionnaire"},
+    {"id": "Paywall", "cn": "付费墙", "en": "Paywall", "icon": "💰", "description_cn": "订阅/付费页面", "description_en": "Subscription/Payment"},
+    {"id": "Home", "cn": "首页", "en": "Home", "icon": "🏠", "description_cn": "首页/仪表盘", "description_en": "Home/Dashboard"},
+    {"id": "Feature", "cn": "功能", "en": "Feature", "icon": "⚡", "description_cn": "具体功能页面", "description_en": "Feature page"},
+    {"id": "Content", "cn": "内容", "en": "Content", "icon": "📄", "description_cn": "内容/媒体播放", "description_en": "Content/Media"},
+    {"id": "Tracking", "cn": "追踪", "en": "Tracking", "icon": "📊", "description_cn": "追踪/记录页面", "description_en": "Tracking/Logging"},
+    {"id": "Progress", "cn": "进度", "en": "Progress", "icon": "📈", "description_cn": "进度/统计展示", "description_en": "Progress/Statistics"},
+    {"id": "Social", "cn": "社交", "en": "Social", "icon": "👥", "description_cn": "社交/社区页面", "description_en": "Social/Community"},
+    {"id": "Profile", "cn": "个人", "en": "Profile", "icon": "👤", "description_cn": "个人中心/账户", "description_en": "Profile/Account"},
+    {"id": "Settings", "cn": "设置", "en": "Settings", "icon": "⚙️", "description_cn": "设置页面", "description_en": "Settings"},
+    {"id": "Other", "cn": "其他", "en": "Other", "icon": "📌", "description_cn": "其他类型", "description_en": "Other"},
+    {"id": "Unknown", "cn": "未知", "en": "Unknown", "icon": "❓", "description_cn": "未分类", "description_en": "Unclassified"}
+  ],
+  "design_patterns": [
+    {"cn": "信息收集", "en": "Data Collection"},
+    {"cn": "价值展示", "en": "Value Proposition"},
+    {"cn": "进度指示", "en": "Progress Indicator"},
+    {"cn": "个性化", "en": "Personalization"},
+    {"cn": "社交证明", "en": "Social Proof"},
+    {"cn": "稀缺性", "en": "Scarcity"},
+    {"cn": "游戏化", "en": "Gamification"},
+    {"cn": "多选交互", "en": "Multi-select"},
+    {"cn": "卡片布局", "en": "Card Layout"},
+    {"cn": "数据可视化", "en": "Data Viz"},
+    {"cn": "空状态", "en": "Empty State"},
+    {"cn": "引导提示", "en": "Tooltip"},
+    {"cn": "底部弹窗", "en": "Bottom Sheet"},
+    {"cn": "步骤引导", "en": "Stepper"},
+    {"cn": "表单", "en": "Form"},
+    {"cn": "列表", "en": "List"},
+    {"cn": "搜索", "en": "Search"},
+    {"cn": "筛选", "en": "Filter"},
+    {"cn": "分类标签", "en": "Tabs"},
+    {"cn": "图表", "en": "Chart"},
+    {"cn": "日历", "en": "Calendar"},
+    {"cn": "时间选择", "en": "Time Picker"},
+    {"cn": "情感化设计", "en": "Emotional Design"},
+    {"cn": "品牌强化", "en": "Branding"}
+  ],
+  "highlight_categories": [
+    {"id": "visual", "cn": "视觉设计", "en": "Visual Design"},
+    {"id": "interaction", "cn": "交互设计", "en": "Interaction Design"},
+    {"id": "conversion", "cn": "转化策略", "en": "Conversion Strategy"},
+    {"id": "emotional", "cn": "情感化设计", "en": "Emotional Design"}
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

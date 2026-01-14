@@ -1,0 +1,81 @@
+{
+  "app_name": "Headspace",
+  "screenshot_index": 30,
+  "screenshot_filename": "0030.png",
+  "total_onboarding_screens": 33,
+  "position_percentage": 90.9,
+  
+  "classification": {
+    "functional_purpose": {
+      "primary_category": "Goal",
+      "secondary_type": "FeedbackCollection",
+      "confidence": 0.92,
+      "description": "收集用户呼吸练习后的感受反馈"
+    },
+    "funnel_stage": {
+      "stage": "Activation",
+      "position_in_funnel": "bottom",
+      "description": "用户完成首次价值体验（呼吸练习），收集反馈"
+    },
+    "psychological_tactic": {
+      "primary_tactic": "CommitmentConsistency",
+      "secondary_tactics": ["Personalization"],
+      "tactic_strength": "moderate",
+      "description": "让用户反思练习体验，强化正向感受"
+    },
+    "interaction_pattern": {
+      "primary_interaction": "SingleChoice",
+      "is_skippable": true,
+      "input_effort": "low",
+      "description": "四选一感受选择"
+    },
+    "ui_pattern": {
+      "layout_type": "ListSelection",
+      "has_progress_indicator": false,
+      "has_illustration": false,
+      "has_animation": false,
+      "color_scheme": "light",
+      "description": "简洁的感受选择列表"
+    },
+    "commitment_level": {
+      "level": 2,
+      "commitment_type": "information",
+      "reversibility": "reversible",
+      "description": "分享个人感受"
+    }
+  },
+  
+  "deep_analysis": {
+    "design_intent": "在用户完成首次呼吸练习后收集反馈，引导用户关注积极感受，同时收集数据用于个性化",
+    "ux_observation": "选项设计从'Very relaxed'到'Very tense'形成完整光谱。'Take a moment to check in with yourself'的文案引导用户反思",
+    "conversion_impact": "positive",
+    "potential_issues": [
+      "如果用户选择Tense/Very tense，可能需要额外引导避免负面体验"
+    ],
+    "best_practice_alignment": "符合'首次价值体验'最佳实践——在Onboarding中让用户实际体验核心功能，而非仅看介绍"
+  },
+  
+  "raw_observation": {
+    "visible_text": [
+      "Let's see how you're feeling now",
+      "Take a moment to check in with yourself. How did that breathing exercise make you feel?",
+      "Very relaxed",
+      "Relaxed",
+      "Tense",
+      "Very tense",
+      "Continue"
+    ],
+    "ui_elements": [
+      "问题标题",
+      "引导文案",
+      "感受选择按钮",
+      "Continue按钮"
+    ],
+    "brand_elements": [
+      "Headspace蓝色CTA按钮"
+    ]
+  },
+  
+  "analysis_method": "claude_opus_4.5",
+  "analyzed_at": "2025-12-22T00:00:00"
+}

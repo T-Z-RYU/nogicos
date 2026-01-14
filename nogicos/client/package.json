@@ -1,0 +1,19 @@
+{
+  "name": "nogicos-desktop",
+  "version": "2.0.0",
+  "description": "NogicOS AI Browser - Desktop Client",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "NODE_ENV=development electron ."
+  },
+  "author": "Zino",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.0.0"
+  },
+  "dependencies": {
+    "electron-overlay-window": "^4.0.2",
+    "koffi": "^2.9.0"
+  }
+}

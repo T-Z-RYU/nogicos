@@ -1,0 +1,4757 @@
+{
+  "Screen_001.png": {
+    "screen_type": "Launch",
+    "naming": {
+      "cn": "启动页",
+      "en": "Launch Screen"
+    },
+    "core_function": {
+      "cn": "展示品牌Logo和名称，建立品牌认知",
+      "en": "Display brand logo and name, establish brand recognition"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简设计，纯白背景突出品牌标识",
+        "en": "Minimalist design with pure white background highlighting brand identity"
+      },
+      {
+        "category": "visual",
+        "cn": "苹果图标巧妙传达卡路里/营养主题",
+        "en": "Apple icon cleverly conveys calorie/nutrition theme"
+      },
+      {
+        "category": "emotional",
+        "cn": "Cal AI命名传递智能科技感",
+        "en": "Cal AI naming conveys smart technology feel"
+      }
+    ],
+    "product_insight": {
+      "cn": "启动页采用极简风格，苹果图标与Cal AI名称结合，直观传达产品是AI驱动的卡路里追踪工具，建立专业可信的第一印象",
+      "en": "Launch screen uses minimalist style, apple icon combined with Cal AI name intuitively conveys AI-driven calorie tracking tool, establishing professional and trustworthy first impression"
+    },
+    "tags": [
+      {
+        "cn": "品牌展示",
+        "en": "Brand Display"
+      },
+      {
+        "cn": "极简设计",
+        "en": "Minimalist"
+      },
+      {
+        "cn": "启动画面",
+        "en": "Splash Screen"
+      }
+    ],
+    "confidence": 0.99,
+    "stage_name": "Launch",
+    "reasoning": "第1张截图，页面仅展示App Logo（苹果图标）和品牌名称Cal AI，纯白背景无任何交互元素，符合Launch启动页的典型特征"
+  },
+  "Screen_003.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "性别选择",
+      "en": "Gender Selection"
+    },
+    "core_function": {
+      "cn": "收集用户性别信息以校准个性化方案",
+      "en": "Collect gender to calibrate personalized plan"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简黑白配色，选中态清晰醒目",
+        "en": "Minimalist black-white palette with clear selected state"
+      },
+      {
+        "category": "interaction",
+        "cn": "单选卡片式设计，操作简单直观",
+        "en": "Single-select card design, simple and intuitive"
+      },
+      {
+        "category": "emotional",
+        "cn": "包含Other选项体现包容性设计",
+        "en": "Other option shows inclusive design approach"
+      }
+    ],
+    "product_insight": {
+      "cn": "性别作为第一个信息收集步骤，因其对卡路里计算和代谢率有直接影响，同时提供Other选项体现产品对多元性别的尊重",
+      "en": "Gender as first data point directly impacts calorie calculation and metabolism; Other option demonstrates respect for gender diversity"
+    },
+    "tags": [
+      {
+        "cn": "用户信息",
+        "en": "User Info"
+      },
+      {
+        "cn": "个性化",
+        "en": "Personalization"
+      },
+      {
+        "cn": "包容设计",
+        "en": "Inclusive Design"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Onboarding",
+    "reasoning": "页面收集用户性别信息用于校准个性化计划，属于Onboarding阶段的用户信息收集流程。有进度条、返回按钮、Next按钮，无底部导航栏，符合Onboarding特征。"
+  },
+  "Screen_002.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "欢迎页",
+      "en": "Welcome Screen"
+    },
+    "core_function": {
+      "cn": "展示AI拍照追踪卡路里的核心价值主张",
+      "en": "Showcase AI photo-based calorie tracking value proposition"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "真机展示食物扫描界面，直观呈现产品功能",
+        "en": "Real device mockup showing food scanning interface"
+      },
+      {
+        "category": "interaction",
+        "cn": "扫描框动态聚焦食物，暗示AI识别能力",
+        "en": "Scan frame focusing on food suggests AI recognition"
+      },
+      {
+        "category": "emotional",
+        "cn": "\"made easy\"文案降低用户心理门槛",
+        "en": "\"Made easy\" copy reduces user anxiety"
+      },
+      {
+        "category": "conversion",
+        "cn": "醒目的Get Started按钮引导下一步",
+        "en": "Prominent Get Started CTA guides next step"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过展示实际食物扫描场景，让用户立即理解产品核心功能，同时\"轻松追踪\"的承诺直击用户痛点——传统卡路里记录太繁琐",
+      "en": "Showing actual food scanning scenario helps users instantly understand core feature, while 'made easy' promise addresses user pain point of tedious traditional calorie logging"
+    },
+    "tags": [
+      {
+        "cn": "价值展示",
+        "en": "Value Proposition"
+      },
+      {
+        "cn": "AI扫描",
+        "en": "AI Scanning"
+      },
+      {
+        "cn": "卡路里追踪",
+        "en": "Calorie Tracking"
+      }
+    ],
+    "confidence": 0.96,
+    "stage_name": "Onboarding",
+    "reasoning": "这是Onboarding阶段的欢迎页，展示产品核心价值主张。通过真机mockup展示AI扫描食物功能，配合\"Calorie tracking made easy\"标语，属于典型的价值展示型欢迎页。无底部导航栏，位于第2张截图，符合Welcome页面特征。"
+  },
+  "Screen_004.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "运动频率选择",
+      "en": "Workout Frequency"
+    },
+    "core_function": {
+      "cn": "收集用户每周运动频率以校准个性化健身计划",
+      "en": "Collect weekly workout frequency to calibrate custom fitness plan"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "图标化选项区分度高，黑白配色简约专业",
+        "en": "Iconized options with high distinction, minimalist black-white scheme"
+      },
+      {
+        "category": "interaction",
+        "cn": "单选卡片式设计，选中状态反转色清晰醒目",
+        "en": "Single-select card design with inverted color for clear selection state"
+      },
+      {
+        "category": "emotional",
+        "cn": "描述文案亲和无压力，如'workouts now and then'降低用户心理负担",
+        "en": "Friendly copy like 'workouts now and then' reduces user pressure"
+      }
+    ],
+    "product_insight": {
+      "cn": "运动频率是计算TDEE和制定饮食计划的关键参数，三档分级设计简化用户决策，同时覆盖从久坐到运动达人的全部用户群体",
+      "en": "Workout frequency is key for TDEE calculation and meal planning. Three-tier design simplifies decisions while covering all users from sedentary to athletes"
+    },
+    "tags": [
+      {
+        "cn": "运动频率",
+        "en": "Workout Frequency"
+      },
+      {
+        "cn": "个性化校准",
+        "en": "Personalization"
+      },
+      {
+        "cn": "单选卡片",
+        "en": "Single Select Card"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Onboarding",
+    "reasoning": "页面收集用户每周运动频率信息，用于校准个性化计划。位于Onboarding阶段(第4张)，有进度条和返回按钮，无底部导航，明确属于用户信息收集流程的一部分。受益方是用户（为了更好的个性化服务）。"
+  },
+  "Screen_005.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "来源渠道调研",
+      "en": "Acquisition Source Survey"
+    },
+    "core_function": {
+      "cn": "收集用户了解产品的渠道来源，优化营销投放",
+      "en": "Collect user acquisition channel data for marketing optimization"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "各平台品牌图标清晰识别，增强选项辨识度",
+        "en": "Clear platform brand icons enhance option recognition"
+      },
+      {
+        "category": "interaction",
+        "cn": "单选卡片式设计，选中状态反色突出",
+        "en": "Single-select card design with inverted highlight on selection"
+      },
+      {
+        "category": "conversion",
+        "cn": "低门槛问题降低用户心理负担",
+        "en": "Low-barrier question reduces user cognitive load"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过渠道来源调研帮助产品团队了解获客效果，同时因为问题简单不涉及隐私，能保持用户填写意愿，是onboarding中常见的归因收集环节",
+      "en": "Channel survey helps track acquisition effectiveness while maintaining user engagement through non-intrusive questioning, a common attribution collection step in onboarding"
+    },
+    "tags": [
+      {
+        "cn": "渠道归因",
+        "en": "Channel Attribution"
+      },
+      {
+        "cn": "用户调研",
+        "en": "User Survey"
+      },
+      {
+        "cn": "单选列表",
+        "en": "Single Select List"
+      }
+    ],
+    "confidence": 0.97,
+    "stage_name": "Onboarding",
+    "reasoning": "页面询问用户从哪个渠道了解到产品，属于onboarding阶段的用户信息收集环节。有进度条、返回按钮、Next按钮，无底部导航栏，处于截图序列早期(第5张)，符合Onboarding特征。此类归因调研帮助产品优化营销，但形式上是服务用户完成注册流程的一部分。"
+  },
+  "Screen_006.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "使用经历调查",
+      "en": "App Experience Survey"
+    },
+    "core_function": {
+      "cn": "了解用户是否有卡路里追踪App使用经验",
+      "en": "Survey user's prior experience with calorie tracking apps"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "高对比度选项卡设计，选中态清晰明确",
+        "en": "High contrast option cards with clear selection state"
+      },
+      {
+        "category": "interaction",
+        "cn": "简洁二选一设计降低用户决策负担",
+        "en": "Simple binary choice reduces decision burden"
+      },
+      {
+        "category": "emotional",
+        "cn": "emoji图标增添亲和力和趣味性",
+        "en": "Emoji icons add friendliness and fun"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过了解用户过往经历，产品可以判断用户熟悉度，为新手提供更详细引导，为老用户简化流程，实现差异化体验",
+      "en": "Understanding prior experience helps tailor onboarding depth - detailed guidance for newcomers, streamlined flow for experienced users"
+    },
+    "tags": [
+      {
+        "cn": "用户调研",
+        "en": "User Survey"
+      },
+      {
+        "cn": "经验分层",
+        "en": "Experience Segmentation"
+      },
+      {
+        "cn": "个性化引导",
+        "en": "Personalized Onboarding"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Onboarding",
+    "reasoning": "页面询问用户是否有使用其他卡路里追踪App的经历，属于用户信息收集环节。有进度条、返回按钮、Next按钮等典型Onboarding元素，无底部导航栏，处于第6张截图的早期引导阶段，符合阶段约束。收集此信息帮助产品更好服务用户，受益方是用户。"
+  },
+  "Screen_007.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "长期效果展示",
+      "en": "Long-term Results"
+    },
+    "core_function": {
+      "cn": "通过对比图展示Cal AI相比传统节食的长期减重效果优势",
+      "en": "Show Cal AI's long-term weight loss advantages vs traditional diets"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "双曲线对比图直观展示效果差异，红色代表反弹趋势",
+        "en": "Dual-curve comparison chart shows effect difference, red indicates rebound"
+      },
+      {
+        "category": "conversion",
+        "cn": "80%用户数据增强可信度和转化说服力",
+        "en": "80% user statistic enhances credibility and conversion"
+      },
+      {
+        "category": "emotional",
+        "cn": "强调6个月后仍保持效果，消除用户对复胖的顾虑",
+        "en": "Emphasizes 6-month maintenance, addresses rebound concerns"
+      }
+    ],
+    "product_insight": {
+      "cn": "针对减肥用户最大痛点（反弹）进行精准打击，用数据可视化方式建立产品差异化优势，同时暗示传统节食方法的失败，强化用户选择Cal AI的决心",
+      "en": "Precisely addresses dieters' biggest pain point (rebound) with data visualization, establishes product differentiation while implying traditional diet failures to strengthen user commitment"
+    },
+    "tags": [
+      {
+        "cn": "效果对比",
+        "en": "Effect Comparison"
+      },
+      {
+        "cn": "数据可视化",
+        "en": "Data Visualization"
+      },
+      {
+        "cn": "长期价值",
+        "en": "Long-term Value"
+      },
+      {
+        "cn": "社会证明",
+        "en": "Social Proof"
+      }
+    ],
+    "confidence": 0.97,
+    "stage_name": "Onboarding",
+    "reasoning": "页面位于Onboarding阶段中部，无底部导航栏，有进度指示器和Next按钮。内容展示产品长期效果优势，用对比图说服用户Cal AI比传统节食更有效，属于价值展示类型的Onboarding页面，目的是帮助用户理解产品价值。"
+  },
+  "Screen_008.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "身高体重选择",
+      "en": "Height & Weight"
+    },
+    "core_function": {
+      "cn": "收集用户身高体重数据用于定制卡路里计划",
+      "en": "Collect height and weight data to customize calorie plan"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简黑白配色，双列滚轮选择器清晰直观",
+        "en": "Minimalist black-white theme with clear dual scroll pickers"
+      },
+      {
+        "category": "interaction",
+        "cn": "公制/英制切换开关方便不同用户习惯",
+        "en": "Imperial/Metric toggle accommodates different user preferences"
+      },
+      {
+        "category": "emotional",
+        "cn": "解释数据用途增强用户信任感",
+        "en": "Explaining data purpose builds user trust"
+      }
+    ],
+    "product_insight": {
+      "cn": "身高体重是计算BMI和每日卡路里需求的关键数据，滚轮选择器比输入框更易用，公制英制切换满足全球用户需求",
+      "en": "Height and weight are essential for BMI and daily calorie calculations. Scroll pickers are more user-friendly than input fields, and unit toggle serves global users"
+    },
+    "tags": [
+      {
+        "cn": "身体数据",
+        "en": "Body Data"
+      },
+      {
+        "cn": "滚轮选择器",
+        "en": "Scroll Picker"
+      },
+      {
+        "cn": "单位切换",
+        "en": "Unit Toggle"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Onboarding",
+    "reasoning": "这是标准的Onboarding流程中的身体数据收集页面，顶部有进度条，底部有Next按钮，无底部导航栏。收集身高体重数据是为了定制用户的卡路里追踪计划，受益方是用户。与之前分析的目标选择页面类似，都属于用户信息收集的引导流程。"
+  },
+  "Screen_009.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "出生日期选择",
+      "en": "Birthdate Selection"
+    },
+    "core_function": {
+      "cn": "收集用户出生日期以计算年龄，用于定制个性化健康计划",
+      "en": "Collect user birthdate to calculate age for personalized health plan"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "三列滚轮选择器设计简洁直观，高亮当前选中项",
+        "en": "Three-column wheel picker with highlighted current selection"
+      },
+      {
+        "category": "interaction",
+        "cn": "iOS原生滚轮交互符合用户习惯，操作流畅",
+        "en": "Native iOS wheel picker provides familiar and smooth interaction"
+      },
+      {
+        "category": "emotional",
+        "cn": "说明用途'calibrate your custom plan'增强信任感",
+        "en": "Purpose explanation builds trust with users"
+      }
+    ],
+    "product_insight": {
+      "cn": "出生日期是计算基础代谢率(BMR)的关键因素，年龄直接影响每日热量需求。将用途透明化展示，降低用户对隐私数据收集的顾虑。",
+      "en": "Birthdate is crucial for BMR calculation as age directly affects daily calorie needs. Transparent purpose display reduces privacy concerns about data collection."
+    },
+    "tags": [
+      {
+        "cn": "日期选择器",
+        "en": "Date Picker"
+      },
+      {
+        "cn": "个人信息",
+        "en": "Personal Info"
+      },
+      {
+        "cn": "年龄计算",
+        "en": "Age Calculation"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Onboarding",
+    "reasoning": "这是典型的Onboarding页面，收集用户出生日期以计算年龄用于个性化卡路里计划。有进度条指示、无底部导航栏、位于第9张截图的引导流程中，符合Onboarding信息收集阶段的特征。"
+  },
+  "Screen_010.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "目标选择",
+      "en": "Goal Selection"
+    },
+    "core_function": {
+      "cn": "收集用户健康目标以生成个性化卡路里计划",
+      "en": "Collect user health goals to generate personalized calorie plan"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简黑白配色，选中态明确突出",
+        "en": "Minimalist black-white scheme with clear selected state"
+      },
+      {
+        "category": "interaction",
+        "cn": "单选卡片式设计，操作直观简单",
+        "en": "Single-select card design for intuitive operation"
+      },
+      {
+        "category": "emotional",
+        "cn": "文案清晰说明目标与计划的关联性",
+        "en": "Clear copy explaining goal-plan connection"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过简洁的三选一目标设定，快速了解用户核心需求，为后续个性化卡路里推荐奠定基础，降低决策成本提升完成率",
+      "en": "Three simple goal options quickly identify user needs, laying foundation for personalized calorie recommendations while reducing decision cost and improving completion rate"
+    },
+    "tags": [
+      {
+        "cn": "目标设定",
+        "en": "Goal Setting"
+      },
+      {
+        "cn": "个性化",
+        "en": "Personalization"
+      },
+      {
+        "cn": "减重",
+        "en": "Weight Loss"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Onboarding",
+    "reasoning": "页面处于Onboarding阶段第10张，通过三个选项收集用户健康目标（减重/维持/增重），明确说明用于生成卡路里计划，有进度条和Next按钮，无底部导航，符合典型目标选择类Onboarding特征"
+  },
+  "Screen_011.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "目标体重设置",
+      "en": "Target Weight"
+    },
+    "core_function": {
+      "cn": "通过滑动选择器设定用户期望达到的目标体重",
+      "en": "Set desired target weight using horizontal slider picker"
+    },
+    "design_highlights": [
+      {
+        "category": "interaction",
+        "cn": "水平刻度尺滑动选择器，操作直观精准",
+        "en": "Horizontal ruler slider for intuitive precise weight selection"
+      },
+      {
+        "category": "visual",
+        "cn": "大字体数值显示突出当前选择，视觉层次清晰",
+        "en": "Large typography highlights current selection with clear visual hierarchy"
+      },
+      {
+        "category": "emotional",
+        "cn": "\"Lose weight\"标签强化减重目标导向",
+        "en": "\"Lose weight\" label reinforces weight loss goal orientation"
+      }
+    ],
+    "product_insight": {
+      "cn": "将目标体重设置独立为单独步骤，配合刻度尺设计让用户感受到精确控制感，同时明确显示\"减重\"标签帮助用户确认方向，增强目标达成的心理承诺",
+      "en": "Separating target weight as a dedicated step with ruler design gives users precise control feeling, while \"Lose weight\" label confirms direction and strengthens psychological commitment to goal achievement"
+    },
+    "tags": [
+      {
+        "cn": "目标设定",
+        "en": "Goal Setting"
+      },
+      {
+        "cn": "体重输入",
+        "en": "Weight Input"
+      },
+      {
+        "cn": "滑动选择",
+        "en": "Slider Picker"
+      }
+    ],
+    "confidence": 0.97,
+    "stage_name": "Onboarding",
+    "reasoning": "页面收集用户期望体重数据，属于Onboarding阶段的目标设定流程。无底部导航栏，有进度条和Next按钮，截图位于第11张处于Onboarding阶段中部，目的是为用户生成个性化卡路里计划服务。"
+  },
+  "Screen_012.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "目标可行性确认",
+      "en": "Goal Feasibility"
+    },
+    "core_function": {
+      "cn": "强化用户减重目标可行性，增强信心和动力",
+      "en": "Reinforce weight loss goal feasibility and boost user confidence"
+    },
+    "design_highlights": [
+      {
+        "category": "emotional",
+        "cn": "用鼓励性语言\"It's not hard at all\"消除用户焦虑",
+        "en": "Encouraging copy 'It's not hard at all' reduces user anxiety"
+      },
+      {
+        "category": "visual",
+        "cn": "橙色高亮具体数字6.4kg使目标更具体可感",
+        "en": "Orange highlight on 6.4kg makes goal tangible and specific"
+      },
+      {
+        "category": "conversion",
+        "cn": "引用90%用户数据增强社会认同和可信度",
+        "en": "90% user statistic adds social proof and credibility"
+      }
+    ],
+    "product_insight": {
+      "cn": "在用户设定目标后立即给予正向反馈和社会认同，利用数据背书降低用户对减重难度的心理预期，提升用户完成引导流程的意愿",
+      "en": "Providing immediate positive feedback and social proof after goal setting, using data endorsement to lower perceived difficulty and increase onboarding completion"
+    },
+    "tags": [
+      {
+        "cn": "目标确认",
+        "en": "Goal Confirmation"
+      },
+      {
+        "cn": "社会认同",
+        "en": "Social Proof"
+      },
+      {
+        "cn": "情感激励",
+        "en": "Emotional Motivation"
+      }
+    ],
+    "confidence": 0.96,
+    "stage_name": "Onboarding",
+    "reasoning": "页面在Onboarding阶段中部，展示用户设定的减重目标(6.4kg)并确认其可行性，使用鼓励性语言和用户数据(90%)增强信心。有进度条和Next按钮，无底部导航，属于典型的目标确认/动力激励类引导页面。"
+  },
+  "Screen_013.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "减重速度选择",
+      "en": "Weight Loss Speed"
+    },
+    "core_function": {
+      "cn": "让用户选择每周期望的减重速度以制定个性化计划",
+      "en": "Let users select desired weekly weight loss speed for personalized plan"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "动物图标形象化展示速度等级，直观易懂",
+        "en": "Animal icons visualize speed levels intuitively"
+      },
+      {
+        "category": "interaction",
+        "cn": "滑块交互配合动态数值显示，操作流畅",
+        "en": "Slider interaction with dynamic value display, smooth operation"
+      },
+      {
+        "category": "emotional",
+        "cn": "推荐标签降低用户决策焦虑，提供专业指导感",
+        "en": "Recommended tag reduces decision anxiety and provides professional guidance"
+      }
+    ],
+    "product_insight": {
+      "cn": "用树懒、兔子、猎豹三种动物隐喻减重速度，将枯燥的数字选择变得生动有趣，同时「推荐」标签帮助用户做出健康合理的选择，体现产品专业性",
+      "en": "Using sloth, rabbit, and cheetah metaphors for weight loss speed makes boring number selection engaging. The 'Recommended' tag helps users make healthy choices, reflecting product expertise"
+    },
+    "tags": [
+      {
+        "cn": "减重速度",
+        "en": "Weight Loss Speed"
+      },
+      {
+        "cn": "滑块选择",
+        "en": "Slider Selection"
+      },
+      {
+        "cn": "个性化设置",
+        "en": "Personalization"
+      }
+    ],
+    "confidence": 0.97,
+    "stage_name": "Onboarding",
+    "reasoning": "页面位于Onboarding阶段(第13/93张)，收集用户减重速度偏好以生成个性化卡路里计划。有进度条、返回按钮和Next按钮，无底部导航栏，符合引导流程特征。受益方是用户（获得个性化计划），属于典型的偏好收集类Onboarding。"
+  },
+  "Screen_014.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "效果对比展示",
+      "en": "Results Comparison"
+    },
+    "core_function": {
+      "cn": "通过数据对比展示使用Cal AI能获得双倍减重效果",
+      "en": "Show 2x weight loss results with Cal AI through data comparison"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "简洁柱状图对比，黑白配色突出差异",
+        "en": "Clean bar chart comparison with black-white contrast"
+      },
+      {
+        "category": "conversion",
+        "cn": "2X倍数标识强化产品价值感知",
+        "en": "2X multiplier reinforces product value perception"
+      },
+      {
+        "category": "emotional",
+        "cn": "accountability概念建立用户信任",
+        "en": "Accountability concept builds user trust"
+      }
+    ],
+    "product_insight": {
+      "cn": "在用户完成信息收集后展示效果对比，利用社会证明和数据可视化增强用户对产品价值的信心，提高后续转化率",
+      "en": "Showing results comparison after info collection uses social proof and data visualization to boost confidence in product value, improving conversion"
+    },
+    "tags": [
+      {
+        "cn": "效果对比",
+        "en": "Results Comparison"
+      },
+      {
+        "cn": "价值展示",
+        "en": "Value Proposition"
+      },
+      {
+        "cn": "数据可视化",
+        "en": "Data Visualization"
+      }
+    ],
+    "confidence": 0.96,
+    "stage_name": "Onboarding",
+    "reasoning": "处于Onboarding阶段后期（第14张），页面展示使用产品vs不使用的效果对比数据，目的是增强用户对产品价值的认知和信心。有进度条和Next按钮，无底部导航栏，是典型的价值展示型引导页面，受益方是用户（让用户了解产品能带来的好处）。"
+  },
+  "Screen_015.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "障碍选择",
+      "en": "Barrier Selection"
+    },
+    "core_function": {
+      "cn": "收集阻碍用户达成目标的因素，以提供针对性解决方案",
+      "en": "Collect user barriers to goals for personalized solutions"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "选项卡片配图标，直观易理解",
+        "en": "Option cards with icons for intuitive understanding"
+      },
+      {
+        "category": "interaction",
+        "cn": "单选高亮反馈，选中状态清晰",
+        "en": "Single selection with clear highlight feedback"
+      },
+      {
+        "category": "emotional",
+        "cn": "问题措辞引导用户自省，建立解决问题的期望",
+        "en": "Question wording encourages self-reflection and problem-solving expectation"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过识别用户痛点（如饮食习惯差、时间不足），产品可针对性推荐功能和内容，提升用户感知价值和留存率",
+      "en": "By identifying user pain points like unhealthy habits or busy schedules, the app can recommend targeted features and content to boost perceived value and retention"
+    },
+    "tags": [
+      {
+        "cn": "痛点收集",
+        "en": "Pain Point Collection"
+      },
+      {
+        "cn": "个性化引导",
+        "en": "Personalized Onboarding"
+      },
+      {
+        "cn": "用户洞察",
+        "en": "User Insight"
+      }
+    ],
+    "confidence": 0.97,
+    "stage_name": "Onboarding",
+    "reasoning": "页面询问阻碍用户达成目标的因素，是典型的Onboarding偏好收集环节。有进度条、返回键和Next按钮，无底部导航栏，位于第15张符合Onboarding阶段，收集信息用于后续个性化服务，受益方是用户。"
+  },
+  "Screen_017.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "目标选择",
+      "en": "Goal Selection"
+    },
+    "core_function": {
+      "cn": "收集用户使用产品想要达成的健康目标",
+      "en": "Collect user's health and wellness goals for personalization"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "黑白极简配色，选中态对比鲜明",
+        "en": "Minimalist black-white scheme with clear selection state"
+      },
+      {
+        "category": "interaction",
+        "cn": "单选卡片式设计，操作简单直观",
+        "en": "Single-select card design for intuitive interaction"
+      },
+      {
+        "category": "emotional",
+        "cn": "目标选项覆盖多维度需求，引发用户共鸣",
+        "en": "Multi-dimensional goal options resonate with user needs"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过让用户选择具体目标（健康饮食、提升精力、保持动力、身材自信），不仅收集个性化数据，更建立用户对产品的期望和承诺感",
+      "en": "By letting users select specific goals, the app collects personalization data while building user expectations and commitment to the product"
+    },
+    "tags": [
+      {
+        "cn": "目标设定",
+        "en": "Goal Setting"
+      },
+      {
+        "cn": "个性化引导",
+        "en": "Personalization"
+      },
+      {
+        "cn": "用户动机",
+        "en": "User Motivation"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Onboarding",
+    "reasoning": "这是第17张截图，处于Onboarding阶段末期。页面询问用户想要达成的目标，提供4个健康相关选项，有进度条和Next按钮，是典型的目标收集页面，用于个性化用户体验。符合Cal AI收集用户信息生成个性化计划的流程。"
+  },
+  "Screen_018.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "进度预测",
+      "en": "Progress Preview"
+    },
+    "core_function": {
+      "cn": "展示用户30天体重变化预测曲线，激励坚持使用",
+      "en": "Show 30-day weight transition forecast to motivate continued use"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "渐变填充曲线图直观展示进度趋势",
+        "en": "Gradient-filled curve chart intuitively shows progress trend"
+      },
+      {
+        "category": "emotional",
+        "cn": "积极正向的标题文案激发用户信心",
+        "en": "Positive headline copy builds user confidence"
+      },
+      {
+        "category": "conversion",
+        "cn": "基于历史数据的说明增强可信度",
+        "en": "Historical data reference enhances credibility"
+      }
+    ],
+    "product_insight": {
+      "cn": "在Onboarding结束前展示预期成果，利用目标可视化和社会证明（历史数据）提升用户对产品效果的期待，增强完成引导流程的动力",
+      "en": "Showing expected outcomes before Onboarding ends uses goal visualization and social proof to boost expectations and motivation to complete the flow"
+    },
+    "tags": [
+      {
+        "cn": "进度可视化",
+        "en": "Progress Visualization"
+      },
+      {
+        "cn": "目标激励",
+        "en": "Goal Motivation"
+      },
+      {
+        "cn": "数据预测",
+        "en": "Data Prediction"
+      }
+    ],
+    "confidence": 0.96,
+    "stage_name": "Onboarding",
+    "reasoning": "位于Onboarding阶段末期(第18张)，展示基于用户输入数据的体重变化预测，目的是激励用户并建立对产品效果的信心，属于典型的Onboarding价值展示环节，无底部导航栏，有进度条和Next按钮"
+  },
+  "Screen_019.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "评分请求页",
+      "en": "Rating Request"
+    },
+    "core_function": {
+      "cn": "在用户完成信息填写后请求应用商店评分",
+      "en": "Request app store rating after completing user info collection"
+    },
+    "design_highlights": [
+      {
+        "category": "conversion",
+        "cn": "展示200万用户量和真实用户评价增强信任感",
+        "en": "Display 2M users and real testimonial to build trust"
+      },
+      {
+        "category": "emotional",
+        "cn": "使用真实用户减重成功案例激发情感共鸣",
+        "en": "Real weight loss success story creates emotional resonance"
+      },
+      {
+        "category": "visual",
+        "cn": "五星评分交互清晰醒目，用户头像组增加社交证明",
+        "en": "Clear 5-star rating UI with user avatars for social proof"
+      }
+    ],
+    "product_insight": {
+      "cn": "在Onboarding尾声、用户投入感最强时请求评分，结合社交证明和成功案例，利用承诺一致性心理提高评分转化率",
+      "en": "Requesting rating at peak user investment during onboarding, combined with social proof and success stories, leverages commitment consistency psychology"
+    },
+    "tags": [
+      {
+        "cn": "评分请求",
+        "en": "Rating Request"
+      },
+      {
+        "cn": "社交证明",
+        "en": "Social Proof"
+      },
+      {
+        "cn": "用户评价",
+        "en": "Testimonial"
+      },
+      {
+        "cn": "转化策略",
+        "en": "Conversion Strategy"
+      }
+    ],
+    "confidence": 0.85,
+    "stage_name": "Onboarding",
+    "reasoning": "虽然评分请求通常受益方是产品，但此页面位于Onboarding阶段末期（第19/19张），作为完成信息收集后的过渡页面。页面设计巧妙地将评分请求与社交证明、成功案例结合，在用户完成大量信息输入后、承诺一致性心理最强时请求评分，属于Onboarding流程的一部分而非独立的评分弹窗。"
+  },
+  "Screen_020.png": {
+    "screen_type": "Permission",
+    "naming": {
+      "cn": "通知权限请求",
+      "en": "Notification Permission"
+    },
+    "core_function": {
+      "cn": "请求用户授权推送通知以帮助达成健康目标",
+      "en": "Request notification permission to help users reach their goals"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简白底配合系统弹窗，保持iOS原生体验",
+        "en": "Minimalist white background with native iOS system dialog"
+      },
+      {
+        "category": "emotional",
+        "cn": "文案强调目标达成，将权限请求与用户价值关联",
+        "en": "Copy emphasizes goal achievement, linking permission to user value"
+      },
+      {
+        "category": "interaction",
+        "cn": "手指表情指向Allow按钮，直观引导用户操作",
+        "en": "Finger emoji pointing to Allow button for clear guidance"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过将通知权限与「达成目标」关联，将产品需求转化为用户价值主张。手指emoji的引导设计巧妙暗示推荐选项，提升授权率。",
+      "en": "Links notification permission to 'reaching goals', converting product needs into user value. Finger emoji subtly suggests the recommended option to boost authorization rate."
+    },
+    "tags": [
+      {
+        "cn": "权限请求",
+        "en": "Permission Request"
+      },
+      {
+        "cn": "通知授权",
+        "en": "Notification Auth"
+      },
+      {
+        "cn": "引导设计",
+        "en": "Guided Design"
+      }
+    ],
+    "confidence": 0.96,
+    "stage_name": "Welcome",
+    "reasoning": "这是系统通知权限请求页面，属于Onboarding流程的一部分。页面包含iOS原生权限弹窗，顶部有进度条和返回按钮，文案将权限与用户目标关联（受益方是用户），符合Permission类型定义。位于第20张，处于Welcome阶段但实际是权限请求功能。"
+  },
+  "Screen_016.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "饮食偏好选择",
+      "en": "Diet Preference"
+    },
+    "core_function": {
+      "cn": "收集用户饮食习惯以定制个性化营养方案",
+      "en": "Collect dietary habits to customize nutrition plans"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "图标配合选项增强可读性，已选状态对比明显",
+        "en": "Icons enhance readability with clear selected state contrast"
+      },
+      {
+        "category": "interaction",
+        "cn": "单选卡片式设计，点击即选中反馈清晰",
+        "en": "Single-select card design with clear tap feedback"
+      },
+      {
+        "category": "emotional",
+        "cn": "包容性选项设计尊重不同饮食文化",
+        "en": "Inclusive options respect diverse dietary cultures"
+      }
+    ],
+    "product_insight": {
+      "cn": "饮食偏好是卡路里追踪的关键维度，提前了解用户是否为素食者等可精准过滤不适合的食物推荐，提升使用体验",
+      "en": "Diet preference is crucial for calorie tracking. Understanding vegetarian/vegan status enables precise food filtering and improves user experience"
+    },
+    "tags": [
+      {
+        "cn": "饮食偏好",
+        "en": "Diet Preference"
+      },
+      {
+        "cn": "个性化设置",
+        "en": "Personalization"
+      },
+      {
+        "cn": "信息收集",
+        "en": "Data Collection"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Onboarding",
+    "reasoning": "页面询问用户饮食偏好（经典/海鲜素/素食/纯素），属于Onboarding阶段的偏好收集环节，有进度条和Next按钮，无底部导航栏，符合用户信息收集流程特征"
+  },
+  "Screen_021.png": {
+    "screen_type": "Permission",
+    "naming": {
+      "cn": "通知权限请求",
+      "en": "Notification Permission"
+    },
+    "core_function": {
+      "cn": "请求用户授权推送通知以提供提醒服务",
+      "en": "Request notification permission for reminders and alerts"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "手指emoji指向Allow按钮，引导用户操作",
+        "en": "Finger emoji pointing to Allow button guides user action"
+      },
+      {
+        "category": "interaction",
+        "cn": "系统原生弹窗确保用户信任感",
+        "en": "Native system dialog ensures user trust"
+      },
+      {
+        "category": "conversion",
+        "cn": "底部按钮预埋与弹窗选项对应增强转化",
+        "en": "Background buttons mirror dialog options for conversion"
+      }
+    ],
+    "product_insight": {
+      "cn": "通知权限对卡路里追踪App至关重要，用于提醒用户记录饮食和达成目标。通过emoji手势暗示引导用户点击Allow，提高授权率",
+      "en": "Notification permission is crucial for calorie tracking apps to remind users to log meals. Emoji gesture subtly guides users to tap Allow, improving authorization rate"
+    },
+    "tags": [
+      {
+        "cn": "权限请求",
+        "en": "Permission Request"
+      },
+      {
+        "cn": "通知授权",
+        "en": "Notification Authorization"
+      },
+      {
+        "cn": "引导设计",
+        "en": "Guided Design"
+      }
+    ],
+    "confidence": 0.97,
+    "stage_name": "Welcome",
+    "reasoning": "iOS系统原生通知权限弹窗，属于Onboarding流程中的权限请求环节。位于Welcome阶段第21张，符合引导流程位置。手指emoji指向Allow按钮是提高授权率的设计技巧，底部隐约可见的按钮与弹窗选项对应，说明App精心设计了权限请求体验。"
+  },
+  "Screen_022.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "推荐码输入",
+      "en": "Referral Code Input"
+    },
+    "core_function": {
+      "cn": "收集用户推荐码以追踪用户来源渠道",
+      "en": "Collect referral code to track user acquisition source"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简白色背景配合单一输入框，聚焦用户注意力",
+        "en": "Minimalist white background with single input field focuses attention"
+      },
+      {
+        "category": "interaction",
+        "cn": "明确提示可跳过，降低用户焦虑感",
+        "en": "Clear skip hint reduces user anxiety"
+      },
+      {
+        "category": "emotional",
+        "cn": "非强制性设计让用户感受到尊重和自由",
+        "en": "Non-mandatory design makes users feel respected and free"
+      }
+    ],
+    "product_insight": {
+      "cn": "将推荐码输入作为可选步骤嵌入注册流程，既能追踪获客渠道又不影响转化率，体现了增长与体验的平衡考量",
+      "en": "Embedding optional referral code input in signup flow enables channel tracking without hurting conversion, balancing growth and user experience"
+    },
+    "tags": [
+      {
+        "cn": "推荐码",
+        "en": "Referral Code"
+      },
+      {
+        "cn": "可选步骤",
+        "en": "Optional Step"
+      },
+      {
+        "cn": "用户获取",
+        "en": "User Acquisition"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Onboarding",
+    "reasoning": "此页面在Onboarding阶段（第22张），收集用户推荐码信息。虽然涉及referral概念，但这是帮助产品追踪用户来源的信息收集步骤，用户可以跳过，属于Onboarding流程的一部分而非主动要求用户去邀请他人的Referral页面。有进度条、无底部导航栏，符合Onboarding特征。"
+  },
+  "Screen_023.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "信息收集完成",
+      "en": "Setup Complete"
+    },
+    "core_function": {
+      "cn": "确认用户信息收集完成，承诺数据安全",
+      "en": "Confirm info collection complete, promise data security"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "彩色纸屑庆祝动效增强完成感",
+        "en": "Colorful confetti animation enhances completion feeling"
+      },
+      {
+        "category": "emotional",
+        "cn": "感谢信任文案建立情感连接与信任",
+        "en": "Thank you message builds emotional connection and trust"
+      },
+      {
+        "category": "conversion",
+        "cn": "隐私承诺消除用户数据安全顾虑",
+        "en": "Privacy promise addresses user data security concerns"
+      }
+    ],
+    "product_insight": {
+      "cn": "在用户信息收集后设置感谢确认页，既是对用户付出时间的认可，也通过隐私承诺强化信任，为后续付费转化铺垫",
+      "en": "Thank you page after info collection acknowledges user's time investment and reinforces trust through privacy promise, preparing for conversion"
+    },
+    "tags": [
+      {
+        "cn": "完成确认",
+        "en": "Completion"
+      },
+      {
+        "cn": "信任建立",
+        "en": "Trust Building"
+      },
+      {
+        "cn": "隐私承诺",
+        "en": "Privacy Promise"
+      }
+    ],
+    "confidence": 0.97,
+    "stage_name": "Onboarding",
+    "reasoning": "这是Onboarding流程中的完成确认页面，位于第23张属于引导阶段，显示用户信息收集已完成，通过感谢文案和隐私承诺建立信任，为下一步（可能是AI计算方案）做准备。无底部导航，有进度条，典型的引导流程中间环节。"
+  },
+  "Screen_024.png": {
+    "screen_type": "Permission",
+    "naming": {
+      "cn": "追踪授权弹窗",
+      "en": "Tracking Permission"
+    },
+    "core_function": {
+      "cn": "请求用户授权App跟踪活动以改善产品分析",
+      "en": "Request user permission to track activity for product improvement"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "iOS原生系统弹窗样式，保持一致性体验",
+        "en": "Native iOS system dialog style for consistent experience"
+      },
+      {
+        "category": "emotional",
+        "cn": "说明追踪目的是改善产品，降低用户抵触心理",
+        "en": "Explains tracking purpose for product improvement to reduce resistance"
+      },
+      {
+        "category": "interaction",
+        "cn": "双选项设计让用户有明确选择权",
+        "en": "Two-option design gives users clear choice control"
+      }
+    ],
+    "product_insight": {
+      "cn": "在Onboarding流程中请求ATT追踪权限，通过说明用途（改善产品和功能分析）来提高授权率，这是iOS 14+的合规要求",
+      "en": "Requests ATT tracking permission during onboarding, explaining purpose to improve authorization rate, complying with iOS 14+ requirements"
+    },
+    "tags": [
+      {
+        "cn": "系统权限",
+        "en": "System Permission"
+      },
+      {
+        "cn": "ATT追踪",
+        "en": "ATT Tracking"
+      },
+      {
+        "cn": "隐私合规",
+        "en": "Privacy Compliance"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Onboarding",
+    "reasoning": "这是iOS标准的App Tracking Transparency (ATT)权限请求弹窗，属于Onboarding阶段的Permission类型。系统弹窗询问用户是否允许Cal AI追踪其跨应用活动，符合阶段约束中的Permission类型定义。"
+  },
+  "Screen_027.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "卡路里目标编辑",
+      "en": "Edit Calories Goal"
+    },
+    "core_function": {
+      "cn": "允许用户自定义修改每日卡路里摄入目标",
+      "en": "Allow users to customize daily calorie intake goal"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简黑白配色，环形进度指示器直观展示目标",
+        "en": "Minimalist black-white color scheme with circular progress indicator"
+      },
+      {
+        "category": "interaction",
+        "cn": "数字键盘直接输入，Revert按钮支持撤销修改",
+        "en": "Direct numeric input with Revert button for undo changes"
+      },
+      {
+        "category": "emotional",
+        "cn": "实时显示当前值与新值对比，给予用户掌控感",
+        "en": "Real-time comparison of current vs new value gives users control"
+      }
+    ],
+    "product_insight": {
+      "cn": "提供目标编辑功能让用户根据身体变化灵活调整，Revert按钮降低误操作焦虑，增强用户对个性化设置的信任感",
+      "en": "Goal editing allows flexible adjustment based on body changes. Revert button reduces anxiety about mistakes, enhancing trust in personalization"
+    },
+    "tags": [
+      {
+        "cn": "目标设置",
+        "en": "Goal Setting"
+      },
+      {
+        "cn": "卡路里追踪",
+        "en": "Calorie Tracking"
+      },
+      {
+        "cn": "个性化",
+        "en": "Personalization"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Tracking",
+    "reasoning": "页面位于Tracking阶段（第27张），有底部数字键盘和输入框用于编辑卡路里目标，显示当前值930和用户正在输入的新值1000，提供Revert和Done操作按钮，属于典型的目标数据编辑功能页面"
+  },
+  "Screen_026.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "方案完成页",
+      "en": "Plan Ready"
+    },
+    "core_function": {
+      "cn": "展示AI生成的个性化减重计划和每日营养目标",
+      "en": "Display AI-generated personalized weight loss plan and daily nutrition goals"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "环形进度图直观展示四项营养指标",
+        "en": "Circular progress charts intuitively display four nutrition metrics"
+      },
+      {
+        "category": "emotional",
+        "cn": "Congratulations庆祝文案增强成就感",
+        "en": "Congratulations copy enhances sense of achievement"
+      },
+      {
+        "category": "conversion",
+        "cn": "明确目标日期创造紧迫感和承诺感",
+        "en": "Clear target date creates urgency and commitment"
+      }
+    ],
+    "product_insight": {
+      "cn": "将复杂的营养计划可视化为简洁的四象限数据卡片，降低用户认知负担。明确的目标日期（April 30）将抽象目标转化为具体承诺，提升用户执行动力",
+      "en": "Visualizes complex nutrition plans into simple four-quadrant data cards, reducing cognitive load. Clear target date transforms abstract goals into concrete commitments, boosting user motivation"
+    },
+    "tags": [
+      {
+        "cn": "个性化方案",
+        "en": "Personalized Plan"
+      },
+      {
+        "cn": "目标可视化",
+        "en": "Goal Visualization"
+      },
+      {
+        "cn": "营养追踪",
+        "en": "Nutrition Tracking"
+      }
+    ],
+    "confidence": 0.97,
+    "stage_name": "Onboarding",
+    "reasoning": "这是Onboarding流程的结束页，展示AI根据用户输入生成的个性化减重方案。页面呈现完整的计划结果（目标体重、日期、每日营养配额），用户点击'Let's get started'即可开始使用产品。无底部导航栏，处于第26张截图且属于Onboarding阶段末期，是典型的引导完成页。"
+  },
+  "Screen_025.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "方案计算中",
+      "en": "Plan Calculation"
+    },
+    "core_function": {
+      "cn": "展示AI正在计算个性化BMR方案的加载状态",
+      "en": "Show AI calculating personalized BMR formula loading state"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简白色背景搭配单一加载圈，突出计算过程",
+        "en": "Minimalist white background with single loading circle highlights calculation process"
+      },
+      {
+        "category": "emotional",
+        "cn": "动态状态文案'Applying BMR formula'增强专业感和期待感",
+        "en": "Dynamic status text 'Applying BMR formula' enhances professionalism and anticipation"
+      },
+      {
+        "category": "interaction",
+        "cn": "圆形进度指示器提供视觉反馈，减少等待焦虑",
+        "en": "Circular progress indicator provides visual feedback, reduces waiting anxiety"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过展示专业术语（BMR公式）来暗示算法的科学性，让用户相信即将生成的方案是经过专业计算的，而非随意推荐，提升信任度和期待值。",
+      "en": "Displaying professional terminology (BMR formula) implies scientific rigor, making users believe the upcoming plan is professionally calculated rather than arbitrary, boosting trust and anticipation."
+    },
+    "tags": [
+      {
+        "cn": "加载状态",
+        "en": "Loading State"
+      },
+      {
+        "cn": "BMR计算",
+        "en": "BMR Calculation"
+      },
+      {
+        "cn": "个性化方案",
+        "en": "Personalized Plan"
+      },
+      {
+        "cn": "期待感构建",
+        "en": "Anticipation Building"
+      }
+    ],
+    "confidence": 0.96,
+    "stage_name": "Onboarding",
+    "reasoning": "这是Onboarding流程中的加载过渡页面，正在根据用户之前输入的信息计算个性化的BMR（基础代谢率）方案。页面无底部导航栏，位于第25张属于Onboarding阶段末期，承接前面的信息收集，为即将展示的个性化方案做铺垫。"
+  },
+  "Screen_028.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "蛋白质目标编辑",
+      "en": "Edit Protein Goal"
+    },
+    "core_function": {
+      "cn": "允许用户自定义每日蛋白质摄入目标值",
+      "en": "Allow users to customize daily protein intake goal"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "环形进度指示器直观展示当前目标",
+        "en": "Circular progress indicator shows current goal intuitively"
+      },
+      {
+        "category": "interaction",
+        "cn": "数字键盘便于快速输入精确数值",
+        "en": "Numeric keypad enables quick precise value input"
+      },
+      {
+        "category": "emotional",
+        "cn": "Revert按钮提供安全感，用户可撤销更改",
+        "en": "Revert button provides safety, allowing users to undo changes"
+      }
+    ],
+    "product_insight": {
+      "cn": "蛋白质目标独立编辑体现专业健身追踪需求，75g默认值符合普通用户日常需求，灵活调整满足健身增肌等特殊场景",
+      "en": "Separate protein goal editing reflects professional fitness tracking needs. 75g default suits regular users while flexible adjustment serves muscle-building scenarios"
+    },
+    "tags": [
+      {
+        "cn": "目标设置",
+        "en": "Goal Setting"
+      },
+      {
+        "cn": "蛋白质追踪",
+        "en": "Protein Tracking"
+      },
+      {
+        "cn": "个性化",
+        "en": "Personalization"
+      }
+    ],
+    "confidence": 0.94,
+    "stage_name": "Tracking",
+    "reasoning": "页面明确标题为'Edit Protein Goal'，位于Tracking阶段第28张，展示蛋白质目标编辑功能。有数值输入、环形进度显示和确认/撤销按钮，属于典型的目标记录编辑页面，符合Tracking分类。"
+  },
+  "Screen_029.png": {
+    "screen_type": "Paywall",
+    "naming": {
+      "cn": "免费试用邀请",
+      "en": "Free Trial Offer"
+    },
+    "core_function": {
+      "cn": "邀请用户免费试用付费功能并展示年度订阅价格",
+      "en": "Invite users to try premium features free with annual subscription pricing"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "真实食物扫描演示增强功能可信度",
+        "en": "Real food scanning demo enhances feature credibility"
+      },
+      {
+        "category": "conversion",
+        "cn": "\"No Payment Due Now\"消除付费心理障碍",
+        "en": "\"No Payment Due Now\" removes payment anxiety"
+      },
+      {
+        "category": "emotional",
+        "cn": "\"We want you to try\"友好邀请语气降低防御心理",
+        "en": "\"We want you to try\" friendly tone reduces defensiveness"
+      }
+    ],
+    "product_insight": {
+      "cn": "在用户完成追踪设置后展示付费墙，通过免费试用降低转化门槛，年费折算月费的展示方式让价格显得更实惠",
+      "en": "Paywall shown after tracking setup, using free trial to lower conversion barrier. Annual-to-monthly breakdown makes pricing feel more affordable"
+    },
+    "tags": [
+      {
+        "cn": "免费试用",
+        "en": "Free Trial"
+      },
+      {
+        "cn": "年度订阅",
+        "en": "Annual Subscription"
+      },
+      {
+        "cn": "付费转化",
+        "en": "Conversion"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Tracking",
+    "reasoning": "页面明确显示价格($29.99/year, $2.49/mo)和免费试用按钮($0.00)，这是典型的付费墙设计。虽然处于Tracking阶段后期，但核心目的是向用户推销订阅服务，受益方是产品而非用户教育，因此应分类为Paywall而非Onboarding。"
+  },
+  "Screen_030.png": {
+    "screen_type": "Paywall",
+    "naming": {
+      "cn": "试用提醒页",
+      "en": "Trial Reminder"
+    },
+    "core_function": {
+      "cn": "承诺试用结束前发送提醒，消除付费顾虑",
+      "en": "Promise reminder before trial ends to reduce payment anxiety"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "铃铛图标配红色徽章，直观传达提醒概念",
+        "en": "Bell icon with red badge visually conveys reminder concept"
+      },
+      {
+        "category": "emotional",
+        "cn": "\"No Payment Due Now\"文案消除用户即时付费压力",
+        "en": "\"No Payment Due Now\" copy eliminates immediate payment pressure"
+      },
+      {
+        "category": "conversion",
+        "cn": "\"Continue for FREE\"黑色CTA强调免费试用降低决策门槛",
+        "en": "\"Continue for FREE\" black CTA emphasizes free trial to lower decision barrier"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过提醒承诺和免费试用组合策略，有效解决用户对订阅自动扣费的顾虑，提升试用转化率。价格信息弱化展示（底部小字），让用户聚焦于\"免费\"。",
+      "en": "Combining reminder promise with free trial effectively addresses user concerns about auto-renewal charges, boosting trial conversion. Price info is de-emphasized at bottom, keeping focus on \"FREE\"."
+    },
+    "tags": [
+      {
+        "cn": "免费试用",
+        "en": "Free Trial"
+      },
+      {
+        "cn": "订阅提醒",
+        "en": "Subscription Reminder"
+      },
+      {
+        "cn": "信任建立",
+        "en": "Trust Building"
+      }
+    ],
+    "confidence": 0.96,
+    "stage_name": "Paywall",
+    "reasoning": "页面明确展示订阅价格($29.99/年)和试用信息，属于付费墙流程。通过承诺发送试用到期提醒来消除用户顾虑，是典型的Paywall信任建立页面，符合当前Paywall阶段定位。"
+  },
+  "Screen_031.png": {
+    "screen_type": "Paywall",
+    "naming": {
+      "cn": "免费试用付费墙",
+      "en": "Free Trial Paywall"
+    },
+    "core_function": {
+      "cn": "展示3天免费试用及订阅方案，引导用户付费订阅",
+      "en": "Display 3-day free trial and subscription plans to convert users"
+    },
+    "design_highlights": [
+      {
+        "category": "conversion",
+        "cn": "时间线设计清晰展示试用流程，降低付费焦虑",
+        "en": "Timeline design clearly shows trial process, reducing payment anxiety"
+      },
+      {
+        "category": "visual",
+        "cn": "年费方案突出显示3 DAYS FREE标签，引导选择高价值套餐",
+        "en": "Yearly plan highlighted with 3 DAYS FREE badge to guide higher value selection"
+      },
+      {
+        "category": "emotional",
+        "cn": "No Payment Due Now强调免费，消除即时付费顾虑",
+        "en": "No Payment Due Now emphasis eliminates immediate payment concerns"
+      }
+    ],
+    "product_insight": {
+      "cn": "采用时间线形式可视化试用流程，配合提前2天提醒承诺，有效降低用户对自动扣费的担忧，提升试用转化率",
+      "en": "Timeline visualization of trial process with 2-day reminder promise effectively reduces auto-charge anxiety and improves trial conversion"
+    },
+    "tags": [
+      {
+        "cn": "免费试用",
+        "en": "Free Trial"
+      },
+      {
+        "cn": "订阅付费",
+        "en": "Subscription"
+      },
+      {
+        "cn": "时间线设计",
+        "en": "Timeline Design"
+      },
+      {
+        "cn": "价格锚定",
+        "en": "Price Anchoring"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Paywall",
+    "reasoning": "页面明确显示价格($9.99/月、$29.99/年)、订阅选项、3天免费试用，这是典型的付费墙页面。时间线设计展示试用到付费的流程，目的是转化付费，受益方是产品，完全符合Paywall定义。"
+  },
+  "Screen_032.png": {
+    "screen_type": "Paywall",
+    "naming": {
+      "cn": "订阅确认弹窗",
+      "en": "Subscription Confirmation"
+    },
+    "core_function": {
+      "cn": "系统级订阅确认，展示价格和试用期详情",
+      "en": "System subscription confirmation showing price and trial details"
+    },
+    "design_highlights": [
+      {
+        "category": "conversion",
+        "cn": "3天免费试用降低首次付费心理门槛",
+        "en": "3-day free trial reduces initial payment barrier"
+      },
+      {
+        "category": "visual",
+        "cn": "iOS原生App Store确认弹窗增强信任感",
+        "en": "Native iOS App Store modal increases trust"
+      },
+      {
+        "category": "emotional",
+        "cn": "明确标注取消政策消除用户顾虑",
+        "en": "Clear cancellation policy eliminates user concerns"
+      }
+    ],
+    "product_insight": {
+      "cn": "使用系统原生订阅确认弹窗，利用Apple品牌背书增强用户信任，同时清晰展示试用期和自动续费机制，符合应用商店合规要求。",
+      "en": "Native system subscription modal leverages Apple's brand trust while clearly displaying trial period and auto-renewal terms, meeting App Store compliance requirements."
+    },
+    "tags": [
+      {
+        "cn": "系统弹窗",
+        "en": "System Modal"
+      },
+      {
+        "cn": "订阅确认",
+        "en": "Subscription Confirm"
+      },
+      {
+        "cn": "免费试用",
+        "en": "Free Trial"
+      },
+      {
+        "cn": "年度订阅",
+        "en": "Annual Plan"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Paywall",
+    "reasoning": "这是iOS系统级App Store订阅确认弹窗，显示订阅计划详情（$29.99/年，3天免费试用），属于Paywall阶段的最终确认步骤。位于第32张截图，正处于Paywall阶段末期，符合付费墙流程的系统确认环节。"
+  },
+  "Screen_033.png": {
+    "screen_type": "Paywall",
+    "naming": {
+      "cn": "购买成功确认",
+      "en": "Purchase Confirmation"
+    },
+    "core_function": {
+      "cn": "确认用户订阅购买成功，引导继续使用",
+      "en": "Confirm successful subscription purchase and guide to continue"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "时间轴设计清晰展示试用到付费的完整流程",
+        "en": "Timeline design clearly shows the full trial to payment flow"
+      },
+      {
+        "category": "interaction",
+        "cn": "成功弹窗简洁明了，单按钮确认降低认知负担",
+        "en": "Clean success modal with single button reduces cognitive load"
+      },
+      {
+        "category": "conversion",
+        "cn": "强调3天免费试用和低月均价格锚定年付方案",
+        "en": "Emphasizes 3-day free trial and low monthly price anchors yearly plan"
+      }
+    ],
+    "product_insight": {
+      "cn": "购买成功后即时反馈增强用户信心，时间轴可视化帮助用户理解订阅周期和收费节点，降低订阅焦虑。年付方案通过月均价格展示提升性价比感知。",
+      "en": "Instant purchase feedback builds confidence. Timeline visualization helps users understand subscription cycle and billing points, reducing anxiety. Yearly plan shown as monthly rate enhances value perception."
+    },
+    "tags": [
+      {
+        "cn": "购买成功",
+        "en": "Purchase Success"
+      },
+      {
+        "cn": "订阅确认",
+        "en": "Subscription Confirmation"
+      },
+      {
+        "cn": "年度计划",
+        "en": "Yearly Plan"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "SignUp",
+    "reasoning": "虽然标注为SignUp阶段，但页面明确显示价格($29.99/year, $9.99/mo)、订阅选项和购买成功弹窗，核心目的是付费转化和确认，受益方是产品而非用户引导，应归类为Paywall的购买确认子类型。"
+  },
+  "Screen_034.png": {
+    "screen_type": "SignUp",
+    "naming": {
+      "cn": "账户创建页",
+      "en": "Create Account"
+    },
+    "core_function": {
+      "cn": "提供Apple和Google社交登录快速创建账户",
+      "en": "Quick account creation via Apple and Google social login"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简设计仅保留核心登录选项，页面留白充足",
+        "en": "Minimalist design with only core login options and ample whitespace"
+      },
+      {
+        "category": "interaction",
+        "cn": "社交登录一键完成，降低注册门槛",
+        "en": "One-tap social login reduces registration friction"
+      },
+      {
+        "category": "conversion",
+        "cn": "Apple登录黑色突出，Google白色次要，形成视觉层级",
+        "en": "Apple login emphasized in black, Google secondary in white creates visual hierarchy"
+      }
+    ],
+    "product_insight": {
+      "cn": "仅提供两种主流社交登录方式，极大简化注册流程，符合健身类App用户追求快速便捷的使用习惯，同时确保账户数据同步能力。",
+      "en": "Offering only two mainstream social login options greatly simplifies registration, aligning with fitness app users' preference for quick convenience while ensuring account data sync capability."
+    },
+    "tags": [
+      {
+        "cn": "社交登录",
+        "en": "Social Login"
+      },
+      {
+        "cn": "极简注册",
+        "en": "Minimal Signup"
+      },
+      {
+        "cn": "账户创建",
+        "en": "Account Creation"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "SignUp",
+    "reasoning": "页面标题明确为'Create an account'，提供Apple和Google两种社交登录方式，符合SignUp阶段定义。顶部有进度条和返回按钮，表明是注册流程中的一步。极简设计风格与产品定位一致。"
+  },
+  "Screen_035.png": {
+    "screen_type": "SignUp",
+    "naming": {
+      "cn": "Google登录授权",
+      "en": "Google Sign In Permission"
+    },
+    "core_function": {
+      "cn": "系统弹窗请求用户授权使用Google账号登录",
+      "en": "System dialog requesting permission to sign in with Google"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "iOS原生弹窗设计保持系统一致性",
+        "en": "Native iOS dialog maintains system consistency"
+      },
+      {
+        "category": "interaction",
+        "cn": "双按钮选择清晰，Cancel和Continue对比明显",
+        "en": "Clear dual-button choice with obvious Cancel and Continue contrast"
+      },
+      {
+        "category": "emotional",
+        "cn": "透明说明数据共享增强用户信任",
+        "en": "Transparent data sharing explanation builds user trust"
+      }
+    ],
+    "product_insight": {
+      "cn": "使用Google OAuth登录降低注册门槛，iOS系统级弹窗增加安全可信度，让用户放心授权第三方登录。",
+      "en": "Google OAuth login reduces registration friction. iOS system-level dialog adds security credibility, making users comfortable authorizing third-party login."
+    },
+    "tags": [
+      {
+        "cn": "社交登录",
+        "en": "Social Login"
+      },
+      {
+        "cn": "OAuth授权",
+        "en": "OAuth Permission"
+      },
+      {
+        "cn": "系统弹窗",
+        "en": "System Dialog"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "SignUp",
+    "reasoning": "页面显示iOS系统级OAuth授权弹窗，用户正在创建账户流程中选择Google登录。弹窗明确说明Cal AI要使用google.com登录，属于SignUp阶段的OAuth授权确认环节。背景可见创建账户页面和Sign in with Google按钮。"
+  },
+  "Screen_036.png": {
+    "screen_type": "SignUp",
+    "naming": {
+      "cn": "Google账户选择",
+      "en": "Google Account Picker"
+    },
+    "core_function": {
+      "cn": "选择Google账户完成CalAI应用授权登录",
+      "en": "Select Google account to authorize CalAI app login"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "标准Google登录界面保持用户信任感",
+        "en": "Standard Google sign-in interface maintains user trust"
+      },
+      {
+        "category": "interaction",
+        "cn": "支持多账户切换一键登录简化流程",
+        "en": "Multi-account switching enables one-tap login"
+      },
+      {
+        "category": "emotional",
+        "cn": "熟悉的Google界面降低用户注册心理门槛",
+        "en": "Familiar Google UI reduces registration friction"
+      }
+    ],
+    "product_insight": {
+      "cn": "使用Google OAuth标准登录流程，借助用户对Google的信任降低注册门槛，菲律宾语本地化显示体现了对东南亚市场的重视。",
+      "en": "Using standard Google OAuth flow leverages user trust in Google to reduce signup friction. Filipino localization shows focus on Southeast Asian market."
+    },
+    "tags": [
+      {
+        "cn": "Google登录",
+        "en": "Google Sign-in"
+      },
+      {
+        "cn": "OAuth授权",
+        "en": "OAuth"
+      },
+      {
+        "cn": "本地化",
+        "en": "Localization"
+      },
+      {
+        "cn": "社交登录",
+        "en": "Social Login"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "SignUp",
+    "reasoning": "这是Google系统级OAuth账户选择弹窗，用于CalAI应用的Google登录授权。位于SignUp阶段末期（36/93），是注册流程的一部分。页面显示菲律宾语本地化版本，体现了产品的多语言支持策略。"
+  },
+  "Screen_037.png": {
+    "screen_type": "SignUp",
+    "naming": {
+      "cn": "Google授权确认",
+      "en": "Google OAuth Consent"
+    },
+    "core_function": {
+      "cn": "Google账号授权登录第三方应用的系统确认页",
+      "en": "System consent page for Google account OAuth authorization"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "Google标准OAuth页面设计，用户熟悉度高",
+        "en": "Standard Google OAuth page design with high user familiarity"
+      },
+      {
+        "category": "interaction",
+        "cn": "清晰的取消/继续双按钮选择",
+        "en": "Clear Cancel/Continue dual button options"
+      },
+      {
+        "category": "emotional",
+        "cn": "透明展示数据分享范围，建立信任",
+        "en": "Transparent display of data sharing scope builds trust"
+      }
+    ],
+    "product_insight": {
+      "cn": "Google OAuth标准授权流程展示了应用将获取的用户数据范围，包括姓名、邮箱、语言偏好和头像，透明的信息披露有助于降低用户注册时的顾虑。",
+      "en": "Google OAuth flow transparently shows data scope including name, email, language preference and profile picture, helping reduce user concerns during registration."
+    },
+    "tags": [
+      {
+        "cn": "Google登录",
+        "en": "Google Sign-in"
+      },
+      {
+        "cn": "OAuth授权",
+        "en": "OAuth Authorization"
+      },
+      {
+        "cn": "社交登录",
+        "en": "Social Login"
+      },
+      {
+        "cn": "数据隐私",
+        "en": "Data Privacy"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "SignUp",
+    "reasoning": "这是Google OAuth系统授权页面，属于SignUp注册流程的一部分。页面显示用户选择Google账号登录CalAI应用时的授权确认，位于SignUp阶段末期（第37张/阶段33-37），是完成社交登录的关键步骤。"
+  },
+  "Screen_038.png": {
+    "screen_type": "Home",
+    "naming": {
+      "cn": "主页仪表盘",
+      "en": "Home Dashboard"
+    },
+    "core_function": {
+      "cn": "显示每日卡路里目标和营养素剩余量，引导用户开始记录食物",
+      "en": "Display daily calorie goals and remaining nutrients, guide users to start food logging"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "毛玻璃卡片设计配合柔和渐变背景，极简清新",
+        "en": "Frosted glass cards with soft gradient background, minimalist and fresh"
+      },
+      {
+        "category": "interaction",
+        "cn": "周历导航直观展示当前日期，便于快速切换",
+        "en": "Week calendar navigation for intuitive date switching"
+      },
+      {
+        "category": "emotional",
+        "cn": "空状态引导语亲切友好，用手绘箭头指向拍照按钮",
+        "en": "Friendly empty state with hand-drawn arrow pointing to camera button"
+      },
+      {
+        "category": "conversion",
+        "cn": "突出的悬浮加号按钮降低用户首次记录门槛",
+        "en": "Prominent floating plus button lowers barrier to first food log"
+      }
+    ],
+    "product_insight": {
+      "cn": "首页采用大数字展示剩余卡路里，让用户一眼掌握预算。空状态设计巧妙引导用户拍照记录，手绘箭头增添趣味性，降低首次使用焦虑。",
+      "en": "Homepage displays remaining calories in large numbers for quick budget overview. Empty state cleverly guides users to photo logging with hand-drawn arrow, adding fun and reducing first-use anxiety."
+    },
+    "tags": [
+      {
+        "cn": "仪表盘",
+        "en": "Dashboard"
+      },
+      {
+        "cn": "卡路里追踪",
+        "en": "Calorie Tracking"
+      },
+      {
+        "cn": "空状态",
+        "en": "Empty State"
+      },
+      {
+        "cn": "营养管理",
+        "en": "Nutrition Management"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Home",
+    "reasoning": "页面有明确的底部导航栏（Home、Analytics、Settings），显示1000卡路里目标和宏量营养素剩余量，符合主页仪表盘定义。处于Home阶段第38张，空状态提示用户开始记录食物。"
+  },
+  "Screen_039.png": {
+    "screen_type": "Home",
+    "naming": {
+      "cn": "首页相机权限",
+      "en": "Home Camera Permission"
+    },
+    "core_function": {
+      "cn": "显示每日卡路里目标并请求相机权限以扫描食物",
+      "en": "Display daily calorie goal and request camera access for food scanning"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简卡片式设计，1000卡路里大字体突出目标",
+        "en": "Minimalist card design with prominent 1000 calorie target"
+      },
+      {
+        "category": "interaction",
+        "cn": "系统权限弹窗在首页触发，降低用户抵触感",
+        "en": "System permission popup triggered on home reduces user resistance"
+      },
+      {
+        "category": "emotional",
+        "cn": "友好引导文案解释权限用途，建立信任",
+        "en": "Friendly copy explaining permission purpose builds trust"
+      }
+    ],
+    "product_insight": {
+      "cn": "将相机权限请求延迟到首页而非引导流程中，让用户先看到产品价值（卡路里追踪目标），再请求权限，提高授权率。底部提示语形成行动召唤闭环。",
+      "en": "Delaying camera permission to home page lets users see product value first before requesting access, improving authorization rates. Bottom prompt creates complete call-to-action loop."
+    },
+    "tags": [
+      {
+        "cn": "权限请求",
+        "en": "Permission Request"
+      },
+      {
+        "cn": "卡路里追踪",
+        "en": "Calorie Tracking"
+      },
+      {
+        "cn": "首页仪表盘",
+        "en": "Dashboard"
+      },
+      {
+        "cn": "AI识别",
+        "en": "AI Recognition"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Home",
+    "reasoning": "页面有底部导航栏(Home/Analytics/Settings)，是主页仪表盘。显示系统权限弹窗请求相机访问，符合Home阶段描述。位于截图39/93，属于核心功能页面而非引导流程。"
+  },
+  "Screen_040.png": {
+    "screen_type": "Home",
+    "naming": {
+      "cn": "快捷操作菜单",
+      "en": "Quick Actions Menu"
+    },
+    "core_function": {
+      "cn": "展示食物记录的多种快捷入口方式",
+      "en": "Display multiple quick entry options for food logging"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "卡片式弹出菜单设计简洁明了",
+        "en": "Card-style popup menu with clean design"
+      },
+      {
+        "category": "interaction",
+        "cn": "四宫格布局便于快速选择操作类型",
+        "en": "Four-grid layout for quick action selection"
+      },
+      {
+        "category": "visual",
+        "cn": "背景模糊效果突出操作选项焦点",
+        "en": "Background blur effect highlights action options"
+      }
+    ],
+    "product_insight": {
+      "cn": "提供多种食物记录入口（运动、收藏、数据库、扫描），满足不同场景需求，降低用户记录门槛，提升使用频率。",
+      "en": "Multiple food logging entries (exercise, saved, database, scan) cater to different scenarios, reducing friction and boosting engagement."
+    },
+    "tags": [
+      {
+        "cn": "快捷操作",
+        "en": "Quick Actions"
+      },
+      {
+        "cn": "食物记录",
+        "en": "Food Logging"
+      },
+      {
+        "cn": "弹出菜单",
+        "en": "Popup Menu"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Home",
+    "reasoning": "页面显示底部导航栏，属于Home阶段结束位置。点击+按钮后弹出快捷操作菜单，提供四种食物/运动记录方式，是主页的功能扩展交互状态。"
+  },
+  "Screen_041.png": {
+    "screen_type": "Feature",
+    "naming": {
+      "cn": "扫描指南",
+      "en": "Scanning Guide"
+    },
+    "core_function": {
+      "cn": "教用户如何正确拍照扫描食物以获得准确识别",
+      "en": "Teach users how to properly scan food for accurate recognition"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "Do/Don't对比设计直观展示正确与错误示例",
+        "en": "Do/Don't comparison visually shows correct vs incorrect examples"
+      },
+      {
+        "category": "interaction",
+        "cn": "底部醒目的Scan now按钮引导立即操作",
+        "en": "Prominent Scan now button guides immediate action"
+      },
+      {
+        "category": "emotional",
+        "cn": "简洁的要点列表降低用户学习压力",
+        "en": "Concise bullet points reduce user learning burden"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过可视化的正反对比和简明的操作要点，有效降低AI识别失败率，提升用户对产品准确性的信任度，减少因操作不当导致的负面体验。",
+      "en": "Visual do/don't comparison with concise tips effectively reduces AI recognition failures, builds user trust in accuracy, and minimizes negative experiences from improper usage."
+    },
+    "tags": [
+      {
+        "cn": "使用指南",
+        "en": "Usage Guide"
+      },
+      {
+        "cn": "最佳实践",
+        "en": "Best Practices"
+      },
+      {
+        "cn": "扫描功能",
+        "en": "Scan Feature"
+      },
+      {
+        "cn": "用户教育",
+        "en": "User Education"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Core Features",
+    "reasoning": "这是第41张截图，属于Core Features阶段。页面展示扫描功能的最佳实践指南，通过Do/Don't对比帮助用户正确使用扫描功能。虽然具有教学性质，但位于产品核心功能阶段，是功能使用指南而非初始引导流程，且有明确的功能入口按钮Scan now，属于Feature类型的功能帮助页面。"
+  },
+  "Screen_042.png": {
+    "screen_type": "Feature",
+    "naming": {
+      "cn": "食物扫描相机",
+      "en": "Food Scanner Camera"
+    },
+    "core_function": {
+      "cn": "通过相机拍照扫描识别食物营养成分",
+      "en": "Scan and identify food nutrition via camera"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "全屏相机视图配合聚焦框引导用户对准食物",
+        "en": "Full-screen camera view with focus frame guiding food alignment"
+      },
+      {
+        "category": "interaction",
+        "cn": "底部多功能切换栏支持扫描食物/条码/标签/相册",
+        "en": "Bottom multi-function bar for food/barcode/label/gallery switching"
+      },
+      {
+        "category": "visual",
+        "cn": "深色界面搭配圆形快门按钮，符合相机使用习惯",
+        "en": "Dark interface with circular shutter button follows camera conventions"
+      }
+    ],
+    "product_insight": {
+      "cn": "核心功能页面设计简洁直观，多种识别模式（食物/条码/标签）覆盖不同使用场景，降低用户记录门槛，闪电图标暗示快速高效的AI识别体验。",
+      "en": "Core feature page with clean design, multiple recognition modes (food/barcode/label) cover various scenarios, reducing tracking barriers. Lightning icon implies fast AI recognition."
+    },
+    "tags": [
+      {
+        "cn": "AI识别",
+        "en": "AI Recognition"
+      },
+      {
+        "cn": "相机扫描",
+        "en": "Camera Scan"
+      },
+      {
+        "cn": "食物追踪",
+        "en": "Food Tracking"
+      },
+      {
+        "cn": "条码扫描",
+        "en": "Barcode Scan"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Core Features",
+    "reasoning": "这是App的核心功能页面-食物扫描相机界面。虽然没有底部导航栏，但这是相机拍摄的标准设计（需要全屏取景）。位于第42张截图的Core Features阶段，展示了AI拍照识别食物的核心价值功能，包含多种识别模式切换。"
+  },
+  "Screen_043.png": {
+    "screen_type": "Home",
+    "naming": {
+      "cn": "首页仪表盘",
+      "en": "Home Dashboard"
+    },
+    "core_function": {
+      "cn": "展示每日卡路里和营养素剩余量，AI分析食物进度",
+      "en": "Display daily calories and nutrients left, show AI food analysis progress"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "卡片式布局清晰分区，营养素用彩色图标区分",
+        "en": "Card-based layout with clear sections, colorful icons for nutrients"
+      },
+      {
+        "category": "interaction",
+        "cn": "周历可点击切换日期，实时显示AI分析进度",
+        "en": "Clickable week calendar, real-time AI analysis progress display"
+      },
+      {
+        "category": "emotional",
+        "cn": "火焰连续记录徽章激励用户保持打卡习惯",
+        "en": "Fire streak badge motivates users to maintain logging habits"
+      }
+    ],
+    "product_insight": {
+      "cn": "首页采用极简仪表盘设计，将卡路里剩余量作为核心指标突出显示，AI分析状态实时反馈增强用户等待体验，连续记录徽章强化用户粘性",
+      "en": "Minimalist dashboard design highlights remaining calories as core metric, real-time AI analysis status enhances waiting experience, streak badge reinforces user retention"
+    },
+    "tags": [
+      {
+        "cn": "仪表盘",
+        "en": "Dashboard"
+      },
+      {
+        "cn": "卡路里追踪",
+        "en": "Calorie Tracking"
+      },
+      {
+        "cn": "AI分析",
+        "en": "AI Analysis"
+      },
+      {
+        "cn": "营养素",
+        "en": "Nutrients"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Home",
+    "reasoning": "页面有底部导航栏（Home/Analytics/Settings），是App主界面。显示1000卡路里剩余量和三大营养素追踪，有周历选择器、火焰连续记录徽章(0)、AI分析进度提示，符合Home阶段描述。右下角有浮动添加按钮，整体是典型的健康追踪App首页仪表盘设计。"
+  },
+  "Screen_044.png": {
+    "screen_type": "Home",
+    "naming": {
+      "cn": "连续打卡弹窗",
+      "en": "Streak Achievement Modal"
+    },
+    "core_function": {
+      "cn": "展示用户连续记录天数，激励持续使用",
+      "en": "Display consecutive tracking days to motivate continued usage"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "火焰图标配合数字动效，视觉冲击力强",
+        "en": "Fire icon with number creates strong visual impact"
+      },
+      {
+        "category": "emotional",
+        "cn": "\"You're on fire!\"激励文案增强成就感",
+        "en": "\"You're on fire!\" copy enhances sense of achievement"
+      },
+      {
+        "category": "interaction",
+        "cn": "周历视图直观展示打卡进度，当日高亮标记",
+        "en": "Weekly calendar shows progress with today highlighted"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过游戏化的连续打卡机制创造用户粘性，利用损失厌恶心理促进每日回访，是健康类App常见的留存策略。",
+      "en": "Gamified streak mechanism creates user stickiness through loss aversion psychology, a common retention strategy in health apps."
+    },
+    "tags": [
+      {
+        "cn": "连续打卡",
+        "en": "Streak"
+      },
+      {
+        "cn": "游戏化",
+        "en": "Gamification"
+      },
+      {
+        "cn": "成就激励",
+        "en": "Achievement"
+      },
+      {
+        "cn": "用户留存",
+        "en": "Retention"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Home",
+    "reasoning": "底部有导航栏(Home/Analytics/Settings)，属于主页状态。弹窗展示连续打卡1天的成就，是首页的游戏化激励功能，与阶段描述\"1天连续记录徽章\"完全匹配。"
+  },
+  "Screen_045.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "今日追踪首页",
+      "en": "Daily Tracking Home"
+    },
+    "core_function": {
+      "cn": "展示每日卡路里和营养素摄入进度，快速查看已记录食物",
+      "en": "Display daily calorie and nutrient intake progress with recent food logs"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简卡片式布局，毛玻璃背景营造清新质感",
+        "en": "Minimalist card layout with frosted glass effect for fresh aesthetic"
+      },
+      {
+        "category": "interaction",
+        "cn": "周历横向排列便于快速切换日期查看",
+        "en": "Horizontal week calendar for quick date switching"
+      },
+      {
+        "category": "visual",
+        "cn": "环形进度条直观展示营养素摄入比例",
+        "en": "Circular progress rings visually show nutrient intake ratios"
+      },
+      {
+        "category": "emotional",
+        "cn": "火焰连续打卡图标激励用户保持记录习惯",
+        "en": "Streak flame icon motivates users to maintain logging habit"
+      }
+    ],
+    "product_insight": {
+      "cn": "首页聚焦「剩余可摄入量」而非「已摄入量」，符合减重用户心理——关注还能吃多少。连续打卡机制增强用户粘性，底部浮动按钮降低记录门槛。",
+      "en": "Homepage focuses on 'calories left' rather than 'consumed', aligning with weight-loss psychology. Streak mechanism enhances retention, floating action button reduces logging friction."
+    },
+    "tags": [
+      {
+        "cn": "仪表盘",
+        "en": "Dashboard"
+      },
+      {
+        "cn": "卡路里追踪",
+        "en": "Calorie Tracking"
+      },
+      {
+        "cn": "营养监控",
+        "en": "Nutrient Monitor"
+      },
+      {
+        "cn": "极简设计",
+        "en": "Minimalist Design"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Tracking",
+    "reasoning": "页面有底部导航栏且Home标签高亮，展示每日营养追踪仪表盘，显示卡路里剩余量、三大营养素进度和最近记录的食物。虽然阶段标注为Tracking，但这是App主界面首页，属于Home类型的dashboard子类型。"
+  },
+  "Screen_046.png": {
+    "screen_type": "Feature",
+    "naming": {
+      "cn": "快捷操作菜单",
+      "en": "Quick Actions Menu"
+    },
+    "core_function": {
+      "cn": "提供记录运动、查看保存食物、搜索食物库、扫描食物等快捷入口",
+      "en": "Quick access to log exercise, saved foods, food database and scan food"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "模态弹窗覆盖层设计，背景模糊突出操作选项",
+        "en": "Modal overlay with blurred background highlighting action options"
+      },
+      {
+        "category": "interaction",
+        "cn": "2x2网格布局快捷入口，操作直观高效",
+        "en": "2x2 grid layout for quick access, intuitive and efficient"
+      },
+      {
+        "category": "visual",
+        "cn": "图标设计简洁统一，黑白配色保持极简风格",
+        "en": "Minimalist icon design with consistent black and white color scheme"
+      }
+    ],
+    "product_insight": {
+      "cn": "将核心食物记录功能整合为快捷操作菜单，降低用户完成记录任务的路径复杂度，提升日常使用效率和粘性。",
+      "en": "Consolidating core food logging features into a quick action menu reduces task complexity and improves daily usage efficiency and retention."
+    },
+    "tags": [
+      {
+        "cn": "快捷菜单",
+        "en": "Quick Menu"
+      },
+      {
+        "cn": "食物记录",
+        "en": "Food Logging"
+      },
+      {
+        "cn": "模态弹窗",
+        "en": "Modal Overlay"
+      },
+      {
+        "cn": "扫描食物",
+        "en": "Scan Food"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Tracking",
+    "reasoning": "页面显示底部导航栏（Home/Analytics/Settings），属于主功能页面。当前展示的是点击FAB按钮后弹出的快捷操作菜单，包含4个核心功能入口。位于Tracking阶段，是食物记录流程的操作入口页面。"
+  },
+  "Screen_047.png": {
+    "screen_type": "Feature",
+    "naming": {
+      "cn": "条形码扫描",
+      "en": "Barcode Scanner"
+    },
+    "core_function": {
+      "cn": "通过扫描食品条形码快速识别产品营养信息",
+      "en": "Scan product barcodes to quickly identify nutritional information"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "创意条形码设计将奶牛剪影融入扫描框",
+        "en": "Creative barcode design integrates cow silhouette into scan frame"
+      },
+      {
+        "category": "interaction",
+        "cn": "实时相机预览配合扫描框引导用户对准",
+        "en": "Real-time camera preview with scan frame guides user alignment"
+      },
+      {
+        "category": "visual",
+        "cn": "底部多功能切换按钮支持不同扫描模式",
+        "en": "Bottom multi-function buttons support different scanning modes"
+      }
+    ],
+    "product_insight": {
+      "cn": "条形码扫描作为拍照识别的补充，为包装食品提供更精准的营养数据查询，扩展了AI识别的应用场景，满足用户追踪加工食品的需求。",
+      "en": "Barcode scanning complements photo recognition, providing more accurate nutritional data lookup for packaged foods, expanding AI recognition scenarios for tracking processed foods."
+    },
+    "tags": [
+      {
+        "cn": "条形码扫描",
+        "en": "Barcode Scan"
+      },
+      {
+        "cn": "食品识别",
+        "en": "Food Recognition"
+      },
+      {
+        "cn": "相机功能",
+        "en": "Camera Feature"
+      },
+      {
+        "cn": "营养追踪",
+        "en": "Nutrition Tracking"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Core Features",
+    "reasoning": "页面显示条形码扫描功能界面，有相机实时预览和扫描框，底部有Scan Food、Barcode、Food label、Gallery等功能切换按钮，显示扫描到的牛奶产品信息。处于Core Features阶段第47张，属于核心功能的食物数据库搜索方式之一。"
+  },
+  "Screen_048.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "运动类型选择",
+      "en": "Exercise Type Selection"
+    },
+    "core_function": {
+      "cn": "选择运动类型以记录锻炼活动",
+      "en": "Select exercise type to log workout activities"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简卡片设计配合清晰图标区分运动类型",
+        "en": "Minimalist card design with clear icons distinguishing exercise types"
+      },
+      {
+        "category": "interaction",
+        "cn": "三种输入方式满足不同用户习惯：预设/搜索/文字描述",
+        "en": "Three input methods for different user preferences: preset/search/text description"
+      },
+      {
+        "category": "emotional",
+        "cn": "自由描述选项降低用户记录门槛和心理负担",
+        "en": "Free description option lowers recording barrier and mental burden"
+      }
+    ],
+    "product_insight": {
+      "cn": "运动记录功能采用分类入口设计，跑步和举重作为核心选项优先展示，同时提供文字描述入口满足非标准运动场景，体现了对用户多样化运动习惯的包容性设计。",
+      "en": "Exercise logging uses categorized entry design with running and weight lifting as priority options, plus text description for non-standard exercises, showing inclusive design for diverse workout habits."
+    },
+    "tags": [
+      {
+        "cn": "运动记录",
+        "en": "Exercise Logging"
+      },
+      {
+        "cn": "卡路里追踪",
+        "en": "Calorie Tracking"
+      },
+      {
+        "cn": "分类选择",
+        "en": "Category Selection"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Core Features",
+    "reasoning": "页面标题'Log Exercise'明确表明这是运动记录功能入口，提供三种运动类型选择（跑步、举重、文字描述），属于Core Features阶段的Tracking类型页面，符合阶段描述中的'运动记录功能'。"
+  },
+  "Screen_049.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "跑步记录",
+      "en": "Run Tracking"
+    },
+    "core_function": {
+      "cn": "设置跑步运动的强度和持续时间",
+      "en": "Set running exercise intensity and duration"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "垂直滑块直观展示强度等级切换",
+        "en": "Vertical slider intuitively shows intensity level switching"
+      },
+      {
+        "category": "interaction",
+        "cn": "预设时长按钮配合自定义输入框双模式",
+        "en": "Preset duration buttons with custom input dual-mode"
+      },
+      {
+        "category": "emotional",
+        "cn": "用生活化描述解释运动强度（如Chill walk）",
+        "en": "Life-style descriptions explain intensity levels (e.g., Chill walk)"
+      }
+    ],
+    "product_insight": {
+      "cn": "运动记录通过将专业配速数据转化为日常语言（如4分钟配速=冲刺），降低用户认知门槛，让非专业用户也能准确记录运动消耗。",
+      "en": "Exercise logging converts professional pace data into everyday language (e.g., 4-min pace = sprinting), reducing cognitive load and enabling non-professional users to accurately log exercise."
+    },
+    "tags": [
+      {
+        "cn": "运动追踪",
+        "en": "Exercise Tracking"
+      },
+      {
+        "cn": "卡路里消耗",
+        "en": "Calorie Burn"
+      },
+      {
+        "cn": "强度设置",
+        "en": "Intensity Setting"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Core Features",
+    "reasoning": "位于Core Features阶段(47-51张)中部，页面展示跑步运动记录功能，包含强度选择滑块和时长设置，是典型的运动数据输入页面，属于Tracking类型。无底部导航栏说明是从主功能页进入的子页面。"
+  },
+  "Screen_050.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "食物数据库",
+      "en": "Food Database"
+    },
+    "core_function": {
+      "cn": "从数据库搜索并选择食物记录卡路里",
+      "en": "Search and select food from database to log calories"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "简洁卡片列表展示食物选项，信息层次清晰",
+        "en": "Clean card list displaying food options with clear information hierarchy"
+      },
+      {
+        "category": "interaction",
+        "cn": "即时搜索+一键添加，底部Toast确认记录成功",
+        "en": "Instant search with one-tap add, bottom toast confirms successful logging"
+      },
+      {
+        "category": "conversion",
+        "cn": "AI生成宏量元素功能入口突出，引导用户使用智能功能",
+        "en": "Prominent AI macro generation entry guides users to smart features"
+      },
+      {
+        "category": "emotional",
+        "cn": "记录成功反馈温和友好，提供编辑入口降低操作焦虑",
+        "en": "Gentle success feedback with edit option reduces operation anxiety"
+      }
+    ],
+    "product_insight": {
+      "cn": "将AI功能与传统数据库搜索结合，既提供快速智能识别入口，又保留手动搜索选项，满足不同用户习惯。成功反馈设计考虑到用户可能的修改需求。",
+      "en": "Combines AI features with traditional database search, offering both quick smart recognition and manual search options. Success feedback design considers users' potential editing needs."
+    },
+    "tags": [
+      {
+        "cn": "食物搜索",
+        "en": "Food Search"
+      },
+      {
+        "cn": "卡路里记录",
+        "en": "Calorie Logging"
+      },
+      {
+        "cn": "AI生成",
+        "en": "AI Generation"
+      },
+      {
+        "cn": "数据库",
+        "en": "Database"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Core Features",
+    "reasoning": "页面标题为Food Database，展示食物搜索列表并显示卡路里信息，用户可选择添加食物。底部Toast提示食物已记录成功。属于Core Features阶段的食物数据库搜索功能，是典型的Tracking记录类型页面。"
+  },
+  "Screen_051.png": {
+    "screen_type": "Feature",
+    "naming": {
+      "cn": "食物数据库搜索",
+      "en": "Food Database Search"
+    },
+    "core_function": {
+      "cn": "从数据库搜索和选择食物以记录卡路里摄入",
+      "en": "Search and select food from database to log calorie intake"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简列表设计，卡路里和份量信息清晰呈现",
+        "en": "Minimalist list design with clear calorie and serving info"
+      },
+      {
+        "category": "interaction",
+        "cn": "AI生成宏量营养素按钮提供智能替代方案",
+        "en": "AI macro generation button provides smart alternative"
+      },
+      {
+        "category": "conversion",
+        "cn": "多标签筛选器(All/My meals/My foods)提升搜索效率",
+        "en": "Multi-tab filters improve search efficiency"
+      }
+    ],
+    "product_insight": {
+      "cn": "结合传统数据库搜索与AI生成功能，满足不同用户偏好。丰富的预设食物条目降低手动输入成本，提升记录效率和用户粘性。",
+      "en": "Combines traditional database search with AI generation to meet different user preferences. Rich preset food entries reduce manual input effort, improving logging efficiency and retention."
+    },
+    "tags": [
+      {
+        "cn": "食物搜索",
+        "en": "Food Search"
+      },
+      {
+        "cn": "卡路里数据库",
+        "en": "Calorie Database"
+      },
+      {
+        "cn": "AI生成",
+        "en": "AI Generation"
+      },
+      {
+        "cn": "营养追踪",
+        "en": "Nutrition Tracking"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Core Features",
+    "reasoning": "处于Core Features阶段末期(第51张)，页面展示食物数据库搜索功能，用户可通过搜索或AI生成来添加食物记录。虽无可见底部导航栏，但基于阶段位置和功能特征判断为Feature类型的食物数据库搜索子功能。"
+  },
+  "Screen_052.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "食物数据库搜索",
+      "en": "Food Database Search"
+    },
+    "core_function": {
+      "cn": "搜索并选择食物数据库中的凯撒沙拉条目进行记录",
+      "en": "Search and select Caesar Salad entries from food database for logging"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "简洁的搜索结果列表，清晰展示卡路里和份量信息",
+        "en": "Clean search results list with clear calorie and portion info"
+      },
+      {
+        "category": "interaction",
+        "cn": "选中项带勾选反馈，底部弹窗确认记录成功",
+        "en": "Selected item with checkmark feedback, bottom toast confirms logging"
+      },
+      {
+        "category": "conversion",
+        "cn": "AI生成宏量营养素按钮引导用户使用智能功能",
+        "en": "AI macro generation button guides users to smart features"
+      }
+    ],
+    "product_insight": {
+      "cn": "食物数据库提供多个同类食品选项，结合AI生成功能，让用户无论选择预设还是自定义都能高效完成记录，降低追踪门槛",
+      "en": "Food database offers multiple similar options, combined with AI generation, enabling efficient logging whether choosing presets or custom entries, lowering tracking barriers"
+    },
+    "tags": [
+      {
+        "cn": "食物搜索",
+        "en": "Food Search"
+      },
+      {
+        "cn": "数据库",
+        "en": "Database"
+      },
+      {
+        "cn": "卡路里记录",
+        "en": "Calorie Logging"
+      },
+      {
+        "cn": "AI功能",
+        "en": "AI Feature"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Tracking",
+    "reasoning": "页面显示食物数据库搜索界面，用户搜索Caesar Salad后显示多个匹配结果，已选中一项并弹出'Food logged'确认提示。这是典型的食物追踪记录功能页面，属于Tracking阶段的核心交互流程。"
+  },
+  "Screen_053.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "营养详情页",
+      "en": "Nutrition Detail"
+    },
+    "core_function": {
+      "cn": "展示凯撒沙拉的详细营养成分和份量调整",
+      "en": "Display detailed nutrition info for Caesar Salad with portion adjustment"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "卡片式营养数据布局，层次清晰易读",
+        "en": "Card-based nutrition data layout with clear hierarchy"
+      },
+      {
+        "category": "interaction",
+        "cn": "三种计量单位切换（杯/克/份）灵活适配用户习惯",
+        "en": "Three measurement units toggle (Cup/G/Serving) for flexibility"
+      },
+      {
+        "category": "emotional",
+        "cn": "火焰图标强化卡路里视觉印象，符合健身直觉",
+        "en": "Flame icon reinforces calorie visual impression for fitness intuition"
+      }
+    ],
+    "product_insight": {
+      "cn": "食物营养详情页采用极简卡片设计，将核心宏量营养素（蛋白质、碳水、脂肪）突出展示，支持多种计量单位切换，满足不同用户的记录习惯，降低追踪门槛。",
+      "en": "Minimalist card design highlights core macros (protein, carbs, fats) with multiple measurement unit options, accommodating different user tracking habits and lowering the barrier to food logging."
+    },
+    "tags": [
+      {
+        "cn": "营养信息",
+        "en": "Nutrition Info"
+      },
+      {
+        "cn": "份量调整",
+        "en": "Portion Control"
+      },
+      {
+        "cn": "卡路里追踪",
+        "en": "Calorie Tracking"
+      },
+      {
+        "cn": "食物详情",
+        "en": "Food Detail"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Tracking",
+    "reasoning": "页面展示特定食物（凯撒沙拉）的详细营养成分，包含卡路里、宏量营养素、份量调整功能，属于食物追踪流程中的营养信息详情页。位于Tracking阶段中部，与阶段描述'凯撒沙拉营养信息、份量调整'完全吻合。"
+  },
+  "Screen_054.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "今日追踪首页",
+      "en": "Daily Tracking Home"
+    },
+    "core_function": {
+      "cn": "展示当日卡路里和营养素摄入进度及最近记录",
+      "en": "Display daily calorie and nutrient intake progress with recent logs"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "毛玻璃卡片设计配合环形进度图，视觉清新现代",
+        "en": "Frosted glass cards with circular progress rings, clean modern aesthetic"
+      },
+      {
+        "category": "interaction",
+        "cn": "周历导航便于快速切换日期查看历史数据",
+        "en": "Week calendar navigation for quick date switching"
+      },
+      {
+        "category": "emotional",
+        "cn": "火焰连续打卡标识激励用户保持记录习惯",
+        "en": "Fire streak badge motivates consistent logging habits"
+      }
+    ],
+    "product_insight": {
+      "cn": "首页信息层级清晰，优先展示剩余卡路里和三大营养素进度，让用户一目了然掌握今日饮食状态，降低追踪的心智负担",
+      "en": "Clear information hierarchy prioritizes remaining calories and macros progress, enabling users to instantly grasp daily nutrition status and reducing tracking cognitive load"
+    },
+    "tags": [
+      {
+        "cn": "仪表盘",
+        "en": "Dashboard"
+      },
+      {
+        "cn": "卡路里追踪",
+        "en": "Calorie Tracking"
+      },
+      {
+        "cn": "营养素",
+        "en": "Macros"
+      },
+      {
+        "cn": "每日记录",
+        "en": "Daily Logging"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Tracking",
+    "reasoning": "页面有底部导航栏且Home标签高亮，显示每日卡路里和营养素追踪进度，是App的主仪表盘。包含周日历、剩余卡路里、三大营养素进度环、最近记录列表等核心追踪功能，符合Home类型定义。"
+  },
+  "Screen_055.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "宏量营养目标",
+      "en": "Macronutrient Goals"
+    },
+    "core_function": {
+      "cn": "自定义设置每日蛋白质、碳水和脂肪摄入目标",
+      "en": "Customize daily protein, carb and fat intake goals"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "三环可视化直观展示各营养素占比",
+        "en": "Triple ring visualization for macro ratios"
+      },
+      {
+        "category": "interaction",
+        "cn": "一键自动生成目标简化设置流程",
+        "en": "Auto generate button simplifies goal setting"
+      },
+      {
+        "category": "visual",
+        "cn": "色彩编码区分不同营养素便于识别",
+        "en": "Color-coded nutrients for easy identification"
+      }
+    ],
+    "product_insight": {
+      "cn": "将复杂的营养学计算简化为可视化目标设定，三环设计直观展示宏量配比，自动生成功能降低用户决策负担，让专业营养规划变得平易近人。",
+      "en": "Simplifies complex nutrition into visual goal setting. Triple ring design shows macro ratios intuitively, auto-generate reduces decision burden, making professional nutrition planning accessible."
+    },
+    "tags": [
+      {
+        "cn": "目标设定",
+        "en": "Goal Setting"
+      },
+      {
+        "cn": "宏量营养",
+        "en": "Macronutrients"
+      },
+      {
+        "cn": "个性化",
+        "en": "Personalization"
+      },
+      {
+        "cn": "数据可视化",
+        "en": "Data Visualization"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Tracking",
+    "reasoning": "页面为调整营养目标的设置页面，允许用户自定义卡路里和三大宏量营养素目标。有返回按钮，属于设置/功能型页面。位于Tracking阶段末尾，作为追踪功能的配置补充，符合阶段描述中的份量调整相关功能。"
+  },
+  "Screen_056.png": {
+    "screen_type": "Onboarding",
+    "naming": {
+      "cn": "运动频率评估",
+      "en": "Workout Frequency"
+    },
+    "core_function": {
+      "cn": "收集用户每周运动频率以定制健身计划",
+      "en": "Collect weekly workout frequency to customize fitness plan"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "使用圆点图标直观表示运动强度等级",
+        "en": "Dot icons visually represent workout intensity levels"
+      },
+      {
+        "category": "interaction",
+        "cn": "单选卡片式设计便于快速选择",
+        "en": "Single-select card design for quick selection"
+      },
+      {
+        "category": "emotional",
+        "cn": "友好的描述性标签降低用户压力感",
+        "en": "Friendly descriptive labels reduce user pressure"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过运动频率评估了解用户当前健身水平，结合卡路里目标制定更精准的个性化计划，提升用户对定制方案的信任感。",
+      "en": "Assessing workout frequency helps understand user fitness level, enabling more accurate personalized plans combined with calorie goals, building trust in customized recommendations."
+    },
+    "tags": [
+      {
+        "cn": "健身评估",
+        "en": "Fitness Assessment"
+      },
+      {
+        "cn": "个性化设置",
+        "en": "Personalization"
+      },
+      {
+        "cn": "单选问题",
+        "en": "Single Choice"
+      }
+    ],
+    "confidence": 0.88,
+    "stage_name": "Tracking",
+    "reasoning": "虽然标注为Tracking阶段，但页面展示典型的Onboarding问卷特征：进度条、单选卡片、Next按钮、无底部导航栏，且内容是收集用户运动频率以定制计划，属于偏好收集类引导流程。可能是阶段标注偏差，实际应为Onboarding。"
+  },
+  "Screen_057.png": {
+    "screen_type": "Settings",
+    "naming": {
+      "cn": "宏量营养素设置",
+      "en": "Macros Goal Settings"
+    },
+    "core_function": {
+      "cn": "调整每日卡路里和宏量营养素目标值",
+      "en": "Adjust daily calorie and macronutrient goals"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "环形图直观展示三大营养素比例分配",
+        "en": "Ring chart intuitively displays macronutrient ratio distribution"
+      },
+      {
+        "category": "interaction",
+        "cn": "数字键盘即时输入，便于精确设置目标",
+        "en": "Numeric keypad for precise goal input"
+      },
+      {
+        "category": "emotional",
+        "cn": "Revert按钮提供安全感，可随时恢复默认",
+        "en": "Revert button provides safety to restore defaults anytime"
+      }
+    ],
+    "product_insight": {
+      "cn": "将复杂的营养目标设置简化为可视化环形图和直接数字输入，降低用户理解门槛，同时保留专业用户需要的精确控制能力。",
+      "en": "Simplifies complex nutrition goal setting with visual ring charts and direct numeric input, lowering learning curve while retaining precise control for advanced users."
+    },
+    "tags": [
+      {
+        "cn": "目标设置",
+        "en": "Goal Setting"
+      },
+      {
+        "cn": "营养追踪",
+        "en": "Nutrition Tracking"
+      },
+      {
+        "cn": "数据可视化",
+        "en": "Data Visualization"
+      },
+      {
+        "cn": "个性化",
+        "en": "Personalization"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Settings",
+    "reasoning": "页面标题为'Adjust Goals'和'Macronutrients'，提供卡路里和蛋白质目标输入，有数字键盘和确认按钮，属于Settings阶段的目标调整功能页面。无底部导航栏但在截图后期位置，符合设置页特征。"
+  },
+  "Screen_058.png": {
+    "screen_type": "Settings",
+    "naming": {
+      "cn": "首页仪表盘",
+      "en": "Home Dashboard"
+    },
+    "core_function": {
+      "cn": "展示每日步数、卡路里消耗、饮水量及饮食记录",
+      "en": "Display daily steps, calories burned, water intake and food logs"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "卡片式布局简洁清新，毛玻璃效果增加层次感",
+        "en": "Card-based layout with glassmorphism adds depth"
+      },
+      {
+        "category": "interaction",
+        "cn": "周历快速切换日期，便于查看历史数据",
+        "en": "Weekly calendar for quick date navigation"
+      },
+      {
+        "category": "emotional",
+        "cn": "火焰图标连续打卡激励用户保持记录习惯",
+        "en": "Streak fire icon motivates consistent logging"
+      }
+    ],
+    "product_insight": {
+      "cn": "首页整合健康数据全貌，引导连接Apple Health形成数据闭环，弹窗提示添加卡路里目标降低新用户上手门槛",
+      "en": "Home integrates health overview, prompts Apple Health connection for data sync, and guides goal setup to reduce onboarding friction"
+    },
+    "tags": [
+      {
+        "cn": "仪表盘",
+        "en": "Dashboard"
+      },
+      {
+        "cn": "健康追踪",
+        "en": "Health Tracking"
+      },
+      {
+        "cn": "卡路里记录",
+        "en": "Calorie Logging"
+      },
+      {
+        "cn": "数据集成",
+        "en": "Data Integration"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Settings",
+    "reasoning": "页面有底部导航栏（Home/Analytics/Settings），显示每日健康数据概览，包括步数、卡路里、饮水、饮食记录等核心功能，是典型的首页仪表盘。虽然阶段标注为Settings，但页面内容和UI结构明确是Home页面。"
+  },
+  "Screen_060.png": {
+    "screen_type": "Settings",
+    "naming": {
+      "cn": "饮水设置",
+      "en": "Water Settings"
+    },
+    "core_function": {
+      "cn": "设置每次饮水量和每日饮水目标",
+      "en": "Configure serving size and daily water intake goal"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "底部弹窗式设计，聚焦单一设置项",
+        "en": "Bottom sheet modal design focusing on single setting"
+      },
+      {
+        "category": "interaction",
+        "cn": "可编辑的饮水量输入，带铅笔图标指示",
+        "en": "Editable serving size input with pencil icon indicator"
+      },
+      {
+        "category": "emotional",
+        "cn": "贴心的科学建议说明，帮助用户理解合理目标",
+        "en": "Helpful scientific recommendation explaining reasonable goals"
+      }
+    ],
+    "product_insight": {
+      "cn": "将饮水设置独立为底部弹窗，避免用户在复杂设置中迷失。提供2000ml的推荐标准，降低用户决策负担，同时允许个性化调整。",
+      "en": "Isolating water settings in a bottom sheet prevents users from getting lost in complex settings. Providing 2000ml recommendation reduces decision burden while allowing personalization."
+    },
+    "tags": [
+      {
+        "cn": "饮水追踪",
+        "en": "Water Tracking"
+      },
+      {
+        "cn": "健康设置",
+        "en": "Health Settings"
+      },
+      {
+        "cn": "底部弹窗",
+        "en": "Bottom Sheet"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Settings",
+    "reasoning": "这是Settings阶段的最后一张截图，显示底部弹窗的饮水设置界面。背景可见主页面的日历和步数/卡路里信息，弹窗内提供饮水量设置和科学建议，符合Settings类型的特征。"
+  },
+  "Screen_059.png": {
+    "screen_type": "Permission",
+    "naming": {
+      "cn": "健康数据权限",
+      "en": "Health Data Access"
+    },
+    "core_function": {
+      "cn": "请求用户授权访问和写入Apple健康数据",
+      "en": "Request permission to access and write Apple Health data"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "iOS原生健康权限弹窗，符合用户预期",
+        "en": "Native iOS Health permission dialog matches user expectations"
+      },
+      {
+        "category": "interaction",
+        "cn": "每项数据单独开关，给予用户精细控制权",
+        "en": "Individual toggles for each data type give users granular control"
+      },
+      {
+        "category": "emotional",
+        "cn": "Turn Off All选项减少用户压力感",
+        "en": "Turn Off All option reduces user pressure"
+      }
+    ],
+    "product_insight": {
+      "cn": "Cal AI请求写入多种健康数据权限，包括活动能量、营养素、体脂率等，体现其作为综合健康管理工具的定位，而非单一卡路里追踪器。",
+      "en": "Cal AI requests write access to various health data types including energy, nutrients, and body composition, positioning itself as a comprehensive health management tool beyond simple calorie tracking."
+    },
+    "tags": [
+      {
+        "cn": "健康权限",
+        "en": "Health Permission"
+      },
+      {
+        "cn": "Apple Health",
+        "en": "Apple Health"
+      },
+      {
+        "cn": "数据同步",
+        "en": "Data Sync"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Settings",
+    "reasoning": "这是iOS系统级的Apple Health权限请求弹窗，Cal AI请求写入健康数据的权限。虽然位于Settings阶段后期（第59张），但这是从设置页面触发的健康数据授权流程，属于Permission类型。页面展示了详细的数据写入权限列表，允许用户精细控制每项数据的授权。"
+  },
+  "Screen_061.png": {
+    "screen_type": "Feature",
+    "naming": {
+      "cn": "饮水设置",
+      "en": "Water Settings"
+    },
+    "core_function": {
+      "cn": "设置每次饮水的份量大小",
+      "en": "Configure water serving size for hydration tracking"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "滚轮选择器直观展示数值选项",
+        "en": "Scroll picker intuitively displays value options"
+      },
+      {
+        "category": "interaction",
+        "cn": "底部弹窗模态框便于快速设置",
+        "en": "Bottom sheet modal enables quick configuration"
+      },
+      {
+        "category": "emotional",
+        "cn": "贴心提供每日2L饮水建议",
+        "en": "Thoughtful daily 2L hydration recommendation"
+      }
+    ],
+    "product_insight": {
+      "cn": "饮水追踪是健康管理的基础功能，通过预设常用份量（250-1000ml）简化记录过程，降低用户追踪成本，提升长期使用粘性。",
+      "en": "Water tracking is fundamental to health management. Pre-set serving sizes (250-1000ml) simplify logging, reducing friction and improving long-term engagement."
+    },
+    "tags": [
+      {
+        "cn": "饮水追踪",
+        "en": "Water Tracking"
+      },
+      {
+        "cn": "健康设置",
+        "en": "Health Settings"
+      },
+      {
+        "cn": "份量选择",
+        "en": "Serving Size"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Core Features",
+    "reasoning": "这是一个设置页面的底部弹窗，用于配置饮水追踪的份量大小。背景显示首页的步数和卡路里数据，说明这是从核心功能页面触发的设置。属于Core Features阶段的饮水追踪功能设置。"
+  },
+  "Screen_062.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "食物营养详情",
+      "en": "Food Nutrition Detail"
+    },
+    "core_function": {
+      "cn": "展示高蛋白奶昔的详细营养成分和卡路里信息",
+      "en": "Display detailed nutrition info and calories for protein shake"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "卡片式营养数据展示，三大宏量营养素并排呈现清晰直观",
+        "en": "Card-based nutrition display with macros shown side by side"
+      },
+      {
+        "category": "interaction",
+        "cn": "份数可编辑，灵活调整记录量",
+        "en": "Editable serving number for flexible portion tracking"
+      },
+      {
+        "category": "emotional",
+        "cn": "30g蛋白质突出显示，强化高蛋白健身食品的价值感",
+        "en": "30g protein highlighted, reinforcing high-protein fitness food value"
+      }
+    ],
+    "product_insight": {
+      "cn": "食物数据库支持品牌产品（Premier Nutrition），满足健身人群对高蛋白补剂追踪需求，精准的营养数据增强用户对App专业度的信任",
+      "en": "Food database supports branded products for fitness users tracking protein supplements, precise nutrition data builds trust in app's professionalism"
+    },
+    "tags": [
+      {
+        "cn": "营养详情",
+        "en": "Nutrition Detail"
+      },
+      {
+        "cn": "蛋白质追踪",
+        "en": "Protein Tracking"
+      },
+      {
+        "cn": "品牌食品",
+        "en": "Branded Food"
+      },
+      {
+        "cn": "份量调整",
+        "en": "Portion Control"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Core Features",
+    "reasoning": "这是Core Features阶段的食物详情页面，展示Premier Nutrition高蛋白奶昔的完整营养信息。页面包含卡路里(160)、蛋白质(30g)、碳水(4g)、脂肪(3g)等详细数据，支持份数编辑，属于典型的食物追踪记录功能页面。"
+  },
+  "Screen_063.png": {
+    "screen_type": "Feature",
+    "naming": {
+      "cn": "食物操作菜单",
+      "en": "Food Options Menu"
+    },
+    "core_function": {
+      "cn": "提供食物条目的举报、删除等管理操作",
+      "en": "Provide report, delete and other management options for food items"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "下拉菜单采用卡片式设计，层次分明",
+        "en": "Dropdown menu uses card design with clear hierarchy"
+      },
+      {
+        "category": "interaction",
+        "cn": "删除选项使用红色警示色，防止误操作",
+        "en": "Delete option uses red warning color to prevent accidental actions"
+      },
+      {
+        "category": "visual",
+        "cn": "营养数据展示清晰，蛋白质30g突出高蛋白特性",
+        "en": "Nutrition data display clear, 30g protein highlights high-protein feature"
+      }
+    ],
+    "product_insight": {
+      "cn": "提供食物举报和删除功能体现了UGC数据库的社区治理机制，用户可参与数据质量管理，同时30g蛋白质的高蛋白奶昔记录符合健身人群需求",
+      "en": "Food report and delete functions reflect community governance for UGC database, users participate in data quality management, 30g protein shake record suits fitness users needs"
+    },
+    "tags": [
+      {
+        "cn": "食物管理",
+        "en": "Food Management"
+      },
+      {
+        "cn": "高蛋白食品",
+        "en": "High Protein Food"
+      },
+      {
+        "cn": "数据操作",
+        "en": "Data Operations"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Core Features",
+    "reasoning": "这是食物详情页面的操作菜单展开状态，位于Core Features阶段中部，显示Premier Nutrition高蛋白奶昔的营养信息。页面展示了举报和删除食物的下拉菜单选项，属于食物数据库管理功能的一部分，符合阶段描述中的'食物数据库管理'特征。"
+  },
+  "Screen_064.png": {
+    "screen_type": "Progress",
+    "naming": {
+      "cn": "连续打卡庆祝",
+      "en": "Streak Celebration"
+    },
+    "core_function": {
+      "cn": "展示用户连续记录天数，激励持续使用",
+      "en": "Display consecutive tracking days to motivate continued usage"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "火焰图标配合数字设计，视觉冲击力强",
+        "en": "Fire icon with number design creates strong visual impact"
+      },
+      {
+        "category": "emotional",
+        "cn": "\"You're on fire!\"鼓励性文案增强成就感",
+        "en": "\"You're on fire!\" encouraging copy enhances achievement feeling"
+      },
+      {
+        "category": "interaction",
+        "cn": "周历视图配合打卡标记，清晰展示进度",
+        "en": "Weekly calendar with check marks clearly shows progress"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过连续打卡机制和即时庆祝反馈，利用用户损失厌恶心理，有效提升日活留存。火焰streak是健康类App验证有效的用户粘性设计。",
+      "en": "Streak mechanism with instant celebration leverages loss aversion psychology to boost daily retention. Fire streak is a proven engagement design for health apps."
+    },
+    "tags": [
+      {
+        "cn": "连续打卡",
+        "en": "Streak"
+      },
+      {
+        "cn": "成就激励",
+        "en": "Achievement"
+      },
+      {
+        "cn": "游戏化",
+        "en": "Gamification"
+      },
+      {
+        "cn": "用户留存",
+        "en": "Retention"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Core Features",
+    "reasoning": "页面展示1天连续打卡成就，有火焰图标和周历视图，属于Progress类型的streak庆祝子类型。位于Core Features阶段末期，是用户完成记录后的激励反馈页面，有底部导航栏可见，符合功能阶段特征。"
+  },
+  "Screen_065.png": {
+    "screen_type": "Feature",
+    "naming": {
+      "cn": "快速操作菜单",
+      "en": "Quick Actions Menu"
+    },
+    "core_function": {
+      "cn": "提供快速入口记录运动、搜索食物库、扫描食物等操作",
+      "en": "Quick access to log exercise, food database, and scan food"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "毛玻璃模糊背景突出浮层菜单焦点",
+        "en": "Frosted glass blur effect highlights floating menu focus"
+      },
+      {
+        "category": "interaction",
+        "cn": "四格快捷入口布局操作明确清晰",
+        "en": "Four-grid shortcut layout with clear action items"
+      },
+      {
+        "category": "visual",
+        "cn": "统一的图标设计风格简洁现代",
+        "en": "Unified minimalist icon design style"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过快捷操作菜单整合多种记录方式，扫描食物、搜索数据库、保存记录等入口一目了然，降低用户操作决策成本，提升记录效率。",
+      "en": "Quick action menu integrates multiple logging methods - scan food, search database, saved foods - reducing decision cost and improving logging efficiency."
+    },
+    "tags": [
+      {
+        "cn": "快捷操作",
+        "en": "Quick Actions"
+      },
+      {
+        "cn": "食物扫描",
+        "en": "Food Scan"
+      },
+      {
+        "cn": "浮层菜单",
+        "en": "Floating Menu"
+      },
+      {
+        "cn": "运动记录",
+        "en": "Exercise Log"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Core Features",
+    "reasoning": "页面显示底部导航栏和快速操作浮层菜单，背景是首页卡路里追踪界面被模糊处理，四个快捷入口提供不同的食物/运动记录方式。处于Core Features阶段后期，是核心功能的快捷操作入口。"
+  },
+  "Screen_066.png": {
+    "screen_type": "Feature",
+    "naming": {
+      "cn": "食物数据库",
+      "en": "Food Database"
+    },
+    "core_function": {
+      "cn": "搜索和管理已扫描保存的食物记录",
+      "en": "Search and manage saved scanned food records"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简分类标签设计，清晰区分数据来源",
+        "en": "Minimalist category tabs clearly distinguish data sources"
+      },
+      {
+        "category": "interaction",
+        "cn": "搜索框+标签筛选的双重查找方式",
+        "en": "Dual search method with search bar and tab filters"
+      },
+      {
+        "category": "emotional",
+        "cn": "时间戳显示增强用户对记录的掌控感",
+        "en": "Timestamp display enhances user control over records"
+      }
+    ],
+    "product_insight": {
+      "cn": "食物数据库将用户扫描历史沉淀为个人资产，支持快速复用常吃食物，降低重复扫描成本，提升长期使用粘性",
+      "en": "Food database transforms scan history into personal assets, enabling quick reuse of frequent foods, reducing repetitive scanning and improving long-term engagement"
+    },
+    "tags": [
+      {
+        "cn": "食物搜索",
+        "en": "Food Search"
+      },
+      {
+        "cn": "历史记录",
+        "en": "History"
+      },
+      {
+        "cn": "数据管理",
+        "en": "Data Management"
+      },
+      {
+        "cn": "快速添加",
+        "en": "Quick Add"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Core Features",
+    "reasoning": "第66张截图处于Core Features阶段末尾，显示食物数据库功能页面，包含搜索框、分类标签（All/My meals/My foods/Saved scans）和已保存的扫描记录列表。虽然没有可见的底部导航栏，但这是从主功能进入的数据管理子页面，属于Feature类型。"
+  },
+  "Screen_067.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "已保存扫描",
+      "en": "Saved Scans"
+    },
+    "core_function": {
+      "cn": "管理AI扫描识别的历史食物记录",
+      "en": "Manage AI-scanned food history records"
+    },
+    "design_highlights": [
+      {
+        "category": "interaction",
+        "cn": "左滑显示删除按钮，符合iOS操作习惯",
+        "en": "Swipe left to reveal delete button, follows iOS conventions"
+      },
+      {
+        "category": "visual",
+        "cn": "分类标签页切换，清晰区分不同食物来源",
+        "en": "Tab navigation clearly separates different food sources"
+      },
+      {
+        "category": "interaction",
+        "cn": "搜索框支持自然语言描述输入",
+        "en": "Search box supports natural language food description"
+      }
+    ],
+    "product_insight": {
+      "cn": "将AI扫描结果独立保存，方便用户快速复用常吃食物，减少重复扫描，提升记录效率。标签分类设计让用户能清晰管理不同来源的食物数据。",
+      "en": "Saving AI scan results separately allows quick reuse of frequently eaten foods, reducing repetitive scanning. Tab categorization helps users clearly manage food data from different sources."
+    },
+    "tags": [
+      {
+        "cn": "食物数据库",
+        "en": "Food Database"
+      },
+      {
+        "cn": "扫描历史",
+        "en": "Scan History"
+      },
+      {
+        "cn": "滑动删除",
+        "en": "Swipe Delete"
+      },
+      {
+        "cn": "标签导航",
+        "en": "Tab Navigation"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Tracking",
+    "reasoning": "页面展示'Saved scans'标签下的食物列表管理功能，用户可以查看和删除之前AI扫描保存的食物记录。位于Tracking阶段第67张，符合已保存食物管理的描述。左滑显示删除按钮表明这是数据管理界面。"
+  },
+  "Screen_068.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "已保存食物",
+      "en": "Saved Foods"
+    },
+    "core_function": {
+      "cn": "展示用户保存的扫描食物记录，当前为空状态",
+      "en": "Display saved scanned foods with empty state guidance"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "半透明苹果图标作为空状态视觉中心",
+        "en": "Semi-transparent apple icon as empty state visual"
+      },
+      {
+        "category": "interaction",
+        "cn": "内嵌示意图清晰演示保存操作流程",
+        "en": "Embedded mockup clearly demonstrates save workflow"
+      },
+      {
+        "category": "emotional",
+        "cn": "友好的引导提示降低空状态的挫败感",
+        "en": "Friendly guidance reduces frustration of empty state"
+      }
+    ],
+    "product_insight": {
+      "cn": "空状态页面通过嵌入真实操作演示，将\"无内容\"转化为\"学习机会\"，引导用户了解功能价值和使用方法，促进功能采用。",
+      "en": "Empty state transforms 'no content' into 'learning opportunity' by embedding real operation demo, guiding users to understand feature value and usage."
+    },
+    "tags": [
+      {
+        "cn": "空状态设计",
+        "en": "Empty State"
+      },
+      {
+        "cn": "食物数据库",
+        "en": "Food Database"
+      },
+      {
+        "cn": "保存记录",
+        "en": "Saved Records"
+      },
+      {
+        "cn": "操作引导",
+        "en": "Operation Guide"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Tracking",
+    "reasoning": "页面位于Tracking阶段，展示食物数据库的已保存扫描标签页，当前为空状态。有顶部返回按钮和分段选项卡（All/My meals/My foods/Saved scans），通过嵌入式演示卡片引导用户如何保存食物，属于食物追踪管理功能页面。"
+  },
+  "Screen_069.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "自创食物空状态",
+      "en": "My Foods Empty State"
+    },
+    "core_function": {
+      "cn": "引导用户创建自定义食物添加到个人数据库",
+      "en": "Guide users to create custom foods for personal database"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "简洁的空状态插图清晰传达当前状态",
+        "en": "Clean empty state illustration clearly communicates current status"
+      },
+      {
+        "category": "interaction",
+        "cn": "突出的创建按钮引导用户下一步操作",
+        "en": "Prominent create button guides user to next action"
+      },
+      {
+        "category": "emotional",
+        "cn": "友好的空状态文案降低用户焦虑感",
+        "en": "Friendly empty state copy reduces user anxiety"
+      }
+    ],
+    "product_insight": {
+      "cn": "自创食物功能满足用户记录家常菜、地方特色食物的需求，通过个人数据库提升长期使用黏性，减少重复输入成本。",
+      "en": "Custom food feature meets needs for logging homemade meals and local dishes, building personal database improves long-term retention and reduces repetitive input."
+    },
+    "tags": [
+      {
+        "cn": "空状态",
+        "en": "Empty State"
+      },
+      {
+        "cn": "食物数据库",
+        "en": "Food Database"
+      },
+      {
+        "cn": "自定义食物",
+        "en": "Custom Food"
+      },
+      {
+        "cn": "引导设计",
+        "en": "Guided Design"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Tracking",
+    "reasoning": "页面位于Tracking阶段后期，展示'My foods'标签下的空状态，属于食物记录功能的自定义食物管理部分。包含搜索框、分类标签（All/My meals/My foods/Saved scans）和创建食物的CTA按钮，是典型的Tracking类型中的数据管理功能。"
+  },
+  "Screen_070.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "创建食物表单",
+      "en": "Create Food Form"
+    },
+    "core_function": {
+      "cn": "用户输入食物基本信息创建自定义食物条目",
+      "en": "Input food details to create custom food entry"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "简洁的表单布局，字段清晰分隔",
+        "en": "Clean form layout with clear field separation"
+      },
+      {
+        "category": "interaction",
+        "cn": "数字键盘自动弹出便于输入数值",
+        "en": "Numeric keyboard auto-appears for number input"
+      },
+      {
+        "category": "emotional",
+        "cn": "宽大的Next按钮降低用户输入压力",
+        "en": "Large Next button reduces input pressure"
+      }
+    ],
+    "product_insight": {
+      "cn": "允许用户创建自定义食物是卡路里追踪App的必备功能，弥补AI识别的不足，确保用户能完整记录所有饮食数据。",
+      "en": "Custom food creation is essential for calorie tracking apps, complementing AI recognition limitations and ensuring complete diet data recording."
+    },
+    "tags": [
+      {
+        "cn": "自定义食物",
+        "en": "Custom Food"
+      },
+      {
+        "cn": "表单输入",
+        "en": "Form Input"
+      },
+      {
+        "cn": "数据录入",
+        "en": "Data Entry"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Tracking",
+    "reasoning": "这是Tracking阶段的食物创建表单页面，用户正在输入Nestle Fresh Milk的详细信息，包括品牌名、描述、份量等。页面无底部导航栏，是数据录入流程的一部分，属于创建自定义食物的功能页面。"
+  },
+  "Screen_071.png": {
+    "screen_type": "Progress",
+    "naming": {
+      "cn": "创建食物",
+      "en": "Create Food"
+    },
+    "core_function": {
+      "cn": "手动输入食物营养成分创建自定义食物",
+      "en": "Manually input nutritional info to create custom food"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简表单设计，清晰的输入框布局",
+        "en": "Minimalist form design with clear input field layout"
+      },
+      {
+        "category": "interaction",
+        "cn": "数字键盘自动弹出，优化数据输入体验",
+        "en": "Numeric keyboard auto-shows for optimized data entry"
+      },
+      {
+        "category": "emotional",
+        "cn": "黑色Save按钮突出行动召唤",
+        "en": "Black Save button creates strong call-to-action"
+      }
+    ],
+    "product_insight": {
+      "cn": "当AI识别无法满足用户需求时，手动创建食物功能提供了必要的补充，确保用户可以追踪任何食物的营养信息，提升数据完整性。",
+      "en": "Manual food creation supplements AI recognition limitations, ensuring users can track any food's nutrition and maintain data completeness."
+    },
+    "tags": [
+      {
+        "cn": "手动输入",
+        "en": "Manual Input"
+      },
+      {
+        "cn": "自定义食物",
+        "en": "Custom Food"
+      },
+      {
+        "cn": "营养数据",
+        "en": "Nutrition Data"
+      }
+    ],
+    "confidence": 0.88,
+    "stage_name": "Progress",
+    "reasoning": "虽然阶段标注为Progress，但页面功能明显是食物创建/记录功能。用户通过表单手动输入卡路里、蛋白质、碳水、脂肪等营养成分来创建自定义食物条目，这是典型的Tracking（记录）功能，作为AI拍照识别的补充方案。"
+  },
+  "Screen_072.png": {
+    "screen_type": "Feature",
+    "naming": {
+      "cn": "食物数据库",
+      "en": "Food Database"
+    },
+    "core_function": {
+      "cn": "管理和搜索个人保存的食物记录",
+      "en": "Manage and search personal saved food records"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简卡片式设计，信息层次清晰",
+        "en": "Minimalist card design with clear information hierarchy"
+      },
+      {
+        "category": "interaction",
+        "cn": "标签页切换便于分类浏览不同食物来源",
+        "en": "Tab switching for browsing different food sources"
+      },
+      {
+        "category": "emotional",
+        "cn": "创建新食物入口突出，鼓励用户自定义",
+        "en": "Prominent create new food entry encourages customization"
+      }
+    ],
+    "product_insight": {
+      "cn": "提供个人食物库功能，让用户快速添加常吃食物，减少重复输入的摩擦，提升长期使用体验和数据记录效率。",
+      "en": "Personal food library allows quick addition of frequently eaten foods, reducing repetitive input friction and improving long-term usage experience."
+    },
+    "tags": [
+      {
+        "cn": "食物库",
+        "en": "Food Library"
+      },
+      {
+        "cn": "自定义食物",
+        "en": "Custom Food"
+      },
+      {
+        "cn": "卡路里追踪",
+        "en": "Calorie Tracking"
+      }
+    ],
+    "confidence": 0.88,
+    "stage_name": "Progress",
+    "reasoning": "这是一个食物数据库管理页面，包含搜索框、分类标签（All/My meals/My foods/Saved scans）和创建新食物功能。虽然阶段标注为Progress，但页面内容明显是食物记录功能页面。没有底部导航栏但属于功能性页面，用于管理用户保存的食物数据。"
+  },
+  "Screen_073.png": {
+    "screen_type": "Progress",
+    "naming": {
+      "cn": "体重分析",
+      "en": "Weight Analytics"
+    },
+    "core_function": {
+      "cn": "展示体重目标进度、BMI指数和历史趋势图表",
+      "en": "Display weight goal progress, BMI index and historical trends"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "BMI渐变色条直观展示健康区间，黄色标记当前位置",
+        "en": "Gradient BMI bar with yellow marker showing current position"
+      },
+      {
+        "category": "interaction",
+        "cn": "时间段切换按钮支持90天/6个月/1年/全部筛选",
+        "en": "Time period toggle for 90 days/6 months/1 year/all time filtering"
+      },
+      {
+        "category": "emotional",
+        "cn": "88%目标达成率给用户强烈的进步激励",
+        "en": "88% goal achieved provides strong motivation for progress"
+      },
+      {
+        "category": "conversion",
+        "cn": "提醒每周更新体重，引导用户持续参与",
+        "en": "Weekly update reminder drives continuous engagement"
+      }
+    ],
+    "product_insight": {
+      "cn": "将体重管理数据可视化，通过BMI健康区间和目标进度百分比双重反馈机制，让用户直观感受减重成效，提升长期使用粘性",
+      "en": "Visualizes weight management data with dual feedback mechanism of BMI health zones and goal progress percentage, helping users see tangible results and improving long-term retention"
+    },
+    "tags": [
+      {
+        "cn": "数据分析",
+        "en": "Analytics"
+      },
+      {
+        "cn": "体重追踪",
+        "en": "Weight Tracking"
+      },
+      {
+        "cn": "BMI指数",
+        "en": "BMI Index"
+      },
+      {
+        "cn": "目标进度",
+        "en": "Goal Progress"
+      }
+    ],
+    "confidence": 0.96,
+    "stage_name": "Progress",
+    "reasoning": "页面标题为Analytics，展示体重目标、当前体重、BMI指数和目标进度等数据统计信息，有底部导航栏且Analytics标签高亮，属于Progress阶段的数据分析页面，符合阶段描述中的体重图表和目标进度统计功能。"
+  },
+  "Screen_074.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "目标体重编辑",
+      "en": "Edit Weight Goal"
+    },
+    "core_function": {
+      "cn": "通过滑动刻度尺设置目标体重数值",
+      "en": "Set target weight value using sliding ruler"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简白底设计，刻度尺视觉清晰直观",
+        "en": "Minimalist white background with clear ruler visualization"
+      },
+      {
+        "category": "interaction",
+        "cn": "水平刻度尺滑动选择，操作精准流畅",
+        "en": "Horizontal ruler slider for precise and smooth selection"
+      },
+      {
+        "category": "emotional",
+        "cn": "\"Lose weight\"文案明确目标导向，强化用户动机",
+        "en": "\"Lose weight\" copy clarifies goal orientation and reinforces motivation"
+      }
+    ],
+    "product_insight": {
+      "cn": "体重目标设置采用刻度尺滑动而非数字输入，降低认知负担的同时让用户在滑动过程中对数值变化有直观感知，增强目标设定的仪式感。",
+      "en": "Weight goal setting uses ruler slider instead of number input, reducing cognitive load while giving users intuitive perception of value changes, enhancing goal-setting ceremony."
+    },
+    "tags": [
+      {
+        "cn": "目标设置",
+        "en": "Goal Setting"
+      },
+      {
+        "cn": "体重追踪",
+        "en": "Weight Tracking"
+      },
+      {
+        "cn": "刻度尺选择器",
+        "en": "Ruler Picker"
+      },
+      {
+        "cn": "极简设计",
+        "en": "Minimalist Design"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Tracking",
+    "reasoning": "页面标题为\"Edit Weight Goal\"，显示目标体重49kg和\"Lose weight\"标签，带有水平刻度尺选择器，符合Tracking阶段的体重目标编辑功能，无底部导航栏但处于第74张截图位置，属于主功能流程中的数据编辑页面。"
+  },
+  "Screen_075.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "编辑体重",
+      "en": "Edit Weight"
+    },
+    "core_function": {
+      "cn": "滑动刻度尺精准记录当前体重数据",
+      "en": "Record current weight using sliding scale ruler"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简黑白配色，刻度尺设计直观清晰",
+        "en": "Minimalist black-white scheme with clear scale ruler"
+      },
+      {
+        "category": "interaction",
+        "cn": "水平滑动刻度尺选择体重，操作精准流畅",
+        "en": "Horizontal sliding scale for precise weight selection"
+      },
+      {
+        "category": "visual",
+        "cn": "公英制切换开关设计简洁，满足不同用户习惯",
+        "en": "Clean Imperial/Metric toggle for different user preferences"
+      }
+    ],
+    "product_insight": {
+      "cn": "体重记录采用物理刻度尺隐喻，比数字键盘更直观且减少输入错误，公英制切换照顾全球用户，降低数据录入门槛提升追踪体验。",
+      "en": "Physical scale ruler metaphor is more intuitive than number keyboard, reducing input errors. Imperial/Metric toggle serves global users, lowering barriers for weight tracking."
+    },
+    "tags": [
+      {
+        "cn": "体重记录",
+        "en": "Weight Tracking"
+      },
+      {
+        "cn": "刻度选择器",
+        "en": "Scale Picker"
+      },
+      {
+        "cn": "单位切换",
+        "en": "Unit Toggle"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Tracking",
+    "reasoning": "页面标题为'Edit Weight'，包含体重刻度尺选择器和保存按钮，属于体重数据记录功能。位于Tracking阶段第75张，符合'体重目标编辑，当前体重记录页面'的阶段描述，是用户记录/修改体重数据的功能页面。"
+  },
+  "Screen_076.png": {
+    "screen_type": "Tracking",
+    "naming": {
+      "cn": "BMI结果页",
+      "en": "BMI Result"
+    },
+    "core_function": {
+      "cn": "展示用户BMI数值及健康状态分析",
+      "en": "Display user BMI value and health status analysis"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "渐变色条直观展示BMI区间分布",
+        "en": "Gradient bar intuitively shows BMI range distribution"
+      },
+      {
+        "category": "emotional",
+        "cn": "Normal绿色标签给予用户正向健康反馈",
+        "en": "Green 'Normal' label provides positive health feedback"
+      },
+      {
+        "category": "conversion",
+        "cn": "详细解释BMI重要性增强用户健康意识",
+        "en": "Detailed BMI importance explanation enhances health awareness"
+      }
+    ],
+    "product_insight": {
+      "cn": "BMI结果页通过可视化健康指标和详细的健康风险说明，帮助用户理解体重管理的重要性，强化继续使用App追踪的动机。",
+      "en": "BMI result page uses visualized health indicators and detailed risk explanations to help users understand weight management importance, reinforcing motivation to continue tracking."
+    },
+    "tags": [
+      {
+        "cn": "BMI计算",
+        "en": "BMI Calculator"
+      },
+      {
+        "cn": "健康指标",
+        "en": "Health Indicator"
+      },
+      {
+        "cn": "体重追踪",
+        "en": "Weight Tracking"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Tracking",
+    "reasoning": "页面展示BMI计算结果24.7，包含健康状态标签、渐变色刻度条和详细健康说明。属于Tracking阶段的体重健康数据展示功能，无底部导航栏但处于第76张截图的功能页面区域。"
+  },
+  "Screen_077.png": {
+    "screen_type": "Settings",
+    "naming": {
+      "cn": "数据分析页",
+      "en": "Analytics Dashboard"
+    },
+    "core_function": {
+      "cn": "展示用户目标进度和营养摄入数据统计",
+      "en": "Display goal progress and nutrition intake statistics"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "时间筛选标签设计清晰，支持多维度查看",
+        "en": "Clear time filter tabs for multi-dimensional viewing"
+      },
+      {
+        "category": "interaction",
+        "cn": "可切换不同时间周期查看历史数据",
+        "en": "Switchable time periods for historical data viewing"
+      },
+      {
+        "category": "visual",
+        "cn": "堆叠柱状图直观展示每日营养构成",
+        "en": "Stacked bar chart intuitively shows daily nutrition composition"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过86%目标达成率和多时间维度数据展示，帮助用户直观了解减重进度。本周仅780卡的数据可能提示用户摄入过低，需要营养干预。",
+      "en": "86% goal achievement and multi-period data help users track weight loss progress. 780 calories this week may indicate insufficient intake requiring nutritional intervention."
+    },
+    "tags": [
+      {
+        "cn": "数据可视化",
+        "en": "Data Visualization"
+      },
+      {
+        "cn": "目标追踪",
+        "en": "Goal Tracking"
+      },
+      {
+        "cn": "营养分析",
+        "en": "Nutrition Analysis"
+      }
+    ],
+    "confidence": 0.88,
+    "stage_name": "Settings",
+    "reasoning": "虽然阶段标注为Settings，但页面实际显示的是Analytics分析页面，底部导航栏选中Analytics标签，展示目标进度和营养数据统计图表，属于Progress/Analytics类型页面。"
+  },
+  "Screen_078.png": {
+    "screen_type": "Settings",
+    "naming": {
+      "cn": "设置主页",
+      "en": "Settings Main"
+    },
+    "core_function": {
+      "cn": "管理用户个人资料、目标设置及推荐奖励",
+      "en": "Manage user profile, goals, and referral rewards"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "柔和渐变背景卡片设计，层次分明",
+        "en": "Soft gradient background cards with clear hierarchy"
+      },
+      {
+        "category": "conversion",
+        "cn": "推荐赚钱功能突出展示，鼓励用户分享",
+        "en": "Prominent referral feature encourages user sharing"
+      },
+      {
+        "category": "interaction",
+        "cn": "清晰的分组设置项，便于快速定位",
+        "en": "Clear grouped settings for quick navigation"
+      }
+    ],
+    "product_insight": {
+      "cn": "将推荐奖励系统嵌入设置页显眼位置，以用户收益形式呈现（Current Balance $0），既展示价值又持续提醒用户邀请好友，是低成本获客的有效策略。",
+      "en": "Embedding referral rewards prominently in settings with balance display creates continuous reminder for user acquisition while showing potential value to users."
+    },
+    "tags": [
+      {
+        "cn": "设置页",
+        "en": "Settings"
+      },
+      {
+        "cn": "推荐奖励",
+        "en": "Referral Rewards"
+      },
+      {
+        "cn": "用户资料",
+        "en": "User Profile"
+      },
+      {
+        "cn": "目标管理",
+        "en": "Goal Management"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Settings",
+    "reasoning": "页面标题明确为'Settings'，展示用户基础信息（年龄、身高、体重）和设置选项列表，有底部导航栏且Settings图标高亮，符合Settings页面特征。位于第78张截图，属于Settings阶段。"
+  },
+  "Screen_079.png": {
+    "screen_type": "Referral",
+    "naming": {
+      "cn": "好友推荐",
+      "en": "Refer Friend"
+    },
+    "core_function": {
+      "cn": "分享推荐码邀请好友注册获得奖励",
+      "en": "Share referral code to invite friends and earn rewards"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "环绕式好友头像布局营造社交氛围",
+        "en": "Circular friend avatars create social atmosphere"
+      },
+      {
+        "category": "conversion",
+        "cn": "明确的金钱激励每推荐一人赚5美元",
+        "en": "Clear monetary incentive of $5 per referral"
+      },
+      {
+        "category": "emotional",
+        "cn": "一起减肥的情感号召增强分享意愿",
+        "en": "Together weight loss message enhances sharing motivation"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过好友推荐机制实现用户增长，结合减肥社交属性，用经济激励和情感共鸣双重驱动分享行为，降低获客成本。",
+      "en": "Leverages referral mechanism for user growth, combining weight loss social attributes with monetary incentives and emotional resonance to drive sharing and reduce acquisition costs."
+    },
+    "tags": [
+      {
+        "cn": "好友推荐",
+        "en": "Referral"
+      },
+      {
+        "cn": "分享奖励",
+        "en": "Share Rewards"
+      },
+      {
+        "cn": "社交增长",
+        "en": "Social Growth"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Social",
+    "reasoning": "页面明确展示推荐码、分享按钮和每邀请一人赚5美元的奖励机制，属于典型的Referral增长页面。符合Social阶段描述的'好友推荐功能，分享邀请页面'，受益方是产品（获客增长）。"
+  },
+  "Screen_081.png": {
+    "screen_type": "Referral",
+    "naming": {
+      "cn": "邀请好友分享",
+      "en": "Referral Share Sheet"
+    },
+    "core_function": {
+      "cn": "通过系统分享功能将邀请码发送给好友",
+      "en": "Share referral code to friends via system share sheet"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "真实用户头像环绕增强社交感和信任度",
+        "en": "Real user avatars create social proof and trust"
+      },
+      {
+        "category": "emotional",
+        "cn": "\"Empower your friends\"情感化文案激发分享动力",
+        "en": "Empowering copy motivates users to share"
+      },
+      {
+        "category": "interaction",
+        "cn": "调用系统原生分享面板，操作熟悉无学习成本",
+        "en": "Native share sheet provides familiar interaction"
+      }
+    ],
+    "product_insight": {
+      "cn": "将邀请好友定位为\"一起减重\"的社交行为而非单纯获客，通过情感共鸣提升分享意愿，同时利用原生分享功能降低操作门槛。",
+      "en": "Positioning referral as 'lose weight together' social activity rather than pure acquisition. Emotional framing increases sharing motivation while native share sheet reduces friction."
+    },
+    "tags": [
+      {
+        "cn": "好友邀请",
+        "en": "Referral"
+      },
+      {
+        "cn": "社交分享",
+        "en": "Social Share"
+      },
+      {
+        "cn": "邀请码",
+        "en": "Referral Code"
+      },
+      {
+        "cn": "系统分享",
+        "en": "Share Sheet"
+      }
+    ],
+    "confidence": 0.97,
+    "stage_name": "Social",
+    "reasoning": "这是邀请好友页面触发的系统分享面板，显示了邀请码和预设分享文案。位于Social阶段末尾（81/93），展示了完整的分享功能流程。页面目的是获客增长，受益方是产品，符合Referral类型定义。"
+  },
+  "Screen_080.png": {
+    "screen_type": "Referral",
+    "naming": {
+      "cn": "推荐好友",
+      "en": "Refer Friend"
+    },
+    "core_function": {
+      "cn": "分享推荐码邀请好友注册获得现金奖励",
+      "en": "Share referral code to invite friends and earn cash rewards"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "用户头像气泡环绕展示社交氛围感",
+        "en": "User avatar bubbles create social atmosphere"
+      },
+      {
+        "category": "interaction",
+        "cn": "一键复制推荐码和分享按钮便捷操作",
+        "en": "One-tap copy code and share button for easy action"
+      },
+      {
+        "category": "conversion",
+        "cn": "清晰的$5奖励机制激励用户分享",
+        "en": "$5 reward per signup incentivizes sharing"
+      },
+      {
+        "category": "emotional",
+        "cn": "\"一起减肥\"文案强化社交动机与情感连接",
+        "en": "\"Lose weight together\" copy builds social motivation"
+      }
+    ],
+    "product_insight": {
+      "cn": "将减肥社交化，通过好友邀请奖励机制实现低成本用户增长，同时\"一起减肥\"的定位增强用户粘性和目标达成动力。",
+      "en": "Socializes weight loss through referral rewards for low-cost user acquisition, while \"lose weight together\" positioning enhances user retention and goal motivation."
+    },
+    "tags": [
+      {
+        "cn": "推荐奖励",
+        "en": "Referral Rewards"
+      },
+      {
+        "cn": "社交裂变",
+        "en": "Social Viral"
+      },
+      {
+        "cn": "用户增长",
+        "en": "User Growth"
+      },
+      {
+        "cn": "好友邀请",
+        "en": "Friend Invite"
+      }
+    ],
+    "confidence": 0.98,
+    "stage_name": "Social",
+    "reasoning": "页面明确展示推荐码分享机制和$5现金奖励，属于典型的Referral邀请增长页面。受益方是产品（获取新用户），而非帮助用户使用产品。截图位置在Social阶段（79-81张）符合好友推荐功能的定位。"
+  },
+  "Screen_082.png": {
+    "screen_type": "Profile",
+    "naming": {
+      "cn": "个人详情",
+      "en": "Personal Details"
+    },
+    "core_function": {
+      "cn": "查看和编辑个人身体数据及目标体重",
+      "en": "View and edit personal body data and weight goal"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简列表布局，信息层次清晰",
+        "en": "Minimalist list layout with clear information hierarchy"
+      },
+      {
+        "category": "interaction",
+        "cn": "每项数据右侧编辑图标，便于快速修改",
+        "en": "Edit icons on right side for quick modification"
+      },
+      {
+        "category": "conversion",
+        "cn": "目标体重模块突出显示，激励用户关注目标",
+        "en": "Goal weight module highlighted to motivate goal focus"
+      }
+    ],
+    "product_insight": {
+      "cn": "将目标体重与当前数据分离展示，强化目标导向思维。用户可随时调整目标，保持减重动力和灵活性。",
+      "en": "Separating goal weight from current data reinforces goal-oriented thinking. Users can adjust targets anytime, maintaining motivation and flexibility."
+    },
+    "tags": [
+      {
+        "cn": "个人资料",
+        "en": "Profile"
+      },
+      {
+        "cn": "体重管理",
+        "en": "Weight Management"
+      },
+      {
+        "cn": "目标设定",
+        "en": "Goal Setting"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Profile",
+    "reasoning": "页面标题为Personal Details，展示用户身体数据（体重、身高、生日、性别）和目标体重，属于个人资料编辑页面。处于Profile阶段（82-86张），有返回按钮但无底部导航栏，符合Profile页面特征。"
+  },
+  "Screen_083.png": {
+    "screen_type": "Profile",
+    "naming": {
+      "cn": "编辑体重",
+      "en": "Edit Weight"
+    },
+    "core_function": {
+      "cn": "通过滑动刻度尺编辑用户当前体重数据",
+      "en": "Edit current weight using sliding ruler scale"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简黑白设计，刻度尺视觉层次清晰",
+        "en": "Minimalist black-white design with clear ruler hierarchy"
+      },
+      {
+        "category": "interaction",
+        "cn": "刻度尺滑动选择替代数字键盘输入更直观",
+        "en": "Sliding ruler selection more intuitive than keyboard input"
+      },
+      {
+        "category": "visual",
+        "cn": "公制/英制切换开关设计简洁易懂",
+        "en": "Clean toggle switch for metric/imperial unit conversion"
+      }
+    ],
+    "product_insight": {
+      "cn": "体重编辑支持公英制切换，刻度尺交互方式让用户快速精确调整数值，降低输入成本的同时保证数据精确度。",
+      "en": "Weight editor supports metric/imperial toggle. Ruler interaction enables quick precise adjustments, reducing input effort while maintaining data accuracy."
+    },
+    "tags": [
+      {
+        "cn": "体重编辑",
+        "en": "Weight Edit"
+      },
+      {
+        "cn": "刻度尺",
+        "en": "Ruler Scale"
+      },
+      {
+        "cn": "单位切换",
+        "en": "Unit Toggle"
+      }
+    ],
+    "confidence": 0.96,
+    "stage_name": "Profile",
+    "reasoning": "页面标题为'Edit Weight'，处于Profile阶段第82-86张，无底部导航栏。这是用户资料编辑的子页面，用于修改体重信息，属于典型的Profile子类型编辑页面。"
+  },
+  "Screen_084.png": {
+    "screen_type": "Profile",
+    "naming": {
+      "cn": "身高编辑",
+      "en": "Edit Height"
+    },
+    "core_function": {
+      "cn": "通过滚轮选择器编辑用户身高信息",
+      "en": "Edit user height via scroll picker"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简黑白设计，突出选中数值",
+        "en": "Minimalist black-white design highlighting selected value"
+      },
+      {
+        "category": "interaction",
+        "cn": "滚轮选择器支持流畅滑动选择身高",
+        "en": "Scroll picker enables smooth height selection"
+      },
+      {
+        "category": "interaction",
+        "cn": "公制/英制单位一键切换满足全球用户",
+        "en": "Imperial/Metric toggle serves global users"
+      }
+    ],
+    "product_insight": {
+      "cn": "身高是计算BMI和每日热量需求的关键数据，提供公英制切换体现产品国际化考量，滚轮选择器比手动输入更高效且减少错误。",
+      "en": "Height is crucial for BMI and calorie calculations. Imperial/Metric toggle shows international consideration, while scroll picker is more efficient than manual input."
+    },
+    "tags": [
+      {
+        "cn": "身高设置",
+        "en": "Height Setting"
+      },
+      {
+        "cn": "单位切换",
+        "en": "Unit Toggle"
+      },
+      {
+        "cn": "滚轮选择器",
+        "en": "Scroll Picker"
+      },
+      {
+        "cn": "个人资料",
+        "en": "Profile"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Profile",
+    "reasoning": "位于Profile阶段第84张截图，页面标题为'Edit Height'，提供公制/英制切换和滚轮选择器编辑身高，属于个人资料编辑的子页面，符合Profile类型定义。"
+  },
+  "Screen_085.png": {
+    "screen_type": "Profile",
+    "naming": {
+      "cn": "生日设置",
+      "en": "Birthday Setting"
+    },
+    "core_function": {
+      "cn": "通过滚轮选择器设置用户出生日期",
+      "en": "Set user birthday using scroll wheel picker"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "三列滚轮选择器设计清晰分离月日年",
+        "en": "Three-column wheel picker clearly separates month, day, year"
+      },
+      {
+        "category": "interaction",
+        "cn": "iOS原生风格滚轮交互体验流畅自然",
+        "en": "iOS native wheel interaction feels smooth and natural"
+      },
+      {
+        "category": "visual",
+        "cn": "选中项高亮背景突出当前选择",
+        "en": "Highlighted background emphasizes current selection"
+      }
+    ],
+    "product_insight": {
+      "cn": "生日信息对于卡路里追踪App至关重要，用于计算基础代谢率(BMR)和每日热量需求，滚轮选择器比输入框更高效且减少错误输入。",
+      "en": "Birthday is crucial for calorie tracking apps to calculate BMR and daily calorie needs. Wheel picker is more efficient than text input and reduces errors."
+    },
+    "tags": [
+      {
+        "cn": "生日选择",
+        "en": "Birthday Picker"
+      },
+      {
+        "cn": "个人资料",
+        "en": "Profile"
+      },
+      {
+        "cn": "滚轮选择器",
+        "en": "Wheel Picker"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Profile",
+    "reasoning": "这是Profile阶段的生日设置页面，使用iOS原生风格的三列滚轮选择器让用户设置出生日期。页面处于阶段后期(第85张/共93张)，属于个人资料编辑流程的一部分，与阶段描述'体重、身高、生日、性别设置'完全吻合。"
+  },
+  "Screen_086.png": {
+    "screen_type": "Profile",
+    "naming": {
+      "cn": "性别设置",
+      "en": "Set Gender"
+    },
+    "core_function": {
+      "cn": "用户选择性别信息以完善个人资料",
+      "en": "Select gender to complete personal profile"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "极简黑白配色，选中状态清晰醒目",
+        "en": "Minimalist black-white scheme with clear selected state"
+      },
+      {
+        "category": "interaction",
+        "cn": "单选按钮式选择，直观易操作",
+        "en": "Radio button style selection, intuitive operation"
+      },
+      {
+        "category": "emotional",
+        "cn": "提供Other选项体现包容性设计",
+        "en": "Other option shows inclusive design approach"
+      }
+    ],
+    "product_insight": {
+      "cn": "性别信息对卡路里计算至关重要，影响基础代谢率估算。提供三个选项既满足功能需求又体现对用户多样性的尊重，平衡了实用性与包容性。",
+      "en": "Gender is crucial for calorie calculation affecting BMR. Three options balance functional needs with respect for user diversity, combining practicality with inclusivity."
+    },
+    "tags": [
+      {
+        "cn": "性别选择",
+        "en": "Gender Selection"
+      },
+      {
+        "cn": "个人资料",
+        "en": "Profile"
+      },
+      {
+        "cn": "包容性设计",
+        "en": "Inclusive Design"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Profile",
+    "reasoning": "处于Profile阶段末尾（86/93），页面标题'Set Gender'明确表明是性别设置页，属于个人资料编辑的一部分。无底部导航栏但有返回按钮和保存按钮，典型的资料编辑子页面结构。"
+  },
+  "Screen_087.png": {
+    "screen_type": "Settings",
+    "naming": {
+      "cn": "宏量营养素设置",
+      "en": "Macronutrient Goals"
+    },
+    "core_function": {
+      "cn": "调整每日卡路里和宏量营养素摄入目标",
+      "en": "Adjust daily calorie and macronutrient intake goals"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "环形图表直观展示三大营养素比例和克数",
+        "en": "Ring charts intuitively display nutrient ratios and grams"
+      },
+      {
+        "category": "interaction",
+        "cn": "独立可编辑的目标输入框便于精确调整",
+        "en": "Independent editable input fields for precise adjustments"
+      },
+      {
+        "category": "emotional",
+        "cn": "自动生成目标按钮降低用户决策压力",
+        "en": "Auto Generate Goals button reduces decision pressure"
+      }
+    ],
+    "product_insight": {
+      "cn": "将复杂的营养素配比通过可视化图表和智能推荐简化，既满足专业用户精确控制需求，又为新手提供一键生成便捷方案。",
+      "en": "Simplifies complex nutrient ratios through visual charts and smart recommendations, serving both advanced users needing precise control and beginners wanting one-click solutions."
+    },
+    "tags": [
+      {
+        "cn": "宏量营养素",
+        "en": "Macronutrients"
+      },
+      {
+        "cn": "目标设置",
+        "en": "Goal Setting"
+      },
+      {
+        "cn": "卡路里",
+        "en": "Calories"
+      },
+      {
+        "cn": "个性化",
+        "en": "Personalization"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Settings",
+    "reasoning": "页面位于Settings阶段(87/93)，展示宏量营养素目标调整界面。包含卡路里、蛋白质、碳水和脂肪的可编辑目标值，配有直观的环形图表可视化。符合Settings类型的目标调整功能。"
+  },
+  "Screen_088.png": {
+    "screen_type": "Settings",
+    "naming": {
+      "cn": "语言设置",
+      "en": "Language Settings"
+    },
+    "core_function": {
+      "cn": "提供多语言选项供用户切换App显示语言",
+      "en": "Provide multiple language options for app localization"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "国旗图标直观标识各语言选项",
+        "en": "Flag icons visually identify each language option"
+      },
+      {
+        "category": "interaction",
+        "cn": "底部弹出式选择器便于操作",
+        "en": "Bottom sheet picker for easy selection"
+      },
+      {
+        "category": "visual",
+        "cn": "简洁的圆角按钮列表设计",
+        "en": "Clean rounded button list design"
+      }
+    ],
+    "product_insight": {
+      "cn": "支持8种语言体现产品全球化布局，语言选择采用母语+国旗双重标识，降低非英语用户的认知门槛，提升国际用户体验。",
+      "en": "Supporting 8 languages shows global expansion strategy. Native language names with flag icons reduce cognitive load for non-English users, enhancing international UX."
+    },
+    "tags": [
+      {
+        "cn": "语言设置",
+        "en": "Language Settings"
+      },
+      {
+        "cn": "国际化",
+        "en": "Localization"
+      },
+      {
+        "cn": "多语言支持",
+        "en": "Multi-language"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Settings",
+    "reasoning": "页面显示Customization标题下的语言选择弹窗，有底部导航栏且Settings图标高亮，属于设置页面的语言选择子功能。位于第88张截图，处于Settings阶段，符合阶段约束。"
+  },
+  "Screen_089.png": {
+    "screen_type": "Feature",
+    "naming": {
+      "cn": "小组件添加引导",
+      "en": "Widget Setup Guide"
+    },
+    "core_function": {
+      "cn": "引导用户将卡路里追踪小组件添加到主屏幕",
+      "en": "Guide users to add calorie tracking widget to home screen"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "分步骤卡片式设计配合模拟手机界面",
+        "en": "Step-by-step card design with simulated phone interface"
+      },
+      {
+        "category": "interaction",
+        "cn": "分页指示器显示多步骤引导进度",
+        "en": "Pagination dots showing multi-step guidance progress"
+      },
+      {
+        "category": "emotional",
+        "cn": "简洁明了的操作指引降低用户学习成本",
+        "en": "Clear instructions reduce user learning curve"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过小组件功能让用户在主屏幕即可查看卡路里和营养数据，提升App使用频率和用户粘性，将功能融入用户日常习惯中",
+      "en": "Widget feature allows users to view calories and macros on home screen, increasing app engagement and retention by integrating into daily habits"
+    },
+    "tags": [
+      {
+        "cn": "小组件",
+        "en": "Widget"
+      },
+      {
+        "cn": "功能引导",
+        "en": "Feature Guide"
+      },
+      {
+        "cn": "iOS特性",
+        "en": "iOS Feature"
+      },
+      {
+        "cn": "用户留存",
+        "en": "User Retention"
+      }
+    ],
+    "confidence": 0.9,
+    "stage_name": "Core Features",
+    "reasoning": "这是第89张截图，属于Core Features阶段。页面包含设置偏好选项（燃烧卡路里、实时活动）和小组件添加引导，帮助用户设置iOS桌面小组件功能。虽然没有显示底部导航栏，但这是功能设置页面的一部分，分页指示器表明这是多步骤的小组件添加教程。"
+  },
+  "Screen_090.png": {
+    "screen_type": "Feature",
+    "naming": {
+      "cn": "小组件添加引导",
+      "en": "Widget Setup Guide"
+    },
+    "core_function": {
+      "cn": "指导用户搜索并添加Cal AI小组件到主屏幕",
+      "en": "Guide users to search and add Cal AI widget to home screen"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "分步卡片展示清晰的操作流程",
+        "en": "Step cards showing clear operation flow"
+      },
+      {
+        "category": "interaction",
+        "cn": "分页指示器展示多步骤进度",
+        "en": "Pagination dots indicate multi-step progress"
+      },
+      {
+        "category": "emotional",
+        "cn": "模拟真实界面降低用户操作门槛",
+        "en": "Simulated real interface reduces user friction"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过详细的分步引导和界面模拟，降低iOS小组件添加的学习成本，提升Live Activity功能的使用率，增强用户日常粘性。",
+      "en": "Detailed step-by-step guidance with interface simulation reduces learning curve for iOS widget setup, improving Live Activity adoption and daily user engagement."
+    },
+    "tags": [
+      {
+        "cn": "小组件",
+        "en": "Widget"
+      },
+      {
+        "cn": "功能引导",
+        "en": "Feature Guide"
+      },
+      {
+        "cn": "设置教程",
+        "en": "Setup Tutorial"
+      },
+      {
+        "cn": "Live Activity",
+        "en": "Live Activity"
+      }
+    ],
+    "confidence": 0.88,
+    "stage_name": "Core Features",
+    "reasoning": "页面展示小组件添加的第2步操作指引，结合设置页面和步骤卡片。属于Core Features阶段的功能教学页面，帮助用户设置iOS小组件以在锁屏显示卡路里数据。顶部显示Preferences设置项，底部展示分步教程卡片。"
+  },
+  "Screen_091.png": {
+    "screen_type": "Settings",
+    "naming": {
+      "cn": "偏好设置与小组件引导",
+      "en": "Preferences & Widget Guide"
+    },
+    "core_function": {
+      "cn": "配置偏好选项并引导用户添加桌面小组件",
+      "en": "Configure preferences and guide users to add home screen widget"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "底部浮动卡片引导设计清晰醒目",
+        "en": "Floating bottom card guide design is clear and prominent"
+      },
+      {
+        "category": "interaction",
+        "cn": "分步骤引导用户完成小组件添加",
+        "en": "Step-by-step guidance for widget addition"
+      },
+      {
+        "category": "emotional",
+        "cn": "实时活动功能满足用户即时查看需求",
+        "en": "Live Activity feature meets instant viewing needs"
+      }
+    ],
+    "product_insight": {
+      "cn": "通过小组件引导将核心数据带到用户手机主屏幕，增加产品曝光率和日活粘性，同时灵动岛支持提升现代化体验",
+      "en": "Widget guidance brings core data to home screen, increasing exposure and daily engagement, while Dynamic Island support enhances modern experience"
+    },
+    "tags": [
+      {
+        "cn": "偏好设置",
+        "en": "Preferences"
+      },
+      {
+        "cn": "小组件",
+        "en": "Widget"
+      },
+      {
+        "cn": "引导教程",
+        "en": "Tutorial"
+      },
+      {
+        "cn": "灵动岛",
+        "en": "Dynamic Island"
+      }
+    ],
+    "confidence": 0.92,
+    "stage_name": "Settings",
+    "reasoning": "页面展示偏好设置选项（燃烧卡路里、实时活动开关）和底部小组件添加引导卡片，属于Settings阶段的偏好设置与功能引导混合页面，符合阶段描述中的小组件设置内容"
+  },
+  "Screen_092.png": {
+    "screen_type": "Settings",
+    "naming": {
+      "cn": "设置页面",
+      "en": "Settings Page"
+    },
+    "core_function": {
+      "cn": "管理应用设置、小组件配置和法律信息查看",
+      "en": "Manage app settings, widget configuration and legal information"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "小组件预览卡片展示实际效果，直观呈现",
+        "en": "Widget preview card shows actual appearance intuitively"
+      },
+      {
+        "category": "interaction",
+        "cn": "Live Activity开关提供锁屏快捷数据访问",
+        "en": "Live Activity toggle enables quick lock screen data access"
+      },
+      {
+        "category": "visual",
+        "cn": "清晰的功能分区，小组件与法律信息分隔明确",
+        "en": "Clear functional sections with distinct widget and legal areas"
+      }
+    ],
+    "product_insight": {
+      "cn": "将小组件预览直接嵌入设置页面，让用户无需添加即可看到效果，降低使用门槛。Live Activity功能延伸产品触达场景，提升日常使用粘性。",
+      "en": "Embedding widget preview in settings lets users see effects without adding, lowering barriers. Live Activity extends product reach to daily scenarios, enhancing engagement."
+    },
+    "tags": [
+      {
+        "cn": "小组件",
+        "en": "Widgets"
+      },
+      {
+        "cn": "实时活动",
+        "en": "Live Activity"
+      },
+      {
+        "cn": "设置管理",
+        "en": "Settings Management"
+      },
+      {
+        "cn": "账户安全",
+        "en": "Account Security"
+      }
+    ],
+    "confidence": 0.95,
+    "stage_name": "Settings",
+    "reasoning": "页面位于Settings阶段末期，包含设置开关、小组件预览、法律条款入口和删除账户选项，底部有完整Tab Bar，明确是设置功能页面。VERSION 2.6.0显示这是成熟的产品版本。"
+  },
+  "Screen_093.png": {
+    "screen_type": "Settings",
+    "naming": {
+      "cn": "删除账户确认",
+      "en": "Delete Account Confirm"
+    },
+    "core_function": {
+      "cn": "确认用户是否要永久删除账户的二次验证弹窗",
+      "en": "Secondary confirmation dialog for permanent account deletion"
+    },
+    "design_highlights": [
+      {
+        "category": "visual",
+        "cn": "黑色Delete按钮与白色Cancel形成强对比，强调操作严肃性",
+        "en": "Black Delete button contrasts with white Cancel, emphasizing action severity"
+      },
+      {
+        "category": "interaction",
+        "cn": "模态弹窗阻断操作流程，强制用户确认防止误删",
+        "en": "Modal dialog blocks flow, forcing confirmation to prevent accidental deletion"
+      },
+      {
+        "category": "emotional",
+        "cn": "使用permanently强调不可逆性，帮助用户理性决策",
+        "en": "Word 'permanently' emphasizes irreversibility for informed decision"
+      }
+    ],
+    "product_insight": {
+      "cn": "删除账户设计平衡了用户自主权和挽留策略，简洁的确认弹窗避免过度挽留造成负面体验，同时二次确认机制降低误操作风险，体现对用户数据的尊重。",
+      "en": "Account deletion balances user autonomy and retention. Clean confirmation avoids excessive retention friction while double-confirmation prevents accidental deletion, showing respect for user data."
+    },
+    "tags": [
+      {
+        "cn": "账户管理",
+        "en": "Account Management"
+      },
+      {
+        "cn": "确认弹窗",
+        "en": "Confirmation Dialog"
+      },
+      {
+        "cn": "危险操作",
+        "en": "Destructive Action"
+      }
+    ],
+    "confidence": 0.96,
+    "stage_name": "Settings",
+    "reasoning": "这是设置页面中的删除账户确认弹窗，属于Settings阶段末尾。页面背景显示设置列表和小组件预览，前景是确认删除的模态对话框，符合Settings阶段描述的'删除账户确认'内容。"
+  }
+}

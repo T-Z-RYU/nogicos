@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-12-25T06:43:42.931375",
+  "summary": {
+    "total": 2,
+    "success_without_kb": 1,
+    "success_with_kb": 2,
+    "avg_speedup": 2.8184226299597466,
+    "avg_without_kb_time": 8.959104418754578,
+    "avg_with_kb_time": 3.1963284015655518,
+    "total_llm_calls": 2
+  },
+  "results": [
+    {
+      "task_name": "HackerNews 头条",
+      "url": "https://news.ycombinator.com",
+      "task": "获取当前排名第一的新闻标题",
+      "without_kb_time": 8.315836429595947,
+      "without_kb_llm_calls": 1,
+      "without_kb_success": true,
+      "without_kb_output": "Show HN: Minimalist editor that lives in browser, stores everything in the URL",
+      "with_kb_time": 2.8192269802093506,
+      "with_kb_llm_calls": 0,
+      "with_kb_success": true,
+      "with_kb_output": "Top: Show HN: Minimalist editor that lives in browser, stores everything in the ",
+      "speedup": 2.9496867361060897
+    },
+    {
+      "task_name": "DuckDuckGo 搜索",
+      "url": "https://duckduckgo.com",
+      "task": "搜索 'web automation'",
+      "without_kb_time": 9.602372407913208,
+      "without_kb_llm_calls": 1,
+      "without_kb_success": false,
+      "without_kb_output": "None",
+      "with_kb_time": 3.573429822921753,
+      "with_kb_llm_calls": 0,
+      "with_kb_success": true,
+      "with_kb_output": "Search completed",
+      "speedup": 2.687158523813403
+    }
+  ]
+}

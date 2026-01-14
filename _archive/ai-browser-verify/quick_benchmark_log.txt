@@ -1,0 +1,357 @@
+======================================================================
+  SkillWeaver 快速泛化测试 (3 网站)
+======================================================================
+时间: 2025-12-25 07:42:20
+模型: gpt-5.2
+
+
+[1/3] HackerNews
+
+######################################################################
+  测试: HackerNews
+######################################################################
+
+============================================================
+  EXPLORE: HackerNews (news)
+============================================================
+  C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\lm.py:34: FutureWarning:
+  
+  All support for the `google.generativeai` package has ended. It will no longer be receiving
+  updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+  See README for more details:
+  
+  https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+  
+    import google.generativeai as genai
+  made new_page
+  went to http://news.ycombinator.com
+  Iteration: 0
+  Task proposal:
+  
+  Candidate skills (as Python function shortcuts) for Hacker News:
+  
+  1) Search Hacker News for a query and open the top result
+  - Natural language name: “Search Hacker News and open top result”
+  - Params: query, open_result_index=1
+  - Usefulness (1-5): 5 (very frequent; compresses multiple actions)
+  - Steps (click/type count):
+    1. Click Search input box (1)
+    2. Type query (1)
+    3. Press Enter / submit search (1)
+    4. Click desired result (1)
+    Total actions: 4
+  - Sum rating: 5 + 4 = 9
+  
+  2) Filter the front page by domain using the site link
+  - Natural language name: “Show all front-page stories from a domain”
+  - Params: domain
+  - Usefulness: 4 (common when you like/avoid a source)
+  - Steps:
+    1. Click the domain link (e.g., “cnbc.com”) next to a story (1)
+    Total actions: 1
+  - Sum rating: 4 + 1 = 5
+  
+  3) Open comments for the Nth story on the front page
+  - Natural language name: “Open comments for a front-page story by rank”
+  - Params: rank
+  - Usefulness: 4 (very common)
+  - Steps:
+    1. Click “X comments” (or “discuss”) for that rank (1)
+    Total actions: 1
+  - Sum rating: 4 + 1 = 5
+  
+  4) Open the user profile of the submitter for the Nth story
+  - Natural language name: “Open submitter profile by story rank”
+  - Params: rank
+  - Usefulness: 2 (less common)
+  - Steps:
+    1. Click the username (1)
+    Total actions: 1
+  - Sum rating: 2 + 1 = 3
+  
+  5) Hide multiple stories on the front page by rank
+  - Natural language name: “Hide selected front-page stories”
+  - Params: ranks (list[int])
+  - Usefulness: 3 (useful but requires being logged in; also repetitive)
+  - Steps:
+    For each rank:
+     - Click “hide” (1 each)
+    Total actions: len(ranks)
+  - Example estimate for 5 stories: 5 actions
+  - Sum rating (for 5 hides): 3 + 5 = 8
+  
+  Highest sum rating: Skill #1 with 9.
+  
+  Task:
+  {
+    "type": "explore",
+    "task": "Search Hacker News and open top result"
+  }
+  🔍 Retrieved Task-Relevant Functions:
+  2025-12-25T07:42:42.722933 Step 0
+  ⏳ Executing 0
+  💭 Step-by-step reasoning:
+  Plan: (1) Use the page footer Search input to perform a search (HN uses a simple form that redirects to Algolia HN search). (2) Submit the search. (3) On the results page, open the first (top) result. Since the accessibility tree provided doesn’t include the search box, we’ll use a robust locator strategy: find the textbox near/associated with the visible “Search:” label, fill a generic query, press Enter, then click the first result link on the results page. The click that navigates away will be the last action.
+  🛠️ Generated code:
+  import re
+  
+  async def act(page):
+      # Focus the HN footer search box (labelled visually as "Search:")
+      search_box = page.get_by_role("textbox", name=re.compile(r"search", re.I))
+  
+      # If the textbox has no accessible name, fall back to the first textbox on the page
+      # (HN front page normally has a single search input in the footer).
+      if await search_box.count() == 0:
+          search_box = page.get_by_role("textbox").first
+  
+      await search_box.click()
+      await search_box.fill("playwright")
+      await search_box.press("Enter")
+  
+      # Wait for navigation to the search results (Algolia HN search)
+      await page.wait_for_load_state("domcontentloaded")
+  
+      # Open the top result (first result link)
+      # On Algolia HN search, results are typically presented as a list of links.
+      top_result = page.get_by_role("link").first
+      await top_result.click()
+  2025-12-25T07:42:58.304420 Step 1
+  Errors found in code generation:
+    - Type error: 无法访问类“Locator”的属性“near”
+    属性“near”未知 (reportAttributeAccessIssue) at line 6
+  ⏳ Executing 1
+  💭 Step-by-step reasoning:
+  We are on the HN front page. There is a footer “Search:” textbox. We should avoid the nonexistent Locator.near and instead (1) scroll to footer, (2) locate the textbox robustly by taking the last textbox on the page (HN typically only has this one), (3) fill a query and press Enter to navigate to Algolia search results, then (4) click the first result link. The final action should be the click that navigates away.
+  🛠️ Generated code:
+  import asyncio
+  
+  async def act(page):
+      # Ensure the footer search input is in view
+      await page.get_by_text("Search:").scroll_into_view_if_needed()
+  
+      # HN front page typically has a single textbox (the footer search input).
+      # Use the last textbox to be robust in case another textbox appears.
+      search_box = page.get_by_role("textbox").last
+      await search_box.click()
+      await search_box.fill("playwright")
+      await search_box.press("Enter")
+  
+      # Wait for the results page to load
+      await page.wait_for_load_state("domcontentloaded")
+  
+      # Open the top result (first link on the results page). This should navigate away.
+      await page.get_by_role("link").first.click()
+  
+  2025-12-25T07:43:22.057830 Step 2
+  ⏳ Executing 2
+  💭 Step-by-step reasoning:
+  We need to use the HN footer Search textbox, submit a query to go to results, then open the top result. The accessibility tree doesn’t show the footer search controls, so we’ll scroll to the visible “Search:” text, use a robust textbox locator (last textbox on page), fill a query, press Enter, wait for navigation, then click the first result link. The click that navigates away must be last.
+  🛠️ Generated code:
+  import asyncio
+  
+  async def act(page):
+      # Scroll footer search into view
+      await page.get_by_text("Search:").scroll_into_view_if_needed()
+  
+      # HN front page has a footer search textbox; use a robust choice
+      search_box = page.get_by_role("textbox").last
+      await search_box.click()
+      await search_box.fill("playwright")
+  
+      # Submit search (navigates to results)
+      await search_box.press("Enter")
+      await page.wait_for_load_state("domcontentloaded")
+  
+      # Open top result (navigation away) - keep as last action
+      await page.get_by_role("link").first.click()
+  
+  2025-12-25T07:43:34.834470 Step 3
+  ⏳ Executing 3
+  💭 Step-by-step reasoning:
+  We’re still on the Hacker News front page and haven’t performed a search yet. Use the footer “Search:” textbox, enter a query, submit with Enter to navigate to Algolia search results, then click the first result link. The navigation-away click must be last, so we won’t add steps after it.
+  🛠️ Generated code:
+  import asyncio
+  
+  async def act(page):
+      # Bring the footer search area into view
+      await page.get_by_text("Search:").scroll_into_view_if_needed()
+  
+      # Use the footer search textbox (HN front page typically has a single textbox)
+      search_box = page.get_by_role("textbox").last
+      await search_box.click()
+      await search_box.fill("playwright")
+      await search_box.press("Enter")
+  
+      # Wait for search results page to load
+      await page.wait_for_load_state("domcontentloaded")
+  
+      # Open the top result (first link on results page) - last action navigates away
+      await page.get_by_role("link").first.click()
+  
+  2025-12-25T07:43:47.000100 Step 4
+  ⏳ Executing 4
+  💭 Step-by-step reasoning:
+  We are on the HN front page and the footer Search textbox is visible. We should (1) focus the Search textbox, (2) enter a query, (3) press Enter to navigate to the HN Algolia search results, then (4) click the first result’s title link. The last action should be the click that navigates away.
+  🛠️ Generated code:
+  import asyncio
+  
+  async def act(page):
+      # Use the footer Search textbox (present at bottom of the page)
+      search_box = page.get_by_role("textbox").last
+      await search_box.click()
+      await search_box.fill("playwright")
+      await search_box.press("Enter")
+  
+      # Wait for search results to load
+      await page.wait_for_load_state("domcontentloaded")
+  
+      # Open the top result (first search result title link). Navigation away should be last.
+      await page.get_by_role("link").first.click()
+  
+  2025-12-25T07:43:57.650850 Step 5
+  ⏳ Executing 5
+  💭 Step-by-step reasoning:
+  We are on the HN front page with the footer Search textbox visible. We need to perform a search, which will navigate to the HN Algolia results page, then open the top (first) result. Since the accessibility tree snippet doesn’t include the footer controls, use a robust locator for the footer search textbox by selecting the last textbox on the page, fill a query, press Enter, wait for results to load, then click the first result link as the final navigation action.
+  🛠️ Generated code:
+  import asyncio
+  
+  async def act(page):
+      # Use the footer Search textbox (typically the only textbox; choose last for robustness)
+      search_box = page.get_by_role("textbox").last
+      await search_box.scroll_into_view_if_needed()
+      await search_box.click()
+      await search_box.fill("playwright")
+  
+      # Submit search (navigates to results)
+      await search_box.press("Enter")
+      await page.wait_for_load_state("domcontentloaded")
+  
+      # Open the top result on the results page (navigation away should be last action)
+      await page.get_by_role("link").first.click()
+  
+  2025-12-25T07:44:10.219857 Step 6
+  ⏳ Executing 6
+  💭 Step-by-step reasoning:
+  We need to perform a search on Hacker News using the footer “Search:” textbox, submit it to go to results, then open the top result. The accessibility tree provided doesn’t show the footer search input, so use a robust locator by selecting the last textbox on the page (HN typically only has that one). After submitting with Enter and waiting for navigation, click the first result link on the search results page as the final action (navigation away).
+  🛠️ Generated code:
+  import asyncio
+  
+  async def act(page):
+      # Use the footer Search textbox (typically the only textbox on the page)
+      search_box = page.get_by_role("textbox").last
+      await search_box.scroll_into_view_if_needed()
+      await search_box.click()
+      await search_box.fill("playwright")
+  
+      # Submit search (navigates to results)
+      await search_box.press("Enter")
+      await page.wait_for_load_state("domcontentloaded")
+  
+      # Open the top result on the results page (navigation away should be last action)
+      await page.get_by_role("link").first.click()
+  
+  2025-12-25T07:44:22.289863 Step 7
+  Errors found in code generation:
+    - Type error: 无法访问类“Locator”的属性“near”
+    属性“near”未知 (reportAttributeAccessIssue) at line 8
+  ⏳ Executing 7
+  💭 Step-by-step reasoning:
+  We’re on the HN front page. We need to use the footer search input (no dedicated accessible name in the provided tree), so we’ll scroll the visible “Search:” label into view, then target the last textbox on the page (robust for HN’s footer search). Fill a query and press Enter to navigate to the search results page. Then click the first result link on that results page; that navigation-away click must be the last action. Avoid using Locator.near (not available).
+  🛠️ Generated code:
+  import asyncio
+  
+  async def act(page):
+      # Bring footer search into view
+      await page.get_by_text("Search:").scroll_into_view_if_needed()
+  
+      # HN footer search input: use the last textbox on the page for robustness
+      search_box = page.get_by_role("textbox").last
+      await search_box.click()
+      await search_box.fill("playwright")
+  
+      # Submit search (navigates to results)
+      await search_box.press("Enter")
+      await page.wait_for_load_state("domcontentloaded")
+  
+      # Open the top result on the results page (navigation away should be last action)
+      await page.get_by_role("link").first.click()
+  
+  2025-12-25T07:44:48.923578 Step 8
+  ⏳ Executing 8
+  💭 Step-by-step reasoning:
+  We need to use the footer Search textbox on Hacker News, submit a query to go to the search results page, then open the top (first) result. The tree shows the footer Search label and a textbox (role=textbox). We’ll scroll the Search label into view, fill the textbox, press Enter, wait for navigation/load, then click the first result link on the results page as the final action (navigation away).
+  🛠️ Generated code:
+  import asyncio
+  
+  async def act(page):
+      # Ensure the footer search control is visible
+      await page.get_by_text("Search:").scroll_into_view_if_needed()
+  
+      # Use the footer search textbox (adjacent to the visible "Search:" label)
+      search_box = page.get_by_role("textbox").last
+      await search_box.click()
+      await search_box.fill("playwright")
+  
+      # Submit search (navigates to results)
+      await search_box.press("Enter")
+      await page.wait_for_load_state("domcontentloaded")
+  
+      # Open the top result on the results page (navigation away should be last action)
+      await page.get_by_role("link").first.click()
+  
+  2025-12-25T07:45:02.488064 Step 9
+  ⏳ Executing 9
+  💭 Step-by-step reasoning:
+  We are on the Hacker News front page. The footer contains a Search textbox. We need to perform a search, submit it (Enter), wait for the results page to load, then open the top result. Since clicking the top result navigates away, that click must be the last action in the function. Use role-based locators: scroll the visible "Search:" text into view, then target the textbox (last textbox on page is the footer search).
+  🛠️ Generated code:
+  import asyncio
+  
+  async def act(page):
+      # Bring the footer search controls into view
+      await page.get_by_text("Search:").scroll_into_view_if_needed()
+  
+      # Use the footer search textbox (HN page typically only has this one)
+      search_box = page.get_by_role("textbox").last
+      await search_box.click()
+      await search_box.fill("playwright")
+  
+      # Submit search (navigates to results)
+      await search_box.press("Enter")
+      await page.wait_for_load_state("domcontentloaded")
+  
+      # Open the top result (first link on results page) - last action navigates away
+      await page.get_by_role("link").first.click()
+  
+  Iteration: 1
+  Iteration: 2
+  Error: [WinError 183] 当文件已存在时，无法创建该文件。: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_quick\\hackernews/iter_1'
+  Traceback (most recent call last):
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 507, in inner
+      await explore(
+      ...<14 lines>...
+      )
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 386, in explore
+      await asyncio.gather(
+          *[_find_worker_and_run_iteration() for _ in range(iterations)]
+      )
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 362, in __wakeup
+      future.result()
+      ~~~~~~~~~~~~~^^
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 289, in __step_run_and_handle_result
+      result = coro.send(None)
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 358, in _find_worker_and_run_iteration
+      await _run_explore_iteration(
+      ...<13 lines>...
+      )
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 191, in _run_explore_iteration
+      os.makedirs(iter_dir, exist_ok=True)
+      ^^^^^^^^^^^^^^^^^^^^^
+    File "<frozen os>", line 236, in makedirs
+  FileExistsError: [WinError 183] 当文件已存在时，无法创建该文件。: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_quick\\hackernews/iter_1'
+  
+
+  探索完成: 181.7s | KB: 否
+
+  [无KB测试]
+    运行 1/2... OK (2.4s)
+    运行 2/2... 

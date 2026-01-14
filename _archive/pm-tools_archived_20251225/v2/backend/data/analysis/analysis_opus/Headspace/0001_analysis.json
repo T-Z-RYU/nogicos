@@ -1,0 +1,75 @@
+{
+  "app_name": "Headspace",
+  "screenshot_index": 1,
+  "screenshot_filename": "0001.png",
+  "total_onboarding_screens": 33,
+  "position_percentage": 3.0,
+  
+  "classification": {
+    "functional_purpose": {
+      "primary_category": "Value",
+      "secondary_type": "Splash",
+      "confidence": 0.99,
+      "description": "应用启动闪屏，展示品牌Logo"
+    },
+    "funnel_stage": {
+      "stage": "Awareness",
+      "position_in_funnel": "top",
+      "description": "用户首次接触产品"
+    },
+    "psychological_tactic": {
+      "primary_tactic": "Authority",
+      "secondary_tactics": [],
+      "tactic_strength": "moderate",
+      "description": "Headspace作为冥想领域领导品牌，Logo本身具有权威性"
+    },
+    "interaction_pattern": {
+      "primary_interaction": "PassiveRead",
+      "is_skippable": false,
+      "input_effort": "none",
+      "description": "用户等待加载"
+    },
+    "ui_pattern": {
+      "layout_type": "FullScreenIllustration",
+      "has_progress_indicator": true,
+      "has_illustration": true,
+      "has_animation": false,
+      "color_scheme": "light",
+      "description": "白色背景，标志性橙色圆点Logo"
+    },
+    "commitment_level": {
+      "level": 1,
+      "commitment_type": "time",
+      "reversibility": "reversible",
+      "description": "无承诺"
+    }
+  },
+  
+  "deep_analysis": {
+    "design_intent": "建立品牌认知，橙色圆点是Headspace标志性元素，代表冥想和平静",
+    "ux_observation": "极简设计符合冥想App的调性，橙色点传递温暖和活力。底部灰色进度条显示加载状态",
+    "conversion_impact": "neutral",
+    "potential_issues": [],
+    "best_practice_alignment": "完美符合品牌一致性原则，Splash设计与产品定位高度契合"
+  },
+  
+  "raw_observation": {
+    "visible_text": [
+      "headspace",
+      "screensdesign"
+    ],
+    "ui_elements": [
+      "橙色圆点Logo",
+      "品牌名称",
+      "加载进度条"
+    ],
+    "brand_elements": [
+      "Headspace Logo",
+      "标志性橙色(#F47F37)",
+      "简洁现代字体"
+    ]
+  },
+  
+  "analysis_method": "claude_opus_4.5",
+  "analyzed_at": "2025-12-22T00:00:00"
+}

@@ -1,0 +1,327 @@
+<state 0>
+URL: /
+Title: Lobsters
+
+document: "Lobsters" {
+  link: "Lobsters (Current traffic: 20%)", url: "/";
+  link: "Active", url: "/active";
+  link: "Recent", url: "/recent";
+  link: "Comments", url: "/comments";
+  link: "Search", url: "/search";
+  link: "Login", url: "/login";
+  link: "△ 38", url: "/login";
+  heading: "I'm returning my Framework 16", level: 1 {
+    link: "I'm returning my Framework 16", url: "https://yorickpeterse.com/articles/im-returning-my-framework-16/";
+  };
+
+  link: "hardware", url: "/t/hardware";
+  link: "yorickpeterse.com", url: "/domains/yorickpeterse.com";
+  link: "yorickpeterse", url: "/~yorickpeterse";
+  link: "△ 15", url: "/login";
+  heading: "How and why I moved from Apple Services to my own server", level: 1 {
+    link: "How and why I moved from Apple Services to my own server", url: "https://bastiangruber.ca/posts/mass-quitting-apple/";
+  };
+
+  link: "linux", url: "/t/linux";
+  link: "bastiangruber.ca", url: "/domains/bastiangruber.ca";
+  link: "gruberb", url: "/~gruberb";
+  link: "△ 10", url: "/login";
+  heading: "(My) Second Year of the Linux Desktop (For Gaming)", level: 1 {
+    link: "(My) Second Year of the Linux Desktop (For Gaming)", url: "https://blog.matthewbrunelle.com/my-second-year-of-the-linux-desktop-for-gaming/";
+  };
+
+  link: "games", url: "/t/games";
+  link: "linux", url: "/t/linux";
+  link: "blog.matthewbrunelle.com", url: "/domains/blog.matthewbrunelle.com";
+  link: "ciferkey", url: "/~ciferkey";
+  link: "△ 17", url: "/login";
+  heading: "Avoid mini-frameworks", level: 1 {
+    link: "Avoid mini-frameworks", url: "https://laike9m.com/blog/avoid-mini-frameworks,171/";
+  };
+
+  link: "programming", url: "/t/programming";
+  link: "laike9m.com", url: "/domains/laike9m.com";
+  link: "jeremiahlee", url: "/~jeremiahlee";
+  link: "△ 15", url: "/login";
+  heading: "cjanet", level: 1 {
+    link: "cjanet", url: "https://github.com/janet-lang/spork/blob/cjanet-jit/spork/cjanet.janet";
+  };
+
+  link: "☶", url: "/s/g1wsya/cjanet";
+  link: "c", url: "/t/c";
+  link: "lisp", url: "/t/lisp";
+  link: "github.com/janet-lang", url: "/origins/github.com%2Fjanet-lang";
+  link: "veqq", url: "/~veqq";
+  link: "△ 10", url: "/login";
+  heading: "Wayback 0.3 Released", level: 1 {
+    link: "Wayback 0.3 Released", url: "https://wayback.freedesktop.org/news/2025/12/22/wayback-0.3-released/";
+  };
+
+  link: "linux", url: "/t/linux";
+  link: "release", url: "/t/release";
+  link: "wayback.freedesktop.org", url: "/domains/wayback.freedesktop.org";
+  link: "theelx", url: "/~theelx";
+  link: "△ 7", url: "/login";
+  heading: "\"AI\" is bad UX", level: 1 {
+    link: "\"AI\" is bad UX", url: "https://buttondown.com/apperceptive/archive/ai-is-bad-ux/";
+  };
+
+  link: "design", url: "/t/design";
+  link: "vibecoding", url: "/t/vibecoding";
+  link: "buttondown.com/apperceptive", url: "/origins/buttondown.com%2Fapperceptive";
+  link: "kevinc", url: "/~kevinc";
+  link: "△ 94", url: "/login";
+  heading: "The Linux kernel is just a program", level: 1 {
+    link: "The Linux kernel is just a program", url: "https://serversfor.dev/linux-inside-out/the-linux-kernel-is-just-a-program/";
+  };
+
+  link: "go", url: "/t/go";
+  link: "linux", url: "/t/linux";
+  link: "serversfor.dev", url: "/domains/serversfor.dev";
+  link: "wofo", url: "/~wofo";
+  link: "△ 6", url: "/login";
+  heading: "A curl 2025 review", level: 1 {
+    link: "A curl 2025 review", url: "https://daniel.haxx.se/blog/2025/12/23/a-curl-2025-review/";
+  };
+
+  link: "c", url: "/t/c";
+  link: "networking", url: "/t/networking";
+  link: "daniel.haxx.se", url: "/domains/daniel.haxx.se";
+  link: "abnercoimbre", url: "/~abnercoimbre";
+  link: "△ 2", url: "/login";
+  heading: "The 2025 Matrix Holiday Special", level: 1 {
+    link: "The 2025 Matrix Holiday Special", url: "https://matrix.org/blog/2025/12/24/matrix-holiday-special/";
+  };
+
+  link: "distributed", url: "/t/distributed";
+  link: "matrix.org", url: "/domains/matrix.org";
+  link: "arathorn", url: "/~arathorn";
+  link: "△ 9", url: "/login";
+  heading: "Implementation of optimized vector of strings in C++ in SumatraPDF", level: 1 {
+    link: "Implementation of optimized vector of strings in C++ in SumatraPDF", url: "https://blog.kowalczyk.info/a-u2y2/implementation-of-optimized-vector-of-strings-in-c-in-sumatrapdf.html";
+  };
+
+  link: "c++", url: "/t/c++";
+  link: "blog.kowalczyk.info", url: "/domains/blog.kowalczyk.info";
+  link: "raymii", url: "/~raymii";
+  link: "△ 2", url: "/login";
+  heading: "ZipPop: a space conserving unzipping script", level: 1 {
+    link: "ZipPop: a space conserving unzipping script", url: "https://github.com/th0ma5w/ZipPop";
+  };
+
+  link: "linux", url: "/t/linux";
+  link: "performance", url: "/t/performance";
+  link: "python", url: "/t/python";
+  link: "release", url: "/t/release";
+  link: "reversing", url: "/t/reversing";
+  link: "unix", url: "/t/unix";
+  link: "github.com/th0ma5w", url: "/origins/github.com%2Fth0ma5w";
+  link: "th0ma5", url: "/~th0ma5";
+  link: "△ 2", url: "/login";
+  heading: "How JPEG Screenshots Defeated Our Beautiful H.264 WebCodecs Pipeline", level: 1 {
+    link: "How JPEG Screenshots Defeated Our Beautiful H.264 WebCodecs Pipeline", url: "https://blog.helix.ml/p/we-mass-deployed-15-year-old-screen";
+  };
+
+  link: "graphics", url: "/t/graphics";
+  link: "blog.helix.ml", url: "/domains/blog.helix.ml";
+  link: "susam", url: "/~susam";
+  link: "△ 3", url: "/login";
+  heading: "Datafun - functional language that generalizes Datalog", level: 1 {
+    link: "Datafun - functional language that generalizes Datalog", url: "https://www.rntz.net/datafun/";
+  };
+
+  link: "plt", url: "/t/plt";
+  link: "rntz.net", url: "/domains/rntz.net";
+  link: "veqq", url: "/~veqq";
+};
+
+</state 0>
+
+<reasoning>
+We need to perform a site search for the query 'rust programming' on Lobste.rs. No knowledge_base functions are available, so we will interact directly. From the accessibility tree there is a top nav link named 'Search' that goes to /search. Plan: click the 'Search' link to navigate to the search page (last action in this step to respect navigation). Next step (after navigation) we will fill the search field and submit.
+</reasoning>
+
+<code>
+async def act(page):
+    # No knowledge base functions are available for this action.
+    await page.get_by_role("link", name="Search").click()
+
+</code>
+
+---
+
+<state 1>
+URL: /search
+Title: Search | Lobsters
+
+document: "Search | Lobsters" {
+  link: "Lobsters (Current traffic: 20%)", url: "/";
+  link: "Active", url: "/active";
+  link: "Recent", url: "/recent";
+  link: "Comments", url: "/comments";
+  link: "Search", url: "/search";
+  link: "Login", url: "/login";
+  form: "Search" {
+    searchbox: "Search query";
+    button: "Search";
+    group: "Search" {
+      radio: "Stories";
+      radio: "Comments", checked: True;
+    };
+
+    group: "Order By" {
+      radio: "Newest", checked: True;
+      radio: "Relevance";
+      radio: "Score";
+    };
+  };
+
+  link: "tag", url: "/tags";
+  contentinfo {
+    link: "About", url: "/about";
+    link: "Tags", url: "/tags";
+    link: "Filter", url: "/filters";
+    link: "Moderation Log", url: "/moderations";
+  };
+};
+
+</state 1>
+
+<reasoning>
+No knowledge_base functions are available. The page shows a form named "Search" with a searchbox "Search query" and a button "Search". To search for 'rust programming', fill the searchbox and click the Search button within the same form (using the full get_by_role path to avoid ambiguity). Clicking Search will navigate/update results, so it should be the last action.
+</reasoning>
+
+<code>
+async def act(page):
+    search_form = page.get_by_role("form", name="Search")
+    await search_form.get_by_role("searchbox", name="Search query").fill("rust programming")
+    await search_form.get_by_role("button", name="Search").click()
+
+</code>
+
+---
+
+<state 2>
+URL: /search?q=rust+programming&what=comments&order=newest
+Title: Search | Lobsters
+
+document: "Search | Lobsters" {
+  link: "Lobsters (Current traffic: 20%)", url: "/";
+  link: "Active", url: "/active";
+  link: "Recent", url: "/recent";
+  link: "Comments", url: "/comments";
+  link: "Search", url: "/search";
+  link: "Login", url: "/login";
+  form: "Search" {
+    searchbox: "Search query";
+    button: "Search";
+    group: "Search" {
+      radio: "Stories";
+      radio: "Comments", checked: True;
+    };
+
+    group: "Order By" {
+      radio: "Newest", checked: True;
+      radio: "Relevance";
+      radio: "Score";
+    };
+  };
+
+  group, expanded: False;
+  link: "△ 23", url: "/login";
+  link: "LesleyLai", url: "/~LesleyLai";
+  link: "23 hours ago", url: "/c/iwfwiq";
+  link: "Your favorite pieces of technical writing?", url: "/s/8ugoxw/your_favorite_pieces_technical_writing";
+  heading: "Just writing down what popped into my head. Everything Bob Nystrom: Game Programming Patterns, Crafting Interpreters, and blog. Other blog posts: Simple but Powerful Pratt Parsing Graphics Pipelines for Young Bloods Books: Ray Tracing in One Weekend Real World OCaml Brown's Rust book experiment Rust Atomics and Locks", level: 3 {
+    link: "Game Programming Patterns", url: "https://gameprogrammingpatterns.com/";
+    link: "Crafting Interpreters", url: "https://www.craftinginterpreters.com/";
+    link: "blog", url: "https://journal.stuffwithstuff.com/";
+    link: "Simple but Powerful Pratt Parsing", url: "https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html";
+    link: "Graphics Pipelines for Young Bloods", url: "https://www.jeremyong.com/cpp/2021/05/20/graphics-pipelines-for-young-bloods/";
+    link: "Ray Tracing in One Weekend", url: "https://raytracing.github.io/books/RayTracingInOneWeekend.html";
+    link: "Real World OCaml", url: "https://dev.realworldocaml.org/";
+    link: "Brown's Rust book experiment", url: "https://rust-book.cs.brown.edu/";
+    link: "Rust Atomics and Locks", url: "https://marabos.nl/atomics/";
+  };
+
+  link: "△ 2", url: "/login";
+  link: "xnacly", url: "/~xnacly";
+  link: "2 days ago", url: "/c/fhidkl";
+  link: "What are you doing this week?", url: "/s/k9rvab/what_are_you_doing_this_week";
+  link: "△ 19", url: "/login";
+  link: "cole-k", url: "/~cole-k";
+  link: "4 days ago", url: "/c/u8rvah";
+  link: "What do people love about Rust?", url: "/s/uo16ri/what_do_people_love_about_rust";
+  heading: "I actually think Rust does error handling pretty well. Errors are just (one constructor of) an algebraic datatype, and the language has ? + enough built-ins to make short-circuiting and error-handling ergonomic while reaping the benefits of having your errors just be data. (Some) people laud Go for making errors values, and Rust's treatment is in my opinion strictly better (but I've basically never written Go). Unfortunately the type system is rigid in a way that makes it not ergonomic to \"compose\" multiple error types*, e.g. if you wanted to call a function which errors with FooError and then a function which errors with a BarError. This is where I have found anyhow to be useful. But most of the code I write has just a single error type or I just brazenly put .unwrap() etc. in fallible functions (I mean yes, your file read could fail, but I am cool with my function just crashing with the file read error in that case; I do not write Professional Rust!). Rust makes a lot more choices explicit compared to other programming languages, so don't be afraid to put .unwrap() or .clone() or whatever in your code to get it to work, especially at a first pass. You don't have to have perfectly \"clean\" and \"Rusty\" code, whatever that means. * I did some digging and this also happens in Haskell too; again I don't write good code, so of course never ran into these issues myself", level: 3 {
+    code;
+    link: "in my opinion strictly better", url: "/s/vd6all/why_go_s_error_handling_is_awesome#c_kjiwav";
+  };
+};
+
+</state 2>
+
+<terminate_with_result>
+rust programming
+</terminate_with_result>
+
+---
+
+<state 3>
+URL: /search?q=rust+programming&what=comments&order=newest
+Title: Search | Lobsters
+
+document: "Search | Lobsters" {
+  link: "Lobsters (Current traffic: 20%)", url: "/";
+  link: "Active", url: "/active";
+  link: "Recent", url: "/recent";
+  link: "Comments", url: "/comments";
+  link: "Search", url: "/search";
+  link: "Login", url: "/login";
+  form: "Search" {
+    searchbox: "Search query";
+    button: "Search";
+    group: "Search" {
+      radio: "Stories";
+      radio: "Comments", checked: True;
+    };
+
+    group: "Order By" {
+      radio: "Newest", checked: True;
+      radio: "Relevance";
+      radio: "Score";
+    };
+  };
+
+  group, expanded: False;
+  link: "△ 23", url: "/login";
+  link: "LesleyLai", url: "/~LesleyLai";
+  link: "23 hours ago", url: "/c/iwfwiq";
+  link: "Your favorite pieces of technical writing?", url: "/s/8ugoxw/your_favorite_pieces_technical_writing";
+  heading: "Just writing down what popped into my head. Everything Bob Nystrom: Game Programming Patterns, Crafting Interpreters, and blog. Other blog posts: Simple but Powerful Pratt Parsing Graphics Pipelines for Young Bloods Books: Ray Tracing in One Weekend Real World OCaml Brown's Rust book experiment Rust Atomics and Locks", level: 3 {
+    link: "Game Programming Patterns", url: "https://gameprogrammingpatterns.com/";
+    link: "Crafting Interpreters", url: "https://www.craftinginterpreters.com/";
+    link: "blog", url: "https://journal.stuffwithstuff.com/";
+    link: "Simple but Powerful Pratt Parsing", url: "https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html";
+    link: "Graphics Pipelines for Young Bloods", url: "https://www.jeremyong.com/cpp/2021/05/20/graphics-pipelines-for-young-bloods/";
+    link: "Ray Tracing in One Weekend", url: "https://raytracing.github.io/books/RayTracingInOneWeekend.html";
+    link: "Real World OCaml", url: "https://dev.realworldocaml.org/";
+    link: "Brown's Rust book experiment", url: "https://rust-book.cs.brown.edu/";
+    link: "Rust Atomics and Locks", url: "https://marabos.nl/atomics/";
+  };
+
+  link: "△ 2", url: "/login";
+  link: "xnacly", url: "/~xnacly";
+  link: "2 days ago", url: "/c/fhidkl";
+  link: "What are you doing this week?", url: "/s/k9rvab/what_are_you_doing_this_week";
+  link: "△ 19", url: "/login";
+  link: "cole-k", url: "/~cole-k";
+  link: "4 days ago", url: "/c/u8rvah";
+  link: "What do people love about Rust?", url: "/s/uo16ri/what_do_people_love_about_rust";
+  heading: "I actually think Rust does error handling pretty well. Errors are just (one constructor of) an algebraic datatype, and the language has ? + enough built-ins to make short-circuiting and error-handling ergonomic while reaping the benefits of having your errors just be data. (Some) people laud Go for making errors values, and Rust's treatment is in my opinion strictly better (but I've basically never written Go). Unfortunately the type system is rigid in a way that makes it not ergonomic to \"compose\" multiple error types*, e.g. if you wanted to call a function which errors with FooError and then a function which errors with a BarError. This is where I have found anyhow to be useful. But most of the code I write has just a single error type or I just brazenly put .unwrap() etc. in fallible functions (I mean yes, your file read could fail, but I am cool with my function just crashing with the file read error in that case; I do not write Professional Rust!). Rust makes a lot more choices explicit compared to other programming languages, so don't be afraid to put .unwrap() or .clone() or whatever in your code to get it to work, especially at a first pass. You don't have to have perfectly \"clean\" and \"Rusty\" code, whatever that means. * I did some digging and this also happens in Haskell too; again I don't write good code, so of course never ran into these issues myself", level: 3 {
+    code;
+    link: "in my opinion strictly better", url: "/s/vd6all/why_go_s_error_handling_is_awesome#c_kjiwav";
+  };
+};
+
+</state 3>
+

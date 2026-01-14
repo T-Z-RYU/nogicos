@@ -1,0 +1,16 @@
+{
+  "project": "downloads_2024/Yazio",
+  "applied_at": "2025-12-21T05:55:23.706032",
+  "backup_dir": "C:\\Users\\WIN\\Desktop\\Cursor Project\\pm-tool-v2\\backend\\data\\downloads_2024\\Yazio_backup_20251221_055523",
+  "final_count": 2,
+  "order": [
+    {
+      "original_file": "0001.png",
+      "new_index": 1
+    },
+    {
+      "original_file": "0002.png",
+      "new_index": 2
+    }
+  ]
+}

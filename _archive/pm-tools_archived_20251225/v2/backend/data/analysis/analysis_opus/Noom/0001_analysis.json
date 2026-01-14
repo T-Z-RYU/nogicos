@@ -1,0 +1,86 @@
+{
+  "app_name": "Noom",
+  "screenshot_index": 1,
+  "screenshot_filename": "0001.png",
+  "total_onboarding_screens": 114,
+  "position_percentage": 0.9,
+  
+  "classification": {
+    "functional_purpose": {
+      "primary_category": "Permission",
+      "secondary_type": "NotificationAsk",
+      "confidence": 0.95,
+      "description": "iOS系统通知权限请求弹窗，叠加在欢迎页面上"
+    },
+    "funnel_stage": {
+      "stage": "Awareness",
+      "position_in_funnel": "top",
+      "description": "流程最开始，在用户了解产品价值之前就请求权限"
+    },
+    "psychological_tactic": {
+      "primary_tactic": "None",
+      "secondary_tactics": [],
+      "tactic_strength": "none",
+      "description": "标准iOS权限弹窗，无额外说服策略"
+    },
+    "interaction_pattern": {
+      "primary_interaction": "SystemModal",
+      "is_skippable": true,
+      "input_effort": "low",
+      "description": "系统级弹窗，用户可选择允许或不允许"
+    },
+    "ui_pattern": {
+      "layout_type": "SystemDialog",
+      "has_progress_indicator": false,
+      "has_illustration": true,
+      "has_animation": false,
+      "color_scheme": "light",
+      "description": "背景为品牌欢迎页，前景为iOS标准权限弹窗"
+    },
+    "commitment_level": {
+      "level": 4,
+      "commitment_type": "permission",
+      "reversibility": "reversible",
+      "description": "请求通知权限是高承诺行为，但用户可以在设置中随时更改"
+    }
+  },
+  
+  "deep_analysis": {
+    "design_intent": "在用户进入主流程前先获取通知权限，确保后续可以发送提醒通知促进用户留存",
+    "ux_observation": "权限请求出现在流程最开始是一种激进策略，用户还未体验产品价值就被要求授权，可能导致部分用户拒绝",
+    "conversion_impact": "uncertain",
+    "potential_issues": [
+      "权限请求时机过早，用户可能因不理解价值而拒绝",
+      "没有预先说明为什么需要通知权限",
+      "建议先展示产品价值，再请求权限（Permission Priming）"
+    ],
+    "best_practice_alignment": "与Apple HIG建议的'在用户理解价值后再请求权限'略有偏离，但Noom作为成熟产品可能已测试验证此策略有效"
+  },
+  
+  "raw_observation": {
+    "visible_text": [
+      "NOOM",
+      ""Noom" 想给你发送通知",
+      "通知可能包括提醒、声音和图标标记。可在\"设置\"中配置相关功能。",
+      "不允许",
+      "允许",
+      "Get Started",
+      "Log In"
+    ],
+    "ui_elements": [
+      "品牌Logo",
+      "圆形插画（手托人的艺术图）",
+      "iOS系统权限弹窗",
+      "红色主CTA按钮（Get Started）",
+      "次要按钮（Log In）"
+    ],
+    "brand_elements": [
+      "Noom Logo",
+      "品牌粉色/珊瑚色配色",
+      "艺术风格插画"
+    ]
+  },
+  
+  "analysis_method": "claude_opus_4.5",
+  "analyzed_at": "2025-12-22T00:00:00"
+}

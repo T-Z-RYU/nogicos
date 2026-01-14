@@ -1,0 +1,309 @@
+<state 0>
+URL: /
+Title: Lobsters
+
+document: "Lobsters" {
+  link: "Lobsters (Current traffic: 6%)", url: "/";
+  link: "Active", url: "/active";
+  link: "Recent", url: "/recent";
+  link: "Comments", url: "/comments";
+  link: "Search", url: "/search";
+  link: "Login", url: "/login";
+  link: "△ 41", url: "/login";
+  heading: "I'm returning my Framework 16", level: 1 {
+    link: "I'm returning my Framework 16", url: "https://yorickpeterse.com/articles/im-returning-my-framework-16/";
+  };
+
+  link: "hardware", url: "/t/hardware";
+  link: "yorickpeterse.com", url: "/domains/yorickpeterse.com";
+  link: "yorickpeterse", url: "/~yorickpeterse";
+  link: "△ 16", url: "/login";
+  heading: "How and why I moved from Apple Services to my own server", level: 1 {
+    link: "How and why I moved from Apple Services to my own server", url: "https://bastiangruber.ca/posts/mass-quitting-apple/";
+  };
+
+  link: "linux", url: "/t/linux";
+  link: "bastiangruber.ca", url: "/domains/bastiangruber.ca";
+  link: "gruberb", url: "/~gruberb";
+  link: "△ 12", url: "/login";
+  heading: "(My) Second Year of the Linux Desktop (For Gaming)", level: 1 {
+    link: "(My) Second Year of the Linux Desktop (For Gaming)", url: "https://blog.matthewbrunelle.com/my-second-year-of-the-linux-desktop-for-gaming/";
+  };
+
+  link: "games", url: "/t/games";
+  link: "linux", url: "/t/linux";
+  link: "blog.matthewbrunelle.com", url: "/domains/blog.matthewbrunelle.com";
+  link: "ciferkey", url: "/~ciferkey";
+  link: "△ 17", url: "/login";
+  heading: "Avoid mini-frameworks", level: 1 {
+    link: "Avoid mini-frameworks", url: "https://laike9m.com/blog/avoid-mini-frameworks,171/";
+  };
+
+  link: "programming", url: "/t/programming";
+  link: "laike9m.com", url: "/domains/laike9m.com";
+  link: "jeremiahlee", url: "/~jeremiahlee";
+  link: "△ 16", url: "/login";
+  heading: "cjanet", level: 1 {
+    link: "cjanet", url: "https://github.com/janet-lang/spork/blob/cjanet-jit/spork/cjanet.janet";
+  };
+
+  link: "☶", url: "/s/g1wsya/cjanet";
+  link: "c", url: "/t/c";
+  link: "lisp", url: "/t/lisp";
+  link: "github.com/janet-lang", url: "/origins/github.com%2Fjanet-lang";
+  link: "veqq", url: "/~veqq";
+  link: "△ 11", url: "/login";
+  heading: "Wayback 0.3 Released", level: 1 {
+    link: "Wayback 0.3 Released", url: "https://wayback.freedesktop.org/news/2025/12/22/wayback-0.3-released/";
+  };
+
+  link: "linux", url: "/t/linux";
+  link: "release", url: "/t/release";
+  link: "wayback.freedesktop.org", url: "/domains/wayback.freedesktop.org";
+  link: "theelx", url: "/~theelx";
+  link: "△ 8", url: "/login";
+  heading: "\"AI\" is bad UX", level: 1 {
+    link: "\"AI\" is bad UX", url: "https://buttondown.com/apperceptive/archive/ai-is-bad-ux/";
+  };
+
+  link: "design", url: "/t/design";
+  link: "vibecoding", url: "/t/vibecoding";
+  link: "buttondown.com/apperceptive", url: "/origins/buttondown.com%2Fapperceptive";
+  link: "kevinc", url: "/~kevinc";
+  link: "△ 3", url: "/login";
+  heading: "ZipPop: a space conserving unzipping script", level: 1 {
+    link: "ZipPop: a space conserving unzipping script", url: "https://github.com/th0ma5w/ZipPop";
+  };
+
+  link: "linux", url: "/t/linux";
+  link: "performance", url: "/t/performance";
+  link: "python", url: "/t/python";
+  link: "release", url: "/t/release";
+  link: "reversing", url: "/t/reversing";
+  link: "unix", url: "/t/unix";
+  link: "github.com/th0ma5w", url: "/origins/github.com%2Fth0ma5w";
+  link: "th0ma5", url: "/~th0ma5";
+  link: "△ 94", url: "/login";
+  heading: "The Linux kernel is just a program", level: 1 {
+    link: "The Linux kernel is just a program", url: "https://serversfor.dev/linux-inside-out/the-linux-kernel-is-just-a-program/";
+  };
+
+  link: "go", url: "/t/go";
+  link: "linux", url: "/t/linux";
+  link: "serversfor.dev", url: "/domains/serversfor.dev";
+  link: "wofo", url: "/~wofo";
+  link: "△ 7", url: "/login";
+  heading: "A curl 2025 review", level: 1 {
+    link: "A curl 2025 review", url: "https://daniel.haxx.se/blog/2025/12/23/a-curl-2025-review/";
+  };
+
+  link: "c", url: "/t/c";
+  link: "networking", url: "/t/networking";
+  link: "daniel.haxx.se", url: "/domains/daniel.haxx.se";
+  link: "abnercoimbre", url: "/~abnercoimbre";
+  link: "△ 4", url: "/login";
+  heading: "Newtype Index Pattern In Zig", level: 1 {
+    link: "Newtype Index Pattern In Zig", url: "https://matklad.github.io/2025/12/23/zig-newtype-index-pattern.html";
+  };
+
+  link: "zig", url: "/t/zig";
+  link: "matklad.github.io", url: "/domains/matklad.github.io";
+  link: "Johz", url: "/~Johz";
+  link: "△ 3", url: "/login";
+  heading: "How JPEG Screenshots Defeated Our Beautiful H.264 WebCodecs Pipeline", level: 1 {
+    link: "How JPEG Screenshots Defeated Our Beautiful H.264 WebCodecs Pipeline", url: "https://blog.helix.ml/p/we-mass-deployed-15-year-old-screen";
+  };
+
+  link: "graphics", url: "/t/graphics";
+  link: "blog.helix.ml", url: "/domains/blog.helix.ml";
+  link: "susam", url: "/~susam";
+  link: "△ 2", url: "/login";
+  heading: "The 2025 Matrix Holiday Special", level: 1 {
+    link: "The 2025 Matrix Holiday Special", url: "https://matrix.org/blog/2025/12/24/matrix-holiday-special/";
+  };
+
+  link: "distributed", url: "/t/distributed";
+  link: "matrix.org", url: "/domains/matrix.org";
+  link: "arathorn", url: "/~arathorn";
+  link: "△ 9", url: "/login";
+  heading: "Implementation of optimized vector of strings in C++ in SumatraPDF", level: 1 {
+    link: "Implementation of optimized vector of strings in C++ in SumatraPDF", url: "https://blog.kowalczyk.info/a-u2y2/implementation-of-optimized-vector-of-strings-in-c-in-sumatrapdf.html";
+  };
+
+  link: "c++", url: "/t/c++";
+  link: "blog.kowalczyk.info", url: "/domains/blog.kowalczyk.info";
+  link: "raymii", url: "/~raymii";
+};
+
+</state 0>
+
+<reasoning>
+We need to use Lobsters' built-in search feature. The accessibility tree shows a top navigation link named "Search" pointing to /search. No knowledge_base function is specific to Lobsters; hn_search_from_footer is for Hacker News and not applicable. Plan: click the "Search" link (navigation), then on the search page fill the search textbox with 'python' and submit (press Enter), waiting for results to load.
+</reasoning>
+
+<code>
+import asyncio
+
+async def act(page):
+    # Navigate to Lobsters search page via the top nav link
+    await page.get_by_role("link", name="Search").click()
+    await page.wait_for_load_state("domcontentloaded")
+
+    # Use the search textbox on /search
+    search_box = page.get_by_role("textbox")
+    await search_box.fill("python")
+    await search_box.press("Enter")
+    await page.wait_for_load_state("domcontentloaded")
+
+</code>
+
+<exception>
+'TimeoutError': Locator.fill: Timeout 5000ms exceeded.
+Call log:
+  - waiting for get_by_role("textbox")
+
+</exception>
+
+---
+
+<state 1>
+URL: /search
+Title: Search | Lobsters
+
+document: "Search | Lobsters" {
+  link: "Lobsters (Current traffic: 6%)", url: "/";
+  link: "Active", url: "/active";
+  link: "Recent", url: "/recent";
+  link: "Comments", url: "/comments";
+  link: "Search", url: "/search";
+  link: "Login", url: "/login";
+  form: "Search" {
+    searchbox: "Search query";
+    button: "Search";
+    group: "Search" {
+      radio: "Stories";
+      radio: "Comments", checked: True;
+    };
+
+    group: "Order By" {
+      radio: "Newest", checked: True;
+      radio: "Relevance";
+      radio: "Score";
+    };
+  };
+
+  link: "tag", url: "/tags";
+  contentinfo {
+    link: "About", url: "/about";
+    link: "Tags", url: "/tags";
+    link: "Filter", url: "/filters";
+    link: "Moderation Log", url: "/moderations";
+  };
+};
+
+</state 1>
+
+<reasoning>
+We are already on Lobsters /search. The previous attempt failed because it tried to locate a generic role 'textbox', but the page exposes the input as role 'searchbox' with name 'Search query'. No knowledge_base function applies here: hn_search_from_footer is specific to Hacker News and would navigate away, so we should not use it. We should interact via the form container to avoid ambiguity: locate the form named 'Search', fill the searchbox 'Search query' with 'python', then submit by clicking the form's 'Search' button (or pressing Enter). We'll wait for navigation/load to complete.
+</reasoning>
+
+<code>
+import asyncio
+
+async def act(page):
+    # Fill the search form and submit
+    search_form = page.get_by_role("form", name="Search")
+    await search_form.get_by_role("searchbox", name="Search query").fill("python")
+    await search_form.get_by_role("button", name="Search").click()
+    await page.wait_for_load_state("domcontentloaded")
+
+</code>
+
+---
+
+<state 2>
+URL: /search?q=python&what=comments&order=newest
+Title: Search | Lobsters
+
+document: "Search | Lobsters" {
+  link: "Lobsters (Current traffic: 6%)", url: "/";
+  link: "Active", url: "/active";
+  link: "Recent", url: "/recent";
+  link: "Comments", url: "/comments";
+  link: "Search", url: "/search";
+  link: "Login", url: "/login";
+  form: "Search" {
+    searchbox: "Search query";
+    button: "Search";
+    group: "Search" {
+      radio: "Stories";
+      radio: "Comments", checked: True;
+    };
+
+    group: "Order By" {
+      radio: "Newest", checked: True;
+      radio: "Relevance";
+      radio: "Score";
+    };
+  };
+
+  group, expanded: False;
+  link: "△ ~", url: "/login";
+  link: "andyc", url: "/~andyc";
+  link: "9 hours ago", url: "/c/w6js9n";
+  link: "The Linux kernel is just a program", url: "/s/eqsxsc/linux_kernel_is_just_program";
+  heading: "That's very related, though I think there's nothing stopping the Go runtime from using the self-pipe trick (like the Python asyncio runtime does, and presumably node.js) I think the real problem is that Go only supports os.ForkExec() -- there is no os.Fork(). os.Fork() would be unsafe because there are also threads involved (the ones that implement goroutines, and then ones that do blocking I/O). Hm well that's a problem for a SHELL - it has to fork() without exec But maybe a process supervisor can use os.ForkExec()? and non-blocking WaitPid() instead of Wait()? Someone else can probably unpack that a bit more ... But yeah given the 2023 response from the Go team, I would still personally be wary of using Go for process management. You can probably do it, but it won't be pretty or portable. The whole point is that processes are different on Unix and Windows! So making a portable os package means you are limited to a tiny least common denominator. I think Go is trying too hard to be an OS, rather than a language ... same issue with the Dial() stuff over socket APIs", level: 3 {
+    blockquote;
+    blockquote;
+    code;
+  };
+};
+
+</state 2>
+
+<terminate_with_result>
+python
+</terminate_with_result>
+
+---
+
+<state 3>
+URL: /search?q=python&what=comments&order=newest
+Title: Search | Lobsters
+
+document: "Search | Lobsters" {
+  link: "Lobsters (Current traffic: 6%)", url: "/";
+  link: "Active", url: "/active";
+  link: "Recent", url: "/recent";
+  link: "Comments", url: "/comments";
+  link: "Search", url: "/search";
+  link: "Login", url: "/login";
+  form: "Search" {
+    searchbox: "Search query";
+    button: "Search";
+    group: "Search" {
+      radio: "Stories";
+      radio: "Comments", checked: True;
+    };
+
+    group: "Order By" {
+      radio: "Newest", checked: True;
+      radio: "Relevance";
+      radio: "Score";
+    };
+  };
+
+  group, expanded: False;
+  link: "△ ~", url: "/login";
+  link: "andyc", url: "/~andyc";
+  link: "9 hours ago", url: "/c/w6js9n";
+  link: "The Linux kernel is just a program", url: "/s/eqsxsc/linux_kernel_is_just_program";
+  heading: "That's very related, though I think there's nothing stopping the Go runtime from using the self-pipe trick (like the Python asyncio runtime does, and presumably node.js) I think the real problem is that Go only supports os.ForkExec() -- there is no os.Fork(). os.Fork() would be unsafe because there are also threads involved (the ones that implement goroutines, and then ones that do blocking I/O). Hm well that's a problem for a SHELL - it has to fork() without exec But maybe a process supervisor can use os.ForkExec()? and non-blocking WaitPid() instead of Wait()? Someone else can probably unpack that a bit more ... But yeah given the 2023 response from the Go team, I would still personally be wary of using Go for process management. You can probably do it, but it won't be pretty or portable. The whole point is that processes are different on Unix and Windows! So making a portable os package means you are limited to a tiny least common denominator. I think Go is trying too hard to be an OS, rather than a language ... same issue with the Dial() stuff over socket APIs", level: 3 {
+    blockquote;
+    blockquote;
+    code;
+  };
+};
+
+</state 3>
+

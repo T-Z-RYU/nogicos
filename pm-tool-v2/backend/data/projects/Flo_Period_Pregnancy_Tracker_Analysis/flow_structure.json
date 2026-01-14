@@ -1,0 +1,171 @@
+{
+  "total_screenshots": 198,
+  "stages": [
+    {
+      "name": "Launch",
+      "start_index": 1,
+      "end_index": 1,
+      "description": "启动页，显示Flo logo和品牌形象",
+      "expected_types": [
+        "Launch"
+      ],
+      "screenshot_count": 1
+    },
+    {
+      "name": "Welcome",
+      "start_index": 2,
+      "end_index": 4,
+      "description": "欢迎页面，介绍数据隐私保护和用户价值",
+      "expected_types": [
+        "Welcome",
+        "Launch"
+      ],
+      "screenshot_count": 3
+    },
+    {
+      "name": "Onboarding",
+      "start_index": 5,
+      "end_index": 40,
+      "description": "详细引导流程，收集用户生理周期、怀孕目标、健康状况、体重等个人信息",
+      "expected_types": [
+        "Onboarding",
+        "Permission"
+      ],
+      "screenshot_count": 36
+    },
+    {
+      "name": "SignUp",
+      "start_index": 41,
+      "end_index": 43,
+      "description": "用户注册和伴侣邀请页面",
+      "expected_types": [
+        "SignUp"
+      ],
+      "screenshot_count": 3
+    },
+    {
+      "name": "Onboarding",
+      "start_index": 44,
+      "end_index": 58,
+      "description": "继续引导，收集体重、孕前检查、饮食习惯、睡眠等更多健康信息",
+      "expected_types": [
+        "Onboarding",
+        "Permission"
+      ],
+      "screenshot_count": 15
+    },
+    {
+      "name": "Paywall",
+      "start_index": 59,
+      "end_index": 66,
+      "description": "订阅付费墙，展示订阅计划选择和礼品优惠",
+      "expected_types": [
+        "Paywall"
+      ],
+      "screenshot_count": 8
+    },
+    {
+      "name": "Home",
+      "start_index": 67,
+      "end_index": 72,
+      "description": "主界面展示应用核心功能、健康追踪入口和伴侣连接",
+      "expected_types": [
+        "Home"
+      ],
+      "screenshot_count": 6
+    },
+    {
+      "name": "Welcome",
+      "start_index": 73,
+      "end_index": 78,
+      "description": "获奖展示和备孕成功率介绍页面",
+      "expected_types": [
+        "Welcome",
+        "Launch"
+      ],
+      "screenshot_count": 6
+    },
+    {
+      "name": "Tracking",
+      "start_index": 79,
+      "end_index": 98,
+      "description": "核心追踪功能，包括每日日志、基础体温、排卵期预测、性生活记录和受孕提示",
+      "expected_types": [
+        "Tracking",
+        "Feature"
+      ],
+      "screenshot_count": 20
+    },
+    {
+      "name": "Core Features",
+      "start_index": 99,
+      "end_index": 118,
+      "description": "健康自测工具、症状检查器、子宫内膜异位症评估等核心功能",
+      "expected_types": [
+        "Feature",
+        "Content",
+        "Tracking",
+        "Progress"
+      ],
+      "screenshot_count": 20
+    },
+    {
+      "name": "Content",
+      "start_index": 119,
+      "end_index": 138,
+      "description": "健康内容区，包括孕早期知识、专家文章、安全饮食指南和通知设置",
+      "expected_types": [
+        "Content",
+        "Feature"
+      ],
+      "screenshot_count": 20
+    },
+    {
+      "name": "Progress",
+      "start_index": 139,
+      "end_index": 148,
+      "description": "追踪进度统计和周期分析文章",
+      "expected_types": [
+        "Progress",
+        "Feature"
+      ],
+      "screenshot_count": 10
+    },
+    {
+      "name": "Social",
+      "start_index": 149,
+      "end_index": 158,
+      "description": "社区功能和问卷反馈页面",
+      "expected_types": [
+        "Social"
+      ],
+      "screenshot_count": 10
+    },
+    {
+      "name": "Profile",
+      "start_index": 159,
+      "end_index": 168,
+      "description": "个人中心，账户设置、数据导出和匿名模式",
+      "expected_types": [
+        "Profile"
+      ],
+      "screenshot_count": 10
+    },
+    {
+      "name": "Settings",
+      "start_index": 169,
+      "end_index": 198,
+      "description": "详细设置页面，包括周期设置、隐私政策、账户管理和匿名模式说明",
+      "expected_types": [
+        "Settings",
+        "Profile"
+      ],
+      "screenshot_count": 30
+    }
+  ],
+  "paywall_position": "early",
+  "onboarding_length": "long",
+  "has_signup": true,
+  "has_social": true,
+  "confidence": 0.85
+}

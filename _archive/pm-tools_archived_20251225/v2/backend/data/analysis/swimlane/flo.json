@@ -1,0 +1,2416 @@
+{
+  "app": "Flo",
+  "appId": "flo",
+  "total_screens": 100,
+  "analyzed_at": "2025-12-22T17:02:12.401296",
+  "taxonomy_version": "3.0",
+  "analysis_method": "gpt-5.2 + claude-opus-4-5",
+  "phases": [
+    {
+      "id": "trust-building",
+      "name": "信任建立",
+      "nameEn": "Trust Building",
+      "purpose": "包含 10 个页面",
+      "startIndex": 1,
+      "endIndex": 10,
+      "dominantTypes": [
+        "W",
+        "Q",
+        "X",
+        "A"
+      ],
+      "psychologyTactics": [
+        "Brand Recognition",
+        "First Impression",
+        "Trust Building",
+        "Authority",
+        "Social Proof"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "goal-setting",
+      "name": "目标设定",
+      "nameEn": "Goal Setting",
+      "purpose": "包含 9 个页面",
+      "startIndex": 12,
+      "endIndex": 29,
+      "dominantTypes": [
+        "Q",
+        "V"
+      ],
+      "psychologyTactics": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Goal Setting",
+        "Value Proposition",
+        "Commitment & Consistency"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "data-collection-a",
+      "name": "数据收集A",
+      "nameEn": "Data Collection A",
+      "purpose": "包含 11 个页面",
+      "startIndex": 11,
+      "endIndex": 30,
+      "dominantTypes": [
+        "S",
+        "X",
+        "W",
+        "G"
+      ],
+      "psychologyTactics": [
+        "Permission Pre-priming",
+        "Privacy Assurance",
+        "Progressive Disclosure",
+        "Brand Recognition",
+        "First Impression"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "data-collection",
+      "name": "数据收集",
+      "nameEn": "Data Collection",
+      "purpose": "包含 30 个页面",
+      "startIndex": 31,
+      "endIndex": 60,
+      "dominantTypes": [
+        "Q",
+        "V",
+        "R",
+        "L"
+      ],
+      "psychologyTactics": [
+        "Personalization",
+        "Social Proof",
+        "Value Proposition",
+        "Body Data",
+        "Progressive Disclosure"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "feature-showcase",
+      "name": "功能展示",
+      "nameEn": "Feature Showcase",
+      "purpose": "包含 6 个页面",
+      "startIndex": 65,
+      "endIndex": 79,
+      "dominantTypes": [
+        "V"
+      ],
+      "psychologyTactics": [
+        "Value Proposition",
+        "Social Proof",
+        "Reciprocity",
+        "Trust Building",
+        "Progressive Disclosure"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "final-setup",
+      "name": "最终设置",
+      "nameEn": "Final Setup",
+      "purpose": "包含 14 个页面",
+      "startIndex": 61,
+      "endIndex": 80,
+      "dominantTypes": [
+        "Q",
+        "G",
+        "L",
+        "X"
+      ],
+      "psychologyTactics": [
+        "Personalization",
+        "Body Data",
+        "Progressive Disclosure",
+        "Goal Setting",
+        "Reciprocity"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "results",
+      "name": "结果展示",
+      "nameEn": "Results",
+      "purpose": "包含 4 个页面",
+      "startIndex": 82,
+      "endIndex": 95,
+      "dominantTypes": [
+        "L",
+        "R"
+      ],
+      "psychologyTactics": [
+        "Labor Illusion",
+        "Authority",
+        "Social Proof",
+        "Commitment & Consistency",
+        "Personalization"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "conversion",
+      "name": "转化",
+      "nameEn": "Conversion",
+      "purpose": "包含 16 个页面",
+      "startIndex": 81,
+      "endIndex": 100,
+      "dominantTypes": [
+        "V",
+        "C",
+        "P",
+        "X"
+      ],
+      "psychologyTactics": [
+        "Permission Pre-priming",
+        "Value Proposition",
+        "Trust Building",
+        "Authority",
+        "Labor Illusion"
+      ],
+      "keyInsights": []
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "Q→Q→Q→V",
+      "name": "问题-价值穿插",
+      "occurrences": 1,
+      "positions": [
+        55
+      ],
+      "interpretation": "每3-4个问题后穿插1个价值页，缓解问卷疲劳"
+    },
+    {
+      "pattern": "V→S",
+      "name": "价值-社会认同",
+      "occurrences": 1,
+      "positions": [
+        49
+      ],
+      "interpretation": "价值展示后跟随社会认同强化可信度"
+    },
+    {
+      "pattern": "L→R",
+      "name": "加载-结果",
+      "occurrences": 2,
+      "positions": [
+        36,
+        47
+      ],
+      "interpretation": "加载动画后展示结果，创造期待感"
+    },
+    {
+      "pattern": "V→X",
+      "name": "价值-权限",
+      "occurrences": 2,
+      "positions": [
+        27,
+        79
+      ],
+      "interpretation": "展示价值后请求权限（Permission Pre-priming）"
+    }
+  ],
+  "summary": {
+    "total_pages": 100,
+    "phase_distribution": {
+      "trust-building": {
+        "count": 10,
+        "percentage": 10
+      },
+      "data-collection-a": {
+        "count": 11,
+        "percentage": 11
+      },
+      "goal-setting": {
+        "count": 9,
+        "percentage": 9
+      },
+      "data-collection": {
+        "count": 30,
+        "percentage": 30
+      },
+      "final-setup": {
+        "count": 14,
+        "percentage": 14
+      },
+      "feature-showcase": {
+        "count": 6,
+        "percentage": 6
+      },
+      "conversion": {
+        "count": 16,
+        "percentage": 16
+      },
+      "results": {
+        "count": 4,
+        "percentage": 4
+      }
+    },
+    "by_type": {
+      "W": {
+        "count": 6,
+        "label": "Welcome",
+        "color": "#E5E5E5"
+      },
+      "X": {
+        "count": 8,
+        "label": "Permission",
+        "color": "#6B7280"
+      },
+      "A": {
+        "count": 3,
+        "label": "Authority",
+        "color": "#6366F1"
+      },
+      "Q": {
+        "count": 32,
+        "label": "Question",
+        "color": "#3B82F6"
+      },
+      "V": {
+        "count": 24,
+        "label": "Value",
+        "color": "#22C516"
+      },
+      "S": {
+        "count": 5,
+        "label": "Social",
+        "color": "#EAB308"
+      },
+      "G": {
+        "count": 4,
+        "label": "Gamified",
+        "color": "#14B8A6"
+      },
+      "R": {
+        "count": 5,
+        "label": "Result",
+        "color": "#A855F7"
+      },
+      "L": {
+        "count": 7,
+        "label": "Loading",
+        "color": "#1F2937"
+      },
+      "C": {
+        "count": 3,
+        "label": "Commit",
+        "color": "#D97706"
+      },
+      "P": {
+        "count": 3,
+        "label": "Paywall",
+        "color": "#EF4444"
+      }
+    }
+  },
+  "screens": [
+    {
+      "index": 1,
+      "filename": "0001.png",
+      "primary_type": "W",
+      "secondary_type": "L",
+      "phase": "trust-building",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Trust Building"
+      ],
+      "ui_pattern": "Splash Screen",
+      "copy": {
+        "headline": "Flo",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "品牌启动页，通过粉色渐变和羽毛图形建立女性向、温柔安全的第一印象，为后续敏感信息收集做情绪铺垫",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 2,
+      "filename": "0002.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": ["Permission Pre-priming"],
+      "ui_pattern": "System Network Permission Dialog (Chinese)",
+      "copy": {
+        "headline": "允许 Flo 使用无线数据？",
+        "subheadline": "关闭无线数据时，部分功能可能无法使用",
+        "cta": "无线局域网与蜂窝网络 / 仅限无线局域网 / 不允许"
+      },
+      "insight": "中文系统网络权限弹窗，在应用启动时立即请求，用户需选择网络访问权限",
+      "confidence": 0.95,
+      "analyzed_by": "claude-opus-4-5 (re-analyzed)"
+    },
+    {
+      "index": 3,
+      "filename": "0003.png",
+      "primary_type": "W",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression"
+      ],
+      "ui_pattern": "Splash Screen",
+      "copy": {
+        "headline": "Hello, I'm Flo",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "Flo 应用的欢迎启动页，使用拟人化的品牌介绍方式和花卉插画营造友好温暖的第一印象，花朵元素暗示女性健康/经期追踪主题",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 4,
+      "filename": "0004.png",
+      "primary_type": "A",
+      "secondary_type": "S",
+      "phase": "trust-building",
+      "psychology": [
+        "Authority",
+        "Social Proof",
+        "Trust Building"
+      ],
+      "ui_pattern": "Social Proof Statement",
+      "copy": {
+        "headline": "#1 female OB-GYN-recommended app for period and cycle tracking",
+        "subheadline": "Based on a survey of 225 US OB-GYNs who recommend apps for period and cycle tracking, DRG, 2021",
+        "cta": null
+      },
+      "insight": "权威背书页，通过225名美国妇产科医生的调研数据建立专业可信度，强调'#1推荐'的权威地位，配合柔和花卉插图营造女性友好氛围",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 5,
+      "filename": "0005.png",
+      "primary_type": "X",
+      "secondary_type": "C",
+      "phase": "trust-building",
+      "psychology": [
+        "Privacy Assurance",
+        "Trust Building",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Multi-Checkbox Consent",
+      "copy": {
+        "headline": "Your body. Your data",
+        "subheadline": "Your health data will never be shared with any company but Flo, and you can delete it at any time.",
+        "cta": "Next"
+      },
+      "insight": "隐私同意页面，通过强调数据归属权和删除自由来建立信任，同时收集多项数据处理授权。盾牌+羽毛图标强化安全感，'Accept all'简化用户决策路径",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 6,
+      "filename": "0006.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Text Input",
+      "copy": {
+        "headline": "What would you like Flo to call you?",
+        "subheadline": "Let's get to know each other!",
+        "cta": "Continue"
+      },
+      "insight": "名字收集页，通过询问用户昵称建立个人化关系，增强用户与App的情感连接和归属感",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 7,
+      "filename": "0007.png",
+      "primary_type": "W",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Personalization",
+        "First Impression",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Full-screen Greeting / Interstitial",
+      "copy": {
+        "headline": "Nice to meet you, Julia!",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "个性化欢迎过渡页，在用户输入姓名后即时确认，通过直呼其名建立情感连接，降低连续填写的疲劳感，为后续信息收集做心理铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 8,
+      "filename": "0008.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Scroll Picker",
+      "copy": {
+        "headline": "Log your year of birth to make the predictions better",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "出生年份采集页，通过年龄数据优化预测算法，用于计算基础代谢率、心率区间和个性化健康建议",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 9,
+      "filename": "0009.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Personalization",
+        "Trust Building"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Was Flo recommended to you by a health care professional?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "来源追踪问题，了解用户获取渠道，同时暗示App具有医疗专业人士认可的权威性",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 10,
+      "filename": "0010.png",
+      "primary_type": "A",
+      "secondary_type": "S",
+      "phase": "trust-building",
+      "psychology": [
+        "Authority",
+        "Trust Building",
+        "Social Proof"
+      ],
+      "ui_pattern": "Expert Testimonial Card",
+      "copy": {
+        "headline": "I always recommend Flo to my patients.",
+        "subheadline": "The predictions are very reliable, and this helps them plan their lives better.",
+        "cta": "Next"
+      },
+      "insight": "医生专家背书页，展示妇产科医生 Dr. Renita White 的推荐证言，强调 Flo 医学顾问委员会成员身份，通过专业医疗权威建立用户对 App 预测准确性的信任",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 11,
+      "filename": "0011.png",
+      "primary_type": "X",
+      "secondary_type": "Q",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Permission Pre-priming",
+        "Privacy Assurance",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "System Permission Dialog",
+      "copy": {
+        "headline": "Are you pregnant?",
+        "subheadline": "Allow \"Flo\" to track your activity across other companies' apps and websites?",
+        "cta": "Ask App Not to Track / Allow"
+      },
+      "insight": "iOS ATT追踪权限请求弹窗覆盖在孕期问题页之上，时机选择在用户回答敏感健康问题时触发，利用用户已投入的沉没成本心理",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 12,
+      "filename": "0012.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How did you find out about us?",
+        "subheadline": null,
+        "cta": "Skip"
+      },
+      "insight": "用户来源调查页，收集获客渠道数据用于营销归因分析，提供10个选项覆盖主流渠道，Skip选项降低用户流失",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 13,
+      "filename": "0013.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "data-collection-a",
+      "psychology": ["Permission Pre-priming", "Privacy Assurance"],
+      "ui_pattern": "System ATT Permission Dialog (Chinese)",
+      "copy": {
+        "headline": "允许 Flo 跟踪你在其他公司的 App 和网站上的活动吗？",
+        "subheadline": "你的健康数据始终受到保护，绝不会与广告商共享",
+        "cta": "要求 App 不跟踪 / 允许"
+      },
+      "insight": "中文 ATT 追踪权限弹窗，在问卷页面上方弹出，强调健康数据隐私保护以提高授权率",
+      "confidence": 0.95,
+      "analyzed_by": "claude-opus-4-5 (re-analyzed)"
+    },
+    {
+      "index": 14,
+      "filename": "0014.png",
+      "primary_type": "W",
+      "secondary_type": null,
+      "phase": "data-collection-a",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Trust Building",
+        "Personalization"
+      ],
+      "ui_pattern": "Mascot-led Welcome Screen",
+      "copy": {
+        "headline": "You're in the right place! I'm Flori, your very own Well-Being Battery!",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "拟人化角色介绍页，通过卡通电池形象Flori建立情感连接和陪伴感，用'your very own'强化专属感，降低用户进入门槛",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 15,
+      "filename": "0015.png",
+      "primary_type": "W",
+      "secondary_type": null,
+      "phase": "data-collection-a",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Personalization"
+      ],
+      "ui_pattern": "Mascot Introduction",
+      "copy": {
+        "headline": "Ready to start prioritizing your health with Flo?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "欢迎页面通过拟人化的电池角色(Flo)建立品牌形象，绿色充满电的电池暗示健康活力，友好的表情和挥手动作营造亲切感，为用户开启健康旅程做情感铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 16,
+      "filename": "0016.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Multi-Select List",
+      "copy": {
+        "headline": "Why are you tracking your cycle?",
+        "subheadline": "Choose as many as you like.",
+        "cta": null
+      },
+      "insight": "多选目标选择页，收集用户使用动机以提供个性化体验。选项涵盖经期预测、症状监测、健康习惯、性生活、备孕、停药后周期等多种场景，帮助App理解用户核心需求",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 17,
+      "filename": "0017.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Value Proposition",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Feature Cards with Mascot",
+      "copy": {
+        "headline": "I'll reflect your sleep, activity, and cycle to see what impacts your well-being.",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "价值展示页，通过拟人化角色（绿色瓶子吉祥物）展示App将追踪的四个核心维度：周期、睡眠、症状、活动，强调全方位健康监测的价值主张",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 18,
+      "filename": "0018.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How do you feel about your period, Zino?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "情感态度收集页，通过emoji增加亲和力，了解用户对经期的心理状态以提供个性化支持内容",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 19,
+      "filename": "0019.png",
+      "primary_type": "S",
+      "secondary_type": "V",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Social Proof",
+        "Value Proposition",
+        "Trust Building"
+      ],
+      "ui_pattern": "Statistics Display with Feature Preview",
+      "copy": {
+        "headline": "Flo's tracked over 2.2 billion cycles",
+        "subheadline": "Flo's much more than a period tracker. We'll help you improve everything, from your symptoms to your sex life.",
+        "cta": "Next"
+      },
+      "insight": "社会证明页面，通过展示22亿周期追踪数据建立信任，同时结合功能预览（周期日历、性生活影响卡片）传递产品价值，强调App不仅是经期追踪器，还能改善症状和性生活",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 20,
+      "filename": "0020.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How would you rate your knowledge about periods?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "经期知识自评页，通过4级选项评估用户认知水平，用于后续内容个性化推荐。选项文案轻松友好（如'I'm an expert, period!'双关语），降低敏感话题讨论门槛",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 21,
+      "filename": "0021.png",
+      "primary_type": "S",
+      "secondary_type": "V",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Social Proof",
+        "Authority",
+        "Trust Building",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Educational Fact Card",
+      "copy": {
+        "headline": "Did you know?",
+        "subheadline": "82% of girls in Malawi didn't know about periods before their first one",
+        "cta": "Next"
+      },
+      "insight": "社会责任导向的教育统计页，通过展示全球月经教育缺失的数据（82%马拉维女孩初潮前不了解月经），建立Flo作为推动改变力量的品牌形象，同时传递产品的社会价值和使命感",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 22,
+      "filename": "0022.png",
+      "primary_type": "S",
+      "secondary_type": "V",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Social Proof",
+        "Reciprocity",
+        "Value Proposition",
+        "Trust Building"
+      ],
+      "ui_pattern": "Social Impact Statement",
+      "copy": {
+        "headline": "Introducing Flo's Pass It On Project",
+        "subheadline": "Currently supporting over 16 million women in need. For every Flo Premium purchase, we donate three free subscriptions to women in countries with limited access to safe health information.",
+        "cta": "Next"
+      },
+      "insight": "社会影响力展示页，通过1:3捐赠模式创造互惠心理，让用户购买Premium时感到自己在帮助他人，同时用1600万受益者数据建立社会认同，为后续付费墙做情感铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 23,
+      "filename": "0023.png",
+      "primary_type": "S",
+      "secondary_type": null,
+      "phase": "data-collection-a",
+      "psychology": [
+        "Social Proof",
+        "Trust Building",
+        "Authority"
+      ],
+      "ui_pattern": "Testimonial Cards with Stats",
+      "copy": {
+        "headline": "Over 7 million 5-star ratings",
+        "subheadline": "on App store and Google Play",
+        "cta": "Next"
+      },
+      "insight": "社会认同页面，通过展示用户评价和700万+五星评分建立信任，多条真实用户证言强化可信度",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 24,
+      "filename": "0024.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Value Proposition",
+        "Goal Setting",
+        "Trust Building"
+      ],
+      "ui_pattern": "Feature Benefits List",
+      "copy": {
+        "headline": "Let's reach your goal together",
+        "subheadline": null,
+        "cta": "Start my journey"
+      },
+      "insight": "价值展示页，通过三个核心功能点（排卵预测、周期追踪、社区支持）强调帮助用户实现怀孕目标的价值主张，配合排卵倒计时和验孕棒视觉元素强化情感共鸣",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 25,
+      "filename": "0025.png",
+      "primary_type": "G",
+      "secondary_type": "V",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Gamification",
+        "Progressive Disclosure",
+        "Goal Setting",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Progress Path with Locked Stages",
+      "copy": {
+        "headline": "First, let's look at your cycle",
+        "subheadline": "Find out your Well-Being Battery charge today",
+        "cta": "Next"
+      },
+      "insight": "游戏化引导页，将周期追踪比喻为'身心电量'，通过解锁路径和可爱电池角色增加趣味性，降低用户对敏感话题的防备心理，锁定的阶段暗示后续内容价值",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 26,
+      "filename": "0026.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Body Data",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "Are your periods regular?",
+        "subheadline": "This would mean the gap between your periods is around the same number of days each month.",
+        "cta": null
+      },
+      "insight": "经期规律性问题页，通过收集月经周期数据为用户提供个性化的经期预测和健康建议，可爱的卡通角色设计降低敏感话题的尴尬感",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 27,
+      "filename": "0027.png",
+      "primary_type": "V",
+      "secondary_type": "X",
+      "phase": "goal-setting",
+      "psychology": [
+        "Value Proposition",
+        "Social Proof",
+        "Permission Pre-priming",
+        "Trust Building"
+      ],
+      "ui_pattern": "Calendar Preview with Data Import Options",
+      "copy": {
+        "headline": "Log your periods to get accurate predictions",
+        "subheadline": "90% of users say Flo accurately predicts the start of their period.",
+        "cta": "Log past periods"
+      },
+      "insight": "价值展示页结合Apple Health数据导入权限预铺垫，通过90%用户认可的社会证明强调预测准确性，日历可视化直观展示周期追踪功能，降低用户手动输入门槛",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 28,
+      "filename": "0028.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "data-collection-a",
+      "psychology": ["Permission Pre-priming", "Data Synchronization"],
+      "ui_pattern": "System HealthKit Permission Dialog (Chinese)",
+      "copy": {
+        "headline": "健康 - Flo 想要访问并更新你的健康数据",
+        "subheadline": "Access to this data will enable the app make more accurate health insights",
+        "cta": "全部打开 / 不允许 / 允许"
+      },
+      "insight": "中文 HealthKit 权限弹窗，请求访问基础体温、水、睡眠、体重等数据，双语文案（中文标题+英文说明）",
+      "confidence": 0.95,
+      "analyzed_by": "claude-opus-4-5 (re-analyzed)"
+    },
+    {
+      "index": 29,
+      "filename": "0029.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Calendar Date Picker",
+      "copy": {
+        "headline": "December",
+        "subheadline": "Dates are auto-filled. Tap them to adjust.",
+        "cta": "Next"
+      },
+      "insight": "经期追踪日历页，用户选择月经周期日期（12月1-5日已选中），通过预填充降低用户操作负担，收集女性健康核心数据用于周期预测",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 30,
+      "filename": "0030.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Cycle Phase Visualization",
+      "copy": {
+        "headline": "Zino, it's likely you're in your luteal phase",
+        "subheadline": "This is the second phase of your cycle, after ovulation and before your period.",
+        "cta": "Next"
+      },
+      "insight": "个性化周期分析结果页，通过可视化图表展示用户当前所处的黄体期，结合雌激素和孕酮曲线以及情绪图标，帮助用户理解身体状态变化，增强App价值感知",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 31,
+      "filename": "0031.png",
+      "primary_type": "R",
+      "secondary_type": "S",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Social Proof",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Analysis Report Card",
+      "copy": {
+        "headline": "Previous cycle length: 37 days",
+        "subheadline": "NOTE: This is sample data",
+        "cta": "Next"
+      },
+      "insight": "个性化周期分析结果页，通过标签化展示（ABNORMAL/NORMAL/IRREGULAR）帮助用户理解自身数据，底部社会证明（83%用户学到周期知识）强化产品教育价值",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 32,
+      "filename": "0032.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Body Data",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What birth control do you use, if any?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "避孕方式选择页，收集女性健康数据用于经期预测和生育规划的个性化推荐，选项涵盖激素类和非激素类避孕方法",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 33,
+      "filename": "0033.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Feature Showcase with Content Cards",
+      "copy": {
+        "headline": "Understand how to stay safe and protected",
+        "subheadline": "Log when you have sex and check out content to help you understand how your chances of pregnancy may change throughout your cycle.",
+        "cta": "Next"
+      },
+      "insight": "功能价值展示页，通过展示性行为记录功能和教育内容卡片（避孕101、紧急避孕措施等），向用户传达App在生育健康管理方面的核心价值，建立信任感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 34,
+      "filename": "0034.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Multi-Select List",
+      "copy": {
+        "headline": "Do you experience any of these health conditions?",
+        "subheadline": "Choose all that apply.",
+        "cta": null
+      },
+      "insight": "健康状况多选问卷页，收集女性常见健康问题（酵母菌感染、UTI、BV、PCOS、子宫内膜异位症、子宫肌瘤）用于个性化健康建议。注意：'Urinary track' 应为 'Urinary tract' 的拼写错误。",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 35,
+      "filename": "0035.png",
+      "primary_type": "V",
+      "secondary_type": "S",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Authority",
+        "Social Proof",
+        "Trust Building"
+      ],
+      "ui_pattern": "Feature Preview Cards",
+      "copy": {
+        "headline": "My Insights",
+        "subheadline": "You'll get support from content created with Flo's doctors and connect with Flo community members with the same condition",
+        "cta": "Next"
+      },
+      "insight": "价值展示页，通过预览健康内容卡片（PCOS、子宫内膜异位症、UTI、酵母感染等）展示App的医学内容深度，同时强调医生背书和社区连接的双重价值",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 36,
+      "filename": "0036.png",
+      "primary_type": "L",
+      "secondary_type": "S",
+      "phase": "data-collection",
+      "psychology": [
+        "Labor Illusion",
+        "Social Proof",
+        "Trust Building"
+      ],
+      "ui_pattern": "Loading Animation with Statistics",
+      "copy": {
+        "headline": "Analyzing your cycle...",
+        "subheadline": "90% of members said Flo accurately predicts the start of their period.*",
+        "cta": null
+      },
+      "insight": "加载页面使用 Labor Illusion 策略，通过展示分析过程增加用户对结果的感知价值，同时利用 2000 人调查的 90% 准确率数据作为社会证明，增强用户对预测功能的信任",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 37,
+      "filename": "0037.png",
+      "primary_type": "R",
+      "secondary_type": "X",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Permission Pre-priming",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Result Card with Permission Teaser",
+      "copy": {
+        "headline": "Zino, your next period will start around December 29",
+        "subheadline": "Want to make sure you're always prepared? Allow reminders on the next screen.",
+        "cta": "Next"
+      },
+      "insight": "个性化经期预测结果页，展示用户名和预测日期建立个性化连接，同时预告下一步将请求通知权限，通过提前说明价值（始终做好准备）来提高权限授权率",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 38,
+      "filename": "0038.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": ["Permission Pre-priming", "Reminder Value"],
+      "ui_pattern": "System Notification Permission Dialog (Chinese)",
+      "copy": {
+        "headline": "Flo 想给你发送通知",
+        "subheadline": "通知可能包括提醒、声音和图标标记。可在「设置」中配置相关功能",
+        "cta": "不允许 / 允许"
+      },
+      "insight": "中文通知权限弹窗，在经期追踪设置完成后请求，用于提醒用户记录周期信息",
+      "confidence": 0.95,
+      "analyzed_by": "claude-opus-4-5 (re-analyzed)"
+    },
+    {
+      "index": 39,
+      "filename": "0039.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Privacy Assurance"
+      ],
+      "ui_pattern": "Feature Preview with Mascot",
+      "copy": {
+        "headline": "Log your symptoms to get expert-backed insights and tips",
+        "subheadline": "Next, we'll explore your symptoms",
+        "cta": "Next"
+      },
+      "insight": "功能价值预告页，通过可爱的电池吉祥物展示症状追踪功能，日历卡片预览记录界面，锁头图标暗示数据隐私保护，为下一步症状问卷做铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 40,
+      "filename": "0040.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Multi-Select Grid",
+      "copy": {
+        "headline": "Zino, how do you feel today?",
+        "subheadline": "Your cycle can impact how you feel.",
+        "cta": "Apply the symptoms"
+      },
+      "insight": "经期症状追踪问题页，通过图标化多选收集用户当日身体感受（痉挛、疲劳、腹胀、乳房胀痛、背痛），用于个性化周期健康建议",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 41,
+      "filename": "0041.png",
+      "primary_type": "V",
+      "secondary_type": "A",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Authority",
+        "Personalization",
+        "Trust Building",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Pattern Calendar Visualization",
+      "copy": {
+        "headline": "Always be ready for what's coming",
+        "subheadline": "When you log your symptoms, Flo helps you spot patterns so you can plan life around how you may feel next week — or even next cycle.",
+        "cta": "Next"
+      },
+      "insight": "功能价值展示页，通过可视化的周期模式日历演示App如何帮助用户识别经期规律。结合'Developed with Experts'专家认证徽章增强权威性和信任感，强调预测性价值让用户为未来做好准备。",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 42,
+      "filename": "0042.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Body Data"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Did you know your discharge changes during your cycle?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "教育性问题页，通过询问用户是否了解分泌物在经期的变化来评估知识水平，同时教育用户关于身体健康知识，为后续个性化内容做铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 43,
+      "filename": "0043.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Body Data"
+      ],
+      "ui_pattern": "Circular Diagram with Labels",
+      "copy": {
+        "headline": "Decode your discharge",
+        "subheadline": "When you log your discharge, Flo will help you learn how it's connected to your cycle and know what to do if something's seems unusual.",
+        "cta": "Next"
+      },
+      "insight": "功能价值展示页，通过可视化周期图解释分泌物追踪功能如何帮助用户理解生理周期，教育用户同时展示App核心价值",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 44,
+      "filename": "0044.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Feature Preview with Illustration",
+      "copy": {
+        "headline": "Next, we'll do a health check-in",
+        "subheadline": "We'll look at your symptoms and highlight anything worth keeping an eye on.",
+        "cta": "Next"
+      },
+      "insight": "功能预告页，通过医患沟通插图展示即将进行的症状评估功能，降低用户对健康检查的心理门槛，为后续问卷收集做铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 45,
+      "filename": "0045.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": ["Personalization", "Health Profiling"],
+      "ui_pattern": "Multi Select with Illustration",
+      "copy": {
+        "headline": "Regarding your cycle, have you experienced any of the below?",
+        "subheadline": "Choose all that apply",
+        "cta": "Next"
+      },
+      "insight": "多选问卷页，收集用户经期异常情况（不规律周期、错过经期、经量过多等），用于个性化健康建议",
+      "confidence": 0.95,
+      "analyzed_by": "claude-opus-4-5 (re-analyzed)"
+    },
+    {
+      "index": 46,
+      "filename": "0046.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Multi-Select Checklist",
+      "copy": {
+        "headline": "Have you noticed any signs that your hormones might be out of balance?",
+        "subheadline": "Choose all that apply.",
+        "cta": null
+      },
+      "insight": "荷尔蒙失调症状多选问题页，收集用户健康痛点（痤疮、多毛、脱发、体重、性欲、疲劳、情绪），用于个性化健康方案和建立问题意识",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 47,
+      "filename": "0047.png",
+      "primary_type": "L",
+      "secondary_type": "S",
+      "phase": "data-collection",
+      "psychology": [
+        "Labor Illusion",
+        "Social Proof",
+        "Trust Building",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Full-screen Loading with Value Messaging",
+      "copy": {
+        "headline": "Analyzing symptoms...",
+        "subheadline": "2 in 3 members said Flo helped them understand which symptoms and signs require medical attention.* *1,835 members surveyed (2022)",
+        "cta": null
+      },
+      "insight": "症状分析加载页，利用等待时间植入社会认同数据（2/3用户认可），通过具体样本量和年份增强可信度，同时用Flo Intelligence品牌强化AI能力背书",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 48,
+      "filename": "0048.png",
+      "primary_type": "R",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Loss Aversion",
+        "Trust Building"
+      ],
+      "ui_pattern": "Analysis Result Card",
+      "copy": {
+        "headline": "We detected symptoms that might need your attention",
+        "subheadline": "Your symptoms could signal lifestyle changes or health issues like PCOS and endometriosis.",
+        "cta": "Next"
+      },
+      "insight": "基于用户输入的症状数据生成的个性化分析结果页，通过警示性图标和具体健康问题（PCOS、子宫内膜异位症）触发损失厌恶心理，促使用户重视健康并继续使用App",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 49,
+      "filename": "0049.png",
+      "primary_type": "V",
+      "secondary_type": "A",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Authority",
+        "Trust Building",
+        "Personalization"
+      ],
+      "ui_pattern": "Feature Preview with Expert Endorsement",
+      "copy": {
+        "headline": "With Flo, you can get symptom checkups in minutes",
+        "subheadline": "Our doctor-made tool continuously looks at your symptoms and nudges when it's time to seek care.",
+        "cta": "Next"
+      },
+      "insight": "价值展示页结合权威背书，通过展示症状匹配功能（子宫肌瘤、子宫内膜异位症、多囊卵巢综合征）演示产品能力，同时以Flo医学委员会背书增强可信度，'Pay attention'警示设计制造紧迫感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 50,
+      "filename": "0050.png",
+      "primary_type": "S",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Social Proof",
+        "Trust Building",
+        "Authority"
+      ],
+      "ui_pattern": "Testimonial Card with Statistics",
+      "copy": {
+        "headline": "I found out I have endometriosis ... I'm happy that Flo helped me understand when to seek help.",
+        "subheadline": "92% of members found talking to their doctor easier after using Flo*",
+        "cta": "Next"
+      },
+      "insight": "社会证明页面，结合用户真实证言（内异症诊断故事）和统计数据（92%用户更易与医生沟通），强调App在健康决策中的实用价值，插图展示医患沟通场景增强可信度",
+      "confidence": 0.93,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 51,
+      "filename": "0051.png",
+      "primary_type": "V",
+      "secondary_type": "G",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Educational Card with Phase Indicator",
+      "copy": {
+        "headline": "Symptoms can include fatigue and mood swings",
+        "subheadline": "Your symptoms impact your battery level. We'll give you personalized insights and tips to boost your battery and feel your best.",
+        "cta": "Next"
+      },
+      "insight": "经期追踪应用的价值展示页，通过黄体期症状教育和'电池电量'游戏化比喻，向用户展示App如何提供个性化健康洞察。顶部文章卡片预览内容资源，底部周期进度条增强阶段感知。",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 52,
+      "filename": "0052.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Body Data",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "Does your cycle impact your sleep?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "经期与睡眠关联性问题，收集女性用户的生理周期对睡眠影响数据，用于提供个性化睡眠建议和周期相关功能",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 53,
+      "filename": "0053.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "Does your cycle impact your skin?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "经期与皮肤关联性问卷页，通过低压三选一收集用户身体数据，用于后续个性化护肤建议，I'm not sure选项降低答题门槛",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 54,
+      "filename": "0054.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Activity Level",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice",
+      "copy": {
+        "headline": "Does your cycle impact your energy or activity levels?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "经期与能量关联问题，收集用户生理周期对日常活动的影响数据，用于提供更精准的健康建议和活动推荐",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 55,
+      "filename": "0055.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Body Data",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "Does your cycle impact your diet?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "月经周期对饮食影响的问题页，收集女性用户生理周期与饮食习惯的关联数据，用于提供周期性营养建议和个性化饮食计划",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 56,
+      "filename": "0056.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "Does your cycle impact any aspect of your mental health?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "经期心理健康影响问卷页，收集用户经期与情绪/心理健康的关联数据，选项涵盖情绪波动、焦虑、疲劳、易怒、低落情绪及PMDD等，用于个性化健康追踪和内容推荐",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 57,
+      "filename": "0057.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "Do you want to change anything about your sex life?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "性生活改善目标收集页，通过敏感话题的开放式选项设计降低用户心理负担，同时收集个性化内容推荐数据。包含'一切都好'和'暂无性生活'的非侵入性选项，体现对用户隐私的尊重",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 58,
+      "filename": "0058.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Personalization"
+      ],
+      "ui_pattern": "Educational Intro Card",
+      "copy": {
+        "headline": "Let's learn more about sex and your cycle to discover the connection",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "教育性价值预告页，使用可爱的电池角色（戴心形眼镜）引导用户了解性生活与月经周期的关联，为后续深入问题做铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 59,
+      "filename": "0059.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Body Data"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "Do you know how your cycle relates to your sex life?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "经期追踪App通过了解用户对周期与性生活关联的认知程度，用于后续提供个性化教育内容和功能推荐，可爱的电池角色配合爱心气泡软化敏感话题",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 60,
+      "filename": "0060.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "When do you feel best in your body?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "经期体感问题页，收集用户在月经周期不同阶段的身体感受，用于个性化健康建议和周期预测优化",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 61,
+      "filename": "0061.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Body Data",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "Does your sex drive fluctuate throughout the month?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "性欲周期波动问题，用于追踪月经周期对性欲的影响，帮助用户了解身体规律并提供个性化周期预测",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 62,
+      "filename": "0062.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "How would you like to enhance your sex life?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "性生活改善目标收集页，通过5个具体选项了解用户核心需求（情感连接/高潮/趣味性/自信心），含'Prefer not to answer'选项降低隐私敏感度，可爱的电池角色设计软化话题敏感性",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 63,
+      "filename": "0063.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "Who's involved in your pleasure?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "关系状态问题页，通过了解用户是单独使用还是与伴侣共同使用来个性化产品推荐，提供'Prefer not to answer'选项尊重用户隐私",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 64,
+      "filename": "0064.png",
+      "primary_type": "G",
+      "secondary_type": "C",
+      "phase": "final-setup",
+      "psychology": [
+        "Reciprocity",
+        "Commitment & Consistency",
+        "Trust Building"
+      ],
+      "ui_pattern": "Positive Reinforcement",
+      "copy": {
+        "headline": "Thanks for being open and honest!",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "游戏化正向反馈页，通过可爱的电池角色和爱心动画对用户的诚实作答表示感谢，运用互惠原则增强用户好感，强化用户继续参与的承诺感",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 65,
+      "filename": "0065.png",
+      "primary_type": "V",
+      "secondary_type": "S",
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Social Proof",
+        "Reciprocity",
+        "Trust Building"
+      ],
+      "ui_pattern": "Feature Promotion with Partner Invite",
+      "copy": {
+        "headline": "Supercharge your sex lives with Flo for Partners",
+        "subheadline": "Share your cycle phase predictions so he's empowered to support you.",
+        "cta": "Invite my partner"
+      },
+      "insight": "伴侣功能推广页，通过展示共享周期数据带来的关系价值（更好的支持、性生活协调、沟通提升），利用互惠和社会连接心理促进功能采用",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 66,
+      "filename": "0066.png",
+      "primary_type": "V",
+      "secondary_type": "W",
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Trust Building",
+        "Personalization"
+      ],
+      "ui_pattern": "Feature Introduction with Checklist",
+      "copy": {
+        "headline": "Welcome to Flo for Partners",
+        "subheadline": "New feature - Explore Flo for Partners",
+        "cta": "Continue to my Flo"
+      },
+      "insight": "伴侣功能引导页，通过清晰的配对流程说明（3步勾选列表）降低使用门槛，强调双方共同使用的价值，插图展示伴侣高五互动增强情感连接",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 67,
+      "filename": "0067.png",
+      "primary_type": "V",
+      "secondary_type": "G",
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Activity Level",
+        "Personalization"
+      ],
+      "ui_pattern": "Gamified Path Journey",
+      "copy": {
+        "headline": "Next, let's understand how active you are",
+        "subheadline": "Track activity so you can optimize your fitness around your cycle",
+        "cta": "Next"
+      },
+      "insight": "功能价值展示页，以游戏化路径形式呈现活动追踪功能。强调根据生理周期优化健身计划的独特价值，使用可爱的电池角色动画增加亲和力，同时展示将解锁的模式更新功能",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 68,
+      "filename": "0068.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Activity Level",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "How active are you during a typical day?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "活动水平评估页，通过4个日常活动级别选项收集用户数据，用于计算每日热量消耗和制定个性化健康计划。电池小人图标暗示能量/活力主题。",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 69,
+      "filename": "0069.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "What brand of smart watch or fitness tracker do you wear?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "设备品牌选择页，收集用户智能手表/健身追踪器信息，用于后续数据整合和个性化体验优化",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 70,
+      "filename": "0070.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Personalization"
+      ],
+      "ui_pattern": "Feature Benefits List",
+      "copy": {
+        "headline": "Your cycle and health data in one place",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "价值展示页，通过视觉化图标和三个核心利益点展示App如何整合经期周期与健康数据，强调对健身、睡眠、工作和性生活的优化价值",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 71,
+      "filename": "0071.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Commitment & Consistency",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Scroll Picker",
+      "copy": {
+        "headline": "How tall are you?",
+        "subheadline": "Adding your height helps us improve your cycle predictions.",
+        "cta": "Next"
+      },
+      "insight": "身高数据收集页，通过滚轮选择器降低输入门槛，明确说明数据用途（改善周期预测）建立价值交换感，Skip选项提供自主权降低抗拒心理",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 72,
+      "filename": "0072.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Scroll Picker",
+      "copy": {
+        "headline": "How much do you weigh?",
+        "subheadline": "Adding your weight helps us improve your cycle predictions.",
+        "cta": "Next"
+      },
+      "insight": "体重输入页，使用滚轮选择器收集用户身体数据，用于优化经期预测算法的准确性",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 73,
+      "filename": "0073.png",
+      "primary_type": "L",
+      "secondary_type": "S",
+      "phase": "final-setup",
+      "psychology": [
+        "Labor Illusion",
+        "Social Proof",
+        "Trust Building",
+        "Personalization"
+      ],
+      "ui_pattern": "Loading Animation with Social Proof",
+      "copy": {
+        "headline": "Analyzing activity levels...",
+        "subheadline": "79% of surveyed members said Flo helped them understand how their cycle connects to their well-being.",
+        "cta": null
+      },
+      "insight": "加载页面运用Labor Illusion策略，通过'分析活动水平'的处理状态让用户感知后台正在进行个性化计算。同时展示79%用户认可的社会证明数据，在等待过程中强化产品价值和信任感。插图包含电池、药片、避孕贴等元素，暗示将分析用户的能量水平和健康周期关联。",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 74,
+      "filename": "0074.png",
+      "primary_type": "V",
+      "secondary_type": "D",
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Content Cards + Contextual Tip",
+      "copy": {
+        "headline": "You may feel more tired during your luteal phase",
+        "subheadline": "Tip: Relax with some stretching or yoga",
+        "cta": "Next"
+      },
+      "insight": "功能价值展示页，通过内容卡片预览（运动与周期、女性健康营养、酒精影响）展示App教育内容，结合黄体期个性化建议，用可爱插画（电池角色+小狗）传达疲劳感，降低用户认知负担",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 75,
+      "filename": "0075.png",
+      "primary_type": "G",
+      "secondary_type": "V",
+      "phase": "final-setup",
+      "psychology": [
+        "Progressive Disclosure",
+        "Gamification",
+        "Value Proposition",
+        "Personalization"
+      ],
+      "ui_pattern": "Journey Map with Milestones",
+      "copy": {
+        "headline": "Finally, let's take a look at your sleep",
+        "subheadline": "Tell us about your sleep to get tips to improve it based on your cycle",
+        "cta": "Next"
+      },
+      "insight": "游戏化旅程地图页面，展示用户在onboarding流程中的进度。使用可爱的睡眠角色（戴眼罩的电池小人）、已完成的步数追踪里程碑（带勾选标记）和待解锁的下一阶段（粉色锁图标），通过视觉化路径激励用户继续完成睡眠数据收集，同时预告个性化睡眠建议的价值",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 76,
+      "filename": "0076.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Multi-Select Checklist",
+      "copy": {
+        "headline": "What aspect of your sleep would you like to improve?",
+        "subheadline": "Choose all that apply.",
+        "cta": null
+      },
+      "insight": "睡眠目标多选题，通过让用户主动选择改善方向建立承诺感，同时收集需求数据用于后续个性化内容推荐",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 77,
+      "filename": "0077.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "How many hours of sleep do you usually get?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "睡眠时长问题页，收集用户睡眠习惯数据用于个性化健康建议。可爱的充电电池睡眠图标强化睡眠与能量恢复的关联，四个选项覆盖从睡眠不足到过度睡眠的完整范围",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 78,
+      "filename": "0078.png",
+      "primary_type": "L",
+      "secondary_type": "S",
+      "phase": "final-setup",
+      "psychology": [
+        "Labor Illusion",
+        "Social Proof",
+        "Authority",
+        "Commitment & Consistency",
+        "Personalization"
+      ],
+      "ui_pattern": "Full-screen Loading with Social Proof",
+      "copy": {
+        "headline": "Analyzing sleep patterns...",
+        "subheadline": "69% of members surveyed said Flo helped them sleep better and have more energy.",
+        "cta": null
+      },
+      "insight": "加载过渡页，通过Labor Illusion让用户感知系统正在进行个性化分析，同时用69%的用户数据作为社会认同背书，'Powered by Flo Intelligence'强化技术权威感，为后续结果页/付费墙做心理铺垫",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 79,
+      "filename": "0079.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Feature Preview with Mascot",
+      "copy": {
+        "headline": "Get a great night's sleep with insights made just for you",
+        "subheadline": "Getting at least 7 hours of sleep helps keep hormones balanced, especially those that affect mood, fertility, and menstrual cycles.",
+        "cta": "Next"
+      },
+      "insight": "睡眠追踪功能价值展示页，通过可爱的疲惫角色形象和'Fair'睡眠评分预览，向用户展示App将提供的个性化睡眠洞察功能，强调睡眠与女性荷尔蒙健康的关联性",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 80,
+      "filename": "0080.png",
+      "primary_type": "X",
+      "secondary_type": "V",
+      "phase": "final-setup",
+      "psychology": [
+        "Permission Pre-priming",
+        "Value Proposition",
+        "Trust Building"
+      ],
+      "ui_pattern": "Permission Request with Value Framing",
+      "copy": {
+        "headline": "Unlock deeper sleep insights with Flo",
+        "subheadline": "Your phone tracks motion data automatically. For more accurate sleep insights from Flo, tap \"Allow Access\" on the next screen.",
+        "cta": "Next"
+      },
+      "insight": "权限预铺垫页，在请求运动数据权限前先展示价值（更深入的睡眠洞察），通过柔和的睡眠视觉元素和明确的利益点说明降低用户抗拒心理",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 81,
+      "filename": "0081.png",
+      "primary_type": "X",
+      "secondary_type": "V",
+      "phase": "conversion",
+      "psychology": [
+        "Permission Pre-priming",
+        "Value Proposition",
+        "Trust Building"
+      ],
+      "ui_pattern": "Permission Request with Pre-priming",
+      "copy": {
+        "headline": "Enable access to motion data",
+        "subheadline": "Your phone tracks motion data automatically. For more accurate sleep insights from Flo, tap \"Allow Access\" on the next screen.",
+        "cta": "Next"
+      },
+      "insight": "运动数据权限请求页，采用预铺垫策略先解释价值（更准确的睡眠洞察），再弹出系统权限弹窗，提高用户授权率",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 82,
+      "filename": "0082.png",
+      "primary_type": "L",
+      "secondary_type": "A",
+      "phase": "results",
+      "psychology": [
+        "Labor Illusion",
+        "Authority",
+        "Social Proof",
+        "Commitment & Consistency",
+        "Personalization"
+      ],
+      "ui_pattern": "Circular Progress Indicator with Value Proposition",
+      "copy": {
+        "headline": "The world's #1 women's health app",
+        "subheadline": "Personalizing your experience ...",
+        "cta": null
+      },
+      "insight": "加载过渡页，通过「#1」权威宣称建立信任，同时用进度百分比（27%）制造努力错觉，让用户相信系统正在为其个性化处理数据，降低等待焦虑并减少中途退出",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 83,
+      "filename": "0083.png",
+      "primary_type": "L",
+      "secondary_type": "S",
+      "phase": "results",
+      "psychology": [
+        "Labor Illusion",
+        "Social Proof",
+        "Trust Building"
+      ],
+      "ui_pattern": "Loading Progress with Social Validation",
+      "copy": {
+        "headline": "Join 420 million other Flo members",
+        "subheadline": "Over 7 million 5-star ratings on App store and Google Play",
+        "cta": null
+      },
+      "insight": "加载页面结合社会认同策略，在等待期间展示用户基数(4.2亿)和评分数据(700万五星评价)，通过Labor Illusion让用户感知系统正在为其个性化定制体验，同时强化产品可信度",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 84,
+      "filename": "0084.png",
+      "primary_type": "A",
+      "secondary_type": "L",
+      "phase": "conversion",
+      "psychology": [
+        "Authority",
+        "Trust Building",
+        "Labor Illusion",
+        "Social Proof"
+      ],
+      "ui_pattern": "Expert Grid + Progress Indicator",
+      "copy": {
+        "headline": "Developed with 120+ medical experts",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "权威背书与加载状态的组合页面，展示医疗专家团队（OB-GYN、心理学家、营养师）建立专业信任，同时65%进度环制造'正在为你个性化'的努力错觉，让等待时间感觉有价值",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 85,
+      "filename": "0085.png",
+      "primary_type": "L",
+      "secondary_type": "V",
+      "phase": "results",
+      "psychology": [
+        "Labor Illusion",
+        "Trust Building",
+        "Privacy Assurance",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Full-screen Loading with Progress Indicator",
+      "copy": {
+        "headline": "Flo keeps your data protected",
+        "subheadline": "Personalizing your experience ...",
+        "cta": null
+      },
+      "insight": "加载过渡页，在92%进度处强调隐私保护，利用目标梯度效应减少流失，同时将等待时间转化为信任建立机会",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 86,
+      "filename": "0086.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Loss Aversion",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Before/After Comparison",
+      "copy": {
+        "headline": "When you Flo, you know",
+        "subheadline": null,
+        "cta": "Let's do this!"
+      },
+      "insight": "经典对比框架展示价值：左侧'Without Flo'用灰色低电量电池和负面情绪图标展示痛点（不确定周期、症状困惑、担忧怀孕），右侧'With Flo'用绿色满电电池和绿色勾选展示收益（准备充分、了解自己、性生活和睡眠改善）。通过Loss Aversion让用户感受到不使用的损失。",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 87,
+      "filename": "0087.png",
+      "primary_type": "C",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Long Press Commitment",
+      "copy": {
+        "headline": "I, Zino, will use Flo to",
+        "subheadline": "improve my relationship with my period, know my body better and be ready for anything.",
+        "cta": "Tap and hold on the Flo logo to commit."
+      },
+      "insight": "承诺页面，通过个性化声明（用户名Zino）和长按交互增强用户对目标的心理承诺，利用承诺一致性原理提高后续留存",
+      "confidence": 0.97,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 88,
+      "filename": "0088.png",
+      "primary_type": "C",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Long Press Commitment",
+      "copy": {
+        "headline": "I, Zino, will use Flo to",
+        "subheadline": "improve my relationship with my period, know my body better and be ready for anything.",
+        "cta": "Tap and hold on the Flo logo to commit."
+      },
+      "insight": "个性化承诺页，通过长按手势增加用户投入感，利用承诺一致性原则提升用户留存和参与度",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 89,
+      "filename": "0089.png",
+      "primary_type": "C",
+      "secondary_type": "G",
+      "phase": "conversion",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Long Press Confirmation",
+      "copy": {
+        "headline": "I, Zin... Flo to",
+        "subheadline": "impro... body",
+        "cta": "Keep holding!"
+      },
+      "insight": "承诺页面，用户需长按确认对Flo的承诺，通过触觉交互强化心理承诺感，游戏化的长按机制增加仪式感和投入度",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 90,
+      "filename": "0090.png",
+      "primary_type": "W",
+      "secondary_type": "L",
+      "phase": "conversion",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Labor Illusion"
+      ],
+      "ui_pattern": "Splash Screen with Loading Animation",
+      "copy": {
+        "headline": "Welcome to Flo!",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "品牌欢迎页兼加载过渡页，粉色背景强化女性健康App定位，logo动画暗示正在加载/处理用户数据，为后续onboarding流程做准备",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 91,
+      "filename": "0091.png",
+      "primary_type": "P",
+      "secondary_type": "S",
+      "phase": "conversion",
+      "psychology": [
+        "Social Proof",
+        "Loss Aversion",
+        "Scarcity",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Subscription Plan Selection",
+      "copy": {
+        "headline": "Choose your plan",
+        "subheadline": "A ladies best friend. Awesome and quite accurate! 👍🏼👍🏼👍🏼",
+        "cta": "Continue"
+      },
+      "insight": "付费墙页面，结合5星评价和用户证言作为社会认同，提供免费试用开关降低决策门槛，Family Plan突出显示利用锚定效应引导选择更高价位方案",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 92,
+      "filename": "0092.png",
+      "primary_type": "P",
+      "secondary_type": "S",
+      "phase": "conversion",
+      "psychology": [
+        "Social Proof",
+        "Loss Aversion",
+        "Anchoring",
+        "Scarcity"
+      ],
+      "ui_pattern": "Subscription Paywall with Plan Comparison",
+      "copy": {
+        "headline": "Choose your plan",
+        "subheadline": "Best app I love this app and all the insight it gives on health and your body.",
+        "cta": "Continue"
+      },
+      "insight": "付费墙页面，使用5星用户评价作为社会认同，提供年度/家庭/月度三种订阅方案。年度方案标注MOST POPULAR利用从众心理，月度价格$14.99形成价格锚定使年度$5/mo显得更划算。免费试用开关默认关闭，引导用户直接付费。",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 93,
+      "filename": "0093.png",
+      "primary_type": "P",
+      "secondary_type": "S",
+      "phase": "conversion",
+      "psychology": [
+        "Social Proof",
+        "Loss Aversion",
+        "Anchoring",
+        "Scarcity"
+      ],
+      "ui_pattern": "Tiered Pricing with Free Trial Toggle",
+      "copy": {
+        "headline": "Choose your plan",
+        "subheadline": "Really accurate!! This app is amazing it's so easy to use and really really awesome!",
+        "cta": "Continue"
+      },
+      "insight": "付费墙页面巧妙结合社会认同（5星评价+用户证言）与价格锚定策略。默认选中最贵的月度方案（$14.99/mo），利用对比效应让年度方案（$5/mo）显得更划算。14天免费试用降低决策门槛，利用损失厌恶心理促进转化",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 94,
+      "filename": "0094.png",
+      "primary_type": "G",
+      "secondary_type": "P",
+      "phase": "conversion",
+      "psychology": [
+        "Brand Recognition",
+        "Reciprocity",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Celebration Screen",
+      "copy": {
+        "headline": "Congratulations, you've got Flo Premium!",
+        "subheadline": null,
+        "cta": "Let's go"
+      },
+      "insight": "订阅成功庆祝页，使用彩旗、confetti等游戏化元素增强用户成就感，通过庆祝仪式强化付费决策的正确性，减少购后认知失调",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 95,
+      "filename": "0095.png",
+      "primary_type": "R",
+      "secondary_type": "G",
+      "phase": "results",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Success Celebration",
+      "copy": {
+        "headline": "You're all set, Julia",
+        "subheadline": "There are lots of personalized features you can now enjoy. Take a peek 👉",
+        "cta": "Show me!"
+      },
+      "insight": "个性化设置完成页，使用用户名称强化个人连接，配合欢庆插画和彩色confetti营造成就感，引导用户探索个性化功能",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 96,
+      "filename": "0096.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Personalization"
+      ],
+      "ui_pattern": "Feature Preview with Illustration",
+      "copy": {
+        "headline": "Discover how Flo can help you feel more empowered than ever before 👉",
+        "subheadline": null,
+        "cta": "Tell me more"
+      },
+      "insight": "价值展示页，通过插画展示App的多种功能（周期追踪、症状记录、数据分析图表），配合'empowered'情感化文案激发用户探索欲望，CTA引导进入详细功能介绍",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 97,
+      "filename": "0097.png",
+      "primary_type": "V",
+      "secondary_type": "P",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Feature Preview Cards",
+      "copy": {
+        "headline": "Know your body better",
+        "subheadline": "Understand your emotions, cravings, and body changes when you log your symptoms and cycle.",
+        "cta": "Get started!"
+      },
+      "insight": "经期追踪应用的价值展示页，通过可视化卡片展示三大核心功能：情绪预测、症状模式分析和周期趋势图表。'Exclusive to Premium'标签暗示付费墙前的价值铺垫，激发用户对高级功能的期待。底部分页指示器显示这是多页引导流程的第一页。",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 98,
+      "filename": "0098.png",
+      "primary_type": "V",
+      "secondary_type": "P",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Scarcity"
+      ],
+      "ui_pattern": "Content Preview Grid with Premium Gate",
+      "copy": {
+        "headline": "Discover 1,000+ articles",
+        "subheadline": "Get powerful, expert-led articles, videos, and courses that help you feel more in control.",
+        "cta": "Get started!"
+      },
+      "insight": "内容价值展示页，通过展示丰富的女性健康文章库（生理期、性健康等主题）预览核心功能，同时用'Exclusive to Premium'标签暗示付费解锁，结合内容稀缺感驱动转化",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 99,
+      "filename": "0099.png",
+      "primary_type": "V",
+      "secondary_type": "P",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Social Proof",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Feature Preview with Partner Sharing",
+      "copy": {
+        "headline": "Connect with your partner",
+        "subheadline": "Get Flo with your partner so they can support you better, from your cycle to sex drive.",
+        "cta": "Get started!"
+      },
+      "insight": "Premium功能价值展示页，通过伴侣连接功能强调关系价值，展示推送通知、症状共享、性知识视频等功能预览，以情感连接为卖点推动付费转化",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 100,
+      "filename": "0100.png",
+      "primary_type": "V",
+      "secondary_type": "P",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Loss Aversion",
+        "Personalization"
+      ],
+      "ui_pattern": "Feature Preview Card",
+      "copy": {
+        "headline": "Download your health report",
+        "subheadline": "Get a detailed report of your cycle and symptoms to share with your doctor.",
+        "cta": "Get started!"
+      },
+      "insight": "Premium功能预览页，通过展示可下载的健康报告价值来推动付费转化，利用医生分享场景强调实用性",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    }
+  ],
+  "flow_patterns": {},
+  "design_insights": {}
+}

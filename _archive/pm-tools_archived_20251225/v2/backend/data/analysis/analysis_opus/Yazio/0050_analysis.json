@@ -1,0 +1,82 @@
+{
+  "app_name": "Yazio",
+  "screenshot_index": 50,
+  "screenshot_filename": "0050.png",
+  "total_onboarding_screens": 98,
+  "position_percentage": 51.0,
+  
+  "classification": {
+    "functional_purpose": {
+      "primary_category": "Preference",
+      "secondary_type": "TimeCommitment",
+      "confidence": 0.95,
+      "description": "收集用户每日使用时间偏好"
+    },
+    "funnel_stage": {
+      "stage": "Commitment",
+      "position_in_funnel": "middle",
+      "description": "用户表达使用意愿和投入程度"
+    },
+    "psychological_tactic": {
+      "primary_tactic": "CommitmentConsistency",
+      "secondary_tactics": ["Personalization"],
+      "tactic_strength": "moderate",
+      "description": "让用户选择投入程度，建立心理承诺"
+    },
+    "interaction_pattern": {
+      "primary_interaction": "SingleChoice",
+      "is_skippable": false,
+      "input_effort": "low",
+      "description": "四选一单选，不同时间对应不同程度标签"
+    },
+    "ui_pattern": {
+      "layout_type": "ListSelection",
+      "has_progress_indicator": true,
+      "has_illustration": false,
+      "has_animation": false,
+      "color_scheme": "light",
+      "description": "简洁列表选择，进度条已过半"
+    },
+    "commitment_level": {
+      "level": 3,
+      "commitment_type": "time",
+      "reversibility": "reversible",
+      "description": "用户承诺每日使用时间，中等承诺"
+    }
+  },
+  
+  "deep_analysis": {
+    "design_intent": "收集用户投入意愿，用于设定合理期望和个性化提醒频率。同时利用承诺一致性原理增强后续留存",
+    "ux_observation": "选项设计有趣：5分钟=Casual，15分钟=Serious，30分钟=Intense。标签化让用户自我定位，选择较高承诺后更可能坚持",
+    "conversion_impact": "positive",
+    "potential_issues": [
+      "用户可能选择比实际低的选项来降低压力",
+      "没有解释为什么需要这些时间"
+    ],
+    "best_practice_alignment": "巧妙利用承诺一致性心理策略，但应该解释时间用途帮助用户做出更合适的选择"
+  },
+  
+  "raw_observation": {
+    "visible_text": [
+      "How many minutes per day do you want to use Yazio?",
+      "5 min / day (Casual)",
+      "10 min / day (Regular)",
+      "15 min / day (Serious)",
+      "30 min / day (Intense)",
+      "Next"
+    ],
+    "ui_elements": [
+      "返回按钮",
+      "进度条（约65%）",
+      "单选列表",
+      "Next按钮"
+    ],
+    "brand_elements": [
+      "Yazio绿色品牌色",
+      "圆润字体风格"
+    ]
+  },
+  
+  "analysis_method": "claude_opus_4.5",
+  "analyzed_at": "2025-12-22T00:00:00"
+}

@@ -1,0 +1,88 @@
+# AI Browser 项目开发规则
+
+## 项目信息
+- **名称**: AI Browser 技术验证
+- **目标**: 验证 SkillWeaver 能否实现 AI Agent 10x 加速
+- **当前阶段**: Phase 1 - 稳定化
+
+---
+
+## ⛔ 禁止行为
+
+1. **一次改超过 3 个文件** - 必须分批修改
+2. **不测试就说完成** - 改完必须跑 quick_test.py
+3. **猜测需求** - 不确定就问
+4. **生成非 ASCII 代码** - Playwright 代码只用英文
+
+---
+
+## ✅ 必须遵守
+
+### Playwright 代码规范
+```python
+# ✅ 正确：加 .first 避免 strict mode
+await page.get_by_role("link", name="Submit").first.click()
+
+# ✅ 正确：加超时避免 TimeoutError
+await element.click(timeout=15000)
+
+# ✅ 正确：先等待元素
+await page.wait_for_selector("selector", state="visible", timeout=15000)
+```
+
+### Python 代码规范
+```python
+# ✅ 正确：文件操作指定编码
+with open(file_path, "w", encoding="utf-8") as f:
+    f.write(content)
+```
+
+### 修改 SkillWeaver 的流程
+1. 先说要改什么文件
+2. 说明为什么要改
+3. 我确认后再动手
+4. 改完跑测试验证
+
+---
+
+## 📋 修改前检查清单
+
+- [ ] 这个改动会影响其他功能吗？
+- [ ] Playwright 代码有 .first 吗？
+- [ ] 超时设置够长吗（15s+）？
+- [ ] 有非 ASCII 字符吗？
+
+---
+
+## 🐛 常见 Bug 速查
+
+| 错误 | 原因 | 解决 |
+|------|------|------|
+| TimeoutError | 超时太短/元素不存在 | 加 timeout=15000 |
+| strict mode violation | 匹配多个元素 | 加 .first |
+| Non-UTF-8 code | 有特殊字符 | 过滤非 ASCII |
+| IndentationError | 代码格式错误 | 检查缩进 |
+
+---
+
+## 💬 沟通规则
+
+- 中文回复
+- 不确定就问
+- 改 SkillWeaver 核心文件前必须说明
+- 每次改动后告诉我怎么测试
+
+---
+
+## 🔧 快捷命令
+
+```bash
+# 环境检查
+python quick_test.py
+
+# 完整测试
+python run_verify.py
+
+# 启动浏览器
+cd electron-browser; npm start
+```

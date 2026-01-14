@@ -1,0 +1,37 @@
+{
+	"shopping": {
+		"image_name": "shopping_final_0712",
+		"internal_port": 80,
+		"default_external_port": 7770,
+		"init": "shopping_init"
+	},
+	"shopping_admin": {
+		"image_name": "shopping_admin_final_0719",
+		"internal_port": 80,
+		"default_external_port": 7780,
+		"init": "shopping_admin_init"
+	},
+	"reddit": {
+		"image_name": "postmill-populated-exposed-withimg",
+		"internal_port": 80,
+		"default_external_port": 9999,
+		"init": "reddit_init"
+	},
+	"gitlab": {
+		"image_name": "gitlab-populated-final-port8023",
+		"internal_port": 8023,
+		"default_external_port": 8023,
+		"entrypoint_args": [
+			"/opt/gitlab/embedded/bin/runsvdir-start"
+		],
+		"init": "gitlab_init"
+	},
+	"wikipedia": {
+		"image_name": "ghcr.io/kiwix/kiwix-serve:3.3.0",
+		"internal_port": 80,
+		"default_external_port": 8888,
+		"entrypoint_args": [
+			"wikipedia_en_all_maxi_2022-05.zim"
+		]
+	}
+}

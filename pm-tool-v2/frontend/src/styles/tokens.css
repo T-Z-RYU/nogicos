@@ -1,0 +1,176 @@
+/**
+ * Zino Design Tokens
+ * 设计令牌系统 - 统一的设计变量定义
+ */
+
+:root {
+  /* ========================================
+   * 颜色系统 (使用 oklch 色彩空间)
+   * ======================================== */
+  
+  /* 主色调 */
+  --color-primary: oklch(0.65 0.2 250);
+  --color-primary-hover: oklch(0.60 0.22 250);
+  --color-primary-active: oklch(0.55 0.24 250);
+  
+  /* 背景色 */
+  --color-background: oklch(0.98 0 0);
+  --color-background-elevated: oklch(1 0 0);
+  --color-background-muted: oklch(0.95 0 0);
+  
+  /* 文字色 */
+  --color-text: oklch(0.15 0 0);
+  --color-text-secondary: oklch(0.45 0 0);
+  --color-text-muted: oklch(0.65 0 0);
+  
+  /* 边框色 */
+  --color-border: oklch(0.88 0 0);
+  --color-border-hover: oklch(0.75 0 0);
+  
+  /* 语义色 */
+  --color-success: oklch(0.65 0.2 145);
+  --color-warning: oklch(0.75 0.15 85);
+  --color-error: oklch(0.6 0.22 25);
+  --color-info: oklch(0.65 0.15 230);
+
+  /* ========================================
+   * 间距系统
+   * ======================================== */
+  --spacing-xs: 0.25rem;   /* 4px */
+  --spacing-sm: 0.5rem;    /* 8px */
+  --spacing-md: 1rem;      /* 16px */
+  --spacing-lg: 1.5rem;    /* 24px */
+  --spacing-xl: 2rem;      /* 32px */
+  --spacing-2xl: 3rem;     /* 48px */
+  --spacing-3xl: 4rem;     /* 64px */
+
+  /* ========================================
+   * 圆角系统
+   * ======================================== */
+  --radius-sm: 0.25rem;    /* 4px */
+  --radius-md: 0.5rem;     /* 8px */
+  --radius-lg: 0.75rem;    /* 12px */
+  --radius-xl: 1rem;       /* 16px */
+  --radius-2xl: 1.5rem;    /* 24px */
+  --radius-full: 9999px;
+
+  /* ========================================
+   * 字体系统
+   * ======================================== */
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+  
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-lg: 1.125rem;   /* 18px */
+  --font-size-xl: 1.25rem;    /* 20px */
+  --font-size-2xl: 1.5rem;    /* 24px */
+  --font-size-3xl: 1.875rem;  /* 30px */
+  --font-size-4xl: 2.25rem;   /* 36px */
+  
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+
+  /* ========================================
+   * 阴影系统
+   * ======================================== */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  
+  /* Glassmorphism 阴影 */
+  --shadow-glass: 0 8px 32px 0 rgb(0 0 0 / 0.08);
+
+  /* ========================================
+   * 动效系统
+   * ======================================== */
+  
+  /* 时长 */
+  --duration-instant: 50ms;
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+  --duration-slower: 600ms;
+  
+  /* 缓动函数 */
+  --ease-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+  /* 预设过渡 */
+  --transition-fast: var(--duration-fast) var(--ease-default);
+  --transition-normal: var(--duration-normal) var(--ease-default);
+  --transition-slow: var(--duration-slow) var(--ease-default);
+  --transition-bounce: var(--duration-normal) var(--ease-bounce);
+
+  /* ========================================
+   * 层级系统 (z-index)
+   * ======================================== */
+  --z-base: 0;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal-backdrop: 400;
+  --z-modal: 500;
+  --z-popover: 600;
+  --z-tooltip: 700;
+  --z-toast: 800;
+
+  /* ========================================
+   * 模糊效果 (Glassmorphism)
+   * ======================================== */
+  --blur-sm: 4px;
+  --blur-md: 8px;
+  --blur-lg: 16px;
+  --blur-xl: 24px;
+}
+
+/* ========================================
+ * 暗色模式
+ * ======================================== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* 背景色 */
+    --color-background: oklch(0.13 0 0);
+    --color-background-elevated: oklch(0.18 0 0);
+    --color-background-muted: oklch(0.1 0 0);
+    
+    /* 文字色 */
+    --color-text: oklch(0.95 0 0);
+    --color-text-secondary: oklch(0.7 0 0);
+    --color-text-muted: oklch(0.5 0 0);
+    
+    /* 边框色 */
+    --color-border: oklch(0.25 0 0);
+    --color-border-hover: oklch(0.35 0 0);
+    
+    /* 阴影 - 暗色模式下使用更柔和的阴影 */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.3);
+    --shadow-glass: 0 8px 32px 0 rgb(0 0 0 / 0.3);
+  }
+}
+
+/* 手动暗色模式类 */
+.dark {
+  --color-background: oklch(0.13 0 0);
+  --color-background-elevated: oklch(0.18 0 0);
+  --color-background-muted: oklch(0.1 0 0);
+  --color-text: oklch(0.95 0 0);
+  --color-text-secondary: oklch(0.7 0 0);
+  --color-text-muted: oklch(0.5 0 0);
+  --color-border: oklch(0.25 0 0);
+  --color-border-hover: oklch(0.35 0 0);
+}

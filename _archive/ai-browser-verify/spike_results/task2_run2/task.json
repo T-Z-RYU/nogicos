@@ -1,0 +1,4 @@
+{
+  "type": "prod",
+  "task": "Click on the search/hn search link, search for 'AI', and return the title of the first search result."
+}

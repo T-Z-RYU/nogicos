@@ -1,0 +1,208 @@
+{
+  "total_screenshots": 200,
+  "stages": [
+    {
+      "name": "Launch",
+      "start_index": 1,
+      "end_index": 1,
+      "description": "App启动页，显示MyFitnessPal logo和品牌标识",
+      "expected_types": [
+        "Launch"
+      ],
+      "screenshot_count": 1
+    },
+    {
+      "name": "Welcome",
+      "start_index": 2,
+      "end_index": 2,
+      "description": "欢迎页面，展示产品核心价值主张",
+      "expected_types": [
+        "Welcome",
+        "Launch"
+      ],
+      "screenshot_count": 1
+    },
+    {
+      "name": "Onboarding",
+      "start_index": 3,
+      "end_index": 20,
+      "description": "用户引导问卷，收集减重目标、过往障碍、饮食习惯、健康目标、体重信息、每日餐数等偏好设置",
+      "expected_types": [
+        "Onboarding",
+        "Permission"
+      ],
+      "screenshot_count": 18
+    },
+    {
+      "name": "SignUp",
+      "start_index": 21,
+      "end_index": 22,
+      "description": "账户创建和注册流程",
+      "expected_types": [
+        "SignUp"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "Paywall",
+      "start_index": 23,
+      "end_index": 24,
+      "description": "Premium订阅付费墙，展示高级功能和订阅选项",
+      "expected_types": [
+        "Paywall"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "Onboarding",
+      "start_index": 25,
+      "end_index": 30,
+      "description": "继续引导流程，收集健康目标、减重计划、每周目标等详细信息",
+      "expected_types": [
+        "Onboarding",
+        "Permission"
+      ],
+      "screenshot_count": 6
+    },
+    {
+      "name": "Paywall",
+      "start_index": 31,
+      "end_index": 32,
+      "description": "Premium+订阅页面，展示高级订阅选项",
+      "expected_types": [
+        "Paywall"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "Onboarding",
+      "start_index": 33,
+      "end_index": 60,
+      "description": "深度引导流程，包含食物偏好选择、过敏设置、烹饪习惯、购物偏好、AI meal plan设置、整合Amazon/Whole Foods等",
+      "expected_types": [
+        "Onboarding",
+        "Permission"
+      ],
+      "screenshot_count": 28
+    },
+    {
+      "name": "Core Features",
+      "start_index": 61,
+      "end_index": 80,
+      "description": "核心功能区，包括meal plan生成、食谱详情、营养信息、购物清单、食物评分等",
+      "expected_types": [
+        "Feature",
+        "Content",
+        "Tracking",
+        "Progress"
+      ],
+      "screenshot_count": 20
+    },
+    {
+      "name": "Home",
+      "start_index": 81,
+      "end_index": 82,
+      "description": "主页仪表盘，展示meal plan概览和激励信息",
+      "expected_types": [
+        "Home"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "Tracking",
+      "start_index": 83,
+      "end_index": 110,
+      "description": "食物追踪记录区，包括食物搜索、扫描条码、添加餐食、数据库查询、快速添加等",
+      "expected_types": [
+        "Tracking",
+        "Feature"
+      ],
+      "screenshot_count": 28
+    },
+    {
+      "name": "Home",
+      "start_index": 111,
+      "end_index": 120,
+      "description": "首页和目标设置，包含健康目标输入、体重目标、账户设置等",
+      "expected_types": [
+        "Home"
+      ],
+      "screenshot_count": 10
+    },
+    {
+      "name": "Core Features",
+      "start_index": 121,
+      "end_index": 140,
+      "description": "核心功能页面，包括食物日志详情、营养分析、食谱浏览、份量调整、条码扫描等",
+      "expected_types": [
+        "Feature",
+        "Content",
+        "Tracking",
+        "Progress"
+      ],
+      "screenshot_count": 20
+    },
+    {
+      "name": "Content",
+      "start_index": 141,
+      "end_index": 160,
+      "description": "内容浏览区，包含健康文章、睡眠因素分析、营养知识、视频教程等",
+      "expected_types": [
+        "Content",
+        "Feature"
+      ],
+      "screenshot_count": 20
+    },
+    {
+      "name": "Progress",
+      "start_index": 161,
+      "end_index": 170,
+      "description": "进度统计区，展示营养摄入数据、体重趋势、目标完成情况",
+      "expected_types": [
+        "Progress",
+        "Feature"
+      ],
+      "screenshot_count": 10
+    },
+    {
+      "name": "Tracking",
+      "start_index": 171,
+      "end_index": 180,
+      "description": "高级追踪功能，包括AI扫描整餐、图像识别添加食物、meal plan完成追踪",
+      "expected_types": [
+        "Tracking",
+        "Feature"
+      ],
+      "screenshot_count": 10
+    },
+    {
+      "name": "Settings",
+      "start_index": 181,
+      "end_index": 190,
+      "description": "设置和时间选择页面，包括禁食时间设置、提醒设置、通知偏好等",
+      "expected_types": [
+        "Settings",
+        "Profile"
+      ],
+      "screenshot_count": 10
+    },
+    {
+      "name": "Core Features",
+      "start_index": 191,
+      "end_index": 200,
+      "description": "其他核心功能，包括食物详情、餐食计划、社区分享、食谱收藏等",
+      "expected_types": [
+        "Feature",
+        "Content",
+        "Tracking",
+        "Progress"
+      ],
+      "screenshot_count": 10
+    }
+  ],
+  "paywall_position": "early",
+  "onboarding_length": "long",
+  "has_signup": true,
+  "has_social": false,
+  "confidence": 0.78
+}

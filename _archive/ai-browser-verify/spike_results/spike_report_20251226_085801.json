@@ -1,0 +1,121 @@
+{
+  "summary": {
+    "total_tests": 9,
+    "successful": 0,
+    "failed": 9,
+    "success_rate": 0.0,
+    "avg_duration": 2.3500922785864935,
+    "avg_steps": 0,
+    "crashes": 9,
+    "verdict": "FAIL"
+  },
+  "results": [
+    {
+      "task_id": "task1",
+      "task_description": "Get the title of the first news item on the homepage",
+      "run_number": 1,
+      "success": false,
+      "duration": 4.524287223815918,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: ValueError: ANTHROPIC_API_KEY not set for Claude model",
+      "timestamp": "2025-12-26T08:57:44.482622"
+    },
+    {
+      "task_id": "task1",
+      "task_description": "Get the title of the first news item on the homepage",
+      "run_number": 2,
+      "success": false,
+      "duration": 2.1000077724456787,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: ValueError: ANTHROPIC_API_KEY not set for Claude model",
+      "timestamp": "2025-12-26T08:57:46.582666"
+    },
+    {
+      "task_id": "task1",
+      "task_description": "Get the title of the first news item on the homepage",
+      "run_number": 3,
+      "success": false,
+      "duration": 2.038240432739258,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: ValueError: ANTHROPIC_API_KEY not set for Claude model",
+      "timestamp": "2025-12-26T08:57:48.620937"
+    },
+    {
+      "task_id": "task2",
+      "task_description": "Search for 'AI' and get the first result title",
+      "run_number": 1,
+      "success": false,
+      "duration": 2.1046183109283447,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: ValueError: ANTHROPIC_API_KEY not set for Claude model",
+      "timestamp": "2025-12-26T08:57:50.725587"
+    },
+    {
+      "task_id": "task2",
+      "task_description": "Search for 'AI' and get the first result title",
+      "run_number": 2,
+      "success": false,
+      "duration": 2.079617738723755,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: ValueError: ANTHROPIC_API_KEY not set for Claude model",
+      "timestamp": "2025-12-26T08:57:52.805234"
+    },
+    {
+      "task_id": "task2",
+      "task_description": "Search for 'AI' and get the first result title",
+      "run_number": 3,
+      "success": false,
+      "duration": 2.0707385540008545,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: ValueError: ANTHROPIC_API_KEY not set for Claude model",
+      "timestamp": "2025-12-26T08:57:54.876001"
+    },
+    {
+      "task_id": "task3",
+      "task_description": "Go to 'new' page and get the first item title",
+      "run_number": 1,
+      "success": false,
+      "duration": 2.0563511848449707,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: ValueError: ANTHROPIC_API_KEY not set for Claude model",
+      "timestamp": "2025-12-26T08:57:56.932383"
+    },
+    {
+      "task_id": "task3",
+      "task_description": "Go to 'new' page and get the first item title",
+      "run_number": 2,
+      "success": false,
+      "duration": 2.1000399589538574,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: ValueError: ANTHROPIC_API_KEY not set for Claude model",
+      "timestamp": "2025-12-26T08:57:59.032451"
+    },
+    {
+      "task_id": "task3",
+      "task_description": "Go to 'new' page and get the first item title",
+      "run_number": 3,
+      "success": false,
+      "duration": 2.0769293308258057,
+      "steps": 0,
+      "result": null,
+      "error": "Exception: ValueError: ANTHROPIC_API_KEY not set for Claude model",
+      "timestamp": "2025-12-26T08:58:01.109406"
+    }
+  ],
+  "timestamp": "2025-12-26T08:58:01.109655",
+  "config": {
+    "url": "https://news.ycombinator.com",
+    "tasks": 3,
+    "runs_per_task": 3,
+    "max_steps": 10,
+    "timeout": 60
+  }
+}

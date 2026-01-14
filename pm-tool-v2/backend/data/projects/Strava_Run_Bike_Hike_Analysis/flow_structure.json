@@ -1,0 +1,152 @@
+{
+  "total_screenshots": 200,
+  "stages": [
+    {
+      "name": "Launch",
+      "start_index": 1,
+      "end_index": 1,
+      "description": "Strava启动闪屏页面，显示品牌logo",
+      "expected_types": [
+        "Launch"
+      ],
+      "screenshot_count": 1
+    },
+    {
+      "name": "Welcome",
+      "start_index": 2,
+      "end_index": 3,
+      "description": "欢迎页面展示产品核心价值主张",
+      "expected_types": [
+        "Welcome",
+        "Launch"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "SignUp",
+      "start_index": 4,
+      "end_index": 6,
+      "description": "注册登录流程，包含验证码输入",
+      "expected_types": [
+        "SignUp"
+      ],
+      "screenshot_count": 3
+    },
+    {
+      "name": "Onboarding",
+      "start_index": 7,
+      "end_index": 16,
+      "description": "用户引导流程，收集用户身份、运动兴趣偏好、目标设定、权限授予等",
+      "expected_types": [
+        "Onboarding",
+        "Permission"
+      ],
+      "screenshot_count": 10
+    },
+    {
+      "name": "Home",
+      "start_index": 17,
+      "end_index": 20,
+      "description": "主界面首页，显示地图和运动记录入口，底部导航栏",
+      "expected_types": [
+        "Home"
+      ],
+      "screenshot_count": 4
+    },
+    {
+      "name": "Tracking",
+      "start_index": 21,
+      "end_index": 40,
+      "description": "运动追踪核心功能，包含地图显示、路线规划、实时记录、运动数据展示",
+      "expected_types": [
+        "Tracking",
+        "Feature"
+      ],
+      "screenshot_count": 20
+    },
+    {
+      "name": "Core Features",
+      "start_index": 41,
+      "end_index": 60,
+      "description": "核心功能区，包括运动设置、路线选择、数据分析、运动详情页",
+      "expected_types": [
+        "Feature",
+        "Content",
+        "Tracking",
+        "Progress"
+      ],
+      "screenshot_count": 20
+    },
+    {
+      "name": "Progress",
+      "start_index": 61,
+      "end_index": 80,
+      "description": "运动数据统计和进度展示，心率区间分析、运动历史记录、成就展示",
+      "expected_types": [
+        "Progress",
+        "Feature"
+      ],
+      "screenshot_count": 20
+    },
+    {
+      "name": "Social",
+      "start_index": 81,
+      "end_index": 120,
+      "description": "社交功能区，包含路线分享、运动动态、挑战活动、好友互动、社区内容浏览",
+      "expected_types": [
+        "Social"
+      ],
+      "screenshot_count": 40
+    },
+    {
+      "name": "Content",
+      "start_index": 121,
+      "end_index": 140,
+      "description": "内容浏览区，运动类型设置、通知管理、内容发现",
+      "expected_types": [
+        "Content",
+        "Feature"
+      ],
+      "screenshot_count": 20
+    },
+    {
+      "name": "Profile",
+      "start_index": 141,
+      "end_index": 160,
+      "description": "个人中心，包含挑战创建、俱乐部功能、个人资料设置",
+      "expected_types": [
+        "Profile"
+      ],
+      "screenshot_count": 20
+    },
+    {
+      "name": "Settings",
+      "start_index": 161,
+      "end_index": 180,
+      "description": "设置页面，账户设置、隐私设置、第三方连接、好友邀请",
+      "expected_types": [
+        "Settings",
+        "Profile"
+      ],
+      "screenshot_count": 20
+    },
+    {
+      "name": "Core Features",
+      "start_index": 181,
+      "end_index": 200,
+      "description": "其他核心功能，活动编辑、分享功能、运动努力度分析说明",
+      "expected_types": [
+        "Feature",
+        "Content",
+        "Tracking",
+        "Progress"
+      ],
+      "screenshot_count": 20
+    }
+  ],
+  "paywall_position": "none",
+  "onboarding_length": "medium",
+  "has_signup": true,
+  "has_social": true,
+  "confidence": 0.85
+}

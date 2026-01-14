@@ -1,0 +1,1563 @@
+{
+  "app_name": "Headspace",
+  "total_screenshots": 10,
+  "analyzed_at": "2025-12-24T13:35:53.454699",
+  "model": "claude-opus-4-5-20251101 / gpt-5.2",
+  "schema_version": "v2",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Award Winning",
+          "subheadline": "",
+          "body_copy": [],
+          "cta_button": "",
+          "small_print": [
+            "Apple Design Award",
+            "Social Impact",
+            "THE WEBBY AWARDS"
+          ],
+          "data_numbers": [],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F9DD4A",
+            "#F57A00"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": false,
+            "type": "none",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [
+            "logo",
+            "app_name"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "AUTHORITY",
+          "primary_cn": "权威背书",
+          "secondary": "USP"
+        },
+        "message_strategy": {
+          "primary_message": "Award Winning",
+          "supporting_evidence": "Apple Design Award Social Impact 与 THE WEBBY AWARDS 的奖项标识（含月桂图形与 Apple 标志）",
+          "emotional_appeal": "trust",
+          "value_proposition": "通过权威奖项背书建立产品可信度与品质感"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring",
+            "primacy_effect"
+          ],
+          "persuasion_technique": "用“Award Winning”作为强锚点标题，并在底部用具体奖项名称与标识做证据补强，降低用户判断成本"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "中部偏下的“Award Winning”大标题，其次是顶部的“headspace”品牌字标与橙色圆形标识",
+          "information_density": "low",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F57A00",
+          "color_scheme": "analogous",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "editorial",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.7,
+          "clarity": 4.6,
+          "brand_consistency": 5.0,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "headspace 品牌圆形视觉符号与微笑表情插画风格",
+            "“Award Winning”与奖项月桂组合的强背书版式"
+          ],
+          "category_conventions": [
+            "用奖项/媒体 Logo 做权威背书",
+            "大标题+底部小字证据的截图结构"
+          ],
+          "innovations": [
+            "几乎不展示功能与界面，仅用品牌与奖项完成说服（极简信息策略）"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "重视品质与口碑背书的用户",
+          "对设计感与品牌调性敏感的用户",
+          "希望降低选择风险、偏好权威认证的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "权威背书页（奖项/认证/媒体引用）",
+          "大标题一句话结论 + 底部证据 Logo/名称",
+          "高识别度品牌色块与极简构图"
+        ],
+        "avoid_elements": [
+          "只讲背书不讲功能（若 VitaFlow 品牌认知较弱会降低转化）",
+          "底部小字过小导致可读性不足"
+        ],
+        "adaptation_notes": "VitaFlow 可做一张“权威背书/认证”截图：保留“结论式大标题 + 底部证据”的结构，但在不破坏极简的前提下补充1个与健康健身强相关的可信证据点（如认证名称/合作机构名称/奖项名称），并确保所有背书文字在小屏上可读。"
+      }
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Your lifelong guide to\nbetter mental health",
+          "subheadline": "",
+          "body_copy": [
+            "Meditate",
+            "Sleep",
+            "Breathe",
+            "Focus",
+            "Move",
+            "Mental Health"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F9D84A",
+            "#F57A00"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "grid",
+          "device_mockup": {
+            "present": false,
+            "type": "none",
+            "position": "none"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "VP",
+          "primary_cn": "价值主张",
+          "secondary": "CONTENT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "Your lifelong guide to better mental health",
+          "supporting_evidence": "用 6 个功能入口词（Meditate / Sleep / Breathe / Focus / Move / Mental Health）来暗示覆盖的内容范围与场景",
+          "emotional_appeal": "security",
+          "value_proposition": "以“lifelong guide”的定位，提供覆盖冥想、睡眠、呼吸、专注、运动与心理健康的长期支持"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment",
+            "liking"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "primacy_effect"
+          ],
+          "persuasion_technique": "用一句高概括主张建立长期陪伴感（lifelong guide），再用高可读、低理解成本的单词级功能标签做“范围锚定”，让用户快速形成“这款App什么都能管”的第一印象"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Your lifelong guide to better mental health”（其中“better mental health”为橙色强调）",
+          "information_density": "low",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F9D84A",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "floating_elements",
+          "whitespace_usage": "generous",
+          "element_count": 7,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 4.6,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "Your lifelong guide to better mental health（“lifelong guide”长期陪伴定位）",
+            "用 6 个单词卡片作为内容范围的“目录式”呈现"
+          ],
+          "category_conventions": [
+            "大标题+功能点概览",
+            "高饱和渐变背景营造情绪氛围",
+            "卡片式模块展示内容分区"
+          ],
+          "innovations": [
+            "不使用设备mockup与真实界面，改用抽象卡片做“功能导航”式表达，降低信息噪音"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注心理健康的泛人群",
+          "希望快速找到入口（Sleep/Focus等具体场景）的人",
+          "偏好轻量、易理解信息呈现的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "一句话高概括价值主张（大字号）",
+          "关键词卡片网格用于展示核心场景/模块",
+          "用强调色突出主标题中的关键收益词"
+        ],
+        "avoid_elements": [
+          "完全不展示真实产品界面（可能降低“可信度/可用性”判断）",
+          "仅用抽象卡片而缺少结果或机制说明（对转化不利）"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“主标题+关键词卡片”的结构：主标题用“长期/持续收益”类表述，卡片替换为 VitaFlow 的核心场景词（保持单词/短语级别、强可读）；同时建议至少加入一张真实界面或关键结果指标截图，补足可信度与功能理解。"
+      }
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Stress less",
+          "subheadline": "",
+          "body_copy": [
+            "Calming an Anxious\nMind",
+            "Course · 3-10 min",
+            "Anxious thoughts can be overwhelming, but mindfulness can help. In this course, Eve shares five techniques to ease the mind and calm the nervous system.",
+            "Choose your teacher",
+            "Eve",
+            "About our teachers",
+            "Play"
+          ],
+          "cta_button": "Play",
+          "small_print": [
+            "9:41"
+          ],
+          "data_numbers": [
+            "3-10",
+            "9:41"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F7D84A",
+            "#F47A0B"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "VP",
+          "primary_cn": "价值主张",
+          "secondary": "CONTENT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "Stress less",
+          "supporting_evidence": "通过课程内容预览“Calming an Anxious Mind”、时长“Course · 3-10 min”、以及可直接开始的“Play”按钮来支撑。",
+          "emotional_appeal": "security",
+          "value_proposition": "用正念课程帮助缓解焦虑、安抚情绪与神经系统，并且可快速开始（短时长）。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority",
+            "liking"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用一句话结果导向承诺（“Stress less”）降低理解成本；用明确时长（“Course · 3-10 min”）作为投入锚点；用“Choose your teacher / Eve”引入“人”作为可信与亲和线索，并用“Play”降低行动门槛。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部居中的大标题“Stress less”，其次是手机屏幕内的插画卡片与课程标题“Calming an Anxious Mind”，最后落到蓝色主按钮“Play”。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F7D84A",
+          "color_scheme": "analogous",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 4.6,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Choose your teacher”与具体老师“Eve”的选择模块",
+            "课程页内直接可见的“Play”主按钮"
+          ],
+          "category_conventions": [
+            "用情绪结果导向的短标题（“Stress less”）",
+            "用插画/柔和形象传达放松与安全感",
+            "展示具体内容卡片（课程标题+时长）"
+          ],
+          "innovations": [
+            "在截图中强调“teacher”选择（人格化内容供给），而非只展示冥想/呼吸功能列表"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "有焦虑/压力困扰、希望快速获得缓解的人群（“Course · 3-10 min”）",
+          "偏好被引导式内容与讲师陪伴感的人（“Choose your teacher”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "结果导向大标题（类似“Stress less”这种一句话收益）",
+          "在截图内展示可立即开始的主行动按钮（如“Play”）",
+          "用“时长/投入成本”数字降低尝试门槛（如“3-10 min”）",
+          "内容预览卡片式呈现（标题+简述）"
+        ],
+        "avoid_elements": [
+          "在同一张截图里放入过长段落正文，导致信息负担上升",
+          "过多依赖单一暖色背景，可能在同类中同质化"
+        ],
+        "adaptation_notes": "若适配到 VitaFlow，可保留“结果导向一句话 + 内容预览 + 低门槛数字（分钟/天数）+ 明确CTA”的结构；将“Choose your teacher”替换为 VitaFlow 的关键个性化入口（例如计划/目标/教练/模式选择），并确保截图文案保持短句与高对比层级。"
+      }
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Sleep soundly",
+          "subheadline": "",
+          "body_copy": [
+            "Drift into Sleep (555 Hz)",
+            "Soundscape · 45–480 min",
+            "Flow into a dream-like state with gentle 555 Hz frequencies, designed to help you get a restful sleep. Listen when you want to drift off and have the deep sleep of your dreams.",
+            "Choose a length",
+            "45 min",
+            "480 min"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "9:41",
+            "555 Hz",
+            "45–480 min",
+            "45 min",
+            "480 min"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#4B2FA6",
+            "#1B1E4B"
+          ],
+          "color_mood": "cool",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "CONTENT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "通过特定频率的助眠音景与可选时长，帮助用户“Sleep soundly”。",
+          "supporting_evidence": "用“Drift into Sleep (555 Hz)”的内容标题、解释性段落文案，以及“Choose a length / 45 min / 480 min”的时长选择界面来支撑。",
+          "emotional_appeal": "security",
+          "value_proposition": "提供助眠音景（555 Hz）并支持选择播放时长（45–480 min），以获得更安稳的睡眠体验。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用具体参数“555 Hz”和明确范围“45–480 min”来增强“可控、可量化”的感受；同时用简洁大标题“Sleep soundly”降低理解成本。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部居中的大标题“Sleep soundly”，其次是居中的 iPhone 设备画面与内容标题“Drift into Sleep (555 Hz)”。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#4B2FA6",
+          "color_scheme": "analogous",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.4,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Drift into Sleep (555 Hz)”以频率参数作为内容命名核心",
+            "“Choose a length”以底部弹层形式呈现时长选择（45 min / 480 min）"
+          ],
+          "category_conventions": [
+            "用情绪/结果导向标题（“Sleep soundly”）传达收益",
+            "用深色、冷色系与抽象渐变背景营造夜间/放松氛围",
+            "展示真实 App 界面作为功能可信度证明"
+          ],
+          "innovations": [
+            "将“Hz 频率”作为卖点显性化并放入内容标题中"
+          ]
+        },
+        "competitive_positioning": "specialist",
+        "target_audience_signals": [
+          "有睡眠困扰、希望快速获得放松与入睡的人群",
+          "偏好可控设置（可选时长）与“参数化”内容（555 Hz）的人群",
+          "夜间使用场景（深色 UI、安静氛围）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "结果导向的大标题（类似“Sleep soundly”）",
+          "设备居中展示真实界面以提升可信度",
+          "用“可选时长/可选强度”等可控项做交互亮点（类似“Choose a length”）",
+          "用明确数字范围表达可控与覆盖面（类似“45–480 min”）"
+        ],
+        "avoid_elements": [
+          "仅用抽象概念或参数（如“555 Hz”）而缺少更直观的用户收益解释（需确保用户一眼懂）",
+          "正文段落过长导致在小屏预览时可读性下降"
+        ],
+        "adaptation_notes": "若 VitaFlow 是健康健身类（非助眠）产品，可复用“结果导向标题 + 真实界面 + 可选项弹层”的结构：将“Choose a length”替换为与核心场景强相关的可选项（如“Choose a goal”“Choose a plan length”“Choose an intensity”），并用清晰数字范围展示覆盖（例如训练时长/课程数量/计划周期），同时确保数字背后的收益在同屏用更短句解释清楚。"
+      }
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Learn to meditate in\na few minutes a day",
+          "subheadline": "",
+          "body_copy": [
+            "Get into Focus (50 Hz)",
+            "Soundscape • 45–480 min",
+            "Experience slow and steady 50 Hz pulses,\ndesigned to help you sharpen your focus.\nListen when you want to ignore the\ndistractions around you and enter a state of\ndeep focus.",
+            "Download",
+            "1 sessions (702MB)",
+            "Play"
+          ],
+          "cta_button": "Play",
+          "small_print": [
+            "Soundscape • 45–480 min",
+            "1 sessions (702MB)"
+          ],
+          "data_numbers": [
+            "9:41",
+            "50 Hz",
+            "45–480 min",
+            "50 Hz",
+            "1",
+            "702MB"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F6D64A",
+            "#F07A1A"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "CONTENT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "Learn to meditate in a few minutes a day",
+          "supporting_evidence": "用应用内页面示例展示具体内容与使用场景：\"Get into Focus (50 Hz)\"、时长范围\"45–480 min\"、以及\"Play\"播放入口与\"Download\"离线能力。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "以低门槛、短时间的方式开始冥想，并提供可直接播放的专注音景内容。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用“a few minutes a day”降低行动成本（更容易开始），并用具体内容标题与明确按钮“Play”把用户引导到单一下一步。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Learn to meditate in a few minutes a day”，其次是居中的 iPhone 设备内大标题“Get into Focus (50 Hz)”与底部蓝色“Play”按钮。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F6D64A",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.5,
+          "clarity": 4.6,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "内容命名包含频率点“(50 Hz)”",
+            "“Soundscape • 45–480 min”用范围时长表达可长可短的使用方式"
+          ],
+          "category_conventions": [
+            "用大标题承诺低门槛（“a few minutes a day”）",
+            "用设备框展示真实应用界面",
+            "用单一主按钮（“Play”）强化可操作性"
+          ],
+          "innovations": [
+            "将“Hz”作为内容卖点的一部分，形成更“功能化/参数化”的专注内容表达"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "想快速入门冥想的人（“a few minutes a day”）",
+          "需要提升专注、屏蔽干扰的人（“sharpen your focus”“ignore the distractions”）",
+          "偏好音频引导/音景内容的人（“Soundscape”“Play”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "顶部一句话价值主张 + 强对比配色",
+          "居中设备框展示真实页面（降低理解成本）",
+          "单一明确 CTA（如“Play”）",
+          "用“范围数字”（如“45–480 min”）表达灵活使用场景"
+        ],
+        "avoid_elements": [
+          "在截图主信息区堆叠过多小字段落（正文较长时移动端可读性下降）",
+          "过于技术化的参数表达若与目标用户不匹配（如“50 Hz”）"
+        ],
+        "adaptation_notes": "VitaFlow 若为健康/健身类，可沿用“低门槛承诺 + 真实界面 + 单一CTA”的结构：顶部用一句话说明核心收益（例如“X minutes a day”结构），设备内展示关键功能页（训练/呼吸/恢复/饮食记录等）并保留一个最想推动的动作按钮文案；数字信息优先展示用户能立刻理解的指标（分钟、天数、计划长度等），技术参数仅在确有认知基础的细分人群场景使用。"
+      }
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Feel healthier\nand happier",
+          "subheadline": "",
+          "body_copy": [
+            "Binaural Beats",
+            "Harmonic frequencies to enhance calm and\nrelaxation.",
+            "Brighten Up Your Mood (40 Hz)",
+            "Soundscape • 5-480 min",
+            "Binaural Beats",
+            "Get into Focus (50",
+            "Feel Less Anxious",
+            "Collection",
+            "Featured",
+            "Today",
+            "Explore",
+            "Ebb",
+            "Profile"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "9:41",
+            "40 Hz",
+            "5-480 min",
+            "50"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F7D64A",
+            "#0B0F3A"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "VP",
+          "primary_cn": "价值主张",
+          "secondary": "CONTENT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "Feel healthier and happier",
+          "supporting_evidence": "通过应用内内容预览来支撑：\"Binaural Beats\" 及其描述 \"Harmonic frequencies to enhance calm and relaxation.\"，并展示具体内容卡片如 \"Brighten Up Your Mood (40 Hz)\"",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "用应用内的 \"Binaural Beats\"（双耳节拍/声景内容）帮助用户 \"enhance calm and relaxation\"，从而 \"Feel healthier and happier\""
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "primacy_effect",
+            "anchoring"
+          ],
+          "persuasion_technique": "用结果导向的大标题（\"Feel healthier and happier\"）先建立收益锚点，再用具体功能与内容名称（\"Binaural Beats\"、\"Brighten Up Your Mood (40 Hz)\"、\"Soundscape • 5-480 min\"）提供可感知的实现路径与“看得见的内容”来降低理解成本。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题 \"Feel healthier and happier\"，其次是居中的 iPhone 设备画面（\"Binaural Beats\" 页面与内容卡片）",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F7D64A",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.5,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "用 \"Binaural Beats\" 作为核心内容入口，并在卡片中直接呈现频率标注 \"(40 Hz)\""
+          ],
+          "category_conventions": [
+            "顶部一句话情绪/健康收益型大标题",
+            "设备 mockup 展示真实应用界面",
+            "用内容卡片做功能与内容预览"
+          ],
+          "innovations": [
+            "在内容标题中显式呈现频率与时长范围（\"40 Hz\"、\"5-480 min\"）以增强“可量化/可选择”的感受"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注情绪与放松需求的人群（\"enhance calm and relaxation\"）",
+          "希望快速获得明确收益的人群（\"Feel healthier and happier\"）",
+          "偏好可选择时长的用户（\"5-480 min\"）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "顶部强结果导向主标题（一句话讲清收益）",
+          "居中设备 mockup + 真实界面预览",
+          "用卡片化内容/功能模块承接主标题承诺"
+        ],
+        "avoid_elements": [
+          "在截图中出现被裁切的不完整文案（如 \"Get into Focus (50\"）",
+          "信息点过多导致主标题与核心功能竞争注意力"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“主标题讲结果 + 设备内展示实现路径”的结构：顶部用一句话明确健康收益；设备内优先展示 1 个最能证明收益的核心模块，并确保所有卡片标题与关键数字完整可读；若要呈现数据（如时长/频次/指标），建议像 \"5-480 min\" 一样用短格式放在卡片副信息区，避免挤占主标题注意力。"
+      }
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Personalized\ncontent every day",
+          "subheadline": "",
+          "body_copy": [
+            "Recents",
+            "Favorites",
+            "Appreciation",
+            "Course · 10–20 min",
+            "Daily essentials",
+            "Take a pause with\nEbb",
+            "Reflect",
+            "A little time to reflect\ncan go a long way.",
+            "Meditation and\nAwareness",
+            "Today’s meditation",
+            "3–7 min",
+            "Rooted\nPresent",
+            "The V",
+            "7 min",
+            "Picked with you in mind",
+            "Learn the Basics of\nMeditation",
+            "Cardio · 10–20 min",
+            "Intention Walk",
+            "Cardio · 10 min",
+            "Audio",
+            "Today",
+            "Explore",
+            "Ebb",
+            "Profile"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "9:41",
+            "10–20 min",
+            "3–7 min",
+            "7 min",
+            "10 min"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F7D84A",
+            "#F47A1F"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "PERSONALIZATION",
+          "primary_cn": "个性化展示",
+          "secondary": "CONTENT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "Personalized content every day",
+          "supporting_evidence": "通过内容分组与推荐模块（“Daily essentials”“Picked with you in mind”）以及不同内容卡片与时长（如“Course · 10–20 min”“3–7 min”）来支撑“每天个性化内容”的主张",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "每天为用户挑选并呈现适合的内容，降低选择成本，直接开始练习/课程"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用“Personalized content every day”作为一句话承诺，并用“Picked with you in mind”等界面文案与可见内容卡片来让用户快速理解“已替你挑好”的机制，从而推动持续使用（每日打开）"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Personalized content every day”，其次为居中的 iPhone 界面内容卡片区域",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F7D84A",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 2,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 4.5,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "以“Personalized content every day”直给式主张 + 界面内“Picked with you in mind”双重强化个性化"
+          ],
+          "category_conventions": [
+            "使用居中设备框展示真实 App 界面",
+            "用内容卡片+时长（min）呈现可消费的健康内容"
+          ],
+          "innovations": [
+            "用高饱和暖色大底色强化情绪与记忆点，同时保持界面区域留白与可读性"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "偏好短时内容的人群（“3–7 min”“10 min”“10–20 min”）",
+          "希望减少选择负担、直接获得推荐内容的用户（“Picked with you in mind”）",
+          "对冥想/觉察类内容感兴趣的用户（“Meditation and Awareness”“Learn the Basics of Meditation”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "一句话大标题承诺（类似“Personalized content every day”）",
+          "用真实界面卡片展示“推荐/为你挑选”的信息结构",
+          "在卡片上明确标注时长（如“3–7 min”“10 min”）降低决策成本"
+        ],
+        "avoid_elements": [
+          "界面内出现被截断的文案（如“The V”）",
+          "信息点过多导致卡片文字过小（在小屏预览时可读性风险）"
+        ],
+        "adaptation_notes": "若 VitaFlow 也有个性化推荐，可采用“每日为你推荐/为你挑选”的截图结构：顶部用一句话主张，底部用 2–4 张代表性内容卡片+明确时长/难度标签；同时确保所有卡片标题不被裁切，并在商店缩略图尺寸下仍可读。"
+      }
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P8",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Welcome to\nHeadspace therapy",
+          "subheadline": "",
+          "body_copy": [
+            "Headspace Therapy for\nas low as $0",
+            "We’ve partnered with major insurance plans\nto bring affordable therapy to you.*",
+            "Check my coverage",
+            "Giorgio C. LCSW\nHeadspace Therapist",
+            "Fits your life, and your budget",
+            "You could be one of the 68 million people\nwho already have therapy covered by\ninsurance — and your co-pay could be $25 or\nless per session.",
+            "You may be able to use your HSA/FSA funds,\nor pay out of pocket.",
+            "Today",
+            "Explore",
+            "Ebb",
+            "Care",
+            "Profile"
+          ],
+          "cta_button": "Check my coverage",
+          "small_print": [
+            "*"
+          ],
+          "data_numbers": [
+            "9:41",
+            "$0",
+            "68 million",
+            "$25"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#1E5BFF",
+            "#FFFFFF"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [
+            "Headspace",
+            "Headspace Therapy"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "VP",
+          "primary_cn": "价值主张",
+          "secondary": "DATA_PROOF"
+        },
+        "message_strategy": {
+          "primary_message": "Headspace therapy 可通过保险实现低至 $0 的治疗费用，并可检查覆盖范围。",
+          "supporting_evidence": "用“as low as $0”、与“major insurance plans”合作、以及“68 million people”“$25 or less per session”“HSA/FSA funds”等具体数字与支付方式说明来支撑可负担性。",
+          "emotional_appeal": "security",
+          "value_proposition": "让治疗更可负担（保险覆盖/低自付额），并提供明确入口去“Check my coverage”。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority",
+            "social_proof"
+          ],
+          "cognitive_biases": [
+            "anchoring",
+            "cognitive_fluency",
+            "bandwagon"
+          ],
+          "persuasion_technique": "用“as low as $0”作为价格锚点降低心理门槛；用“68 million people”制造从众/普遍性认知；用治疗师身份标注（“LCSW”“Headspace Therapist”）增强可信度，并用单一明确按钮“Check my coverage”缩短决策路径。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Welcome to Headspace therapy”与中部手机屏内的“Headspace Therapy for as low as $0”价格信息，其次是黑色按钮“Check my coverage”与人物头像。",
+          "information_density": "high",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1E5BFF",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.4,
+          "brand_consistency": 5.0,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Headspace Therapy for as low as $0”",
+            "“Check my coverage”",
+            "“We’ve partnered with major insurance plans”",
+            "治疗师身份标注“Giorgio C. LCSW / Headspace Therapist”",
+            "“68 million people”与“$25 or less per session”"
+          ],
+          "category_conventions": [
+            "大标题+手机界面展示（device mockup）",
+            "用人物照片提升信任感",
+            "用单一 CTA 按钮引导下一步"
+          ],
+          "innovations": [
+            "将“保险覆盖/自付额”作为核心卖点而非仅强调情绪/冥想收益",
+            "在同一屏内同时给出价格锚点（$0）与可验证动作（Check my coverage）"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注治疗费用与保险覆盖的人群",
+          "有保险/考虑使用 HSA/FSA 的用户",
+          "希望快速确认可用性（coverage）的新用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "用强价格/门槛锚点（如“as low as …”）做首屏主信息",
+          "单一明确 CTA（类似“Check my coverage”）降低行动成本",
+          "用具体数字（人群规模/费用区间）增强可信度",
+          "用专业身份标签强化信任（如资质/认证）"
+        ],
+        "avoid_elements": [
+          "正文段落过长导致信息密度偏高",
+          "脚注符号“*”未在画面中给出对应说明（仅可见符号）"
+        ],
+        "adaptation_notes": "若 VitaFlow 属于健康健身类，可借鉴“低门槛+可验证动作”的结构：首屏用一个最强的可量化利益点（例如费用、时间、达成率等）+一个单一 CTA（例如“Check my plan/Start assessment”）。同时用1-2个关键数字做数据背书，并用专业资质/教练认证标签提升信任；控制段落长度，把解释性文字压缩为更短的要点。"
+      }
+    },
+    {
+      "index": 9,
+      "filename": "screenshot_09.png",
+      "position": "P9",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Meet Ebb,\nyour empathetic\nAI companion",
+          "subheadline": "",
+          "body_copy": [
+            "You",
+            "I’m worried how people are going to view me after I stand up for myself.",
+            "Ebb",
+            "That's a tough spot to be in, Anita.\nThis content can provide you with\nhealthy ways to counter judgement\ntoward yourself, which can be a great\ntool when standing up for yourself.",
+            "Boosting self esteem",
+            "Meditation · 10 min",
+            "Thank you for being here. You can find this\nconversation in your reflection history.",
+            "You",
+            "Share your thoughts..."
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "9:41",
+            "10"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F6F1EC",
+            "#F28A1A"
+          ],
+          "color_mood": "warm",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "AI_DEMO",
+          "primary_cn": "AI 功能演示",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "展示名为 Ebb 的“empathetic AI companion”以对话形式提供支持与引导。",
+          "supporting_evidence": "用聊天记录（“You”与“Ebb”）呈现同理回应，并在对话中推荐内容卡片“Boosting self esteem / Meditation · 10 min”。",
+          "emotional_appeal": "security",
+          "value_proposition": "通过同理心 AI 对话与冥想内容，帮助用户应对自我评判与建立自尊相关困扰。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "liking",
+            "authority"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用拟人化的 AI 形象与温和措辞（“That's a tough spot to be in, Anita.”）降低心理门槛，并通过“Boosting self esteem”内容卡把情绪支持连接到可执行的练习。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Meet Ebb, your empathetic AI companion”与中部手机屏幕内的彩色圆形表情头像",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F28A1A",
+          "color_scheme": "analogous",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 4.5,
+          "uniqueness": 3.8
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "将 AI 设定为具名角色“Ebb”并强调“empathetic”",
+            "对话中直接推荐具体练习内容卡“Boosting self esteem”"
+          ],
+          "category_conventions": [
+            "使用手机 mockup 展示真实界面",
+            "用情绪支持/自我成长场景作为示例对话"
+          ],
+          "innovations": [
+            "用拟人化渐变表情头像强化“同理心 AI”感知"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注自我评价与人际压力（“I’m worried how people are going to view me…”）的人群",
+          "对冥想内容接受度高的用户（“Meditation · 10 min”）",
+          "偏好温和、陪伴式引导的心理健康/情绪管理用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "“具名 AI 伙伴 + 一句话定位”式标题结构",
+          "用真实对话截图证明产品体验",
+          "在对话中嵌入可点击的内容/练习卡片（标题 + 类型 + 时长）"
+        ],
+        "avoid_elements": [
+          "对话正文过长导致信息密度上升、缩略图可读性下降",
+          "缺少明确 CTA 文案（仅靠界面元素暗示）"
+        ],
+        "adaptation_notes": "若 VitaFlow 也包含教练/助手能力，可采用“Meet [助手名], … companion”同构标题，并用 1 轮短对话展示“识别问题→给出建议→推荐一个可执行模块（如训练/呼吸/饮食计划）”，同时将对话文本压缩为更短句以提升商店缩略图可读性。"
+      }
+    },
+    {
+      "index": 10,
+      "filename": "screenshot_10.png",
+      "position": "P10",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Featured in",
+          "subheadline": "",
+          "body_copy": [
+            "headspace",
+            "The New York Times",
+            "Forbes",
+            "BBC WORLD SERVICE",
+            "ellen",
+            "TODAY",
+            "NBC",
+            "VOGUE"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#FFFFFF",
+            "#F57C00"
+          ],
+          "color_mood": "warm",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": false,
+            "type": "none",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [
+            "logo",
+            "app_name"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "AUTHORITY",
+          "primary_cn": "权威背书",
+          "secondary": "SOCIAL_PROOF"
+        },
+        "message_strategy": {
+          "primary_message": "通过媒体露出与知名媒体标识，建立产品可信度与权威感",
+          "supporting_evidence": "“Featured in”标题 + 多个媒体/节目名称与标识（The New York Times、Forbes、BBC WORLD SERVICE、ellen、TODAY、NBC、VOGUE）",
+          "emotional_appeal": "trust",
+          "value_proposition": "这是一个被主流媒体认可与报道的冥想/正念品牌"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority",
+            "social_proof"
+          ],
+          "cognitive_biases": [
+            "bandwagon",
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用“Featured in”作为权威锚点，把一组高辨识度媒体 Logo/字标集中陈列，借助用户对媒体公信力的既有认知，快速转移信任到产品上"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "中上部的大标题“Featured in”（橙色高对比）与其下方媒体字标列表",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F57C00",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "editorial",
+          "whitespace_usage": "generous",
+          "element_count": 9,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.8,
+          "brand_consistency": 4.9,
+          "uniqueness": 3.2
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "以“Featured in”+多家媒体字标/Logo 作为整页主内容",
+            "底部橙色半圆与简化笑脸线条作为品牌识别元素"
+          ],
+          "category_conventions": [
+            "用媒体/奖项露出做权威背书",
+            "大留白+居中排版提升高级感与可读性"
+          ],
+          "innovations": [
+            "弱化功能与界面展示，整页只做信任建立（更像品牌广告页）"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "重视品牌与可信度的用户",
+          "对主流媒体背书敏感、希望降低选择成本的新用户",
+          "偏好简洁、克制视觉风格的人群"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "“Featured in”式权威背书页",
+          "集中陈列媒体/机构字标以快速建立信任",
+          "大留白+居中对齐的编辑式排版",
+          "用单一品牌强调色突出标题"
+        ],
+        "avoid_elements": [
+          "整页缺少产品功能/结果信息导致转化动机不足（若前序截图未铺垫）",
+          "媒体/机构字标过多时可能显得拥挤或难以辨认（尤其在小屏）"
+        ],
+        "adaptation_notes": "VitaFlow 可做一张“Featured in”或“Trusted by”截图：顶部放品牌名/标识与一句权威背书标题，中部放可合法使用的媒体/机构/合作方字标；同时建议在底部补一行极短的功能关联语（仍保持留白与克制），以把“信任”与“健康管理价值”连接起来。"
+      }
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "AUTHORITY → VP → VP → CORE_FUNC → CORE_FUNC → VP → PERSONALIZATION → VP → AI_DEMO → AUTHORITY",
+    "sequence_cluster": "authority_led",
+    "narrative_arc": "从AUTHORITY开始，以AUTHORITY结束",
+    "strengths": [
+      "视觉吸引力高 (4.6/5)",
+      "信息传达清晰 (4.6/5)"
+    ],
+    "weaknesses": [],
+    "key_takeaways": []
+  },
+  "statistics": {
+    "type_distribution": {
+      "AUTHORITY": 2,
+      "VP": 4,
+      "CORE_FUNC": 2,
+      "PERSONALIZATION": 1,
+      "AI_DEMO": 1
+    },
+    "element_frequency": {
+      "logo": 2,
+      "app_name": 2,
+      "Device_Mockup": 7,
+      "Human": 3,
+      "Headspace": 1,
+      "Headspace Therapy": 1
+    },
+    "psychology_coverage": {
+      "cialdini": [
+        "commitment",
+        "social_proof",
+        "authority",
+        "liking"
+      ],
+      "cognitive_biases": [
+        "novelty",
+        "anchoring",
+        "cognitive_fluency",
+        "primacy_effect",
+        "bandwagon"
+      ]
+    },
+    "design_score_averages": {
+      "visual_appeal": 4.56,
+      "clarity": 4.61,
+      "brand_consistency": 4.62,
+      "uniqueness": 3.52
+    }
+  }
+}

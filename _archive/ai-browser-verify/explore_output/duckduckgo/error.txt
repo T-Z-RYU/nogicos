@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 507, in inner
+    await explore(
+    ...<14 lines>...
+    )
+  File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 386, in explore
+    await asyncio.gather(
+        *[_find_worker_and_run_iteration() for _ in range(iterations)]
+    )
+  File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 362, in __wakeup
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 289, in __step_run_and_handle_result
+    result = coro.send(None)
+  File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 358, in _find_worker_and_run_iteration
+    await _run_explore_iteration(
+    ...<13 lines>...
+    )
+  File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 191, in _run_explore_iteration
+    os.makedirs(iter_dir, exist_ok=True)
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 236, in makedirs
+FileExistsError: [WinError 183] 当文件已存在时，无法创建该文件。: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_output\\duckduckgo/iter_1'

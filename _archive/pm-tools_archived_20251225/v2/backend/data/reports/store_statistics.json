@@ -1,0 +1,1088 @@
+{
+  "generated_at": "2025-12-24T14:18:09.122091",
+  "sample_size": 15,
+  "total_screenshots": 133,
+  "type_distribution": {
+    "CORE_FUNC": {
+      "count": 48,
+      "percentage": "36.1%",
+      "positions": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ]
+    },
+    "VP": {
+      "count": 22,
+      "percentage": "16.5%",
+      "positions": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P8",
+        "P9",
+        "P10"
+      ]
+    },
+    "SOCIAL_PROOF": {
+      "count": 12,
+      "percentage": "9.0%",
+      "positions": [
+        "P1",
+        "P2",
+        "P4",
+        "P5",
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ]
+    },
+    "AI_DEMO": {
+      "count": 8,
+      "percentage": "6.0%",
+      "positions": [
+        "P2",
+        "P3",
+        "P4",
+        "P7",
+        "P9"
+      ]
+    },
+    "PERSONALIZATION": {
+      "count": 8,
+      "percentage": "6.0%",
+      "positions": [
+        "P2",
+        "P5",
+        "P7",
+        "P10"
+      ]
+    },
+    "DATA_PROOF": {
+      "count": 7,
+      "percentage": "5.3%",
+      "positions": [
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P8"
+      ]
+    },
+    "AUTHORITY": {
+      "count": 7,
+      "percentage": "5.3%",
+      "positions": [
+        "P1",
+        "P6",
+        "P9",
+        "P10"
+      ]
+    },
+    "RESULT_PREVIEW": {
+      "count": 7,
+      "percentage": "5.3%",
+      "positions": [
+        "P4",
+        "P6",
+        "P7",
+        "P8"
+      ]
+    },
+    "USP": {
+      "count": 5,
+      "percentage": "3.8%",
+      "positions": [
+        "P2",
+        "P4",
+        "P7",
+        "P10"
+      ]
+    },
+    "INTEGRATION": {
+      "count": 5,
+      "percentage": "3.8%",
+      "positions": [
+        "P8",
+        "P9"
+      ]
+    },
+    "CONTENT_PREVIEW": {
+      "count": 4,
+      "percentage": "3.0%",
+      "positions": [
+        "P3",
+        "P4",
+        "P6"
+      ]
+    }
+  },
+  "position_type_matrix": {
+    "P1": {
+      "DATA_PROOF": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "VP": {
+        "count": 7,
+        "percentage": "47%"
+      },
+      "CORE_FUNC": {
+        "count": 2,
+        "percentage": "13%"
+      },
+      "SOCIAL_PROOF": {
+        "count": 2,
+        "percentage": "13%"
+      },
+      "AUTHORITY": {
+        "count": 3,
+        "percentage": "20%"
+      },
+      "AI_DEMO": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "RESULT_PREVIEW": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "CONTENT_PREVIEW": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "PERSONALIZATION": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "USP": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "INTEGRATION": {
+        "count": 0,
+        "percentage": "0%"
+      }
+    },
+    "P2": {
+      "DATA_PROOF": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "VP": {
+        "count": 5,
+        "percentage": "33%"
+      },
+      "CORE_FUNC": {
+        "count": 3,
+        "percentage": "20%"
+      },
+      "SOCIAL_PROOF": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "AUTHORITY": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "AI_DEMO": {
+        "count": 3,
+        "percentage": "20%"
+      },
+      "RESULT_PREVIEW": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "CONTENT_PREVIEW": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "PERSONALIZATION": {
+        "count": 2,
+        "percentage": "13%"
+      },
+      "USP": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "INTEGRATION": {
+        "count": 0,
+        "percentage": "0%"
+      }
+    },
+    "P3": {
+      "DATA_PROOF": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "VP": {
+        "count": 3,
+        "percentage": "20%"
+      },
+      "CORE_FUNC": {
+        "count": 7,
+        "percentage": "47%"
+      },
+      "SOCIAL_PROOF": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "AUTHORITY": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "AI_DEMO": {
+        "count": 2,
+        "percentage": "13%"
+      },
+      "RESULT_PREVIEW": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "CONTENT_PREVIEW": {
+        "count": 2,
+        "percentage": "13%"
+      },
+      "PERSONALIZATION": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "USP": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "INTEGRATION": {
+        "count": 0,
+        "percentage": "0%"
+      }
+    },
+    "P4": {
+      "DATA_PROOF": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "VP": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "CORE_FUNC": {
+        "count": 9,
+        "percentage": "60%"
+      },
+      "SOCIAL_PROOF": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "AUTHORITY": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "AI_DEMO": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "RESULT_PREVIEW": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "CONTENT_PREVIEW": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "PERSONALIZATION": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "USP": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "INTEGRATION": {
+        "count": 0,
+        "percentage": "0%"
+      }
+    },
+    "P5": {
+      "DATA_PROOF": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "VP": {
+        "count": 2,
+        "percentage": "13%"
+      },
+      "CORE_FUNC": {
+        "count": 7,
+        "percentage": "47%"
+      },
+      "SOCIAL_PROOF": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "AUTHORITY": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "AI_DEMO": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "RESULT_PREVIEW": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "CONTENT_PREVIEW": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "PERSONALIZATION": {
+        "count": 4,
+        "percentage": "27%"
+      },
+      "USP": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "INTEGRATION": {
+        "count": 0,
+        "percentage": "0%"
+      }
+    },
+    "P6": {
+      "DATA_PROOF": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "VP": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "CORE_FUNC": {
+        "count": 9,
+        "percentage": "60%"
+      },
+      "SOCIAL_PROOF": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "AUTHORITY": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "AI_DEMO": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "RESULT_PREVIEW": {
+        "count": 3,
+        "percentage": "20%"
+      },
+      "CONTENT_PREVIEW": {
+        "count": 1,
+        "percentage": "7%"
+      },
+      "PERSONALIZATION": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "USP": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "INTEGRATION": {
+        "count": 0,
+        "percentage": "0%"
+      }
+    },
+    "P7": {
+      "DATA_PROOF": {
+        "count": 1,
+        "percentage": "8%"
+      },
+      "VP": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "CORE_FUNC": {
+        "count": 5,
+        "percentage": "42%"
+      },
+      "SOCIAL_PROOF": {
+        "count": 1,
+        "percentage": "8%"
+      },
+      "AUTHORITY": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "AI_DEMO": {
+        "count": 1,
+        "percentage": "8%"
+      },
+      "RESULT_PREVIEW": {
+        "count": 2,
+        "percentage": "17%"
+      },
+      "CONTENT_PREVIEW": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "PERSONALIZATION": {
+        "count": 1,
+        "percentage": "8%"
+      },
+      "USP": {
+        "count": 1,
+        "percentage": "8%"
+      },
+      "INTEGRATION": {
+        "count": 0,
+        "percentage": "0%"
+      }
+    },
+    "P8": {
+      "DATA_PROOF": {
+        "count": 3,
+        "percentage": "25%"
+      },
+      "VP": {
+        "count": 1,
+        "percentage": "8%"
+      },
+      "CORE_FUNC": {
+        "count": 3,
+        "percentage": "25%"
+      },
+      "SOCIAL_PROOF": {
+        "count": 2,
+        "percentage": "17%"
+      },
+      "AUTHORITY": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "AI_DEMO": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "RESULT_PREVIEW": {
+        "count": 1,
+        "percentage": "8%"
+      },
+      "CONTENT_PREVIEW": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "PERSONALIZATION": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "USP": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "INTEGRATION": {
+        "count": 2,
+        "percentage": "17%"
+      }
+    },
+    "P9": {
+      "DATA_PROOF": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "VP": {
+        "count": 1,
+        "percentage": "10%"
+      },
+      "CORE_FUNC": {
+        "count": 1,
+        "percentage": "10%"
+      },
+      "SOCIAL_PROOF": {
+        "count": 3,
+        "percentage": "30%"
+      },
+      "AUTHORITY": {
+        "count": 1,
+        "percentage": "10%"
+      },
+      "AI_DEMO": {
+        "count": 1,
+        "percentage": "10%"
+      },
+      "RESULT_PREVIEW": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "CONTENT_PREVIEW": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "PERSONALIZATION": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "USP": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "INTEGRATION": {
+        "count": 3,
+        "percentage": "30%"
+      }
+    },
+    "P10": {
+      "DATA_PROOF": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "VP": {
+        "count": 1,
+        "percentage": "11%"
+      },
+      "CORE_FUNC": {
+        "count": 2,
+        "percentage": "22%"
+      },
+      "SOCIAL_PROOF": {
+        "count": 1,
+        "percentage": "11%"
+      },
+      "AUTHORITY": {
+        "count": 2,
+        "percentage": "22%"
+      },
+      "AI_DEMO": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "RESULT_PREVIEW": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "CONTENT_PREVIEW": {
+        "count": 0,
+        "percentage": "0%"
+      },
+      "PERSONALIZATION": {
+        "count": 1,
+        "percentage": "11%"
+      },
+      "USP": {
+        "count": 2,
+        "percentage": "22%"
+      },
+      "INTEGRATION": {
+        "count": 0,
+        "percentage": "0%"
+      }
+    }
+  },
+  "element_frequency": {
+    "Device_Mockup": {
+      "count": 111,
+      "percentage": "83.5%"
+    },
+    "Data_Visualization": {
+      "count": 86,
+      "percentage": "64.7%"
+    },
+    "Human_Presence": {
+      "count": 62,
+      "percentage": "46.6%"
+    },
+    "Food_Image": {
+      "count": 29,
+      "percentage": "21.8%"
+    },
+    "Brand_app_name": {
+      "count": 23,
+      "percentage": "17.3%"
+    },
+    "Gradient_Background": {
+      "count": 22,
+      "percentage": "16.5%"
+    },
+    "Brand_logo": {
+      "count": 13,
+      "percentage": "9.8%"
+    },
+    "Brand_icon": {
+      "count": 4,
+      "percentage": "3.0%"
+    },
+    "Brand_Headspace": {
+      "count": 1,
+      "percentage": "0.8%"
+    },
+    "Brand_Headspace Therapy": {
+      "count": 1,
+      "percentage": "0.8%"
+    },
+    "Brand_LADDER": {
+      "count": 1,
+      "percentage": "0.8%"
+    },
+    "Brand_Spotify": {
+      "count": 1,
+      "percentage": "0.8%"
+    },
+    "Brand_Music": {
+      "count": 1,
+      "percentage": "0.8%"
+    },
+    "Brand_YouTube Music": {
+      "count": 1,
+      "percentage": "0.8%"
+    },
+    "Brand_amazon music": {
+      "count": 1,
+      "percentage": "0.8%"
+    },
+    "Brand_Podcasts": {
+      "count": 1,
+      "percentage": "0.8%"
+    },
+    "Brand_NOOM": {
+      "count": 1,
+      "percentage": "0.8%"
+    },
+    "Brand_MED": {
+      "count": 1,
+      "percentage": "0.8%"
+    },
+    "Brand_Noom": {
+      "count": 1,
+      "percentage": "0.8%"
+    },
+    "Brand_GARMIN": {
+      "count": 1,
+      "percentage": "0.8%"
+    }
+  },
+  "psychology_coverage": {
+    "cialdini_principles": {
+      "commitment": {
+        "count": 63,
+        "percentage": "47.4%"
+      },
+      "authority": {
+        "count": 50,
+        "percentage": "37.6%"
+      },
+      "liking": {
+        "count": 25,
+        "percentage": "18.8%"
+      },
+      "social_proof": {
+        "count": 24,
+        "percentage": "18.0%"
+      },
+      "unity": {
+        "count": 10,
+        "percentage": "7.5%"
+      },
+      "scarcity": {
+        "count": 2,
+        "percentage": "1.5%"
+      }
+    },
+    "cognitive_biases": {
+      "cognitive_fluency": {
+        "count": 131,
+        "percentage": "98.5%"
+      },
+      "anchoring": {
+        "count": 69,
+        "percentage": "51.9%"
+      },
+      "novelty": {
+        "count": 31,
+        "percentage": "23.3%"
+      },
+      "primacy_effect": {
+        "count": 27,
+        "percentage": "20.3%"
+      },
+      "bandwagon": {
+        "count": 18,
+        "percentage": "13.5%"
+      },
+      "loss_aversion": {
+        "count": 6,
+        "percentage": "4.5%"
+      },
+      "goal_gradient": {
+        "count": 3,
+        "percentage": "2.3%"
+      },
+      "halo_effect": {
+        "count": 1,
+        "percentage": "0.8%"
+      },
+      "goal_gradient_effect": {
+        "count": 1,
+        "percentage": "0.8%"
+      },
+      "commitment": {
+        "count": 1,
+        "percentage": "0.8%"
+      }
+    }
+  },
+  "element_cooccurrence": {
+    "Data_Visualization+Device_Mockup": {
+      "count": 76,
+      "percentage": "57.1%"
+    },
+    "Human_Presence+Device_Mockup": {
+      "count": 51,
+      "percentage": "38.3%"
+    },
+    "Food_Image+Device_Mockup": {
+      "count": 25,
+      "percentage": "18.8%"
+    },
+    "Device_Mockup+Gradient_Background": {
+      "count": 20,
+      "percentage": "15.0%"
+    }
+  },
+  "sequence_clusters": {
+    "ai_driven": {
+      "count": 4,
+      "percentage": "26.7%",
+      "apps": [
+        "Cal_AI",
+        "LoseIt",
+        "MyFitnessPal",
+        "Yazio"
+      ]
+    },
+    "traditional": {
+      "count": 4,
+      "percentage": "26.7%",
+      "apps": [
+        "Flo",
+        "LADDER",
+        "MacroFactor",
+        "Noom"
+      ]
+    },
+    "authority_led": {
+      "count": 3,
+      "percentage": "20.0%",
+      "apps": [
+        "Calm",
+        "Headspace",
+        "Strava"
+      ]
+    },
+    "unique": {
+      "count": 2,
+      "percentage": "13.3%",
+      "apps": [
+        "AllTrails",
+        "Fitbit"
+      ]
+    },
+    "social_first": {
+      "count": 2,
+      "percentage": "13.3%",
+      "apps": [
+        "Peloton",
+        "Runna"
+      ]
+    }
+  },
+  "word_frequency": {
+    "headlines": {
+      "your": 31,
+      "the": 13,
+      "with": 12,
+      "track": 11,
+      "you": 7,
+      "get": 7,
+      "learn": 6,
+      "weight": 6,
+      "food": 6,
+      "discover": 5,
+      "and": 5,
+      "for": 5,
+      "log": 5,
+      "run": 5,
+      "see": 4,
+      "sleep": 4,
+      "workouts": 4,
+      "all": 4,
+      "personalized": 4,
+      "plan": 4,
+      "lose": 4,
+      "trail": 3,
+      "check": 3,
+      "explore": 3,
+      "stats": 3,
+      "snap": 3,
+      "calories": 3,
+      "progress": 3,
+      "watch": 3,
+      "more": 3
+    }
+  },
+  "design_score_averages": {
+    "visual_appeal": 4.5,
+    "clarity": 4.6,
+    "brand_consistency": 4.48,
+    "uniqueness": 3.48
+  },
+  "color_distribution": {
+    "neutral": {
+      "count": 44,
+      "percentage": "33.1%"
+    },
+    "cool": {
+      "count": 30,
+      "percentage": "22.6%"
+    },
+    "muted": {
+      "count": 22,
+      "percentage": "16.5%"
+    },
+    "warm": {
+      "count": 19,
+      "percentage": "14.3%"
+    },
+    "vibrant": {
+      "count": 18,
+      "percentage": "13.5%"
+    }
+  },
+  "app_summaries": [
+    {
+      "app_name": "AllTrails",
+      "total_screenshots": 10,
+      "sequence_pattern": "DATA_PROOF → VP → CORE_FUNC → CORE_FUNC → CORE_FUNC → CORE_FUNC → CORE_FUNC → SOCIAL_PROOF → CORE_FUNC → AUTHORITY",
+      "sequence_cluster": "unique",
+      "type_distribution": {
+        "DATA_PROOF": 1,
+        "VP": 1,
+        "CORE_FUNC": 6,
+        "SOCIAL_PROOF": 1,
+        "AUTHORITY": 1
+      },
+      "avg_design_score": 4.5
+    },
+    {
+      "app_name": "Cal_AI",
+      "total_screenshots": 6,
+      "sequence_pattern": "CORE_FUNC → AI_DEMO → CORE_FUNC → CORE_FUNC → SOCIAL_PROOF → RESULT_PREVIEW",
+      "sequence_cluster": "ai_driven",
+      "type_distribution": {
+        "CORE_FUNC": 3,
+        "AI_DEMO": 1,
+        "SOCIAL_PROOF": 1,
+        "RESULT_PREVIEW": 1
+      },
+      "avg_design_score": 4.53
+    },
+    {
+      "app_name": "Calm",
+      "total_screenshots": 6,
+      "sequence_pattern": "AUTHORITY → VP → CONTENT_PREVIEW → VP → CORE_FUNC → AUTHORITY",
+      "sequence_cluster": "authority_led",
+      "type_distribution": {
+        "AUTHORITY": 2,
+        "VP": 2,
+        "CONTENT_PREVIEW": 1,
+        "CORE_FUNC": 1
+      },
+      "avg_design_score": 4.62
+    },
+    {
+      "app_name": "Fitbit",
+      "total_screenshots": 6,
+      "sequence_pattern": "CORE_FUNC → PERSONALIZATION → VP → CONTENT_PREVIEW → CORE_FUNC → RESULT_PREVIEW",
+      "sequence_cluster": "unique",
+      "type_distribution": {
+        "CORE_FUNC": 2,
+        "PERSONALIZATION": 1,
+        "VP": 1,
+        "CONTENT_PREVIEW": 1,
+        "RESULT_PREVIEW": 1
+      },
+      "avg_design_score": 4.4
+    },
+    {
+      "app_name": "Flo",
+      "total_screenshots": 10,
+      "sequence_pattern": "VP → CORE_FUNC → CORE_FUNC → USP → CORE_FUNC → CORE_FUNC → CORE_FUNC → CORE_FUNC → AUTHORITY → USP",
+      "sequence_cluster": "traditional",
+      "type_distribution": {
+        "VP": 1,
+        "CORE_FUNC": 6,
+        "USP": 2,
+        "AUTHORITY": 1
+      },
+      "avg_design_score": 4.51
+    },
+    {
+      "app_name": "Headspace",
+      "total_screenshots": 10,
+      "sequence_pattern": "AUTHORITY → VP → VP → CORE_FUNC → CORE_FUNC → VP → PERSONALIZATION → VP → AI_DEMO → AUTHORITY",
+      "sequence_cluster": "authority_led",
+      "type_distribution": {
+        "AUTHORITY": 2,
+        "VP": 4,
+        "CORE_FUNC": 2,
+        "PERSONALIZATION": 1,
+        "AI_DEMO": 1
+      },
+      "avg_design_score": 4.56
+    },
+    {
+      "app_name": "LADDER",
+      "total_screenshots": 10,
+      "sequence_pattern": "VP → CORE_FUNC → CORE_FUNC → CORE_FUNC → PERSONALIZATION → CORE_FUNC → CORE_FUNC → DATA_PROOF → INTEGRATION → SOCIAL_PROOF",
+      "sequence_cluster": "traditional",
+      "type_distribution": {
+        "VP": 1,
+        "CORE_FUNC": 5,
+        "PERSONALIZATION": 1,
+        "DATA_PROOF": 1,
+        "INTEGRATION": 1,
+        "SOCIAL_PROOF": 1
+      },
+      "avg_design_score": 4.52
+    },
+    {
+      "app_name": "LoseIt",
+      "total_screenshots": 10,
+      "sequence_pattern": "VP → AI_DEMO → CORE_FUNC → CORE_FUNC → CORE_FUNC → RESULT_PREVIEW → CORE_FUNC → INTEGRATION → SOCIAL_PROOF → CORE_FUNC",
+      "sequence_cluster": "ai_driven",
+      "type_distribution": {
+        "VP": 1,
+        "AI_DEMO": 1,
+        "CORE_FUNC": 5,
+        "RESULT_PREVIEW": 1,
+        "INTEGRATION": 1,
+        "SOCIAL_PROOF": 1
+      },
+      "avg_design_score": 4.56
+    },
+    {
+      "app_name": "MacroFactor",
+      "total_screenshots": 10,
+      "sequence_pattern": "VP → CORE_FUNC → DATA_PROOF → AI_DEMO → CORE_FUNC → CORE_FUNC → RESULT_PREVIEW → RESULT_PREVIEW → INTEGRATION → VP",
+      "sequence_cluster": "traditional",
+      "type_distribution": {
+        "VP": 2,
+        "CORE_FUNC": 3,
+        "DATA_PROOF": 1,
+        "AI_DEMO": 1,
+        "RESULT_PREVIEW": 2,
+        "INTEGRATION": 1
+      },
+      "avg_design_score": 4.42
+    },
+    {
+      "app_name": "MyFitnessPal",
+      "total_screenshots": 10,
+      "sequence_pattern": "VP → VP → AI_DEMO → CORE_FUNC → PERSONALIZATION → CORE_FUNC → CORE_FUNC → CORE_FUNC → INTEGRATION → CORE_FUNC",
+      "sequence_cluster": "ai_driven",
+      "type_distribution": {
+        "VP": 2,
+        "AI_DEMO": 1,
+        "CORE_FUNC": 5,
+        "PERSONALIZATION": 1,
+        "INTEGRATION": 1
+      },
+      "avg_design_score": 4.45
+    },
+    {
+      "app_name": "Noom",
+      "total_screenshots": 8,
+      "sequence_pattern": "VP → USP → VP → CORE_FUNC → PERSONALIZATION → CORE_FUNC → USP → DATA_PROOF",
+      "sequence_cluster": "traditional",
+      "type_distribution": {
+        "VP": 2,
+        "USP": 2,
+        "CORE_FUNC": 2,
+        "PERSONALIZATION": 1,
+        "DATA_PROOF": 1
+      },
+      "avg_design_score": 4.49
+    },
+    {
+      "app_name": "Peloton",
+      "total_screenshots": 9,
+      "sequence_pattern": "SOCIAL_PROOF → VP → CONTENT_PREVIEW → RESULT_PREVIEW → VP → CORE_FUNC → SOCIAL_PROOF → DATA_PROOF → VP",
+      "sequence_cluster": "social_first",
+      "type_distribution": {
+        "SOCIAL_PROOF": 2,
+        "VP": 3,
+        "CONTENT_PREVIEW": 1,
+        "RESULT_PREVIEW": 1,
+        "CORE_FUNC": 1,
+        "DATA_PROOF": 1
+      },
+      "avg_design_score": 4.44
+    },
+    {
+      "app_name": "Runna",
+      "total_screenshots": 10,
+      "sequence_pattern": "SOCIAL_PROOF → PERSONALIZATION → CORE_FUNC → CORE_FUNC → PERSONALIZATION → CORE_FUNC → DATA_PROOF → CORE_FUNC → SOCIAL_PROOF → USP",
+      "sequence_cluster": "social_first",
+      "type_distribution": {
+        "SOCIAL_PROOF": 2,
+        "PERSONALIZATION": 2,
+        "CORE_FUNC": 4,
+        "DATA_PROOF": 1,
+        "USP": 1
+      },
+      "avg_design_score": 4.45
+    },
+    {
+      "app_name": "Strava",
+      "total_screenshots": 10,
+      "sequence_pattern": "AUTHORITY → SOCIAL_PROOF → CORE_FUNC → SOCIAL_PROOF → DATA_PROOF → CORE_FUNC → AI_DEMO → INTEGRATION → SOCIAL_PROOF → PERSONALIZATION",
+      "sequence_cluster": "authority_led",
+      "type_distribution": {
+        "AUTHORITY": 1,
+        "SOCIAL_PROOF": 3,
+        "CORE_FUNC": 2,
+        "DATA_PROOF": 1,
+        "AI_DEMO": 1,
+        "INTEGRATION": 1,
+        "PERSONALIZATION": 1
+      },
+      "avg_design_score": 4.6
+    },
+    {
+      "app_name": "Yazio",
+      "total_screenshots": 8,
+      "sequence_pattern": "VP → AI_DEMO → AI_DEMO → CORE_FUNC → VP → CONTENT_PREVIEW → RESULT_PREVIEW → SOCIAL_PROOF",
+      "sequence_cluster": "ai_driven",
+      "type_distribution": {
+        "VP": 2,
+        "AI_DEMO": 2,
+        "CORE_FUNC": 1,
+        "CONTENT_PREVIEW": 1,
+        "RESULT_PREVIEW": 1,
+        "SOCIAL_PROOF": 1
+      },
+      "avg_design_score": 4.45
+    }
+  ]
+}

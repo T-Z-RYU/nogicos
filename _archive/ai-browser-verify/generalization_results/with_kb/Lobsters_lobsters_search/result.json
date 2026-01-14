@@ -1,0 +1,17 @@
+{
+  "site_name": "Lobsters",
+  "site_url": "https://lobste.rs",
+  "site_category": "tech_forum",
+  "task_id": "lobsters_search",
+  "task_description": "Search for 'rust programming' on this website",
+  "task_type": "search",
+  "knowledge_base": "with_kb",
+  "model": "gpt-5.2",
+  "start_time": "2025-12-25T09:28:06.736722",
+  "success": false,
+  "num_steps": 3,
+  "execution_time_seconds": 72.34,
+  "skills_used": [],
+  "has_exception": true,
+  "final_url": "unknown"
+}

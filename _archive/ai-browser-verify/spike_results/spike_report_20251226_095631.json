@@ -1,0 +1,121 @@
+{
+  "summary": {
+    "total_tests": 9,
+    "successful": 0,
+    "failed": 9,
+    "success_rate": 0.0,
+    "avg_duration": 62.90327575471666,
+    "avg_steps": 0,
+    "crashes": 0,
+    "verdict": "FAIL"
+  },
+  "results": [
+    {
+      "task_id": "task1",
+      "task_description": "Get the title of the first news item on the homepage",
+      "run_number": 1,
+      "success": false,
+      "duration": 63.96724271774292,
+      "steps": 0,
+      "result": null,
+      "error": "Timeout after 60s",
+      "timestamp": "2025-12-26T09:48:09.316354"
+    },
+    {
+      "task_id": "task1",
+      "task_description": "Get the title of the first news item on the homepage",
+      "run_number": 2,
+      "success": false,
+      "duration": 62.48322582244873,
+      "steps": 0,
+      "result": null,
+      "error": "Timeout after 60s",
+      "timestamp": "2025-12-26T09:49:11.799612"
+    },
+    {
+      "task_id": "task1",
+      "task_description": "Get the title of the first news item on the homepage",
+      "run_number": 3,
+      "success": false,
+      "duration": 63.000935077667236,
+      "steps": 0,
+      "result": null,
+      "error": "Timeout after 60s",
+      "timestamp": "2025-12-26T09:50:14.800574"
+    },
+    {
+      "task_id": "task2",
+      "task_description": "Search for 'AI' and get the first result title",
+      "run_number": 1,
+      "success": false,
+      "duration": 63.0639910697937,
+      "steps": 0,
+      "result": null,
+      "error": "Timeout after 60s",
+      "timestamp": "2025-12-26T09:51:17.864589"
+    },
+    {
+      "task_id": "task2",
+      "task_description": "Search for 'AI' and get the first result title",
+      "run_number": 2,
+      "success": false,
+      "duration": 62.56012034416199,
+      "steps": 0,
+      "result": null,
+      "error": "Timeout after 60s",
+      "timestamp": "2025-12-26T09:52:20.424736"
+    },
+    {
+      "task_id": "task2",
+      "task_description": "Search for 'AI' and get the first result title",
+      "run_number": 3,
+      "success": false,
+      "duration": 62.64799427986145,
+      "steps": 0,
+      "result": null,
+      "error": "Timeout after 60s",
+      "timestamp": "2025-12-26T09:53:23.072754"
+    },
+    {
+      "task_id": "task3",
+      "task_description": "Go to 'new' page and get the first item title",
+      "run_number": 1,
+      "success": false,
+      "duration": 63.009817600250244,
+      "steps": 0,
+      "result": null,
+      "error": "Timeout after 60s",
+      "timestamp": "2025-12-26T09:54:26.082595"
+    },
+    {
+      "task_id": "task3",
+      "task_description": "Go to 'new' page and get the first item title",
+      "run_number": 2,
+      "success": false,
+      "duration": 62.424113035202026,
+      "steps": 0,
+      "result": null,
+      "error": "Timeout after 60s",
+      "timestamp": "2025-12-26T09:55:28.506730"
+    },
+    {
+      "task_id": "task3",
+      "task_description": "Go to 'new' page and get the first item title",
+      "run_number": 3,
+      "success": false,
+      "duration": 62.972041845321655,
+      "steps": 0,
+      "result": null,
+      "error": "Timeout after 60s",
+      "timestamp": "2025-12-26T09:56:31.478794"
+    }
+  ],
+  "timestamp": "2025-12-26T09:56:31.478994",
+  "config": {
+    "url": "https://news.ycombinator.com",
+    "tasks": 3,
+    "runs_per_task": 3,
+    "max_steps": 10,
+    "timeout": 60
+  }
+}

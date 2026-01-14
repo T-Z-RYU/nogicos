@@ -1,0 +1,177 @@
+{
+  "round": 1,
+  "timestamp": "2026-01-01T04:28:14.619337",
+  "summary": {
+    "passed": 4,
+    "failed": 4,
+    "issues": 16,
+    "fixes_applied": 4,
+    "is_stable": false
+  },
+  "results": [
+    {
+      "test_id": "api_001",
+      "prompt": "读取 README.md",
+      "test_type": "api",
+      "success": true,
+      "response_time": 19.54569101333618,
+      "issues": []
+    },
+    {
+      "test_id": "api_002",
+      "prompt": "运行 python --version",
+      "test_type": "api",
+      "success": true,
+      "response_time": 10.991974353790283,
+      "issues": []
+    },
+    {
+      "test_id": "api_003",
+      "prompt": "你好",
+      "test_type": "api",
+      "success": true,
+      "response_time": 5.947471380233765,
+      "issues": []
+    },
+    {
+      "test_id": "api_004",
+      "prompt": "",
+      "test_type": "api",
+      "success": true,
+      "response_time": 6.2180726528167725,
+      "issues": []
+    },
+    {
+      "test_id": "ui_001",
+      "prompt": "当前目录有什么",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 5.823644399642944,
+      "issues": [
+        {
+          "type": "功能响应问题",
+          "severity": "high",
+          "location": "backend",
+          "description": "用户输入了'当前目录有什么'的查询，但界面没有显示任何执行结果或响应，用户无法得到期望的目录内容信息"
+        },
+        {
+          "type": "用户反馈缺失",
+          "severity": "medium",
+          "location": "frontend",
+          "description": "没有任何加载状态指示器或处理反馈，用户不知道系统是否正在处理请求、处理完成还是出现了错误"
+        },
+        {
+          "type": "交互设计问题",
+          "severity": "medium",
+          "location": "frontend",
+          "description": "界面底部的消息输入框显示'Message NogicOS'提示，但用户已经发送了消息却没有得到回应，可能导致用户困惑是否需要重新发送"
+        }
+      ]
+    },
+    {
+      "test_id": "ui_002",
+      "prompt": "帮我看看项目结构",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 3.6541361808776855,
+      "issues": [
+        {
+          "type": "功能响应问题",
+          "severity": "high",
+          "location": "frontend",
+          "description": "用户请求查看项目结构，但界面没有显示任何项目文件或文件夹结构，左侧面板显示'No sessions found'，说明系统没有正确响应用户的需求"
+        },
+        {
+          "type": "用户体验问题",
+          "severity": "medium",
+          "location": "frontend",
+          "description": "界面缺少明确的反馈机制，用户输入了查询但没有得到相应的结果展示或错误说明，用户不知道为什么没有看到项目结构"
+        },
+        {
+          "type": "信息架构问题",
+          "severity": "medium",
+          "location": "frontend",
+          "description": "中央区域的功能按钮（Organize desktop、Find recent files、Open Hacker News、Run git status）与用户当前需求不匹配，没有提供查看项目结构的直接入口"
+        },
+        {
+          "type": "交互设计问题",
+          "severity": "low",
+          "location": "frontend",
+          "description": "搜索框中的中文提示'帮我看看项目结构'显示正常，但系统似乎没有处理这个自然语言查询并转化为相应的文件浏览功能"
+        }
+      ]
+    },
+    {
+      "test_id": "e2e_001",
+      "prompt": "创建一个测试文件",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 35.84128284454346,
+      "issues": [
+        {
+          "type": "slow_response",
+          "severity": "low",
+          "location": "backend",
+          "description": "Response took 35.8s"
+        },
+        {
+          "type": "功能缺失",
+          "severity": "high",
+          "location": "frontend",
+          "description": "用户想要创建测试文件，但界面缺少明确的文件创建功能。搜索框显示'创建一个测试文件'但这看起来像是搜索功能而非文件创建功能"
+        },
+        {
+          "type": "用户体验",
+          "severity": "medium",
+          "location": "frontend",
+          "description": "左侧显示'No sessions found'，但用户期望创建文件，这种状态提示可能让用户感到困惑，不知道如何开始创建文件"
+        },
+        {
+          "type": "界面指引不清",
+          "severity": "medium",
+          "location": "frontend",
+          "description": "虽然有'New Session'按钮，但对于想要创建文件的用户来说，这个按钮的作用不够明确，缺少直接的文件创建入口"
+        },
+        {
+          "type": "功能反馈缺失",
+          "severity": "low",
+          "location": "frontend",
+          "description": "没有明显的反馈机制显示文件创建的状态或结果，用户无法确认操作是否成功"
+        }
+      ]
+    },
+    {
+      "test_id": "e2e_002",
+      "prompt": "搜索包含 def 的文件",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 21.25238347053528,
+      "issues": [
+        {
+          "type": "功能性问题",
+          "severity": "high",
+          "location": "frontend",
+          "description": "用户在搜索框中输入了'搜索包含 def 的文件'，但界面显示'No sessions found'，没有显示任何搜索结果，搜索功能似乎没有正常工作"
+        },
+        {
+          "type": "用户体验问题",
+          "severity": "medium",
+          "location": "frontend",
+          "description": "搜索框的占位符文本'搜索包含 def 的文件'看起来像是用户输入的内容，而不是占位符提示，这会让用户混淆当前的输入状态"
+        },
+        {
+          "type": "信息反馈问题",
+          "severity": "medium",
+          "location": "frontend",
+          "description": "当搜索没有结果时，显示'No sessions found'可能不够明确，应该更清楚地说明是搜索结果为空，而不是会话为空"
+        },
+        {
+          "type": "视觉一致性问题",
+          "severity": "low",
+          "location": "frontend",
+          "description": "左侧边栏显示'No sessions found'，但用户实际是在搜索文件，这个提示与当前操作上下文不符"
+        }
+      ]
+    }
+  ]
+}

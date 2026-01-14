@@ -1,0 +1,1308 @@
+{
+  "app_name": "Noom",
+  "total_screenshots": 8,
+  "analyzed_at": "2025-12-24T14:01:15.236305",
+  "model": "claude-opus-4-5-20251101 / gpt-5.2",
+  "schema_version": "v2",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Noom uses\npsychology to\nhelp you lose\nweight and\nkeep it off",
+          "subheadline": "",
+          "body_copy": [
+            "BUILDS NEW\nHABITS",
+            "NOOM",
+            "Course progress",
+            "Trends",
+            "Course Map",
+            "Your Noom learning journey",
+            "Set yourself up\nfor success",
+            "Feel full on fewer calories",
+            "The story behind a habit",
+            "The psychology of eating",
+            "Toolkit"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F2BFB1",
+            "#FFFFFF"
+          ],
+          "color_mood": "warm",
+          "layout_type": "split_horizontal",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "right"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": true,
+            "style": "icon"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring"
+            ]
+          },
+          "brand_elements": [
+            "app_name"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "VP",
+          "primary_cn": "价值主张",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "Noom uses psychology to help you lose weight and keep it off",
+          "supporting_evidence": "用“Course progress / Course Map / Your Noom learning journey”等课程进度界面与“BUILDS NEW HABITS”气泡提示来支撑“心理学+习惯养成”的方法论",
+          "emotional_appeal": "trust",
+          "value_proposition": "通过心理学与课程化学习旅程，帮助减重并维持成果（keep it off）"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority",
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "primacy_effect",
+            "anchoring"
+          ],
+          "persuasion_technique": "用一句强结论式主标题先锚定“psychology + lose weight + keep it off”，再用产品内“Course progress/learning journey”界面与“BUILDS NEW HABITS”短句把承诺落到可执行的长期行为改变上。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "左上大字号主标题（Noom uses psychology...），其次是右下倾斜的 iPhone 界面与红色气泡“BUILDS NEW HABITS”",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F2BFB1",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_offset",
+          "whitespace_usage": "generous",
+          "element_count": 3,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.5,
+          "clarity": 4.7,
+          "brand_consistency": 4.6,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "Noom uses psychology to help you lose weight and keep it off",
+            "BUILDS NEW\nHABITS",
+            "Course Map / Your Noom learning journey（课程化路径表达）"
+          ],
+          "category_conventions": [
+            "大标题+设备界面展示核心体验",
+            "用简短标签式气泡强化卖点"
+          ],
+          "innovations": [
+            "用“psychology”作为方法论主轴而非仅强调卡路里/运动，且用“learning journey / Course Map”把减重包装成学习路径"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注长期减重维持（keep it off）的人群",
+          "偏好习惯养成/行为改变方法的人群",
+          "愿意接受课程式引导（Course progress / Course Map）的人群"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "一句话价值主张（结果 + 方法）的大标题结构",
+          "“气泡标签”式短卖点（如截图中的“BUILDS NEW HABITS”）",
+          "用产品内核心页面做证据（进度/路径/地图式信息架构）",
+          "大留白+单一暖色底提升可读性"
+        ],
+        "avoid_elements": [
+          "设备界面中文字过小导致信息不可读（如列表项与细节）",
+          "主标题过长导致换行过多、节奏变慢"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“方法论 + 结果承诺”的大标题策略，并用 1 个最能代表核心机制的页面做支撑；同时保留一个短气泡卖点作为第二视觉锚点，但确保界面关键字在商店缩略图尺寸下仍可辨识。"
+      }
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Understand\nyour food\nchoices with\npsychology",
+          "subheadline": "",
+          "body_copy": [
+            "WE PREDICT YOU’LL BE",
+            "150 lbs by May 8",
+            "LOWER RISK (171 LBS)",
+            "WEDDING (165 LBS)",
+            "GOAL\n150 LBS",
+            "Reduce stress",
+            "Age with confidence",
+            "Plan Summary",
+            "Awesome! By May 8th, we\nproject you’ll lose 9 lbs or 5%\nof your body weight."
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "150 lbs",
+            "May 8",
+            "180",
+            "174",
+            "168",
+            "162",
+            "156",
+            "150",
+            "171 LBS",
+            "165 LBS",
+            "150 LBS",
+            "Dec",
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "May 8th",
+            "9 lbs",
+            "5%"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F2BFB3",
+            "#F7F4EF"
+          ],
+          "color_mood": "warm",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "line_chart",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "USP",
+          "primary_cn": "独特卖点",
+          "secondary": "DATA_PROOF"
+        },
+        "message_strategy": {
+          "primary_message": "Understand your food choices with psychology",
+          "supporting_evidence": "用体重预测曲线与“WE PREDICT YOU’LL BE 150 lbs by May 8”、阶段节点（“LOWER RISK (171 LBS)”“WEDDING (165 LBS)”）以及“Plan Summary”里的结果预测（“project you’ll lose 9 lbs or 5% of your body weight.”）来支撑。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "把饮食选择与心理学关联，并给出可量化的目标与时间点预测（体重、日期、减重幅度）。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "anchoring",
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用明确的目标锚点（“GOAL 150 LBS”）+截止日期（“by May 8”）+可视化趋势线，促使用户对计划产生承诺并相信路径清晰可达。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "底部大标题“Understand your food choices with psychology”与上方图表中的红色标注“GOAL 150 LBS”共同形成主焦点（文字与高对比色标签）。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F2BFB3",
+          "color_scheme": "neutral",
+          "contrast_level": "medium",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.4,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“psychology”作为饮食选择理解框架的主叙事",
+            "“WE PREDICT YOU’LL BE 150 lbs by May 8”式的结果预测表达",
+            "目标点“GOAL 150 LBS”与时间轴（Dec–May）结合的路径感"
+          ],
+          "category_conventions": [
+            "用手机界面 mockup 展示产品内页",
+            "用图表/数字展示进展与目标",
+            "用简短 benefit 列表（“Reduce stress”“Age with confidence”）补充价值"
+          ],
+          "innovations": [
+            "把健康/体重管理与心理学定位绑定为核心卖点，而非仅强调卡路里/训练"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "关注体重目标与时间节点的人群（“GOAL 150 LBS”“by May 8”）",
+          "希望减压与长期健康的人群（“Reduce stress”“Age with confidence”）",
+          "偏好数据化计划与预测反馈的人群（曲线图+“project you’ll lose 9 lbs or 5%”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "大标题一句话定义差异化定位（类似“Understand your food choices with psychology”）",
+          "用“目标 + 日期”的强锚点表达（如“by May 8”“GOAL 150 LBS”）",
+          "用单一主图表承载“路径感”（Dec–May趋势线+关键节点）",
+          "在同屏补充2条简短收益点（类似“Reduce stress”“Age with confidence”）"
+        ],
+        "avoid_elements": [
+          "同一张截图内出现过多分散信息块导致注意力分裂（图表+列表+Plan Summary+超大标题同时出现）",
+          "仅用体重（lbs）作为唯一结果指标，若VitaFlow核心不在减重会造成错位"
+        ],
+        "adaptation_notes": "若VitaFlow主打健康管理/营养/习惯养成，可复用“预测+时间点+可视化路径”的结构：把“150 lbs by May 8”替换为VitaFlow的核心指标与截止日期（保持“GOAL + 数字”的高对比标签），并保留2条最关键的用户收益点；同时确保单位与指标与VitaFlow实际功能一致。"
+      }
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "A personalized program\nfor healthier habits",
+          "subheadline": "",
+          "body_copy": [
+            "NOOM",
+            "Calories",
+            "Weight Loss Zone",
+            "500 Cal",
+            "1,350 - 1,520",
+            "Today’s Plan",
+            "Get your steps in",
+            "2,000/4,000 amount",
+            "Track your meals",
+            "2 meals logged",
+            "Learn with Noom",
+            "Your first mini-course: Set\nyourself up for success",
+            "4 lessons today",
+            "Stay hydrated"
+          ],
+          "cta_button": "",
+          "small_print": [
+            "M",
+            "T",
+            "W",
+            "T",
+            "F",
+            "S",
+            "S"
+          ],
+          "data_numbers": [
+            "500",
+            "1,350 - 1,520",
+            "2,000/4,000",
+            "2",
+            "4"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F2C1B6",
+            "#FFFFFF"
+          ],
+          "color_mood": "muted",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": false,
+            "type": "none",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": true,
+            "style": "icon"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "bar_chart",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "app_name"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "VP",
+          "primary_cn": "价值主张",
+          "secondary": "PERSONALIZATION"
+        },
+        "message_strategy": {
+          "primary_message": "A personalized program for healthier habits",
+          "supporting_evidence": "通过应用内界面展示“Calories / Weight Loss Zone”、以及“Today’s Plan”中的多项任务卡片与进度条来支撑“personalized program”的可执行性与日常化。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "用一个“personalized program”把健康习惯拆成每日可完成的计划与追踪（步数、饮食、课程、饮水等）。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用“Today’s Plan”任务清单+可视化进度（如“2,000/4,000 amount”、热量条、区间“1,350 - 1,520”）降低理解成本，并用明确目标锚定用户当日行动。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“A personalized program for healthier habits”，其次是中部白色卡片式 App 界面（NOOM + Today’s Plan 任务卡）。",
+          "information_density": "high",
+          "hierarchy_score": 4.5
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F2C1B6",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "editorial",
+          "whitespace_usage": "balanced",
+          "element_count": 5,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.5,
+          "clarity": 4.5,
+          "brand_consistency": 5.0,
+          "uniqueness": 3.5
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Today’s Plan”以多任务卡片形式聚合（Get your steps in / Track your meals / Learn with Noom / Stay hydrated）",
+            "“Weight Loss Zone”区间展示（1,350 - 1,520）与“Calories”并列"
+          ],
+          "category_conventions": [
+            "用 App 内真实界面作为截图主体",
+            "用进度条/数值来表达可量化的健康行为"
+          ],
+          "innovations": [
+            "将“mini-course”学习内容（Your first mini-course: Set yourself up for success）与行为追踪并列呈现"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "希望通过每日计划建立习惯的人群",
+          "关注热量与减重区间管理的人群",
+          "偏好清单式任务与进度反馈的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "顶部一句话价值主张（大字号、强对比）",
+          "“Today’s Plan”式任务卡聚合展示核心行为",
+          "进度条 + 分子/分母目标（如“2,000/4,000 amount”）",
+          "区间目标表达（如“1,350 - 1,520”）"
+        ],
+        "avoid_elements": [
+          "在同一屏内堆叠过多小字模块导致信息密度偏高",
+          "底部内容被裁切（如“Stay hydrated”仅露出标题）"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“顶部价值主张 + 中部卡片式真实界面”的结构，把核心路径浓缩为 3–4 张任务卡（例如饮水/步数/睡眠/饮食），并确保最底部卡片完整露出；若使用区间目标表达，保持与主指标并列呈现以强化“个性化”。"
+      }
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Stay on track with\nsimple food logging",
+          "subheadline": "",
+          "body_copy": [
+            "Lunch",
+            "Take a photo of your meal or upload one\nfrom your camera roll"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F0BFB3",
+            "#111111"
+          ],
+          "color_mood": "warm",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "HOW_IT_WORKS"
+        },
+        "message_strategy": {
+          "primary_message": "通过“simple food logging”保持进度（Stay on track）",
+          "supporting_evidence": "用相机界面与提示文案展示记录方式：拍照或从相册上传（Take a photo... or upload one from your camera roll）",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "用拍照/上传的方式降低记录饮食的门槛，从而更容易持续追踪"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用“Stay on track”将功能与目标结果绑定，并用一步式动作指令（Take a photo / upload）减少理解与执行成本"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Stay on track with simple food logging”，其次为居中的手机画面与餐盘食物照片",
+          "information_density": "low",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F0BFB3",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.3
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "将“拍照记录”以相机取景框+快门按钮的真实界面形态呈现"
+          ],
+          "category_conventions": [
+            "大标题+手机界面展示核心功能",
+            "用食物实拍图强化健康/饮食记录场景"
+          ],
+          "innovations": [
+            "用极少文案配合强场景图（相机界面）来解释流程，降低阅读负担"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "想要轻量记录饮食的人群",
+          "偏好拍照而非手动输入的用户",
+          "关注“Stay on track”这类持续性目标的体重管理/健康管理用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "结果导向标题结构：Stay on track + 功能短语",
+          "相机/上传二选一的低门槛入口表达",
+          "设备居中+大留白的清晰版式",
+          "用真实食物照片作为功能证据"
+        ],
+        "avoid_elements": [
+          "缺少品牌元素（logo/icon/app_name）导致记忆点不足",
+          "仅展示单一场景（Lunch）可能覆盖面不够"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“结果导向标题 + 拍照记录界面”的组合：在截图中保留相机取景框与快门按钮的强识别结构，同时加入 VitaFlow 的明确品牌标识（如 logo 或产品名）并用同样简短的指令文案呈现关键动作路径（拍照/上传）。"
+      }
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Get tailored insights\nalong your journey",
+          "subheadline": "",
+          "body_copy": [
+            "Progress",
+            "Trends",
+            "Course Map",
+            "29\nNoomcoins",
+            "2\nTreat days",
+            "Steps",
+            "6,240 average daily steps",
+            "Weight",
+            "-0.5 lbs in last 7 days",
+            "Lessons",
+            "13 lessons completed in last 7 days"
+          ],
+          "cta_button": "See full graph",
+          "small_print": [],
+          "data_numbers": [
+            "29",
+            "2",
+            "6,240",
+            "6,204",
+            "3,990",
+            "10,231",
+            "1,200",
+            "4,650",
+            "6,130",
+            "1,800",
+            "-0.5",
+            "7",
+            "175 LBS",
+            "13",
+            "2",
+            "3",
+            "3",
+            "2",
+            "1",
+            "1"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F2C1B2",
+            "#FFFFFF"
+          ],
+          "color_mood": "warm",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": false,
+            "type": "none",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "bar_chart",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "PERSONALIZATION",
+          "primary_cn": "个性化展示",
+          "secondary": "DATA_PROOF"
+        },
+        "message_strategy": {
+          "primary_message": "在旅程中提供“tailored insights”，并用进度数据呈现个人趋势。",
+          "supporting_evidence": "用“Progress”页的多模块数据（Noomcoins、Treat days、Steps、Weight、Lessons）与图表（柱状图、折线趋势）支撑。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "把行为与结果（steps/weight/lessons）可视化成趋势与进度，帮助用户持续跟踪与获得反馈。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用可量化的连续指标与“last 7 days”时间窗，把进展具体化，降低理解成本并强化持续记录/坚持的动机。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Get tailored insights along your journey”，其次是居中的“Progress”卡片与红色 Steps 柱状图。",
+          "information_density": "high",
+          "hierarchy_score": 4.5
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F2C1B2",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "floating_elements",
+          "whitespace_usage": "balanced",
+          "element_count": 5,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.5,
+          "clarity": 4.5,
+          "brand_consistency": 5.0,
+          "uniqueness": 3.5
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "Noomcoins",
+            "Treat days"
+          ],
+          "category_conventions": [
+            "用 Steps/Weight 等常见健康指标做趋势图表",
+            "用“last 7 days”周维度总结"
+          ],
+          "innovations": [
+            "把行为数据与激励机制（Noomcoins）并列呈现为“Progress”趋势模块"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注体重变化（Weight、lbs、175 LBS）的人群",
+          "需要日常行为追踪（Steps）与学习打卡（Lessons）的人群",
+          "偏好轻量、持续反馈与进度可视化的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "顶部一句话价值主张 + 下方产品界面卡片的结构",
+          "多模块进度面板（行为指标 + 结果指标 + 学习/习惯指标）",
+          "7天时间窗的趋势展示（“last 7 days”）",
+          "单一主强调色突出关键图表（如 Steps 柱状图）",
+          "轻量 CTA（如“See full graph”）引导深入查看"
+        ],
+        "avoid_elements": [
+          "信息密度过高导致小字可读性下降",
+          "过多不同颜色的图表同时出现造成注意力分散"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“Get tailored insights along your journey”这种“旅程+个性化洞察”的叙事方式，在截图中用一张“Progress”式总览卡片集中展示 2-3 个核心指标（例如步数/睡眠/心率或体重），保留“last 7 days”周趋势与一个轻量入口按钮（类似“See full graph”）以强化可追踪与可深入查看的体验。"
+      }
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Kickstart your health\nwith medication",
+          "subheadline": "",
+          "body_copy": [
+            "Welcome to\nNoom Med!",
+            "Check in with your doctor",
+            "UNDER 3 MINUTES",
+            "New message from your\ndoctor",
+            "Your Noom Med Journey",
+            "Start reaching\nyour goals with\nNoom Med",
+            "Lose weight efficiently\nand sustainably"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "3"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#EFC0B1",
+            "#F6F2EC"
+          ],
+          "color_mood": "muted",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "NOOM",
+            "MED"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "HOW_IT_WORKS"
+        },
+        "message_strategy": {
+          "primary_message": "通过“medication”与医生沟通，开启健康/减重旅程。",
+          "supporting_evidence": "用产品界面直接展示“Check in with your doctor”“New message from your doctor”以及“UNDER 3 MINUTES”的时长承诺，并用“Your Noom Med Journey”路径图强化流程感。",
+          "emotional_appeal": "security",
+          "value_proposition": "把用药相关的健康管理与医生沟通整合进 App，并强调快速完成（UNDER 3 MINUTES）。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用“doctor”作为权威来源降低决策不确定性；用“UNDER 3 MINUTES”作为时间锚点降低行动成本感知。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Kickstart your health with medication”，其次是手机屏幕中部的青绿色浮层“Check in with your doctor / UNDER 3 MINUTES”。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#EFC0B1",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.6,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Check in with your doctor”与“New message from your doctor”的医生沟通场景",
+            "“UNDER 3 MINUTES”的明确时长承诺",
+            "“Your Noom Med Journey”的路径式旅程图"
+          ],
+          "category_conventions": [
+            "大标题 + 设备界面截图的商店截图结构",
+            "用卡片/浮层高亮一个关键功能点"
+          ],
+          "innovations": [
+            "在健康/减重语境中突出“medication”作为启动点，并把医生消息作为核心界面元素"
+          ]
+        },
+        "competitive_positioning": "specialist",
+        "target_audience_signals": [
+          "需要医生参与/指导的健康管理人群",
+          "希望快速完成关键操作的人群（“UNDER 3 MINUTES”）",
+          "以减重为目标的人群（“Lose weight efficiently and sustainably”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "用“UNDER X MINUTES”量化承诺降低使用门槛",
+          "用浮层卡片在设备截图上突出单一关键动作",
+          "用“Journey/路径图”表达阶段性目标与结果"
+        ],
+        "avoid_elements": [
+          "如果 VitaFlow 不涉及医疗用药/医生沟通，避免使用“doctor”“medication”等强医疗指向文案",
+          "避免在一张图里同时出现过多模块标题，削弱主卖点聚焦"
+        ],
+        "adaptation_notes": "若 VitaFlow 的核心是健康习惯/营养/运动管理，可保留“Kickstart…”式强动词标题结构与“UNDER X MINUTES”时间承诺，把浮层主动作替换为 VitaFlow 的关键高频动作（例如记录、评估、计划生成等），并用“Journey”路径图呈现从开始到达成目标的阶段节点。"
+      }
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Keep the muscle,\nlose the fat",
+          "subheadline": "",
+          "body_copy": [
+            "Muscle Defense™",
+            "Specially created for weight loss medication.\nJeffrey Egler, Chief Medical Officer at Noom,\nMD",
+            "Popular videos",
+            "See all",
+            "Muscle Defense™",
+            "Strength training\nfor beginners",
+            "Muscle Defense™",
+            "Beginner total\nbody pilates",
+            "Programs",
+            "Beginner\nMuscle Defense™\n(bodyweight)",
+            "10 workouts",
+            "Beginner\nMuscle Defense™\n(equipment)",
+            "12 workouts"
+          ],
+          "cta_button": "See all",
+          "small_print": [
+            "MD"
+          ],
+          "data_numbers": [
+            "10 min",
+            "10 min",
+            "10 workouts",
+            "12 workouts"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F2C2B5",
+            "#FFFFFF"
+          ],
+          "color_mood": "warm",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "Noom"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "USP",
+          "primary_cn": "独特卖点",
+          "secondary": "AUTHORITY"
+        },
+        "message_strategy": {
+          "primary_message": "Keep the muscle, lose the fat",
+          "supporting_evidence": "通过“Muscle Defense™”内容模块与课程/视频列表（如“Strength training for beginners”“Beginner total body pilates”“10 workouts”“12 workouts”）以及“Jeffrey Egler, Chief Medical Officer at Noom, MD”的署名来支撑。",
+          "emotional_appeal": "security",
+          "value_proposition": "在减脂过程中强调“保住肌肉”的训练内容供给，并以权威身份背书增强可信度。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用一句强对比、结果导向的标题（“Keep the muscle, lose the fat”）先建立目标锚点，再用权威署名与可见的内容清单（Popular videos/Programs、时长与workouts数量）降低理解成本并增强可信度。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Keep the muscle, lose the fat”，其次是居中的手机界面卡片（“Muscle Defense™”与视频/课程列表），右侧前景的注射笔与药瓶形成辅助焦点。",
+          "information_density": "high",
+          "hierarchy_score": 4.4
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F2C2B5",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.4,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.8
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Muscle Defense™”作为命名功能/内容系列",
+            "“Specially created for weight loss medication.”与注射笔/药瓶的强关联视觉"
+          ],
+          "category_conventions": [
+            "大标题+手机界面展示核心内容",
+            "用课程卡片/视频缩略图呈现内容供给",
+            "用“See all”引导更多内容"
+          ],
+          "innovations": [
+            "将“weight loss medication”场景与训练内容在同一张截图中强绑定，形成更明确的细分定位"
+          ]
+        },
+        "competitive_positioning": "specialist",
+        "target_audience_signals": [
+          "关注减脂同时担心掉肌肉的人群",
+          "正在使用或考虑使用“weight loss medication”的用户",
+          "健身初学者（“for beginners”“Beginner”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "一句话强结果导向主标题（对比结构）",
+          "手机界面内用“Popular videos/Programs”式内容货架证明“有东西可用”",
+          "权威署名背书（姓名+职位+机构+MD/资质）"
+        ],
+        "avoid_elements": [
+          "在未具备合规与真实业务支撑时使用“medication”相关表述与注射器具视觉",
+          "信息密度过高导致小字可读性下降（如署名段落较小）"
+        ],
+        "adaptation_notes": "若VitaFlow不涉及用药场景，可保留“结果导向标题 + 内容货架（课程/计划/时长/数量）+ 权威背书”的结构，把“Specially created for weight loss medication.”替换为截图中可被真实证明的适用场景描述，并用与VitaFlow核心场景一致的实物/图形作为右侧前景强化记忆点。"
+      }
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P8",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "78% of Noomers lost weight in a six-month study.",
+          "subheadline": "",
+          "body_copy": [],
+          "cta_button": "",
+          "small_print": [
+            "POWERED BY SCIENCE."
+          ],
+          "data_numbers": [
+            "78%",
+            "six-month"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9B8A8",
+            "#5E8FA0"
+          ],
+          "color_mood": "muted",
+          "layout_type": "split_vertical",
+          "device_mockup": {
+            "present": false,
+            "type": "none",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "DATA_PROOF",
+          "primary_cn": "数据证明",
+          "secondary": "AUTHORITY"
+        },
+        "message_strategy": {
+          "primary_message": "用研究数据证明减重有效。",
+          "supporting_evidence": "“78%”与“six-month study”形成量化结果与研究周期背书，并用“POWERED BY SCIENCE.”强化科学依据。",
+          "emotional_appeal": "trust",
+          "value_proposition": "提供有科学依据、可带来减重结果的方法/方案。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority"
+          ],
+          "cognitive_biases": [
+            "anchoring",
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用明确的量化比例（78%）作为锚点，并通过“study/SCIENCE”语义建立权威与可信度，降低用户对效果不确定性的顾虑。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "下半部分左侧的大号数字与标题文案（“78% of Noomers…”）",
+          "information_density": "low",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#E9B8A8",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "split_screen",
+          "whitespace_usage": "generous",
+          "element_count": 3,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 4.6,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“POWERED BY SCIENCE.”的弧形排版装饰",
+            "用“78%…six-month study.”直接做结果型主视觉文案"
+          ],
+          "category_conventions": [
+            "使用食物摄影传达健康饮食/生活方式",
+            "用百分比与研究周期做效果背书"
+          ],
+          "innovations": [
+            "将权威背书短句做成弧形路径文字，兼具装饰与信息提示"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注减重结果且需要可信证据的人群",
+          "偏好“科学依据/研究数据”叙事的理性决策用户",
+          "对饮食管理/健康餐有兴趣的用户（食物摄影信号）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "用单一强数据点（如百分比）做主标题的“数据证明页”结构",
+          "加入研究周期/样本等关键信息以增强可信度（如“six-month”这种时间锚点）",
+          "大留白+大字号标题，提升商店浏览场景下的可读性"
+        ],
+        "avoid_elements": [
+          "仅给出结论数据但缺少任何出处细节（例如研究来源/条件）时，容易引发质疑",
+          "弧形小字过小导致在小屏预览中可读性下降"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“数据证明”版式：用大号核心指标做主标题，并在同屏用清晰可读的小字补充研究/统计口径（例如时间范围、样本量或数据来源），同时保持高对比与充足留白；若使用装饰性弧形文字，需确保字号在商店缩略预览下仍可辨识。"
+      }
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → USP → VP → CORE_FUNC → PERSONALIZATION → CORE_FUNC → USP → DATA_PROOF",
+    "sequence_cluster": "traditional",
+    "narrative_arc": "从VP开始，以DATA_PROOF结束",
+    "strengths": [
+      "视觉吸引力高 (4.5/5)",
+      "信息传达清晰 (4.6/5)"
+    ],
+    "weaknesses": [],
+    "key_takeaways": [
+      "“Today’s Plan”式任务卡聚合展示核心行为",
+      "结果导向标题结构：Stay on track + 功能短语",
+      "加入研究周期/样本等关键信息以增强可信度（如“six-month”这种时间锚点）",
+      "顶部一句话价值主张 + 下方产品界面卡片的结构",
+      "用单一强数据点（如百分比）做主标题的“数据证明页”结构"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 2,
+      "USP": 2,
+      "CORE_FUNC": 2,
+      "PERSONALIZATION": 1,
+      "DATA_PROOF": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 5,
+      "Food_Image": 4,
+      "Data_Viz": 7,
+      "app_name": 2,
+      "Human": 2,
+      "NOOM": 1,
+      "MED": 1,
+      "Noom": 1
+    },
+    "psychology_coverage": {
+      "cialdini": [
+        "commitment",
+        "authority"
+      ],
+      "cognitive_biases": [
+        "anchoring",
+        "cognitive_fluency",
+        "primacy_effect"
+      ]
+    },
+    "design_score_averages": {
+      "visual_appeal": 4.49,
+      "clarity": 4.56,
+      "brand_consistency": 4.69,
+      "uniqueness": 3.54
+    }
+  }
+}

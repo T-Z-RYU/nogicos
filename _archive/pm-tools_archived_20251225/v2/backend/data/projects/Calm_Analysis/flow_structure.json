@@ -1,0 +1,174 @@
+{
+  "total_screenshots": 120,
+  "stages": [
+    {
+      "name": "Launch",
+      "start_index": 1,
+      "end_index": 1,
+      "description": "深蓝色渐变启动页，显示Calm品牌标识",
+      "expected_types": [
+        "Launch"
+      ],
+      "screenshot_count": 1
+    },
+    {
+      "name": "Welcome",
+      "start_index": 2,
+      "end_index": 3,
+      "description": "欢迎页面，展示产品价值和权限请求弹窗",
+      "expected_types": [
+        "Welcome",
+        "Launch"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "Onboarding",
+      "start_index": 4,
+      "end_index": 5,
+      "description": "收集用户使用目的的问卷，如减少压力、改善睡眠等选项",
+      "expected_types": [
+        "Onboarding",
+        "Permission"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "SignUp",
+      "start_index": 6,
+      "end_index": 7,
+      "description": "注册登录页面，支持邮箱、Google、Apple等多种登录方式",
+      "expected_types": [
+        "SignUp"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "Paywall",
+      "start_index": 8,
+      "end_index": 13,
+      "description": "付费墙页面，展示7天免费试用、订阅价格和功能解锁提示",
+      "expected_types": [
+        "Paywall"
+      ],
+      "screenshot_count": 6
+    },
+    {
+      "name": "Home",
+      "start_index": 14,
+      "end_index": 18,
+      "description": "首页主界面，展示每日推荐、快速入口、底部导航栏和各类冥想内容入口",
+      "expected_types": [
+        "Home"
+      ],
+      "screenshot_count": 5
+    },
+    {
+      "name": "Content",
+      "start_index": 19,
+      "end_index": 36,
+      "description": "内容浏览区，包括自然风景音频、冥想播放器、音频详情页和播放控制界面",
+      "expected_types": [
+        "Content",
+        "Feature"
+      ],
+      "screenshot_count": 18
+    },
+    {
+      "name": "Core Features",
+      "start_index": 37,
+      "end_index": 60,
+      "description": "核心功能区，包括心情检测、情绪记录、焦虑缓解冥想、播放列表创建等功能",
+      "expected_types": [
+        "Feature",
+        "Content",
+        "Tracking",
+        "Progress"
+      ],
+      "screenshot_count": 24
+    },
+    {
+      "name": "Content",
+      "start_index": 61,
+      "end_index": 72,
+      "description": "冥想内容浏览，包括睡眠故事、睡眠定时器设置、旁白选择和各类冥想课程",
+      "expected_types": [
+        "Content",
+        "Feature"
+      ],
+      "screenshot_count": 12
+    },
+    {
+      "name": "Core Features",
+      "start_index": 73,
+      "end_index": 83,
+      "description": "特色功能区，包括ROSÉ合作冥想、明星指导课程和分享功能",
+      "expected_types": [
+        "Feature",
+        "Content",
+        "Tracking",
+        "Progress"
+      ],
+      "screenshot_count": 11
+    },
+    {
+      "name": "Tracking",
+      "start_index": 84,
+      "end_index": 95,
+      "description": "日记功能区，包括情绪日记入口、写作引导、键盘输入和日记条目列表",
+      "expected_types": [
+        "Tracking",
+        "Feature"
+      ],
+      "screenshot_count": 12
+    },
+    {
+      "name": "Progress",
+      "start_index": 96,
+      "end_index": 100,
+      "description": "每日反思和感恩练习，追踪用户的冥想习惯和情绪变化",
+      "expected_types": [
+        "Progress",
+        "Feature"
+      ],
+      "screenshot_count": 5
+    },
+    {
+      "name": "Settings",
+      "start_index": 101,
+      "end_index": 107,
+      "description": "设置页面，包括通知设置、提醒配置、订阅管理等系统设置",
+      "expected_types": [
+        "Settings",
+        "Profile"
+      ],
+      "screenshot_count": 7
+    },
+    {
+      "name": "Profile",
+      "start_index": 108,
+      "end_index": 114,
+      "description": "个人中心，包括账户管理、冥想偏好设置、睡眠设置和数据统计",
+      "expected_types": [
+        "Profile"
+      ],
+      "screenshot_count": 7
+    },
+    {
+      "name": "Settings",
+      "start_index": 115,
+      "end_index": 120,
+      "description": "系统设置和法律信息，包括健康数据连接、隐私政策和服务条款",
+      "expected_types": [
+        "Settings",
+        "Profile"
+      ],
+      "screenshot_count": 6
+    }
+  ],
+  "paywall_position": "early",
+  "onboarding_length": "short",
+  "has_signup": true,
+  "has_social": false,
+  "confidence": 0.88
+}

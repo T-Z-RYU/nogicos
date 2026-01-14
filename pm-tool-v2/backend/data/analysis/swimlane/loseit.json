@@ -1,0 +1,2414 @@
+{
+  "app": "LoseIt",
+  "appId": "loseit",
+  "total_screens": 102,
+  "analyzed_at": "2025-12-23T07:36:53.906904",
+  "taxonomy_version": "3.0",
+  "analysis_method": "gpt-5.2 + claude-opus-4-5",
+  "phases": [
+    {
+      "id": "trust-building",
+      "name": "信任建立",
+      "nameEn": "Trust Building",
+      "purpose": "包含 10 个页面",
+      "startIndex": 1,
+      "endIndex": 10,
+      "dominantTypes": [
+        "Q",
+        "W",
+        "C",
+        "X"
+      ],
+      "psychologyTactics": [
+        "Brand Recognition",
+        "First Impression",
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Permission Pre-priming"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "goal-setting",
+      "name": "目标设定",
+      "nameEn": "Goal Setting",
+      "purpose": "包含 17 个页面",
+      "startIndex": 11,
+      "endIndex": 30,
+      "dominantTypes": [
+        "Q",
+        "V"
+      ],
+      "psychologyTactics": [
+        "Body Data",
+        "Goal Setting",
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "data-collection-a",
+      "name": "数据收集A",
+      "nameEn": "Data Collection A",
+      "purpose": "包含 3 个页面",
+      "startIndex": 12,
+      "endIndex": 25,
+      "dominantTypes": [
+        "R"
+      ],
+      "psychologyTactics": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "data-collection",
+      "name": "数据收集",
+      "nameEn": "Data Collection",
+      "purpose": "包含 31 个页面",
+      "startIndex": 31,
+      "endIndex": 61,
+      "dominantTypes": [
+        "Q",
+        "R",
+        "V",
+        "C"
+      ],
+      "psychologyTactics": [
+        "Goal Setting",
+        "Personalization",
+        "Loss Aversion",
+        "Commitment & Consistency",
+        "Activity Level"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "final-setup",
+      "name": "最终设置",
+      "nameEn": "Final Setup",
+      "purpose": "包含 20 个页面",
+      "startIndex": 62,
+      "endIndex": 81,
+      "dominantTypes": [
+        "Q",
+        "L",
+        "R",
+        "X"
+      ],
+      "psychologyTactics": [
+        "Personalization",
+        "Goal Setting",
+        "Progressive Disclosure",
+        "Commitment & Consistency",
+        "Permission Pre-priming"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "results",
+      "name": "结果展示",
+      "nameEn": "Results",
+      "purpose": "包含 2 个页面",
+      "startIndex": 82,
+      "endIndex": 83,
+      "dominantTypes": [
+        "R"
+      ],
+      "psychologyTactics": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "conversion",
+      "name": "转化",
+      "nameEn": "Conversion",
+      "purpose": "包含 19 个页面",
+      "startIndex": 84,
+      "endIndex": 102,
+      "dominantTypes": [
+        "P",
+        "D",
+        "V",
+        "X"
+      ],
+      "psychologyTactics": [
+        "Commitment & Consistency",
+        "Privacy Assurance",
+        "Trust Building",
+        "Value Proposition",
+        "Progressive Disclosure"
+      ],
+      "keyInsights": []
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "Q→Q→Q→V",
+      "name": "问题-价值穿插",
+      "occurrences": 2,
+      "positions": [
+        14,
+        51
+      ],
+      "interpretation": "每3-4个问题后穿插1个价值页，缓解问卷疲劳"
+    },
+    {
+      "pattern": "L→R",
+      "name": "加载-结果",
+      "occurrences": 1,
+      "positions": [
+        81
+      ],
+      "interpretation": "加载动画后展示结果，创造期待感"
+    }
+  ],
+  "summary": {
+    "total_pages": 102,
+    "phase_distribution": {
+      "trust-building": {
+        "count": 10,
+        "percentage": 10
+      },
+      "goal-setting": {
+        "count": 17,
+        "percentage": 17
+      },
+      "data-collection-a": {
+        "count": 3,
+        "percentage": 3
+      },
+      "data-collection": {
+        "count": 31,
+        "percentage": 30
+      },
+      "final-setup": {
+        "count": 20,
+        "percentage": 20
+      },
+      "results": {
+        "count": 2,
+        "percentage": 2
+      },
+      "conversion": {
+        "count": 19,
+        "percentage": 19
+      }
+    },
+    "by_type": {
+      "W": {
+        "count": 4,
+        "label": "Welcome",
+        "color": "#E5E5E5"
+      },
+      "X": {
+        "count": 5,
+        "label": "Permission",
+        "color": "#6B7280"
+      },
+      "Q": {
+        "count": 46,
+        "label": "Question",
+        "color": "#3B82F6"
+      },
+      "C": {
+        "count": 4,
+        "label": "Commit",
+        "color": "#D97706"
+      },
+      "R": {
+        "count": 17,
+        "label": "Result",
+        "color": "#A855F7"
+      },
+      "V": {
+        "count": 9,
+        "label": "Value",
+        "color": "#22C516"
+      },
+      "L": {
+        "count": 5,
+        "label": "Loading",
+        "color": "#1F2937"
+      },
+      "P": {
+        "count": 6,
+        "label": "Paywall",
+        "color": "#EF4444"
+      },
+      "D": {
+        "count": 6,
+        "label": "Demo",
+        "color": "#F97316"
+      }
+    }
+  },
+  "screens": [
+    {
+      "index": 1,
+      "filename": "0001.png",
+      "primary_type": "W",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression"
+      ],
+      "ui_pattern": "Splash Screen",
+      "copy": {
+        "headline": "Lose It!",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "App启动屏/闪屏页面，深蓝色背景配合橙色体重秤图标，强化品牌识别度，为用户建立减重相关的产品心智",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 2,
+      "filename": "0002.png",
+      "primary_type": "W",
+      "secondary_type": "V",
+      "phase": "trust-building",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Value Proposition",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Welcome Screen with Feature List",
+      "copy": {
+        "headline": "Lose It!",
+        "subheadline": null,
+        "cta": "Get Started / Sign In"
+      },
+      "insight": "经典欢迎页设计，品牌Logo配合三个核心价值点（追踪饮食、遵循卡路里预算、达成目标），用图标+文字的简洁形式传递App核心功能，双CTA按钮区分新老用户",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 3,
+      "filename": "0003.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Permission Pre-priming",
+        "Privacy Assurance",
+        "Trust Building"
+      ],
+      "ui_pattern": "iOS System Permission Dialog",
+      "copy": {
+        "headline": "Allow \"Lose It!\" to track your activity across other companies' apps and websites?",
+        "subheadline": "This identifier will be used to deliver personalized ads to you.",
+        "cta": "Ask App Not to Track / Allow"
+      },
+      "insight": "iOS App Tracking Transparency (ATT) 系统权限弹窗，用于请求用户授权跨应用追踪以投放个性化广告，这是 iOS 14.5+ 的强制性隐私保护机制",
+      "confidence": 0.99,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 4,
+      "filename": "0004.png",
+      "primary_type": "W",
+      "secondary_type": "V",
+      "phase": "trust-building",
+      "psychology": [
+        "First Impression",
+        "Progressive Disclosure",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Program Overview List",
+      "copy": {
+        "headline": "Welcome!",
+        "subheadline": "Let's build a personalized plan that will set you up for success.",
+        "cta": "Continue"
+      },
+      "insight": "欢迎页结合程序概览，展示即将设置的5个模块（Weight Goal、Calorie Budget等），通过渐进式披露让用户预知流程，降低认知负担并建立期望",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 5,
+      "filename": "0005.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "What's been the biggest obstacle when it comes to managing your weight?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "障碍识别问题页，通过了解用户痛点来个性化后续方案，同时让用户承认问题存在，增强后续解决方案的说服力",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 6,
+      "filename": "0006.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How confident are you in your ability to achieve your goals?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "自信心评估问题页，通过4个递进选项了解用户心理状态，用于匹配适当的支持力度和激励策略",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 7,
+      "filename": "0007.png",
+      "primary_type": "C",
+      "secondary_type": "L",
+      "phase": "trust-building",
+      "psychology": [
+        "Commitment & Consistency",
+        "Progressive Disclosure",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Transition Screen",
+      "copy": {
+        "headline": "Thanks for sharing your thoughts",
+        "subheadline": "Understanding your challenges and mindset is key to building a plan that works for you. Now, let's dive into the specifics.",
+        "cta": "Continue"
+      },
+      "insight": "过渡确认页，通过感谢用户分享信息强化承诺一致性，暗示前序输入有价值，为后续更详细的问题收集做铺垫",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 8,
+      "filename": "0008.png",
+      "primary_type": "Q",
+      "secondary_type": "S",
+      "phase": "trust-building",
+      "psychology": [
+        "Goal Setting",
+        "Social Proof",
+        "Progressive Disclosure",
+        "Personalization"
+      ],
+      "ui_pattern": "Menu Selection List",
+      "copy": {
+        "headline": "Let's set your weight goal",
+        "subheadline": "Lose It! members have lost 147 million pounds and counting.",
+        "cta": "Continue"
+      },
+      "insight": "目标设置入口页，通过展示5个程序模块（体重目标、卡路里预算、饮食计划、营养策略、间歇性断食）让用户了解将要设置的内容。副标题嵌入1.47亿磅的社会认同数据增强信心。",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 9,
+      "filename": "0009.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Scroll Picker",
+      "copy": {
+        "headline": "What is your current weight?",
+        "subheadline": "Take a guess if you are not sure. You can update it later.",
+        "cta": "Next"
+      },
+      "insight": "体重输入页，使用滚轮选择器收集用户身体数据，支持kg/lb/st多单位切换，副标题降低输入压力提升完成率",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 10,
+      "filename": "0010.png",
+      "primary_type": "C",
+      "secondary_type": "Q",
+      "phase": "trust-building",
+      "psychology": [
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Personalization"
+      ],
+      "ui_pattern": "Transitional Screen",
+      "copy": {
+        "headline": "It's time to set your goal weight",
+        "subheadline": "Whether you'd like to start with a smaller, short-term goal or aim for your long-term target, the decision is yours. You can always adjust your goal as you progress.",
+        "cta": "Continue"
+      },
+      "insight": "目标设定过渡页，通过强调用户自主决定权和可调整性降低承诺压力，为下一步输入具体目标体重做心理铺垫",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 11,
+      "filename": "0011.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Goal Setting",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Scroll Picker",
+      "copy": {
+        "headline": "What is your goal weight?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "目标体重输入页，使用滚轮选择器精确设定减重目标，支持kg/lb/st多单位切换，通过具体数字承诺强化用户目标感",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 12,
+      "filename": "0012.png",
+      "primary_type": "R",
+      "secondary_type": "C",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Program Summary Card",
+      "copy": {
+        "headline": "You've Set Your Goal!",
+        "subheadline": "Now it's time to create the plan to help you reach it.",
+        "cta": "Continue"
+      },
+      "insight": "目标确认结果页，展示用户设定的减重目标（6.6kg）和即将配置的计划模块（卡路里预算、营养策略、间歇性断食等），通过承诺一致性强化用户对目标的认同，同时预告后续步骤",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 13,
+      "filename": "0013.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Goal Setting",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Program Overview List",
+      "copy": {
+        "headline": "Next up is your calorie budget",
+        "subheadline": "Your calorie budget is the most important element of your program.",
+        "cta": "Continue"
+      },
+      "insight": "个性化计划结果展示页，以清单形式展示用户即将配置的程序模块（减重目标6.6kg、卡路里预算、时间表、营养策略、间歇性禁食），当前高亮卡路里预算项，通过渐进式披露引导用户完成后续设置",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 14,
+      "filename": "0014.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Have you counted calories before?",
+        "subheadline": null,
+        "cta": "Yes, No"
+      },
+      "insight": "用户经验分流页，通过判断用户是否有热量记录经验来决定后续引导深度，新手可获得更多教学，老手可快速进入核心功能",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 15,
+      "filename": "0015.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How did you last count calories?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "用户历史行为调研页，了解用户过去追踪卡路里的方式，用于个性化产品体验和优化转化策略",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 16,
+      "filename": "0016.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "Which app did you use?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "询问用户过往使用的健康/减重应用，用于了解用户背景和竞品使用情况，便于后续个性化引导和差异化定位",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 17,
+      "filename": "0017.png",
+      "primary_type": "V",
+      "secondary_type": "S",
+      "phase": "goal-setting",
+      "psychology": [
+        "Value Proposition",
+        "Social Proof",
+        "Authority",
+        "Trust Building"
+      ],
+      "ui_pattern": "Feature List with Icons",
+      "copy": {
+        "headline": "This will be easier than taking notes.",
+        "subheadline": null,
+        "cta": "Continue"
+      },
+      "insight": "价值展示页，通过三个核心卖点（海量食物数据库、自动计算、NIH研究证明）降低用户使用顾虑，NIH研究数据提供权威背书和社会认同",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 18,
+      "filename": "0018.png",
+      "primary_type": "V",
+      "secondary_type": "Q",
+      "phase": "goal-setting",
+      "psychology": [
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Would you like a quick refresher of how calorie counting works?",
+        "subheadline": null,
+        "cta": "Yes, please! / No, thanks"
+      },
+      "insight": "可选教育分流页，让用户选择是否需要热量计算科普，降低新手门槛同时尊重老用户时间",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 19,
+      "filename": "0019.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Educational Card",
+      "copy": {
+        "headline": "It all comes down to simple math.",
+        "subheadline": "Weight loss happens when your body burns more energy than you consume. This energy is measured in calories. We'll give you a personalized calorie budget -- track your food, stick to your budget, and you'll lose weight!",
+        "cta": "Continue"
+      },
+      "insight": "价值教育页，用简单数学公式(1+1=2)类比解释卡路里赤字原理，降低用户对减重的认知门槛，建立产品方法论的可信度",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 20,
+      "filename": "0020.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Progressive Disclosure",
+        "Value Proposition",
+        "Goal Setting"
+      ],
+      "ui_pattern": "Informational Steps",
+      "copy": {
+        "headline": "There are two steps to determine your calorie budget",
+        "subheadline": "Step One: We'll calculate how many calories your body burns each day using some personal data. Step Two: We'll create a calorie deficit by subtracting calories from your daily burn to help you lose weight.",
+        "cta": "Continue"
+      },
+      "insight": "方法论预告页，通过清晰的两步流程说明让用户了解即将进行的卡路里计算逻辑，降低后续问题页的心理负担，同时建立科学可信的形象",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 21,
+      "filename": "0021.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Information Request Intro",
+      "copy": {
+        "headline": "Let's start with step one",
+        "subheadline": "Provide your birthday, height, and gender, and we'll use them to estimate how many calories your body burns each day.",
+        "cta": "Continue"
+      },
+      "insight": "数据收集前的说明页，预告即将收集生日、身高、性别等身体数据，解释用途是计算每日卡路里消耗，通过透明说明降低用户抵触心理",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 22,
+      "filename": "0022.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Date Picker Wheel",
+      "copy": {
+        "headline": "When is your birthday?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "生日选择页，通过滚轮式日期选择器收集用户年龄信息，用于个性化内容推荐和年龄相关功能定制",
+      "confidence": 0.97,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 23,
+      "filename": "0023.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Dual Scroll Picker",
+      "copy": {
+        "headline": "How tall are you?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "身高数据收集页，使用双滚轮选择器分别选择英尺和英寸，并提供ft/in与cm单位切换，用于计算BMI和个性化健康方案",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 24,
+      "filename": "0024.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Gender Data",
+        "Personalization",
+        "Commitment & Consistency",
+        "Privacy Assurance"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "Select your gender",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "性别选择页，提供四个选项包括Non-Binary和Prefer Not To Say，体现包容性设计与隐私尊重，点选即进入下一步的无摩擦交互",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 25,
+      "filename": "0025.png",
+      "primary_type": "R",
+      "secondary_type": "G",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Progressive Disclosure",
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Progress Milestone",
+      "copy": {
+        "headline": "Step One is Done!",
+        "subheadline": "We've calculated your daily calorie burn. Now, let's decide how many calories to subtract from that number to create your calorie budget. This will help ensure you're eating fewer calories than you burn, putting you on track to lose weight.",
+        "cta": "Continue"
+      },
+      "insight": "阶段性结果确认页，庆祝第一步完成并预告下一步骤，通过里程碑设计增强用户成就感和继续完成流程的动力",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 26,
+      "filename": "0026.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Body Data"
+      ],
+      "ui_pattern": "Multiple Choice",
+      "copy": {
+        "headline": "Do you take any medications or supplements to aid in your weight loss?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "收集用户用药/补剂信息的问题页，了解用户是否使用食欲抑制剂或脂肪吸收阻断剂，用于个性化减重方案定制",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 27,
+      "filename": "0027.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Progressive Disclosure",
+        "Value Proposition",
+        "Expectation Setting"
+      ],
+      "ui_pattern": "Transitional Info Screen",
+      "copy": {
+        "headline": "Finding the right balance for you",
+        "subheadline": "Next, you'll choose a weight loss plan, and we've recommended one that we think is best for you. Faster plans offer quicker results but come with stricter calorie limits. Slower plans allow more flexibility, making them easier to follow long-term.",
+        "cta": "Continue"
+      },
+      "insight": "过渡说明页，在用户选择具体计划前预先解释不同方案的权衡，通过透明沟通建立信任并为后续选择做铺垫",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 28,
+      "filename": "0028.png",
+      "primary_type": "Q",
+      "secondary_type": "R",
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Card Carousel Selection",
+      "copy": {
+        "headline": "Select a weight loss plan",
+        "subheadline": "Fit sustainable weight loss into your lifestyle with our most lenient plan.",
+        "cta": "Select"
+      },
+      "insight": "计划选择页，通过'RECOMMENDED FOR YOU'标签引导用户选择推荐方案，展示具体数据（卡路里、减重速度、时间预估）增强可信度和承诺感",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 29,
+      "filename": "0029.png",
+      "primary_type": "Q",
+      "secondary_type": "R",
+      "phase": "goal-setting",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Card Selection",
+      "copy": {
+        "headline": "Select a weight loss plan",
+        "subheadline": "Lose weight each week with this comfortable yet effective plan.",
+        "cta": "Select"
+      },
+      "insight": "减重计划选择页，展示'Steady'方案但标注'NOT RECOMMENDED'，通过反向心理暗示引导用户选择更激进的方案，同时呈现具体的卡路里目标和预期时间线增强承诺感",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 30,
+      "filename": "0030.png",
+      "primary_type": "Q",
+      "secondary_type": "R",
+      "phase": "goal-setting",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency",
+        "Loss Aversion"
+      ],
+      "ui_pattern": "Plan Selection Card",
+      "copy": {
+        "headline": "Select a weight loss plan",
+        "subheadline": "Work hard and see fast results on this ambitious but manageable plan.",
+        "cta": "Select"
+      },
+      "insight": "减重计划选择页，展示'Accelerated'方案但标注'NOT RECOMMENDED'红色警示，通过反向心理暗示用户选择更温和方案。964卡路里/天的极低热量设定触发损失厌恶，引导用户做出承诺性选择",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 31,
+      "filename": "0031.png",
+      "primary_type": "Q",
+      "secondary_type": "R",
+      "phase": "data-collection",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Loss Aversion",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Plan Selection Card",
+      "copy": {
+        "headline": "Select a weight loss plan",
+        "subheadline": "Lose weight more quickly with our most difficult plan.",
+        "cta": "Select"
+      },
+      "insight": "减重计划选择页，展示'Vigorous'高强度方案(689卡/天)，红色'NOT RECOMMENDED'标签利用逆反心理暗示这是最有效但最挑战的选择，同时通过具体数据(1kg/周、6-8周达标)增强承诺感",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 32,
+      "filename": "0032.png",
+      "primary_type": "R",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Result Display",
+      "copy": {
+        "headline": "Your budget is 1,239 calories",
+        "subheadline": "If you consistently stick to an average of 1,239 calories, you'll lose weight at the rate you've chosen.",
+        "cta": "Continue"
+      },
+      "insight": "个性化卡路里预算结果页，基于用户前期输入的数据计算得出，火焰图标强化燃烧热量的概念，通过具体数字建立清晰目标承诺",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 33,
+      "filename": "0033.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Activity Level",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "While we're talking about calories, let's cover exercise",
+        "subheadline": "Are you planning to exercise while working on losing weight?",
+        "cta": "Yes, most likely, No, probably not"
+      },
+      "insight": "运动意愿收集页，通过了解用户运动计划来调整热量计算和减重方案，柔和的措辞降低用户压力",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 34,
+      "filename": "0034.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Activity Level",
+        "Personalization",
+        "Goal Setting"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What best describes your exercise plans?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "运动计划意向收集页，通过了解用户当前运动状态和未来计划，为后续制定个性化健身或健康方案提供基础数据",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 35,
+      "filename": "0035.png",
+      "primary_type": "V",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Confirmation Message",
+      "copy": {
+        "headline": "Great!",
+        "subheadline": "Exercise offers many benefits, like improving your mood, boosting your energy, and helping you stay strong. It's a great addition to your plan, but remember—your calorie budget will be the key to weight loss success.",
+        "cta": "Continue"
+      },
+      "insight": "用户选择运动后的正向反馈页，强调运动价值的同时引导用户关注核心策略（卡路里预算），通过肯定用户选择强化承诺一致性",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 36,
+      "filename": "0036.png",
+      "primary_type": "R",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Program Summary Card",
+      "copy": {
+        "headline": "Your budget is locked in",
+        "subheadline": "Let's personalize your program even further to fit your lifestyle.",
+        "cta": "Continue"
+      },
+      "insight": "个性化结果展示页，展示用户的定制减重计划（目标体重、每日卡路里预算、减重速度），'locked in'措辞强化承诺感，同时预告后续个性化选项（卡路里计划、营养策略、间歇性禁食）以保持用户参与度",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 37,
+      "filename": "0037.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Program Summary Card",
+      "copy": {
+        "headline": "Add a Calorie Schedule",
+        "subheadline": "You don't have to stick to 1,239 calories every day. Many of our most successful members adjust their calories, creating higher calorie days when needed. A flexible plan that fits your lifestyle is easier to stick with long-term.",
+        "cta": "Continue"
+      },
+      "insight": "个性化计划结果展示页，通过展示完整的PROGRAM摘要（目标体重、每日卡路里、减重速度）并引导用户进一步定制卡路里计划，强调灵活性以降低用户对严格饮食的抵触心理",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 38,
+      "filename": "0038.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "Pick your high days",
+        "subheadline": "When would you like to eat more? We'll adjust your weekly calories to give you more flexibility on the days you choose.",
+        "cta": null
+      },
+      "insight": "饮食偏好设置页，通过让用户选择高热量日来实现个性化卡路里分配，增强用户对计划的掌控感和灵活性，提高长期坚持的可能性",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 39,
+      "filename": "0039.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Value Proposition",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Flexible Schedule Proposal",
+      "copy": {
+        "headline": "Enjoy more flexibility on Saturday and Sunday",
+        "subheadline": "Monday - Friday: 1,188 calories\nSaturday - Sunday: 1,367 calories",
+        "cta": "Apply this schedule"
+      },
+      "insight": "个性化卡路里计划结果页，展示周末灵活饮食方案，通过差异化数值（周末多179卡）降低用户心理负担，提升计划可执行性和承诺感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 40,
+      "filename": "0040.png",
+      "primary_type": "C",
+      "secondary_type": "G",
+      "phase": "data-collection",
+      "psychology": [
+        "Commitment & Consistency",
+        "Trust Building"
+      ],
+      "ui_pattern": "Success State",
+      "copy": {
+        "headline": "Success!",
+        "subheadline": "Your Calorie Schedule has been applied.",
+        "cta": "Continue"
+      },
+      "insight": "阶段性完成确认页，强化用户刚完成的设置行为，通过明确的成功状态降低不确定性，利用承诺一致性推动用户继续执行已应用的计划",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 41,
+      "filename": "0041.png",
+      "primary_type": "R",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Program Summary Card",
+      "copy": {
+        "headline": "This is shaping up nicely!",
+        "subheadline": "Your customized program will make it easier to stay on track and reach your weight loss goals.",
+        "cta": "Continue"
+      },
+      "insight": "个性化结果展示页，汇总用户的减重计划（目标体重、每日卡路里、灵活周末安排、营养策略、间歇性断食），通过具体数字和结构化呈现增强用户对计划的信心和承诺感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 42,
+      "filename": "0042.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Program Summary Card",
+      "copy": {
+        "headline": "Next up is nutrition",
+        "subheadline": "PROGRAM",
+        "cta": "Continue"
+      },
+      "insight": "个性化营养计划结果展示页，汇总用户减重目标(6.6kg)、每日卡路里(1,239)、弹性周末计划等设置，当前高亮营养策略选项，引导用户进入下一步配置",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 43,
+      "filename": "0043.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How do you feel about your current eating habits?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "饮食习惯自评问题页，通过4个渐进式选项（从自信到需要指导）收集用户当前状态，用于个性化营养指导方案，同时建立用户对改变的心理承诺",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 44,
+      "filename": "0044.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "When you're faced with temptation, how do you typically respond?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "行为心理评估问题，通过了解用户面对诱惑时的自控能力，收集心理行为数据用于个性化干预策略制定",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 45,
+      "filename": "0045.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What's most important to you when it comes to food?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "饮食偏好问题页，通过了解用户对食物的核心价值观（享受、营养、便利、价格、健康平衡）来个性化定制饮食计划",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 46,
+      "filename": "0046.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How often do you try new foods or recipes?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "饮食习惯偏好问题，通过了解用户对新食物的尝试频率来个性化推荐内容，四个选项从高频到低频覆盖完整的用户行为光谱",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 47,
+      "filename": "0047.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "How do you feel after most meals?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "餐后感受问题页，通过了解用户饮食后的身体反应来评估消化健康状况和饮食习惯，为后续营养或饮食计划提供个性化依据",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 48,
+      "filename": "0048.png",
+      "primary_type": "Q",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Goal Setting"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Are you interested in watching your nutrition?",
+        "subheadline": "Whether you're new to nutrition or already confident in your approach, we have a Nutrition Strategy that can support your goals.",
+        "cta": "Yes, I'm interested / No, I'll just focus on calories"
+      },
+      "insight": "营养偏好选择页，通过二元选项收集用户对营养追踪的兴趣程度，同时预告营养策略功能价值，为后续个性化体验铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 49,
+      "filename": "0049.png",
+      "primary_type": "W",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Dual CTA",
+      "copy": {
+        "headline": "Let's find your Nutrition Strategy!",
+        "subheadline": "Answer a few questions to discover the strategies we think will work best for you.",
+        "cta": "Find my recommended strategy"
+      },
+      "insight": "营养策略入口页，通过双CTA设计提供个性化推荐路径和自主浏览路径，降低用户决策压力同时暗示个性化价值",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 50,
+      "filename": "0050.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "Which of these is the most important to you?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "目标优先级选择页，通过让用户明确核心目标（减重/健康/增强）来建立承诺感，同时为后续个性化方案提供依据",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 51,
+      "filename": "0051.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "Have you successfully lost weight before?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "了解用户过往减重经历的问题页，三个选项涵盖成功维持、反弹失败和从未成功三种情况，帮助APP评估用户心理状态和制定针对性方案",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 52,
+      "filename": "0052.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Were you following a certain eating style to lose that weight?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "饮食习惯调查问题，询问用户过去减重时是否遵循特定饮食方式，用于了解用户背景和个性化后续推荐方案",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 53,
+      "filename": "0053.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Did the eating style you were following feel sustainable?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "饮食习惯评估问题，了解用户过往饮食方式的可持续性感受，用于后续提供更贴合用户实际情况的个性化方案",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 54,
+      "filename": "0054.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Educational Card",
+      "copy": {
+        "headline": "Good nutrition can make weight loss easier",
+        "subheadline": "When you eat food that is more filling, it's easier to eat fewer calories overall. Consistently eating fewer calories than you burn will result in weight loss.",
+        "cta": "Continue"
+      },
+      "insight": "价值教育页，在收集用户饮食数据前，先解释营养策略的科学原理，建立用户对方法论的信任，为后续问题铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 55,
+      "filename": "0055.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "How would you describe the amount of fiber you typically eat?",
+        "subheadline": "Fiber is found in foods like vegetables, fruits, whole grains, beans, legumes, oatmeal, nuts, and seeds.",
+        "cta": null
+      },
+      "insight": "膳食纤维摄入习惯问题页，通过三个清晰的选项评估用户当前饮食结构，为后续营养建议提供数据支持",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 56,
+      "filename": "0056.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How would you describe the amount of protein you typically eat?",
+        "subheadline": "Protein is found in foods like meat, fish, seafood, tofu, eggs, protein shakes, and yogurt.",
+        "cta": null
+      },
+      "insight": "蛋白质摄入习惯问卷页，通过三个层级选项了解用户饮食模式，用于后续营养计划个性化推荐",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 57,
+      "filename": "0057.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Body Data"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How often do you eat foods containing saturated fat?",
+        "subheadline": "Saturated fat is found in foods like red meat, butter, sausage, bacon, and cheese.",
+        "cta": null
+      },
+      "insight": "饮食习惯问卷页，通过询问饱和脂肪摄入频率来评估用户的饮食健康状况，为后续营养建议提供数据基础",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 58,
+      "filename": "0058.png",
+      "primary_type": "R",
+      "secondary_type": "L",
+      "phase": "data-collection",
+      "psychology": [
+        "Commitment & Consistency",
+        "Personalization",
+        "Labor Illusion"
+      ],
+      "ui_pattern": "Bridge Screen / Reveal Interstitial",
+      "copy": {
+        "headline": "Drumroll please...!",
+        "subheadline": "Based on what you told us, we are ready to recommend your strategy.",
+        "cta": "See my Recommended Strategy"
+      },
+      "insight": "结果揭晓前的过渡页，通过drumroll悬念制造期待感，强调个性化推荐基于用户输入，利用承诺一致性促使用户完成流程查看结果",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 59,
+      "filename": "0059.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Value Proposition",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Recommendation Cards",
+      "copy": {
+        "headline": "We recommend the Balanced strategy",
+        "subheadline": "This strategy will ensure you're getting the macronutrients your body needs to operate well.",
+        "cta": "Browse all nutrition strategies"
+      },
+      "insight": "个性化营养策略推荐结果页，基于用户输入数据生成推荐方案，同时展示替代选项（High Satisfaction），通过卡片式设计让用户感知选择权，增强接受度",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 60,
+      "filename": "0060.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Result Summary Card",
+      "copy": {
+        "headline": "Balanced Strategy",
+        "subheadline": "If you want to be confident that you're getting the major nutrients you need, this strategy is for you.",
+        "cta": "Apply this strategy"
+      },
+      "insight": "个性化营养策略结果页，展示基于用户数据计算的蛋白质、碳水化合物和脂肪目标值，通过具体数字增强可信度和执行感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 61,
+      "filename": "0061.png",
+      "primary_type": "R",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Summary Card",
+      "copy": {
+        "headline": "This is looking really good!",
+        "subheadline": null,
+        "cta": "Continue"
+      },
+      "insight": "个性化计划结果展示页，汇总用户的减重目标、每日卡路里、饮食策略等关键参数，通过积极肯定的标题强化用户对计划的信心和承诺感",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 62,
+      "filename": "0062.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Program Summary Card",
+      "copy": {
+        "headline": "Lastly, let's talk about Intermittent Fasting",
+        "subheadline": "Intermittent Fasting can be a flexible tool to support your goals, and there are different ways to approach it.",
+        "cta": "Continue"
+      },
+      "insight": "个性化计划结果展示页，汇总用户之前选择的所有设置（减重目标6.6kg、每日1239卡路里、弹性周末计划、均衡策略），同时引出间歇性禁食作为最后一个配置项，强化用户对已做承诺的认知",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 63,
+      "filename": "0063.png",
+      "primary_type": "Q",
+      "secondary_type": "V",
+      "phase": "final-setup",
+      "psychology": [
+        "Progressive Disclosure",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Binary Choice with Education",
+      "copy": {
+        "headline": "There are two main ways to use Intermittent Fasting:",
+        "subheadline": "Are you interested in adding fasting to your program?",
+        "cta": "Yes, add fasting to my program"
+      },
+      "insight": "间歇性断食功能选择页，先教育用户两种断食方式（传统断食和减少晚间零食），再询问是否添加，通过价值解释降低决策门槛",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 64,
+      "filename": "0064.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Goal Setting"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Which style of fasting are you interested in?",
+        "subheadline": null,
+        "cta": "Traditional Fasting, Reduce Evening Snacking"
+      },
+      "insight": "断食方式偏好选择页，通过两种不同的断食风格让用户自主选择适合自己的方案，为后续个性化推荐奠定基础",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 65,
+      "filename": "0065.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Goal Setting"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What fasting schedule would you like to follow?",
+        "subheadline": "If you're trying this for the first time, we recommend a shorter fast.",
+        "cta": null
+      },
+      "insight": "间歇性断食计划选择页，提供4种标准方案加自定义选项，通过推荐较短断食周期降低新用户门槛，体现渐进式引导策略",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 66,
+      "filename": "0066.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Multi-Select List",
+      "copy": {
+        "headline": "What days of the week will you start a fast?",
+        "subheadline": "Please select at least 1 day.",
+        "cta": "Continue"
+      },
+      "insight": "断食日程选择页，通过让用户主动选择断食日来建立承诺感，增强后续执行的一致性动机",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 67,
+      "filename": "0067.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Time Picker",
+      "copy": {
+        "headline": "What time will you start fasting?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "断食开始时间选择页，用于设置个性化断食计划和提醒通知的触发时间",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 68,
+      "filename": "0068.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Permission Pre-priming",
+        "Progressive Disclosure",
+        "Personalization"
+      ],
+      "ui_pattern": "Multiple Choice with Granular Options",
+      "copy": {
+        "headline": "Would you like to receive fasting notifications?",
+        "subheadline": "We can send you push notifications when it's time to fast and when your fast has ended.",
+        "cta": "Enable both notifications, Only notify me when fasts start, Only notify me when fasts end, Don't send me fasting notifications"
+      },
+      "insight": "通知权限预请求页，通过提供多个粒度选项（全部/仅开始/仅结束/无）降低用户拒绝率，让用户感觉有控制权，同时解释通知的具体价值",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 69,
+      "filename": "0069.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Permission Pre-priming",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Permission Request",
+      "copy": {
+        "headline": "Make sure you give us notification permission!",
+        "subheadline": "That way we'll be able to send you your fasting reminders.",
+        "cta": "Next"
+      },
+      "insight": "通知权限预铺垫页，通过解释通知用于发送断食提醒来建立权限请求的价值感，为系统权限弹窗做心理准备",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 70,
+      "filename": "0070.png",
+      "primary_type": "R",
+      "secondary_type": "C",
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Summary Card",
+      "copy": {
+        "headline": "Well done!",
+        "subheadline": "PROGRAM",
+        "cta": "Continue"
+      },
+      "insight": "个性化计划结果页，展示用户的减重目标(6.6kg)、每日卡路里(1239)、弹性周末安排、均衡策略及间歇性断食计划，通过具体数字和明确目标增强用户承诺感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 71,
+      "filename": "0071.png",
+      "primary_type": "L",
+      "secondary_type": "C",
+      "phase": "final-setup",
+      "psychology": [
+        "Labor Illusion",
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Transition Screen",
+      "copy": {
+        "headline": "We're almost ready to project your goal date",
+        "subheadline": "Before we do, take a moment to reflect on your strengths and challenges. Understanding your approach to growth and setbacks will help in keeping you on track toward your goals.",
+        "cta": "Continue"
+      },
+      "insight": "过渡准备页，通过闪电图标和'almost ready'文案创造期待感，同时预铺垫即将进行的自我反思环节，结合Labor Illusion让用户感知系统正在为其定制目标日期",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 72,
+      "filename": "0072.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How do you view challenges?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "心理态度评估问题，收集用户对挑战的心态数据，用于个性化心理健康或自我提升方案。选项从成长型思维到回避型思维排列，帮助识别用户心理状态",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 73,
+      "filename": "0073.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How do you handle unexpected changes?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "心理特质评估问题，通过了解用户应对变化的方式来构建个性化体验或心理画像",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 74,
+      "filename": "0074.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How confident are you in your ability to make the right decisions for yourself?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "心理状态评估问题，通过了解用户决策信心程度来定制个性化支持方案，同时建立用户自我认知的承诺基线",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 75,
+      "filename": "0075.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "When you face setbacks, how do you typically respond?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "心理韧性评估问题，通过了解用户面对挫折的恢复能力来定制个性化支持策略，四个选项从高韧性到低韧性递进排列",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 76,
+      "filename": "0076.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How do you manage stress?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "压力管理自评问题页，通过4个渐进式选项收集用户心理状态数据，用于个性化心理健康或冥想方案推荐",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 77,
+      "filename": "0077.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How do you handle difficult situations?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "心理评估问题页，通过4级量表收集用户压力应对能力，从'处理良好'到'感到不堪重负'，用于个性化心理健康支持方案",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 78,
+      "filename": "0078.png",
+      "primary_type": "L",
+      "secondary_type": "R",
+      "phase": "final-setup",
+      "psychology": [
+        "Labor Illusion",
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Transition Screen",
+      "copy": {
+        "headline": "We're ready to project your goal date!",
+        "subheadline": "We appreciate your thoughtful responses to the last few questions. Now we'll lock in your program and calculate when you're expected to reach your goal weight.",
+        "cta": "Continue"
+      },
+      "insight": "过渡加载页，在计算个性化结果前的缓冲屏幕。通过强调用户之前的'thoughtful responses'来肯定其投入，并预告即将生成的目标日期计算结果，运用Labor Illusion让用户感知系统正在进行复杂计算，增强对结果的期待感和价值感知",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 79,
+      "filename": "0079.png",
+      "primary_type": "L",
+      "secondary_type": "S",
+      "phase": "final-setup",
+      "psychology": [
+        "Labor Illusion",
+        "Social Proof",
+        "Trust Building"
+      ],
+      "ui_pattern": "Loading with Social Proof",
+      "copy": {
+        "headline": "Generating Your Custom Plan...",
+        "subheadline": "In the app store",
+        "cta": null
+      },
+      "insight": "加载页面使用Labor Illusion策略，同时展示4.8星App Store评分作为社会认同，在等待期间建立用户信任",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 80,
+      "filename": "0080.png",
+      "primary_type": "L",
+      "secondary_type": "S",
+      "phase": "final-setup",
+      "psychology": [
+        "Labor Illusion",
+        "Social Proof",
+        "Trust Building"
+      ],
+      "ui_pattern": "Loading with Statistics",
+      "copy": {
+        "headline": "Generating Your Custom Plan...",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "加载等待页面，通过展示60M+食物/运动数据库和56M+用户数的社会认同数据，制造Labor Illusion让用户感知系统正在进行复杂计算，同时建立平台信任感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 81,
+      "filename": "0081.png",
+      "primary_type": "L",
+      "secondary_type": "S",
+      "phase": "final-setup",
+      "psychology": [
+        "Labor Illusion",
+        "Social Proof",
+        "Trust Building",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Value-reinforced Loading Screen",
+      "copy": {
+        "headline": "Generating Your Custom Plan...",
+        "subheadline": "150 Million+ pounds lost",
+        "cta": null
+      },
+      "insight": "加载过渡页在生成计划等待期间展示社会证明数据（1.5亿磅减重成果），配合月桂叶荣誉符号强化信任感，为后续付费转化做情绪铺垫",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 82,
+      "filename": "0082.png",
+      "primary_type": "R",
+      "secondary_type": "G",
+      "phase": "results",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Celebration Screen",
+      "copy": {
+        "headline": "Your Plan Is Ready!",
+        "subheadline": "The path to your healthiest self is right around the corner. You've got this!",
+        "cta": null
+      },
+      "insight": "个性化计划完成页，使用奖章emoji和鼓励性文案庆祝用户完成问卷流程，强化承诺感并为下一步转化做铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 83,
+      "filename": "0083.png",
+      "primary_type": "R",
+      "secondary_type": "C",
+      "phase": "results",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Summary Card",
+      "copy": {
+        "headline": "Your program is complete!",
+        "subheadline": "You'll reach 50 kgs on February 1, 2026.",
+        "cta": "Save my program"
+      },
+      "insight": "个性化结果汇总页，展示完整的减重计划（目标、卡路里、日程、饮食策略、断食方案），通过具体日期承诺和详细数据增强用户信心，CTA引导创建账户保存计划",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 84,
+      "filename": "0084.png",
+      "primary_type": "C",
+      "secondary_type": "Q",
+      "phase": "conversion",
+      "psychology": [
+        "Commitment & Consistency",
+        "Privacy Assurance",
+        "Trust Building"
+      ],
+      "ui_pattern": "Consent Checkboxes with Account Creation",
+      "copy": {
+        "headline": "Create Account",
+        "subheadline": "See our Privacy Policy for our data collection and use practices.",
+        "cta": "Create Account"
+      },
+      "insight": "账户创建确认页，用户通过勾选同意数据收集条款完成注册承诺，隐私政策披露建立信任",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 85,
+      "filename": "0085.png",
+      "primary_type": "V",
+      "secondary_type": "D",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "First Impression",
+        "Trust Building"
+      ],
+      "ui_pattern": "Feature Demo Preview",
+      "copy": {
+        "headline": "Become a Happier, Healthier You",
+        "subheadline": "Start for Free",
+        "cta": "Continue For Free"
+      },
+      "insight": "价值展示页，通过模拟App内拍照记录餐食的功能演示，直观展示核心功能价值。'No Payment Due Now'消除付费顾虑，降低用户心理门槛",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 86,
+      "filename": "0086.png",
+      "primary_type": "V",
+      "secondary_type": "P",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Reciprocity",
+        "Trust Building",
+        "Loss Aversion"
+      ],
+      "ui_pattern": "Feature Demo with CTA",
+      "copy": {
+        "headline": "Become a Happier, Healthier You — Start for Free",
+        "subheadline": "No Payment Due Now",
+        "cta": "Continue For Free"
+      },
+      "insight": "价值展示页，通过展示卡路里追踪功能界面（早餐259卡路里的详细食物列表）让用户预览产品核心功能，配合'免费开始'和'无需付款'的承诺降低决策门槛，软性引导至付费流程",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 87,
+      "filename": "0087.png",
+      "primary_type": "P",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Trust Building",
+        "Loss Aversion",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Reassurance Screen",
+      "copy": {
+        "headline": "We'll send you a reminder before your free trial ends",
+        "subheadline": "No Payment Due Now",
+        "cta": "Continue For Free"
+      },
+      "insight": "订阅前的信任建立页，通过承诺发送提醒来消除用户对自动续费的焦虑，降低试用转化的心理门槛",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 88,
+      "filename": "0088.png",
+      "primary_type": "P",
+      "secondary_type": "S",
+      "phase": "conversion",
+      "psychology": [
+        "Loss Aversion",
+        "Social Proof",
+        "Trust Building",
+        "Progressive Disclosure",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Trial Timeline with Social Proof",
+      "copy": {
+        "headline": "How Your Free Trial Works",
+        "subheadline": "4.8 stars (680k reviews)",
+        "cta": "Start Free Trial"
+      },
+      "insight": "经典的试用付费墙设计，通过时间线可视化消除用户对订阅的恐惧，结合680k评价的社会认同和5星评分增强信任，明确标注Day 5提醒和Day 7结束节点降低用户的损失厌恶心理",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 89,
+      "filename": "0089.png",
+      "primary_type": "P",
+      "secondary_type": "S",
+      "phase": "conversion",
+      "psychology": [
+        "Social Proof",
+        "Trust Building",
+        "Loss Aversion",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Paywall with Social Proof",
+      "copy": {
+        "headline": "Trusted By Millions",
+        "subheadline": "No Payment Due Now",
+        "cta": "Start Free Trial"
+      },
+      "insight": "付费墙页面融合社会认同策略，顶部展示用户五星评价证言增强信任，FAQ消除付费顾虑（FSA/HSA支持），7天免费试用降低决策门槛，年费折算月价($3.33)锚定性价比",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 90,
+      "filename": "0090.png",
+      "primary_type": "P",
+      "secondary_type": "S",
+      "phase": "conversion",
+      "psychology": [
+        "Social Proof",
+        "Loss Aversion",
+        "Trust Building",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Apple Native Paywall with Testimonials",
+      "copy": {
+        "headline": "Trusted By Millions",
+        "subheadline": "A Game Changer / A New Perspective on Food",
+        "cta": "Confirm with Side Button"
+      },
+      "insight": "付费墙页面结合用户评价社会证明，使用Apple原生订阅弹窗增强信任感。1周免费试用+$39.99/年的定价策略，配合真实用户证言降低付费心理门槛",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 91,
+      "filename": "0091.png",
+      "primary_type": "P",
+      "secondary_type": "S",
+      "phase": "conversion",
+      "psychology": [
+        "Social Proof",
+        "Trust Building",
+        "Loss Aversion",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Paywall with Testimonials + Success Confirmation Modal",
+      "copy": {
+        "headline": "Trusted By Millions",
+        "subheadline": "Your purchase was successful.",
+        "cta": "Start Free Trial"
+      },
+      "insight": "付费墙页面叠加购买成功确认弹窗，展示用户评价作为社会证明，明确显示7天免费试用和年度订阅价格$39.99，支持FSA/HSA支付增强信任感",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 92,
+      "filename": "0092.png",
+      "primary_type": "P",
+      "secondary_type": "S",
+      "phase": "conversion",
+      "psychology": [
+        "Social Proof",
+        "Loss Aversion",
+        "Trust Building",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Confirmation Modal with Subscription Options",
+      "copy": {
+        "headline": "Thank you!",
+        "subheadline": "Thank you for purchasing and best of luck achieving your health and weight loss goals!",
+        "cta": "Get Back to It"
+      },
+      "insight": "购买成功确认弹窗叠加在付费墙页面上，底层展示社会认同（用户评价）和订阅选项，弹窗通过感谢语和祝福强化用户决策正确性，减少购后焦虑",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 93,
+      "filename": "0093.png",
+      "primary_type": "X",
+      "secondary_type": "S",
+      "phase": "conversion",
+      "psychology": [
+        "Permission Pre-priming",
+        "Social Proof",
+        "Loss Aversion"
+      ],
+      "ui_pattern": "Permission Request with Statistics",
+      "copy": {
+        "headline": "People with notifications turned on report losing 64% more weight",
+        "subheadline": "*You'll need to turn them on in order to receive fasting notifications.",
+        "cta": "Turn on notifications"
+      },
+      "insight": "通知权限请求页，使用社会认同数据（64%更多减重）预铺垫，结合损失厌恶心理（不开启可能错过效果），顶部展示通知预览增强具象化感知",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 94,
+      "filename": "0094.png",
+      "primary_type": "X",
+      "secondary_type": "G",
+      "phase": "conversion",
+      "psychology": [
+        "Permission Pre-priming",
+        "Loss Aversion",
+        "Social Proof",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Permission Request with Pre-priming",
+      "copy": {
+        "headline": "\"Lose It!\" Would Like to Send You Notifications",
+        "subheadline": "People with notifications turned on are 64% more likely to reach their goals",
+        "cta": "Turn on notifications / Allow"
+      },
+      "insight": "通知权限请求页，通过展示3天连续打卡通知示例、64%成功率统计数据进行预铺垫，结合连续打卡激励机制和损失厌恶心理（Don't break that streak）提升授权率",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 95,
+      "filename": "0095.png",
+      "primary_type": "Q",
+      "secondary_type": "V",
+      "phase": "conversion",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice Modal",
+      "copy": {
+        "headline": "Let's show you how you'll lose your first kilogram.",
+        "subheadline": "When did you last eat?",
+        "cta": "Yesterday, Today"
+      },
+      "insight": "弹窗式问题收集用户饮食时间数据，同时通过'lose your first kilogram'承诺具体结果，将数据收集与价值预期结合，降低用户填写抵触感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 96,
+      "filename": "0096.png",
+      "primary_type": "D",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Coach Mark / Tooltip Overlay",
+      "copy": {
+        "headline": null,
+        "subheadline": "Log your most recent meal by tapping ( + ).",
+        "cta": null
+      },
+      "insight": "新手引导覆盖层，通过遮罩聚焦底部FAB按钮，指导用户完成首次食物记录的关键动作",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 97,
+      "filename": "0097.png",
+      "primary_type": "Q",
+      "secondary_type": "D",
+      "phase": "conversion",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Icon Grid Selection",
+      "copy": {
+        "headline": "Tap on your most recent meal.",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "引导用户选择最近一餐的交互式问题页，通过图标网格展示餐食类型（早餐/午餐/晚餐/零食），同时演示App的食物追踪功能界面",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 98,
+      "filename": "0098.png",
+      "primary_type": "D",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Progressive Disclosure",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Search Interface with Tooltip",
+      "copy": {
+        "headline": "Search our food database for what you ate or drank.",
+        "subheadline": null,
+        "cta": "Done"
+      },
+      "insight": "食物搜索演示页，通过工具提示引导用户使用搜索功能记录饮食，展示数据库中的常见食物选项",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 99,
+      "filename": "0099.png",
+      "primary_type": "D",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Progressive Disclosure",
+        "Personalization"
+      ],
+      "ui_pattern": "Search Results List",
+      "copy": {
+        "headline": "Results",
+        "subheadline": null,
+        "cta": "Done"
+      },
+      "insight": "食物搜索结果页，用户搜索'Milk'后展示相关食物及热量信息，属于核心功能演示而非onboarding流程",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 100,
+      "filename": "0100.png",
+      "primary_type": "D",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Progressive Disclosure",
+        "Trust Building",
+        "Personalization"
+      ],
+      "ui_pattern": "Food Logging Modal with Nutrition Details",
+      "copy": {
+        "headline": "Milk, 2%, w/ Vitamin A & D",
+        "subheadline": "NUTRITION FACTS",
+        "cta": "Add"
+      },
+      "insight": "食物添加页面，展示详细营养信息（卡路里、脂肪、蛋白质等），用户可选择份量单位，带有'Verified nutrients'验证标识增强信任感",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 101,
+      "filename": "0101.png",
+      "primary_type": "D",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Progressive Disclosure",
+        "Guidance"
+      ],
+      "ui_pattern": "Tooltip Overlay",
+      "copy": {
+        "headline": "Are you done adding to this meal? Tap Done.",
+        "subheadline": "Or search for another food.",
+        "cta": "Done"
+      },
+      "insight": "食物搜索功能演示页，通过浮层提示引导用户完成添加食物或继续搜索的操作流程",
+      "confidence": 0.85,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 102,
+      "filename": "0102.png",
+      "primary_type": "D",
+      "secondary_type": "V",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Goal Setting",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Interactive Tutorial Overlay",
+      "copy": {
+        "headline": "You'll lose ½ kg in 7 days if you log all your meals and stay under your daily budget.",
+        "subheadline": null,
+        "cta": "End Tutorial"
+      },
+      "insight": "功能演示教学页，通过展示主界面的卡路里追踪功能，并用具体量化结果（7天减0.5kg）激励用户完成每日记录，结合承诺机制推动习惯养成",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    }
+  ],
+  "flow_patterns": {},
+  "design_insights": {}
+}

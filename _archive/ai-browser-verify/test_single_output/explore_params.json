@@ -1,0 +1,14 @@
+{
+  "agent_lm_name": "gpt-5.2",
+  "success_check_lm_name": "gpt-5.2",
+  "api_synthesis_lm_name": "gpt-5.2",
+  "host": [
+    "http://news.ycombinator.com"
+  ],
+  "iterations": 2,
+  "is_live_website": false,
+  "storage_state": [
+    null
+  ],
+  "allow_recovery": true
+}

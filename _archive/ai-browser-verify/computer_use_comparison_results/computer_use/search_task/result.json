@@ -1,0 +1,11 @@
+{
+  "task_id": "search_task",
+  "task_name": "搜索任务",
+  "mode": "computer_use",
+  "use_knowledge_base": false,
+  "success": false,
+  "num_steps": 3,
+  "total_time_seconds": 134.23,
+  "used_kb_skill": false,
+  "llm_calls": 3
+}

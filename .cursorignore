@@ -1,0 +1,30 @@
+# ============================================================
+# NogicOS 工作区配置
+# 当处理 NogicOS 项目时，AI 只会读取 nogicos/ 目录
+# ============================================================
+
+# === 独立项目（处理 NogicOS 时忽略）===
+pm-tool-v2/                 # PM 截图分析工具
+vitaflow/                   # iOS 卡路里 App
+docs/                       # YC 文档等
+
+# === 归档和临时 ===
+_archive/
+_temp/
+
+# === NogicOS 内部排除 ===
+nogicos/reference/          # 参考文档，不需要 AI 读取
+nogicos/logs/               # 日志文件
+
+# === 通用构建产物 ===
+**/dist/
+**/build/
+**/win-unpacked/
+**/.next/
+**/out/
+
+# === 大型依赖 ===
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+**/*.log

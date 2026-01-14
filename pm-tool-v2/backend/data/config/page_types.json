@@ -1,0 +1,98 @@
+{
+  "Onboarding": {
+    "icon": "👋",
+    "cn": "引导",
+    "en": "Onboarding",
+    "color": "#8B5CF6"
+  },
+  "Core": {
+    "icon": "🏠",
+    "cn": "核心",
+    "en": "Core",
+    "color": "#10B981"
+  },
+  "Welcome": {
+    "icon": "🎉",
+    "cn": "欢迎",
+    "en": "Welcome",
+    "color": "#F59E0B"
+  },
+  "Profile": {
+    "icon": "👤",
+    "cn": "个人信息",
+    "en": "Profile",
+    "color": "#3B82F6"
+  },
+  "Goal": {
+    "icon": "🎯",
+    "cn": "目标设定",
+    "en": "Goal",
+    "color": "#EF4444"
+  },
+  "Preference": {
+    "icon": "⚙️",
+    "cn": "偏好",
+    "en": "Preference",
+    "color": "#6366F1"
+  },
+  "Permission": {
+    "icon": "🔐",
+    "cn": "权限",
+    "en": "Permission",
+    "color": "#F97316"
+  },
+  "Growth": {
+    "icon": "📈",
+    "cn": "增长",
+    "en": "Growth",
+    "color": "#14B8A6"
+  },
+  "Paywall": {
+    "icon": "💳",
+    "cn": "付费墙",
+    "en": "Paywall",
+    "color": "#EC4899"
+  },
+  "Registration": {
+    "icon": "📝",
+    "cn": "注册",
+    "en": "Registration",
+    "color": "#8B5CF6"
+  },
+  "Dashboard": {
+    "icon": "📊",
+    "cn": "概览",
+    "en": "Dashboard",
+    "color": "#10B981"
+  },
+  "Tracking": {
+    "icon": "📝",
+    "cn": "记录",
+    "en": "Tracking",
+    "color": "#3B82F6"
+  },
+  "Progress": {
+    "icon": "📈",
+    "cn": "进度",
+    "en": "Progress",
+    "color": "#F59E0B"
+  },
+  "Content": {
+    "icon": "📚",
+    "cn": "内容",
+    "en": "Content",
+    "color": "#6366F1"
+  },
+  "Settings": {
+    "icon": "⚙️",
+    "cn": "设置",
+    "en": "Settings",
+    "color": "#64748B"
+  },
+  "Initialization": {
+    "icon": "🚀",
+    "cn": "初始化",
+    "en": "Initialization",
+    "color": "#8B5CF6"
+  }
+}

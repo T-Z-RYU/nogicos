@@ -1,0 +1,2339 @@
+{
+  "app": "Yazio",
+  "appId": "yazio",
+  "total_screens": 98,
+  "analyzed_at": "2025-12-23T03:57:35.888998",
+  "taxonomy_version": "3.0",
+  "analysis_method": "gpt-5.2 + claude-opus-4-5",
+  "phases": [
+    {
+      "id": "trust-building",
+      "name": "信任建立",
+      "nameEn": "Trust Building",
+      "purpose": "包含 9 个页面",
+      "startIndex": 1,
+      "endIndex": 9,
+      "dominantTypes": [
+        "S",
+        "Q",
+        "W",
+        "A"
+      ],
+      "psychologyTactics": [
+        "Brand Recognition",
+        "First Impression",
+        "Value Proposition",
+        "Authority",
+        "Social Proof"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "goal-setting",
+      "name": "目标设定",
+      "nameEn": "Goal Setting",
+      "purpose": "包含 16 个页面",
+      "startIndex": 10,
+      "endIndex": 29,
+      "dominantTypes": [
+        "Q",
+        "V",
+        "C"
+      ],
+      "psychologyTactics": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Progressive Disclosure",
+        "Social Proof"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "data-collection-a",
+      "name": "数据收集A",
+      "nameEn": "Data Collection A",
+      "purpose": "包含 4 个页面",
+      "startIndex": 11,
+      "endIndex": 22,
+      "dominantTypes": [
+        "W",
+        "G"
+      ],
+      "psychologyTactics": [
+        "Brand Recognition",
+        "First Impression",
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "data-collection",
+      "name": "数据收集",
+      "nameEn": "Data Collection",
+      "purpose": "包含 29 个页面",
+      "startIndex": 30,
+      "endIndex": 58,
+      "dominantTypes": [
+        "Q",
+        "V",
+        "C",
+        "X"
+      ],
+      "psychologyTactics": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency",
+        "Value Proposition",
+        "Reciprocity"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "feature-showcase",
+      "name": "功能展示",
+      "nameEn": "Feature Showcase",
+      "purpose": "包含 5 个页面",
+      "startIndex": 59,
+      "endIndex": 71,
+      "dominantTypes": [
+        "V"
+      ],
+      "psychologyTactics": [
+        "Social Proof",
+        "Trust Building",
+        "Value Proposition",
+        "Commitment & Consistency",
+        "Permission Pre-priming"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "final-setup",
+      "name": "最终设置",
+      "nameEn": "Final Setup",
+      "purpose": "包含 15 个页面",
+      "startIndex": 60,
+      "endIndex": 78,
+      "dominantTypes": [
+        "Q",
+        "L",
+        "C",
+        "G"
+      ],
+      "psychologyTactics": [
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Personalization",
+        "Progressive Disclosure",
+        "Activity Level"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "results",
+      "name": "结果展示",
+      "nameEn": "Results",
+      "purpose": "包含 2 个页面",
+      "startIndex": 79,
+      "endIndex": 84,
+      "dominantTypes": [
+        "R"
+      ],
+      "psychologyTactics": [
+        "Personalization",
+        "Goal Setting",
+        "Value Proposition",
+        "Authority",
+        "Commitment & Consistency"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "conversion",
+      "name": "转化",
+      "nameEn": "Conversion",
+      "purpose": "包含 18 个页面",
+      "startIndex": 80,
+      "endIndex": 98,
+      "dominantTypes": [
+        "V",
+        "P",
+        "Q",
+        "W"
+      ],
+      "psychologyTactics": [
+        "Value Proposition",
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "keyInsights": []
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "L→R",
+      "name": "加载-结果",
+      "occurrences": 1,
+      "positions": [
+        78
+      ],
+      "interpretation": "加载动画后展示结果，创造期待感"
+    }
+  ],
+  "summary": {
+    "total_pages": 98,
+    "phase_distribution": {
+      "trust-building": {
+        "count": 9,
+        "percentage": 9
+      },
+      "goal-setting": {
+        "count": 16,
+        "percentage": 16
+      },
+      "data-collection-a": {
+        "count": 4,
+        "percentage": 4
+      },
+      "data-collection": {
+        "count": 29,
+        "percentage": 30
+      },
+      "feature-showcase": {
+        "count": 5,
+        "percentage": 5
+      },
+      "final-setup": {
+        "count": 15,
+        "percentage": 15
+      },
+      "results": {
+        "count": 2,
+        "percentage": 2
+      },
+      "conversion": {
+        "count": 18,
+        "percentage": 18
+      }
+    },
+    "by_type": {
+      "W": {
+        "count": 5,
+        "label": "Welcome",
+        "color": "#E5E5E5"
+      },
+      "A": {
+        "count": 1,
+        "label": "Authority",
+        "color": "#6366F1"
+      },
+      "S": {
+        "count": 5,
+        "label": "Social",
+        "color": "#EAB308"
+      },
+      "Q": {
+        "count": 38,
+        "label": "Question",
+        "color": "#3B82F6"
+      },
+      "G": {
+        "count": 6,
+        "label": "Gamified",
+        "color": "#14B8A6"
+      },
+      "V": {
+        "count": 22,
+        "label": "Value",
+        "color": "#22C516"
+      },
+      "C": {
+        "count": 7,
+        "label": "Commit",
+        "color": "#D97706"
+      },
+      "X": {
+        "count": 3,
+        "label": "Permission",
+        "color": "#6B7280"
+      },
+      "L": {
+        "count": 3,
+        "label": "Loading",
+        "color": "#1F2937"
+      },
+      "R": {
+        "count": 2,
+        "label": "Result",
+        "color": "#A855F7"
+      },
+      "P": {
+        "count": 6,
+        "label": "Paywall",
+        "color": "#EF4444"
+      }
+    }
+  },
+  "screens": [
+    {
+      "index": 1,
+      "filename": "0001.png",
+      "primary_type": "W",
+      "secondary_type": "L",
+      "phase": "trust-building",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression"
+      ],
+      "ui_pattern": "Splash Screen",
+      "copy": {
+        "headline": "yazio",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "App启动闪屏页面，展示品牌Logo和可爱的吉祥物形象，建立品牌第一印象，同时作为加载过渡状态",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 2,
+      "filename": "0002.png",
+      "primary_type": "W",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Welcome Screen with Animated Icons",
+      "copy": {
+        "headline": "Welcome to Yazio",
+        "subheadline": "Let's make every day count!",
+        "cta": null
+      },
+      "insight": "品牌欢迎页，通过环绕的食物、运动图标传达App核心功能（饮食追踪+健身），建立健康生活方式的第一印象",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 3,
+      "filename": "0003.png",
+      "primary_type": "A",
+      "secondary_type": "S",
+      "phase": "trust-building",
+      "psychology": [
+        "Authority",
+        "Social Proof",
+        "Trust Building"
+      ],
+      "ui_pattern": "Award Badge",
+      "copy": {
+        "headline": "#1 Health & Fitness App",
+        "subheadline": "App Stores, 12 countries, January 2025",
+        "cta": null
+      },
+      "insight": "权威背书页，通过展示App Store排名第一的成就和跨12国认证，建立用户对产品的信任感和权威认知",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 4,
+      "filename": "0004.png",
+      "primary_type": "S",
+      "secondary_type": "A",
+      "phase": "trust-building",
+      "psychology": [
+        "Social Proof",
+        "Trust Building",
+        "Authority"
+      ],
+      "ui_pattern": "Rating Badge with Laurel",
+      "copy": {
+        "headline": "4.6",
+        "subheadline": "Top-rated app",
+        "cta": null
+      },
+      "insight": "社会认同页面，通过展示4.6星评分、200万评价和150+国家覆盖的数据，配合桂冠徽章视觉设计，建立用户信任和权威感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 5,
+      "filename": "0005.png",
+      "primary_type": "S",
+      "secondary_type": "W",
+      "phase": "trust-building",
+      "psychology": [
+        "Social Proof",
+        "Trust Building",
+        "First Impression",
+        "Brand Recognition"
+      ],
+      "ui_pattern": "Statistics Display with Laurel Wreaths",
+      "copy": {
+        "headline": "85 million happy users",
+        "subheadline": "20 million foods for calorie tracking",
+        "cta": "Get Started"
+      },
+      "insight": "社会证明页面，通过展示8500万用户和2000万食物数据库的规模数据建立信任，月桂花环设计强化成就感和权威性",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 6,
+      "filename": "0006.png",
+      "primary_type": "S",
+      "secondary_type": "X",
+      "phase": "trust-building",
+      "psychology": [
+        "Social Proof",
+        "Trust Building",
+        "Brand Recognition"
+      ],
+      "ui_pattern": "Apple Sign-In Modal",
+      "copy": {
+        "headline": "85 million happy users",
+        "subheadline": "20 million foods for calorie tracking",
+        "cta": "登录"
+      },
+      "insight": "背景展示社会认同数据（8500万用户、2000万食物数据库），同时弹出Apple登录授权弹窗，通过海量用户数据建立信任感，降低注册心理门槛",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 7,
+      "filename": "0007.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What's your main goal?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "目标设定问题页，通过让用户选择主要健康目标（减重、健康饮食、增重、增肌等）建立承诺一致性，为后续个性化方案奠定基础",
+      "confidence": 0.97,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 8,
+      "filename": "0008.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How did you hear about Yazio?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "归因调查页，收集用户获取渠道数据用于营销分析，包含社交媒体、口碑推荐、网红营销、AI聊天等多元渠道选项，反映现代用户获取趋势",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 9,
+      "filename": "0009.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Gender Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice Cards",
+      "copy": {
+        "headline": "What's your sex?",
+        "subheadline": "Since the formula for an accurate calorie calculation differs based on sex, we need this information to calculate your daily calorie goal.",
+        "cta": "Female / Male"
+      },
+      "insight": "性别数据收集页，通过科学理据（热量计算公式因性别不同）降低敏感信息采集抵触，底部帮助链接缓解非二元用户疑虑",
+      "confidence": 0.97,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 10,
+      "filename": "0010.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Text Input",
+      "copy": {
+        "headline": "Pick the name that suits you best",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "用户名输入页，通过让用户选择名字建立个性化身份认同，增强对产品的归属感和后续使用承诺",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 11,
+      "filename": "0011.png",
+      "primary_type": "W",
+      "secondary_type": "G",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Personalization"
+      ],
+      "ui_pattern": "Mascot Greeting",
+      "copy": {
+        "headline": "Nice to meet you, zino!",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "个性化欢迎页，使用可爱吉祥物角色（毛茸茸的绿色怪兽）配合用户姓名打招呼，建立情感连接和品牌亲和力，进度条显示onboarding流程位置",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 12,
+      "filename": "0012.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "Why do you want to lose weight?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "动机收集页，通过了解用户减重目的（自信/健康/体能/特殊活动）来个性化后续内容，同时让用户明确承诺目标，增强后续留存",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 13,
+      "filename": "0013.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Multi-Select Checklist",
+      "copy": {
+        "headline": "Is there anything else you want to achieve?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "多选目标收集页，允许用户选择额外健康目标（改善饮食关系、健康烹饪、增强免疫、改善睡眠、自我接纳），已选中第一项，通过多目标承诺增强用户投入感",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 14,
+      "filename": "0014.png",
+      "primary_type": "G",
+      "secondary_type": null,
+      "phase": "data-collection-a",
+      "psychology": [
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Full-screen Encouragement",
+      "copy": {
+        "headline": "You're crushing it already!",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "Onboarding中段的激励过渡页，通过正向强化和吉祥物形象降低用户疲劳感，配合进度条推动用户继续完成流程",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 15,
+      "filename": "0015.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Progressive Disclosure",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What experience do you have with weight loss?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "减重经验调查页，通过了解用户过往减重历史来个性化推荐方案，同时让用户认知到自己的现状，增强改变动机",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 16,
+      "filename": "0016.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Social Proof",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select with Multiple Options",
+      "copy": {
+        "headline": "Think about someone you know who has achieved their goal. What was the key to success?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "通过让用户思考他人成功经验，引导用户自我反思并建立对成功因素的认知承诺，选择'Intrinsic willpower'暗示内在动机的重要性，为后续激励策略铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 17,
+      "filename": "0017.png",
+      "primary_type": "V",
+      "secondary_type": "S",
+      "phase": "goal-setting",
+      "psychology": [
+        "Social Proof",
+        "Value Proposition",
+        "Trust Building",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Motivational Card with Mascot",
+      "copy": {
+        "headline": "You can do it, too!",
+        "subheadline": "There are several factors that play a role in success. While willpower and mental strength can be important, a bulletproof plan and reliable support system are absolutely essential. That's exactly what you have Yazio for now.",
+        "cta": "I Can't Wait"
+      },
+      "insight": "励志价值页，通过'too'暗示他人成功案例（社会认同），强调Yazio作为可靠支持系统的价值主张，可爱吉祥物搭配健康食物降低用户心理压力，CTA使用情感化表达激发期待感",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 18,
+      "filename": "0018.png",
+      "primary_type": "C",
+      "secondary_type": "G",
+      "phase": "goal-setting",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Long Press Commitment",
+      "copy": {
+        "headline": "I will use Yazio to ...",
+        "subheadline": "better understand and improve my eating habits and exercise routine so I can successfully reach my goals.",
+        "cta": "Tap and hold the Yazio icon to commit."
+      },
+      "insight": "承诺页面，通过长按交互让用户主动做出目标承诺，利用承诺一致性原理增强用户粘性和后续行为动机，可爱的吉祥物角色增加情感连接",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 19,
+      "filename": "0019.png",
+      "primary_type": "C",
+      "secondary_type": "G",
+      "phase": "goal-setting",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Hold-to-Commit Button",
+      "copy": {
+        "headline": "I will use Yazio to ...",
+        "subheadline": "better understand and improve my eating habits and ... successfully",
+        "cta": "Tap and hold to commit."
+      },
+      "insight": "承诺页面，通过长按手势强化用户心理承诺，结合可爱吉祥物增加情感连接。Keep holding!提示增强互动仪式感，利用承诺一致性原理提升后续留存",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 20,
+      "filename": "0020.png",
+      "primary_type": "W",
+      "secondary_type": null,
+      "phase": "data-collection-a",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression"
+      ],
+      "ui_pattern": "Welcome Screen",
+      "copy": {
+        "headline": "Welcome to Yazio",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "品牌欢迎页，使用可爱的吉祥物形象（小牛/小怪物角色）建立友好亲切的第一印象，绿色背景传递健康活力感，进度条显示已完成约60%的onboarding流程",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 21,
+      "filename": "0021.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Commitment & Consistency",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice Cards",
+      "copy": {
+        "headline": "Have you ever counted calories before?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "用户经验分层问题，用于区分新手与有经验用户，为后续个性化教育内容和功能推荐做准备",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 22,
+      "filename": "0022.png",
+      "primary_type": "G",
+      "secondary_type": "V",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Social Proof",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Motivational Interstitial",
+      "copy": {
+        "headline": "Awesome! That's a great starting point.",
+        "subheadline": "Studies have shown that regularly tracking your calories is directly linked to the self-motivation needed to successfully lose weight!",
+        "cta": "Next"
+      },
+      "insight": "游戏化激励页面，使用可爱吉祥物角色（拿望远镜的绿色怪兽）正向强化用户的选择，引用研究数据增强卡路里追踪的价值主张，巩固用户对减重目标的承诺",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 23,
+      "filename": "0023.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Would you like a brief explanation about how calorie counting works?",
+        "subheadline": null,
+        "cta": "Yes, No"
+      },
+      "insight": "教育分流页，询问用户是否需要热量计算原理说明，用于用户分层和降低认知门槛",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 24,
+      "filename": "0024.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Educational Card with Mascot",
+      "copy": {
+        "headline": "It's very simple, actually.",
+        "subheadline": "The key is to consume fewer calories than your body burns. To ensure you lose weight in a healthy and sustainable way, just make sure your calorie deficit isn't too big. This way, your body will still get enough calories and nutrients. Don't worry, we'll guide you every step of the way.",
+        "cta": "Got It"
+      },
+      "insight": "教育型价值展示页，通过可爱吉祥物和简洁解释降低用户对减重复杂性的焦虑，强调健康可持续的方法和全程指导承诺",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 25,
+      "filename": "0025.png",
+      "primary_type": "V",
+      "secondary_type": "D",
+      "phase": "goal-setting",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Feature Showcase with Device Mockup",
+      "copy": {
+        "headline": "Eat smarter in a snap",
+        "subheadline": "Snap a photo to get instant calorie and nutrient info with AI. It's the fastest, smartest way to stay on track.",
+        "cta": "Continue"
+      },
+      "insight": "AI拍照识别功能价值展示页，通过手机模拟器展示实际使用效果，标注卡路里(433kcal)、脂肪(22g)、碳水(40g)、蛋白质(25g)等营养数据，降低用户对复杂记录的心理门槛",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 26,
+      "filename": "0026.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select with Educational Option",
+      "copy": {
+        "headline": "Have you ever tried intermittent fasting?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "经验调查问题页，收集用户对间歇性禁食的了解程度和态度，特别设置了'What's intermittent fasting?'选项照顾新手用户，当前选中该选项表明用户需要教育引导",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 27,
+      "filename": "0027.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Educational Card",
+      "copy": {
+        "headline": "Structuring your meals can make a difference.",
+        "subheadline": "Intermittent fasting is a pattern of eating that switches between periods of fasting and non-fasting. It has been proven to help manage weight, boost weight loss, and even prevent or reverse some diseases.",
+        "cta": "Got It"
+      },
+      "insight": "功能价值教育页，通过解释间歇性禁食的科学原理和健康益处，建立用户对产品方法论的信任，为后续功能使用做铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 28,
+      "filename": "0028.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Binary Choice Cards",
+      "copy": {
+        "headline": "Would you like to try intermittent fasting?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "间歇性断食偏好问题，通过让用户主动选择来增强后续计划的参与度和承诺感，属于饮食习惯收集类问题",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 29,
+      "filename": "0029.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Feature Showcase with Mascot",
+      "copy": {
+        "headline": "Say hello to the ultimate dream team.",
+        "subheadline": "Calorie counting and intermittent fasting work very well together. With Yazio, you'll have customizable fasting trackers and a comprehensive calorie counter bundled into one. Creating healthy, sustainable habits has never been easier.",
+        "cta": "Love It"
+      },
+      "insight": "功能价值展示页，通过可爱的吉祥物形象和手机示意图，强调Yazio将卡路里计数与间歇性禁食两大功能整合的核心价值，使用情感化CTA按钮增强用户认同感",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 30,
+      "filename": "0030.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "Imagine you've just reached your goal. What is your future self most excited about?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "通过未来自我想象引导用户明确动机，利用目标设定和承诺一致性心理，让用户在心理上预先体验成功，增强后续行动的内在驱动力",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 31,
+      "filename": "0031.png",
+      "primary_type": "C",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Motivational Card with Mascot",
+      "copy": {
+        "headline": "Think back to a time you achieved something difficult.",
+        "subheadline": "How did you overcome challenges and how did you feel when you did? Keep these achievements in mind whenever you need an additional push. You know you've got it in you!",
+        "cta": "Start My Journey"
+      },
+      "insight": "承诺启动页，通过引导用户回忆过往成功经历建立自我效能感，配合举重怪兽形象强化'你有能力克服困难'的信念，CTA使用'Journey'暗示长期承诺",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 32,
+      "filename": "0032.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Personalization",
+        "Reciprocity",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Full-screen Interstitial",
+      "copy": {
+        "headline": "Let's get your fit just right!",
+        "subheadline": "Tell us a bit about you so we can tailor your plan to your goals.",
+        "cta": "Let's Go"
+      },
+      "insight": "个性化问卷前置说明页，用可爱吉祥物和价值承诺降低用户对后续信息收集的抵触，强调交换价值（提供信息换取定制计划）",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 33,
+      "filename": "0033.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Date Picker / Scroll Wheel",
+      "copy": {
+        "headline": "When is your birthday?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "生日选择页，通过滚轮式日期选择器收集用户年龄信息，用于计算基础代谢率、制定年龄适配的健身/饮食计划，进度条显示约60%完成度",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 34,
+      "filename": "0034.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Numeric Input with Unit Toggle",
+      "copy": {
+        "headline": "How tall are you?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "身高数据收集页，提供公制/英制切换，用于BMI计算和个性化健身/营养方案制定",
+      "confidence": 0.97,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 35,
+      "filename": "0035.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Activity Level",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How active are you?",
+        "subheadline": "Knowing your daily activity level helps us calculate your calorie needs more accurately.",
+        "cta": "Next"
+      },
+      "insight": "活动水平问卷页，通过4个职业化描述的选项（久坐办公、站立教师、行走销售、体力劳动）收集用户日常活动量，用于精确计算TDEE和卡路里需求",
+      "confidence": 0.97,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 36,
+      "filename": "0036.png",
+      "primary_type": "X",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Permission Pre-priming",
+        "Value Proposition",
+        "Goal Setting"
+      ],
+      "ui_pattern": "Permission Request with Benefits",
+      "copy": {
+        "headline": "Set Up Automatic Activity Tracking",
+        "subheadline": "Pair Yazio with Apple Health and watch your burned calories appear like magic!",
+        "cta": "Continue"
+      },
+      "insight": "Apple Health 权限预铺垫页，通过展示具体收益（卡路里自动同步、78%更高成功率）来降低用户对授权的抵触心理，使用可爱的吉祥物角色和运动场景增强亲和力",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 37,
+      "filename": "0037.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [],
+      "ui_pattern": "Unknown",
+      "copy": {
+        "headline": null,
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "JSON parsing failed, using extracted type",
+      "confidence": 0.5,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 38,
+      "filename": "0038.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Numeric Input with Unit Toggle",
+      "copy": {
+        "headline": "What's your current weight?",
+        "subheadline": "It's okay to guess. You can always adjust your starting weight later.",
+        "cta": "Next"
+      },
+      "insight": "体重输入页，通过降低输入门槛（允许猜测、可后续调整）减少用户心理压力，kg/lb切换适配不同地区用户习惯",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 39,
+      "filename": "0039.png",
+      "primary_type": "V",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency",
+        "Social Proof"
+      ],
+      "ui_pattern": "Transitional Encouragement",
+      "copy": {
+        "headline": "Thanks for sharing. Now, let's look ahead!",
+        "subheadline": "We've helped millions of people lose weight, so we know you can be successful with Yazio, too. Let's start by setting your goal weight.",
+        "cta": "Next"
+      },
+      "insight": "目标设定过渡页，通过感谢用户分享信息建立互惠感，同时用'帮助数百万人'的社会证明增强信心，引导用户进入目标设定环节，强化承诺一致性",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 40,
+      "filename": "0040.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Goal Setting",
+        "Body Data",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Numeric Input with Unit Toggle",
+      "copy": {
+        "headline": "Let's set the goal you're going to crush!",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "目标体重设置页，通过积极鼓励性文案（'crush'）激发用户动力，kg/lb单位切换提供便利，65kg的输入暗示用户已有明确减重目标，强化承诺感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 41,
+      "filename": "0041.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Goal Setting",
+        "Loss Aversion"
+      ],
+      "ui_pattern": "Benefit List",
+      "copy": {
+        "headline": "You'll see positive effects on your health and well-being in no time. You can look forward to:",
+        "subheadline": null,
+        "cta": "Got It"
+      },
+      "insight": "价值展示页，通过列举具体健康益处（降低糖尿病风险、降血压、改善胆固醇）来强化用户对健康饮食的期待，配合食物插图增强视觉吸引力",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 42,
+      "filename": "0042.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "Do you have a special event coming up that's motivating you to lose weight?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "目标动机收集页，通过询问特定事件（假期、婚礼、运动比赛、夏季、聚会等）来了解用户减重动机，利用事件deadline增强承诺感和紧迫性，同时为后续个性化计划提供时间锚点",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 43,
+      "filename": "0043.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Date Picker Wheel",
+      "copy": {
+        "headline": "When will this event take place?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "活动日期选择页，通过三列滚轮选择器收集用户计划的活动时间（已选March 21, 2026），用于创建倒计时目标和个性化计划",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 44,
+      "filename": "0044.png",
+      "primary_type": "C",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Motivational Confirmation",
+      "copy": {
+        "headline": "Setting a goal is a huge first step!",
+        "subheadline": "It's so important to have a specific goal in mind, no matter how big or small. This will give you the motivation you need to keep going and achieve everything you set your mind to! We're here to support you every step of the way.",
+        "cta": "Let's Go"
+      },
+      "insight": "目标承诺确认页，通过可爱吉祥物和鼓励性文案强化用户对目标的心理承诺，利用承诺一致性原理增加后续留存",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 45,
+      "filename": "0045.png",
+      "primary_type": "S",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Social Proof",
+        "Trust Building",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Testimonial Cards with Before/After Images",
+      "copy": {
+        "headline": "Be part of something great!",
+        "subheadline": "Millions of people are using YAZIO to achieve their goals. Now, it's your turn. Start writing your success story today!",
+        "cta": "Got It"
+      },
+      "insight": "社会认同页面，通过展示真实用户的前后对比照片和5星好评证言，建立产品可信度和转化说服力。三张变形成功案例照片配合两条用户评价（Adam减重成功、Chris减掉37磅），有效降低新用户的决策阻力",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 46,
+      "filename": "0046.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Multi-Select Checklist",
+      "copy": {
+        "headline": "How do you plan to stay on track?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "策略承诺页，通过让用户主动选择多种坚持方法（记录饮食、找伙伴、备餐、追踪连续天数、关注热量），利用承诺一致性原则增强用户对计划的心理投入，全选状态暗示用户已做出全面承诺",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 47,
+      "filename": "0047.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Multi-Select Checkbox",
+      "copy": {
+        "headline": "How do you feel about starting your journey?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "情绪状态收集页，通过了解用户心理状态（积极/消极/不确定）来个性化后续体验和沟通策略，同时让用户表达复杂情绪（如同时选择Motivated、Confident和Nervous）增强真实感和承诺感",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 48,
+      "filename": "0048.png",
+      "primary_type": "S",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Social Proof",
+        "Trust Building",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Mascot Illustration with Encouragement",
+      "copy": {
+        "headline": "We've got your back.",
+        "subheadline": "New beginnings can be challenging, but we're here to guide you. Yazio has helped millions of people reach their goals. Now, it's your turn!",
+        "cta": "Let's Do This"
+      },
+      "insight": "社会认同结合价值承诺页，通过'帮助数百万人达成目标'建立社会证明，可爱的吉祥物形象降低用户焦虑，强调支持与陪伴感，为用户即将开始的旅程提供情感鼓励",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 49,
+      "filename": "0049.png",
+      "primary_type": "G",
+      "secondary_type": "L",
+      "phase": "data-collection",
+      "psychology": [
+        "Progressive Disclosure",
+        "Commitment & Consistency",
+        "Goal Setting"
+      ],
+      "ui_pattern": "Progress Milestone",
+      "copy": {
+        "headline": "Halfway there already!",
+        "subheadline": "Look at us go! Let's gather the last few details to wrap up your plan.",
+        "cta": "Let's Go"
+      },
+      "insight": "游戏化里程碑庆祝页，通过可爱吉祥物和进度条展示50%完成状态，利用承诺一致性原理鼓励用户继续完成剩余步骤，'Look at us go'的表述建立伙伴感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 50,
+      "filename": "0050.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "How many minutes per day do you want to use Yazio?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "时间承诺选择页，通过让用户选择每日使用时长建立行为承诺，15分钟标注为Serious暗示认真态度，利用承诺一致性原理提升后续留存",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 51,
+      "filename": "0051.png",
+      "primary_type": "G",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Celebration Modal with Calendar Progress",
+      "copy": {
+        "headline": "Awesome!",
+        "subheadline": "Taking the time to carefully track your food and, most importantly, staying consistent is the key to success. You've got this!",
+        "cta": "Let's Go"
+      },
+      "insight": "游戏化里程碑庆祝页，通过可爱吉祥物和日历打卡视觉强化用户对持续追踪的承诺，利用承诺一致性原理促进长期使用习惯形成",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 52,
+      "filename": "0052.png",
+      "primary_type": "C",
+      "secondary_type": "Q",
+      "phase": "data-collection",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Gamified"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "Challenge time! How many days in a row can you track?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "承诺页通过挑战形式让用户选择连续追踪天数目标，选项设计从7天到50天递增，配以激励性标签(Good/Great/Incredible/Unstoppable)，利用承诺一致性原理增强用户留存意愿，默认选中最高目标暗示高期望",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 53,
+      "filename": "0053.png",
+      "primary_type": "V",
+      "secondary_type": "G",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Commitment & Consistency",
+        "Goal Setting"
+      ],
+      "ui_pattern": "Educational Card with Mascot",
+      "copy": {
+        "headline": "Streaks help you stay consistent.",
+        "subheadline": "To reach your goals and maintain your dream weight in the long run, it's essential to create healthy routines and habits. Challenging yourself to maintain longer streaks is a great way to stay motivated and develop those habits.",
+        "cta": "I've Got This"
+      },
+      "insight": "游戏化功能介绍页，通过连续打卡机制（火焰图标）解释streak功能如何帮助用户保持一致性，可爱的吉祥物降低认知负担，CTA使用第一人称承诺式语言增强用户自我效能感",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 54,
+      "filename": "0054.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "Do you follow a specific diet?",
+        "subheadline": "We'll adapt our recommendations to your preferences.",
+        "cta": "Next"
+      },
+      "insight": "饮食偏好问题页，提供4种饮食类型选项（Classic/Pescatarian/Vegetarian/Vegan），用于个性化食谱和营养推荐，进度条显示约70%完成度",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 55,
+      "filename": "0055.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Feature Showcase with Stacked Images",
+      "copy": {
+        "headline": "Thousands of delicious recipes are waiting for you!",
+        "subheadline": "Never run out of healthy meal ideas again thanks to our easy-to-track recipes. Simply find your favorite, choose your serving size and add to your Yazio diary in seconds. Tracking your meals has never been so easy!",
+        "cta": "I Can't Wait"
+      },
+      "insight": "价值展示页，通过美食图片堆叠和功能描述展示App的食谱库功能，强调便捷追踪和海量选择，CTA使用情感化语言激发用户期待",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 56,
+      "filename": "0056.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Is it more difficult for you to make healthy choices on weekends and special occasions?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "行为习惯诊断问题，识别用户在特定场景下的饮食挑战，用于后续提供针对性的周末/节假日健康策略支持",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 57,
+      "filename": "0057.png",
+      "primary_type": "V",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Commitment & Consistency",
+        "Trust Building",
+        "Personalization"
+      ],
+      "ui_pattern": "Encouragement Card with Mascot",
+      "copy": {
+        "headline": "That's completely normal!",
+        "subheadline": "We all have days when it's more difficult to make healthy choices and stick to our plans. But that's absolutely fine—we're only human after all. Always remember: It's all about balance.",
+        "cta": "Continue"
+      },
+      "insight": "情感支持页面，通过可爱吉祥物和共情文案降低用户对「不健康选择」的愧疚感，建立品牌信任并鼓励用户坚持使用App，强调平衡而非完美的健康理念",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 58,
+      "filename": "0058.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "What usually makes you want to eat even though you're not hungry?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "行为触发因素识别问题，收集用户非饥饿进食的心理诱因，用于后续提供针对性的行为干预策略。已选择'Being bored'表明情绪性进食倾向",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 59,
+      "filename": "0059.png",
+      "primary_type": "V",
+      "secondary_type": "S",
+      "phase": "feature-showcase",
+      "psychology": [
+        "Social Proof",
+        "Trust Building",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Reassurance Card",
+      "copy": {
+        "headline": "You're not alone.",
+        "subheadline": "Eating without actually being hungry is a very common habit. In such cases, it can help to be more mindful about what and when you eat. And we're here to help you with just that!",
+        "cta": "Great"
+      },
+      "insight": "情感共鸣页，通过'你不是一个人'的社会认同感减轻用户对不健康饮食习惯的羞耻感，同时引入App的价值主张——帮助用户更正念地饮食。可爱的怪兽吃拉面插画降低敏感话题的沉重感。",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 60,
+      "filename": "0060.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "final-setup",
+      "psychology": [
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Personalization"
+      ],
+      "ui_pattern": "Multi-Select Checkbox",
+      "copy": {
+        "headline": "What will you try to improve your eating behavior and health?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "行为目标多选页，让用户主动选择健康改善方向（水果蔬菜、饮水、营养知识、饥饿信号），通过公开承诺强化行为改变动机，4项已选中显示高参与度",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 61,
+      "filename": "0061.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "final-setup",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How do you plan on staying consistent to create your new habits?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "习惯养成策略选择页，通过让用户主动选择执行计划，触发承诺一致性心理，增加后续行为遵从度",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 62,
+      "filename": "0062.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "final-setup",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Multi-Select Checklist",
+      "copy": {
+        "headline": "What will you do to increase your activity level?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "行为承诺页，让用户主动选择增加活动量的具体方式。通过多选机制让用户做出承诺，利用承诺一致性原理增强后续执行动力。已选项包括尝试新运动和达成每日步数目标。",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 63,
+      "filename": "0063.png",
+      "primary_type": "G",
+      "secondary_type": "V",
+      "phase": "final-setup",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Positive Reinforcement with Mascot",
+      "copy": {
+        "headline": "That's great!",
+        "subheadline": "And keep in mind: Every little bit counts. You don't have to start going to the gym for hours every day. Setting realistic goals and starting small, for example by going for a short walk in your lunch break, goes a long way!",
+        "cta": "Continue"
+      },
+      "insight": "游戏化正向反馈页，通过可爱吉祥物形象和鼓励性文案强化用户之前的选择，同时传递'小步骤大进步'的价值理念，降低用户对运动的心理门槛",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 64,
+      "filename": "0064.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How do you plan to determine your progress?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "进度追踪方式选择页，让用户提前规划如何衡量成功，增强目标承诺感。首选项'定期记录体重'已预选，引导用户建立量化追踪习惯",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 65,
+      "filename": "0065.png",
+      "primary_type": "V",
+      "secondary_type": "C",
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Commitment & Consistency",
+        "Permission Pre-priming"
+      ],
+      "ui_pattern": "Value Confirmation Screen",
+      "copy": {
+        "headline": "Great idea! Let us help you with that.",
+        "subheadline": "You can look forward to various features that will make documenting your progress easier than ever, like the weight and measurement tracker or automatic activity tracking by connecting your favorite health app.",
+        "cta": "Awesome"
+      },
+      "insight": "价值确认过渡页，用正向强化肯定用户选择，预告体重追踪和健康App连接功能，为后续权限请求降低心理阻力",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 66,
+      "filename": "0066.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "final-setup",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "You have many great achievements ahead of you. How will you celebrate them?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "奖励承诺问题页，通过让用户预想庆祝方式来强化目标承诺，利用心理预演增强动机和完成意愿",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 67,
+      "filename": "0067.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Educational Card with Illustration",
+      "copy": {
+        "headline": "Your environment plays an important role.",
+        "subheadline": "There are many different factors that can affect your journey. A lot of these can be attributed to your surroundings. For example, where, how and who you live with can directly affect your behavior, habits and even your body and health.",
+        "cta": "Continue"
+      },
+      "insight": "教育性价值页，通过可爱的怪物家庭插图解释环境因素对健康习惯的影响，为后续收集用户生活环境信息做铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 68,
+      "filename": "0068.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "Do you have children?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "家庭状况问题页，通过了解用户是否有孩子及居住情况，为后续提供适合家庭场景的个性化内容和时间规划建议",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 69,
+      "filename": "0069.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Personalization",
+        "Trust Building"
+      ],
+      "ui_pattern": "Illustrated Value Card",
+      "copy": {
+        "headline": "Busy schedule? No problem!",
+        "subheadline": "Having children is beautiful. But being a parent also comes with many duties, which can affect your everyday life and schedule. To make sure you can still reach all your health and weight goals, you can customize almost all Yazio features to perfectly fit your personal schedule and needs.",
+        "cta": "Perfect"
+      },
+      "insight": "针对有孩子用户的价值展示页，强调Yazio可根据繁忙的育儿日程自定义功能，通过可爱的亲子怪物角色插画增强情感共鸣，降低用户对时间不足的顾虑",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 70,
+      "filename": "0070.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Activity Level"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "What's your work schedule?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "工作时间安排问题页，收集用户日程类型以优化个性化计划推荐，当前选中季节性工作",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 71,
+      "filename": "0071.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Trust Building",
+        "Personalization"
+      ],
+      "ui_pattern": "Mascot Illustration with Value Statement",
+      "copy": {
+        "headline": "We'll help you find the time.",
+        "subheadline": "We believe that your work should under no circumstances keep you from reaching your goals. That's why we'll make it as easy as possible for you to stay on track every day regardless of your work schedule.",
+        "cta": "Great"
+      },
+      "insight": "价值承诺页，通过可爱的吉祥物抱着时钟的形象，传达App会帮助用户克服时间障碍、在繁忙工作中仍能实现目标的核心价值主张",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 72,
+      "filename": "0072.png",
+      "primary_type": "L",
+      "secondary_type": "G",
+      "phase": "final-setup",
+      "psychology": [
+        "Labor Illusion",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Progress Bar with Mascot Animation",
+      "copy": {
+        "headline": "All set. Let's get rolling!",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "加载完成过渡页，进度条接近100%配合欢快吉祥物庆祝动画，通过Labor Illusion让用户感知系统正在为其准备个性化内容，同时游戏化角色增强情感连接",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 73,
+      "filename": "0073.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Social Proof"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "How would you describe the eating habits of the people you spend the most time with?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "社交环境饮食习惯问题，基于社会影响理论评估用户周围人的健康行为，用于个性化推荐和识别潜在挑战",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 74,
+      "filename": "0074.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Goal Setting"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What would help you stay motivated in case of a setback?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "动机支持偏好问题，通过了解用户在遇到挫折时的应对方式，为后续提供个性化的激励机制和社交支持功能。已选择'Having supportive people around me'表明用户倾向于社交支持型激励",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 75,
+      "filename": "0075.png",
+      "primary_type": "C",
+      "secondary_type": "V",
+      "phase": "final-setup",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Motivational Message",
+      "copy": {
+        "headline": "It's good to be prepared.",
+        "subheadline": "Knowing beforehand how you want to deal with challenges you might encounter along the way will help you stay motivated and on track in any situation. Just keep this in mind and you'll be unstoppable!",
+        "cta": "Continue"
+      },
+      "insight": "承诺强化页，通过提前预设挑战应对策略来增强用户心理准备，利用承诺一致性原理让用户对既定计划产生更强的执行决心",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 76,
+      "filename": "0076.png",
+      "primary_type": "C",
+      "secondary_type": "V",
+      "phase": "final-setup",
+      "psychology": [
+        "Trust Building",
+        "Commitment & Consistency",
+        "Personalization",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Mascot Celebration with Encouragement",
+      "copy": {
+        "headline": "Thank you for trusting us.",
+        "subheadline": "We really appreciate you being so open and honest with us. Based on the information you shared, we'll now create a weight-loss plan specifically for you. And there's one thing we know even before it's done: You can do it!",
+        "cta": "Create My Plan"
+      },
+      "insight": "问卷完成后的情感确认页，通过可爱吉祥物和感谢语建立情感连接，强化用户已投入的沉没成本，同时预告即将生成个性化计划，为下一步转化做铺垫",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 77,
+      "filename": "0077.png",
+      "primary_type": "L",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Labor Illusion",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Loading Animation with Progress Indicator",
+      "copy": {
+        "headline": "Hang tight while we fine-tune your plan...",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "Labor Illusion加载页，通过可爱的吉祥物动画和'Weight-loss plan'进度提示，让用户感知系统正在为其定制个性化方案，增加等待耐心和结果价值感",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 78,
+      "filename": "0078.png",
+      "primary_type": "L",
+      "secondary_type": "R",
+      "phase": "final-setup",
+      "psychology": [
+        "Labor Illusion",
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Loading State with Progress Checklist",
+      "copy": {
+        "headline": "Hang tight while we fine-tune your plan...",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "经典的Labor Illusion加载页，通过展示正在处理的项目清单（减重计划、饮食类型、65kg目标、每日卡路里）让用户感知系统正在为其个性化定制方案，增加对最终结果的价值感知和信任度",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 79,
+      "filename": "0079.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "results",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Value Proposition",
+        "Authority",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Progress Projection Chart",
+      "copy": {
+        "headline": "We estimate you can reach 65.0 kg by January 25!",
+        "subheadline": "Benefits of your plan",
+        "cta": "Love It"
+      },
+      "insight": "个性化结果展示页，通过可视化体重下降曲线展示预期目标达成时间，结合6项计划优势（易执行、定制化、营养师设计等）强化价值感知，YAZIO品牌标识增强专业权威性",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 80,
+      "filename": "0080.png",
+      "primary_type": "V",
+      "secondary_type": "R",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Benefit List with Icons",
+      "copy": {
+        "headline": "With your personalized plan, there's no stopping you!",
+        "subheadline": null,
+        "cta": "Let's Go"
+      },
+      "insight": "价值承诺页，通过三个具体利益点（7天见效、建立习惯、享受美食）强化用户对个性化计划的信心，结合食物图标营造积极的饮食改善预期",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 81,
+      "filename": "0081.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Commitment & Consistency",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice Cards",
+      "copy": {
+        "headline": "Just one more thing: Do you eat a bit more on the weekends?",
+        "subheadline": null,
+        "cta": "Yes, No"
+      },
+      "insight": "周末饮食习惯问题，用于调整周热量预算分配。'Just one more thing'暗示接近完成，利用目标梯度效应推动用户完成最后一步",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 82,
+      "filename": "0082.png",
+      "primary_type": "V",
+      "secondary_type": "C",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Commitment & Consistency",
+        "Trust Building",
+        "Personalization"
+      ],
+      "ui_pattern": "Reassurance Message",
+      "copy": {
+        "headline": "No problem, we'll still help you stay on track!",
+        "subheadline": "It's completely normal to have different eating habits on the weekends than during the week. In some cases, this can even help you stay motivated and on track in the long run. So don't worry, you'll still be able to crush your goals!",
+        "cta": "Continue"
+      },
+      "insight": "安慰性价值页面，针对用户表示周末饮食习惯不同的回答进行正向反馈。通过友好的怪兽IP形象（手持食物和烹饪铲）传递包容态度，消除用户焦虑，强化App能帮助用户实现目标的信心，同时巧妙地为灵活饮食计划做铺垫",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 83,
+      "filename": "0083.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [],
+      "ui_pattern": "Unknown",
+      "copy": {
+        "headline": null,
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "JSON parsing failed, using extracted type",
+      "confidence": 0.5,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 84,
+      "filename": "0084.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "results",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Confirmation Screen",
+      "copy": {
+        "headline": "We'll take that into account!",
+        "subheadline": "Your calorie goals will be slightly higher on Saturdays and Sundays than on other days. So, now you can fully enjoy your weekends while still staying on track.",
+        "cta": "Continue"
+      },
+      "insight": "个性化确认页，展示App已根据用户偏好（周末更高卡路里目标）调整计划，通过承诺一致性强化用户对灵活计划的认同，同时传递'享受周末不影响目标'的价值主张",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 85,
+      "filename": "0085.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice",
+      "copy": {
+        "headline": "How would you like to track your meals?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "用户偏好设置页，询问饮食追踪方式偏好（AI拍照/手动输入/混合），通过提供选择权增强用户控制感和产品适配度",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 86,
+      "filename": "0086.png",
+      "primary_type": "V",
+      "secondary_type": "D",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Permission Pre-priming",
+        "Trust Building"
+      ],
+      "ui_pattern": "Feature Highlight with Device Mockup",
+      "copy": {
+        "headline": "Track smarter with AI",
+        "subheadline": "Smart food tracking is here. Snap a photo and get instant nutrition info with AI—no manual entry needed.",
+        "cta": "Continue"
+      },
+      "insight": "AI拍照识别功能展示页，通过具体的营养数据浮层（433kcal、22g脂肪等）将抽象功能具象化，强调'无需手动输入'直击饮食记录类App最大痛点，同时为后续相机权限请求做心理铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 87,
+      "filename": "0087.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Goal Setting",
+        "Trust Building"
+      ],
+      "ui_pattern": "Benefit List with Icons",
+      "copy": {
+        "headline": "Unlock Your Healthiest Self with Yazio Pro",
+        "subheadline": null,
+        "cta": "Continue"
+      },
+      "insight": "价值展示页，通过4个核心利益点（自信掌控、习惯养成、2.5倍成功率、可见成果）配合食物插图，预铺垫Pro订阅的价值，为后续付费墙做转化准备",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 88,
+      "filename": "0088.png",
+      "primary_type": "P",
+      "secondary_type": "V",
+      "phase": "conversion",
+      "psychology": [
+        "Progressive Disclosure",
+        "Trust Building",
+        "Commitment & Consistency",
+        "Loss Aversion"
+      ],
+      "ui_pattern": "Timeline Journey",
+      "copy": {
+        "headline": "Ready to start your journey?",
+        "subheadline": "Select your subscription and reach your weight goals even faster.",
+        "cta": "Continue"
+      },
+      "insight": "订阅预热页，通过时间线展示订阅旅程（今天订阅→续订提醒→续订日），降低用户对付费的心理抵触，同时主动展示取消方式建立信任感",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 89,
+      "filename": "0089.png",
+      "primary_type": "P",
+      "secondary_type": "S",
+      "phase": "conversion",
+      "psychology": [
+        "Loss Aversion",
+        "Social Proof",
+        "Scarcity",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Pricing Cards with Testimonials",
+      "copy": {
+        "headline": "We'll help you lose weight to hit 65.0 kg by January 25!",
+        "subheadline": null,
+        "cta": "Continue"
+      },
+      "insight": "付费墙页面结合个性化目标承诺和社会证明，使用划线价格制造损失厌恶，'Most popular'标签引导选择年度订阅，用户评价增强信任",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 90,
+      "filename": "0090.png",
+      "primary_type": "V",
+      "secondary_type": "C",
+      "phase": "conversion",
+      "psychology": [
+        "Loss Aversion",
+        "Value Proposition",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Two Options Comparison",
+      "copy": {
+        "headline": "The first step is always the hardest, but sometimes it helps to envision the future. We see two options.",
+        "subheadline": null,
+        "cta": "Continue"
+      },
+      "insight": "经典的损失厌恶策略页面，通过对比「不使用Yazio会错过功能」vs「使用Yazio达成目标」两个选项，用😩悲伤表情和🚀火箭表情强化情感对比，引导用户选择付费/继续使用",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 91,
+      "filename": "0091.png",
+      "primary_type": "V",
+      "secondary_type": "P",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Loss Aversion",
+        "Goal Setting"
+      ],
+      "ui_pattern": "Feature Benefits List with Mascot",
+      "copy": {
+        "headline": "Don't miss out on this chance to reach your goals even faster!",
+        "subheadline": null,
+        "cta": "Continue"
+      },
+      "insight": "付费墙前的价值预热页，使用品牌吉祥物和三个核心利益点（3倍成功率、健康习惯、数据追踪）强化升级动机，标题采用损失厌恶措辞制造紧迫感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 92,
+      "filename": "0092.png",
+      "primary_type": "P",
+      "secondary_type": "G",
+      "phase": "conversion",
+      "psychology": [
+        "Scarcity",
+        "Loss Aversion",
+        "Reciprocity",
+        "Gamification"
+      ],
+      "ui_pattern": "Spin Wheel / Prize Wheel",
+      "copy": {
+        "headline": "Craving a better deal? Spin to get your 75% discount, forever!",
+        "subheadline": null,
+        "cta": "Spin to Save"
+      },
+      "insight": "游戏化付费墙设计，通过转盘抽奖制造随机奖励的期待感。75%折扣暗示稀缺高价值奖励，但转盘显示大部分为5%-10%小折扣，利用损失厌恶心理促使用户参与互动，增加沉没成本后提高转化",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 93,
+      "filename": "0093.png",
+      "primary_type": "P",
+      "secondary_type": "G",
+      "phase": "conversion",
+      "psychology": [
+        "Scarcity",
+        "Loss Aversion",
+        "Reciprocity",
+        "Gamification"
+      ],
+      "ui_pattern": "Spin Wheel Discount",
+      "copy": {
+        "headline": "Craving a better deal? Spin to get your 75% discount, forever!",
+        "subheadline": "There's more where that came from! You've snagged a great discount, but we bet there's even more luck in your next spin.",
+        "cta": "Spin Again"
+      },
+      "insight": "游戏化付费墙，通过转盘抽奖机制创造参与感和期待感。当前指针指向25%折扣区域，但提示用户可以再次旋转获得更好结果，利用损失厌恶心理（可能错过75%最大折扣）驱动用户持续互动，最终导向付费转化",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 94,
+      "filename": "0094.png",
+      "primary_type": "P",
+      "secondary_type": "G",
+      "phase": "conversion",
+      "psychology": [
+        "Scarcity",
+        "Loss Aversion",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Discount Paywall",
+      "copy": {
+        "headline": "75% OFF FOREVER",
+        "subheadline": "Your one-time offer",
+        "cta": "Continue"
+      },
+      "insight": "限时折扣付费墙，使用可爱怪兽角色和食物元素增加亲和力，强调'永久75%折扣'和'一次性优惠'制造紧迫感，原价$8/月划线显示对比$1.99/月的优惠价",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 95,
+      "filename": "0095.png",
+      "primary_type": "P",
+      "secondary_type": "G",
+      "phase": "conversion",
+      "psychology": [
+        "Scarcity",
+        "Commitment & Consistency",
+        "Loss Aversion"
+      ],
+      "ui_pattern": "Purchase Confirmation Celebration",
+      "copy": {
+        "headline": "Welcome to the Club!",
+        "subheadline": "You're officially a YAZIO Pro member! Let's embark on the journey to a healthier life together.",
+        "cta": "Get Started"
+      },
+      "insight": "付费成功确认页，结合游戏化庆祝元素（🎉派对图标、欢迎语）强化用户的购买决策正确性，'75% OFF FOREVER'背景强调获得的优惠价值，减少购后认知失调",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 96,
+      "filename": "0096.png",
+      "primary_type": "W",
+      "secondary_type": "S",
+      "phase": "conversion",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Social Proof",
+        "Trust Building"
+      ],
+      "ui_pattern": "Social Sign-In Options",
+      "copy": {
+        "headline": "Sign in to start your journey with Yazio!",
+        "subheadline": "Yazio has helped millions of users just like you reach their goals.",
+        "cta": "Sign Up With Apple / Continue With Google / Sign Up With E-mail"
+      },
+      "insight": "登录注册页面，结合欢迎信息与社会认同（数百万用户），提供多种低门槛登录方式以降低注册摩擦，火箭emoji强化开启新旅程的积极情绪",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 97,
+      "filename": "0097.png",
+      "primary_type": "G",
+      "secondary_type": "S",
+      "phase": "conversion",
+      "psychology": [
+        "Social Proof",
+        "Commitment & Consistency",
+        "Goal Setting"
+      ],
+      "ui_pattern": "Milestone Celebration",
+      "copy": {
+        "headline": "Way to shine, superstar!",
+        "subheadline": "Only 57% get this far. Let's go hit those weight goals together!",
+        "cta": "Get started"
+      },
+      "insight": "游戏化里程碑庆祝页，用可爱的雪怪角色和水晶视觉强化成就感，57%的统计数据暗示用户已超越43%的人，利用社会比较激励继续前进",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 98,
+      "filename": "0098.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [],
+      "ui_pattern": "Unknown",
+      "copy": {
+        "headline": null,
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "JSON parsing failed, using extracted type",
+      "confidence": 0.5,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    }
+  ],
+  "flow_patterns": {},
+  "design_insights": {}
+}

@@ -1,0 +1,25 @@
+{
+  "app_type": "美食食谱App",
+  "onboarding": {
+    "start": 1,
+    "end": 25,
+    "steps": [
+      "启动页面",
+      "权限申请",
+      "位置服务",
+      "通知权限",
+      "用户偏好设置",
+      "食物类型选择",
+      "饮食习惯配置"
+    ]
+  },
+  "paywall": {
+    "position": 15,
+    "in_onboarding": true
+  },
+  "core_start": 26,
+  "summary": "该App采用较长的引导流程，在Onboarding中集成付费墙，注重个性化设置和权限获取",
+  "project": "MyFitnessPal_Calorie_Counter_Analysis",
+  "total_screenshots": 200,
+  "analyzed_at": "2025-12-13T20:40:48.177194"
+}

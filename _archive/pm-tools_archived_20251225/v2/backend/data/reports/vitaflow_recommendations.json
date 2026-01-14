@@ -1,0 +1,75 @@
+{
+  "generated_at": "2025-12-24T14:18:09.125920",
+  "recommended_sequence": {
+    "cluster": "ai_driven",
+    "positions": {
+      "P1": {
+        "recommended_type": "VP",
+        "confidence": 0.4666666666666667,
+        "alternatives": [
+          "AUTHORITY",
+          "CORE_FUNC"
+        ]
+      },
+      "P2": {
+        "recommended_type": "VP",
+        "confidence": 0.3333333333333333,
+        "alternatives": [
+          "CORE_FUNC",
+          "AI_DEMO"
+        ]
+      },
+      "P3": {
+        "recommended_type": "CORE_FUNC",
+        "confidence": 0.4666666666666667,
+        "alternatives": [
+          "VP",
+          "AI_DEMO"
+        ]
+      },
+      "P4": {
+        "recommended_type": "CORE_FUNC",
+        "confidence": 0.6,
+        "alternatives": [
+          "VP",
+          "SOCIAL_PROOF"
+        ]
+      },
+      "P5": {
+        "recommended_type": "CORE_FUNC",
+        "confidence": 0.4666666666666667,
+        "alternatives": [
+          "PERSONALIZATION",
+          "VP"
+        ]
+      },
+      "P6": {
+        "recommended_type": "CORE_FUNC",
+        "confidence": 0.6,
+        "alternatives": [
+          "RESULT_PREVIEW",
+          "VP"
+        ]
+      }
+    }
+  },
+  "must_have_elements": [
+    "Device_Mockup",
+    "Data_Visualization"
+  ],
+  "recommended_psychology": [
+    "commitment",
+    "authority",
+    "liking",
+    "social_proof",
+    "unity"
+  ],
+  "design_guidelines": {
+    "P1": "Use VP (Value Proposition) - 100% of apps do this",
+    "P2": "AI_DEMO or CORE_FUNC - show your key feature",
+    "P3": "RESULT_PREVIEW or PERSONALIZATION",
+    "P4": "SOCIAL_PROOF - build trust",
+    "P5": "Additional features or AUTHORITY",
+    "P6": "FREE_TRIAL - conversion CTA"
+  }
+}

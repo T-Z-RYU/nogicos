@@ -1,0 +1,117 @@
+<state 0>
+URL: /
+Title: Reddit - The heart of the internet
+
+document: "Reddit - The heart of the internet" {
+  link: "Home", url: "/";
+  button: "Get App";
+  link: "Log In", url: "/login/";
+  button: "Expand user menu", expanded: False;
+  link: "r/worldnews - Zelensky Proposes Demilitarized Zone in Eastern Ukraine as Way to Peace Zelenskyy reveals peace plan Zelensky Proposes Demilitarized Zone in Eastern Ukraine as Way to Peace r/worldnews icon r/worldnews and more", url: "/search/?q=Ukraine+AND+peace&source=trending";
+  link: "r/popculturechat - Trump Calls Stephen Colbert a 'Dead Man Walking' and Urges CBS to 'Put Him to Sleep' Trump comments on Colbert Trump Calls Stephen Colbert a 'Dead Man Walking' and Urges CBS to 'Put Him to Sleep' r/popculturechat icon r/popculturechat and more", url: "/search/?q=Trump+AND+Colbert&source=trending";
+  link: "r/television - 'The Middle' Actor Pat Finn Dead at 60 After Cancer Battle Actor Pat Finn dies at 60 'The Middle' Actor Pat Finn Dead at 60 After Cancer Battle r/television icon r/television and more", url: "/search/?source=trending";
+  link: "r/law - DOJ says it has found over a million additional documents potentially related to Epstein Epstein files latest DOJ says it has found over a million additional documents potentially related to Epstein r/law icon r/law and more", url: "/search/?q=%28Epstein+OR+%22Epstein+files%22%29+AND+%28DOJ+OR+%22Justice+Department%22%29+AND+%28release+OR+redaction+OR+volunteer%29&source=trending";
+  main {
+    article: "I stopped masking at home and my partner says I'm becoming \"impossible\"" {
+      link: "I stopped masking at home and my partner says I'm becoming \"impossible\"", url: "/r/TwoXChromosomes/comments/1putz9p/i_stopped_masking_at_home_and_my_partner_says_im/";
+      link: "r/TwoXChromosomes icon r/TwoXChromosomes", expanded: False, url: "/r/TwoXChromosomes/";
+      link: "I stopped masking at home and my partner says I'm becoming \"impossible\"", url: "/r/TwoXChromosomes/comments/1putz9p/i_stopped_masking_at_home_and_my_partner_says_im/";
+      link: "I (32F) got diagnosed this year after a long spiral of burnout that I kept calling \"just stress\" for basically a decade. The part that hit me hardest was realizing how much masking I do, even at home. I always acted like the TV being loud was fine, like surprise guests were fine, like being touched from behind while I'm cooking was fine. I smiled, made jokes, drank wine to take the edge off, and then crashed later in the bathroom with the fan on because I felt like my skin was buzzing. My therapist suggested I try doing the opposite: stop pretending. So lately when I get home from work I put on my noise-canceling headphones, I sit in the bedroom with the light low for 20-30 min, and I ask for no questions until I've decompressed. I also started doing small routines on purpose (same dinner schedule, same grocery list, Sunday laundry) because it keeps my brain from melting. It sounds so boring written out, but it makes me feel normal-ish. The thing is, my partner (34M) says I'm \"turning the house into a museum\" and that he feels like he has to tiptoe around me. He keeps saying stuff like \"you never used to be like this\" which is making me want to scream because I DID used to be like this, I just hid it. I can feel myself getting snappy when he plays videos on his phone at full volume or turns on the blender right when I walk in, and he gets mad that I react. He also takes it personally when I flinch or pull away if he tries to hug me while I'm still in that fragile post-work state. He says I'm rejecting him and making him feel unwanted. Last night was the worst. I asked him (calmly, I swear) if we could keep the living room quieter after 9 because that's when I start getting overstimulated and my head starts pounding. He rolled his eyes and said, \"So now there are rules. Great. Can't wait to see what else your diagnosis lets you control.\" That line felt like a slap. I told him it's not control, it's access, like ramps are not \"controlling\" stairs. He laughed and said I'm comparing him to a building, and that I'm using therapy words to make him the bad guy. Then he said he misses the \"fun version\" of me that would stay up late and watch shows and be spontaneous. I tried to explain that fun version was me running on fumes, and that I was basically dissociating half the time. He stared at me and said, \"Honestly, it just sounds like you don't want a relationship.\" I went to bed early and he slept on the couch by choice. Today he acted normal and I feel insane , like maybe I did overreact. But I'm also starting to dread evenings because I know the minute I ask for something I need, he hears it as an accusation. Am I being unreasonable here, or is this a him problem?", url: "/r/TwoXChromosomes/comments/1putz9p/i_stopped_masking_at_home_and_my_partner_says_im/";
+    };
+
+    link: "u/apple avatar u/apple", expanded: False, url: "/user/apple/";
+  };
+
+  complementary {
+    complementary: "Popular Communities" {
+      presentation {
+        link: "r/AskMen icon r/AskMen 7,111,189 members", url: "/r/AskMen";
+      };
+
+      presentation {
+        link: "r/AskWomen icon r/AskWomen 5,594,823 members", url: "/r/AskWomen";
+      };
+
+      presentation {
+        link: "r/PS4 icon r/PS4 5,510,933 members", url: "/r/PS4";
+      };
+
+      presentation {
+        link: "r/apple icon r/apple 6,296,437 members", url: "/r/apple";
+      };
+
+      presentation {
+        link: "r/NBA2k icon r/NBA2k 743,077 members", url: "/r/NBA2k";
+      };
+
+      button: "See more";
+    };
+  };
+
+  button: "Collapse Navigation";
+  navigation: "Primary" {
+    navigation: "Reddit resources" {
+      group, expanded: True {
+        presentation {
+          link: "About Reddit", url: "https://www.redditinc.com";
+        };
+
+        presentation {
+          link: "Advertise", url: "https://ads.reddit.com/register";
+        };
+
+        presentation {
+          link: "Developer Platform", url: "https://developers.reddit.com/?utm_source=reddit&utm_medium=left_nav_resources";
+        };
+
+        presentation {
+          link: "Reddit Pro BETA", url: "/reddit-pro?utm_source=reddit&utm_medium=left_nav_resources";
+        };
+
+        presentation {
+          link: "Help", url: "https://support.reddithelp.com/hc?utm_source=reddit&utm_medium=footer&utm_campaign=evergreen";
+        };
+
+        presentation {
+          link: "Blog", url: "https://redditblog.com/";
+        };
+
+        presentation {
+          link: "Careers", url: "https://www.redditinc.com/careers";
+        };
+
+        presentation {
+          link: "Press", url: "https://www.redditinc.com/press";
+        };
+
+        presentation {
+          link: "Communities", url: "/best/communities/1/";
+        };
+
+        presentation {
+          link: "Best of Reddit", url: "/posts/2025/global/";
+        };
+
+        presentation {
+          link: "Best of Reddit in Portuguese", url: "/posts/2025/tl-pt-BR/";
+        };
+      };
+    };
+  };
+
+  iframe, name: "a-uflfw1f07q9q", url: "https://www.google.com/recaptcha/enterprise/anchor?ar=1&hl=en&size=invisible&anchor-ms=20000&execute-ms=30000" {
+    document: "reCAPTCHA" {
+      link: "Privacy", url: "https://www.google.com/intl/en/policies/privacy/";
+      link: "Terms", url: "https://www.google.com/intl/en/policies/terms/";
+    };
+  };
+};
+
+</state 0>
+
+<terminate_with_result>
+Which keywords should I search for, and which subreddit should I restrict the search to (e.g., keywords: "python asyncio", subreddit: "learnpython")?
+</terminate_with_result>
+
+---
+

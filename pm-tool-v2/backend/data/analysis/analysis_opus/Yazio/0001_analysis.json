@@ -1,0 +1,77 @@
+{
+  "app_name": "Yazio",
+  "screenshot_index": 1,
+  "screenshot_filename": "0001.png",
+  "total_onboarding_screens": 98,
+  "position_percentage": 1.0,
+  
+  "classification": {
+    "functional_purpose": {
+      "primary_category": "Value",
+      "secondary_type": "Splash",
+      "confidence": 0.99,
+      "description": "应用启动闪屏，展示品牌Logo和吉祥物"
+    },
+    "funnel_stage": {
+      "stage": "Awareness",
+      "position_in_funnel": "top",
+      "description": "用户首次接触产品，品牌认知建立"
+    },
+    "psychological_tactic": {
+      "primary_tactic": "None",
+      "secondary_tactics": [],
+      "tactic_strength": "none",
+      "description": "纯品牌展示"
+    },
+    "interaction_pattern": {
+      "primary_interaction": "PassiveRead",
+      "is_skippable": false,
+      "input_effort": "none",
+      "description": "用户被动等待加载"
+    },
+    "ui_pattern": {
+      "layout_type": "FullScreenIllustration",
+      "has_progress_indicator": false,
+      "has_illustration": true,
+      "has_animation": true,
+      "color_scheme": "light",
+      "description": "白色背景，中央品牌Logo和可爱吉祥物"
+    },
+    "commitment_level": {
+      "level": 1,
+      "commitment_type": "time",
+      "reversibility": "reversible",
+      "description": "无承诺，仅等待"
+    }
+  },
+  
+  "deep_analysis": {
+    "design_intent": "通过可爱的吉祥物形象建立亲和力，区别于其他健康App的严肃风格",
+    "ux_observation": "绿色小怪物吉祥物设计独特，增加品牌记忆点。与MyFitnessPal等竞品的纯Logo设计形成差异化",
+    "conversion_impact": "neutral",
+    "potential_issues": [
+      "吉祥物风格可能不适合追求专业感的用户群体"
+    ],
+    "best_practice_alignment": "利用情感设计建立用户连接，符合现代App品牌化趋势"
+  },
+  
+  "raw_observation": {
+    "visible_text": [
+      "yazio",
+      "App Store"
+    ],
+    "ui_elements": [
+      "品牌Logo",
+      "绿色吉祥物",
+      "系统返回标识"
+    ],
+    "brand_elements": [
+      "Yazio品牌名",
+      "绿色吉祥物角色",
+      "圆润字体风格"
+    ]
+  },
+  
+  "analysis_method": "claude_opus_4.5",
+  "analyzed_at": "2025-12-22T00:00:00"
+}

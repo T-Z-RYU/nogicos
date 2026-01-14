@@ -1,0 +1,24 @@
+{
+  "app_type": "社交媒体/内容分享类App",
+  "onboarding": {
+    "start": 1,
+    "end": 45,
+    "steps": [
+      "启动页面",
+      "登录/注册",
+      "权限请求",
+      "个人信息设置",
+      "兴趣选择",
+      "功能介绍"
+    ]
+  },
+  "paywall": {
+    "position": 35,
+    "in_onboarding": true
+  },
+  "core_start": 46,
+  "summary": "采用较长的引导流程，在用户完成基本设置后展示付费功能，然后进入核心社交功能",
+  "project": "Runna_Running_Training_Plans_Analysis",
+  "total_screenshots": 200,
+  "analyzed_at": "2025-12-13T20:40:58.699683"
+}

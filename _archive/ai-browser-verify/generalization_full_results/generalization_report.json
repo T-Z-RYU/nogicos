@@ -1,0 +1,36 @@
+{
+  "test_date": "2025-12-25T10:07:03.737533",
+  "model": "gpt-5.2",
+  "results": [
+    {
+      "site": "Hacker News",
+      "site_url": "https://news.ycombinator.com",
+      "task": "Search for 'python' using the search feature",
+      "kb_source": "C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\debug_explore_output\\iter_1\\kb_post",
+      "success": true,
+      "num_steps": 2,
+      "time_seconds": 29.99,
+      "skills_used": []
+    },
+    {
+      "site": "Reddit",
+      "site_url": "https://old.reddit.com/r/programming",
+      "task": "Search for 'python' using the search feature",
+      "kb_source": "C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\debug_explore_output\\iter_1\\kb_post",
+      "success": true,
+      "num_steps": 2,
+      "time_seconds": 33.58,
+      "skills_used": []
+    },
+    {
+      "site": "Lobsters",
+      "site_url": "https://lobste.rs",
+      "task": "Search for 'python' using the search feature",
+      "kb_source": "C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\debug_explore_output\\iter_1\\kb_post",
+      "success": false,
+      "num_steps": 3,
+      "time_seconds": 48.42,
+      "skills_used": []
+    }
+  ]
+}

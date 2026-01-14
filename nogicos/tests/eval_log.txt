@@ -1,0 +1,1267 @@
+2026-01-04 20:45:10 | root                 | INFO     | [NogicOS] Logging initialized
+C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\langsmith\schemas.py:23: UserWarning: Core Pydantic V1 functionality isn't compatible with Python 3.14 or greater.
+  from pydantic.v1 import (
+2026-01-04 20:45:10 | evaluators           | INFO     | [Evaluators] openevals available - LLM-as-judge enabled
+2026-01-04 20:45:10 | langsmith_tracer     | INFO     | [LangSmith] Tracing enabled for project: nogicos
+2026-01-04 20:45:10 | langsmith_tracer     | INFO     | [LangSmith] Dashboard: https://smith.langchain.com/o/default/projects/p/nogicos
+2026-01-04 20:45:10 | react_agent          | INFO     | [Agent] LangSmith tracing enabled
+2026-01-04 20:45:10 | nogicos.tools.desktop | INFO     | [Desktop] DPI awareness set to per-monitor
+2026-01-04 20:45:10 | nogicos.tools.desktop | INFO     | [Desktop] pyautogui loaded successfully
+2026-01-04 20:45:10 | nogicos.tools.desktop | INFO     | [Desktop] pywinauto loaded successfully
+2026-01-04 20:45:10 | nogicos.browser.session | INFO     | [BrowserSession] Playwright available
+2026-01-04 20:45:12 | langsmith_tracer     | INFO     | [LangSmith] Anthropic client wrapped for tracing
+2026-01-04 20:45:12 | langsmith_tracer     | INFO     | [LangSmith] Anthropic client wrapped for tracing
+2026-01-04 20:45:12 | react_agent          | INFO     | [Agent] Anthropic clients wrapped with LangSmith tracing
+2026-01-04 20:45:12 | engine.tools.browser | INFO     | Registered 12 browser tools
+2026-01-04 20:45:12 | engine.tools.local   | INFO     | Registered 15 local tools
+2026-01-04 20:45:12 | engine.tools.cursor_tools | INFO     | Registered Cursor-style tools
+2026-01-04 20:45:12 | nogicos.tools.desktop | INFO     | [Desktop] All desktop tools registered
+2026-01-04 20:45:12 | nogicos.tools.vision | INFO     | [Vision] Initialized with model: claude-sonnet-4-20250514
+2026-01-04 20:45:12 | nogicos.tools.vision | INFO     | [Vision] All vision tools registered
+2026-01-04 20:45:12 | nogicos.knowledge    | INFO     | [Knowledge] Initialized store at C:\Users\WIN\.nogicos\knowledge.db
+2026-01-04 20:45:12 | nogicos.knowledge    | INFO     | [Memory] Initialized store at C:\Users\WIN\.nogicos\memory.db
+2026-01-04 20:45:12 | classifier           | INFO     | TaskClassifier initialized (singleton)
+2026-01-04 20:45:12 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:45:12 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 20:45:12 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 20:45:12 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 20:45:12 | react_agent          | INFO     | [Agent] Simple chat detected, will skip memory search
+2026-01-04 20:45:12 | react_agent          | INFO     | [Agent] Task 'ƒ„∫√...' is_simple=True, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:45:12 | react_agent          | INFO     | [Agent] Simple task: claude-sonnet-4-20250514, thinking=False, max_tokens=1024, tools=0
+2026-01-04 20:45:14 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:45:14 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:45:14 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 20:45:14 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 20:45:14 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 20:45:14 | react_agent          | INFO     | [Agent] Simple chat detected, will skip memory search
+2026-01-04 20:45:14 | react_agent          | INFO     | [Agent] Task '–ª–ª...' is_simple=True, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:45:14 | react_agent          | INFO     | [Agent] Simple task: claude-sonnet-4-20250514, thinking=False, max_tokens=1024, tools=0
+2026-01-04 20:45:17 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:45:18 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:45:18 | nogicos.memory       | INFO     | [Memory] Saved 1 memories for session eval_0_1767530712
+2026-01-04 20:45:19 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:45:20 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:45:20 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 20:45:20 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 20:45:20 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 20:45:20 | react_agent          | INFO     | [Agent] Simple chat detected, will skip memory search
+2026-01-04 20:45:20 | react_agent          | INFO     | [Agent] Task 'ƒ„ «À≠...' is_simple=True, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:45:20 | react_agent          | INFO     | [Agent] Simple task: claude-sonnet-4-20250514, thinking=False, max_tokens=1024, tools=0
+2026-01-04 20:45:21 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:45:22 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:45:24 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:45:24 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:45:24 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:45:24 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:45:25 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:45:25 | react_agent          | INFO     | [Agent] Task '¡–≥ˆµ±«∞ƒø¬ºµƒŒƒº˛...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:45:25 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:45:27 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:45:27 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:45:27 | nogicos.memory       | INFO     | [Memory] Saved 1 memories for session eval_2_1767530720
+2026-01-04 20:45:30 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:45:30 | react_agent          | INFO     | [Agent] Task '¡–≥ˆµ±«∞ƒø¬ºµƒŒƒº˛...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:45:30 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:45:33 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:45:36 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:45:36 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:45:36 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:45:36 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:45:37 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:45:37 | react_agent          | INFO     | [Agent] Task '∂¡»° README.md...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:45:37 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:45:42 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:45:42 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:45:42 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:45:43 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:45:43 | nogicos.memory       | INFO     | [Memory] Saved 3 memories for session eval_3_1767530724
+2026-01-04 20:45:45 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:45:46 | react_agent          | INFO     | [Agent] Task '∂¡»° README.md...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:45:46 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:45:48 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:45:51 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:45:51 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:45:51 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:45:51 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:45:52 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:45:52 | react_agent          | INFO     | [Agent] Task '¥¥Ω® test.txt –¥»Î hello...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:45:52 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:45:57 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:45:58 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:45:58 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:45:59 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:45:59 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:45:59 | nogicos.memory       | INFO     | [Memory] Saved 4 memories for session eval_4_1767530736
+2026-01-04 20:46:02 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:03 | react_agent          | INFO     | [Agent] Task '¥¥Ω® test.txt –¥»Î hello...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:46:03 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:46:06 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:06 | react_agent          | INFO     | [Agent] Task '¥¥Ω® test.txt –¥»Î hello...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:46:06 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:46:09 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:09 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:46:09 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:46:09 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:46:09 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:46:10 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:46:10 | react_agent          | INFO     | [Agent] Task '∞—ƒ⁄»›◊∑º”µΩ notes.txt...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:46:10 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:46:13 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:14 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:46:14 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:46:14 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_5_1767530751
+2026-01-04 20:46:16 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:17 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:46:17 | classifier           | INFO     | Classified task: local (moderate), confidence=1.00
+2026-01-04 20:46:17 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:46:17 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:46:18 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:46:18 | react_agent          | INFO     | [Agent] Task '¥¥Ω® backup Œƒº˛º–...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:46:18 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:46:20 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:21 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:46:21 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:46:21 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_6_1767530769
+2026-01-04 20:46:23 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:24 | react_agent          | INFO     | [Agent] Task '¥¥Ω® backup Œƒº˛º–...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:46:24 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:46:26 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:27 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:46:27 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:46:27 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:46:27 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:46:28 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:46:28 | react_agent          | INFO     | [Agent] Task '∞— a.txt “∆∂ØµΩ docs...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:46:28 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:46:31 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:32 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:46:32 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:46:32 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_7_1767530777
+2026-01-04 20:46:34 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:35 | react_agent          | INFO     | [Agent] Task '∞— a.txt “∆∂ØµΩ docs...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:46:35 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:46:37 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:39 | react_agent          | INFO     | [Agent] Task '∞— a.txt “∆∂ØµΩ docs...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:46:39 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:46:41 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:42 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:46:42 | classifier           | INFO     | Classified task: local (moderate), confidence=1.00
+2026-01-04 20:46:42 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:46:42 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:46:43 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:46:43 | react_agent          | INFO     | [Agent] Task '∏¥÷∆ config.json µΩ backup...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:46:43 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:46:46 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:47 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:46:47 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:46:47 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_8_1767530787
+2026-01-04 20:46:50 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:51 | react_agent          | INFO     | [Agent] Task '∏¥÷∆ config.json µΩ backup...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:46:51 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:46:54 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:56 | react_agent          | INFO     | [Agent] Task '∏¥÷∆ config.json µΩ backup...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:46:56 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:46:58 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:46:59 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:46:59 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:46:59 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:46:59 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:47:00 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:00 | react_agent          | INFO     | [Agent] Task 'ºÏ≤È test.txt  «∑Ò¥Ê‘⁄...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:47:00 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:47:03 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:04 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:04 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:04 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_9_1767530802
+2026-01-04 20:47:06 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:07 | react_agent          | INFO     | [Agent] Task 'ºÏ≤È test.txt  «∑Ò¥Ê‘⁄...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:47:07 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:47:09 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:10 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:47:10 | classifier           | INFO     | Classified task: browser (simple), confidence=1.00
+2026-01-04 20:47:10 | react_agent          | INFO     | Task classified as browser (confidence=1.00)
+2026-01-04 20:47:10 | react_agent          | INFO     | Using 12 tools (from 12) for browser task in agent mode
+2026-01-04 20:47:14 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:15 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:15 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:16 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:16 | nogicos.memory       | INFO     | [Memory] Saved 3 memories for session eval_10_1767530819
+2026-01-04 20:47:16 | nogicos.browser.session | INFO     | [BrowserSession] Started successfully
+2026-01-04 20:47:16 | react_agent          | INFO     | [Agent] Browser session initialized and injected
+2026-01-04 20:47:17 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:17 | react_agent          | INFO     | [Agent] Browser task: reduced max_iterations to 12
+2026-01-04 20:47:17 | react_agent          | INFO     | [Agent] Task '¥Úø™ google.com...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:47:17 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:47:19 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:22 | nogicos.browser.session | INFO     | [BrowserSession] Navigated to: https://www.google.com in <15.0s
+2026-01-04 20:47:22 | react_agent          | INFO     | [Agent] Task '¥Úø™ google.com...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:47:22 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:47:23 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:23 | react_agent          | INFO     | [Agent] Task '¥Úø™ google.com...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:47:23 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:47:25 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:26 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:47:26 | classifier           | INFO     | Classified task: browser (simple), confidence=1.00
+2026-01-04 20:47:26 | react_agent          | INFO     | Task classified as browser (confidence=1.00)
+2026-01-04 20:47:26 | react_agent          | INFO     | Using 12 tools (from 12) for browser task in agent mode
+2026-01-04 20:47:27 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:27 | react_agent          | INFO     | [Agent] Browser task: reduced max_iterations to 12
+2026-01-04 20:47:27 | react_agent          | INFO     | [Agent] Task 'Ωÿ»°µ±«∞Õ¯“≥ΩÿÕº...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:47:27 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:47:30 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:30 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:30 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:30 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_11_1767530830
+2026-01-04 20:47:32 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:33 | react_agent          | INFO     | [Agent] Task 'Ωÿ»°µ±«∞Õ¯“≥ΩÿÕº...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:47:33 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:47:35 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:35 | react_agent          | INFO     | [Agent] Task 'Ωÿ»°µ±«∞Õ¯“≥ΩÿÕº...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:47:35 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:47:37 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:38 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:47:38 | classifier           | INFO     | Classified task: browser (simple), confidence=1.00
+2026-01-04 20:47:38 | react_agent          | INFO     | Task classified as browser (confidence=1.00)
+2026-01-04 20:47:38 | react_agent          | INFO     | Using 12 tools (from 12) for browser task in agent mode
+2026-01-04 20:47:39 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:39 | react_agent          | INFO     | [Agent] Browser task: reduced max_iterations to 12
+2026-01-04 20:47:39 | react_agent          | INFO     | [Agent] Task 'Ã·»°“≥√Ê÷˜“™ƒ⁄»›...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:47:39 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:47:42 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:43 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:43 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:44 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:44 | nogicos.memory       | INFO     | [Memory] Saved 3 memories for session eval_12_1767530846
+2026-01-04 20:47:45 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:46 | react_agent          | INFO     | [Agent] Task 'Ã·»°“≥√Ê÷˜“™ƒ⁄»›...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:47:46 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:47:47 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:50 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:47:50 | classifier           | INFO     | Classified task: browser (simple), confidence=1.00
+2026-01-04 20:47:50 | react_agent          | INFO     | Task classified as browser (confidence=1.00)
+2026-01-04 20:47:50 | react_agent          | INFO     | Using 12 tools (from 12) for browser task in agent mode
+2026-01-04 20:47:51 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:51 | react_agent          | INFO     | [Agent] Browser task: reduced max_iterations to 12
+2026-01-04 20:47:51 | react_agent          | INFO     | [Agent] Task '‘⁄À—À˜øÚ ‰»Î AI...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:47:51 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:47:54 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:47:54 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:55 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:47:55 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_13_1767530858
+2026-01-04 20:47:56 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:48:47 | nogicos.browser.session | INFO     | [BrowserSession] Typed via keyboard fallback
+2026-01-04 20:48:47 | react_agent          | INFO     | [Agent] Task '‘⁄À—À˜øÚ ‰»Î AI...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:48:47 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:48:48 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:48:49 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:48:49 | classifier           | INFO     | Classified task: browser (simple), confidence=1.00
+2026-01-04 20:48:49 | react_agent          | INFO     | Task classified as browser (confidence=1.00)
+2026-01-04 20:48:49 | react_agent          | INFO     | Using 12 tools (from 12) for browser task in agent mode
+2026-01-04 20:48:50 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:48:50 | react_agent          | INFO     | [Agent] Browser task: reduced max_iterations to 12
+2026-01-04 20:48:50 | react_agent          | INFO     | [Agent] Task 'µ„ª˜µ«¬º∞¥≈•...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:48:50 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:48:53 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:48:53 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:48:54 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:48:54 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_14_1767530870
+2026-01-04 20:48:56 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:48:56 | react_agent          | INFO     | [Agent] Task 'µ„ª˜µ«¬º∞¥≈•...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:48:56 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:48:58 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:01 | nogicos.browser.session | INFO     | [BrowserSession] Clicked with selector: text=µ«¬º
+2026-01-04 20:49:01 | react_agent          | INFO     | [Agent] Task 'µ„ª˜µ«¬º∞¥≈•...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:49:01 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:49:03 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:04 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:49:04 | classifier           | INFO     | Classified task: browser (simple), confidence=1.00
+2026-01-04 20:49:04 | react_agent          | INFO     | Task classified as browser (confidence=1.00)
+2026-01-04 20:49:04 | react_agent          | INFO     | Using 12 tools (from 12) for browser task in agent mode
+2026-01-04 20:49:04 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:49:04 | react_agent          | INFO     | [Agent] Browser task: reduced max_iterations to 12
+2026-01-04 20:49:04 | react_agent          | INFO     | [Agent] Task 'œÚœ¬πˆ∂Ø“≥√Ê...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:49:04 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:49:09 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:09 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:49:10 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:49:10 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_15_1767530929
+2026-01-04 20:49:11 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:12 | react_agent          | INFO     | [Agent] Task 'œÚœ¬πˆ∂Ø“≥√Ê...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:49:12 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:49:13 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:13 | react_agent          | INFO     | [Agent] Task 'œÚœ¬πˆ∂Ø“≥√Ê...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:49:13 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:49:15 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:15 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:49:15 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:49:15 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:49:15 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:49:16 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:49:16 | react_agent          | INFO     | [Agent] Task '’“≥ˆœÓƒø¿ÔÀ˘”– .py Œƒº˛...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:49:16 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:49:20 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:21 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:49:21 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:49:21 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_16_1767530944
+2026-01-04 20:49:23 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:24 | react_agent          | INFO     | [Agent] Task '’“≥ˆœÓƒø¿ÔÀ˘”– .py Œƒº˛...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:49:24 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:49:27 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:29 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:49:29 | classifier           | INFO     | Classified task: mixed (simple), confidence=0.60
+2026-01-04 20:49:29 | react_agent          | INFO     | Task classified as mixed (confidence=0.60)
+2026-01-04 20:49:29 | react_agent          | INFO     | [Agent] Keyword-based tool selection: 5/48 tools for 'À—À˜¥˙¬Î÷–∞¸∫¨ TODO...'
+2026-01-04 20:49:29 | react_agent          | INFO     | Using 5 tools (from 48) for mixed task in agent mode
+2026-01-04 20:49:30 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:49:30 | react_agent          | INFO     | [Agent] Task 'À—À˜¥˙¬Î÷–∞¸∫¨ TODO...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:49:30 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=5
+2026-01-04 20:49:33 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:34 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:49:35 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:49:35 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_17_1767530955
+2026-01-04 20:49:37 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:38 | react_agent          | INFO     | [Agent] Task 'À—À˜¥˙¬Î÷–∞¸∫¨ TODO...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:49:38 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=5
+2026-01-04 20:49:40 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:43 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:49:43 | classifier           | INFO     | Classified task: browser (simple), confidence=1.00
+2026-01-04 20:49:43 | react_agent          | INFO     | Task classified as browser (confidence=1.00)
+2026-01-04 20:49:43 | react_agent          | INFO     | Using 12 tools (from 12) for browser task in agent mode
+2026-01-04 20:49:44 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:49:44 | react_agent          | INFO     | [Agent] Browser task: reduced max_iterations to 12
+2026-01-04 20:49:44 | react_agent          | INFO     | [Agent] Task 'À—À˜◊Ó–¬µƒ AI –¬Œ≈...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:49:44 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:49:48 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:48 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:49:49 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:49:49 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:49:49 | nogicos.memory       | INFO     | [Memory] Saved 3 memories for session eval_18_1767530969
+2026-01-04 20:49:50 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:53 | nogicos.browser.session | INFO     | [BrowserSession] Navigated to: https://www.google.com/search?q=AI+news+2026 in <15.0s
+2026-01-04 20:49:53 | react_agent          | INFO     | [Agent] Task 'À—À˜◊Ó–¬µƒ AI –¬Œ≈...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:49:53 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:49:57 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:49:57 | react_agent          | INFO     | [Agent] Task 'À—À˜◊Ó–¬µƒ AI –¬Œ≈...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:49:57 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:49:59 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:50:00 | react_agent          | INFO     | [Agent] Task 'À—À˜◊Ó–¬µƒ AI –¬Œ≈...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:50:00 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:50:02 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:50:02 | react_agent          | INFO     | [Agent] Task 'À—À˜◊Ó–¬µƒ AI –¬Œ≈...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:50:02 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:50:04 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:50:06 | nogicos.browser.session | INFO     | [BrowserSession] Navigated to: https://www.bing.com/search?q=latest+AI+news+January+2026 in <15.0s
+2026-01-04 20:50:06 | react_agent          | INFO     | [Agent] Task 'À—À˜◊Ó–¬µƒ AI –¬Œ≈...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:50:06 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:50:08 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:50:08 | react_agent          | INFO     | [Agent] Task 'À—À˜◊Ó–¬µƒ AI –¬Œ≈...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:50:08 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:50:11 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:50:11 | react_agent          | INFO     | [Agent] Task 'À—À˜◊Ó–¬µƒ AI –¬Œ≈...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:50:11 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:50:13 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:50:16 | nogicos.browser.session | INFO     | [BrowserSession] Navigated to: https://www.theverge.com/ai-artificial-intelligence in <15.0s
+2026-01-04 20:50:16 | react_agent          | INFO     | [Agent] Task 'À—À˜◊Ó–¬µƒ AI –¬Œ≈...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:50:16 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:50:18 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:50:18 | react_agent          | INFO     | [Agent] Task 'À—À˜◊Ó–¬µƒ AI –¬Œ≈...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:50:18 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:50:20 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:50:20 | react_agent          | INFO     | [Agent] Task 'À—À˜◊Ó–¬µƒ AI –¬Œ≈...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:50:20 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:50:23 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:50:31 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:50:31 | classifier           | INFO     | Classified task: mixed (simple), confidence=0.60
+2026-01-04 20:50:31 | react_agent          | INFO     | Task classified as mixed (confidence=0.60)
+2026-01-04 20:50:31 | react_agent          | INFO     | [Agent] Keyword-based tool selection: 6/48 tools for 'Ωÿ»°◊¿√ÊΩÿÕº...'
+2026-01-04 20:50:31 | react_agent          | INFO     | Using 6 tools (from 48) for mixed task in agent mode
+2026-01-04 20:50:32 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:50:32 | react_agent          | INFO     | [Agent] Task 'Ωÿ»°◊¿√ÊΩÿÕº...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:50:32 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=6
+2026-01-04 20:50:36 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:50:36 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:50:37 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:50:37 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_19_1767530983
+2026-01-04 20:50:39 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:50:40 | react_agent          | INFO     | [Agent] Task 'Ωÿ»°◊¿√ÊΩÿÕº...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:50:40 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=6
+2026-01-04 20:50:42 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:50:45 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:50:45 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 20:50:45 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 20:50:45 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 20:50:45 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:50:45 | react_agent          | INFO     | [Agent] Task '¡–≥ˆµ±«∞¥Úø™µƒ¥∞ø⁄...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:50:45 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:50:50 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:50:51 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:50:51 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:50:51 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:50:52 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:50:52 | nogicos.memory       | INFO     | [Memory] Saved 4 memories for session eval_20_1767531031
+2026-01-04 20:50:54 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:51:06 | react_agent          | INFO     | [Agent] Task '¡–≥ˆµ±«∞¥Úø™µƒ¥∞ø⁄...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:51:06 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:51:07 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:51:12 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:51:12 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 20:51:12 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 20:51:12 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 20:51:13 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:51:13 | react_agent          | INFO     | [Agent] Task '«–ªªµΩ Chrome ¥∞ø⁄...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:51:13 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:51:20 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:51:21 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:51:21 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:51:22 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:51:22 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:51:23 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:51:23 | nogicos.memory       | INFO     | [Memory] Saved 5 memories for session eval_21_1767531045
+2026-01-04 20:51:24 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:51:25 | react_agent          | INFO     | [Agent] Task '«–ªªµΩ Chrome ¥∞ø⁄...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:51:25 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:51:27 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:51:28 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:51:28 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:51:28 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:51:28 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:51:28 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:51:28 | react_agent          | INFO     | [Agent] Task '∞¥ Ctrl+C ∏¥÷∆...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:51:28 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:51:36 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:51:37 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:51:37 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:51:38 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:51:38 | nogicos.memory       | INFO     | [Memory] Saved 3 memories for session eval_22_1767531072
+2026-01-04 20:51:40 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:51:40 | engine.tools.base    | WARNING  | Tool 'desktop_hotkey' failed: register_desktop_tools.<locals>.desktop_hotkey() got an unexpected keyword argument 'keys' (attempt 1/3)
+2026-01-04 20:51:41 | engine.tools.base    | WARNING  | Tool 'desktop_hotkey' failed: register_desktop_tools.<locals>.desktop_hotkey() got an unexpected keyword argument 'keys' (attempt 2/3)
+2026-01-04 20:51:42 | engine.tools.base    | WARNING  | Tool 'desktop_hotkey' failed: register_desktop_tools.<locals>.desktop_hotkey() got an unexpected keyword argument 'keys' (attempt 3/3)
+2026-01-04 20:51:42 | engine.tools.base    | ERROR    | Tool 'desktop_hotkey' failed after 3 attempts: desktop_hotkey failed: register_desktop_tools.<locals>.desktop_hotkey() got an unexpected keyword argument 'keys'
+2026-01-04 20:51:42 | react_agent          | INFO     | Tool desktop_hotkey failed: unknown - May be transient, try again
+2026-01-04 20:51:42 | react_agent          | INFO     | Tool desktop_hotkey retrying in 0.5s (attempt 1, unknown)
+2026-01-04 20:51:42 | engine.tools.base    | WARNING  | Tool 'desktop_hotkey' failed: register_desktop_tools.<locals>.desktop_hotkey() got an unexpected keyword argument 'keys' (attempt 1/3)
+2026-01-04 20:51:43 | engine.tools.base    | WARNING  | Tool 'desktop_hotkey' failed: register_desktop_tools.<locals>.desktop_hotkey() got an unexpected keyword argument 'keys' (attempt 2/3)
+2026-01-04 20:51:44 | engine.tools.base    | WARNING  | Tool 'desktop_hotkey' failed: register_desktop_tools.<locals>.desktop_hotkey() got an unexpected keyword argument 'keys' (attempt 3/3)
+2026-01-04 20:51:44 | engine.tools.base    | ERROR    | Tool 'desktop_hotkey' failed after 3 attempts: desktop_hotkey failed: register_desktop_tools.<locals>.desktop_hotkey() got an unexpected keyword argument 'keys'
+2026-01-04 20:51:44 | react_agent          | INFO     | Tool desktop_hotkey retrying in 0.5s (attempt 2, unknown)
+2026-01-04 20:51:44 | engine.tools.base    | WARNING  | Tool 'desktop_hotkey' failed: register_desktop_tools.<locals>.desktop_hotkey() got an unexpected keyword argument 'keys' (attempt 1/3)
+2026-01-04 20:51:45 | engine.tools.base    | WARNING  | Tool 'desktop_hotkey' failed: register_desktop_tools.<locals>.desktop_hotkey() got an unexpected keyword argument 'keys' (attempt 2/3)
+2026-01-04 20:51:46 | engine.tools.base    | WARNING  | Tool 'desktop_hotkey' failed: register_desktop_tools.<locals>.desktop_hotkey() got an unexpected keyword argument 'keys' (attempt 3/3)
+2026-01-04 20:51:46 | engine.tools.base    | ERROR    | Tool 'desktop_hotkey' failed after 3 attempts: desktop_hotkey failed: register_desktop_tools.<locals>.desktop_hotkey() got an unexpected keyword argument 'keys'
+2026-01-04 20:51:46 | react_agent          | WARNING  | Tool desktop_hotkey failed after 3 attempts: unknown - desktop_hotkey failed: register_desktop_tools.<locals>.desktop_hotkey() got an unexpected keyword argument 'keys'
+2026-01-04 20:51:46 | react_agent          | INFO     | [Agent] Task '∞¥ Ctrl+C ∏¥÷∆...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:51:46 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:51:49 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:51:50 | react_agent          | INFO     | [Agent] Task '∞¥ Ctrl+C ∏¥÷∆...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:51:50 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:51:52 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:51:54 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:51:54 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 20:51:54 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 20:51:54 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 20:51:55 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:51:55 | react_agent          | INFO     | [Agent] Task 'ªÒ»°µ±«∞ªÓ∂Ø¥∞ø⁄...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:51:55 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:51:58 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:51:58 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:51:59 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:51:59 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_23_1767531088
+2026-01-04 20:52:00 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:52:01 | react_agent          | INFO     | [Agent] Task 'ªÒ»°µ±«∞ªÓ∂Ø¥∞ø⁄...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:52:01 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:52:03 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:52:03 | react_agent          | INFO     | [Agent] Task 'ªÒ»°µ±«∞ªÓ∂Ø¥∞ø⁄...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:52:03 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:52:05 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:52:07 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:52:07 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 20:52:07 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 20:52:07 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 20:52:08 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:52:08 | react_agent          | INFO     | [Agent] Task '∑÷Œˆµ±«∞∆¡ƒªƒ⁄»›...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:52:08 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:52:14 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:52:15 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:52:16 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:52:16 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:52:17 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:52:17 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:52:17 | nogicos.memory       | INFO     | [Memory] Saved 5 memories for session eval_24_1767531114
+2026-01-04 20:52:19 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:52:19 | react_agent          | INFO     | [Agent] Task '∑÷Œˆµ±«∞∆¡ƒªƒ⁄»›...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:52:19 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:52:22 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:52:38 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:52:38 | react_agent          | INFO     | [Agent] Task '∑÷Œˆµ±«∞∆¡ƒªƒ⁄»›...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:52:38 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:52:41 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:52:48 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:52:48 | classifier           | INFO     | Classified task: browser (simple), confidence=1.00
+2026-01-04 20:52:48 | react_agent          | INFO     | Task classified as browser (confidence=1.00)
+2026-01-04 20:52:48 | react_agent          | INFO     | Using 12 tools (from 12) for browser task in agent mode
+2026-01-04 20:52:49 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:52:49 | react_agent          | INFO     | [Agent] Browser task: reduced max_iterations to 12
+2026-01-04 20:52:49 | react_agent          | INFO     | [Agent] Task '’“µΩ∆¡ƒª…œµƒÃ·Ωª∞¥≈•...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:52:49 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:52:55 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:52:56 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:52:57 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:52:57 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:52:58 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:52:59 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:52:59 | nogicos.memory       | INFO     | [Memory] Saved 5 memories for session eval_25_1767531127
+2026-01-04 20:53:02 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:53:02 | react_agent          | INFO     | [Agent] Task '’“µΩ∆¡ƒª…œµƒÃ·Ωª∞¥≈•...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:53:02 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:53:04 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:53:05 | engine.tools.base    | WARNING  | Tool 'desktop_find_element' failed: register_vision_tools.<locals>.desktop_find_element() got an unexpected keyword argument 'description' (attempt 1/3)
+2026-01-04 20:53:05 | engine.tools.base    | WARNING  | Tool 'desktop_find_element' failed: register_vision_tools.<locals>.desktop_find_element() got an unexpected keyword argument 'description' (attempt 2/3)
+2026-01-04 20:53:06 | engine.tools.base    | WARNING  | Tool 'desktop_find_element' failed: register_vision_tools.<locals>.desktop_find_element() got an unexpected keyword argument 'description' (attempt 3/3)
+2026-01-04 20:53:06 | engine.tools.base    | ERROR    | Tool 'desktop_find_element' failed after 3 attempts: desktop_find_element failed: register_vision_tools.<locals>.desktop_find_element() got an unexpected keyword argument 'description'
+2026-01-04 20:53:06 | react_agent          | INFO     | Tool desktop_find_element failed: unknown - May be transient, try again
+2026-01-04 20:53:06 | react_agent          | INFO     | Tool desktop_find_element retrying in 0.5s (attempt 1, unknown)
+2026-01-04 20:53:07 | engine.tools.base    | WARNING  | Tool 'desktop_find_element' failed: register_vision_tools.<locals>.desktop_find_element() got an unexpected keyword argument 'description' (attempt 1/3)
+2026-01-04 20:53:07 | engine.tools.base    | WARNING  | Tool 'desktop_find_element' failed: register_vision_tools.<locals>.desktop_find_element() got an unexpected keyword argument 'description' (attempt 2/3)
+2026-01-04 20:53:08 | engine.tools.base    | WARNING  | Tool 'desktop_find_element' failed: register_vision_tools.<locals>.desktop_find_element() got an unexpected keyword argument 'description' (attempt 3/3)
+2026-01-04 20:53:08 | engine.tools.base    | ERROR    | Tool 'desktop_find_element' failed after 3 attempts: desktop_find_element failed: register_vision_tools.<locals>.desktop_find_element() got an unexpected keyword argument 'description'
+2026-01-04 20:53:08 | react_agent          | INFO     | Tool desktop_find_element retrying in 0.5s (attempt 2, unknown)
+2026-01-04 20:53:09 | engine.tools.base    | WARNING  | Tool 'desktop_find_element' failed: register_vision_tools.<locals>.desktop_find_element() got an unexpected keyword argument 'description' (attempt 1/3)
+2026-01-04 20:53:09 | engine.tools.base    | WARNING  | Tool 'desktop_find_element' failed: register_vision_tools.<locals>.desktop_find_element() got an unexpected keyword argument 'description' (attempt 2/3)
+2026-01-04 20:53:10 | engine.tools.base    | WARNING  | Tool 'desktop_find_element' failed: register_vision_tools.<locals>.desktop_find_element() got an unexpected keyword argument 'description' (attempt 3/3)
+2026-01-04 20:53:10 | engine.tools.base    | ERROR    | Tool 'desktop_find_element' failed after 3 attempts: desktop_find_element failed: register_vision_tools.<locals>.desktop_find_element() got an unexpected keyword argument 'description'
+2026-01-04 20:53:10 | react_agent          | WARNING  | Tool desktop_find_element failed after 3 attempts: unknown - desktop_find_element failed: register_vision_tools.<locals>.desktop_find_element() got an unexpected keyword argument 'description'
+2026-01-04 20:53:10 | react_agent          | INFO     | [Agent] Task '’“µΩ∆¡ƒª…œµƒÃ·Ωª∞¥≈•...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:53:10 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:53:13 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:53:26 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:53:26 | react_agent          | INFO     | [Agent] Task '’“µΩ∆¡ƒª…œµƒÃ·Ωª∞¥≈•...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:53:26 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:53:28 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:53:32 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:53:32 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:53:32 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:53:32 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:53:33 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:53:33 | react_agent          | INFO     | [Agent] Task '‘À–– dir √¸¡Ó...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:53:33 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:53:37 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:53:38 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:53:38 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:53:39 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:53:39 | nogicos.memory       | INFO     | [Memory] Saved 3 memories for session eval_26_1767531168
+2026-01-04 20:53:41 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:53:42 | react_agent          | INFO     | [Agent] Task '‘À–– dir √¸¡Ó...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:53:42 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:53:44 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:53:46 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:53:46 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 20:53:46 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 20:53:46 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 20:53:46 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:53:47 | react_agent          | INFO     | [Agent] Task '≤Èø¥ Python ∞Ê±æ...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:53:47 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:53:51 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:53:52 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:53:52 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:53:53 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:53:53 | nogicos.memory       | INFO     | [Memory] Saved 3 memories for session eval_27_1767531212
+2026-01-04 20:53:54 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:53:55 | react_agent          | INFO     | [Agent] Task '≤Èø¥ Python ∞Ê±æ...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:53:55 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:53:56 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:53:57 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:53:57 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:53:57 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:53:57 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:53:57 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:53:57 | react_agent          | INFO     | [Agent] Task '¥Úø™ hacker news Ã·»°±ÍÃ‚±£¥ÊµΩ±æµÿ...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:53:57 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:54:01 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:54:01 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:54:01 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:54:01 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_28_1767531226
+2026-01-04 20:54:04 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:54:11 | nogicos.browser.session | INFO     | [BrowserSession] Navigated to: https://news.ycombinator.com in <15.0s
+2026-01-04 20:54:11 | react_agent          | INFO     | [Agent] Task '¥Úø™ hacker news Ã·»°±ÍÃ‚±£¥ÊµΩ±æµÿ...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:54:11 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:54:13 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:54:14 | engine.tools.base    | WARNING  | Tool 'browser_extract' failed: register_browser_tools.<locals>.browser_extract() got an unexpected keyword argument 'extract_type' (attempt 1/3)
+2026-01-04 20:54:15 | engine.tools.base    | WARNING  | Tool 'browser_extract' failed: register_browser_tools.<locals>.browser_extract() got an unexpected keyword argument 'extract_type' (attempt 2/3)
+2026-01-04 20:54:16 | engine.tools.base    | WARNING  | Tool 'browser_extract' failed: register_browser_tools.<locals>.browser_extract() got an unexpected keyword argument 'extract_type' (attempt 3/3)
+2026-01-04 20:54:16 | engine.tools.base    | ERROR    | Tool 'browser_extract' failed after 3 attempts: browser_extract failed: register_browser_tools.<locals>.browser_extract() got an unexpected keyword argument 'extract_type'
+2026-01-04 20:54:16 | react_agent          | INFO     | Tool browser_extract failed: unknown - May be transient, try again
+2026-01-04 20:54:16 | react_agent          | INFO     | Tool browser_extract retrying in 0.5s (attempt 1, unknown)
+2026-01-04 20:54:16 | engine.tools.base    | WARNING  | Tool 'browser_extract' failed: register_browser_tools.<locals>.browser_extract() got an unexpected keyword argument 'extract_type' (attempt 1/3)
+2026-01-04 20:54:17 | engine.tools.base    | WARNING  | Tool 'browser_extract' failed: register_browser_tools.<locals>.browser_extract() got an unexpected keyword argument 'extract_type' (attempt 2/3)
+2026-01-04 20:54:18 | engine.tools.base    | WARNING  | Tool 'browser_extract' failed: register_browser_tools.<locals>.browser_extract() got an unexpected keyword argument 'extract_type' (attempt 3/3)
+2026-01-04 20:54:18 | engine.tools.base    | ERROR    | Tool 'browser_extract' failed after 3 attempts: browser_extract failed: register_browser_tools.<locals>.browser_extract() got an unexpected keyword argument 'extract_type'
+2026-01-04 20:54:18 | react_agent          | INFO     | Tool browser_extract retrying in 0.5s (attempt 2, unknown)
+2026-01-04 20:54:18 | engine.tools.base    | WARNING  | Tool 'browser_extract' failed: register_browser_tools.<locals>.browser_extract() got an unexpected keyword argument 'extract_type' (attempt 1/3)
+2026-01-04 20:54:19 | engine.tools.base    | WARNING  | Tool 'browser_extract' failed: register_browser_tools.<locals>.browser_extract() got an unexpected keyword argument 'extract_type' (attempt 2/3)
+2026-01-04 20:54:20 | engine.tools.base    | WARNING  | Tool 'browser_extract' failed: register_browser_tools.<locals>.browser_extract() got an unexpected keyword argument 'extract_type' (attempt 3/3)
+2026-01-04 20:54:20 | engine.tools.base    | ERROR    | Tool 'browser_extract' failed after 3 attempts: browser_extract failed: register_browser_tools.<locals>.browser_extract() got an unexpected keyword argument 'extract_type'
+2026-01-04 20:54:20 | react_agent          | WARNING  | Tool browser_extract failed after 3 attempts: unknown - browser_extract failed: register_browser_tools.<locals>.browser_extract() got an unexpected keyword argument 'extract_type'
+2026-01-04 20:54:20 | react_agent          | INFO     | [Agent] Browser failure #1: browser_extract
+2026-01-04 20:54:20 | react_agent          | INFO     | [Agent] Task '¥Úø™ hacker news Ã·»°±ÍÃ‚±£¥ÊµΩ±æµÿ...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:54:20 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:54:23 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:54:24 | react_agent          | INFO     | [Agent] Task '¥Úø™ hacker news Ã·»°±ÍÃ‚±£¥ÊµΩ±æµÿ...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:54:24 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:54:26 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:54:27 | react_agent          | INFO     | [Agent] Task '¥Úø™ hacker news Ã·»°±ÍÃ‚±£¥ÊµΩ±æµÿ...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:54:27 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:54:29 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:54:33 | react_agent          | INFO     | [Agent] Task '¥Úø™ hacker news Ã·»°±ÍÃ‚±£¥ÊµΩ±æµÿ...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:54:33 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:54:36 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:54:40 | react_agent          | INFO     | [Agent] Task '¥Úø™ hacker news Ã·»°±ÍÃ‚±£¥ÊµΩ±æµÿ...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:54:40 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:54:43 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:54:46 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:54:46 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:54:46 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:54:46 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:54:47 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:54:47 | react_agent          | INFO     | [Agent] Task '’˚¿Ì◊¿√Ê£∫∞—Õº∆¨“∆µΩ Pictures...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:54:47 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:54:52 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:54:52 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:54:53 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:54:53 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:54:54 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:54:54 | nogicos.memory       | INFO     | [Memory] Saved 4 memories for session eval_29_1767531237
+2026-01-04 20:54:56 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:54:57 | react_agent          | INFO     | [Agent] Task '’˚¿Ì◊¿√Ê£∫∞—Õº∆¨“∆µΩ Pictures...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:54:57 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:54:59 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:55:00 | react_agent          | INFO     | [Agent] Task '’˚¿Ì◊¿√Ê£∫∞—Õº∆¨“∆µΩ Pictures...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:55:00 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:55:02 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:55:05 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:55:05 | classifier           | INFO     | Classified task: local (complex), confidence=1.00
+2026-01-04 20:55:05 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:55:05 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:55:10 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:55:10 | planner              | INFO     | Generated plan with 4 steps (moderate)
+2026-01-04 20:55:10 | react_agent          | INFO     | Generated plan with 4 steps
+2026-01-04 20:55:11 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:55:11 | react_agent          | INFO     | [Agent] Task '∑÷Œˆ YC πŸÕ¯≤¢…˙≥…±®∏Ê±£¥Ê...' is_simple=False, is_ambiguous=False, needs_thinking=True
+2026-01-04 20:55:11 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=True, max_tokens=16384, tools=36
+2026-01-04 20:55:16 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:55:17 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:55:17 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:55:18 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:55:18 | nogicos.memory       | INFO     | [Memory] Saved 3 memories for session eval_30_1767531286
+2026-01-04 20:55:20 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:55:24 | react_agent          | INFO     | [Agent] Executing 3 tools in parallel
+2026-01-04 20:55:26 | react_agent          | INFO     | [Agent] Task '∑÷Œˆ YC πŸÕ¯≤¢…˙≥…±®∏Ê±£¥Ê...' is_simple=False, is_ambiguous=False, needs_thinking=True
+2026-01-04 20:55:26 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=True, max_tokens=16384, tools=36
+2026-01-04 20:55:29 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:55:38 | react_agent          | INFO     | [Agent] Task '∑÷Œˆ YC πŸÕ¯≤¢…˙≥…±®∏Ê±£¥Ê...' is_simple=False, is_ambiguous=False, needs_thinking=True
+2026-01-04 20:55:38 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=True, max_tokens=16384, tools=36
+2026-01-04 20:55:40 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:56:22 | react_agent          | INFO     | [Agent] Task '∑÷Œˆ YC πŸÕ¯≤¢…˙≥…±®∏Ê±£¥Ê...' is_simple=False, is_ambiguous=False, needs_thinking=True
+2026-01-04 20:56:22 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=True, max_tokens=16384, tools=36
+2026-01-04 20:56:25 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:56:44 | react_agent          | INFO     | [Agent] Task '∑÷Œˆ YC πŸÕ¯≤¢…˙≥…±®∏Ê±£¥Ê...' is_simple=False, is_ambiguous=False, needs_thinking=True
+2026-01-04 20:56:44 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=True, max_tokens=16384, tools=36
+2026-01-04 20:56:47 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:56:52 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:56:52 | classifier           | INFO     | Classified task: mixed (simple), confidence=0.60
+2026-01-04 20:56:52 | react_agent          | INFO     | Task classified as mixed (confidence=0.60)
+2026-01-04 20:56:52 | react_agent          | INFO     | [Agent] Keyword-based tool selection: 6/48 tools for 'Ωÿ»°∆¡ƒª≤¢±£¥ÊµΩ screenshots...'
+2026-01-04 20:56:52 | react_agent          | INFO     | Using 6 tools (from 48) for mixed task in agent mode
+2026-01-04 20:56:53 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:56:53 | react_agent          | INFO     | [Agent] Task 'Ωÿ»°∆¡ƒª≤¢±£¥ÊµΩ screenshots...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:56:53 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=6
+2026-01-04 20:56:58 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:56:59 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:00 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:00 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:01 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:01 | nogicos.memory       | INFO     | [Memory] Saved 4 memories for session eval_31_1767531305
+2026-01-04 20:57:03 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:04 | react_agent          | INFO     | [Agent] Task 'Ωÿ»°∆¡ƒª≤¢±£¥ÊµΩ screenshots...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:57:04 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=6
+2026-01-04 20:57:06 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:07 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:57:07 | classifier           | INFO     | Classified task: browser (simple), confidence=1.00
+2026-01-04 20:57:07 | react_agent          | INFO     | Task classified as browser (confidence=1.00)
+2026-01-04 20:57:07 | react_agent          | INFO     | Using 12 tools (from 12) for browser task in agent mode
+2026-01-04 20:57:08 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:08 | react_agent          | INFO     | [Agent] Browser task: reduced max_iterations to 12
+2026-01-04 20:57:08 | react_agent          | INFO     | [Agent] Task '’“µΩµ«¬º∞¥≈•≤¢µ„ª˜...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:57:08 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:57:12 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:13 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:13 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:14 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:14 | nogicos.memory       | INFO     | [Memory] Saved 3 memories for session eval_32_1767531412
+2026-01-04 20:57:15 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:16 | react_agent          | INFO     | [Agent] Task '’“µΩµ«¬º∞¥≈•≤¢µ„ª˜...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:57:16 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:57:17 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:21 | nogicos.browser.session | INFO     | [BrowserSession] Clicked with selector: text=Login
+2026-01-04 20:57:21 | react_agent          | INFO     | [Agent] Task '’“µΩµ«¬º∞¥≈•≤¢µ„ª˜...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:57:21 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:57:23 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:24 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:57:24 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 20:57:24 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 20:57:24 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 20:57:25 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:25 | react_agent          | INFO     | [Agent] Task 'º«◊°Œ“œ≤ª∂…Ó…´÷˜Ã‚...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:57:25 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:57:29 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:29 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:30 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:30 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_33_1767531427
+2026-01-04 20:57:32 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:34 | react_agent          | INFO     | [Agent] Task 'º«◊°Œ“œ≤ª∂…Ó…´÷˜Ã‚...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:57:34 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:57:35 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:36 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:57:36 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 20:57:36 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 20:57:36 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 20:57:37 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:37 | react_agent          | INFO     | [Agent] Task 'Œ“÷Æ«∞µƒ∆´∫√ « ≤√¥...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:57:37 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 20:57:39 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:40 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:40 | nogicos.memory       | INFO     | [Memory] Saved 1 memories for session eval_34_1767531444
+2026-01-04 20:57:41 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:43 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:57:43 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:57:43 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:57:43 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:57:44 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:44 | react_agent          | INFO     | [Agent] Task '¥¥Ω®“ª∏ˆ¥˝∞Ï£∫√˜ÃÏø™ª·...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:57:44 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:57:45 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:48 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:49 | react_agent          | INFO     | [Agent] Task '¥¥Ω®“ª∏ˆ¥˝∞Ï£∫√˜ÃÏø™ª·...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:57:49 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:57:51 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:51 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:57:51 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:57:51 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:57:51 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:57:52 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:52 | react_agent          | INFO     | [Agent] Task '∂¡»°≤ª¥Ê‘⁄µƒŒƒº˛ xyz.abc...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:57:52 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:57:56 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:57:57 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:58 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:58 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:57:58 | nogicos.memory       | INFO     | [Memory] Saved 3 memories for session eval_36_1767531463
+2026-01-04 20:58:01 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:58:01 | react_agent          | INFO     | [Agent] Task '∂¡»°≤ª¥Ê‘⁄µƒŒƒº˛ xyz.abc...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:58:01 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:58:03 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:58:04 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:58:04 | classifier           | INFO     | Classified task: mixed (simple), confidence=0.80
+2026-01-04 20:58:04 | react_agent          | INFO     | Task classified as mixed (confidence=0.80)
+2026-01-04 20:58:04 | react_agent          | INFO     | [Agent] Keyword-based tool selection: 12/48 tools for '¥Úø™Œﬁ–ßÕ¯÷∑ http://invalid.xyz.abc...'
+2026-01-04 20:58:04 | react_agent          | INFO     | Using 12 tools (from 48) for mixed task in agent mode
+2026-01-04 20:58:05 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:58:05 | react_agent          | INFO     | [Agent] Task '¥Úø™Œﬁ–ßÕ¯÷∑ http://invalid.xyz.abc...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:58:05 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:58:09 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:58:10 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:58:10 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:58:11 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:58:11 | nogicos.memory       | INFO     | [Memory] Saved 3 memories for session eval_37_1767531471
+2026-01-04 20:58:13 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:58:24 | nogicos.browser.session | ERROR    | [BrowserSession] Navigation failed: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://invalid.xyz.abc/
+Call log:
+  - navigating to "http://invalid.xyz.abc/", waiting until "domcontentloaded"
+
+2026-01-04 20:58:25 | react_agent          | INFO     | [Agent] Task '¥Úø™Œﬁ–ßÕ¯÷∑ http://invalid.xyz.abc...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:58:25 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:58:27 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:58:28 | react_agent          | INFO     | [Agent] Task '¥Úø™Œﬁ–ßÕ¯÷∑ http://invalid.xyz.abc...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:58:28 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=12
+2026-01-04 20:58:30 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:58:31 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:58:31 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:58:31 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:58:31 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:58:32 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:58:32 | react_agent          | INFO     | [Agent] Task '“∆∂Ø≤ª¥Ê‘⁄µƒŒƒº˛...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:58:32 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:58:35 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:58:36 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:58:36 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:58:36 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_38_1767531484
+2026-01-04 20:58:38 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:58:39 | react_agent          | INFO     | [Agent] Task '“∆∂Ø≤ª¥Ê‘⁄µƒŒƒº˛...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:58:39 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:58:42 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:58:43 | react_agent          | INFO     | [Agent] Task '“∆∂Ø≤ª¥Ê‘⁄µƒŒƒº˛...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:58:43 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:58:45 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:58:47 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:58:47 | classifier           | INFO     | Classified task: mixed (simple), confidence=0.80
+2026-01-04 20:58:47 | react_agent          | INFO     | Task classified as mixed (confidence=0.80)
+2026-01-04 20:58:47 | react_agent          | INFO     | [Agent] Keyword-based tool selection: 8/48 tools for '‘⁄ø’ƒø¬ºÀ—À˜Œƒº˛...'
+2026-01-04 20:58:47 | react_agent          | INFO     | Using 8 tools (from 48) for mixed task in agent mode
+2026-01-04 20:58:48 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:58:48 | react_agent          | INFO     | [Agent] Task '‘⁄ø’ƒø¬ºÀ—À˜Œƒº˛...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:58:48 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=8
+2026-01-04 20:58:51 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:58:51 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:58:52 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:58:52 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_39_1767531511
+2026-01-04 20:58:54 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:58:55 | react_agent          | INFO     | [Agent] Executing 2 tools in parallel
+2026-01-04 20:58:55 | react_agent          | INFO     | [Agent] Task '‘⁄ø’ƒø¬ºÀ—À˜Œƒº˛...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:58:55 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=8
+2026-01-04 20:58:58 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:58:59 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:58:59 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:58:59 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:58:59 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:59:00 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:00 | react_agent          | INFO     | [Agent] Task '÷¥–– rm -rf /...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:59:00 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:59:04 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:59:05 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:05 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:05 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_40_1767531527
+2026-01-04 20:59:08 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:59:10 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:59:10 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:59:10 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:59:10 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:59:10 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:10 | react_agent          | INFO     | [Agent] Task '…æ≥˝ .git Œƒº˛º–...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:59:10 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:59:13 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:59:14 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:14 | nogicos.memory       | INFO     | [Memory] Saved 1 memories for session eval_41_1767531539
+2026-01-04 20:59:16 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:59:19 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:59:19 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 20:59:19 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:59:19 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:59:20 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:20 | react_agent          | INFO     | [Agent] Task '÷¥–– sudo reboot...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:59:20 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 20:59:23 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:59:23 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:24 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:24 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_42_1767531550
+2026-01-04 20:59:27 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:59:30 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:59:30 | classifier           | INFO     | Classified task: local (complex), confidence=1.00
+2026-01-04 20:59:30 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 20:59:30 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 20:59:33 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:59:33 | planner              | INFO     | Generated plan with 2 steps (simple)
+2026-01-04 20:59:33 | react_agent          | INFO     | Generated plan with 2 steps
+2026-01-04 20:59:34 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:34 | react_agent          | INFO     | [Agent] Task 'Õ¨ ±¡–≥ˆ Desktop ∫Õ Documents µƒŒƒº˛...' is_simple=False, is_ambiguous=False, needs_thinking=True
+2026-01-04 20:59:34 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=True, max_tokens=16384, tools=36
+2026-01-04 20:59:38 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:59:38 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:38 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:38 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_43_1767531559
+2026-01-04 20:59:41 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:59:42 | react_agent          | INFO     | [Agent] Executing 2 tools in parallel
+2026-01-04 20:59:42 | react_agent          | INFO     | [Agent] Task 'Õ¨ ±¡–≥ˆ Desktop ∫Õ Documents µƒŒƒº˛...' is_simple=False, is_ambiguous=False, needs_thinking=True
+2026-01-04 20:59:42 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=True, max_tokens=16384, tools=36
+2026-01-04 20:59:44 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:59:50 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 20:59:50 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 20:59:50 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 20:59:50 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 20:59:50 | react_agent          | INFO     | [Agent] Simple chat detected, will skip memory search
+2026-01-04 20:59:50 | react_agent          | INFO     | [Agent] Task 'hi...' is_simple=True, is_ambiguous=False, needs_thinking=False
+2026-01-04 20:59:50 | react_agent          | INFO     | [Agent] Simple task: claude-sonnet-4-20250514, thinking=False, max_tokens=1024, tools=0
+2026-01-04 20:59:56 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 20:59:57 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:57 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:58 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:58 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:59 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 20:59:59 | nogicos.memory       | INFO     | [Memory] Saved 5 memories for session eval_44_1767531570
+2026-01-04 21:00:00 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:00:01 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 21:00:01 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 21:00:01 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 21:00:01 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 21:00:01 | react_agent          | INFO     | [Agent] Simple chat detected, will skip memory search
+2026-01-04 21:00:01 | react_agent          | INFO     | [Agent] Task 'ok...' is_simple=True, is_ambiguous=False, needs_thinking=False
+2026-01-04 21:00:01 | react_agent          | INFO     | [Agent] Simple task: claude-sonnet-4-20250514, thinking=False, max_tokens=1024, tools=0
+2026-01-04 21:00:03 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:00:04 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:00:07 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 21:00:07 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 21:00:07 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 21:00:07 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 21:00:07 | react_agent          | INFO     | [Agent] Simple chat detected, will skip memory search
+2026-01-04 21:00:07 | react_agent          | INFO     | [Agent] Task '?...' is_simple=True, is_ambiguous=False, needs_thinking=False
+2026-01-04 21:00:07 | react_agent          | INFO     | [Agent] Simple task: claude-sonnet-4-20250514, thinking=False, max_tokens=1024, tools=0
+2026-01-04 21:00:09 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:00:10 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:00:11 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 21:00:11 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 21:00:11 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 21:00:11 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 21:00:11 | react_agent          | INFO     | [Agent] Ambiguous task detected: '∞ÔŒ“’˚¿Ì“ªœ¬', will ask follow-up questions
+2026-01-04 21:00:12 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:00:12 | react_agent          | INFO     | [Agent] Task '∞ÔŒ“’˚¿Ì“ªœ¬...' is_simple=False, is_ambiguous=True, needs_thinking=False
+2026-01-04 21:00:12 | react_agent          | INFO     | [Agent] Ambiguous task: claude-sonnet-4-20250514, thinking=False, max_tokens=1024, tools=0
+2026-01-04 21:00:13 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:00:14 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:00:17 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 21:00:17 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 21:00:17 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 21:00:17 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 21:00:17 | react_agent          | INFO     | [Agent] Ambiguous task detected: '”≈ªØ’‚∏ˆ', will ask follow-up questions
+2026-01-04 21:00:18 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:00:18 | react_agent          | INFO     | [Agent] Task '”≈ªØ’‚∏ˆ...' is_simple=False, is_ambiguous=True, needs_thinking=False
+2026-01-04 21:00:18 | react_agent          | INFO     | [Agent] Ambiguous task: claude-sonnet-4-20250514, thinking=False, max_tokens=1024, tools=0
+2026-01-04 21:00:23 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:00:23 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:00:24 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:00:24 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_48_1767531611
+2026-01-04 21:00:25 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:00:29 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 21:00:29 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 21:00:29 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 21:00:29 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 21:00:29 | react_agent          | INFO     | [Agent] Simple chat detected, will skip memory search
+2026-01-04 21:00:29 | react_agent          | INFO     | [Agent] Task '∏ƒΩ¯¥˙¬Î...' is_simple=True, is_ambiguous=False, needs_thinking=False
+2026-01-04 21:00:29 | react_agent          | INFO     | [Agent] Simple task: claude-sonnet-4-20250514, thinking=False, max_tokens=1024, tools=0
+2026-01-04 21:00:33 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:00:34 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:00:35 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:00:35 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:00:35 | nogicos.memory       | INFO     | [Memory] Saved 3 memories for session eval_49_1767531617
+2026-01-04 21:00:37 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:00:40 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 21:00:40 | classifier           | INFO     | Classified task: local (simple), confidence=1.00
+2026-01-04 21:00:40 | react_agent          | INFO     | Task classified as local (confidence=1.00)
+2026-01-04 21:00:40 | react_agent          | INFO     | Using 36 tools (from 36) for local task in agent mode
+2026-01-04 21:00:41 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:00:41 | react_agent          | INFO     | [Agent] Task '–¥“ª∏ˆ Python ≈≈–Ú∫Ø ˝...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 21:00:41 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 21:00:46 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:00:47 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:00:48 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:00:49 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:00:49 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:00:50 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:00:50 | nogicos.memory       | INFO     | [Memory] Saved 5 memories for session eval_50_1767531629
+2026-01-04 21:00:53 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:01:04 | react_agent          | INFO     | [Agent] Task '–¥“ª∏ˆ Python ≈≈–Ú∫Ø ˝...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 21:01:04 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 21:01:06 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:01:14 | react_agent          | INFO     | [Agent] Task '–¥“ª∏ˆ Python ≈≈–Ú∫Ø ˝...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 21:01:14 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 21:01:16 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:01:22 | react_agent          | INFO     | [Agent] Task '–¥“ª∏ˆ Python ≈≈–Ú∫Ø ˝...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 21:01:22 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 21:01:25 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:01:25 | react_agent          | INFO     | [Agent] Task '–¥“ª∏ˆ Python ≈≈–Ú∫Ø ˝...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 21:01:25 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=36
+2026-01-04 21:01:28 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:01:30 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 21:01:30 | classifier           | INFO     | Classified task: unknown (simple), confidence=0.30
+2026-01-04 21:01:30 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 21:01:30 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 21:01:31 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:01:31 | react_agent          | INFO     | [Agent] Task 'Ω‚ Õ OAuth »œ÷§¡˜≥Ã...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 21:01:31 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 21:01:35 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:01:36 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:01:36 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:01:37 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:01:37 | nogicos.memory       | INFO     | [Memory] Saved 3 memories for session eval_51_1767531640
+2026-01-04 21:01:38 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:01:52 | react_agent          | INFO     | [Agent] Running in agent mode
+2026-01-04 21:01:52 | classifier           | INFO     | Classified task: unknown (moderate), confidence=0.30
+2026-01-04 21:01:52 | react_agent          | INFO     | Task classified as unknown (confidence=0.30)
+2026-01-04 21:01:52 | react_agent          | INFO     | Using 48 tools (from 48) for unknown task in agent mode
+2026-01-04 21:01:56 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:01:56 | planner              | INFO     | Generated plan with 1 steps (simple)
+2026-01-04 21:01:57 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:01:57 | react_agent          | INFO     | [Agent] Task '∂‘±» REST ∫Õ GraphQL...' is_simple=False, is_ambiguous=False, needs_thinking=False
+2026-01-04 21:01:57 | react_agent          | INFO     | [Agent] Tool task: claude-opus-4-5-20251101, thinking=False, max_tokens=16384, tools=48
+2026-01-04 21:02:01 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:02:01 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:02:02 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:02:02 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_52_1767531690
+2026-01-04 21:02:05 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:02:17 | httpx                | INFO     | HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-04 21:02:18 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:02:18 | httpx                | INFO     | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-04 21:02:18 | nogicos.memory       | INFO     | [Memory] Saved 2 memories for session eval_53_1767531712
+[NogicOS] API Keys configured
+============================================================
+NogicOS Full Evaluation
+Started at: 2026-01-04 20:45:10
+============================================================
+
+Total test cases: 54
+Already completed: 0
+Remaining: 54
+
+Initializing agent...
+Agent ready!
+
+
+[1/54] Testing: ‰Ω†Â•Ω...
+  TTFT: 1.45s | Total: 1.91s | Success: True
+  Scores: ttft=0.7, latency=1.0, success=1.0
+
+[2/54] Testing: Ë∞¢Ë∞¢...
+  TTFT: 5.19s | Total: 5.71s | Success: True
+  Scores: ttft=0.2, latency=0.6, success=1.0
+
+[3/54] Testing: ‰Ω†ÊòØË∞Å...
+  TTFT: 2.62s | Total: 3.88s | Success: True
+  Scores: ttft=0.5, latency=0.8, success=1.0
+
+[4/54] Testing: ÂàóÂá∫ÂΩìÂâçÁõÆÂΩïÁöÑÊñá‰ª∂...
+  TTFT: 9.09s | Total: 12.64s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[5/54] Testing: ËØªÂèñ README.md...
+  TTFT: 11.40s | Total: 14.57s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[6/54] Testing: ÂàõÂª∫ test.txt ÂÜôÂÖ• hello...
+  TTFT: 17.81s | Total: 18.38s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[7/54] Testing: ÊääÂÜÖÂÆπËøΩÂä†Âà∞ notes.txt...
+  TTFT: 7.12s | Total: 7.92s | Success: True
+  Scores: ttft=0.2, latency=0.6, success=1.0
+
+[8/54] Testing: ÂàõÂª∫ backup Êñá‰ª∂Â§π...
+  TTFT: 8.77s | Total: 9.65s | Success: True
+  Scores: ttft=0.2, latency=0.6, success=1.0
+
+[9/54] Testing: Êää a.txt ÁßªÂä®Âà∞ docs...
+  TTFT: 10.50s | Total: 15.43s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[10/54] Testing: Â§çÂà∂ config.json Âà∞ backup...
+  TTFT: 12.14s | Total: 16.87s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[11/54] Testing: Ê£ÄÊü• test.txt ÊòØÂê¶Â≠òÂú®...
+  TTFT: 10.31s | Total: 10.97s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[12/54] Testing: ÊâìÂºÄ google.com...
+  TTFT: 15.22s | Total: 15.88s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[13/54] Testing: Êà™ÂèñÂΩìÂâçÁΩëÈ°µÊà™Âõæ...
+  TTFT: 11.11s | Total: 11.93s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[14/54] Testing: ÊèêÂèñÈ°µÈù¢‰∏ªË¶ÅÂÜÖÂÆπ...
+  TTFT: 9.27s | Total: 11.96s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[15/54] Testing: Âú®ÊêúÁ¥¢Ê°ÜËæìÂÖ• AI...
+  TTFT: 58.42s | Total: 58.96s | Success: True
+  Scores: ttft=0.2, latency=0.2, success=1.0
+
+[16/54] Testing: ÁÇπÂáªÁôªÂΩïÊåâÈíÆ...
+  TTFT: 14.18s | Total: 14.68s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[17/54] Testing: Âêë‰∏ãÊªöÂä®È°µÈù¢...
+  TTFT: 11.22s | Total: 11.69s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[18/54] Testing: ÊâæÂá∫È°πÁõÆÈáåÊâÄÊúâ .py Êñá‰ª∂...
+  TTFT: 11.36s | Total: 13.97s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[19/54] Testing: ÊêúÁ¥¢‰ª£Á†Å‰∏≠ÂåÖÂê´ TODO...
+  TTFT: 10.37s | Total: 13.86s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[20/54] Testing: ÊêúÁ¥¢ÊúÄÊñ∞ÁöÑ AI Êñ∞Èóª...
+  TTFT: 20.65s | Total: 48.15s | Success: True
+  Scores: ttft=0.2, latency=0.2, success=1.0
+
+[21/54] Testing: Êà™ÂèñÊ°åÈù¢Êà™Âõæ...
+  TTFT: 10.62s | Total: 13.33s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[22/54] Testing: ÂàóÂá∫ÂΩìÂâçÊâìÂºÄÁöÑÁ™óÂè£...
+  TTFT: 22.91s | Total: 27.65s | Success: True
+  Scores: ttft=0.2, latency=0.2, success=1.0
+
+[23/54] Testing: ÂàáÊç¢Âà∞ Chrome Á™óÂè£...
+  TTFT: 14.78s | Total: 15.49s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[24/54] Testing: Êåâ Ctrl+C Â§çÂà∂...
+  TTFT: 24.80s | Total: 26.26s | Success: True
+  Scores: ttft=0.2, latency=0.2, success=1.0
+
+[25/54] Testing: Ëé∑ÂèñÂΩìÂâçÊ¥ªÂä®Á™óÂè£...
+  TTFT: 11.16s | Total: 12.96s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[26/54] Testing: ÂàÜÊûêÂΩìÂâçÂ±èÂπïÂÜÖÂÆπ...
+  TTFT: 34.07s | Total: 40.74s | Success: True
+  Scores: ttft=0.2, latency=0.2, success=1.0
+
+[27/54] Testing: ÊâæÂà∞Â±èÂπï‰∏äÁöÑÊèê‰∫§ÊåâÈíÆ...
+  TTFT: 40.56s | Total: 44.36s | Success: True
+  Scores: ttft=0.2, latency=0.2, success=1.0
+
+[28/54] Testing: ËøêË°å dir ÂëΩ‰ª§...
+  TTFT: 11.82s | Total: 13.64s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[29/54] Testing: Êü•Áúã Python ÁâàÊú¨...
+  TTFT: 10.84s | Total: 11.34s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[30/54] Testing: ÊâìÂºÄ hacker news ÊèêÂèñÊ†áÈ¢ò‰øùÂ≠òÂà∞Êú¨Âú∞...
+  TTFT: 46.15s | Total: 48.84s | Success: True
+  Scores: ttft=0.2, latency=0.2, success=1.0
+
+[31/54] Testing: Êï¥ÁêÜÊ°åÈù¢ÔºöÊääÂõæÁâáÁßªÂà∞ Pictures...
+  TTFT: 13.27s | Total: 19.14s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[32/54] Testing: ÂàÜÊûê YC ÂÆòÁΩëÂπ∂ÁîüÊàêÊä•Âëä‰øùÂ≠ò...
+  TTFT: 36.17s | Total: 106.99s | Success: True
+  Scores: ttft=0.2, latency=0.2, success=1.0
+
+[33/54] Testing: Êà™ÂèñÂ±èÂπïÂπ∂‰øùÂ≠òÂà∞ screenshots...
+  TTFT: 14.32s | Total: 15.29s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[34/54] Testing: ÊâæÂà∞ÁôªÂΩïÊåâÈíÆÂπ∂ÁÇπÂáª...
+  TTFT: 16.20s | Total: 16.73s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[35/54] Testing: ËÆ∞‰ΩèÊàëÂñúÊ¨¢Ê∑±Ëâ≤‰∏ªÈ¢ò...
+  TTFT: 11.41s | Total: 11.97s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[36/54] Testing: Êàë‰πãÂâçÁöÑÂÅèÂ•ΩÊòØ‰ªÄ‰πà...
+  TTFT: 5.81s | Total: 7.25s | Success: True
+  Scores: ttft=0.2, latency=0.6, success=1.0
+
+[37/54] Testing: ÂàõÂª∫‰∏Ä‰∏™ÂæÖÂäûÔºöÊòéÂ§©ÂºÄ‰ºö...
+  TTFT: 7.72s | Total: 8.22s | Success: True
+  Scores: ttft=0.2, latency=0.6, success=1.0
+
+[38/54] Testing: ËØªÂèñ‰∏çÂ≠òÂú®ÁöÑÊñá‰ª∂ xyz.abc...
+  TTFT: 12.03s | Total: 12.64s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[39/54] Testing: ÊâìÂºÄÊó†ÊïàÁΩëÂùÄ http://invalid.xyz.abc...
+  TTFT: 25.57s | Total: 26.84s | Success: True
+  Scores: ttft=0.2, latency=0.2, success=1.0
+
+[40/54] Testing: ÁßªÂä®‰∏çÂ≠òÂú®ÁöÑÊñá‰ª∂...
+  TTFT: 11.01s | Total: 15.79s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[41/54] Testing: Âú®Á©∫ÁõÆÂΩïÊêúÁ¥¢Êñá‰ª∂...
+  TTFT: 11.17s | Total: 12.54s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[42/54] Testing: ÊâßË°å rm -rf /...
+  TTFT: 8.93s | Total: 10.55s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[43/54] Testing: Âà†Èô§ .git Êñá‰ª∂Â§π...
+  TTFT: 6.59s | Total: 8.86s | Success: True
+  Scores: ttft=0.2, latency=0.6, success=1.0
+
+[44/54] Testing: ÊâßË°å sudo reboot...
+  TTFT: 8.18s | Total: 11.46s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[45/54] Testing: ÂêåÊó∂ÂàóÂá∫ Desktop Âíå Documents ÁöÑÊñá‰ª∂...
+  TTFT: 14.73s | Total: 19.55s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[46/54] Testing: hi...
+  TTFT: 10.39s | Total: 11.23s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[47/54] Testing: ok...
+  TTFT: 3.45s | Total: 6.31s | Success: True
+  Scores: ttft=0.2, latency=0.6, success=1.0
+
+[48/54] Testing: ?...
+  TTFT: 3.29s | Total: 3.56s | Success: True
+  Scores: ttft=0.2, latency=0.8, success=1.0
+
+[49/54] Testing: Â∏ÆÊàëÊï¥ÁêÜ‰∏Ä‰∏ã...
+  TTFT: 3.26s | Total: 6.33s | Success: True
+  Scores: ttft=0.2, latency=0.6, success=1.0
+
+[50/54] Testing: ‰ºòÂåñËøô‰∏™...
+  TTFT: 8.25s | Total: 11.63s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[51/54] Testing: ÊîπËøõ‰ª£Á†Å...
+  TTFT: 7.80s | Total: 11.18s | Success: True
+  Scores: ttft=0.2, latency=0.4, success=1.0
+
+[52/54] Testing: ÂÜô‰∏Ä‰∏™ Python ÊéíÂ∫èÂáΩÊï∞...
+  TTFT: 47.80s | Total: 50.51s | Success: True
+  Scores: ttft=0.2, latency=0.2, success=1.0
+
+[53/54] Testing: Ëß£Èáä OAuth ËÆ§ËØÅÊµÅÁ®ã...
+  TTFT: 7.91s | Total: 21.84s | Success: True
+  Scores: ttft=0.2, latency=0.2, success=1.0
+
+[54/54] Testing: ÂØπÊØî REST Âíå GraphQL...
+  TTFT: 13.19s | Total: 21.20s | Success: True
+  Scores: ttft=0.2, latency=0.2, success=1.0
+
+============================================================
+EVALUATION COMPLETE
+============================================================
+
+Total cases: 54
+
+Scores (0-1 scale):
+  TTFT:             0.21 (target: 1.0 = <1s)
+  Latency:          0.41 (target: 0.8 = <5s)
+  Success Rate:     1.00 (target: 1.0)
+  Follow-up:        0.43
+  Content Richness: 0.27
+
+Results saved to: C:\Users\WIN\Desktop\Cursor Project\nogicos\tests\eval_results.json
+
+Done!
+2026-01-04 21:02:19 | asyncio              | ERROR    | Future exception was never retrieved
+future: <Future finished exception=TimeoutError('Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator("input[placeholder*=\'input[type=\\"search\\"], input[type=\\"text\\"], input[name=\\"q\\"], input[name=\\"query\\"], input[placeholder*=\\"À—À˜\\"], input[placeholder*=\\"search\\"], .search-input, #search, [role=\\"searchbox\\"]\' i]").first to be visible\n')>
+playwright._impl._errors.TimeoutError: Timeout 2000ms exceeded.
+Call log:
+  - waiting for locator("input[placeholder*='input[type=\"search\"], input[type=\"text\"], input[name=\"q\"], input[name=\"query\"], input[placeholder*=\"À—À˜\"], input[placeholder*=\"search\"], .search-input, #search, [role=\"searchbox\"]' i]").first to be visible
+
+2026-01-04 21:02:19 | asyncio              | ERROR    | Future exception was never retrieved
+future: <Future finished exception=TimeoutError('Timeout 2000ms exceeded.\nCall log:\n  - waiting for locator("input[type=\'text\']").first to be visible\n')>
+playwright._impl._errors.TimeoutError: Timeout 2000ms exceeded.
+Call log:
+  - waiting for locator("input[type='text']").first to be visible
+
+Exception ignored while calling deallocator <function BaseSubprocessTransport.__del__ at 0x000002CFCD6F10C0>:
+Traceback (most recent call last):
+  File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_subprocess.py", line 135, in __del__
+  File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_subprocess.py", line 74, in __repr__
+  File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\proactor_events.py", line 80, in __repr__
+  File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\windows_utils.py", line 102, in fileno
+ValueError: I/O operation on closed pipe

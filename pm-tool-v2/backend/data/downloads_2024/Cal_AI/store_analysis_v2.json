@@ -1,0 +1,1080 @@
+{
+  "app_name": "Cal_AI",
+  "total_screenshots": 6,
+  "analyzed_at": "2025-12-24T13:17:11.503152",
+  "model": "claude-opus-4-5-20251101 / gpt-5.2",
+  "schema_version": "v2",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Cal AI",
+          "subheadline": "",
+          "body_copy": [
+            "Calories eaten",
+            "Protein eaten",
+            "Carbs eaten",
+            "Fat eaten",
+            "Recently uploaded",
+            "Grilled Salmon",
+            "550 Calories",
+            "Home",
+            "Progress",
+            "Groups",
+            "Profile"
+          ],
+          "cta_button": "",
+          "small_print": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "12:37pm",
+            "Pancakes with",
+            "9:49am",
+            "JD"
+          ],
+          "data_numbers": [
+            "9:41",
+            "15",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "1250/2500",
+            "75/150g",
+            "138/275g",
+            "35/70g",
+            "550",
+            "35g",
+            "40g",
+            "28g",
+            "12:37pm",
+            "9:49am"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#FFFFFF",
+            "#111111"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "logo",
+            "app_name"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "RESULT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "展示在同一界面中跟踪热量与三大营养素摄入进度，并记录已上传的餐食。",
+          "supporting_evidence": "用“1250/2500 Calories eaten”与三张营养素卡片（“75/150g Protein eaten”“138/275g Carbs eaten”“35/70g Fat eaten”）的环形进度条，以及“Recently uploaded”列表（如“Grilled Salmon 550 Calories”）来支撑。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "用清晰的进度与记录列表，让用户快速掌握当日摄入与餐食记录。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring",
+            "primacy_effect"
+          ],
+          "persuasion_technique": "用“1250/2500”这类目标/已完成的对照（锚定目标）+ 环形进度可视化（降低理解成本）促使用户持续记录以完成目标。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "屏幕中部覆盖层的大号数字“1250/2500”与右侧环形进度条。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#111111",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.5,
+          "clarity": 4.6,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "用覆盖层卡片把“1250/2500 Calories eaten”作为单一强焦点呈现"
+          ],
+          "category_conventions": [
+            "环形进度条展示摄入进度",
+            "三大营养素分卡片展示（Protein/Carbs/Fat）",
+            "餐食列表配食物照片与热量数字（如“Grilled Salmon 550 Calories”）"
+          ],
+          "innovations": [
+            "在截图中用“悬浮大卡片”强化关键指标的可读性（比直接展示完整界面更聚焦）"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注热量与宏量营养素的人群（“Calories eaten”“Protein eaten”“Carbs eaten”“Fat eaten”）",
+          "需要餐食记录与回看的人群（“Recently uploaded”）",
+          "偏好简洁、数据驱动界面的用户（大数字+进度环）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "大号“已完成/目标”数字作为主视觉锚点（如“1250/2500”）",
+          "环形进度条+小卡片的模块化指标展示",
+          "“Recently uploaded”式的最近记录列表（图+名称+关键数字）"
+        ],
+        "avoid_elements": [
+          "在同一张截图里出现过多导航与次要信息（如底部“Home/Progress/Groups/Profile”）导致卖点分散",
+          "仅用中性色导致品牌记忆点偏弱"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“悬浮主指标卡片 + 环形进度”的结构，把核心指标替换为产品最关键的健康结果/过程指标（同样采用“已完成/目标”格式），并在卡片与图标上加入更明确的品牌主色作为强调色，同时将底部导航等非卖点区域弱化或裁切以提升转化聚焦。"
+      }
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Just snap a pic",
+          "subheadline": "",
+          "body_copy": [
+            "Cal AI",
+            "Lettuce",
+            "Parmesan",
+            "Cherry Tomatoes",
+            "Croutons",
+            "Scan Food",
+            "Barcode",
+            "Food Label"
+          ],
+          "cta_button": "",
+          "small_print": [
+            "9:41",
+            ".5x",
+            "1x",
+            "?",
+            "×"
+          ],
+          "data_numbers": [
+            "9:41",
+            ".5x",
+            "1x"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F5F5F5",
+            "#1F1F1F"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [
+            "app_name"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "AI_DEMO",
+          "primary_cn": "AI 功能演示",
+          "secondary": "HOW_IT_WORKS"
+        },
+        "message_strategy": {
+          "primary_message": "通过拍照即可识别食物内容",
+          "supporting_evidence": "用相机界面叠加识别标签（“Lettuce / Parmesan / Cherry Tomatoes / Croutons”）来证明识别能力，并展示入口“Scan Food / Barcode / Food Label”",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "降低记录饮食的操作成本：拍照即可开始识别与记录"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用“Just snap a pic”这种极简指令式标题，配合真实相机取景UI与识别气泡标注，制造“所见即所得”的易用性与可信度"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Just snap a pic”与中部 iPhone 取景画面（沙拉照片+识别标注气泡）",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1F1F1F",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 8,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 4.4,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "在取景画面上直接用气泡标注食材（“Lettuce / Parmesan / Cherry Tomatoes / Croutons”）"
+          ],
+          "category_conventions": [
+            "用大标题+设备机模展示核心能力",
+            "用真实食物照片强化健康/饮食记录场景",
+            "展示相机扫描入口（“Scan Food”）"
+          ],
+          "innovations": [
+            "把“识别结果”以可视化标注的方式叠加在食物上，而不是仅展示列表或营养面板"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "想快速记录饮食的人（标题强调“Just snap a pic”）",
+          "需要多入口记录的人（“Scan Food / Barcode / Food Label”并列）",
+          "偏好低学习成本、相机式交互的人（完整相机UI呈现）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "指令式、低门槛标题（如“Just snap a pic”这种结构）",
+          "设备居中+大留白的截图模板，提升可读性",
+          "在食物图上做“识别标注”叠加，直观证明能力",
+          "展示多种录入路径的并列入口（类似“Scan Food / Barcode / Food Label”）"
+        ],
+        "avoid_elements": [
+          "在同一屏内出现过多小控件与小字导致信息噪音（如“.5x / 1x / ? / ×”等相机元素过多时）",
+          "识别标注过密遮挡食物主体，影响观感与可信度"
+        ],
+        "adaptation_notes": "VitaFlow 若也有饮食/营养记录能力，可采用“动词+极简承诺”的标题结构，并用真实相机取景UI作为主视觉；在食物上叠加少量关键识别点（控制数量与遮挡），同时在底部用 2-3 个入口按钮展示核心路径（例如拍照识别/条码/标签），保持留白与高对比以确保商店缩略图下仍清晰。"
+      }
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "See the calories",
+          "subheadline": "",
+          "body_copy": [
+            "Nutrition",
+            "Caesar Salad with\nCherry Tomatoes",
+            "Calories\n330",
+            "Protein\n8g",
+            "Carbs\n20g",
+            "Fats\n18g",
+            "Ingredients",
+            "+ Add more",
+            "Fix Results",
+            "Done"
+          ],
+          "cta_button": "Done",
+          "small_print": [
+            "9:41",
+            "6:21 PM",
+            "Lettuce • 20 cal",
+            "1.5 cups"
+          ],
+          "data_numbers": [
+            "9:41",
+            "6:21 PM",
+            "330",
+            "8g",
+            "20g",
+            "18g",
+            "20 cal",
+            "1.5"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#FFFFFF",
+            "#1F1F1F"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "RESULT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "See the calories",
+          "supporting_evidence": "用具体食物条目“Caesar Salad with Cherry Tomatoes”展示“Calories 330”以及“Protein 8g / Carbs 20g / Fats 18g”等营养数据卡片来支撑",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "让用户在记录/查看食物时直接看到热量与宏量营养信息"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用大字号的“Calories 330”作为锚点数字，并配合清晰分组的宏量营养（Protein/Carbs/Fats）降低理解成本，强化“可一眼看懂”的感受"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“See the calories”与中部悬浮卡片“Calories 330”",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#FFFFFF",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 4.4,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "将“Calories 330”做成独立悬浮信息卡片覆盖在内容之上"
+          ],
+          "category_conventions": [
+            "使用真实食物照片作为健康/营养类 App 的直观入口",
+            "用宏量营养（Protein/Carbs/Fats）卡片化呈现"
+          ],
+          "innovations": [
+            "在同一屏同时呈现食物照片、菜品名与热量/宏量营养摘要，减少跳转"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注热量与宏量营养的人群（Calories / Protein / Carbs / Fats）",
+          "需要快速记录或核对餐食数据的人群（6:21 PM、Ingredients、+ Add more）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "大标题一句话利益点（如“See the calories”）",
+          "用“Calories 330”这种大数字卡片做主视觉锚点",
+          "宏量营养三分栏卡片（Protein/Carbs/Fats）作为辅助信息层"
+        ],
+        "avoid_elements": [
+          "在截图中出现过多可交互控件但不解释其价值（如“Fix Results”）导致注意力分散",
+          "底部信息被设备边缘/遮挡导致可读性下降（如“Lettuce • 20 cal”“1.5 cups”仅部分可见）"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“顶部一句话卖点 + 中部大数字结果卡片 + 下方分组指标卡片”的结构；将核心指标替换为 VitaFlow 的关键健康指标，并确保底部列表信息完整可读，同时减少与主卖点无关的按钮露出。"
+      }
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Track progress",
+          "subheadline": "",
+          "body_copy": [
+            "Progress",
+            "Your Weight",
+            "132.1 lbs",
+            "Goal 140 lbs",
+            "Log Weight",
+            "21",
+            "Day Streak",
+            "S M T W T F S",
+            "Weight Progress",
+            "80% of goal",
+            "131.2 lbs",
+            "Sep 9, 2025",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "90D",
+            "6M",
+            "1Y",
+            "ALL",
+            "Great job! Consistency is key, and you're mastering it!",
+            "Daily Average Calories",
+            "2861 cal",
+            "90%",
+            "Home",
+            "Progress",
+            "Groups",
+            "Profile",
+            "JD"
+          ],
+          "cta_button": "Log Weight",
+          "small_print": [
+            "cal"
+          ],
+          "data_numbers": [
+            "9:41",
+            "132.1 lbs",
+            "140 lbs",
+            "21",
+            "80%",
+            "131.2 lbs",
+            "Sep 9, 2025",
+            "140",
+            "135",
+            "130",
+            "125",
+            "120",
+            "90D",
+            "6M",
+            "1Y",
+            "2861",
+            "90%"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#FFFFFF",
+            "#111111"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat",
+              "line_chart"
+            ]
+          },
+          "brand_elements": [
+            "icon"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "DATA_PROOF"
+        },
+        "message_strategy": {
+          "primary_message": "可在 App 内持续记录并可视化追踪进展（体重、连续天数、目标完成度、热量）。",
+          "supporting_evidence": "用“Weight Progress”折线图、 “80% of goal”、 “Day Streak 21”、 “Your Weight 132.1 lbs / Goal 140 lbs”、 “Daily Average Calories 2861 cal ↑90%”等数据模块支撑。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "把关键健康指标集中在一个“Progress”页，用数据与趋势帮助用户坚持并接近目标。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用可量化指标（当前值/目标值/完成百分比/连续天数）与趋势图降低理解成本，并通过“Great job! Consistency is key, and you're mastering it!”进行正向反馈强化持续记录的承诺。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Track progress”与居中的 iPhone 设备框内“Weight Progress”折线图区域（含黑色浮层提示“131.2 lbs / Sep 9, 2025”）。",
+          "information_density": "high",
+          "hierarchy_score": 4.5
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#FFFFFF",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 5,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.5,
+          "clarity": 4.5,
+          "brand_consistency": 5.0,
+          "uniqueness": 3.5
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "同屏组合“Your Weight / Goal / Log Weight”卡片 + “Day Streak 21”卡片 + “Weight Progress”趋势图 + “Daily Average Calories 2861 cal ↑90%”摘要"
+          ],
+          "category_conventions": [
+            "大标题+设备框展示核心页面",
+            "用折线图展示体重趋势",
+            "用 streak（连续天数）强化习惯养成",
+            "用完成度百分比（80% of goal）表达目标进度"
+          ],
+          "innovations": [
+            "在趋势图下方加入鼓励语“Great job! Consistency is key, and you're mastering it!”作为即时反馈模块"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "有明确体重目标（Goal 140 lbs）并希望长期追踪的人群",
+          "重视习惯坚持（Day Streak）与数据复盘（90D/6M/1Y/ALL）的人群",
+          "同时关注体重与热量指标（Daily Average Calories）的人群"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "“Track progress”式强动词标题（短、直给）",
+          "目标完成度徽标（“80% of goal”）",
+          "streak 卡片（“Day Streak 21”）",
+          "趋势图 + 悬浮提示（数值+日期）",
+          "图表下方的正向反馈文案条"
+        ],
+        "avoid_elements": [
+          "单页信息过密导致首屏阅读负担偏高（多卡片+图表+底部导航同时出现）",
+          "关键卖点分散在多个模块，若缩略图尺寸下可能不够聚焦"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“设备居中+进展页”模板：主标题聚焦一个核心指标（例如体重/体脂/饮水/步数其一），在图表旁保留一个最强的进度信号（完成度或 streak 二选一），并在图表下方加入一句简短鼓励语，确保缩略图下仍能一眼读到“进展可视化+目标推进”。"
+      }
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Grow with friends",
+          "subheadline": "",
+          "body_copy": [
+            "Shred Squad",
+            "Cole Belvins",
+            "Today at 3:49pm",
+            "Grilled Chicken with Avocado, Garlic Spinach, and Toast",
+            "Calories",
+            "Protein",
+            "Carbs",
+            "Fats",
+            "React",
+            "Comment",
+            "Devin Carroll",
+            "Today at 3:26pm",
+            "Home",
+            "Progress",
+            "Groups",
+            "Profile"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "9:41",
+            "31",
+            "24",
+            "12",
+            "11",
+            "2",
+            "480",
+            "38g",
+            "23g",
+            "24g",
+            "4",
+            "1",
+            "2"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#FFFFFF",
+            "#111111"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "SOCIAL_PROOF",
+          "primary_cn": "社会证明",
+          "secondary": "CONTENT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "Grow with friends",
+          "supporting_evidence": "以“Shred Squad”群组信息流形式展示他人发布的饮食记录（含“Calories / Protein / Carbs / Fats”与互动入口“React / Comment”，以及头像行的🔥数值）。",
+          "emotional_appeal": "belonging",
+          "value_proposition": "通过群组与朋友一起记录与互动，形成陪伴式的持续成长体验。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof",
+            "unity",
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "bandwagon",
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用群组信息流+可见互动（“React”“Comment”）与可量化营养数据（“Calories 480”“Protein 38g”“Carbs 23g”“Fats 24g”）把“和朋友一起”具体化，降低理解成本并强化从众与参与动机。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Grow with friends”与中部手机内的大幅食物照片卡片（“Grilled Chicken with Avocado, Garlic Spinach, and Toast”）",
+          "information_density": "high",
+          "hierarchy_score": 4.4
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#FFFFFF",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.3,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "群组名“Shred Squad”置顶的社交信息流结构",
+            "头像横排+🔥数值（如“31”“24”“12”“11”“2”）的轻量竞争/活跃度暗示",
+            "饮食贴内直接呈现“Calories / Protein / Carbs / Fats”并配合“React / Comment”"
+          ],
+          "category_conventions": [
+            "用手机界面实机图展示核心体验",
+            "用大标题一句话概括该页主题",
+            "用食物照片+宏量营养数字作为健康饮食类常见表达"
+          ],
+          "innovations": [
+            "把“营养记录”与“社交互动”在同一张卡片内并列呈现（数据+互动同屏）"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "偏好与朋友一起打卡/互相监督的人群",
+          "关注宏量营养（Protein/Carbs/Fats）与热量（Calories）的人群",
+          "健身/增肌/减脂社群用户（“Shred Squad”语境）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "一句话大标题（如“Grow with friends”）直给场景价值",
+          "手机居中+信息流卡片的“真实使用”呈现方式",
+          "在内容卡片底部集中展示关键指标（类似“Calories 480”“Protein 38g”“Carbs 23g”“Fats 24g”）",
+          "把互动入口（类似“React”“Comment”）与内容同屏，强化社交属性"
+        ],
+        "avoid_elements": [
+          "信息密度过高导致首屏难以一眼抓住重点（头像行、标题、长菜名、宏量数据、互动区同时出现）",
+          "过多小数字分散注意力（如头像下多组🔥数值与多处计数）"
+        ],
+        "adaptation_notes": "VitaFlow 若要复用该策略，可采用“设备居中 + 群组/伙伴信息流”模板：顶部用一句话强调同伴成长；卡片内优先突出1张代表性内容图与4个关键指标；互动区保留但弱化小计数，避免数字噪音，同时确保标题与关键指标在缩略图尺寸下仍可读。"
+      }
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Watch the change",
+          "subheadline": "",
+          "body_copy": [
+            "Compare",
+            "Hide weight",
+            "Share"
+          ],
+          "cta_button": "Share",
+          "small_print": [
+            "Sep 20, 2023",
+            "Jul 7, 2025"
+          ],
+          "data_numbers": [
+            "9:41",
+            "355 lbs",
+            "182 lbs",
+            "Sep 20, 2023",
+            "Jul 7, 2025"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#FFFFFF",
+            "#1F1F27"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "RESULT_PREVIEW",
+          "primary_cn": "效果预览",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "Watch the change",
+          "supporting_evidence": "通过“Compare”界面展示两张对比照片，并在照片上叠加体重与日期（“355 lbs / Sep 20, 2023”对比“182 lbs / Jul 7, 2025”）来证明变化。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "用对比功能直观看到变化，并可选择“Hide weight”隐藏体重、通过“Share”分享成果。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof",
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用强对比的前后照片作为“可视化证据”，并用明确数字（lbs）作为锚点强化成果感；提供“Share”降低传播门槛，暗示可用于对外展示进展。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Watch the change”以及手机屏幕中间的左右对比照片（右侧照片有明显白色描边框）。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#FFFFFF",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Compare”对比页内直接叠加“lbs + 日期”的前后照片对照",
+            "“Hide weight”开关用于控制是否显示体重",
+            "底部缩略图时间线/相册式选择条"
+          ],
+          "category_conventions": [
+            "使用手机机模展示真实App界面",
+            "用前后对比图呈现健身/减重成果",
+            "用大标题一句话传达核心利益点"
+          ],
+          "innovations": [
+            "在对比页提供“Hide weight”隐私控制（在成果展示场景中较少被强调）"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "以体重变化为核心目标的减脂/体重管理用户",
+          "希望记录阶段性照片并做对比的人群",
+          "有分享成果需求的用户（“Share”）",
+          "对隐私敏感、但仍想展示变化的用户（“Hide weight”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "大标题+单一核心利益点表达（如“Watch the change”）",
+          "前后对比的结果预览（对比照片/对比卡片）",
+          "关键指标数字叠加在视觉结果上（如体重）",
+          "隐私开关概念（如“Hide weight”）",
+          "明确的分享动作（“Share”）"
+        ],
+        "avoid_elements": [
+          "在截图中出现过多小缩略图导致注意力分散（底部缩略图条）",
+          "仅用“lbs”单位可能限制非英制地区理解（若面向多地区需本地化）"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“结果预览+对比”叙事：用一张截图聚焦“变化可见”，在对比卡上叠加关键健康指标（例如体重/体脂/围度/心率区间等，按VitaFlow实际指标选择），并加入类似“Hide weight”的隐私控制点与“Share”分享出口；保持居中机模与大留白，确保一眼读懂。"
+      }
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "CORE_FUNC → AI_DEMO → CORE_FUNC → CORE_FUNC → SOCIAL_PROOF → RESULT_PREVIEW",
+    "sequence_cluster": "ai_driven",
+    "narrative_arc": "从CORE_FUNC开始，以RESULT_PREVIEW结束",
+    "strengths": [
+      "视觉吸引力高 (4.5/5)",
+      "信息传达清晰 (4.6/5)"
+    ],
+    "weaknesses": [],
+    "key_takeaways": [
+      "“Track progress”式强动词标题（短、直给）",
+      "大标题一句话利益点（如“See the calories”）",
+      "前后对比的结果预览（对比照片/对比卡片）",
+      "环形进度条+小卡片的模块化指标展示",
+      "大号“已完成/目标”数字作为主视觉锚点（如“1250/2500”）"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "CORE_FUNC": 3,
+      "AI_DEMO": 1,
+      "SOCIAL_PROOF": 1,
+      "RESULT_PREVIEW": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 6,
+      "Food_Image": 4,
+      "Data_Viz": 5,
+      "logo": 1,
+      "app_name": 2,
+      "icon": 1,
+      "Human": 2
+    },
+    "psychology_coverage": {
+      "cialdini": [
+        "authority",
+        "commitment",
+        "unity",
+        "social_proof"
+      ],
+      "cognitive_biases": [
+        "bandwagon",
+        "cognitive_fluency",
+        "anchoring",
+        "primacy_effect",
+        "novelty"
+      ]
+    },
+    "design_score_averages": {
+      "visual_appeal": 4.53,
+      "clarity": 4.58,
+      "brand_consistency": 4.48,
+      "uniqueness": 3.52
+    }
+  }
+}

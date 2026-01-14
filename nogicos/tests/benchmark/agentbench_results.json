@@ -1,0 +1,138 @@
+{
+  "passed": 0,
+  "failed": 26,
+  "skipped": 0,
+  "score": 0.0,
+  "results": [
+    {
+      "task_idx": 0,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 1,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 2,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 3,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 4,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 5,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 6,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 7,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 8,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 9,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 10,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 11,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 12,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 13,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 14,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 15,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 16,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 17,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 18,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 19,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 20,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 21,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 22,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 23,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 24,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    },
+    {
+      "task_idx": 25,
+      "error": "'AgentResult' object has no attribute 'get'",
+      "passed": false
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "generated_at": "2025-12-22T00:00:00",
+  "total_apps": 15,
+  "total_screenshots": 828,
+  "apps": [
+    {
+      "name": "Cal_AI",
+      "display_name": "Cal AI",
+      "category": "AI Nutrition Tracking",
+      "onboarding_range": {"start": 0, "end": 36},
+      "screenshot_count": 37,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/Cal_AI"
+    },
+    {
+      "name": "Calm",
+      "display_name": "Calm",
+      "category": "Meditation & Sleep",
+      "onboarding_range": {"start": 0, "end": 14},
+      "screenshot_count": 15,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/Calm"
+    },
+    {
+      "name": "Fitbit",
+      "display_name": "Fitbit",
+      "category": "Fitness Tracking",
+      "onboarding_range": {"start": 0, "end": 15},
+      "screenshot_count": 16,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/Fitbit"
+    },
+    {
+      "name": "Flo",
+      "display_name": "Flo",
+      "category": "Women's Health",
+      "onboarding_range": {"start": 0, "end": 99},
+      "screenshot_count": 100,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/Flo"
+    },
+    {
+      "name": "Headspace",
+      "display_name": "Headspace",
+      "category": "Meditation & Mindfulness",
+      "onboarding_range": {"start": 0, "end": 32},
+      "screenshot_count": 33,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/Headspace"
+    },
+    {
+      "name": "LADDER",
+      "display_name": "LADDER",
+      "category": "Fitness Training",
+      "onboarding_range": {"start": 0, "end": 17},
+      "screenshot_count": 18,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/LADDER"
+    },
+    {
+      "name": "LoseIt",
+      "display_name": "Lose It!",
+      "category": "Calorie Tracking",
+      "onboarding_range": {"start": 0, "end": 101},
+      "screenshot_count": 102,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/LoseIt"
+    },
+    {
+      "name": "MacroFactor",
+      "display_name": "MacroFactor",
+      "category": "Macro Nutrition",
+      "onboarding_range": {"start": 0, "end": 48},
+      "screenshot_count": 49,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/MacroFactor"
+    },
+    {
+      "name": "MyFitnessPal",
+      "display_name": "MyFitnessPal",
+      "category": "Calorie & Nutrition Tracking",
+      "onboarding_range": {"start": 0, "end": 92},
+      "screenshot_count": 93,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/MyFitnessPal"
+    },
+    {
+      "name": "Noom",
+      "display_name": "Noom",
+      "category": "Weight Loss Psychology",
+      "onboarding_range": {"start": 0, "end": 113},
+      "screenshot_count": 114,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/Noom"
+    },
+    {
+      "name": "Peloton",
+      "display_name": "Peloton",
+      "category": "Fitness Classes",
+      "onboarding_range": {"start": 0, "end": 38},
+      "screenshot_count": 39,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/Peloton"
+    },
+    {
+      "name": "Runna",
+      "display_name": "Runna",
+      "category": "Running Training",
+      "onboarding_range": {"start": 0, "end": 42},
+      "screenshot_count": 43,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/Runna"
+    },
+    {
+      "name": "Strava",
+      "display_name": "Strava",
+      "category": "Social Fitness",
+      "onboarding_range": {"start": 0, "end": 30},
+      "screenshot_count": 31,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/Strava"
+    },
+    {
+      "name": "WeightWatchers",
+      "display_name": "WeightWatchers",
+      "category": "Weight Management",
+      "onboarding_range": {"start": 0, "end": 39},
+      "screenshot_count": 40,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/WeightWatchers"
+    },
+    {
+      "name": "Yazio",
+      "display_name": "Yazio",
+      "category": "Calorie & Fasting",
+      "onboarding_range": {"start": 0, "end": 97},
+      "screenshot_count": 98,
+      "screenshot_pattern": "XXXX.png",
+      "data_path": "downloads_2024/Yazio"
+    }
+  ]
+}

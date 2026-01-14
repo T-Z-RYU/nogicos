@@ -1,0 +1,227 @@
+{
+  "app_name": "Yazio",
+  "total_screenshots": 8,
+  "analyzed_at": "2025-12-24T10:00:00",
+  "model": "claude-opus-4-5-20251101",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "type": "VP",
+      "type_cn": "价值主张",
+      "elements": ["Headline", "Device_Mockup", "Gradient_BG", "Food_Image"],
+      "copywriting": {
+        "headline": "Calorie Counter & Fasting",
+        "subheadline": "Reach your weight goals"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["primacy_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "双重功能定位：卡路里计数+间歇性断食"
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "type": "CORE_FUNC",
+      "type_cn": "核心功能",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Track Your Food",
+        "subheadline": "Easy calorie logging"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "核心食物追踪功能展示"
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "type": "AI_DEMO",
+      "type_cn": "AI功能演示",
+      "elements": ["Device_Mockup", "App_UI", "Headline", "Food_Image"],
+      "copywriting": {
+        "headline": "AI Food Scanner",
+        "subheadline": "Instant recognition"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["cognitive_fluency", "novelty"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "AI食物扫描功能展示"
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "type": "RESULT_PREVIEW",
+      "type_cn": "效果预览",
+      "elements": ["Device_Mockup", "App_UI", "Stat_Number"],
+      "copywriting": {
+        "headline": "See Your Progress",
+        "subheadline": "Nutrition insights"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["expectation_anchoring"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.0
+      },
+      "analysis": "进度追踪和营养洞察"
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "type": "PERSONALIZATION",
+      "type_cn": "个性化展示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Personalized Plans",
+        "subheadline": "Tailored to you"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["endowment_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "个性化饮食计划"
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "type": "SOCIAL_PROOF",
+      "type_cn": "社会证明",
+      "elements": ["Headline", "Rating_Stars", "Download_Count"],
+      "copywriting": {
+        "headline": "60M+ Downloads",
+        "subheadline": "4.7★ Rating"
+      },
+      "psychology": {
+        "cialdini": ["social_proof"],
+        "cognitive_biases": ["bandwagon_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "6000万下载+4.7星评分的社会证明"
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7_plus",
+      "type": "DATA_PROOF",
+      "type_cn": "数据证明",
+      "elements": ["Headline", "Stat_Number"],
+      "copywriting": {
+        "headline": "4M+ Recipes",
+        "subheadline": "Healthy meal ideas"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["specificity_bias"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "400万+食谱数据库"
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P7_plus",
+      "type": "FREE_TRIAL",
+      "type_cn": "免费试用提示",
+      "elements": ["Headline", "CTA_Text", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Start Free",
+        "subheadline": "Premium trial included"
+      },
+      "psychology": {
+        "cialdini": ["reciprocity"],
+        "cognitive_biases": ["loss_aversion"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "免费试用引导"
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → CORE_FUNC → AI_DEMO → RESULT_PREVIEW → PERSONALIZATION → SOCIAL_PROOF → DATA_PROOF → FREE_TRIAL",
+    "strengths": [
+      "双重功能定位（卡路里+断食）",
+      "AI扫描功能展示",
+      "6000万下载社会证明"
+    ],
+    "weaknesses": [
+      "核心功能前置，AI功能位置偏后",
+      "缺少权威背书"
+    ],
+    "recommendations": [
+      "可将AI功能提前至P2",
+      "增加专家/媒体背书"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 1,
+      "CORE_FUNC": 1,
+      "AI_DEMO": 1,
+      "RESULT_PREVIEW": 1,
+      "PERSONALIZATION": 1,
+      "SOCIAL_PROOF": 1,
+      "DATA_PROOF": 1,
+      "FREE_TRIAL": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 5,
+      "Headline": 8,
+      "App_UI": 5,
+      "Gradient_BG": 2,
+      "Food_Image": 2,
+      "Stat_Number": 2,
+      "Rating_Stars": 1,
+      "Download_Count": 1
+    },
+    "psychology_coverage": {
+      "cialdini": ["authority", "commitment", "social_proof", "reciprocity"],
+      "cognitive_biases": ["primacy_effect", "cognitive_fluency", "novelty", "expectation_anchoring", "endowment_effect", "bandwagon_effect", "specificity_bias", "loss_aversion"]
+    }
+  }
+}
+

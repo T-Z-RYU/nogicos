@@ -1,0 +1,74 @@
+[
+  {
+    "scenario": "reddit",
+    "task": "Find the top post on r/technology",
+    "model": "gemini-3-flash",
+    "with_knowledge_base": false,
+    "success": false,
+    "execution_time": 1.2169287204742432,
+    "steps_taken": 0,
+    "llm_calls": 0,
+    "error": "'gbk' codec can't decode byte 0x85 in position 326: illegal multibyte sequence",
+    "timestamp": "2025-12-26T08:40:46.680695"
+  },
+  {
+    "scenario": "reddit",
+    "task": "Find the top post on r/technology",
+    "model": "gemini-3-flash",
+    "with_knowledge_base": true,
+    "success": true,
+    "execution_time": 0.5144474506378174,
+    "steps_taken": 2,
+    "llm_calls": 1,
+    "error": "模拟模式 - 知识库不存在",
+    "timestamp": "2025-12-26T08:40:47.195193"
+  },
+  {
+    "scenario": "github",
+    "task": "Search for 'skillweaver' repository",
+    "model": "gemini-3-flash",
+    "with_knowledge_base": false,
+    "success": false,
+    "execution_time": 0.0021865367889404297,
+    "steps_taken": 0,
+    "llm_calls": 0,
+    "error": "'gbk' codec can't decode byte 0x85 in position 326: illegal multibyte sequence",
+    "timestamp": "2025-12-26T08:40:47.197435"
+  },
+  {
+    "scenario": "github",
+    "task": "Search for 'skillweaver' repository",
+    "model": "gemini-3-flash",
+    "with_knowledge_base": true,
+    "success": true,
+    "execution_time": 0.5059452056884766,
+    "steps_taken": 2,
+    "llm_calls": 1,
+    "error": "模拟模式 - 知识库不存在",
+    "timestamp": "2025-12-26T08:40:47.703467"
+  },
+  {
+    "scenario": "uniswap",
+    "task": "Navigate to the swap interface",
+    "model": "claude-opus-4-5-20251124",
+    "with_knowledge_base": false,
+    "success": false,
+    "execution_time": 0.0023593902587890625,
+    "steps_taken": 0,
+    "llm_calls": 0,
+    "error": "'gbk' codec can't decode byte 0x85 in position 326: illegal multibyte sequence",
+    "timestamp": "2025-12-26T08:40:47.705879"
+  },
+  {
+    "scenario": "uniswap",
+    "task": "Navigate to the swap interface",
+    "model": "claude-opus-4-5-20251124",
+    "with_knowledge_base": true,
+    "success": true,
+    "execution_time": 0.5075480937957764,
+    "steps_taken": 2,
+    "llm_calls": 1,
+    "error": "模拟模式 - 知识库不存在",
+    "timestamp": "2025-12-26T08:40:48.213513"
+  }
+]

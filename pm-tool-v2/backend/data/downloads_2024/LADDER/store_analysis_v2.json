@@ -1,0 +1,1813 @@
+{
+  "app_name": "LADDER",
+  "total_screenshots": 10,
+  "analyzed_at": "2025-12-24T13:41:18.562770",
+  "model": "claude-opus-4-5-20251101 / gpt-5.2",
+  "schema_version": "v2",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "GET\nSTRONGER,\nWITH A\nPLAN.",
+          "subheadline": "",
+          "body_copy": [
+            "Editor’s\nChoice",
+            "Apple App\nStore Award",
+            "2025\nWomen’sHealth",
+            "Best Overall\nWorkout App",
+            "2025\nCNET",
+            "Best Strength\nTraining App"
+          ],
+          "cta_button": "",
+          "small_print": [
+            "60 min • Full Body Str",
+            "Workouts",
+            "Chat",
+            "Nutri",
+            "8,540",
+            "Sent",
+            "23,340",
+            "10",
+            "reps",
+            "Standing Overhead"
+          ],
+          "data_numbers": [
+            "2025",
+            "8,540",
+            "23,340",
+            "10",
+            "60"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#D7E62A",
+            "#000000"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "split_vertical",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "right"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "logo",
+            "app_name"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "VP",
+          "primary_cn": "价值主张",
+          "secondary": "AUTHORITY"
+        },
+        "message_strategy": {
+          "primary_message": "GET STRONGER, WITH A PLAN.",
+          "supporting_evidence": "用“Editor’s Choice / Apple App Store Award / 2025 Women’sHealth / 2025 CNET”等桂冠与奖项文案做权威背书，并用右侧 App 界面（训练、数据环、reps 等）暗示可执行的训练计划与跟练体验。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "通过“有计划”的训练方案帮助用户变得更强，并以平台/媒体奖项增强可信度。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority",
+            "social_proof"
+          ],
+          "cognitive_biases": [
+            "primacy_effect",
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用超大字号的结果导向口号（“GET STRONGER, WITH A PLAN.”）先建立主叙事，再用多组桂冠奖项作为权威锚点降低决策成本，同时用产品界面局部细节（如“10 reps”“8,540”“23,340”“60 min”）提供“真实可用”的直观证据。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "左侧中上区域的超大黑体标题“GET STRONGER, WITH A PLAN.”；其次是左侧下方的奖项桂冠组；第三焦点为右侧倾斜 iPhone 界面。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#D7E62A",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_offset",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.7,
+          "clarity": 4.6,
+          "brand_consistency": 4.8,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "高饱和荧光黄底 + 超大黑体口号的强记忆点组合",
+            "同屏集中展示多组桂冠背书（Editor’s Choice / Apple App Store Award / Women’sHealth / CNET）"
+          ],
+          "category_conventions": [
+            "用“变强/训练结果”类口号做首屏主标题",
+            "用设备 mockup 展示 App 内训练/数据界面",
+            "用奖项/媒体引用做信任建立"
+          ],
+          "innovations": [
+            "将“权威背书”密集放在 P1 且与 VP 同屏，形成“先承诺-再证明”的强闭环",
+            "右侧采用倾斜裁切的设备露出，增强动感与力量感"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "偏力量训练/增肌诉求（“GET STRONGER”）",
+          "重视结构化训练（“WITH A PLAN.”）",
+          "对权威媒体/平台奖项敏感、需要信任背书的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "P1 用一句强结果导向主标题 + 极简背景提升可读性",
+          "同屏放置权威背书（奖项/媒体/平台）以快速建立信任",
+          "设备 mockup 只露出关键数据与核心场景，减少噪音"
+        ],
+        "avoid_elements": [
+          "在设备界面中出现过多被裁切的小字（如“Full Body Str”“Nutri”）导致信息不完整",
+          "奖项/桂冠过多时可能挤占核心功能解释空间"
+        ],
+        "adaptation_notes": "VitaFlow 若主打健康管理/饮食/恢复等方向，可沿用“高对比底色 + 超大一句话价值主张”的结构；将背书区替换为与 VitaFlow 相关的可验证信息（如平台推荐、媒体引用或认证标识），并在设备界面露出 1-2 个最关键的结果指标（例如趋势/环形进度/关键数值），避免出现被裁切的不完整词组。"
+      }
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "",
+          "subheadline": "",
+          "body_copy": [
+            "Define",
+            "Explore Teams",
+            "Journal",
+            "Flex",
+            "Fav",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun",
+            "Thursday",
+            "Priority",
+            "42:30",
+            "76%",
+            "94",
+            "Set 2 of 3",
+            "8x Bicep Curl · Alternating",
+            "30 lbs",
+            "70%",
+            "0:28",
+            "25 lbs",
+            "2 of 3",
+            "Weight Tracker",
+            "Goals",
+            "520",
+            "Calories left (kCal)",
+            "22",
+            "Protein left (g)",
+            "Weight Tracker",
+            "149.5 lbs",
+            "0.5 lbs · 1.2% Goal"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "8:20",
+            "20",
+            "9",
+            "10",
+            "11",
+            "12",
+            "42:30",
+            "76%",
+            "94",
+            "2 of 3",
+            "8x",
+            "30 lbs",
+            "70%",
+            "0:28",
+            "25 lbs",
+            "520",
+            "22",
+            "149.5 lbs",
+            "0.5 lbs",
+            "1.2%"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0B0B0D",
+            "#D9F25A"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "full_bleed",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "multiple"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "app_name"
+          ],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "DATA_PROOF"
+        },
+        "message_strategy": {
+          "primary_message": "展示训练执行与追踪能力（训练动作、组数进度、重量、时长/完成度、体重与营养剩余等）集中在同一套界面里。",
+          "supporting_evidence": "用多屏 iPhone 界面拼贴呈现：训练页（\"Set 2 of 3\"、\"8x Bicep Curl · Alternating\"、\"30 lbs\"、\"70%\"、\"42:30\"、\"76%\"、\"94\"）、营养/目标页（\"520 Calories left (kCal)\"、\"22 Protein left (g)\"）、体重页（\"149.5 lbs\"、\"0.5 lbs · 1.2% Goal\"）以及日历打卡（Mon-Sun 的勾选）。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "把训练过程与关键指标（进度、重量、时长、心率/完成度、热量与蛋白、体重）可视化并便于持续记录。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用大量可量化数字与进度状态（如“Set 2 of 3”“70%”“Calories left”“149.5 lbs”）强化“可追踪、可衡量、可坚持”的感受，并通过周历勾选暗示持续打卡的承诺机制。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "left_right",
+          "focal_point": "画面中心偏左的训练动作界面（人物训练画面 + 顶部“42:30 · 76% · 94”与“Set 2 of 3 / 30 lbs / 70%”信息条）",
+          "information_density": "high",
+          "hierarchy_score": 4.2
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "small",
+          "text_alignment": "mixed",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0B0D",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "floating_elements",
+          "whitespace_usage": "balanced",
+          "element_count": 3,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.0,
+          "brand_consistency": 4.8,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "多屏拼贴同时覆盖训练执行（动作/组数/重量/进度）与“Weight Tracker”指标卡片的组合呈现",
+            "高对比黑底 + 荧光绿进度环/勾选的强识别视觉"
+          ],
+          "category_conventions": [
+            "使用设备样机展示真实 App 界面",
+            "用进度环、百分比、重量（lbs）等量化指标表达训练与目标追踪"
+          ],
+          "innovations": [
+            "用倾斜叠放的多台设备形成“功能矩阵”式信息密度展示（而非单屏单卖点）"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "力量训练用户（\"Bicep Curl\"、\"30 lbs\"、\"25 lbs\"）",
+          "重视数据追踪与目标管理的人群（\"Calories left (kCal)\"、\"Protein left (g)\"、\"Weight Tracker\"）",
+          "习惯训练打卡与周期计划的人群（Mon-Sun 勾选）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "黑底高对比 UI + 单一高亮品牌色用于进度/关键状态",
+          "用“进度环 + 数字卡片”快速传达可量化结果",
+          "多屏拼贴在一张截图中覆盖多个核心场景"
+        ],
+        "avoid_elements": [
+          "单张截图内信息过密导致主卖点不够聚焦",
+          "仅用界面元素堆叠而缺少截图外的大标题解释（本图未见明确 headline）"
+        ],
+        "adaptation_notes": "若 VitaFlow 也强调“可追踪的健康数据”，可保留“深色底 + 高亮色进度”与“指标卡片”结构，但建议在截图画面留出明确标题区，用一句原生文案聚焦一个场景（例如只讲“体重/营养/训练”其一），其余用次要卡片做辅助。"
+      }
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "A PLAN FOR\nEVERY WORKOUT",
+          "subheadline": "",
+          "body_copy": [
+            "LIMITLESS",
+            "Explore Teams",
+            "Journal",
+            "Flex",
+            "Fav",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun",
+            "Friday",
+            "Priority",
+            "PEACH\nPALACE",
+            "60 min · Lower Body Strength",
+            "Completions",
+            "sent",
+            "Workouts",
+            "Chat",
+            "Nutrition"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "8:20",
+            "36",
+            "10",
+            "11",
+            "12",
+            "60",
+            "35,860",
+            "6,350",
+            "20",
+            "32"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#FFFFFF",
+            "#0B0B0D"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "logo"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "CONTENT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "为每一次训练提供计划与安排",
+          "supporting_evidence": "通过训练日历（Mon-Sun 勾选）、训练卡片（\"PEACH PALACE\"、\"60 min · Lower Body Strength\"）、以及完成量（\"35,860 Completions\"）来支撑“有计划可执行”的信息",
+          "emotional_appeal": "achievement",
+          "value_proposition": "把训练计划、训练内容与进度/完成情况集中在一个界面里，帮助用户持续执行每次训练"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof",
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "bandwagon",
+            "anchoring"
+          ],
+          "persuasion_technique": "用明确的承诺式标题（\"A PLAN FOR EVERY WORKOUT\"）降低理解成本；用可视化打卡与数值（勾选、\"35,860 Completions\"、\"6,350 sent\"）强化“坚持与完成”的可达成感，并以大数字形成从众/规模暗示"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“A PLAN FOR EVERY WORKOUT”，其次为居中的 iPhone 机模与训练内容卡片（\"PEACH PALACE\"）",
+          "information_density": "high",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0B0D",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 5,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.4,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "训练内容卡片上直接呈现 \"35,860 Completions\" 的规模数据",
+            "将周计划打卡（Mon-Sun）与具体训练内容卡片同屏呈现"
+          ],
+          "category_conventions": [
+            "使用手机机模展示真实 App 界面",
+            "用大标题一句话概括卖点",
+            "用进度/打卡视觉（勾选、环形进度）表达坚持"
+          ],
+          "innovations": [
+            "在内容卡片中加入 \"Priority\" 标签，强化“当天/当下该做什么”的决策引导"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "偏好按周计划执行训练的人群（Mon-Sun、勾选）",
+          "力量训练/健身房场景用户（杠铃深蹲画面、\"Lower Body Strength\"）",
+          "在意训练完成与数据反馈的人群（\"Completions\"、\"sent\"、数值徽章）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "顶部强主张大标题（短句、全大写、强对比）",
+          "机模居中 + 真实界面承载核心功能",
+          "用“周维度”打卡/进度组件表达可持续执行",
+          "在内容卡片上叠加标签（如 \"Priority\"）做决策引导"
+        ],
+        "avoid_elements": [
+          "界面内信息过密导致截图缩略图可读性下降（大量小字与多模块同屏）",
+          "关键卖点过度依赖 App 内小字（如 \"Completions\" 等）而非截图层级文案"
+        ],
+        "adaptation_notes": "VitaFlow 若主打健康/健身计划，可复用“计划感”叙事：用一句强主张标题 + 机模展示“今日计划/本周计划”核心界面；同时将关键结果指标（例如完成次数/连续天数）提升到更大字号或截图层级文案，避免仅停留在界面小字中。"
+      }
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "TRACK\nMACROS",
+          "subheadline": "",
+          "body_copy": [],
+          "cta_button": "",
+          "small_print": [
+            "Est. Accuracy",
+            "H LADDER",
+            "Voice",
+            "Text",
+            "AI",
+            "Nutrition",
+            "History",
+            "Weight Tracker",
+            "Goals",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat",
+            "Sun",
+            "Calories left (kCal)",
+            "Protein Left (g)",
+            "Macro Journal",
+            "View All",
+            "Breakfast",
+            "Chobani",
+            "1 serving • 190 g",
+            "Greek Yogurt, Mango",
+            "130 cal",
+            "11 p",
+            "15 c",
+            "2 f",
+            "Generic",
+            "1 serving • 70 g",
+            "Half Bagel With Cream Cheese",
+            "193 cal",
+            "7 p",
+            "29 c",
+            "6 f",
+            "Workouts",
+            "Chat",
+            "Nutrition"
+          ],
+          "data_numbers": [
+            "8:20",
+            "20",
+            "65%",
+            "520",
+            "80%",
+            "22",
+            "7",
+            "9",
+            "10",
+            "11",
+            "12",
+            "190",
+            "130",
+            "11",
+            "15",
+            "2",
+            "70",
+            "193",
+            "7",
+            "29",
+            "6"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#FFFFFF",
+            "#0B0B0B"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "multiple"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "logo"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "AI_DEMO"
+        },
+        "message_strategy": {
+          "primary_message": "TRACK\nMACROS",
+          "supporting_evidence": "通过两台设备画面同时展示：一台为食物拍摄/识别界面（含“Est. Accuracy”“AI”），另一台为“Nutrition”页的宏量与热量剩余数据（“Calories left (kCal)”“Protein Left (g)”）及“Macro Journal”记录列表。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "用拍照/AI与营养面板把“宏量营养素记录”这件事做得更直观、可量化。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用强动词短标题“TRACK MACROS”做单点锚定；再用可视化进度环与“Calories left/Protein Left”等明确指标降低理解成本，并用“Est. Accuracy”暗示识别结果可靠性。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“TRACK MACROS”，其次是前景右侧手机中的绿色进度环与“520”“22”等关键数字。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0B0B",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 3,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 4.5,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "识别界面中出现“Est. Accuracy”提示",
+            "同屏用两台设备把“拍摄/AI”与“Nutrition 数据面板”串联"
+          ],
+          "category_conventions": [
+            "大标题+设备界面展示核心功能",
+            "用进度环/剩余量数字呈现热量与宏量目标"
+          ],
+          "innovations": [
+            "在拍摄识别流程中显式呈现“Est. Accuracy”作为可信度线索"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注宏量营养素的人群（“TRACK MACROS”“Macro Journal”）",
+          "有目标管理需求的人群（“Goals”“Calories left (kCal)”“Protein Left (g)”）",
+          "偏好快速记录的人群（拍照界面+“AI”入口）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "超大、单点聚焦的功能标题（如“TRACK MACROS”这种两词结构）",
+          "用“进度环 + 剩余量数字”做结果/进度的主视觉",
+          "双设备/双界面并置：左侧输入（拍摄/识别），右侧输出（营养面板/日志）"
+        ],
+        "avoid_elements": [
+          "在截图中放入过多可读小字（如列表条目与多处导航文字）导致缩略图可读性下降",
+          "若无强识别能力支撑，避免使用类似“Est. Accuracy”的表述"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“顶部超大标题 + 下方双界面串联”的结构：左侧展示输入动作（如扫描/记录入口），右侧展示输出面板（关键指标用进度环与大数字）。标题保持 2–3 个词的强动词结构；小字信息收敛到 1–2 个关键指标，确保在缩略图下仍可读。"
+      }
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "FIND THE PERFECT\nPLAN FOR YOU",
+          "subheadline": "",
+          "body_copy": [
+            "Coach Kelly",
+            "LIMITLESS",
+            "Build a muscular physique with athletic\nStrength x Conditioning",
+            "Skill Level",
+            "Advanced",
+            "Workout St",
+            "Athletic Strength ar",
+            "Suggested",
+            "Dumbbells • Barbel",
+            "Designed Fo",
+            "If you're looking to\nbadass and athlet\nlifting and conditio\nfor you. Coach Kel\nperfect for a comm\nto barbells and dum",
+            "TRY LI",
+            "Coach Corey",
+            "FORGED",
+            "Forge your dream physique with\nclassic bodybuilding",
+            "Coach Shelby",
+            "TRANSFORM",
+            "Build curves without the bulk\nthrough traditional Strength Training",
+            "Coach André",
+            "CREWS\nCONTROL",
+            "Left heavy and feel the pump with\nFunctional Bodybuilding"
+          ],
+          "cta_button": "TRY LI",
+          "small_print": [],
+          "data_numbers": [
+            "1:00"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#FFFFFF",
+            "#0B0B0B"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "multiple"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "PERSONALIZATION",
+          "primary_cn": "个性化展示",
+          "secondary": "CONTENT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "FIND THE PERFECT PLAN FOR YOU",
+          "supporting_evidence": "通过多位教练与不同训练计划卡片（如“LIMITLESS”“FORGED”“TRANSFORM”“CREWS CONTROL”）以及计划详情页信息（“Skill Level”“Suggested”等）来支撑“可找到适合你的计划”。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "提供多教练、多类型训练计划，并展示计划详情以帮助用户选择适合自己的训练方案。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "liking",
+            "authority"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用强势主标题直接承诺“为你匹配计划”，并用教练头像/训练场景照片与计划名称矩阵降低选择成本，同时在详情页露出“Skill Level”“Suggested”等信息增强可控感与专业感。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“FIND THE PERFECT PLAN FOR YOU”，其次是前景手机中的计划网格（“FORGED”“TRANSFORM”“CREWS CONTROL”）与人物照片。",
+          "information_density": "high",
+          "hierarchy_score": 4.5
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#FFFFFF",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 5,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.5,
+          "clarity": 4.5,
+          "brand_consistency": 5.0,
+          "uniqueness": 3.5
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "以“Coach + 计划名（如 LIMITLESS / FORGED / TRANSFORM / CREWS CONTROL）”的内容组织方式",
+            "同屏同时展示“计划详情页 + 计划库网格”两种选择视角"
+          ],
+          "category_conventions": [
+            "使用真人训练照片强化健身氛围与可信度",
+            "用大标题一句话概括用户收益",
+            "用设备样机展示真实界面"
+          ],
+          "innovations": [
+            "用前景网格呈现“多计划可选”，背景详情页补充筛选维度（如“Skill Level”“Suggested”）形成“选择+验证”的组合叙事"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "偏力量/健身房训练人群（界面出现“Dumbbells • Barbel”）",
+          "有训练经验的用户（出现“Advanced”）",
+          "对教练带练/计划化训练感兴趣的人群（多位“Coach”露出）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "顶部超大一句话利益点标题（如“FIND THE PERFECT PLAN FOR YOU”这种结构）",
+          "双设备叠放：前景展示内容库/选择面，背景展示详情/筛选面",
+          "用卡片网格呈现多方案，降低理解成本"
+        ],
+        "avoid_elements": [
+          "截图内出现被裁切/不完整的文字（如“Workout St”“Designed Fo”“TRY LI”“Dumbbells • Barbel”）",
+          "信息密度过高导致小字不可读"
+        ],
+        "adaptation_notes": "若适配到 VitaFlow，可保留“主标题 + 双界面叠放”的结构：前景用网格展示不同健康方案/课程/计划，背景用详情页展示关键筛选项与适配信息；同时确保所有关键字段与按钮文案在截图中完整可读，避免任何被裁切的行与词。"
+      }
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "GET COACHED\nTHROUGH IT ALL",
+          "subheadline": "",
+          "body_copy": [
+            "Friday, October 24",
+            "LADDER",
+            "PYTHON\nPUMP 🐍",
+            "Barbell",
+            "Dumbbells",
+            "Cable Machine",
+            "Saved",
+            "Schedule",
+            "Share",
+            "Download",
+            "START WORKOUT",
+            "WARM UP"
+          ],
+          "cta_button": "START WORKOUT",
+          "small_print": [],
+          "data_numbers": [
+            "8:20",
+            "24",
+            "45 min",
+            "34 min"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#FFFFFF",
+            "#0B0B0B"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "LADDER"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "VP"
+        },
+        "message_strategy": {
+          "primary_message": "GET COACHED THROUGH IT ALL",
+          "supporting_evidence": "用设备内的训练页面呈现“PYTHON PUMP 🐍”，并提供“START WORKOUT”、器械标签（“Barbell / Dumbbells / Cable Machine”）以及时长信息（“45 min / 34 min”）来支撑“coached”的具体落地场景。",
+          "emotional_appeal": "security",
+          "value_proposition": "在训练过程中提供教练式指导，并可直接开始训练（“START WORKOUT”）。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority",
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "primacy_effect"
+          ],
+          "persuasion_technique": "用强势大标题（“GET COACHED THROUGH IT ALL”）先建立承诺与预期，再用真实产品界面与明确行动按钮（“START WORKOUT”）降低决策成本，把“被指导”具体化为可立即执行的训练动作。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“GET COACHED THROUGH IT ALL”，其次是居中的 iPhone 机模与界面内的“START WORKOUT”高亮按钮。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#FFFFFF",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 5,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.6,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "用真人教练视频/照片式画面作为训练承载界面背景（在机模内）",
+            "训练计划命名“PYTHON PUMP 🐍”的强记忆点"
+          ],
+          "category_conventions": [
+            "大标题+机模展示 App 内页",
+            "用明确 CTA（“START WORKOUT”）推动转化",
+            "用时长（“45 min / 34 min”）降低用户对训练成本的不确定性"
+          ],
+          "innovations": [
+            "把“coached”通过“Friday, October 24”这种日程化呈现，强化“被带着练/有人安排”的体验线索"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "偏力量训练/器械训练用户（“Barbell / Dumbbells / Cable Machine”）",
+          "希望被带练、需要明确开始按钮与流程的人群（“START WORKOUT”）",
+          "对训练时长敏感、需要可预期安排的人群（“45 min / 34 min”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "顶部一句话强主张（类似“GET COACHED THROUGH IT ALL”）+居中机模",
+          "界面内高对比 CTA 按钮（类似“START WORKOUT”）",
+          "用时长数字做“成本可预期”表达（类似“45 min / 34 min”）",
+          "用标签快速说明适用场景/器械（类似“Barbell / Dumbbells / Cable Machine”）"
+        ],
+        "avoid_elements": [
+          "在截图主视觉中放入过多与转化无关的底部导航文字（如“Saved / Schedule / Share / Download”）导致注意力分散",
+          "界面内信息层级过多导致主卖点被真人画面抢走（当主卖点不是“教练/真人带练”时）"
+        ],
+        "adaptation_notes": "若 VitaFlow 的核心是“健康/恢复/饮食/习惯”等而非力量训练带练，可保留“强主张+机模+高亮 CTA+时长数字”的结构，把标签从“Barbell / Dumbbells / Cable Machine”替换为 VitaFlow 的关键场景标签；同时确保机模内最醒目的区域呈现 VitaFlow 的核心结果或关键动作，而不是被背景人物画面主导。"
+      }
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "LEARN\nCORRECT FORM",
+          "subheadline": "",
+          "body_copy": [],
+          "cta_button": "",
+          "small_print": [
+            "reps",
+            "weight",
+            "lbs"
+          ],
+          "data_numbers": [
+            "8:20",
+            "42:30",
+            "76%",
+            "80",
+            "10",
+            "0:28",
+            "25",
+            "2 of 3"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#FFFFFF",
+            "#111111"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat",
+              "line_chart"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "RESULT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "LEARN CORRECT FORM",
+          "supporting_evidence": "通过训练中的实时界面叠加数据（如“42:30 • 76% • 80”、“0:28”、“10 reps”、“25 lbs”、“2 of 3”）与动作场景（“Goblet Squat”）来支撑“学习正确动作”的能力感知。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "在训练过程中提供动作学习/纠正相关的引导与反馈，让用户更标准地完成动作。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "goal_gradient"
+          ],
+          "persuasion_technique": "用“LEARN CORRECT FORM”的强指令式标题 + 训练中可量化指标（时间、百分比、心率/数值、次数、重量、进度“2 of 3”）营造“可被指导、可被衡量、可完成”的训练闭环。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“LEARN CORRECT FORM”与中部手机内的人物训练动作（深色背景中高对比的人物）",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#FFFFFF",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "absent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.6,
+          "brand_consistency": 4.0,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "训练画面中叠加“0:28”环形进度与“10 reps / 25 lbs”等执行参数",
+            "用火焰图标强化强度/燃脂的视觉暗示"
+          ],
+          "category_conventions": [
+            "大标题一句话卖点",
+            "设备机模展示真实训练场景",
+            "用数据叠加体现“可追踪/可量化”"
+          ],
+          "innovations": [
+            "将“动作学习/正确姿势”作为单页核心信息，并用训练中界面直接佐证"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "力量训练/健身房训练用户（“Goblet Squat”、“25 lbs”、“reps”）",
+          "希望有人指导动作标准的新手到进阶用户",
+          "偏好训练时有实时数据反馈的人群"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "顶部超大一句话利益点（如截图中的“LEARN CORRECT FORM”结构）",
+          "设备机模 + 真实场景/真人动作演示",
+          "关键指标叠加（时间/进度/次数/强度）来证明“可量化反馈”"
+        ],
+        "avoid_elements": [
+          "过多装饰性图标干扰主体（如多处火焰图标可能分散注意）",
+          "缺少品牌识别元素导致记忆点不足（本页未见logo/app名）"
+        ],
+        "adaptation_notes": "若适配到 VitaFlow，可沿用“顶部一句话核心收益 + 机模内真实使用场景 + 1-3个关键数据/进度”的结构；将叠加数据替换为 VitaFlow 的核心健康指标与阶段进度，并在画面角落加入清晰的品牌标识以提升可识别度。"
+      }
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P8",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "TRACK YOUR\nPROGRESS",
+          "subheadline": "",
+          "body_copy": [
+            "Romanian Deadlift",
+            "All (40)",
+            "Barbell (30)",
+            "Dumbbells (10)",
+            "186 lbs",
+            "Estimated 1RM",
+            "↑ 12%",
+            "Since you started",
+            "4.27.24",
+            "6.19.24",
+            "7.26.24",
+            "8.12.24",
+            "10.23.24",
+            "12.28.24",
+            "01.18.25",
+            "125k lbs",
+            "Total Volume",
+            "1,256",
+            "Total Reps",
+            "100 lbs",
+            "Avg Weight",
+            "160 lbs",
+            "Max Weight",
+            "History",
+            "Date",
+            "Equipment",
+            "Time",
+            "Effort",
+            "11/02",
+            "Barbell",
+            "30 s",
+            "50%",
+            "70%",
+            "90%",
+            "100%",
+            "10/31",
+            "2:30",
+            "BPM",
+            "89",
+            "MAX HR",
+            "56%",
+            "CAL",
+            "210",
+            "ZONE 1"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "8:20",
+            "All (40)",
+            "Barbell (30)",
+            "Dumbbells (10)",
+            "186",
+            "12%",
+            "180",
+            "150",
+            "130",
+            "100",
+            "120",
+            "0",
+            "4.27.24",
+            "6.19.24",
+            "7.26.24",
+            "8.12.24",
+            "10.23.24",
+            "12.28.24",
+            "01.18.25",
+            "125k",
+            "1,256",
+            "100",
+            "160",
+            "11/02",
+            "30",
+            "50%",
+            "70%",
+            "90%",
+            "100%",
+            "10/31",
+            "8:28",
+            "2:30",
+            "89",
+            "56%",
+            "210",
+            "1"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#FFFFFF",
+            "#0B0B0B"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "bar_chart",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "DATA_PROOF",
+          "primary_cn": "数据证明",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "TRACK YOUR PROGRESS",
+          "supporting_evidence": "通过“Estimated 1RM”“↑ 12% Since you started”、柱状图趋势、以及“Total Volume / Total Reps / Avg Weight / Max Weight”等统计卡片来支撑进步可量化、可追踪。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "把训练表现（如 1RM、增长百分比、训练量与次数）用数据与趋势图清晰呈现，帮助用户持续追踪进步。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用明确的关键指标（“186 lbs”“↑ 12%”）作为锚点，并用柱状图与汇总卡片降低理解成本，强化“持续记录=持续进步”的承诺感。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“TRACK YOUR PROGRESS”，其次是手机屏内的“186 lbs”与“↑ 12%”以及荧光黄柱状图。",
+          "information_density": "high",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0B0B",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 3,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.4,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Estimated 1RM”与“↑ 12% Since you started”的组合呈现",
+            "同屏展示柱状趋势 + 汇总卡片（Total Volume/Total Reps/Avg Weight/Max Weight）+ “History”列表"
+          ],
+          "category_conventions": [
+            "用大标题一句话概括收益点（TRACK YOUR PROGRESS）",
+            "用图表与关键数字证明效果（柱状图、百分比增长、重量）",
+            "设备界面置中展示核心功能"
+          ],
+          "innovations": [
+            "在同一张截图中同时露出手机与手表界面（Apple Watch 画面）以强化多端记录/训练场景"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "力量训练用户（Romanian Deadlift、Barbell、Estimated 1RM、lbs）",
+          "关注训练数据与进步追踪的人群（↑ 12%、Total Volume、Total Reps）",
+          "使用可穿戴设备训练的人群（手表界面）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "大标题直给收益点（如“TRACK YOUR PROGRESS”式表达）",
+          "用“百分比变化 + 时间趋势图”做结果证明",
+          "用 3-4 个统计卡片汇总关键指标（类似 Total Volume/Total Reps/Avg Weight/Max Weight）",
+          "在截图中露出“历史记录/日志”增强可信度"
+        ],
+        "avoid_elements": [
+          "同屏信息过密导致小字可读性下降（History 表格与多列字段）",
+          "过多日期与刻度数字挤占注意力（多组日期与纵轴刻度）"
+        ],
+        "adaptation_notes": "若 VitaFlow 侧重健康/体能综合管理，可保留“趋势图 + 关键指标卡片 + 增长百分比”的结构，但将指标替换为 VitaFlow 的核心指标（例如体重/体脂/心率区间/睡眠等），并减少表格型小字，把“↑ X%”与 1-2 个最关键的趋势放大作为主证据。"
+      }
+    },
+    {
+      "index": 9,
+      "filename": "screenshot_09.png",
+      "position": "P9",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "LISTEN TO YOUR\nOWN MUSIC",
+          "subheadline": "",
+          "body_copy": [
+            "Select your music or\npodcasts to get in the zone."
+          ],
+          "cta_button": "SKIP",
+          "small_print": [
+            "8:20"
+          ],
+          "data_numbers": [
+            "8:20"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#FFFFFF",
+            "#111111"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [
+            "Spotify",
+            "Music",
+            "YouTube Music",
+            "amazon music",
+            "Podcasts"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "INTEGRATION",
+          "primary_cn": "生态整合",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "LISTEN TO YOUR OWN MUSIC",
+          "supporting_evidence": "通过“Select your music or podcasts to get in the zone.”以及可选入口列表（Spotify / Music / YouTube Music / amazon music / Podcasts）来支撑可接入自有音乐/播客来源。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "允许用户选择自己的音乐或播客来进入状态。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "liking"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用熟悉的第三方品牌入口（Spotify、Music、YouTube Music、amazon music、Podcasts）降低理解与决策成本，并用“SKIP”提供低摩擦路径。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“LISTEN TO YOUR OWN MUSIC”，其次是居中的 iPhone 设备画面与列表入口（Spotify 等）。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#111111",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 4.6,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“LISTEN TO YOUR OWN MUSIC”作为主卖点直给",
+            "在同一页集中展示多个音乐/播客来源入口（Spotify / Music / YouTube Music / amazon music / Podcasts）"
+          ],
+          "category_conventions": [
+            "大标题 + 设备 mockup 的商店截图结构",
+            "用列表卡片展示可选项",
+            "提供“SKIP”降低首次设置门槛"
+          ],
+          "innovations": [
+            "将“自有音乐/播客选择”作为单页核心叙事，而非仅在设置页弱化呈现"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "希望在运动/专注场景中使用自己音乐或播客的用户",
+          "已在使用 Spotify / Music / YouTube Music / amazon music / Podcasts 的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "强动词大标题（如“LISTEN TO YOUR OWN MUSIC”）+ 一句解释文案",
+          "设备居中展示真实界面以增强可信度",
+          "多入口列表卡片（带品牌标识）呈现“可连接/可导入”的能力",
+          "“SKIP”式低摩擦选项减少流失"
+        ],
+        "avoid_elements": [
+          "在商店截图中放入过多小字且对比度偏低的按钮文案（如底部“SKIP”在深色背景上较弱）",
+          "仅靠第三方品牌露出而缺少对核心健康价值的直接关联说明"
+        ],
+        "adaptation_notes": "若 VitaFlow 需要展示生态整合（如 Apple Health、可穿戴设备、音乐/冥想内容源等），可复用“单页只讲一个整合点”的结构：顶部用一句话说明整合收益（保持大字号高对比），中部用设备界面展示选择/授权列表，底部提供可跳过选项以降低首次使用阻力。"
+      }
+    },
+    {
+      "index": 10,
+      "filename": "screenshot_10.png",
+      "position": "P10",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "GET ANSWERS TO\nYOUR QUESTIONS",
+          "subheadline": "",
+          "body_copy": [
+            "Body & Bell",
+            "Coach Pins",
+            "April 1, 2024",
+            "Maggie O",
+            "3:30 PM",
+            "Hey everyone! I’m new to the Ladder app and that welcome workout has sealed the deal for me. Excited to be working out with you all 💪🔥",
+            "6",
+            "10",
+            "15",
+            "18",
+            "8 • View Thread >",
+            "You",
+            "3:45 PM",
+            "Maggie O",
+            "Hey everyone! Im new to the Ladder app and that welcome workout has sealed the deal for me. Excited to be working out with you all 💪🔥",
+            "It’s so worth it! Welcome to the team! I’ve done other apps and Ladder is the best. Killer workouts and not doing the same thing over and over. We’ve got this! 👊",
+            "Coach Lauren",
+            "4:00 PM",
+            "Type a Message ..."
+          ],
+          "cta_button": "View Thread >",
+          "small_print": [
+            "8:20"
+          ],
+          "data_numbers": [
+            "8:20",
+            "April 1, 2024",
+            "3:30 PM",
+            "6",
+            "10",
+            "15",
+            "18",
+            "8",
+            "3:45 PM",
+            "4:00 PM"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#FFFFFF",
+            "#0B0B0D",
+            "#6A3FF2"
+          ],
+          "color_mood": "cool",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "SOCIAL_PROOF",
+          "primary_cn": "社会证明",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "在群组里向教练/团队提问并获得回应与支持",
+          "supporting_evidence": "以真实对话界面呈现：新用户发言、他人回复、教练视频内容与“Coach Pins”置顶机制，以及互动计数与“View Thread >”线程入口",
+          "emotional_appeal": "belonging",
+          "value_proposition": "通过群组交流与教练内容，让用户在训练过程中随时获得解答与鼓励"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof",
+            "authority",
+            "unity",
+            "liking"
+          ],
+          "cognitive_biases": [
+            "bandwagon",
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用“群聊实录+教练身份+互动数字”把“有人在用、有人在回应、教练在场”具象化，降低用户对训练疑问无人解答的顾虑"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“GET ANSWERS TO YOUR QUESTIONS”与中部 iPhone 内的紫色对话气泡（回复内容）",
+          "information_density": "high",
+          "hierarchy_score": 4.3
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#6A3FF2",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.2,
+          "brand_consistency": 4.6,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Coach Pins”置顶入口",
+            "群组对话中直接出现“Coach Lauren”的视频卡片"
+          ],
+          "category_conventions": [
+            "用手机机模展示真实 App 界面",
+            "用大标题一句话概括单一卖点",
+            "用社区互动（回复/表情/线程）传达陪伴感"
+          ],
+          "innovations": [
+            "把“答疑”卖点用聊天线程而非 FAQ/客服页面呈现",
+            "在同一屏内同时展示用户互助与教练内容（视频）"
+          ]
+        },
+        "competitive_positioning": "specialist",
+        "target_audience_signals": [
+          "需要训练陪伴与即时答疑的新手用户（“I’m new to the Ladder app”）",
+          "偏好教练带领与社群氛围的健身人群（群组名“Body & Bell”、教练身份露出）",
+          "重视持续动力与鼓励反馈的用户（“Welcome to the team!”、“We’ve got this!”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "大标题直给利益点（如“GET ANSWERS TO YOUR QUESTIONS”）",
+          "用真实对话/评论流作为社会证明载体",
+          "用高对比强调色突出关键内容（如紫色气泡/标签）",
+          "在截图内展示“教练/专家”身份与可互动入口（类似“View Thread >”）"
+        ],
+        "avoid_elements": [
+          "正文信息过密导致难以在商店快速扫读（大量聊天文本）",
+          "关键卖点依赖用户阅读长段对话才能理解"
+        ],
+        "adaptation_notes": "若 VitaFlow 也有问答/教练/社群能力，可复用“利益点大标题 + 真实对话界面”的结构，但将对话内容压缩为更短的 1-2 句高信息密度示例，并把关键入口（如“Ask a question”“Coach reply”）做成更醒目的 UI 标签，减少需要细读的文本量。"
+      }
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → CORE_FUNC → CORE_FUNC → CORE_FUNC → PERSONALIZATION → CORE_FUNC → CORE_FUNC → DATA_PROOF → INTEGRATION → SOCIAL_PROOF",
+    "sequence_cluster": "traditional",
+    "narrative_arc": "从VP开始，以SOCIAL_PROOF结束",
+    "strengths": [
+      "视觉吸引力高 (4.5/5)",
+      "信息传达清晰 (4.5/5)"
+    ],
+    "weaknesses": [],
+    "key_takeaways": [
+      "用“进度环 + 剩余量数字”做结果/进度的主视觉",
+      "超大、单点聚焦的功能标题（如“TRACK MACROS”这种两词结构）"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 1,
+      "CORE_FUNC": 5,
+      "PERSONALIZATION": 1,
+      "DATA_PROOF": 1,
+      "INTEGRATION": 1,
+      "SOCIAL_PROOF": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 10,
+      "Data_Viz": 8,
+      "Human": 8,
+      "logo": 3,
+      "app_name": 2,
+      "Food_Image": 1,
+      "LADDER": 1,
+      "Spotify": 1,
+      "Music": 1,
+      "YouTube Music": 1,
+      "amazon music": 1,
+      "Podcasts": 1
+    },
+    "psychology_coverage": {
+      "cialdini": [
+        "commitment",
+        "liking",
+        "social_proof",
+        "unity",
+        "authority"
+      ],
+      "cognitive_biases": [
+        "goal_gradient",
+        "novelty",
+        "anchoring",
+        "cognitive_fluency",
+        "primacy_effect",
+        "bandwagon"
+      ]
+    },
+    "design_score_averages": {
+      "visual_appeal": 4.52,
+      "clarity": 4.47,
+      "brand_consistency": 4.64,
+      "uniqueness": 3.57
+    }
+  }
+}

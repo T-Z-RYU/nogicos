@@ -1,0 +1,95 @@
+{
+  "app_name": "Noom",
+  "screenshot_index": 114,
+  "screenshot_filename": "0114.png",
+  "total_onboarding_screens": 114,
+  "position_percentage": 100,
+  
+  "classification": {
+    "functional_purpose": {
+      "primary_category": "Plan",
+      "secondary_type": "SetupComplete",
+      "confidence": 0.95,
+      "description": "Onboarding完成，进入主界面/仪表板"
+    },
+    "funnel_stage": {
+      "stage": "Activation",
+      "position_in_funnel": "bottom",
+      "description": "用户已完成Onboarding，开始体验核心功能"
+    },
+    "psychological_tactic": {
+      "primary_tactic": "ProgressAchievement",
+      "secondary_tactics": ["Personalization"],
+      "tactic_strength": "moderate",
+      "description": "展示首个学习目标已达成，强化成就感和继续使用的动力"
+    },
+    "interaction_pattern": {
+      "primary_interaction": "Tap",
+      "is_skippable": true,
+      "input_effort": "low",
+      "description": "用户可以选择阅读或收听内容"
+    },
+    "ui_pattern": {
+      "layout_type": "ProgressDisplay",
+      "has_progress_indicator": true,
+      "has_illustration": true,
+      "has_animation": false,
+      "color_scheme": "dark",
+      "description": "主仪表板界面，展示每日计划和学习进度"
+    },
+    "commitment_level": {
+      "level": 2,
+      "commitment_type": "time",
+      "reversibility": "reversible",
+      "description": "开始使用核心功能，承诺程度较低"
+    }
+  },
+  
+  "deep_analysis": {
+    "design_intent": "这是Onboarding的最后一步——进入主界面并立即提供一个'Quick Win'（Learning goal achieved!），让用户感受到产品价值并建立使用习惯",
+    "ux_observation": "界面展示了Noom的核心特色：每日学习课程。用户完成了'Welcome to Noom!'（1分钟）获得成就感。底部弹窗引导用户继续探索更多内容",
+    "conversion_impact": "positive",
+    "potential_issues": [
+      "界面信息较多，可能让新用户感到困惑",
+      "卡路里显示为0 cal，用户需要主动记录"
+    ],
+    "best_practice_alignment": "符合'首次价值体验'最佳实践——在Onboarding结束时立即提供一个小成就，建立用户的积极情绪和继续使用的动力"
+  },
+  
+  "raw_observation": {
+    "visible_text": [
+      "NOOM",
+      "Z",
+      "M T W T F S S",
+      "CALORIES",
+      "Weight Loss Zone",
+      "0 cal - 1,250 - 1,880",
+      "Today's plan",
+      "Learning goal achieved!",
+      "1 lesson completed",
+      "Welcome to Noom!",
+      "1 min",
+      "Goal achieved!",
+      "Update: More green foods for you to enjoy",
+      "0 min",
+      "Read",
+      "Listen"
+    ],
+    "ui_elements": [
+      "用户头像(Z)",
+      "周日历视图",
+      "卡路里进度条",
+      "每日计划卡片",
+      "成就弹窗",
+      "阅读/收听按钮"
+    ],
+    "brand_elements": [
+      "Noom Logo",
+      "深色主题界面",
+      "品牌绿色高亮"
+    ]
+  },
+  
+  "analysis_method": "claude_opus_4.5",
+  "analyzed_at": "2025-12-22T00:00:00"
+}

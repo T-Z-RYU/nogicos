@@ -1,0 +1,22 @@
+{
+  "app_name": "Cal AI - Calorie Tracker",
+  "app_category": "饮食营养 (Nutrition & Diet)",
+  "sub_category": "AI卡路里追踪",
+  "target_users": "希望通过AI拍照识别食物来轻松追踪卡路里、管理体重的健身减肥人群",
+  "core_value": "用AI扫描食物自动识别营养成分，让卡路里追踪变得简单高效",
+  "business_model": "订阅制 (Subscription)",
+  "estimated_stages": [
+    "Welcome",
+    "Onboarding",
+    "Paywall",
+    "SignUp",
+    "Home",
+    "Tracking",
+    "Progress",
+    "Profile",
+    "Settings"
+  ],
+  "visual_style": "极简清新 (Minimalist)",
+  "primary_color": "黑白配色",
+  "confidence": 0.95
+}

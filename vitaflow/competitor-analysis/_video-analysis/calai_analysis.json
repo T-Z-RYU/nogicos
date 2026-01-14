@@ -1,0 +1,3343 @@
+{
+  "product": "Cal AI",
+  "total_keyframes": 417,
+  "analyzed": 417,
+  "frames": [
+    {
+      "index": 1,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "启动页，显示Cal AI Logo和苹果图标",
+      "is_new_page": true,
+      "transition_from_prev": null
+    },
+    {
+      "index": 2,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "欢迎页，显示'Calorie tracking made easy'标语，包含Get Started按钮和Sign In选项",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 3,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "欢迎页，右侧出现手机界面预览",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 4,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "欢迎页，手机界面显示扫描相机界面",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 5,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "欢迎页，手机界面显示完整的相机扫描界面，包含Scan Food按钮",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 6,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "欢迎页，手机相机界面显示真实拍摄画面",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 7,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "欢迎页，手机相机聚焦在三明治和薯片的餐盘上",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 8,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "欢迎页，手机相机继续显示餐盘，视角稍有调整",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 9,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "欢迎页，手机相机显示更宽的视角包含餐盘和周围环境",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 10,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页面，显示Cal AI应用界面，包含卡路里统计(2199 Calories left)和营养素信息",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 11,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页面，底部出现导航栏(Home, Analytics, Settings)，显示食物分析进度(5%)",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 12,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页面，显示分析完成的Turkey Sandwich结果，卡路里更新为1739",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 13,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页面，完整显示Turkey Sandwich的营养信息(460 calories)",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 14,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物详情页，显示Turkey Sandwich With Potato Chips的完整营养分析",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 15,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物详情页，内容与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 16,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "返回欢迎页面，显示空白背景和底部文案",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 17,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "欢迎页，右侧出现手机界面预览",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 18,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "欢迎页，手机界面显示扫描相机界面",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 19,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "欢迎页，手机界面显示完整的相机扫描界面",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 20,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "欢迎页，手机相机界面显示扫描过程，中央有蓝色圆圈指示器",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 21,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "欢迎页面，显示食物扫描功能和'Calorie tracking made easy'，带有Get Started按钮",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 22,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "欢迎页面，相机界面稍有变化，其他内容相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 23,
+      "stage": "Onboarding",
+      "module": "Profile",
+      "description": "性别选择页面，用户可选择Male、Female、Other",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 24,
+      "stage": "Onboarding",
+      "module": "Profile",
+      "description": "性别选择页面，用户交互中但未选择",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 25,
+      "stage": "Onboarding",
+      "module": "Profile",
+      "description": "性别选择页面，Other选项被选中",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 26,
+      "stage": "Onboarding",
+      "module": "Profile",
+      "description": "性别选择页面，Female选项被选中并高亮",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 27,
+      "stage": "Onboarding",
+      "module": "Profile",
+      "description": "性别选择页面，Female选项被最终选定（黑色高亮），Next按钮变为黑色可用状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 28,
+      "stage": "Onboarding",
+      "module": "Preference",
+      "description": "健身频率选择页面，询问每周锻炼次数，显示0-2和3-5选项",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 29,
+      "stage": "Onboarding",
+      "module": "Preference",
+      "description": "健身频率选择页面，显示完整的三个选项（0-2、3-5、6+），0-2选项被选中",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 30,
+      "stage": "Onboarding",
+      "module": "Preference",
+      "description": "健身频率选择页面，0-2选项被最终选定（黑色高亮），Next按钮变为黑色可用状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 31,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "归因调研页面，询问用户从哪里了解到应用，显示Instagram、Facebook、TikTok、Youtube选项",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 32,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "归因调研页面滚动，显示更多选项：TikTok、Youtube、Google、TV、Friend or family",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 33,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "归因调研页面回到顶部，显示Instagram、Facebook、TikTok、Youtube、Google、TV选项",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 34,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "归因调研页面，TikTok选项被选中",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 35,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "归因调研页面，TikTok选项被最终选定（黑色高亮），Next按钮变为黑色可用状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 36,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "询问是否尝试过其他卡路里追踪应用，显示No和Yes选项",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 37,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "应用体验调研页面，No选项被选中，Next按钮变为黑色可用状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 38,
+      "stage": "Onboarding",
+      "module": "Welcome",
+      "description": "价值主张页面，展示Cal AI的长期效果图表和统计数据",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 39,
+      "stage": "Onboarding",
+      "module": "Profile",
+      "description": "身高体重输入页面，显示Imperial/Metric切换和数据选择器",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 40,
+      "stage": "Onboarding",
+      "module": "Profile",
+      "description": "身高体重输入页面，切换到Metric模式，显示厘米和公斤单位，167cm被选中",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 41,
+      "stage": "Onboarding",
+      "module": "Profile",
+      "description": "身高体重信息收集页面，用户可选择英制或公制单位，显示身高体重选择器",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 42,
+      "stage": "Onboarding",
+      "module": "Profile",
+      "description": "年龄信息收集页面，询问出生时间，显示月份、日期、年份选择器",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 43,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标设定页面，询问用户的健身目标，包含减重、维持、增重三个选项",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 44,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标设定页面，用户选择了减重选项，显示蓝色选中状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 45,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标设定页面，减重选项变为黑色背景，表示已确认选择",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 46,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标体重设定页面，询问期望的体重，显示52.0kg目标重量和调节滑块",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 47,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标确认页面，显示减重6.4kg是现实目标，包含90%用户满意的描述",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 48,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "减重速度设定页面，询问达成目标的速度，显示每周1.0kg的减重速度选择",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 49,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "减重速度页面，用户选择1.5kg选项",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 50,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "减重速度页面，调整为0.5kg，显示慢而稳定的建议",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 51,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "减重速度页面，选择1.4kg，提示可能感到疲惫和皮肤松弛",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 52,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "减重速度页面，选择0.8kg，显示推荐标签",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 53,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "减重速度页面，保持0.8kg选择，显示推荐标签",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 54,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "减重速度页面，0.8kg选择状态，蓝色按钮在推荐标签位置",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 55,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "减重速度页面，确定0.8kg选择，蓝色按钮移至Next按钮",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 56,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "减重效果对比页面，展示使用Cal AI vs自己减重的效果对比，2倍效果宣传",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 57,
+      "stage": "Onboarding",
+      "module": "Preference",
+      "description": "障碍识别页面，询问阻碍达成目标的因素，列出多个选项供选择",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 58,
+      "stage": "Onboarding",
+      "module": "Preference",
+      "description": "障碍识别页面，显示更多选项包括缺乏灵感等",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 59,
+      "stage": "Onboarding",
+      "module": "Preference",
+      "description": "障碍识别页面，用户选择了缺乏一致性选项",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 60,
+      "stage": "Onboarding",
+      "module": "Preference",
+      "description": "障碍识别页面，用户选择了不健康饮食习惯选项",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 61,
+      "stage": "Onboarding",
+      "module": "Preference",
+      "description": "饮食偏好选择页面，询问是否遵循特定饮食，显示Classic、Pescatarian、Vegetarian、Vegan选项",
+      "is_new_page": true,
+      "transition_from_prev": null
+    },
+    {
+      "index": 62,
+      "stage": "Onboarding",
+      "module": "Preference",
+      "description": "饮食偏好选择页面，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 63,
+      "stage": "Onboarding",
+      "module": "Preference",
+      "description": "饮食偏好选择页面，Classic选项被高亮选中（灰色背景）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 64,
+      "stage": "Onboarding",
+      "module": "Preference",
+      "description": "饮食偏好选择页面，Classic选项被选中（黑色背景），Next按钮变为黑色",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 65,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标设定页面，询问想要完成什么，显示健康相关选项",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 66,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标设定页面，Feel better about my body选项被选中",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 67,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标设定页面，Eat and live healthier选项被选中",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 68,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标设定页面，Eat and live healthier选项确认选中（黑色背景），Next按钮变为黑色",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 69,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标设定页面，显示多选状态，Eat and live healthier和Boost my energy and mood都被选中（灰色背景）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 70,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标设定页面，Boost my energy and mood选项确认选中（黑色背景），Next按钮变为黑色",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 71,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标预期结果页面，显示减重潜力图表和Cal AI历史数据说明",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 72,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "社会证明页面，显示评分请求、用户头像和用户评价",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 73,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "社会证明页面，显示更多用户评价，页面向上滚动显示第二个评价",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 74,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "社会证明页面，与上一帧相同，显示两个用户评价",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 75,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "社会证明页面，页面向上滚动，显示评分星星和用户评价，Next按钮变为黑色",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 76,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "社会证明页面，继续向上滚动，评分请求标题重新出现",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 77,
+      "stage": "Onboarding",
+      "module": "Permission",
+      "description": "通知权限请求页面，显示Cal AI通知权限弹窗",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 78,
+      "stage": "Onboarding",
+      "module": "Permission",
+      "description": "系统通知权限弹窗，显示iOS原生权限请求对话框",
+      "is_new_page": false,
+      "transition_from_prev": "modal"
+    },
+    {
+      "index": 79,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "推荐码页面，询问是否有推荐码，显示Referral Code输入框",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 80,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "推荐码页面，显示Referral Code输入框，Next按钮变为黑色",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 81,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "推荐码输入页面，询问用户是否有推荐码",
+      "is_new_page": true,
+      "transition_from_prev": null
+    },
+    {
+      "index": 82,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "推荐码页面，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 83,
+      "stage": "Onboarding",
+      "module": "Growth",
+      "description": "完成感谢页面，显示'All done! Thank you for trusting us'",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 84,
+      "stage": "Onboarding",
+      "module": "Initialization",
+      "description": "初始化加载页面，显示'We're setting everything up for you'和'Customizing health plan...'",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 85,
+      "stage": "Onboarding",
+      "module": "Initialization",
+      "description": "初始化页面，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 86,
+      "stage": "Onboarding",
+      "module": "Permission",
+      "description": "跟踪权限弹窗，询问是否允许App跟踪活动",
+      "is_new_page": true,
+      "transition_from_prev": "modal"
+    },
+    {
+      "index": 87,
+      "stage": "Onboarding",
+      "module": "Permission",
+      "description": "跟踪权限弹窗，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 88,
+      "stage": "Onboarding",
+      "module": "Initialization",
+      "description": "初始化继续，显示'Applying BMR formula...'",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 89,
+      "stage": "Onboarding",
+      "module": "Initialization",
+      "description": "初始化页面，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 90,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标展示页面，显示个性化健康计划和营养目标",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 91,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标页面滚动，显示健康评分",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 92,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标页面，卡路里目标卡片被选中",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 93,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "编辑卡路里目标页面",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 94,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "编辑卡路里目标，显示键盘",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 95,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "编辑卡路里目标，卡路里值改为1000",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 96,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "返回目标页面，卡路里值已更新为1000",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 97,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "编辑蛋白质目标页面",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 98,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "编辑蛋白质目标，显示键盘",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 99,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "编辑蛋白质目标，出现Revert和Done按钮",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 100,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "返回目标页面，蛋白质值已更新为100g",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 101,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标设定结果页，显示6.4kg减重目标和营养推荐",
+      "is_new_page": true,
+      "transition_from_prev": null
+    },
+    {
+      "index": 102,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "与上一帧相同，底部有灰色遮罩开始出现",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 103,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，显示免费试用CalAI的主标题",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 104,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，开始显示相机界面预览",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 105,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，相机界面预览完全展示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 106,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，相机界面显示模糊的食物扫描场景",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 107,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，相机界面显示清晰的三明治和薯片",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 108,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，相机界面显示完整的餐盘场景",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 109,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，显示主页面界面预览，展示卡路里追踪功能",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 110,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，主页面显示食物分析中状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 111,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，显示分析完成后的土耳其三明治营养信息",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 112,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，显示更新后的卡路里剩余信息",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 113,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，显示食物详情页面预览",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 114,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，显示空白屏幕（过渡状态）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 115,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，重新显示相机扫描界面",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 116,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，相机界面全屏展示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 117,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，相机界面显示扫描环境",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 118,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，相机界面显示三明wich食物",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 119,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，相机界面演示结束，显示完整食物",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 120,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "试用确认页面，提示免费试用结束前会发送提醒",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 121,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，显示3天免费试用，包含月付和年付选项",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 122,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，显示App Store订阅弹窗",
+      "is_new_page": false,
+      "transition_from_prev": "modal"
+    },
+    {
+      "index": 123,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "App Store订阅页面，显示账户信息",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 124,
+      "stage": "Onboarding",
+      "module": "Paywall",
+      "description": "付费墙页面，App Store弹窗已关闭",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 125,
+      "stage": "Onboarding",
+      "module": "Goal",
+      "description": "目标设置页面，显示减重目标和每日营养推荐",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 126,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "账户创建页面，显示Apple和Google登录选项",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 127,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "账户创建页面，Google选项被选中",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 128,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "账户创建页面，显示加载状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 129,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "Google授权确认弹窗",
+      "is_new_page": false,
+      "transition_from_prev": "modal"
+    },
+    {
+      "index": 130,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "Google授权确认弹窗，显示加载状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 131,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "Google账户登录页面",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 132,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "Google账户登录页面，URL栏显示安全连接",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 133,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "Google账户选择页面，显示可用账户",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 134,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "Google账户选择页面，账户被选中",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 135,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "Google账户选择页面，显示点击反馈",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 136,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "Google账户选择页面，显示加载进度条",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 137,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "Google账户选择页面，进度条完成",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 138,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "CalAI授权确认页面",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 139,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "CalAI授权确认页面，Continue按钮被选中",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 140,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "CalAI授权确认页面，显示加载进度条",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 141,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "账号创建页面，显示Sign in with Apple加载状态和Sign in with Google选项，底部显示accounts.google.com",
+      "is_new_page": true,
+      "transition_from_prev": null
+    },
+    {
+      "index": 142,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "账号创建页面，与上一帧相同，Sign in with Apple仍在加载中",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 143,
+      "stage": "Onboarding",
+      "module": "Registration",
+      "description": "账号创建页面，Sign in with Apple和Google登录选项正常显示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 144,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页Home界面，显示卡路里追踪、营养信息和Recently logged部分",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 145,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页Home界面，卡路里显示1000，Recently logged显示引导文案",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 146,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页Home界面，显示功能选项菜单（Log exercise、Saved foods、Food Database、Scan food）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 147,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页Home界面，Scan food选项被选中高亮",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 148,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页Home界面，功能菜单动画过渡状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 149,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页Home界面，功能菜单收起，显示引导文案",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 150,
+      "stage": "Core",
+      "module": "L2",
+      "description": "扫描指导弹窗，标题'Best scanning practices'，显示Do/Don't示例和一般提示",
+      "is_new_page": true,
+      "transition_from_prev": "modal"
+    },
+    {
+      "index": 151,
+      "stage": "Core",
+      "module": "L2",
+      "description": "扫描指导弹窗，与上一帧相同，显示'Scan now'按钮",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 152,
+      "stage": "Core",
+      "module": "L2",
+      "description": "相机扫描界面，显示食物扫描框和底部功能选项（Scan Food、Barcode、Food label、Gallery）",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 153,
+      "stage": "Core",
+      "module": "L2",
+      "description": "相机扫描界面，继续扫描食物状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 154,
+      "stage": "Core",
+      "module": "L2",
+      "description": "相机扫描界面，继续扫描食物状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 155,
+      "stage": "Core",
+      "module": "L2",
+      "description": "相机扫描界面，继续扫描食物状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 156,
+      "stage": "Core",
+      "module": "L2",
+      "description": "相机扫描界面，继续扫描食物状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 157,
+      "stage": "Core",
+      "module": "L2",
+      "description": "相机扫描界面，继续扫描食物状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 158,
+      "stage": "Core",
+      "module": "L2",
+      "description": "相机扫描界面，继续扫描食物状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 159,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页Home界面，返回到主页",
+      "is_new_page": false,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 160,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页Home界面，Recently logged显示食物分析中，4%进度和'Analyzing food...'状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 161,
+      "stage": "Core",
+      "module": "L1",
+      "description": "首页显示卡路里余量500卡，显示今日成就弹窗",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 162,
+      "stage": "Core",
+      "module": "L1",
+      "description": "首页，成就弹窗简化版，显示1天连击",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 163,
+      "stage": "Core",
+      "module": "L1",
+      "description": "首页主界面，弹窗消失，显示正常主页内容",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 164,
+      "stage": "Core",
+      "module": "L1",
+      "description": "首页，快捷功能卡片展开，显示4个功能选项",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 165,
+      "stage": "Core",
+      "module": "L1",
+      "description": "首页，快捷功能卡片收起，回到正常状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 166,
+      "stage": "Core",
+      "module": "L1",
+      "description": "首页，快捷功能卡片再次展开",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 167,
+      "stage": "Core",
+      "module": "L2",
+      "description": "相机扫描界面，黑色背景，扫描框显示",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 168,
+      "stage": "Core",
+      "module": "L2",
+      "description": "相机扫描界面，摄像头预览显示模糊图像",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 169,
+      "stage": "Core",
+      "module": "L2",
+      "description": "相机扫描界面，摄像头聚焦到食品包装",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 170,
+      "stage": "Core",
+      "module": "L2",
+      "description": "相机扫描界面，食品包装更加清晰",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 171,
+      "stage": "Core",
+      "module": "L2",
+      "description": "相机扫描界面，条码模式激活",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 172,
+      "stage": "Core",
+      "module": "L2",
+      "description": "相机扫描界面，条码扫描模式继续",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 173,
+      "stage": "Core",
+      "module": "L2",
+      "description": "相机扫描界面，显示条码扫描器标题",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 174,
+      "stage": "Core",
+      "module": "L2",
+      "description": "条码扫描器界面，扫描框定位到条码区域",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 175,
+      "stage": "Core",
+      "module": "L2",
+      "description": "条码扫描器界面，更清晰地显示产品信息",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 176,
+      "stage": "Core",
+      "module": "L2",
+      "description": "条码扫描器界面，显示完整的产品标签和条码",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 177,
+      "stage": "Core",
+      "module": "L2",
+      "description": "条码扫描过渡状态，主页内容开始出现在背景",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 178,
+      "stage": "Core",
+      "module": "L1",
+      "description": "返回首页，条码扫描界面关闭",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 179,
+      "stage": "Core",
+      "module": "L1",
+      "description": "首页，显示营养数据库搜索进度",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 180,
+      "stage": "Core",
+      "module": "L1",
+      "description": "首页，数据更新完成，卡路里余量显示为390，显示Nestlé Fresh产品信息",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 181,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页，显示卡路里追踪、营养数据和功能卡片（Log exercise, Saved foods等），有弹窗覆盖",
+      "is_new_page": true,
+      "transition_from_prev": null
+    },
+    {
+      "index": 182,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页，弹窗消失，显示最近记录的跑步运动",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 183,
+      "stage": "Core",
+      "module": "L2",
+      "description": "运动记录页面，显示运动类型选择（Run, Weight lifting, Describe）",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 184,
+      "stage": "Core",
+      "module": "L2",
+      "description": "运动记录页面，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 185,
+      "stage": "Core",
+      "module": "L2",
+      "description": "运动记录页面，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 186,
+      "stage": "Core",
+      "module": "L2",
+      "description": "跑步设置页面，显示强度选择（High/Medium/Low）和持续时间设置",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 187,
+      "stage": "Core",
+      "module": "L2",
+      "description": "跑步设置页面，强度调整为Low",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 188,
+      "stage": "Core",
+      "module": "L2",
+      "description": "跑步设置页面，持续时间改为30分钟",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 189,
+      "stage": "Core",
+      "module": "L1",
+      "description": "返回主页，显示新添加的跑步记录（221卡路里，Low强度，30分钟）",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 190,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页，再次显示功能卡片弹窗",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 191,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页，弹窗消失",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 192,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，显示Saved scans标签页，显示空状态",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 193,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 194,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，开始输入搜索文本 'B'，键盘出现",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 195,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，搜索 'Banana Protein Shake'，显示搜索结果列表",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 196,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，选择第一个蛋白奶昔选项，显示选中状态和记录成功提示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 197,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，选中第一个选项（高亮显示），添加按钮可见",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 198,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 199,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 200,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 201,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，搜索Banana Protein Shake，显示搜索结果列表，有High Protein Shake选项被选中",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 202,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，搜索框处于编辑状态，底部弹出键盘",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 203,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，搜索框显示'Banana Protein'，搜索结果更新，键盘仍然显示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 204,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，搜索框显示'Banan'，搜索结果更新显示Banana相关食物，键盘显示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 205,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，搜索框为空，切换到My meals标签页，显示空状态和Suggestions",
+      "is_new_page": false,
+      "transition_from_prev": "tab"
+    },
+    {
+      "index": 206,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，My meals标签，显示'You have created no meals'空状态，键盘显示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 207,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home页面，显示卡路里追踪界面，230卡路里剩余，底部tab栏可见",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 208,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home页面，显示最近记录的食物，底部出现快捷操作菜单",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 209,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home页面，快捷操作菜单完全展开，显示Log exercise、Saved foods、Food Database、Scan food选项",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 210,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home页面，快捷操作菜单收起，显示正常的卡路里追踪界面",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 211,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，搜索框为空，显示Recently logged食物",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 212,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，搜索框获得焦点，底部弹出键盘",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 213,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，搜索框输入'Cael'，键盘显示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 214,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，搜索'Caesar'，显示Caesar相关食物搜索结果，键盘显示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 215,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，搜索'Caesar Sal'，搜索结果更新，键盘显示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 216,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，搜索'Caesar Salad'，显示Caesar Salad相关食物列表，键盘显示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 217,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，Caesar Salad搜索结果，键盘显示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 218,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，键盘收起，显示完整的Caesar Salad搜索结果列表",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 219,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food Database页面，Caesar Salad with Romaine被选中，显示选中状态并出现确认提示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 220,
+      "stage": "Core",
+      "module": "L2",
+      "description": "页面出现滑动动画，右侧显示食物详情页面的一部分，显示Caesar Salad相关信息",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 221,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Caesar Salad nutrition details page - showing Cup measurement selected, 1 cup serving, 184 calories",
+      "is_new_page": true,
+      "transition_from_prev": null
+    },
+    {
+      "index": 222,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Caesar Salad nutrition details - switched to G measurement, 100g serving, 170 calories",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 223,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Caesar Salad nutrition details - scrolled to show more nutrition facts (Polyunsaturated Fat, Cholesterol visible)",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 224,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Caesar Salad nutrition details - scrolled further showing Sodium, Fiber, Sugar, Potassium",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 225,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Caesar Salad nutrition details - scrolled back to top showing title and measurement options",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 226,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home page - Thursday (6) selected, showing 60 calories left, recently logged Caesar Salad",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 227,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home page - switched to Sunday (2), showing 1000 calories left, empty state message",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 228,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home page - back to Thursday (6), showing 60 calories left with recently logged food",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 229,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals - Macronutrients page showing current goals (partial view with slide transition)",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 230,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals - Macronutrients page fully loaded with macro visualization and goal settings",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 231,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals - scrolled view showing individual macro goals without top visualization",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 232,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals - scrolled back to show full page with macro visualization",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 233,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals - same view with macro goals displayed",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 234,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals - same macronutrients page view",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 235,
+      "stage": "Onboarding",
+      "module": "Preference",
+      "description": "Workout frequency selection - 'How many workouts do you do per week?' with 0-2 selected",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 236,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals - back to macronutrients page with back button highlighted",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 237,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals - Calorie goal row highlighted/selected for editing",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 238,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals - Calorie goal editing with number keyboard shown and field focused",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 239,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals - Calorie goal updated to 1,100 with protein goal highlighted",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 240,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals - final view with updated calorie goal of 1,100",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 241,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals页面 - Macronutrients设置，显示营养目标调整界面",
+      "is_new_page": true,
+      "transition_from_prev": null
+    },
+    {
+      "index": 242,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home页面，显示160卡路里剩余，营养素跟踪",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 243,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home页面，Carbs部分有选中状态指示器",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 244,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home页面第2屏，显示步数和卡路里燃烧，Apple Health连接提示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 245,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home页面第2屏，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 246,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Health Access权限页面模态窗口，显示Apple Health访问权限设置",
+      "is_new_page": true,
+      "transition_from_prev": "modal"
+    },
+    {
+      "index": 247,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Health Access页面，Turn On All按钮被选中",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 248,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Health Access页面，所有开关已开启（绿色状态）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 249,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Health Access页面，滚动显示更多健康数据类型",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 250,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Health Access页面，继续滚动显示更多健康数据类型",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 251,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Health Access页面，显示页面底部的维生素和运动相关数据类型",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 252,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Health Access页面，显示READ权限部分，底部有应用说明",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 253,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Health Access页面，滚动到WRITE权限部分",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 254,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Health Access页面，显示完整的健康权限设置界面",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 255,
+      "stage": "Core",
+      "module": "L1",
+      "description": "返回Home页面，Health权限设置完成后",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 256,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home页面，显示4,951步数和595卡路里燃烧，步数数据已更新",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 257,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home页面，Add burned calories toggle被选中",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 258,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home页面，显示运动数据详情（Steps +134, Run +221, Running +240）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 259,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home页面，Water显示500ml，有选中状态指示器",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 260,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Water settings模态页面，显示水量设置（250ml serving size）和推荐摄入量",
+      "is_new_page": true,
+      "transition_from_prev": "modal"
+    },
+    {
+      "index": 261,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Water settings modal - serving size 250ml with hydration info",
+      "is_new_page": true,
+      "transition_from_prev": "modal"
+    },
+    {
+      "index": 262,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Water settings modal - serving size changed to 250ml with visual feedback",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 263,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Water settings modal - same state as previous frame",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 264,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Water settings modal - dropdown showing size options (250, 500, 750) with Cancel/Save buttons",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 265,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Water settings modal - 500ml selected, Save button highlighted with blue circle",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 266,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Water settings modal - showing 500ml serving size, dropdown closed",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 267,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Water settings modal - same state with 500ml serving size",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 268,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Water settings modal - animation or loading state with blue circle indicator",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 269,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Water settings modal - close button (X) highlighted with blue circle",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 270,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home page - showing water setting updated to 500ml, activity tracking data visible",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 271,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home page - macronutrient view showing calories left (755) and macro breakdown",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 272,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home page - scrolled to show more recently logged items",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 273,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home page - further scrolled showing more food entries and exercise activities",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 274,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home page - continued scroll showing additional logged items including Nestlé Fresh product",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 275,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food details page - High Protein Shake nutrition information with serving details",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 276,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food details page - scrolled to show detailed nutrition facts (vitamins, minerals)",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 277,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food details page - scrolled back to top showing basic nutrition info",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 278,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Food details page - context menu opened showing Report Food and Delete Food options",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 279,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home page - transitioning back from food details, partially visible during navigation",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 280,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home page - fully returned showing recently logged items and macro tracking",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 281,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页面，显示卡路里统计和活动记录列表",
+      "is_new_page": true,
+      "transition_from_prev": null
+    },
+    {
+      "index": 282,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页面，顶部显示Caesar Salad信息",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 283,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页面，显示卡路里圆形图表和宏量营养素统计",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 284,
+      "stage": "Core",
+      "module": "L1",
+      "description": "1天连击成就弹窗显示",
+      "is_new_page": true,
+      "transition_from_prev": "modal"
+    },
+    {
+      "index": 285,
+      "stage": "Core",
+      "module": "L1",
+      "description": "1天连击成就弹窗，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 286,
+      "stage": "Core",
+      "module": "L1",
+      "description": "1天连击成就弹窗，Continue按钮被点击",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 287,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页面，弹窗关闭后回到主界面，卡路里数据更新为320",
+      "is_new_page": true,
+      "transition_from_prev": "modal"
+    },
+    {
+      "index": 288,
+      "stage": "Core",
+      "module": "L1",
+      "description": "主页面，底部显示4个功能卡片，加号按钮被点击",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 289,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面过渡状态",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 290,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，显示Saved scans选项卡",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 291,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，搜索框被激活显示键盘",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 292,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，My foods选项卡",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 293,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，My foods选项卡，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 294,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，My foods选项卡显示空状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 295,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，切换回Saved scans选项卡",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 296,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，长按Caesar Salad显示删除选项",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 297,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，删除选项消失",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 298,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，长按High Protein Shake显示删除选项",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 299,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，删除选项继续显示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 300,
+      "stage": "Core",
+      "module": "L2",
+      "description": "食物数据库页面，切换到Saved scans选项卡显示空状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 301,
+      "stage": "Core",
+      "level": "L2",
+      "description": "Food Database页面，在My foods tab，显示'You have created no foods'空状态页面",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 302,
+      "stage": "Core",
+      "level": "L2",
+      "description": "Food Database页面，点击Create a Food按钮时显示交互反馈（按钮右侧有蓝色圆圈）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 303,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面，显示表单字段：Brand name, Description, Serving size, Serving per container",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 304,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面，Description字段获得焦点（蓝色圆圈在Description字段）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 305,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面，Brand name字段获得焦点",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 306,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面，Brand name字段激活并显示键盘",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 307,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面，Brand name字段激活状态，键盘显示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 308,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面，Brand name字段输入'Nestle Fresh Milk'",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 309,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面，Description字段获得焦点并显示键盘",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 310,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面，Description字段激活并显示键盘",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 311,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面，Description字段输入'Hi Calcium Fresh Milk'，Serving size字段获得焦点",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 312,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面，Serving size字段激活，键盘切换为数字键盘",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 313,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面，Serving size字段输入'250mL'，Serving per container字段获得焦点",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 314,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面，Serving per container字段激活",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 315,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面，Serving per container字段激活，显示数字键盘",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 316,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面，Serving per container字段输入'1'，Next按钮变为黑色（可点击状态）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 317,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food页面第二步，显示营养成分输入表单：Calories, Protein, Carbs, Total fat, Saturated fat, Polyunsaturated fat, Monounsaturated",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 318,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food营养成分页面，显示更多字段包括Trans fat",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 319,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food营养成分页面，Calories字段获得焦点",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 320,
+      "stage": "Core",
+      "level": "L3",
+      "description": "Create Food营养成分页面，Calories字段激活并显示数字键盘",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 321,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Create Food页面，用户输入食物的营养信息，卡路里设为1，底部有数字键盘",
+      "is_new_page": true,
+      "transition_from_prev": null
+    },
+    {
+      "index": 322,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Create Food页面，卡路里改为110，蛋白质字段被选中（蓝色圆圈）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 323,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Create Food页面，蛋白质字段选中状态，蓝色圆圈位置略有变化",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 324,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Create Food页面，蛋白质字段被选中，显示文字'Prote'被截断",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 325,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Create Food页面，蛋白质字段输入值为1，字段有黑色边框高亮",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 326,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Create Food页面，蛋白质15，碳水化合物26，总脂肪字段被选中（蓝色圆圈）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 327,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Create Food页面，页面向下滚动显示更多脂肪类型字段（饱和脂肪、多元不饱和脂肪、单元不饱和脂肪、反式脂肪）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 328,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Create Food页面，饱和脂肪字段被选中（蓝色圆圈）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 329,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Create Food页面，继续向下滚动显示更多营养素字段（钠、钾、糖、纤维、维生素A）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 330,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Food Database页面，显示'My foods'标签页，有创建新食物按钮和已创建的牛奶食物项目",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 331,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Food Database页面，相同内容，蓝色圆圈出现在右上角",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 332,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Food Database页面，蓝色圆圈移动到'Saved scans'标签附近",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 333,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Food Database页面，切换到'Saved scans'标签，显示'No saved foods'和教学提示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 334,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Home页面，显示卡路里追踪、宏量营养素分布和最近记录的食物",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 335,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Analytics页面，显示目标体重50.6kg，当前体重57kg，BMI信息和目标进度88%",
+      "is_new_page": true,
+      "transition_from_prev": "tab"
+    },
+    {
+      "index": 336,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Edit Weight Goal页面转场动画，从Analytics页面滑入",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 337,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Edit Weight Goal页面，显示减重目标50.6kg和滑块调节器",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 338,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Edit Weight Goal页面，相同内容，蓝色圆圈消失",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 339,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Analytics页面转场动画，目标体重更新为49kg，蓝色圆圈在Done按钮附近",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 340,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Analytics页面，显示更新后的目标体重49kg，目标进度变为85%",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 341,
+      "stage": "Core",
+      "module": "L2",
+      "description": "编辑体重页面，显示公制单位，当前体重57.0kg，带有保存按钮",
+      "is_new_page": true,
+      "transition_from_prev": null
+    },
+    {
+      "index": 342,
+      "stage": "Core",
+      "module": "L2",
+      "description": "编辑体重页面，与上一帧相同内容",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 343,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Analytics页面，显示目标体重49kg，当前体重56.4kg，BMI信息和目标进度86%",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 344,
+      "stage": "Core",
+      "module": "L2",
+      "description": "BMI详情页面，显示BMI 24.7为正常，包含免责声明和健康风险说明",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 345,
+      "stage": "Core",
+      "module": "L2",
+      "description": "BMI详情页面，与上一帧相同内容",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 346,
+      "stage": "Core",
+      "module": "L2",
+      "description": "BMI详情页面，与上一帧相同内容",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 347,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Analytics页面，返回主页面，显示体重和BMI信息",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 348,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Analytics页面，BMI圈圈有蓝色选中状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 349,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Analytics页面，页面向下滚动，显示更多营养数据",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 350,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Analytics页面，继续滚动显示营养统计图表",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 351,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Analytics页面，与上一帧相同内容",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 352,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Analytics页面，切换到上周数据，显示无数据状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 353,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Analytics页面，切换回本周数据，显示营养统计",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 354,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Analytics页面，顶部出现黑色标题栏显示'Update your weight'",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 355,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Analytics页面，黑色标题栏消失，恢复正常状态",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 356,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Settings页面，显示个人信息和当前余额$0，有推荐朋友功能",
+      "is_new_page": true,
+      "transition_from_prev": "tab"
+    },
+    {
+      "index": 357,
+      "stage": "Core",
+      "module": "L2",
+      "description": "推荐朋友页面，显示推荐码NGACRP和分享功能",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 358,
+      "stage": "Core",
+      "module": "L2",
+      "description": "推荐朋友页面，显示系统分享面板，包含各种分享应用",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 359,
+      "stage": "Core",
+      "module": "L2",
+      "description": "推荐朋友页面，分享面板关闭，恢复原页面",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 360,
+      "stage": "Core",
+      "module": "L2",
+      "description": "推荐朋友页面，与上一帧相同内容",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 361,
+      "stage": "Core",
+      "module": "L2",
+      "description": "推荐好友页面，显示推广码NGACRP和分享功能",
+      "is_new_page": true,
+      "transition_from_prev": null
+    },
+    {
+      "index": 362,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，显示个人信息和推荐好友按钮，底部tab可见",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 363,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面完整视图，显示个人资料、自定义选项和偏好设置",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 364,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面向下滚动，显示更多偏好设置和小组件选项",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 365,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面继续向下滚动，显示小组件和卡路里追踪选项",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 366,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面向右滑动过渡，准备进入个人详情",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 367,
+      "stage": "Core",
+      "module": "L2",
+      "description": "个人详情页面，显示目标体重、当前体重、身高等信息",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 368,
+      "stage": "Core",
+      "module": "L2",
+      "description": "编辑体重页面，显示公制/英制切换和体重滑动选择器",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 369,
+      "stage": "Core",
+      "module": "L2",
+      "description": "编辑体重页面，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 370,
+      "stage": "Core",
+      "module": "L2",
+      "description": "返回个人详情页面，体重信息已更新",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 371,
+      "stage": "Core",
+      "module": "L2",
+      "description": "个人详情页面，身高字段被选中（蓝色高亮）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 372,
+      "stage": "Core",
+      "module": "L2",
+      "description": "个人详情页面向右滑动过渡，准备编辑身高",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 373,
+      "stage": "Core",
+      "module": "L2",
+      "description": "编辑身高页面，显示公制/英制切换和身高选择列表",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 374,
+      "stage": "Core",
+      "module": "L2",
+      "description": "编辑身高页面，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 375,
+      "stage": "Core",
+      "module": "L2",
+      "description": "返回个人详情页面，身高字段高亮显示更新",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 376,
+      "stage": "Core",
+      "module": "L2",
+      "description": "个人详情页面，生日字段被选中（蓝色高亮）",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 377,
+      "stage": "Core",
+      "module": "L2",
+      "description": "个人详情页面向右滑动过渡，准备编辑生日",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 378,
+      "stage": "Core",
+      "module": "L2",
+      "description": "设置生日页面，显示月份、日期、年份的滚轮选择器",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 379,
+      "stage": "Core",
+      "module": "L2",
+      "description": "设置生日页面，年份滚轮向上滚动",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 380,
+      "stage": "Core",
+      "module": "L2",
+      "description": "设置生日页面，显示返回按钮动画效果",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 381,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Personal Details页面，显示用户的个人信息（目标体重、当前体重、身高、生日、性别）",
+      "is_new_page": true,
+      "transition_from_prev": null
+    },
+    {
+      "index": 382,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Set Gender页面，性别选择界面，显示Male、Female、Other选项，Female已选中",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 383,
+      "stage": "Core",
+      "module": "L2",
+      "description": "返回到Personal Details页面",
+      "is_new_page": false,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 384,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Settings页面过渡状态，可看到部分Customization内容和底部导航栏",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 385,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Settings页面完整显示，Customization分组包含Personal details、Adjust goals、Change language等选项",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 386,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals页面，显示Macronutrients配置（蛋白质、脂肪、碳水化合物比例）和各种营养目标",
+      "is_new_page": true,
+      "transition_from_prev": "push"
+    },
+    {
+      "index": 387,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals页面，与上一帧相同内容",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 388,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals页面，与上一帧相同内容",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 389,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals页面，顶部宏营养素圆环图被部分遮挡",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 390,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Adjust Goals页面，完整显示所有内容",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 391,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Settings页面过渡状态，左侧显示部分Adjust Goals内容，右侧显示Settings页面",
+      "is_new_page": true,
+      "transition_from_prev": "pop"
+    },
+    {
+      "index": 392,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Settings页面完整显示",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 393,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Change language模态弹窗，显示多种语言选项（English、Español、中国人等）",
+      "is_new_page": true,
+      "transition_from_prev": "modal"
+    },
+    {
+      "index": 394,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Change language弹窗，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 395,
+      "stage": "Core",
+      "module": "L1",
+      "description": "返回Settings页面，弹窗已关闭",
+      "is_new_page": false,
+      "transition_from_prev": "modal"
+    },
+    {
+      "index": 396,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Settings页面，显示Log your food按钮",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 397,
+      "stage": "Core",
+      "module": "L1",
+      "description": "Settings页面向下滚动，显示Legal分组和Terms and Conditions选项",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 398,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Widget设置教程第1步，显示如何添加widget的说明",
+      "is_new_page": true,
+      "transition_from_prev": "modal"
+    },
+    {
+      "index": 399,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Widget设置教程第1步，与上一帧相同",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 400,
+      "stage": "Core",
+      "module": "L2",
+      "description": "Widget设置教程第2步，显示搜索Cal AI的说明",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 401,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，显示小工具教程第2步",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 402,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，显示小工具教程第3步",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 403,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，显示完整设置界面，包含小工具区域",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 404,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，小工具区域显示扫描食物和条形码按钮",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 405,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，返回小工具教程第1步",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 406,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，显示小工具教程第1步",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 407,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，显示小工具教程第3步",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 408,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，滚动显示完整界面和法律部分",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 409,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，显示完整界面",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 410,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，滚动显示下半部分内容",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 411,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，滚动返回上方显示小工具教程",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 412,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，继续滚动显示小工具区域",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 413,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，滚动到法律部分",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 414,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，滚动显示更多法律内容",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 415,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，显示删除账户选项",
+      "is_new_page": false,
+      "transition_from_prev": null
+    },
+    {
+      "index": 416,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，弹出删除账户确认弹窗",
+      "is_new_page": true,
+      "transition_from_prev": "modal"
+    },
+    {
+      "index": 417,
+      "stage": "Core",
+      "module": "L1",
+      "description": "设置页面，删除账户弹窗已关闭，返回设置页面",
+      "is_new_page": true,
+      "transition_from_prev": "modal"
+    }
+  ]
+}

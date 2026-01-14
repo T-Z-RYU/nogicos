@@ -1,0 +1,351 @@
+{
+  "version": "1.0",
+  "description": "标准分类词表 - 3层结构：Stage / Module / Feature",
+  "last_updated": "2025-01-12",
+  
+  "stages": {
+    "Onboarding": {
+      "cn": "引导阶段",
+      "en": "Onboarding",
+      "description_cn": "从启动到首次使用核心功能前的所有页面",
+      "description_en": "All pages from launch to first use of core features",
+      "modules": [
+        "Welcome",
+        "Profile",
+        "Goal",
+        "Preference",
+        "Permission",
+        "Growth",
+        "Initialization",
+        "Paywall",
+        "Registration"
+      ]
+    },
+    "Core": {
+      "cn": "核心阶段",
+      "en": "Core",
+      "description_cn": "核心功能使用阶段",
+      "description_en": "Core feature usage stage",
+      "modules": [
+        "Dashboard",
+        "Tracking",
+        "Progress",
+        "Content",
+        "Social",
+        "Profile",
+        "Settings"
+      ]
+    }
+  },
+  
+  "modules": {
+    "Welcome": {
+      "cn": "欢迎模块",
+      "en": "Welcome",
+      "stage": "Onboarding",
+      "description_cn": "启动、价值主张、功能预览",
+      "description_en": "Launch, value proposition, feature preview",
+      "features": [
+        "Splash",
+        "ValueProp",
+        "FeaturePreview"
+      ]
+    },
+    "Profile": {
+      "cn": "身份信息",
+      "en": "Profile",
+      "stage": "Onboarding",
+      "description_cn": "用户身份信息收集（性别、年龄、身高体重等）",
+      "description_en": "User identity information collection",
+      "features": [
+        "GenderSelect",
+        "BirthdayInput",
+        "AgeInput",
+        "HeightInput",
+        "WeightInput",
+        "BodyMetrics"
+      ]
+    },
+    "Goal": {
+      "cn": "目标设定",
+      "en": "Goal",
+      "stage": "Onboarding",
+      "description_cn": "用户目标设定（方向、数值、时间线等）",
+      "description_en": "User goal setting",
+      "features": [
+        "DirectionSelect",
+        "TargetInput",
+        "PaceSelect",
+        "TimelineSelect",
+        "MotivationDisplay"
+      ]
+    },
+    "Preference": {
+      "cn": "偏好收集",
+      "en": "Preference",
+      "stage": "Onboarding",
+      "description_cn": "用户偏好和习惯收集",
+      "description_en": "User preference and habit collection",
+      "features": [
+        "FrequencySelect",
+        "TypeSelect",
+        "BarrierIdentify",
+        "ExperienceCheck"
+      ]
+    },
+    "Permission": {
+      "cn": "权限请求",
+      "en": "Permission",
+      "stage": "Onboarding",
+      "description_cn": "系统权限请求（通知、位置、追踪等）",
+      "description_en": "System permission requests",
+      "features": [
+        "NotificationAsk",
+        "LocationAsk",
+        "TrackingAsk",
+        "HealthAsk"
+      ]
+    },
+    "Growth": {
+      "cn": "增长运营",
+      "en": "Growth",
+      "stage": "Onboarding",
+      "description_cn": "增长和运营相关页面（来源、推荐码等）",
+      "description_en": "Growth and operations pages",
+      "features": [
+        "ChannelSurvey",
+        "ReferralInput",
+        "ReferralInvite"
+      ]
+    },
+    "Initialization": {
+      "cn": "初始化",
+      "en": "Initialization",
+      "stage": "Onboarding",
+      "description_cn": "数据初始化和加载",
+      "description_en": "Data initialization and loading",
+      "features": [
+        "Loading",
+        "Calculating",
+        "SetupComplete"
+      ]
+    },
+    "Paywall": {
+      "cn": "付费墙",
+      "en": "Paywall",
+      "stage": "Onboarding",
+      "description_cn": "订阅付费相关页面",
+      "description_en": "Subscription and payment pages",
+      "features": [
+        "ValueReminder",
+        "PlanSelect",
+        "PriceDisplay",
+        "TrialOffer",
+        "Confirmation"
+      ]
+    },
+    "Registration": {
+      "cn": "注册",
+      "en": "Registration",
+      "stage": "Onboarding",
+      "description_cn": "账号注册和登录",
+      "description_en": "Account registration and login",
+      "features": [
+        "MethodSelect",
+        "EmailInput",
+        "PasswordInput",
+        "OAuthApple",
+        "OAuthGoogle",
+        "Verification"
+      ]
+    },
+    "Dashboard": {
+      "cn": "概览",
+      "en": "Dashboard",
+      "stage": "Core",
+      "description_cn": "数据概览和汇总",
+      "description_en": "Data overview and summary",
+      "features": [
+        "Overview",
+        "Summary"
+      ]
+    },
+    "Tracking": {
+      "cn": "记录",
+      "en": "Tracking",
+      "stage": "Core",
+      "description_cn": "数据记录功能（食物、运动等）",
+      "description_en": "Data tracking features",
+      "features": [
+        "FoodSearch",
+        "FoodDetail",
+        "FoodLog",
+        "PhotoScan",
+        "ManualInput"
+      ]
+    },
+    "Progress": {
+      "cn": "进度",
+      "en": "Progress",
+      "stage": "Core",
+      "description_cn": "进度统计和趋势分析",
+      "description_en": "Progress statistics and trend analysis",
+      "features": [
+        "WeeklyChart",
+        "MonthlyChart",
+        "TrendAnalysis",
+        "HistoryList"
+      ]
+    },
+    "Content": {
+      "cn": "内容",
+      "en": "Content",
+      "stage": "Core",
+      "description_cn": "内容展示（文章、教程等）",
+      "description_en": "Content display",
+      "features": [
+        "ArticleList",
+        "ArticleDetail"
+      ]
+    },
+    "Social": {
+      "cn": "社交",
+      "en": "Social",
+      "stage": "Core",
+      "description_cn": "社交互动功能",
+      "description_en": "Social interaction features",
+      "features": [
+        "FriendList",
+        "ActivityFeed"
+      ]
+    },
+    "Profile": {
+      "cn": "个人中心",
+      "en": "Profile",
+      "stage": "Core",
+      "description_cn": "用户个人中心",
+      "description_en": "User profile center",
+      "features": [
+        "AccountInfo",
+        "Achievements"
+      ]
+    },
+    "Settings": {
+      "cn": "设置",
+      "en": "Settings",
+      "stage": "Core",
+      "description_cn": "应用设置",
+      "description_en": "App settings",
+      "features": [
+        "Subscription",
+        "Notification",
+        "Privacy"
+      ]
+    }
+  },
+  
+  "features": {
+    "universal": {
+      "description_cn": "通用功能，适用于所有垂直领域",
+      "description_en": "Universal features applicable to all verticals",
+      "list": [
+        "Splash",
+        "ValueProp",
+        "Loading",
+        "PlanSelect",
+        "PriceDisplay",
+        "EmailInput",
+        "PasswordInput",
+        "OAuthApple",
+        "OAuthGoogle",
+        "Overview",
+        "AccountInfo",
+        "Subscription",
+        "Notification",
+        "Privacy"
+      ]
+    },
+    "vertical": {
+      "health_fitness": {
+        "description_cn": "健康健身类产品专用功能",
+        "description_en": "Health and fitness specific features",
+        "list": [
+          "GenderSelect",
+          "HeightInput",
+          "WeightInput",
+          "BodyMetrics",
+          "DirectionSelect",
+          "TargetInput",
+          "FoodSearch",
+          "FoodDetail",
+          "FoodLog",
+          "PhotoScan",
+          "WeeklyChart",
+          "MonthlyChart",
+          "TrendAnalysis"
+        ]
+      },
+      "social": {
+        "description_cn": "社交类产品专用功能",
+        "description_en": "Social product specific features",
+        "list": [
+          "FriendList",
+          "ActivityFeed",
+          "ReferralInvite"
+        ]
+      }
+    },
+    "product_specific": {
+      "description_cn": "产品特定功能，需要动态扩展",
+      "description_en": "Product-specific features, dynamically expandable",
+      "growth_mechanism": {
+        "description_cn": "当遇到新功能时，AI会建议添加到词表，经过审核后纳入",
+        "description_en": "When encountering new features, AI suggests additions to taxonomy, reviewed and incorporated"
+      }
+    }
+  },
+  
+  "synonyms": {
+    "description_cn": "同义词映射，帮助AI识别不同表达方式",
+    "description_en": "Synonym mapping to help AI recognize different expressions",
+    "mappings": {
+      "Splash": ["启动页", "Launch", "启动屏", "Splash Screen"],
+      "ValueProp": ["价值主张", "产品介绍", "产品价值", "Value Proposition"],
+      "GenderSelect": ["性别选择", "选择性别", "Gender Selection"],
+      "FoodSearch": ["食物搜索", "搜索食物", "Food Search", "Search Food"],
+      "PlanSelect": ["套餐选择", "选择套餐", "Plan Selection", "Subscription Plan"],
+      "Overview": ["概览", "总览", "Dashboard", "Home"]
+    }
+  },
+  
+  "validation_rules": {
+    "feature_naming": {
+      "pattern": "^[A-Z][a-zA-Z0-9]+$",
+      "description_cn": "Feature名称必须使用PascalCase",
+      "description_en": "Feature names must use PascalCase"
+    },
+    "required_fields": {
+      "stage": ["cn", "en", "description_cn", "description_en", "modules"],
+      "module": ["cn", "en", "stage", "description_cn", "description_en", "features"],
+      "feature": {
+        "description_cn": "Feature在modules中定义，无需单独JSON结构",
+        "description_en": "Features are defined within modules, no separate JSON structure needed"
+      }
+    }
+  },
+  
+  "usage_guidelines": {
+    "ai_analysis": {
+      "description_cn": "AI分析时必须严格按照此词表选择Feature，如无匹配则使用'Other'",
+      "description_en": "AI analysis must strictly follow this taxonomy, use 'Other' if no match"
+    },
+    "manual_classification": {
+      "description_cn": "手动分类时，优先从词表选择，如需新增需经过审核",
+      "description_en": "Manual classification should prioritize taxonomy, new additions require review"
+    },
+    "comparison": {
+      "description_cn": "跨产品对比时，使用统一词表确保可比性",
+      "description_en": "Cross-product comparison requires unified taxonomy for comparability"
+    }
+  }
+}

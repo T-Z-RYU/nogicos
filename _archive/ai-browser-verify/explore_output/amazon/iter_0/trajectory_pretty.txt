@@ -1,0 +1,153 @@
+<state 0>
+URL: /?ref_=mr_direct_us_sg_sg&showmri
+Title: Amazon.sg: Shop Online for Electronics, Computers, Books, Toys, DVDs, Baby, Grocery, & more
+
+document: "Amazon.sg: Shop Online for Electronics, Computers, Books, Toys, DVDs, Baby, Grocery, & more" {
+  navigation: "Primary" {
+    link: "Amazon.sg", url: "/ref=nav_logo";
+    button: "Delivering to Singapore 049145 Update location", url: "";
+    search {
+      combobox, [use .select_option(option_name) to interact] {
+        option: "All Departments", selected;
+        option: "Amazon Fresh";
+        option: "Amazon International Store";
+        option: "Automotive";
+        option: "Baby";
+        option: "Beauty & Personal Care";
+        option: "Books";
+        option: "CDs and Vinyl";
+        option: "Clothing, Shoes & Jewellery";
+        option: "Computer & Accessories";
+        option: "Electronics";
+        option: "Garden & Outdoor";
+        option: "Gift Cards";
+        option: "Grocery";
+        option: "Health, Household & Personal Care";
+        option: "Home";
+        option: "Industrial & Scientific";
+        option: "Kitchen & Dining";
+        option: "Little Farms";
+        option: "Luggage & Travel Gear";
+        option: "Luxury Beauty";
+        option: "Movies & TV";
+        option: "Musical Instruments";
+        option: "Office Products";
+        option: "Pet Supplies";
+        option: "Prime Video";
+        option: "Software";
+        option: "Sports and Outdoors";
+        option: "Tools & Home Improvement";
+        option: "Toys and Games";
+        option: "Video Games";
+        option: "Watsons";
+      };
+
+      searchbox: "Search Amazon.sg";
+      button: "Go";
+    };
+
+    link: "Choose a language for shopping on Amazon Singapore. The current selection is English (EN).", url: "/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang";
+    button: "Expand to Change Language or Country";
+    link: "Hello, sign in Account and Lists", url: "/ap/signin?openid.pape.max_auth_age=0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=sgflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select";
+    button: "Expand Account and Lists";
+    link: "Returns & Orders", url: "/gp/css/order-history?ref_=nav_orders_first";
+    link: "0 items in cart", url: "/gp/cart/view.html?ref_=nav_cart";
+    button: "Open All Categories Menu", expanded: False, url: "javascript:...";
+    link: "Fresh & Fast", url: "/fmc/learn-more?ref_=nav_cs_groceries";
+    button: "Fresh & Fast Details", expanded: False;
+    link: "Best Sellers", url: "/gp/bestsellers?ref_=nav_cs_bestsellers";
+    link: "Today's Deals", url: "/deals";
+    link: "Prime", url: "/prime?ref_=nav_cs_primelink_nonmember";
+    button: "Prime Details", expanded: False;
+    link: "Electronics", url: "/Buy-Electronics-Online/b/?ie=UTF8&ref_=nav_cs_electronics";
+    link: "Books", url: "/Buy-Books-Online/b/?ie=UTF8&ref_=nav_cs_books";
+    link: "Beauty", url: "/Beauty-Products/b/?ie=UTF8";
+    link: "Groceries", url: "/Buy-Grocery-Online/b/?ie=UTF8&ref_=nav_cs_consumables";
+    link: "Computers", url: "/Computers-Components-and-Accessories/b/?ie=UTF8";
+    link: "Home", url: "/Home-Products/b/?ie=UTF8&ref_=nav_cs_home";
+    link: "Gift Cards", url: "/Gift-Cards/b/?ie=UTF8";
+    button: "Gift Cards Details", expanded: False;
+    link: "Toys and Games", url: "/Buy-Toys-Online/b/?ie=UTF8";
+    link: "Pet Supplies", url: "/Pet-Supplies/b/?ie=UTF8";
+    link: "Baby", url: "/Buy-Baby-Products/b/?ie=UTF8";
+    link: "Video Games", url: "/Video-Games/b/?ie=UTF8&ref_=nav_cs_video_games";
+    link: "Health & Personal Care", url: "/Buy-Heath-Care-Products/b/?ie=UTF8";
+    link: "Sports and Outdoors", url: "/Sporting-Goods/b/?ie=UTF8&ref_=nav_cs_sports";
+    link: "Automotive", url: "/Automotive-Parts-and-Tools/b/?ie=UTF8&ref_=nav_cs_automotive";
+    link: "Home Improvement", url: "/Home-Improvement/b/?ie=UTF8";
+    link: "Fashion", url: "/Brand-Pavilion-Mall/b/?ie=UTF8&ref_=nav_cs_fashion";
+    link: "Customer Service", url: "/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_help";
+    link: "Sell", url: "/gp/browse.html?ref_=nav_cs_sell";
+    link: "swm-en", url: "/essentials/?_encoding=UTF8&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201";
+  };
+
+  main {
+    group: "Featured content" {
+      button: "Previous slide", url: "";
+      group {
+        link: "Year end Clearance Sale | Up to 40% off", url: "/b/?_encoding=UTF8&pd_rd_wg=vonbo";
+      };
+
+      button: "Next slide", url: "";
+    };
+
+    link: "Today’s Deals", url: "/deals/?_encoding=UTF8";
+    link: "Best Sellers", url: "/gp/bestsellers/?ie=UTF8";
+    link: "New Arrivals", url: "/b/?_encoding=UTF8";
+    link: "Payment Promotions", url: "/b/?_encoding=UTF8";
+    link: "Entertainment", url: "/b/?_encoding=UTF8";
+    link: "Home & Kitchen", url: "/b/?_encoding=UTF8";
+    link: "Gift cards & Giftsets", url: "/b/?_encoding=UTF8";
+    link: "Tech", url: "/b/?_encoding=UTF8";
+    link: "Last minute gifting made easy Shop Gift Cards", url: "/dp/B0F5W9BSND/?_encoding=UTF8";
+    link: "Skin Care", url: "/s/?_encoding=UTF8";
+    link: "Makeup", url: "/s/?_encoding=UTF8";
+    link: "Hair Care", url: "/s/?_encoding=UTF8";
+    link: "Fragrances", url: "/s/?_encoding=UTF8";
+  };
+
+  link, url: "";
+  link: "Stay on Amazon.sg", url: "";
+  link: "Go to Amazon.com", url: "https://www.amazon.com/";
+};
+
+</state 0>
+
+<reasoning>
+We need to perform a search within a department and submit. On Amazon header search has a department combobox (select) default All Departments, searchbox, and Go button. Also there appears a modal “Choosing your Amazon website” with links “Stay on Amazon.sg” and “Go to Amazon.com”. We must stay on Amazon.sg (and not change language). First click “Stay on Amazon.sg” if present to dismiss modal. Then in the navigation->search group: select a specific department (choose e.g. "Electronics"), fill the search box with a generic query (e.g. "headphones"), then click Go button using full role path via the search group to avoid ambiguity. Clicking Go navigates, so it should be last action.
+</reasoning>
+
+<code>
+import asyncio
+
+async def act(page):
+    # If the regional modal is present, ensure we remain on Amazon.sg
+    stay_link = page.get_by_role("link", name="Stay on Amazon.sg")
+    if await stay_link.count() > 0:
+        await stay_link.first.click()
+        await page.wait_for_load_state("domcontentloaded")
+
+    # Interact with the search controls within the Primary navigation
+    primary_nav = page.get_by_role("navigation", name="Primary")
+    search_region = primary_nav.get_by_role("search")
+
+    # Choose a department (example: Electronics)
+    dept_combo = search_region.get_by_role("combobox")
+    await dept_combo.select_option(label="Electronics")
+
+    # Enter a query
+    await search_region.get_by_role("searchbox", name="Search Amazon.sg").fill("headphones")
+
+    # Submit the search (last action due to navigation)
+    await search_region.get_by_role("button", name="Go").click()
+
+</code>
+
+---
+
+<terminate_with_result>
+Completed: searched for "headphones" within the "Electronics" department and submitted the search (results page displayed).
+</terminate_with_result>
+
+---
+

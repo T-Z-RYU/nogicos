@@ -1,0 +1,43 @@
+playwright
+openai
+anthropic
+Pillow
+python-dotenv
+toml
+matplotlib
+aioconsole
+aiologger
+aiofiles
+nest-asyncio
+grequests
+pyyaml
+editdistance
+pandas
+
+# AST utilities
+astor
+black
+
+# WebArena evaluation
+nltk
+beartype
+
+# If we want to manage other docker containers from within the existing one
+docker
+
+argparse
+tiktoken
+click
+typer
+
+pyright[nodejs]
+
+# For serving orchestrator
+flask
+
+beautifulsoup4
+
+# For VWA evaluation.
+scikit-image
+# This is the version in VWA requirements.txt, so using this.
+evaluate==0.4.0

@@ -1,0 +1,209 @@
+{
+  "round": 16,
+  "timestamp": "2026-01-01T06:30:47.899951",
+  "summary": {
+    "passed": 5,
+    "failed": 10,
+    "issues": 11,
+    "fixes_applied": 9,
+    "is_stable": false
+  },
+  "results": [
+    {
+      "test_id": "test_001",
+      "prompt": "帮我读取当前目录下的package.json文件",
+      "test_type": "api",
+      "success": true,
+      "response_time": 15.768365621566772,
+      "issues": []
+    },
+    {
+      "test_id": "test_002",
+      "prompt": "执行命令 ls -la",
+      "test_type": "api",
+      "success": true,
+      "response_time": 16.144391298294067,
+      "issues": []
+    },
+    {
+      "test_id": "test_003",
+      "prompt": "你好，请介绍一下自己",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.851990699768066,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_004",
+      "prompt": "读取不存在的文件 /path/to/nonexistent.txt",
+      "test_type": "api",
+      "success": true,
+      "response_time": 17.40857172012329,
+      "issues": []
+    },
+    {
+      "test_id": "test_005",
+      "prompt": "",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.63996434211731,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_006",
+      "prompt": "创建一个名为'测试文件.txt'的文件，内容是'你好世界'",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 19.82668375968933,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_007",
+      "prompt": "执行无效命令 invalidcommand123",
+      "test_type": "api",
+      "success": true,
+      "response_time": 15.056957006454468,
+      "issues": []
+    },
+    {
+      "test_id": "test_008",
+      "prompt": "帮我计算 2+2 等于多少",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.838964462280273,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_009",
+      "prompt": "请执行 echo '特殊字符测试: @#$%^&*()' > test_special.txt",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 19.87999391555786,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_010",
+      "prompt": "连续发送5条消息测试并发处理",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.85610032081604,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_011",
+      "prompt": "读取一个超大文件 /dev/zero",
+      "test_type": "api",
+      "success": true,
+      "response_time": 21.02262258529663,
+      "issues": []
+    },
+    {
+      "test_id": "test_012",
+      "prompt": "请帮我创建一个包含1000行数据的CSV文件",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 86.07146382331848,
+      "issues": [
+        {
+          "type": "slow_response",
+          "severity": "low",
+          "location": "backend",
+          "description": "Response took 86.1s"
+        },
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_013",
+      "prompt": "执行长时间运行的命令 sleep 5",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.548346281051636,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_014",
+      "prompt": "在网络断开的情况下发送消息",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.540815353393555,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_015",
+      "prompt": "测试包含emoji的消息: 你好 👋 请帮我创建文件 📁",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 19.021999835968018,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    }
+  ]
+}

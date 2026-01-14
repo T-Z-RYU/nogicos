@@ -1,0 +1,149 @@
+{
+  "total_screenshots": 200,
+  "stages": [
+    {
+      "name": "Launch",
+      "start_index": 1,
+      "end_index": 1,
+      "description": "App启动页，显示Runna logo",
+      "expected_types": [
+        "Launch"
+      ],
+      "screenshot_count": 1
+    },
+    {
+      "name": "Welcome",
+      "start_index": 2,
+      "end_index": 2,
+      "description": "价值介绍页，展示连接设备和实时教练功能",
+      "expected_types": [
+        "Welcome",
+        "Launch"
+      ],
+      "screenshot_count": 1
+    },
+    {
+      "name": "SignUp",
+      "start_index": 3,
+      "end_index": 3,
+      "description": "注册登录页面，支持Apple/Google/Email登录",
+      "expected_types": [
+        "SignUp"
+      ],
+      "screenshot_count": 1
+    },
+    {
+      "name": "Onboarding",
+      "start_index": 4,
+      "end_index": 28,
+      "description": "详细的用户问卷流程，包括欢迎、距离目标、跑步能力评估、性别、每周训练天数、长跑安排、首跑日期、训练时间偏好、设备连接、力量训练目标和装备等",
+      "expected_types": [
+        "Onboarding",
+        "Permission"
+      ],
+      "screenshot_count": 25
+    },
+    {
+      "name": "Paywall",
+      "start_index": 29,
+      "end_index": 30,
+      "description": "付费墙页面，展示订阅计划和价格选项，提供免费试用",
+      "expected_types": [
+        "Paywall"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "Home",
+      "start_index": 31,
+      "end_index": 35,
+      "description": "主页仪表盘，显示训练计划概览、教练介绍和今日训练任务",
+      "expected_types": [
+        "Home"
+      ],
+      "screenshot_count": 5
+    },
+    {
+      "name": "Core Features",
+      "start_index": 36,
+      "end_index": 82,
+      "description": "核心功能区，包括训练详情、跑步追踪、力量训练、手表同步、训练播放控制、分享功能等",
+      "expected_types": [
+        "Feature",
+        "Content",
+        "Tracking",
+        "Progress"
+      ],
+      "screenshot_count": 47
+    },
+    {
+      "name": "Progress",
+      "start_index": 83,
+      "end_index": 100,
+      "description": "进度统计区，包括训练日历、周计划视图、数据分析、天气信息、成就徽章等",
+      "expected_types": [
+        "Progress",
+        "Feature"
+      ],
+      "screenshot_count": 18
+    },
+    {
+      "name": "Tracking",
+      "start_index": 101,
+      "end_index": 122,
+      "description": "追踪记录区，包括目标设置、距离追踪、实时跑步数据显示、跑步倒计时界面",
+      "expected_types": [
+        "Tracking",
+        "Feature"
+      ],
+      "screenshot_count": 22
+    },
+    {
+      "name": "Content",
+      "start_index": 123,
+      "end_index": 140,
+      "description": "内容浏览区，包括训练计划同步日历、推荐训练、文章指南",
+      "expected_types": [
+        "Content",
+        "Feature"
+      ],
+      "screenshot_count": 18
+    },
+    {
+      "name": "Social",
+      "start_index": 141,
+      "end_index": 160,
+      "description": "社交功能区，包括新功能介绍、用户反馈、问题报告、用户封禁功能等社区管理",
+      "expected_types": [
+        "Social"
+      ],
+      "screenshot_count": 20
+    },
+    {
+      "name": "Profile",
+      "start_index": 161,
+      "end_index": 180,
+      "description": "个人中心，包括跑步记录详情、聊天功能、跑鞋管理、训练文章",
+      "expected_types": [
+        "Profile"
+      ],
+      "screenshot_count": 20
+    },
+    {
+      "name": "Settings",
+      "start_index": 181,
+      "end_index": 200,
+      "description": "设置页面，包括健康数据连接、跑鞋添加管理、账户设置、通知设置等",
+      "expected_types": [
+        "Settings",
+        "Profile"
+      ],
+      "screenshot_count": 20
+    }
+  ],
+  "paywall_position": "early",
+  "onboarding_length": "long",
+  "has_signup": true,
+  "has_social": true,
+  "confidence": 0.85
+}

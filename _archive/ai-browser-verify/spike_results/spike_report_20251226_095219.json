@@ -1,0 +1,121 @@
+{
+  "summary": {
+    "total_tests": 9,
+    "successful": 0,
+    "failed": 9,
+    "success_rate": 0.0,
+    "avg_duration": 26.407061735788982,
+    "avg_steps": 0,
+    "crashes": 0,
+    "verdict": "FAIL"
+  },
+  "results": [
+    {
+      "task_id": "task1",
+      "task_description": "Get the title of the first news item on the homepage",
+      "run_number": 1,
+      "success": false,
+      "duration": 13.148594617843628,
+      "steps": 0,
+      "result": null,
+      "error": "Task did not terminate with a result",
+      "timestamp": "2025-12-26T09:48:34.574569"
+    },
+    {
+      "task_id": "task1",
+      "task_description": "Get the title of the first news item on the homepage",
+      "run_number": 2,
+      "success": false,
+      "duration": 11.057464361190796,
+      "steps": 0,
+      "result": null,
+      "error": "Task did not terminate with a result",
+      "timestamp": "2025-12-26T09:48:45.632065"
+    },
+    {
+      "task_id": "task1",
+      "task_description": "Get the title of the first news item on the homepage",
+      "run_number": 3,
+      "success": false,
+      "duration": 14.167243003845215,
+      "steps": 0,
+      "result": null,
+      "error": "Task did not terminate with a result",
+      "timestamp": "2025-12-26T09:48:59.799339"
+    },
+    {
+      "task_id": "task2",
+      "task_description": "Search for 'AI' and get the first result title",
+      "run_number": 1,
+      "success": false,
+      "duration": 40.78287696838379,
+      "steps": 0,
+      "result": null,
+      "error": "Task did not terminate with a result",
+      "timestamp": "2025-12-26T09:49:40.582245"
+    },
+    {
+      "task_id": "task2",
+      "task_description": "Search for 'AI' and get the first result title",
+      "run_number": 2,
+      "success": false,
+      "duration": 43.513185262680054,
+      "steps": 0,
+      "result": null,
+      "error": "Task did not terminate with a result",
+      "timestamp": "2025-12-26T09:50:24.095453"
+    },
+    {
+      "task_id": "task2",
+      "task_description": "Search for 'AI' and get the first result title",
+      "run_number": 3,
+      "success": false,
+      "duration": 40.54620003700256,
+      "steps": 0,
+      "result": null,
+      "error": "Task did not terminate with a result",
+      "timestamp": "2025-12-26T09:51:04.641676"
+    },
+    {
+      "task_id": "task3",
+      "task_description": "Go to 'new' page and get the first item title",
+      "run_number": 1,
+      "success": false,
+      "duration": 26.743404865264893,
+      "steps": 0,
+      "result": null,
+      "error": "Task did not terminate with a result",
+      "timestamp": "2025-12-26T09:51:31.385103"
+    },
+    {
+      "task_id": "task3",
+      "task_description": "Go to 'new' page and get the first item title",
+      "run_number": 2,
+      "success": false,
+      "duration": 22.493464469909668,
+      "steps": 0,
+      "result": null,
+      "error": "Task did not terminate with a result",
+      "timestamp": "2025-12-26T09:51:53.878589"
+    },
+    {
+      "task_id": "task3",
+      "task_description": "Go to 'new' page and get the first item title",
+      "run_number": 3,
+      "success": false,
+      "duration": 25.211122035980225,
+      "steps": 0,
+      "result": null,
+      "error": "Task did not terminate with a result",
+      "timestamp": "2025-12-26T09:52:19.089732"
+    }
+  ],
+  "timestamp": "2025-12-26T09:52:19.089967",
+  "config": {
+    "url": "https://news.ycombinator.com",
+    "tasks": 3,
+    "runs_per_task": 3,
+    "max_steps": 10,
+    "timeout": 60
+  }
+}

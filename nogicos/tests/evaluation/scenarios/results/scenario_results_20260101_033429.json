@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-01T03:34:29.405871",
+  "total_scenarios": 1,
+  "rated_scenarios": 0,
+  "average_rating": null,
+  "pass_rate": null,
+  "results": [
+    {
+      "scenario_id": "memory_001",
+      "scenario_name": "记住用户偏好",
+      "category": "记忆能力",
+      "response": "已经记住了！实际上我已经存储了多条关于你偏好 pnpm 的记忆 📝\n\n以后安装包时会自动使用 `pnpm` 而不是 `npm`。",
+      "rating": null
+    }
+  ]
+}

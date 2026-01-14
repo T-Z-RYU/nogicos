@@ -1,0 +1,17 @@
+{
+  "site_name": "Hacker News",
+  "site_url": "https://news.ycombinator.com",
+  "site_category": "tech_forum",
+  "task_id": "hn_search",
+  "task_description": "Search for 'machine learning' on this website",
+  "task_type": "search",
+  "knowledge_base": "no_kb",
+  "model": "gpt-5.2",
+  "start_time": "2025-12-25T09:18:42.382581",
+  "success": false,
+  "num_steps": 3,
+  "execution_time_seconds": 58.7,
+  "skills_used": [],
+  "has_exception": true,
+  "final_url": "unknown"
+}

@@ -1,0 +1,276 @@
+{
+  "app_name": "Flo",
+  "total_screenshots": 10,
+  "analyzed_at": "2025-12-24T10:00:00",
+  "model": "claude-opus-4-5-20251101",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "type": "VP",
+      "type_cn": "价值主张",
+      "elements": ["Headline", "Device_Mockup", "Gradient_BG"],
+      "copywriting": {
+        "headline": "#1 Period Tracker",
+        "subheadline": "AI-powered health insights"
+      },
+      "psychology": {
+        "cialdini": ["social_proof", "authority"],
+        "cognitive_biases": ["primacy_effect", "anchoring"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 5.0,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "#1定位锚定市场地位，AI健康洞察突出技术优势"
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "type": "AI_DEMO",
+      "type_cn": "AI功能演示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "AI Predictions",
+        "subheadline": "Know your body better"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "AI预测功能展示，强调智能健康管理"
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "type": "PERSONALIZATION",
+      "type_cn": "个性化展示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Personalized Insights",
+        "subheadline": "Tailored to your cycle"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["endowment_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "个性化洞察展示，针对用户周期定制"
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "type": "CORE_FUNC",
+      "type_cn": "核心功能",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Track Everything",
+        "subheadline": "Symptoms, moods & more"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "全面追踪功能展示"
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "type": "SOCIAL_PROOF",
+      "type_cn": "社会证明",
+      "elements": ["Headline", "Download_Count", "Rating_Stars"],
+      "copywriting": {
+        "headline": "380M+ Downloads",
+        "subheadline": "Trusted worldwide"
+      },
+      "psychology": {
+        "cialdini": ["social_proof"],
+        "cognitive_biases": ["bandwagon_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "3.8亿下载的强力社会证明"
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "type": "AUTHORITY",
+      "type_cn": "权威背书",
+      "elements": ["Headline", "Media_Logo", "Award_Badge"],
+      "copywriting": {
+        "headline": "Recommended By Doctors",
+        "subheadline": "Clinically validated"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["halo_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "医生推荐的权威背书"
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7_plus",
+      "type": "RESULT_PREVIEW",
+      "type_cn": "效果预览",
+      "elements": ["Device_Mockup", "App_UI", "Stat_Number"],
+      "copywriting": {
+        "headline": "Health Dashboard",
+        "subheadline": "See your patterns"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["expectation_anchoring"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.0
+      },
+      "analysis": "健康仪表盘展示，预览追踪效果"
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P7_plus",
+      "type": "DATA_PROOF",
+      "type_cn": "数据证明",
+      "elements": ["Headline", "Stat_Number"],
+      "copywriting": {
+        "headline": "94% Accuracy",
+        "subheadline": "Prediction precision"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["specificity_bias"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "94%准确率的数据证明"
+    },
+    {
+      "index": 9,
+      "filename": "screenshot_09.png",
+      "position": "P7_plus",
+      "type": "HOW_IT_WORKS",
+      "type_cn": "使用流程",
+      "elements": ["Device_Mockup", "Icon_Set"],
+      "copywriting": {
+        "headline": "Easy Setup",
+        "subheadline": "Start in minutes"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "简单设置流程说明"
+    },
+    {
+      "index": 10,
+      "filename": "screenshot_10.png",
+      "position": "P7_plus",
+      "type": "FREE_TRIAL",
+      "type_cn": "免费试用提示",
+      "elements": ["Headline", "CTA_Text", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Try Premium Free",
+        "subheadline": "7-day trial"
+      },
+      "psychology": {
+        "cialdini": ["reciprocity"],
+        "cognitive_biases": ["loss_aversion"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "免费试用引导"
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → AI_DEMO → PERSONALIZATION → CORE_FUNC → SOCIAL_PROOF → AUTHORITY → RESULT_PREVIEW → DATA_PROOF → HOW_IT_WORKS → FREE_TRIAL",
+    "strengths": [
+      "#1定位+AI功能双重优势",
+      "3.8亿下载量惊人社会证明",
+      "医生推荐的权威背书",
+      "94%准确率数据支撑"
+    ],
+    "weaknesses": [
+      "截图数量较多，信息密集",
+      "后期截图视觉吸引力下降"
+    ],
+    "recommendations": [
+      "可精简截图数量",
+      "增加用户故事展示"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 1,
+      "AI_DEMO": 1,
+      "PERSONALIZATION": 1,
+      "CORE_FUNC": 1,
+      "SOCIAL_PROOF": 1,
+      "AUTHORITY": 1,
+      "RESULT_PREVIEW": 1,
+      "DATA_PROOF": 1,
+      "HOW_IT_WORKS": 1,
+      "FREE_TRIAL": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 6,
+      "Headline": 10,
+      "App_UI": 5,
+      "Gradient_BG": 2,
+      "Download_Count": 1,
+      "Rating_Stars": 1,
+      "Media_Logo": 1,
+      "Award_Badge": 1,
+      "Stat_Number": 2,
+      "Icon_Set": 1
+    },
+    "psychology_coverage": {
+      "cialdini": ["social_proof", "authority", "commitment", "reciprocity"],
+      "cognitive_biases": ["primacy_effect", "anchoring", "cognitive_fluency", "endowment_effect", "bandwagon_effect", "halo_effect", "expectation_anchoring", "specificity_bias", "loss_aversion"]
+    }
+  }
+}
+

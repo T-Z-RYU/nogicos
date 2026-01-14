@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-12-31T20:32:54.843491",
+  "total_scenarios": 1,
+  "rated_scenarios": 0,
+  "average_rating": null,
+  "pass_rate": null,
+  "results": [
+    {
+      "scenario_id": "memory_001",
+      "scenario_name": "记住用户偏好",
+      "category": "记忆能力",
+      "response": "已记住 ✓ 以后涉及包管理时会优先使用 pnpm。",
+      "rating": null
+    }
+  ]
+}

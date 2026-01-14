@@ -1,0 +1,23 @@
+{
+  "app_name": "Calm",
+  "app_category": "冥想正念 (Meditation)",
+  "sub_category": "睡眠与冥想音频",
+  "target_users": "追求心理放松、改善睡眠质量、缓解焦虑压力的都市白领和年轻人群",
+  "core_value": "通过冥想音频、睡眠故事和正念练习帮助用户减压放松、改善睡眠",
+  "business_model": "订阅制 (Subscription)",
+  "estimated_stages": [
+    "Launch",
+    "Welcome",
+    "SignUp",
+    "Paywall",
+    "Home",
+    "Core Features",
+    "Content",
+    "Tracking",
+    "Profile",
+    "Settings"
+  ],
+  "visual_style": "温暖治愈 (Warm)",
+  "primary_color": "深蓝色渐变",
+  "confidence": 0.95
+}

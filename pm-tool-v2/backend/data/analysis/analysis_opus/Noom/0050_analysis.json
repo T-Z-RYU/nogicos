@@ -1,0 +1,87 @@
+{
+  "app_name": "Noom",
+  "screenshot_index": 50,
+  "screenshot_filename": "0050.png",
+  "total_onboarding_screens": 114,
+  "position_percentage": 43.9,
+  
+  "classification": {
+    "functional_purpose": {
+      "primary_category": "Plan",
+      "secondary_type": "PersonalizedResult",
+      "confidence": 0.97,
+      "description": "展示个性化减重预测结果和时间线"
+    },
+    "funnel_stage": {
+      "stage": "Activation",
+      "position_in_funnel": "middle",
+      "description": "展示用户投入信息后的个性化结果，是价值交付的关键时刻"
+    },
+    "psychological_tactic": {
+      "primary_tactic": "Personalization",
+      "secondary_tactics": ["ProgressAchievement", "CommitmentConsistency"],
+      "tactic_strength": "strong",
+      "description": "基于用户输入生成专属预测结果，强化个性化体验和目标可视化"
+    },
+    "interaction_pattern": {
+      "primary_interaction": "PassiveRead",
+      "is_skippable": false,
+      "input_effort": "none",
+      "description": "用户阅读预测结果，点击继续"
+    },
+    "ui_pattern": {
+      "layout_type": "SummaryCard",
+      "has_progress_indicator": false,
+      "has_illustration": true,
+      "has_animation": false,
+      "color_scheme": "light",
+      "description": "展示减重曲线图和个性化预测信息"
+    },
+    "commitment_level": {
+      "level": 1,
+      "commitment_type": "time",
+      "reversibility": "reversible",
+      "description": "阅读结果，无额外承诺"
+    }
+  },
+  
+  "deep_analysis": {
+    "design_intent": "这是Noom Onboarding的关键'Aha Moment'——在用户填写大量问题后，展示个性化的减重预测结果，让用户感受到投入信息的价值回报",
+    "ux_observation": "图表清晰展示从当前体重到目标体重的下降曲线，标注了关键里程碑（度假日期和目标日期）。'You'll already lose 7 kg by Feb'的承诺增强用户信心",
+    "conversion_impact": "positive",
+    "potential_issues": [
+      "预测可能过于乐观，如果用户后续未达到预期可能导致流失",
+      "用户名(ZINO)显示在右上角，表明已创建账户"
+    ],
+    "best_practice_alignment": "完美契合'Labor Illusion Effect'——用户投入越多信息，越珍视个性化结果。这是Noom高转化率的核心策略之一"
+  },
+  
+  "raw_observation": {
+    "visible_text": [
+      "NOOM",
+      "ZINO",
+      "WE PREDICT YOU'LL BE",
+      "70 kg by 28 Jun",
+      "And lose ~3 kg by the vacation!",
+      "VACATION (87 KG)",
+      "GOAL 70 KG",
+      "You'll already lose 7 kg by Feb.",
+      "Based on your answers, we predict you can hit your weight loss goal a little sooner!",
+      "Next"
+    ],
+    "ui_elements": [
+      "减重预测曲线图",
+      "里程碑标记（度假、目标）",
+      "绿色对勾成就标记",
+      "Next按钮"
+    ],
+    "brand_elements": [
+      "Noom Logo",
+      "品牌绿色和红色配色",
+      "用户头像(Z)"
+    ]
+  },
+  
+  "analysis_method": "claude_opus_4.5",
+  "analyzed_at": "2025-12-22T00:00:00"
+}

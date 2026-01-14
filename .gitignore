@@ -1,0 +1,98 @@
+# 环境变量和敏感信息
+.env
+*.env
+env_example.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+nul
+
+# Node.js
+node_modules/
+
+# 大型二进制文件
+*.exe
+*.mp4
+*.avi
+*.mov
+
+# 浏览器缓存和会话数据
+.browser_session/
+.chrome_debug/
+
+# 图片文件（太多了，排除以节省空间）
+# 如果需要保留某些图片，可以注释掉对应行
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.svg
+
+# 数据库文件
+*.db
+*.db-journal
+*.db-wal
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# 备份文件
+*.backup*
+backups/
+
+# PathOfBuilding-PoE2（别人的项目，太大）
+PathOfBuilding-PoE2/
+
+# 大型数据目录
+video_analysis/calai_frames/
+video_analysis/calai_keyframes/
+MFP_Analysis/MFP_Screens_Downloaded/
+MFP_Analysis/Screens/
+
+# 项目截图目录（可以单独备份）
+PM_Screenshot_Tool/projects/
+PM_Test_Assistant/data/sessions/
+
+# Cursor MCP 配置（包含敏感token）
+.cursor/mcp.json
+
+# API Keys（敏感）
+api_keys.py
+**/api_keys.py
+
+# 日志目录
+logs/
+**/logs/
+
+# 归档的 reference 项目（克隆的第三方仓库，太大）
+_archive/references/
+
+# 归档目录中的其他内容可以保留
+# _archive/
+
+# 临时目录
+_temp/
+
+# 构建产物
+dist/
+build/
+.next/
+
+# reference 目录（太大，已有 .cursorignore 处理）
+nogicos/reference/

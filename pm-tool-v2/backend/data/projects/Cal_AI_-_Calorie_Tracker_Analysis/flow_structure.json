@@ -1,0 +1,275 @@
+{
+  "total_screenshots": 93,
+  "stages": [
+    {
+      "name": "Launch",
+      "start_index": 1,
+      "end_index": 1,
+      "description": "App启动页，显示Cal AI logo和品牌标语",
+      "expected_types": [
+        "Launch"
+      ],
+      "screenshot_count": 1
+    },
+    {
+      "name": "Onboarding",
+      "start_index": 2,
+      "end_index": 19,
+      "description": "用户信息收集流程，包括性别、运动频率、来源渠道、过往经历、身高体重、出生日期、目标设定、期望体重、减重速度等",
+      "expected_types": [
+        "Onboarding",
+        "Permission"
+      ],
+      "screenshot_count": 18
+    },
+    {
+      "name": "Welcome",
+      "start_index": 20,
+      "end_index": 21,
+      "description": "通知权限请求和推荐码输入页面",
+      "expected_types": [
+        "Welcome",
+        "Launch"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "Onboarding",
+      "start_index": 22,
+      "end_index": 26,
+      "description": "继续引导流程，感谢页面、AI计算个性化方案、方案准备完成展示",
+      "expected_types": [
+        "Onboarding",
+        "Permission"
+      ],
+      "screenshot_count": 5
+    },
+    {
+      "name": "Tracking",
+      "start_index": 27,
+      "end_index": 29,
+      "description": "卡路里和蛋白质目标编辑设置页面",
+      "expected_types": [
+        "Tracking",
+        "Feature"
+      ],
+      "screenshot_count": 3
+    },
+    {
+      "name": "Paywall",
+      "start_index": 30,
+      "end_index": 32,
+      "description": "付费墙页面，展示3天免费试用、订阅选项和价格",
+      "expected_types": [
+        "Paywall"
+      ],
+      "screenshot_count": 3
+    },
+    {
+      "name": "SignUp",
+      "start_index": 33,
+      "end_index": 37,
+      "description": "账户创建页面，支持Apple/Google登录，菲律宾语本地化版本和登录页",
+      "expected_types": [
+        "SignUp"
+      ],
+      "screenshot_count": 5
+    },
+    {
+      "name": "Home",
+      "start_index": 38,
+      "end_index": 40,
+      "description": "主页仪表盘，显示每日卡路里目标1000，底部导航栏，未记录食物提示",
+      "expected_types": [
+        "Home"
+      ],
+      "screenshot_count": 3
+    },
+    {
+      "name": "Core Features",
+      "start_index": 41,
+      "end_index": 42,
+      "description": "扫描功能介绍和最佳扫描实践指南",
+      "expected_types": [
+        "Feature",
+        "Content",
+        "Tracking",
+        "Progress"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "Home",
+      "start_index": 43,
+      "end_index": 44,
+      "description": "主页状态展示，1天连续记录徽章，550卡路里已记录",
+      "expected_types": [
+        "Home"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "Tracking",
+      "start_index": 45,
+      "end_index": 46,
+      "description": "食物记录详情页，显示已记录的食物项目和营养数据",
+      "expected_types": [
+        "Tracking",
+        "Feature"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "Core Features",
+      "start_index": 47,
+      "end_index": 51,
+      "description": "运动记录功能，食物数据库搜索，食物详情页面",
+      "expected_types": [
+        "Feature",
+        "Content",
+        "Tracking",
+        "Progress"
+      ],
+      "screenshot_count": 5
+    },
+    {
+      "name": "Tracking",
+      "start_index": 52,
+      "end_index": 56,
+      "description": "食物数据库详细搜索，凯撒沙拉营养信息，份量调整",
+      "expected_types": [
+        "Tracking",
+        "Feature"
+      ],
+      "screenshot_count": 5
+    },
+    {
+      "name": "Settings",
+      "start_index": 57,
+      "end_index": 60,
+      "description": "目标调整页面，宏量营养素设置，每周运动频率，健康页面入口",
+      "expected_types": [
+        "Settings",
+        "Profile"
+      ],
+      "screenshot_count": 4
+    },
+    {
+      "name": "Core Features",
+      "start_index": 61,
+      "end_index": 66,
+      "description": "食物详情编辑，高蛋白奶昔记录，日历视图，食物数据库管理",
+      "expected_types": [
+        "Feature",
+        "Content",
+        "Tracking",
+        "Progress"
+      ],
+      "screenshot_count": 6
+    },
+    {
+      "name": "Tracking",
+      "start_index": 67,
+      "end_index": 70,
+      "description": "已保存食物、自创食物管理，创建新食物表单",
+      "expected_types": [
+        "Tracking",
+        "Feature"
+      ],
+      "screenshot_count": 4
+    },
+    {
+      "name": "Progress",
+      "start_index": 71,
+      "end_index": 73,
+      "description": "数据分析页面，体重图表，目标进度统计",
+      "expected_types": [
+        "Progress",
+        "Feature"
+      ],
+      "screenshot_count": 3
+    },
+    {
+      "name": "Tracking",
+      "start_index": 74,
+      "end_index": 76,
+      "description": "体重目标编辑，当前体重记录页面",
+      "expected_types": [
+        "Tracking",
+        "Feature"
+      ],
+      "screenshot_count": 3
+    },
+    {
+      "name": "Settings",
+      "start_index": 77,
+      "end_index": 78,
+      "description": "设置主页面，健康数据权限说明",
+      "expected_types": [
+        "Settings",
+        "Profile"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "Social",
+      "start_index": 79,
+      "end_index": 81,
+      "description": "好友推荐功能，分享邀请页面",
+      "expected_types": [
+        "Social"
+      ],
+      "screenshot_count": 3
+    },
+    {
+      "name": "Profile",
+      "start_index": 82,
+      "end_index": 86,
+      "description": "个人资料编辑，体重、身高、生日、性别设置",
+      "expected_types": [
+        "Profile"
+      ],
+      "screenshot_count": 5
+    },
+    {
+      "name": "Settings",
+      "start_index": 87,
+      "end_index": 88,
+      "description": "宏量营养素目标调整设置",
+      "expected_types": [
+        "Settings",
+        "Profile"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "Core Features",
+      "start_index": 89,
+      "end_index": 90,
+      "description": "iOS小组件添加引导页面",
+      "expected_types": [
+        "Feature",
+        "Content",
+        "Tracking",
+        "Progress"
+      ],
+      "screenshot_count": 2
+    },
+    {
+      "name": "Settings",
+      "start_index": 91,
+      "end_index": 93,
+      "description": "偏好设置、删除账户确认、小组件设置完成页",
+      "expected_types": [
+        "Settings",
+        "Profile"
+      ],
+      "screenshot_count": 3
+    }
+  ],
+  "paywall_position": "early",
+  "onboarding_length": "long",
+  "has_signup": true,
+  "has_social": true,
+  "confidence": 0.85
+}

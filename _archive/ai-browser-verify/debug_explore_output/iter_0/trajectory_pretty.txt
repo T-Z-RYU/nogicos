@@ -1,0 +1,528 @@
+<state 0>
+URL: /
+Title: Hacker News
+
+document: "Hacker News" {
+  table {
+    rowgroup {
+      row: "Hacker Newsnew | past | comments | ask | show | jobs | submit login" {
+        cell: "Hacker Newsnew | past | comments | ask | show | jobs | submit login" {
+          table {
+            rowgroup {
+              row: "Hacker Newsnew | past | comments | ask | show | jobs | submit login" {
+                cell {
+                  link, url: "";
+                };
+
+                cell: "Hacker Newsnew | past | comments | ask | show | jobs | submit" {
+                  link: "Hacker News", url: "news";
+                  link: "new", url: "newest";
+                  link: "past", url: "front";
+                  link: "comments", url: "newcomments";
+                  link: "ask", url: "ask";
+                  link: "show", url: "show";
+                  link: "jobs", url: "jobs";
+                  link: "submit", url: "submit";
+                };
+
+                cell: "login" {
+                  link: "login", url: "login?goto=news";
+                };
+              };
+            };
+          };
+        };
+      };
+
+      row;
+      row: "1. upvote Phoenix: A modern X server written from scratch in Zig (dec05eba.com) 128 points by snvzz 1 hour ago | hide | 42 comments 2. upvote Tell HN: Merry Christmas 254 points by basilikum 1 hour ago | hide | 78 comments 3. upvote Show HN: Minimalist editor that lives in browser, stores everything in the URL (github.com/antonmedv) 214 points by medv 4 hours ago | hide | 77 comments 4. upvote CSRF protection without tokens or hidden form fields (miguelgrinberg.com) 64 points by adevilinyc 3 hours ago | hide | 6 comments 5. upvote Fabrice Bellard: Biography (2009) [pdf] (ipaidia.gr) 178 points by lioeters 6 hours ago | hide | 48 comments 6. upvote Research team digitizes more than 100 years of Canadian infectious disease data (mcmaster.ca) 33 points by XzetaU8 2 hours ago | hide | 1 comment 7. upvote Show HN: Vibium – Browser automation for AI and humans, by Selenium's creator (github.com/vibiumdev) 204 points by hugs 6 hours ago | hide | 69 comments 8. upvote Who Watches the Waymos? I do [video] (youtube.com) 4 points by notgloating 16 minutes ago | hide | discuss 9. upvote Microsoft please get your tab to autocomplete shit together (ivanca.github.io) 29 points by AmbroseBierce 52 minutes ago | hide | 9 comments 10. upvote Asterisk AI Voice Agent (github.com/hkjarral) 7 points by akrulino 1 hour ago | hide | discuss 11. upvote Comptime – C# meta-programming with compile-time code generation and evaluation (github.com/sebastienros) 29 points by bj-rn 3 hours ago | hide | 4 comments 12. upvote Nvidia buying AI chip startup Groq for about $20B in cash (cnbc.com) 296 points by nickrubin 3 hours ago | hide | 192 comments 13. upvote Qntm's Power Tower Toy (qntm.org) 43 points by ravenical 5 hours ago | hide | 15 comments 14. upvote When Compilers Surprise You (xania.org) 196 points by brewmarche 10 hours ago | hide | 94 comments 15. upvote The dawn of a world simulator (odyssey.ml) 28 points by olivercameron 4 hours ago | hide | 6 comments 16. upvote Fabrice Bellard Releases MicroQuickJS (github.com/bellard) 1348 points by Aissen 1 day ago | hide | 512 comments 17. upvote Online Book: Exploring Mathematics with Python (psu.ac.th) 7 points by Andrew2565 1 hour ago | hide | discuss 18. upvote How GNU Guile is 10x better (2021) (draketo.de) 49 points by Tomte 4 hours ago | hide | 1 comment 19. upvote A faster path to container images in Bazel (tweag.io) 57 points by malt3 7 hours ago | hide | 29 comments 20. upvote Jingle Bells (Batman Smells): An incomplete festive folk-rhyme taxonomy (loreandordure.com) 53 points by helsinkiandrew 5 hours ago | hide | 13 comments 21. upvote How I Left YouTube (zhach.news) 39 points by dhashe 2 hours ago | hide | 53 comments 22. upvote Spaced repetition for efficient learning (2019) (gwern.net) 78 points by tsenturk 3 hours ago | hide | 28 comments 23. upvote Confessions to a Data Lake (confer.to) 13 points by kkl 2 hours ago | hide | 3 comments 24. upvote The port I couldn't ship (ammil.industries) 87 points by cjlm 12 hours ago | hide | 49 comments 25. upvote I'm returning my Framework 16 (yorickpeterse.com) 140 points by YorickPeterse 11 hours ago | hide | 240 comments 26. upvote Show HN: A local-first, reversible PII scrubber for AI workflows (medium.com/tj.ruesch) 16 points by tjruesch 3 hours ago | hide | discuss 27. upvote My 2026 Open Social Web Predictions (timothychambers.net) 75 points by todsacerdoti 8 hours ago | hide | 71 comments 28. upvote The e-scooter isn't new – London was zooming around on Autopeds a century ago (ianvisits.co.uk) 142 points by zeristor 15 hours ago | hide | 105 comments 29. upvote Quake's Player Speed (2017) (rome.ro) 51 points by klaussilveira 9 hours ago | hide | 13 comments 30. upvote Avoid Mini-Frameworks (laike9m.com) 113 points by laike9m 12 hours ago | hide | 86 comments More" {
+        cell: "1. upvote Phoenix: A modern X server written from scratch in Zig (dec05eba.com) 128 points by snvzz 1 hour ago | hide | 42 comments 2. upvote Tell HN: Merry Christmas 254 points by basilikum 1 hour ago | hide | 78 comments 3. upvote Show HN: Minimalist editor that lives in browser, stores everything in the URL (github.com/antonmedv) 214 points by medv 4 hours ago | hide | 77 comments 4. upvote CSRF protection without tokens or hidden form fields (miguelgrinberg.com) 64 points by adevilinyc 3 hours ago | hide | 6 comments 5. upvote Fabrice Bellard: Biography (2009) [pdf] (ipaidia.gr) 178 points by lioeters 6 hours ago | hide | 48 comments 6. upvote Research team digitizes more than 100 years of Canadian infectious disease data (mcmaster.ca) 33 points by XzetaU8 2 hours ago | hide | 1 comment 7. upvote Show HN: Vibium – Browser automation for AI and humans, by Selenium's creator (github.com/vibiumdev) 204 points by hugs 6 hours ago | hide | 69 comments 8. upvote Who Watches the Waymos? I do [video] (youtube.com) 4 points by notgloating 16 minutes ago | hide | discuss 9. upvote Microsoft please get your tab to autocomplete shit together (ivanca.github.io) 29 points by AmbroseBierce 52 minutes ago | hide | 9 comments 10. upvote Asterisk AI Voice Agent (github.com/hkjarral) 7 points by akrulino 1 hour ago | hide | discuss 11. upvote Comptime – C# meta-programming with compile-time code generation and evaluation (github.com/sebastienros) 29 points by bj-rn 3 hours ago | hide | 4 comments 12. upvote Nvidia buying AI chip startup Groq for about $20B in cash (cnbc.com) 296 points by nickrubin 3 hours ago | hide | 192 comments 13. upvote Qntm's Power Tower Toy (qntm.org) 43 points by ravenical 5 hours ago | hide | 15 comments 14. upvote When Compilers Surprise You (xania.org) 196 points by brewmarche 10 hours ago | hide | 94 comments 15. upvote The dawn of a world simulator (odyssey.ml) 28 points by olivercameron 4 hours ago | hide | 6 comments 16. upvote Fabrice Bellard Releases MicroQuickJS (github.com/bellard) 1348 points by Aissen 1 day ago | hide | 512 comments 17. upvote Online Book: Exploring Mathematics with Python (psu.ac.th) 7 points by Andrew2565 1 hour ago | hide | discuss 18. upvote How GNU Guile is 10x better (2021) (draketo.de) 49 points by Tomte 4 hours ago | hide | 1 comment 19. upvote A faster path to container images in Bazel (tweag.io) 57 points by malt3 7 hours ago | hide | 29 comments 20. upvote Jingle Bells (Batman Smells): An incomplete festive folk-rhyme taxonomy (loreandordure.com) 53 points by helsinkiandrew 5 hours ago | hide | 13 comments 21. upvote How I Left YouTube (zhach.news) 39 points by dhashe 2 hours ago | hide | 53 comments 22. upvote Spaced repetition for efficient learning (2019) (gwern.net) 78 points by tsenturk 3 hours ago | hide | 28 comments 23. upvote Confessions to a Data Lake (confer.to) 13 points by kkl 2 hours ago | hide | 3 comments 24. upvote The port I couldn't ship (ammil.industries) 87 points by cjlm 12 hours ago | hide | 49 comments 25. upvote I'm returning my Framework 16 (yorickpeterse.com) 140 points by YorickPeterse 11 hours ago | hide | 240 comments 26. upvote Show HN: A local-first, reversible PII scrubber for AI workflows (medium.com/tj.ruesch) 16 points by tjruesch 3 hours ago | hide | discuss 27. upvote My 2026 Open Social Web Predictions (timothychambers.net) 75 points by todsacerdoti 8 hours ago | hide | 71 comments 28. upvote The e-scooter isn't new – London was zooming around on Autopeds a century ago (ianvisits.co.uk) 142 points by zeristor 15 hours ago | hide | 105 comments 29. upvote Quake's Player Speed (2017) (rome.ro) 51 points by klaussilveira 9 hours ago | hide | 13 comments 30. upvote Avoid Mini-Frameworks (laike9m.com) 113 points by laike9m 12 hours ago | hide | 86 comments More" {
+          table {
+            rowgroup {
+              row: "1. upvote Phoenix: A modern X server written from scratch in Zig (dec05eba.com)" {
+                cell: "1.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Phoenix: A modern X server written from scratch in Zig (dec05eba.com)" {
+                  link: "Phoenix: A modern X server written from scratch in Zig", url: "https://git.dec05eba.com/phoenix/about/";
+                  link: "dec05eba.com", url: "from";
+                };
+              };
+
+              row: "128 points by snvzz 1 hour ago | hide | 42 comments" {
+                cell;
+                cell: "128 points by snvzz 1 hour ago | hide | 42 comments" {
+                  link: "snvzz", url: "user";
+                  link: "1 hour ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "42 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "2. upvote Tell HN: Merry Christmas" {
+                cell: "2.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Tell HN: Merry Christmas" {
+                  link: "Tell HN: Merry Christmas", url: "item";
+                };
+              };
+
+              row: "254 points by basilikum 1 hour ago | hide | 78 comments" {
+                cell;
+                cell: "254 points by basilikum 1 hour ago | hide | 78 comments" {
+                  link: "basilikum", url: "user";
+                  link: "1 hour ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "78 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "3. upvote Show HN: Minimalist editor that lives in browser, stores everything in the URL (github.com/antonmedv)" {
+                cell: "3.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Show HN: Minimalist editor that lives in browser, stores everything in the URL (github.com/antonmedv)" {
+                  link: "Show HN: Minimalist editor that lives in browser, stores everything in the URL", url: "https://github.com/antonmedv/textarea";
+                  link: "github.com/antonmedv", url: "from?site=github.com%2Fantonmedv";
+                };
+              };
+
+              row: "214 points by medv 4 hours ago | hide | 77 comments" {
+                cell;
+                cell: "214 points by medv 4 hours ago | hide | 77 comments" {
+                  link: "medv", url: "user?id=medv";
+                  link: "4 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "77 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "4. upvote CSRF protection without tokens or hidden form fields (miguelgrinberg.com)" {
+                cell: "4.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "CSRF protection without tokens or hidden form fields (miguelgrinberg.com)" {
+                  link: "CSRF protection without tokens or hidden form fields", url: "https://blog.miguelgrinberg.com/post/csrf-protection-without-tokens-or-hidden-form-fields";
+                  link: "miguelgrinberg.com", url: "from";
+                };
+              };
+
+              row: "64 points by adevilinyc 3 hours ago | hide | 6 comments" {
+                cell;
+                cell: "64 points by adevilinyc 3 hours ago | hide | 6 comments" {
+                  link: "adevilinyc", url: "user";
+                  link: "3 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "6 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "5. upvote Fabrice Bellard: Biography (2009) [pdf] (ipaidia.gr)" {
+                cell: "5.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Fabrice Bellard: Biography (2009) [pdf] (ipaidia.gr)" {
+                  link: "Fabrice Bellard: Biography (2009) [pdf]", url: "https://www.ipaidia.gr/wp-content/uploads/2020/12/117-2020-fabrice-bellard.pdf";
+                  link: "ipaidia.gr", url: "from";
+                };
+              };
+
+              row: "178 points by lioeters 6 hours ago | hide | 48 comments" {
+                cell;
+                cell: "178 points by lioeters 6 hours ago | hide | 48 comments" {
+                  link: "lioeters", url: "user?id=lioeters";
+                  link: "6 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "48 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "6. upvote Research team digitizes more than 100 years of Canadian infectious disease data (mcmaster.ca)" {
+                cell: "6.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Research team digitizes more than 100 years of Canadian infectious disease data (mcmaster.ca)" {
+                  link: "Research team digitizes more than 100 years of Canadian infectious disease data", url: "https://news.mcmaster.ca/mcmaster-research-team-digitizes-more-than-100-years-of-canadian-infectious-disease-data/";
+                  link: "mcmaster.ca", url: "from";
+                };
+              };
+
+              row: "33 points by XzetaU8 2 hours ago | hide | 1 comment" {
+                cell;
+                cell: "33 points by XzetaU8 2 hours ago | hide | 1 comment" {
+                  link: "XzetaU8", url: "user";
+                  link: "2 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "1 comment", url: "item";
+                };
+              };
+
+              row;
+              row: "7. upvote Show HN: Vibium – Browser automation for AI and humans, by Selenium's creator (github.com/vibiumdev)" {
+                cell: "7.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Show HN: Vibium – Browser automation for AI and humans, by Selenium's creator (github.com/vibiumdev)" {
+                  link: "Show HN: Vibium – Browser automation for AI and humans, by Selenium's creator", url: "https://github.com/VibiumDev/vibium";
+                  link: "github.com/vibiumdev", url: "from?site=github.com%2Fvibiumdev";
+                };
+              };
+
+              row: "204 points by hugs 6 hours ago | hide | 69 comments" {
+                cell;
+                cell: "204 points by hugs 6 hours ago | hide | 69 comments" {
+                  link: "hugs", url: "user?id=hugs";
+                  link: "6 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "69 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "8. upvote Who Watches the Waymos? I do [video] (youtube.com)" {
+                cell: "8.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Who Watches the Waymos? I do [video] (youtube.com)" {
+                  link: "Who Watches the Waymos? I do [video]", url: "https://www.youtube.com/watch";
+                  link: "youtube.com", url: "from?site=youtube.com";
+                };
+              };
+
+              row: "4 points by notgloating 16 minutes ago | hide | discuss" {
+                cell;
+                cell: "4 points by notgloating 16 minutes ago | hide | discuss" {
+                  link: "notgloating", url: "user?id=notgloating";
+                  link: "16 minutes ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "discuss", url: "item";
+                };
+              };
+
+              row;
+              row: "9. upvote Microsoft please get your tab to autocomplete shit together (ivanca.github.io)" {
+                cell: "9.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Microsoft please get your tab to autocomplete shit together (ivanca.github.io)" {
+                  link: "Microsoft please get your tab to autocomplete shit together", url: "https://ivanca.github.io/programming/2025/11/26/microsoft-pls-get-your-tab-to-autocomplete-shit-together/";
+                  link: "ivanca.github.io", url: "from?site=ivanca.github.io";
+                };
+              };
+
+              row: "29 points by AmbroseBierce 52 minutes ago | hide | 9 comments" {
+                cell;
+                cell: "29 points by AmbroseBierce 52 minutes ago | hide | 9 comments" {
+                  link: "AmbroseBierce", url: "user";
+                  link: "52 minutes ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "9 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "10. upvote Asterisk AI Voice Agent (github.com/hkjarral)" {
+                cell: "10.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Asterisk AI Voice Agent (github.com/hkjarral)" {
+                  link: "Asterisk AI Voice Agent", url: "https://github.com/hkjarral/Asterisk-AI-Voice-Agent";
+                  link: "github.com/hkjarral", url: "from?site=github.com%2Fhkjarral";
+                };
+              };
+
+              row: "7 points by akrulino 1 hour ago | hide | discuss" {
+                cell;
+                cell: "7 points by akrulino 1 hour ago | hide | discuss" {
+                  link: "akrulino", url: "user";
+                  link: "1 hour ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "discuss", url: "item";
+                };
+              };
+
+              row;
+              row: "11. upvote Comptime – C# meta-programming with compile-time code generation and evaluation (github.com/sebastienros)" {
+                cell: "11.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Comptime – C# meta-programming with compile-time code generation and evaluation (github.com/sebastienros)" {
+                  link: "Comptime – C# meta-programming with compile-time code generation and evaluation", url: "https://github.com/sebastienros/comptime";
+                  link: "github.com/sebastienros", url: "from?site=github.com%2Fsebastienros";
+                };
+              };
+
+              row: "29 points by bj-rn 3 hours ago | hide | 4 comments" {
+                cell;
+                cell: "29 points by bj-rn 3 hours ago | hide | 4 comments" {
+                  link: "bj-rn", url: "user";
+                  link: "3 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "4 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "12. upvote Nvidia buying AI chip startup Groq for about $20B in cash (cnbc.com)" {
+                cell: "12.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Nvidia buying AI chip startup Groq for about $20B in cash (cnbc.com)" {
+                  link: "Nvidia buying AI chip startup Groq for about $20B in cash", url: "https://www.cnbc.com/2025/12/24/nvidia-buying-ai-chip-startup-groq-for-about-20-billion-biggest-deal.html";
+                  link: "cnbc.com", url: "from";
+                };
+              };
+
+              row: "296 points by nickrubin 3 hours ago | hide | 192 comments" {
+                cell;
+                cell: "296 points by nickrubin 3 hours ago | hide | 192 comments" {
+                  link: "nickrubin", url: "user";
+                  link: "3 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "192 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "13. upvote Qntm's Power Tower Toy (qntm.org)" {
+                cell: "13.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Qntm's Power Tower Toy (qntm.org)" {
+                  link: "Qntm's Power Tower Toy", url: "https://qntm.org/files/knuth/knuth.html";
+                  link: "qntm.org", url: "from";
+                };
+              };
+
+              row: "43 points by ravenical 5 hours ago | hide | 15 comments" {
+                cell;
+                cell: "43 points by ravenical 5 hours ago | hide | 15 comments" {
+                  link: "ravenical", url: "user";
+                  link: "5 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "15 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "14. upvote When Compilers Surprise You (xania.org)" {
+                cell: "14.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "When Compilers Surprise You (xania.org)" {
+                  link: "When Compilers Surprise You", url: "https://xania.org/202512/24-cunning-clang";
+                  link: "xania.org", url: "from";
+                };
+              };
+
+              row: "196 points by brewmarche 10 hours ago | hide | 94 comments" {
+                cell;
+                cell: "196 points by brewmarche 10 hours ago | hide | 94 comments" {
+                  link: "brewmarche", url: "user?id=brewmarche";
+                  link: "10 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "94 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "15. upvote The dawn of a world simulator (odyssey.ml)" {
+                cell: "15.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "The dawn of a world simulator (odyssey.ml)" {
+                  link: "The dawn of a world simulator", url: "https://odyssey.ml/the-dawn-of-a-world-simulator";
+                  link: "odyssey.ml", url: "from?site=odyssey.ml";
+                };
+              };
+
+              row: "28 points by olivercameron 4 hours ago | hide | 6 comments" {
+                cell;
+                cell: "28 points by olivercameron 4 hours ago | hide | 6 comments" {
+                  link: "olivercameron", url: "user";
+                  link: "4 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "6 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "16. upvote Fabrice Bellard Releases MicroQuickJS (github.com/bellard)" {
+                cell: "16.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Fabrice Bellard Releases MicroQuickJS (github.com/bellard)" {
+                  link: "Fabrice Bellard Releases MicroQuickJS", url: "https://github.com/bellard/mquickjs/blob/main/README.md";
+                  link: "github.com/bellard", url: "from?site=github.com%2Fbellard";
+                };
+              };
+
+              row: "1348 points by Aissen 1 day ago | hide | 512 comments" {
+                cell;
+                cell: "1348 points by Aissen 1 day ago | hide | 512 comments" {
+                  link: "Aissen", url: "user?id=Aissen";
+                  link: "1 day ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "512 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "17. upvote Online Book: Exploring Mathematics with Python (psu.ac.th)" {
+                cell: "17.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Online Book: Exploring Mathematics with Python (psu.ac.th)" {
+                  link: "Online Book: Exploring Mathematics with Python", url: "https://coe.psu.ac.th/ad/explore/";
+                  link: "psu.ac.th", url: "from";
+                };
+              };
+
+              row: "7 points by Andrew2565 1 hour ago | hide | discuss" {
+                cell;
+                cell: "7 points by Andrew2565 1 hour ago | hide | discuss" {
+                  link: "Andrew2565", url: "user?id=Andrew2565";
+                  link: "1 hour ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "discuss", url: "item";
+                };
+              };
+
+              row;
+              row: "18. upvote How GNU Guile is 10x better (2021) (draketo.de)" {
+                cell: "18.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "How GNU Guile is 10x better (2021) (draketo.de)" {
+                  link: "How GNU Guile is 10x better (2021)", url: "https://www.draketo.de/software/guile-10x";
+                  link: "draketo.de", url: "from";
+                };
+              };
+
+              row: "49 points by Tomte 4 hours ago | hide | 1 comment" {
+                cell;
+                cell: "49 points by Tomte 4 hours ago | hide | 1 comment" {
+                  link: "Tomte", url: "user?id=Tomte";
+                  link: "4 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "1 comment", url: "item";
+                };
+              };
+
+              row;
+              row: "19. upvote A faster path to container images in Bazel (tweag.io)" {
+                cell: "19.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "A faster path to container images in Bazel (tweag.io)" {
+                  link: "A faster path to container images in Bazel", url: "https://www.tweag.io/blog/2025-12-18-rules_img/";
+                  link: "tweag.io", url: "from";
+                };
+              };
+
+              row: "57 points by malt3 7 hours ago | hide | 29 comments" {
+                cell;
+                cell: "57 points by malt3 7 hours ago | hide | 29 comments" {
+                  link: "malt3", url: "user";
+                  link: "7 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "29 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "20. upvote Jingle Bells (Batman Smells): An incomplete festive folk-rhyme taxonomy (loreandordure.com)" {
+                cell: "20.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Jingle Bells (Batman Smells): An incomplete festive folk-rhyme taxonomy (loreandordure.com)" {
+                  link: "Jingle Bells (Batman Smells): An incomplete festive folk-rhyme taxonomy", url: "https://loreandordure.com/2025/12/16/jingle-bells/";
+                  link: "loreandordure.com", url: "from";
+                };
+              };
+            };
+          };
+        };
+      };
+    };
+  };
+};
+
+</state 0>
+
+<reasoning>
+Plan: (1) Scroll to the page footer where the HN search box lives. (2) Locate the Search textbox in the footer, fill it with the query "zig x server". (3) Submit the search form (press Enter) and wait for navigation to the search results page. No knowledge_base helper functions are available.
+</reasoning>
+
+<code>
+import asyncio
+
+async def act(page):
+    # Ensure we're at the footer where the search input is located
+    await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+
+    # Hacker News footer search: label text is typically "Search:" next to a textbox
+    search_box = page.get_by_role("textbox")
+    await search_box.wait_for(state="visible")
+    await search_box.fill("zig x server")
+
+    # Submit the search (HN search box submits on Enter)
+    await search_box.press("Enter")
+    await page.wait_for_load_state("domcontentloaded")
+
+</code>
+
+---
+
+<terminate_with_result>
+Searched Hacker News for “zig x server” and the results page is already loaded.
+</terminate_with_result>
+
+---
+

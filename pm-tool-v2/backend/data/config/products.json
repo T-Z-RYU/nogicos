@@ -1,0 +1,82 @@
+{
+  "Calm_Analysis": {
+    "name": "Calm",
+    "color": "#4A90A4",
+    "initial": "C",
+    "category": "Health & Fitness",
+    "description_cn": "冥想与睡眠应用",
+    "description_en": "Meditation & Sleep App"
+  },
+  "Flo_Analysis": {
+    "name": "Flo",
+    "color": "#FF6B9D",
+    "initial": "F",
+    "category": "Health & Fitness",
+    "description_cn": "女性健康追踪",
+    "description_en": "Women's Health Tracker"
+  },
+  "Flo_Period_Pregnancy_Tracker_Analysis": {
+    "name": "Flo",
+    "color": "#FF6B9D",
+    "initial": "F",
+    "category": "Health & Fitness",
+    "description_cn": "女性健康追踪",
+    "description_en": "Women's Health Tracker"
+  },
+  "MyFitnessPal_Analysis": {
+    "name": "MyFitnessPal",
+    "color": "#0066CC",
+    "initial": "M",
+    "category": "Health & Fitness",
+    "description_cn": "饮食与运动追踪",
+    "description_en": "Diet & Exercise Tracker"
+  },
+  "MyFitnessPal_Calorie_Counter_Analysis": {
+    "name": "MyFitnessPal",
+    "color": "#0066CC",
+    "initial": "M",
+    "category": "Health & Fitness",
+    "description_cn": "饮食与运动追踪",
+    "description_en": "Diet & Exercise Tracker"
+  },
+  "Runna_Analysis": {
+    "name": "Runna",
+    "color": "#FF5722",
+    "initial": "R",
+    "category": "Health & Fitness",
+    "description_cn": "跑步训练计划",
+    "description_en": "Running Training Plans"
+  },
+  "Runna_Running_Training_Plans_Analysis": {
+    "name": "Runna",
+    "color": "#FF5722",
+    "initial": "R",
+    "category": "Health & Fitness",
+    "description_cn": "跑步训练计划",
+    "description_en": "Running Training Plans"
+  },
+  "Strava_Analysis": {
+    "name": "Strava",
+    "color": "#FC4C02",
+    "initial": "S",
+    "category": "Health & Fitness",
+    "description_cn": "运动社交平台",
+    "description_en": "Sports Social Network"
+  },
+  "Strava_Run_Bike_Hike_Analysis": {
+    "name": "Strava",
+    "color": "#FC4C02",
+    "initial": "S",
+    "category": "Health & Fitness",
+    "description_cn": "运动社交平台",
+    "description_en": "Sports Social Network"
+  },
+  "Cal_AI_-_Calorie_Tracker_Analysis": {
+    "name": "Cal AI",
+    "color": "#EC4899",
+    "initial": "C",
+    "category": "Health & Fitness",
+    "description_cn": "AI卡路里追踪",
+    "description_en": "AI Calorie Tracker"
+  }
+}

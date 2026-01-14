@@ -1,0 +1,945 @@
+{
+  "generated_at": "2025-12-24T14:18:09.124526",
+  "headline_patterns": [
+    {
+      "text": "Discover\n500,000+\ntrails",
+      "app": "AllTrails",
+      "position": "P1",
+      "type": "DATA_PROOF"
+    },
+    {
+      "text": "Discover trails\nthat inspire you",
+      "app": "AllTrails",
+      "position": "P2",
+      "type": "VP"
+    },
+    {
+      "text": "See trail details\nbefore going",
+      "app": "AllTrails",
+      "position": "P3",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Tour the trail",
+      "app": "AllTrails",
+      "position": "P4",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Check conditions",
+      "app": "AllTrails",
+      "position": "P5",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Explore offline",
+      "app": "AllTrails",
+      "position": "P6",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "See the terrain\nbefore you go",
+      "app": "AllTrails",
+      "position": "P7",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Check reviews",
+      "app": "AllTrails",
+      "position": "P8",
+      "type": "SOCIAL_PROOF"
+    },
+    {
+      "text": "Navigate on the trail\nand track your stats",
+      "app": "AllTrails",
+      "position": "P9",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "“Think of AllTrails\nas your friend\nwho used to be\na park ranger.”",
+      "app": "AllTrails",
+      "position": "P10",
+      "type": "AUTHORITY"
+    },
+    {
+      "text": "Cal AI",
+      "app": "Cal_AI",
+      "position": "P1",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Just snap a pic",
+      "app": "Cal_AI",
+      "position": "P2",
+      "type": "AI_DEMO"
+    },
+    {
+      "text": "See the calories",
+      "app": "Cal_AI",
+      "position": "P3",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Track progress",
+      "app": "Cal_AI",
+      "position": "P4",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Grow with friends",
+      "app": "Cal_AI",
+      "position": "P5",
+      "type": "SOCIAL_PROOF"
+    },
+    {
+      "text": "Watch the change",
+      "app": "Cal_AI",
+      "position": "P6",
+      "type": "RESULT_PREVIEW"
+    },
+    {
+      "text": "Calm",
+      "app": "Calm",
+      "position": "P1",
+      "type": "AUTHORITY"
+    },
+    {
+      "text": "Sleep more. Stress less.\nLive better.",
+      "app": "Calm",
+      "position": "P2",
+      "type": "VP"
+    },
+    {
+      "text": "Learn the life-changing\nskill of meditation",
+      "app": "Calm",
+      "position": "P3",
+      "type": "CONTENT_PREVIEW"
+    },
+    {
+      "text": "Sleep Stories to help you\nfall asleep",
+      "app": "Calm",
+      "position": "P4",
+      "type": "VP"
+    },
+    {
+      "text": "Music to help you focus,\nrelax and sleep",
+      "app": "Calm",
+      "position": "P5",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Masterclasses taught by\nworld-renowned experts",
+      "app": "Calm",
+      "position": "P6",
+      "type": "AUTHORITY"
+    },
+    {
+      "text": "See your top\nstats, at a glance",
+      "app": "Fitbit",
+      "position": "P1",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Focus on\nwhat matters most",
+      "app": "Fitbit",
+      "position": "P2",
+      "type": "PERSONALIZATION"
+    },
+    {
+      "text": "Stay motivated\nwith fun, fresh\nworkouts",
+      "app": "Fitbit",
+      "position": "P3",
+      "type": "VP"
+    },
+    {
+      "text": "Explore workouts\nfor your body\n& mind",
+      "app": "Fitbit",
+      "position": "P4",
+      "type": "CONTENT_PREVIEW"
+    },
+    {
+      "text": "Adjust goals, track achievements\n& more",
+      "app": "Fitbit",
+      "position": "P5",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Get some credit for\nall that hard work",
+      "app": "Fitbit",
+      "position": "P6",
+      "type": "RESULT_PREVIEW"
+    },
+    {
+      "text": "Predict your\nnext period",
+      "app": "Flo",
+      "position": "P1",
+      "type": "VP"
+    },
+    {
+      "text": "Understand your fertile days",
+      "app": "Flo",
+      "position": "P2",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Log and track",
+      "app": "Flo",
+      "position": "P3",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Maximize your\nconnection",
+      "app": "Flo",
+      "position": "P4",
+      "type": "USP"
+    },
+    {
+      "text": "Got symptoms?\nGet answers",
+      "app": "Flo",
+      "position": "P5",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Manage symptoms of perimenopause",
+      "app": "Flo",
+      "position": "P6",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Discover your sleep-cycle",
+      "app": "Flo",
+      "position": "P7",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Follow your\nbaby’s growth",
+      "app": "Flo",
+      "position": "P8",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Learn from\n100+ experts",
+      "app": "Flo",
+      "position": "P9",
+      "type": "AUTHORITY"
+    },
+    {
+      "text": "Keep your data\neven safer",
+      "app": "Flo",
+      "position": "P10",
+      "type": "USP"
+    },
+    {
+      "text": "Award Winning",
+      "app": "Headspace",
+      "position": "P1",
+      "type": "AUTHORITY"
+    },
+    {
+      "text": "Your lifelong guide to\nbetter mental health",
+      "app": "Headspace",
+      "position": "P2",
+      "type": "VP"
+    },
+    {
+      "text": "Stress less",
+      "app": "Headspace",
+      "position": "P3",
+      "type": "VP"
+    },
+    {
+      "text": "Sleep soundly",
+      "app": "Headspace",
+      "position": "P4",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Learn to meditate in\na few minutes a day",
+      "app": "Headspace",
+      "position": "P5",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Feel healthier\nand happier",
+      "app": "Headspace",
+      "position": "P6",
+      "type": "VP"
+    },
+    {
+      "text": "Personalized\ncontent every day",
+      "app": "Headspace",
+      "position": "P7",
+      "type": "PERSONALIZATION"
+    },
+    {
+      "text": "Welcome to\nHeadspace therapy",
+      "app": "Headspace",
+      "position": "P8",
+      "type": "VP"
+    },
+    {
+      "text": "Meet Ebb,\nyour empathetic\nAI companion",
+      "app": "Headspace",
+      "position": "P9",
+      "type": "AI_DEMO"
+    },
+    {
+      "text": "Featured in",
+      "app": "Headspace",
+      "position": "P10",
+      "type": "AUTHORITY"
+    },
+    {
+      "text": "GET\nSTRONGER,\nWITH A\nPLAN.",
+      "app": "LADDER",
+      "position": "P1",
+      "type": "VP"
+    },
+    {
+      "text": "A PLAN FOR\nEVERY WORKOUT",
+      "app": "LADDER",
+      "position": "P3",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "TRACK\nMACROS",
+      "app": "LADDER",
+      "position": "P4",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "FIND THE PERFECT\nPLAN FOR YOU",
+      "app": "LADDER",
+      "position": "P5",
+      "type": "PERSONALIZATION"
+    },
+    {
+      "text": "GET COACHED\nTHROUGH IT ALL",
+      "app": "LADDER",
+      "position": "P6",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "LEARN\nCORRECT FORM",
+      "app": "LADDER",
+      "position": "P7",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "TRACK YOUR\nPROGRESS",
+      "app": "LADDER",
+      "position": "P8",
+      "type": "DATA_PROOF"
+    },
+    {
+      "text": "LISTEN TO YOUR\nOWN MUSIC",
+      "app": "LADDER",
+      "position": "P9",
+      "type": "INTEGRATION"
+    },
+    {
+      "text": "GET ANSWERS TO\nYOUR QUESTIONS",
+      "app": "LADDER",
+      "position": "P10",
+      "type": "SOCIAL_PROOF"
+    },
+    {
+      "text": "Track Your Calories & Nutrition",
+      "app": "LoseIt",
+      "position": "P1",
+      "type": "VP"
+    },
+    {
+      "text": "Snap a Photo of\nYour Meal",
+      "app": "LoseIt",
+      "position": "P2",
+      "type": "AI_DEMO"
+    },
+    {
+      "text": "Scan\nBarcodes",
+      "app": "LoseIt",
+      "position": "P3",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Voice\nLogging",
+      "app": "LoseIt",
+      "position": "P4",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Easily Log\nEvery Meal",
+      "app": "LoseIt",
+      "position": "P5",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Lose\nWeight",
+      "app": "LoseIt",
+      "position": "P6",
+      "type": "RESULT_PREVIEW"
+    },
+    {
+      "text": "Learn About\nMacros",
+      "app": "LoseIt",
+      "position": "P7",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Sync\nFitness Apps",
+      "app": "LoseIt",
+      "position": "P8",
+      "type": "INTEGRATION"
+    },
+    {
+      "text": "Support\nGroups",
+      "app": "LoseIt",
+      "position": "P9",
+      "type": "SOCIAL_PROOF"
+    },
+    {
+      "text": "Customized\nRecipes",
+      "app": "LoseIt",
+      "position": "P10",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "SMART\nMACRO\nTRACKER",
+      "app": "MacroFactor",
+      "position": "P1",
+      "type": "VP"
+    },
+    {
+      "text": "LOG FOODS\nFASTER",
+      "app": "MacroFactor",
+      "position": "P2",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "MASTER YOUR\nMETABOLISM",
+      "app": "MacroFactor",
+      "position": "P3",
+      "type": "DATA_PROOF"
+    },
+    {
+      "text": "SNAP FOODS\nWITH AI",
+      "app": "MacroFactor",
+      "position": "P4",
+      "type": "AI_DEMO"
+    },
+    {
+      "text": "TRACK\nMICROS",
+      "app": "MacroFactor",
+      "position": "P5",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "CHECK IN\nWEEKLY",
+      "app": "MacroFactor",
+      "position": "P6",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "END SCALE\nANXIETY",
+      "app": "MacroFactor",
+      "position": "P7",
+      "type": "RESULT_PREVIEW"
+    },
+    {
+      "text": "LOSE WEIGHT\nGAIN MUSCLE",
+      "app": "MacroFactor",
+      "position": "P8",
+      "type": "RESULT_PREVIEW"
+    },
+    {
+      "text": "LOG FROM\nYOUR WRIST",
+      "app": "MacroFactor",
+      "position": "P9",
+      "type": "INTEGRATION"
+    },
+    {
+      "text": "DRIVEN BY SCIENCE",
+      "app": "MacroFactor",
+      "position": "P10",
+      "type": "VP"
+    },
+    {
+      "text": "The #1 Food\n& Nutrition\nTracking\nApp",
+      "app": "MyFitnessPal",
+      "position": "P1",
+      "type": "VP"
+    },
+    {
+      "text": "Never run out of\nideas again",
+      "app": "MyFitnessPal",
+      "position": "P2",
+      "type": "VP"
+    },
+    {
+      "text": "Scan Your Food",
+      "app": "MyFitnessPal",
+      "position": "P3",
+      "type": "AI_DEMO"
+    },
+    {
+      "text": "Try the Voice\nLogging Feature",
+      "app": "MyFitnessPal",
+      "position": "P4",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Personalize\nYour Dashboard",
+      "app": "MyFitnessPal",
+      "position": "P5",
+      "type": "PERSONALIZATION"
+    },
+    {
+      "text": "Now with Meal Planner: Plan, Shop, Cook, Log.",
+      "app": "MyFitnessPal",
+      "position": "P6",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Fitness &\nFood Diary",
+      "app": "MyFitnessPal",
+      "position": "P7",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Track Macros",
+      "app": "MyFitnessPal",
+      "position": "P8",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "All In Sync",
+      "app": "MyFitnessPal",
+      "position": "P9",
+      "type": "INTEGRATION"
+    },
+    {
+      "text": "Explore\nExciting Features",
+      "app": "MyFitnessPal",
+      "position": "P10",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Noom uses\npsychology to\nhelp you lose\nweight and\nkeep it off",
+      "app": "Noom",
+      "position": "P1",
+      "type": "VP"
+    },
+    {
+      "text": "Understand\nyour food\nchoices with\npsychology",
+      "app": "Noom",
+      "position": "P2",
+      "type": "USP"
+    },
+    {
+      "text": "A personalized program\nfor healthier habits",
+      "app": "Noom",
+      "position": "P3",
+      "type": "VP"
+    },
+    {
+      "text": "Stay on track with\nsimple food logging",
+      "app": "Noom",
+      "position": "P4",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Get tailored insights\nalong your journey",
+      "app": "Noom",
+      "position": "P5",
+      "type": "PERSONALIZATION"
+    },
+    {
+      "text": "Kickstart your health\nwith medication",
+      "app": "Noom",
+      "position": "P6",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Keep the muscle,\nlose the fat",
+      "app": "Noom",
+      "position": "P7",
+      "type": "USP"
+    },
+    {
+      "text": "78% of Noomers lost weight in a six-month study.",
+      "app": "Noom",
+      "position": "P8",
+      "type": "DATA_PROOF"
+    },
+    {
+      "text": "CALL YOURSELF A RUNNER",
+      "app": "Peloton",
+      "position": "P1",
+      "type": "SOCIAL_PROOF"
+    },
+    {
+      "text": "UNLOCK\nYOUR\nBEST RUN",
+      "app": "Peloton",
+      "position": "P2",
+      "type": "VP"
+    },
+    {
+      "text": "Try Thousands\nof Workouts",
+      "app": "Peloton",
+      "position": "P3",
+      "type": "CONTENT_PREVIEW"
+    },
+    {
+      "text": "Watch Yourself\nImprove",
+      "app": "Peloton",
+      "position": "P4",
+      "type": "RESULT_PREVIEW"
+    },
+    {
+      "text": "RUN\nANYTIME\nANYWHERE",
+      "app": "Peloton",
+      "position": "P5",
+      "type": "VP"
+    },
+    {
+      "text": "Never Miss\nAnother Rep",
+      "app": "Peloton",
+      "position": "P6",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Discover\nCommunity",
+      "app": "Peloton",
+      "position": "P7",
+      "type": "SOCIAL_PROOF"
+    },
+    {
+      "text": "Learn From\nYour Progress",
+      "app": "Peloton",
+      "position": "P8",
+      "type": "DATA_PROOF"
+    },
+    {
+      "text": "RUN\nSTRONGER\nRUN\nLONGER",
+      "app": "Peloton",
+      "position": "P9",
+      "type": "VP"
+    },
+    {
+      "text": "Runna",
+      "app": "Runna",
+      "position": "P1",
+      "type": "SOCIAL_PROOF"
+    },
+    {
+      "text": "Personalized Plans",
+      "app": "Runna",
+      "position": "P2",
+      "type": "PERSONALIZATION"
+    },
+    {
+      "text": "Live Audio Coaching",
+      "app": "Runna",
+      "position": "P3",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Fits Your Schedule",
+      "app": "Runna",
+      "position": "P4",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Fully Customizable",
+      "app": "Runna",
+      "position": "P5",
+      "type": "PERSONALIZATION"
+    },
+    {
+      "text": "Workout Variety",
+      "app": "Runna",
+      "position": "P6",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "All Your Stats",
+      "app": "Runna",
+      "position": "P7",
+      "type": "DATA_PROOF"
+    },
+    {
+      "text": "Strength Training",
+      "app": "Runna",
+      "position": "P8",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Community",
+      "app": "Runna",
+      "position": "P9",
+      "type": "SOCIAL_PROOF"
+    },
+    {
+      "text": "24/7 Support",
+      "app": "Runna",
+      "position": "P10",
+      "type": "USP"
+    },
+    {
+      "text": "Apple Watch\nApp of the Year",
+      "app": "Strava",
+      "position": "P1",
+      "type": "AUTHORITY"
+    },
+    {
+      "text": "Get motivated by\nthe community",
+      "app": "Strava",
+      "position": "P2",
+      "type": "SOCIAL_PROOF"
+    },
+    {
+      "text": "Track your\nworkouts",
+      "app": "Strava",
+      "position": "P3",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Share with\nfriends",
+      "app": "Strava",
+      "position": "P4",
+      "type": "SOCIAL_PROOF"
+    },
+    {
+      "text": "Improve with\npersonalized data",
+      "app": "Strava",
+      "position": "P5",
+      "type": "DATA_PROOF"
+    },
+    {
+      "text": "Discover\nnew routes",
+      "app": "Strava",
+      "position": "P6",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Improve faster\nwith AI insights",
+      "app": "Strava",
+      "position": "P7",
+      "type": "AI_DEMO"
+    },
+    {
+      "text": "Sync with\nyour devices",
+      "app": "Strava",
+      "position": "P8",
+      "type": "INTEGRATION"
+    },
+    {
+      "text": "Compete\nagainst millions",
+      "app": "Strava",
+      "position": "P9",
+      "type": "SOCIAL_PROOF"
+    },
+    {
+      "text": "Or focus\non you",
+      "app": "Strava",
+      "position": "P10",
+      "type": "PERSONALIZATION"
+    },
+    {
+      "text": "Fasting\nCalories\nWeight loss",
+      "app": "Yazio",
+      "position": "P1",
+      "type": "VP"
+    },
+    {
+      "text": "4.6",
+      "app": "Yazio",
+      "position": "P2",
+      "type": "AI_DEMO"
+    },
+    {
+      "text": "Easy Food\nScanning",
+      "app": "Yazio",
+      "position": "P3",
+      "type": "AI_DEMO"
+    },
+    {
+      "text": "Intermittent\nfasting",
+      "app": "Yazio",
+      "position": "P4",
+      "type": "CORE_FUNC"
+    },
+    {
+      "text": "Reach your goal\nnow!",
+      "app": "Yazio",
+      "position": "P5",
+      "type": "VP"
+    },
+    {
+      "text": "New recipes\nweekly",
+      "app": "Yazio",
+      "position": "P6",
+      "type": "CONTENT_PREVIEW"
+    },
+    {
+      "text": "Sustainable\nweight loss",
+      "app": "Yazio",
+      "position": "P7",
+      "type": "RESULT_PREVIEW"
+    },
+    {
+      "text": "More than 100M\nhappy users",
+      "app": "Yazio",
+      "position": "P8",
+      "type": "SOCIAL_PROOF"
+    }
+  ],
+  "layout_patterns": {
+    "device_centered": {
+      "count": 103,
+      "percentage": "77.4%"
+    },
+    "editorial": {
+      "count": 9,
+      "percentage": "6.8%"
+    },
+    "device_offset": {
+      "count": 7,
+      "percentage": "5.3%"
+    },
+    "floating_elements": {
+      "count": 6,
+      "percentage": "4.5%"
+    },
+    "full_bleed": {
+      "count": 5,
+      "percentage": "3.8%"
+    },
+    "split_screen": {
+      "count": 3,
+      "percentage": "2.3%"
+    }
+  },
+  "color_schemes": [
+    {
+      "app": "AllTrails",
+      "colors": [
+        "#141E14",
+        "#8EF26A"
+      ],
+      "mood": "cool"
+    },
+    {
+      "app": "Cal_AI",
+      "colors": [
+        "#FFFFFF",
+        "#111111"
+      ],
+      "mood": "neutral"
+    },
+    {
+      "app": "Calm",
+      "colors": [
+        "#6FA9D9",
+        "#5B63D6"
+      ],
+      "mood": "cool"
+    },
+    {
+      "app": "Fitbit",
+      "colors": [
+        "#F2F3F1",
+        "#000000"
+      ],
+      "mood": "neutral"
+    },
+    {
+      "app": "Flo",
+      "colors": [
+        "#D9C8FF",
+        "#FFFFFF"
+      ],
+      "mood": "muted"
+    },
+    {
+      "app": "Headspace",
+      "colors": [
+        "#F9DD4A",
+        "#F57A00"
+      ],
+      "mood": "vibrant"
+    },
+    {
+      "app": "LADDER",
+      "colors": [
+        "#D7E62A",
+        "#000000"
+      ],
+      "mood": "vibrant"
+    },
+    {
+      "app": "LoseIt",
+      "colors": [
+        "#F6E6D8",
+        "#F7941D"
+      ],
+      "mood": "warm"
+    },
+    {
+      "app": "MacroFactor",
+      "colors": [
+        "#5F6A73",
+        "#FFFFFF"
+      ],
+      "mood": "muted"
+    },
+    {
+      "app": "MyFitnessPal",
+      "colors": [
+        "#1F1F24",
+        "#FFFFFF"
+      ],
+      "mood": "muted"
+    },
+    {
+      "app": "Noom",
+      "colors": [
+        "#F2BFB1",
+        "#FFFFFF"
+      ],
+      "mood": "warm"
+    },
+    {
+      "app": "Peloton",
+      "colors": [
+        "#0F0F12",
+        "#FFFFFF"
+      ],
+      "mood": "neutral"
+    },
+    {
+      "app": "Runna",
+      "colors": [
+        "#F2F2F2",
+        "#111111"
+      ],
+      "mood": "neutral"
+    },
+    {
+      "app": "Strava",
+      "colors": [
+        "#1A1A1A",
+        "#B33A2B"
+      ],
+      "mood": "muted"
+    },
+    {
+      "app": "Yazio",
+      "colors": [
+        "#E9EEF0",
+        "#111111"
+      ],
+      "mood": "cool"
+    }
+  ]
+}

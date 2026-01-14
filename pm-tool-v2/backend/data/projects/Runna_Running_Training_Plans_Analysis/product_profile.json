@@ -1,0 +1,24 @@
+{
+  "app_name": "Runna Running Training Plans",
+  "app_category": "运动追踪 (Sports Tracking)",
+  "sub_category": "跑步训练计划",
+  "target_users": "希望系统训练、提升跑步能力的初中级跑者，注重科学训练和社区交流的运动爱好者",
+  "core_value": "提供个性化跑步训练计划，帮助用户科学备赛、提升跑步成绩",
+  "business_model": "订阅制 (Subscription)",
+  "estimated_stages": [
+    "Launch",
+    "Welcome",
+    "Onboarding",
+    "Paywall",
+    "Home",
+    "Core Features",
+    "Tracking",
+    "Content",
+    "Social",
+    "Profile",
+    "Settings"
+  ],
+  "visual_style": "极简清新 (Minimalist)",
+  "primary_color": "深灰黑色配薄荷绿",
+  "confidence": 0.92
+}

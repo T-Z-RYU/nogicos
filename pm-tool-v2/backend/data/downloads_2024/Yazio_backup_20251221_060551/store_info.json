@@ -1,0 +1,53 @@
+{
+  "app_name": "Yazio",
+  "track_name": "AI Calorie Tracker by Yazio",
+  "subtitle": "",
+  "bundle_id": "com.yazio.ios.YAZIO",
+  "average_rating": 4.70138,
+  "rating_count": 43570,
+  "price": 0.0,
+  "formatted_price": "Free",
+  "file_size": "331.8 MB",
+  "file_size_bytes": "347918336",
+  "release_date": "2015-01-06T10:48:27Z",
+  "current_version_date": "2025-12-15T09:41:08Z",
+  "version": "12.63.0",
+  "description": "Welcome to Yazio, the most effective AI calorie tracker, intermittent fasting app and food tracker for losing weight without dieting!\n\nTrack calories, eat better and reach your goals with Yazio’s free calorie counter app!\nYazio is your all-in-one solution, whether you're aiming for a calorie deficit, tracking meals or looking for an advanced AI calorie tracker. Designed to support sustainable weight loss, muscle gain and weight maintenance, Yazio empowers you to make smart food choices with the ...",
+  "developer": "YAZIO",
+  "primary_genre": "Health & Fitness",
+  "screenshot_urls": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/1b/1f/541b1f90-ca9c-b3fa-2f64-b6afc75ac74f/EN_US_yz_Rebrand01_iOS_6_5_inch_AIAngle_01.jpg/1242x2688bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1f/09/c6/1f09c67d-f57e-d0b1-34a3-3cbefba5a8fc/EN_US_yz_Rebrand01_iOS_6_5_inch_AIAngle_02.jpg/1242x2688bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/f6/50/75f650c3-5bd2-1958-9acf-bc84462eb2d1/EN_US_yz_Rebrand01_iOS_6_5_inch_AIAngle_03.jpg/1242x2688bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/15/55/48155517-4ebd-f54a-c810-5fbbe4ac34f9/EN_US_yz_Rebrand01_iOS_6_5_inch_AIAngle_04.jpg/1242x2688bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/df/46/18df46c1-9d7b-aed2-ba9d-d49ef33ec052/EN_US_yz_Rebrand01_iOS_6_5_inch_AIAngle_05.jpg/1242x2688bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/45/c8/b245c8e1-b95c-c210-edef-e3bc74e93282/EN_US_yz_Rebrand01_iOS_6_5_inch_AIAngle_06.jpg/1242x2688bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/fb/e4/74fbe47e-0706-8e03-5715-a43321183ce9/EN_US_yz_Rebrand01_iOS_6_5_inch_AIAngle_07.jpg/1242x2688bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/c2/2b/3fc22bb9-a57d-e2d0-c76f-a380ccfb3421/EN_US_yz_Rebrand01_iOS_6_5_inch_AIAngle_08.jpg/1242x2688bb.jpg"
+  ],
+  "ipad_screenshot_urls": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/09/ad/3209adb2-cdfd-cd78-d934-84de68857a50/485dae31-b816-4383-8d79-6c3b615708d4_0_APP_IPAD_PRO_129_0.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/a4/bc/d7a4bc10-60c1-c265-af5b-5ccbab2a3f07/f1a81ca2-96ed-4405-8e1f-4bf002287b01_1_APP_IPAD_PRO_129_1.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d3/17/02/d317029a-ce1c-767d-1b0d-7907eae517d7/bf76f1d3-d48f-4ad2-802b-3be24de7811a_2_APP_IPAD_PRO_129_2.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/da/31/c0/da31c0c0-447d-5fa3-a37d-b95d66ef9311/e87b7480-ee2b-4487-bbac-e2d9f62297e2_3_APP_IPAD_PRO_129_3.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/fc/ba/63fcba22-0fd0-7a19-1eab-9f2393e3dccc/edef9fb5-b5f2-4fa4-bfe7-11bbcd39f1ef_4_APP_IPAD_PRO_129_4.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/f5/4b/22f54b6c-f2c2-ac33-b746-80e29179a968/a3667327-dc12-4cc9-a48f-cf3e5157efcc_5_APP_IPAD_PRO_129_5.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/4e/e7/c04ee792-6473-7bc3-b16f-029bb837d953/f2314f22-1ae5-4a64-a285-4175fdca2de6_6_APP_IPAD_PRO_129_6.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/84/67/18846752-74ac-6099-c8de-95bfb805a0dc/c509e901-80d6-4a90-9a73-5fc769a3c07a_7_APP_IPAD_PRO_129_7.png/576x768bb.png"
+  ],
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/2b/37/682b371e-92a0-7262-a89b-a5fbf00f72d8/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "store_url": "https://apps.apple.com/us/app/ai-calorie-tracker-by-yazio/id946099227?uo=4",
+  "fetched_at": "2025-12-16T04:02:30.053247",
+  "screenshots_downloaded": true,
+  "screenshots_source": "webpage",
+  "downloaded_files": [
+    "screenshot_01.png",
+    "screenshot_02.png",
+    "screenshot_03.png",
+    "screenshot_04.png",
+    "screenshot_05.png",
+    "screenshot_06.png",
+    "screenshot_07.png",
+    "screenshot_08.png"
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "app_name": "Strava",
+  "total_screenshots": 10,
+  "analyzed_at": "2025-12-24T10:15:00",
+  "model": "claude-opus-4-5-20251101",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "type": "VP",
+      "type_cn": "价值主张",
+      "elements": ["Headline", "Device_Mockup", "Gradient_BG", "Activity_Visual"],
+      "copywriting": {
+        "headline": "The #1 App for Runners & Cyclists",
+        "subheadline": "Track every activity"
+      },
+      "psychology": {
+        "cialdini": ["social_proof", "authority"],
+        "cognitive_biases": ["primacy_effect", "anchoring"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 5.0,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "#1定位锚定运动追踪市场地位，橙色品牌色醒目"
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "type": "CORE_FUNC",
+      "type_cn": "核心功能",
+      "elements": ["Device_Mockup", "App_UI", "Headline", "Map_Visual"],
+      "copywriting": {
+        "headline": "Track Your Activities",
+        "subheadline": "GPS routes & performance data"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "GPS追踪功能展示，地图路线可视化"
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "type": "RESULT_PREVIEW",
+      "type_cn": "效果预览",
+      "elements": ["Device_Mockup", "App_UI", "Stat_Number"],
+      "copywriting": {
+        "headline": "Analyze Your Performance",
+        "subheadline": "Pace, splits & training load"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["expectation_anchoring"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.0
+      },
+      "analysis": "运动数据分析仪表盘，专业数据展示"
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "type": "SOCIAL_PROOF",
+      "type_cn": "社会证明",
+      "elements": ["Headline", "Download_Count", "Community_Visual"],
+      "copywriting": {
+        "headline": "Join 120M+ Athletes",
+        "subheadline": "The world's largest sports community"
+      },
+      "psychology": {
+        "cialdini": ["social_proof", "unity"],
+        "cognitive_biases": ["bandwagon_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "1.2亿运动员社区的强力社会证明"
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "type": "USP",
+      "type_cn": "差异化卖点",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Compete on Segments",
+        "subheadline": "Challenge friends & local legends"
+      },
+      "psychology": {
+        "cialdini": ["unity"],
+        "cognitive_biases": ["competition_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "Segments竞争功能，社交竞技差异化"
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "type": "PERSONALIZATION",
+      "type_cn": "个性化展示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Personalized Training Plans",
+        "subheadline": "Tailored to your goals"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["endowment_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "个性化训练计划"
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7_plus",
+      "type": "INTEGRATION",
+      "type_cn": "设备集成",
+      "elements": ["Device_Mockup", "Icon_Set", "Headline"],
+      "copywriting": {
+        "headline": "Connect Your Devices",
+        "subheadline": "Works with Apple Watch, Garmin & more"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["compatibility_assurance"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "设备兼容性展示，降低使用门槛"
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P7_plus",
+      "type": "AUTHORITY",
+      "type_cn": "权威背书",
+      "elements": ["Headline", "Media_Logo", "Award_Badge"],
+      "copywriting": {
+        "headline": "Apple Award Winner",
+        "subheadline": "Best Health & Fitness App"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["halo_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "Apple奖项背书"
+    },
+    {
+      "index": 9,
+      "filename": "screenshot_09.png",
+      "position": "P7_plus",
+      "type": "DATA_PROOF",
+      "type_cn": "数据证明",
+      "elements": ["Headline", "Stat_Number"],
+      "copywriting": {
+        "headline": "10B+ Activities Uploaded",
+        "subheadline": "Trusted by athletes worldwide"
+      },
+      "psychology": {
+        "cialdini": ["social_proof"],
+        "cognitive_biases": ["specificity_bias"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "100亿活动数据证明平台规模"
+    },
+    {
+      "index": 10,
+      "filename": "screenshot_10.png",
+      "position": "P7_plus",
+      "type": "FREE_TRIAL",
+      "type_cn": "免费试用提示",
+      "elements": ["Headline", "CTA_Text", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Try Summit Free",
+        "subheadline": "30-day premium trial"
+      },
+      "psychology": {
+        "cialdini": ["reciprocity"],
+        "cognitive_biases": ["loss_aversion"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "30天免费试用，比常规7天更长"
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → CORE_FUNC → RESULT_PREVIEW → SOCIAL_PROOF → USP → PERSONALIZATION → INTEGRATION → AUTHORITY → DATA_PROOF → FREE_TRIAL",
+    "strengths": [
+      "#1定位+1.2亿用户社会证明",
+      "社交竞技差异化（Segments）",
+      "30天试用期超越行业标准",
+      "设备兼容性完善"
+    ],
+    "weaknesses": [
+      "缺少AI功能展示",
+      "截图数量较多"
+    ],
+    "recommendations": [
+      "可考虑加入AI路线推荐功能",
+      "精简至8张截图"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 1,
+      "CORE_FUNC": 1,
+      "RESULT_PREVIEW": 1,
+      "SOCIAL_PROOF": 1,
+      "USP": 1,
+      "PERSONALIZATION": 1,
+      "INTEGRATION": 1,
+      "AUTHORITY": 1,
+      "DATA_PROOF": 1,
+      "FREE_TRIAL": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 6,
+      "Headline": 10,
+      "App_UI": 4,
+      "Gradient_BG": 2,
+      "Stat_Number": 2,
+      "Download_Count": 1,
+      "Media_Logo": 1,
+      "Award_Badge": 1,
+      "Icon_Set": 1,
+      "Map_Visual": 1
+    },
+    "psychology_coverage": {
+      "cialdini": ["social_proof", "authority", "commitment", "unity", "reciprocity"],
+      "cognitive_biases": ["primacy_effect", "anchoring", "cognitive_fluency", "expectation_anchoring", "bandwagon_effect", "endowment_effect", "halo_effect", "specificity_bias", "loss_aversion"]
+    }
+  }
+}
+

@@ -1,0 +1,40 @@
+{
+  "app_name": "Cal_AI",
+  "track_name": "Cal AI - Calorie Tracker",
+  "subtitle": "",
+  "bundle_id": "com.viraldevelopment.CalAI",
+  "average_rating": 4.81773,
+  "rating_count": 233359,
+  "price": 0.0,
+  "formatted_price": "Free",
+  "file_size": "275.7 MB",
+  "file_size_bytes": "289060864",
+  "release_date": "2024-04-08T07:00:00Z",
+  "current_version_date": "2025-12-01T13:31:29Z",
+  "version": "3.1.4",
+  "description": "HOW TO USE CAL AI:\n\n1) Answer lifestyle questions to build your plan\n\n2) Snap a photo of your meal*\n\n3) Get your nutritional breakdown*\n\nIf you want to get your dream body, Cal AI will help you get there with less time spent than anyone else.\n\nWe aren't another complicated diet app. We want to empower everyone to be confident in their bodies with minimal time spent, but you have to work hard. We will support you and give you the tools and information you need.\n\nIf you have any ideas or questions...",
+  "developer": "Viral Development LLC",
+  "primary_genre": "Health & Fitness",
+  "screenshot_urls": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/47/e8/4e47e84e-996e-cdf1-0693-e11b739d1f71/1.png/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/46/cd/e646cd98-6b1a-f8bf-db2b-c5d9910e2a0d/2.png/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/20/1a/ca/201acabf-7b90-643f-4242-8314773d7a74/3.png/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/6d/7b/006d7baf-07ab-bf35-225e-c93f0ffea1ac/4.png/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/bd/ad/80bdad4b-d45e-d9a4-2cd5-edf809147b0c/5.png/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/cc/7b/4fcc7b00-456e-2d61-4891-ba9ef1485680/6.png/1284x2778bb.jpg"
+  ],
+  "ipad_screenshot_urls": [],
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/29/d6/8a29d684-b6e3-bb80-230a-8cf53c6b9c0c/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/512x512bb.jpg",
+  "store_url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616?uo=4",
+  "fetched_at": "2025-12-16T03:53:17.259941",
+  "screenshots_downloaded": true,
+  "screenshots_source": "webpage",
+  "downloaded_files": [
+    "screenshot_01.png",
+    "screenshot_02.png",
+    "screenshot_03.png",
+    "screenshot_04.png",
+    "screenshot_05.png",
+    "screenshot_06.png"
+  ]
+}

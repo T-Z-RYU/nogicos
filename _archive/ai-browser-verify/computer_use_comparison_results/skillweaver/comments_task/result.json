@@ -1,0 +1,11 @@
+{
+  "task_id": "comments_task",
+  "task_name": "评论任务",
+  "mode": "skillweaver",
+  "use_knowledge_base": true,
+  "success": true,
+  "num_steps": 2,
+  "total_time_seconds": 71.16,
+  "used_kb_skill": true,
+  "llm_calls": 2
+}

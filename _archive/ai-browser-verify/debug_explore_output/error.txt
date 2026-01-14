@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 521, in inner
+    await explore(
+    ...<14 lines>...
+    )
+  File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 400, in explore
+    await asyncio.gather(
+        *[_find_worker_and_run_iteration() for _ in range(iterations)]
+    )
+  File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 362, in __wakeup
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 289, in __step_run_and_handle_result
+    result = coro.send(None)
+  File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 372, in _find_worker_and_run_iteration
+    await _run_explore_iteration(
+    ...<13 lines>...
+    )
+  File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 315, in _run_explore_iteration
+    await browser.active_page.goto(base_url)
+  File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\environment\patches.py", line 54, in relative_goto
+    return await original_goto(self, url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\async_api\_generated.py", line 9041, in goto
+    await self._impl_obj.goto(
+        url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+    )
+  File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_RESET at http://news.ycombinator.com/
+Call log:
+  - navigating to "http://news.ycombinator.com/", waiting until "load"
+

@@ -1,0 +1,189 @@
+{
+  "round": 4,
+  "timestamp": "2026-01-01T04:56:11.213120",
+  "summary": {
+    "passed": 7,
+    "failed": 8,
+    "issues": 8,
+    "fixes_applied": 8,
+    "is_stable": false
+  },
+  "results": [
+    {
+      "test_id": "test_001",
+      "prompt": "帮我读取当前目录下的package.json文件",
+      "test_type": "api",
+      "success": true,
+      "response_time": 16.791463375091553,
+      "issues": []
+    },
+    {
+      "test_id": "test_002",
+      "prompt": "ls -la",
+      "test_type": "api",
+      "success": true,
+      "response_time": 26.179300785064697,
+      "issues": []
+    },
+    {
+      "test_id": "test_003",
+      "prompt": "你好，请介绍一下自己",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 11.029937267303467,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_004",
+      "prompt": "帮我创建一个名为test.txt的文件，内容是Hello World",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 19.59688973426819,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_005",
+      "prompt": "读取一个不存在的文件/nonexistent/file.txt",
+      "test_type": "api",
+      "success": true,
+      "response_time": 12.572643041610718,
+      "issues": []
+    },
+    {
+      "test_id": "test_006",
+      "prompt": "",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.544270992279053,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_007",
+      "prompt": "执行无效命令：invalidcommand123",
+      "test_type": "api",
+      "success": true,
+      "response_time": 13.509772539138794,
+      "issues": []
+    },
+    {
+      "test_id": "test_008",
+      "prompt": "帮我查看当前系统的磁盘使用情况",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 28.224889278411865,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_009",
+      "prompt": "测试特殊字符：!@#$%^&*(){}[]|\\:;\"'<>?,./~`",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.84056568145752,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_010",
+      "prompt": "测试中文：你好世界！这是一个中文测试。🚀",
+      "test_type": "api",
+      "success": true,
+      "response_time": 14.082094669342041,
+      "issues": []
+    },
+    {
+      "test_id": "test_011",
+      "prompt": "帮我连续执行3个命令：pwd、whoami、date",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 16.02624225616455,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_012",
+      "prompt": "请读取一个很大的日志文件（如果存在）",
+      "test_type": "api",
+      "success": true,
+      "response_time": 24.46752405166626,
+      "issues": []
+    },
+    {
+      "test_id": "test_013",
+      "prompt": "帮我创建一个包含1000行的测试文件",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.842624187469482,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_014",
+      "prompt": "同时发送多个消息测试并发",
+      "test_type": "api",
+      "success": true,
+      "response_time": 26.87548828125,
+      "issues": []
+    },
+    {
+      "test_id": "test_015",
+      "prompt": "请帮我打开浏览器并截图保存",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 28.15757989883423,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    }
+  ]
+}

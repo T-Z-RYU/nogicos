@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    {
+      "source": "github:anthropics/claude-code",
+      "path": "plugins/ralph-wiggum"
+    }
+  ]
+}
+
+

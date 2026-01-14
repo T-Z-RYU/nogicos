@@ -1,0 +1,237 @@
+<state 0>
+URL: /
+Title: DuckDuckGo - Protection. Privacy. Peace of mind.
+
+document: "DuckDuckGo - Protection. Privacy. Peace of mind." {
+  main {
+    article {
+      link: "Learn about DuckDuckGo", url: "/about";
+      search: "Searchbox" {
+        combobox: "Search with DuckDuckGo", expanded: True;
+        button: "Search", disabled: True;
+      };
+
+      link: "Duck.ai", url: "https://duck.ai/?origin=funnel_home_website";
+      navigation: "navigation" {
+        button: "Menu", expanded: False;
+      };
+    };
+  };
+};
+
+</state 0>
+
+<reasoning>
+We are on DuckDuckGo homepage. To perform a search, we should focus the search combobox labeled "Search with DuckDuckGo", fill it with the user-provided query, then submit via Enter (or the Search button, but it is disabled until text is entered). Since no knowledge_base functions are available, use direct Playwright locators. We must use a full .get_by_role() path; the search box is inside main > article > search. We'll fill and press Enter to navigate to results.
+</reasoning>
+
+<code>
+async def act(page):
+    # TODO: replace with the actual query string you want to search
+    query = "<PUT_QUERY_HERE>"
+
+    search_scope = page.get_by_role("main").get_by_role("article").get_by_role("search", name="Searchbox")
+    search_input = search_scope.get_by_role("combobox", name="Search with DuckDuckGo")
+
+    await search_input.click()
+    await search_input.fill(query)
+    await search_input.press("Enter")
+
+</code>
+
+---
+
+<reasoning>
+We are on DuckDuckGo error/static page but it still contains the main searchbox. To complete the task (search DuckDuckGo for a query), we should focus the search combobox inside main -> search "Searchbox", fill the desired query, and submit with Enter. No knowledge_base functions are available, so we use Playwright locators. The query string is not provided, so the code keeps a placeholder for the caller to set.
+</reasoning>
+
+<code>
+async def act(page):
+    # TODO: Replace with the actual query you want to search on DuckDuckGo
+    query = "<PUT_QUERY_HERE>"
+
+    search_scope = page.get_by_role("main").get_by_role("search", name="Searchbox")
+    search_input = search_scope.get_by_role("combobox", name="Search with DuckDuckGo")
+
+    await search_input.click()
+    await search_input.fill(query)
+    await search_input.press("Enter")
+
+</code>
+
+---
+
+<reasoning>
+We are on a DuckDuckGo static error page that still contains the main Searchbox. To complete the task, we should type the desired query into the combobox within the Searchbox region and submit it (press Enter). The instructions require using a full get_by_role path for generic controls, so we’ll scope to main -> search "Searchbox" -> combobox. No knowledge_base functions are available.
+</reasoning>
+
+<code>
+async def act(page):
+    # TODO: set this to the query you want to search on DuckDuckGo
+    query = "<PUT_QUERY_HERE>"
+
+    search_scope = page.get_by_role("main").get_by_role("search", name="Searchbox")
+    search_input = search_scope.get_by_role("combobox", name="Search with DuckDuckGo")
+
+    await search_input.fill(query)
+    await search_input.press("Enter")
+
+</code>
+
+---
+
+<reasoning>
+We need to perform a DuckDuckGo search from the current static error page that still provides a Searchbox region. The query string is not provided, so we keep a placeholder for the caller. Use a fully-scoped get_by_role path: main -> search "Searchbox" -> combobox "Search with DuckDuckGo". Fill query and press Enter to submit; this should navigate to results and must be the last action. No knowledge_base functions are available.
+</reasoning>
+
+<code>
+async def act(page):
+    # TODO: Replace with the query you want to search on DuckDuckGo
+    query = "<PUT_QUERY_HERE>"
+
+    search_input = (
+        page.get_by_role("main")
+        .get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+
+    await search_input.click()
+    await search_input.fill(query)
+    await search_input.press("Enter")
+
+</code>
+
+---
+
+<reasoning>
+We still need to execute a DuckDuckGo search from the current static error page. The accessibility tree shows a Searchbox region containing the combobox “Search with DuckDuckGo”; we should fill it with the query and submit via Enter. The query isn’t provided in the prompt, so keep a placeholder string for the caller to replace. Use the full get_by_role path: main -> search(Searchbox) -> combobox(Search with DuckDuckGo). Submitting (press Enter) triggers navigation, so make it the last action.
+</reasoning>
+
+<code>
+async def act(page):
+    # TODO: Replace with the exact query you want to search on DuckDuckGo
+    query = "<PUT_QUERY_HERE>"
+
+    search_input = (
+        page.get_by_role("main")
+        .get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+
+    await search_input.fill(query)
+    await search_input.press("Enter")
+
+</code>
+
+---
+
+<reasoning>
+We need to perform a DuckDuckGo search from the current page. The accessibility tree shows main -> search "Searchbox" with a combobox "Search with DuckDuckGo". We'll fill it with the desired query and submit with Enter. The user didn't provide the query string, so we keep a placeholder for the caller to replace. Submitting causes navigation, so it will be the last action.
+</reasoning>
+
+<code>
+async def act(page):
+    # TODO: Replace with the exact query you want to search on DuckDuckGo
+    query = "<PUT_QUERY_HERE>"
+
+    search_input = (
+        page.get_by_role("main")
+        .get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+
+    await search_input.fill(query)
+    await search_input.press("Enter")
+
+</code>
+
+---
+
+<reasoning>
+We’re on a DuckDuckGo static error page that still contains the primary Searchbox. To fulfill “Search DuckDuckGo for a query”, we should type the query into the combobox inside main -> search "Searchbox" and submit it. Since no knowledge_base functions are available, we’ll use Playwright locators. The Search button is currently disabled, so we submit via pressing Enter. Navigation will occur, so that is the last action.
+</reasoning>
+
+<code>
+async def act(page):
+    # TODO: Replace with the query you want to search on DuckDuckGo
+    query = "<PUT_QUERY_HERE>"
+
+    search_input = (
+        page.get_by_role("main")
+        .get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+
+    await search_input.fill(query)
+    await search_input.press("Enter")
+
+</code>
+
+---
+
+<reasoning>
+We need to search DuckDuckGo from the current page. The accessibility tree shows a search region named "Searchbox" inside main, containing a combobox "Search with DuckDuckGo". No knowledge_base functions are available. We should fill the combobox with the desired query and press Enter to submit; this triggers navigation, so it must be the last action. The prompt did not provide the actual query string, so we keep a placeholder for the caller to replace.
+</reasoning>
+
+<code>
+async def act(page):
+    # TODO: Replace with the exact query you want to search on DuckDuckGo
+    query = "<PUT_QUERY_HERE>"
+
+    search_input = (
+        page.get_by_role("main")
+        .get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+
+    await search_input.fill(query)
+    await search_input.press("Enter")
+
+</code>
+
+---
+
+<reasoning>
+We’re on a DuckDuckGo static error page that still exposes the main search UI. To complete the task “Search DuckDuckGo for a query”, we must enter the query into the Searchbox combobox and submit it (Enter). The query text is not provided, so the code includes a placeholder for the caller to replace. We use a fully-scoped get_by_role path: main -> search(Searchbox) -> combobox(Search with DuckDuckGo). Submitting triggers navigation, so it’s the last action.
+</reasoning>
+
+<code>
+async def act(page):
+    # TODO: Replace with the exact query you want to search on DuckDuckGo
+    query = "<PUT_QUERY_HERE>"
+
+    search_input = (
+        page.get_by_role("main")
+        .get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+
+    await search_input.fill(query)
+    await search_input.press("Enter")
+
+</code>
+
+---
+
+<reasoning>
+We are on a DuckDuckGo static error page that still contains the main search UI. To perform a search, we should target the combobox labeled “Search with DuckDuckGo” within the search region named “Searchbox” under main, enter the query, then submit with Enter (the Search button is disabled until text is entered). The prompt doesn’t provide the query string, so we keep a placeholder for the caller to replace. Submitting triggers navigation, so it will be the last action.
+</reasoning>
+
+<code>
+async def act(page):
+    # TODO: Replace with the exact query you want to search on DuckDuckGo
+    query = "<PUT_QUERY_HERE>"
+
+    search_input = (
+        page.get_by_role("main")
+        .get_by_role("search", name="Searchbox")
+        .get_by_role("combobox", name="Search with DuckDuckGo")
+    )
+
+    await search_input.fill(query)
+    await search_input.press("Enter")
+
+</code>
+
+---
+

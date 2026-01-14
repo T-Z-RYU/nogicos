@@ -1,0 +1,277 @@
+{
+  "app_name": "Headspace",
+  "total_screenshots": 10,
+  "analyzed_at": "2025-12-24T10:15:00",
+  "model": "claude-opus-4-5-20251101",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "type": "VP",
+      "type_cn": "价值主张",
+      "elements": ["Headline", "Device_Mockup", "Illustration", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Your Guide to Mindfulness",
+        "subheadline": "Meditation made simple"
+      },
+      "psychology": {
+        "cialdini": ["liking"],
+        "cognitive_biases": ["primacy_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 5.0,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "温暖的插画风格，'Guide'定位建立信任感"
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "type": "CORE_FUNC",
+      "type_cn": "核心功能",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Guided Meditations",
+        "subheadline": "For every moment of your day"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "核心冥想功能展示"
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "type": "SOCIAL_PROOF",
+      "type_cn": "社会证明",
+      "elements": ["Headline", "Rating_Stars", "Download_Count"],
+      "copywriting": {
+        "headline": "70M+ Downloads",
+        "subheadline": "4.9★ Rating"
+      },
+      "psychology": {
+        "cialdini": ["social_proof"],
+        "cognitive_biases": ["bandwagon_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "7000万下载+4.9星评分的社会证明"
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "type": "RESULT_PREVIEW",
+      "type_cn": "效果预览",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Sleep Better Tonight",
+        "subheadline": "Sleepcasts & wind down exercises"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["expectation_anchoring"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "睡眠改善功能，锚定用户期待"
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "type": "PERSONALIZATION",
+      "type_cn": "个性化展示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Personalized for You",
+        "subheadline": "Based on your goals & mood"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["endowment_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "个性化推荐展示"
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "type": "AUTHORITY",
+      "type_cn": "权威背书",
+      "elements": ["Headline", "Media_Logo", "Award_Badge"],
+      "copywriting": {
+        "headline": "Clinically Proven",
+        "subheadline": "Research-backed techniques"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["halo_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "临床验证的权威背书"
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7_plus",
+      "type": "DATA_PROOF",
+      "type_cn": "数据证明",
+      "elements": ["Headline", "Stat_Number"],
+      "copywriting": {
+        "headline": "14% Less Stress in 10 Days",
+        "subheadline": "Proven by research"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["specificity_bias"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "具体数据证明效果"
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P7_plus",
+      "type": "HOW_IT_WORKS",
+      "type_cn": "使用流程",
+      "elements": ["Device_Mockup", "Icon_Set"],
+      "copywriting": {
+        "headline": "Start in 3 Minutes",
+        "subheadline": "Quick & easy to begin"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "3分钟快速上手"
+    },
+    {
+      "index": 9,
+      "filename": "screenshot_09.png",
+      "position": "P7_plus",
+      "type": "CONTENT_PREVIEW",
+      "type_cn": "内容预览",
+      "elements": ["Device_Mockup", "App_UI", "Illustration"],
+      "copywriting": {
+        "headline": "500+ Meditations",
+        "subheadline": "For stress, anxiety, focus & more"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["abundance_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "500+内容丰富度展示"
+    },
+    {
+      "index": 10,
+      "filename": "screenshot_10.png",
+      "position": "P7_plus",
+      "type": "FREE_TRIAL",
+      "type_cn": "免费试用提示",
+      "elements": ["Headline", "CTA_Text", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Start Your Free Trial",
+        "subheadline": "7 days free, cancel anytime"
+      },
+      "psychology": {
+        "cialdini": ["reciprocity"],
+        "cognitive_biases": ["loss_aversion"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "免费试用引导"
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → CORE_FUNC → SOCIAL_PROOF → RESULT_PREVIEW → PERSONALIZATION → AUTHORITY → DATA_PROOF → HOW_IT_WORKS → CONTENT_PREVIEW → FREE_TRIAL",
+    "strengths": [
+      "温暖的品牌调性，亲和力强",
+      "临床验证的科学背书",
+      "社会证明前置（P3位置）",
+      "具体数据（14%压力减少）"
+    ],
+    "weaknesses": [
+      "缺少AI功能展示",
+      "与Calm竞争差异化不明显"
+    ],
+    "recommendations": [
+      "突出与Calm的差异化",
+      "考虑加入AI推荐功能"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 1,
+      "CORE_FUNC": 1,
+      "SOCIAL_PROOF": 1,
+      "RESULT_PREVIEW": 1,
+      "PERSONALIZATION": 1,
+      "AUTHORITY": 1,
+      "DATA_PROOF": 1,
+      "HOW_IT_WORKS": 1,
+      "CONTENT_PREVIEW": 1,
+      "FREE_TRIAL": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 6,
+      "Headline": 10,
+      "App_UI": 5,
+      "Gradient_BG": 2,
+      "Illustration": 3,
+      "Rating_Stars": 1,
+      "Download_Count": 1,
+      "Media_Logo": 1,
+      "Award_Badge": 1,
+      "Stat_Number": 1,
+      "Icon_Set": 1
+    },
+    "psychology_coverage": {
+      "cialdini": ["liking", "authority", "social_proof", "commitment", "reciprocity"],
+      "cognitive_biases": ["primacy_effect", "cognitive_fluency", "bandwagon_effect", "expectation_anchoring", "endowment_effect", "halo_effect", "specificity_bias", "loss_aversion"]
+    }
+  }
+}
+

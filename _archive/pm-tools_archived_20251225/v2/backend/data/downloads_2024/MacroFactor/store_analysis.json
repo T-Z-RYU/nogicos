@@ -1,0 +1,273 @@
+{
+  "app_name": "MacroFactor",
+  "total_screenshots": 10,
+  "analyzed_at": "2025-12-24T10:25:00",
+  "model": "claude-opus-4-5-20251101",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "type": "VP",
+      "type_cn": "价值主张",
+      "elements": ["Headline", "Device_Mockup", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Smart Macro Tracking",
+        "subheadline": "AI-powered nutrition coaching"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["primacy_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 5.0,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "AI宏量营养追踪的专业定位"
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "type": "AI_DEMO",
+      "type_cn": "AI功能演示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "AI Adjusts Your Targets",
+        "subheadline": "Based on your actual progress"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["cognitive_fluency", "novelty"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "AI自适应目标调整"
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "type": "USP",
+      "type_cn": "差异化卖点",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "No More Guessing",
+        "subheadline": "Science-based recommendations"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["certainty_appeal"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "科学方法差异化，消除猜测"
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "type": "CORE_FUNC",
+      "type_cn": "核心功能",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Track Macros Easily",
+        "subheadline": "Fast & accurate logging"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "核心宏量追踪功能"
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "type": "RESULT_PREVIEW",
+      "type_cn": "效果预览",
+      "elements": ["Device_Mockup", "App_UI", "Stat_Number"],
+      "copywriting": {
+        "headline": "See Your Trends",
+        "subheadline": "Weight, macros & expenditure"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["expectation_anchoring"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "趋势数据展示"
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "type": "PERSONALIZATION",
+      "type_cn": "个性化展示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Personalized Coaching",
+        "subheadline": "Adapts to your metabolism"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["endowment_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "个性化代谢适应"
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7_plus",
+      "type": "SOCIAL_PROOF",
+      "type_cn": "社会证明",
+      "elements": ["Headline", "Rating_Stars", "Review_Quote"],
+      "copywriting": {
+        "headline": "4.8★ App Store",
+        "subheadline": "Loved by fitness enthusiasts"
+      },
+      "psychology": {
+        "cialdini": ["social_proof"],
+        "cognitive_biases": ["bandwagon_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "4.8星评分社会证明"
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P7_plus",
+      "type": "AUTHORITY",
+      "type_cn": "权威背书",
+      "elements": ["Headline", "Expert_Name"],
+      "copywriting": {
+        "headline": "From Stronger By Science",
+        "subheadline": "Evidence-based approach"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["halo_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "Stronger By Science权威背书"
+    },
+    {
+      "index": 9,
+      "filename": "screenshot_09.png",
+      "position": "P7_plus",
+      "type": "DATA_PROOF",
+      "type_cn": "数据证明",
+      "elements": ["Headline", "Stat_Number"],
+      "copywriting": {
+        "headline": "800K+ Users",
+        "subheadline": "Growing community"
+      },
+      "psychology": {
+        "cialdini": ["social_proof"],
+        "cognitive_biases": ["specificity_bias"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "80万用户数据"
+    },
+    {
+      "index": 10,
+      "filename": "screenshot_10.png",
+      "position": "P7_plus",
+      "type": "FREE_TRIAL",
+      "type_cn": "免费试用提示",
+      "elements": ["Headline", "CTA_Text", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Start Your Free Trial",
+        "subheadline": "14 days free"
+      },
+      "psychology": {
+        "cialdini": ["reciprocity"],
+        "cognitive_biases": ["loss_aversion"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "14天免费试用"
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → AI_DEMO → USP → CORE_FUNC → RESULT_PREVIEW → PERSONALIZATION → SOCIAL_PROOF → AUTHORITY → DATA_PROOF → FREE_TRIAL",
+    "strengths": [
+      "AI自适应目标差异化",
+      "Stronger By Science权威背书",
+      "科学方法定位清晰",
+      "14天试用期超长"
+    ],
+    "weaknesses": [
+      "用户规模相对较小（80万）",
+      "社会证明位置偏后"
+    ],
+    "recommendations": [
+      "可将社会证明前移",
+      "突出科学背书"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 1,
+      "AI_DEMO": 1,
+      "USP": 1,
+      "CORE_FUNC": 1,
+      "RESULT_PREVIEW": 1,
+      "PERSONALIZATION": 1,
+      "SOCIAL_PROOF": 1,
+      "AUTHORITY": 1,
+      "DATA_PROOF": 1,
+      "FREE_TRIAL": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 6,
+      "Headline": 10,
+      "App_UI": 6,
+      "Gradient_BG": 2,
+      "Stat_Number": 2,
+      "Rating_Stars": 1,
+      "Review_Quote": 1
+    },
+    "psychology_coverage": {
+      "cialdini": ["authority", "commitment", "social_proof", "reciprocity"],
+      "cognitive_biases": ["primacy_effect", "cognitive_fluency", "novelty", "expectation_anchoring", "endowment_effect", "bandwagon_effect", "halo_effect", "specificity_bias", "loss_aversion"]
+    }
+  }
+}
+

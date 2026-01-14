@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-12-25T06:37:26.264460",
+  "model": "gpt-4o",
+  "summary": {
+    "total_tasks": 2,
+    "success_without_kb": 0,
+    "success_with_kb": 2,
+    "avg_speedup": 19.497981728013393,
+    "tasks_with_10x_speedup": 2,
+    "tasks_with_5x_speedup": 2
+  },
+  "results": [
+    {
+      "task_name": "HackerNews 头条",
+      "url": "https://news.ycombinator.com",
+      "task": "获取当前排名第一的新闻标题",
+      "without_kb_time": 61.29464626312256,
+      "without_kb_steps": 0,
+      "without_kb_llm_calls": 1,
+      "without_kb_success": false,
+      "without_kb_output": "None",
+      "without_kb_error": "unknown async library, or not in async context",
+      "with_kb_time": 3.775641679763794,
+      "with_kb_steps": 1,
+      "with_kb_llm_calls": 0,
+      "with_kb_success": true,
+      "with_kb_output": "Top story: Show HN: Minimalist editor that lives in browser, stores everything in the URL",
+      "with_kb_error": "None",
+      "speedup": 16.234232870042156
+    },
+    {
+      "task_name": "DuckDuckGo 搜索",
+      "url": "https://duckduckgo.com",
+      "task": "搜索 'web automation'",
+      "without_kb_time": 60.92699980735779,
+      "without_kb_steps": 0,
+      "without_kb_llm_calls": 1,
+      "without_kb_success": false,
+      "without_kb_output": "None",
+      "without_kb_error": "unknown async library, or not in async context",
+      "with_kb_time": 2.676729679107666,
+      "with_kb_steps": 1,
+      "with_kb_llm_calls": 0,
+      "with_kb_success": true,
+      "with_kb_output": "Search completed",
+      "with_kb_error": "None",
+      "speedup": 22.76173058598463
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "project": "Cal_AI_-_Calorie_Tracker_Analysis",
+  "created_at": "2025-12-14T02:30:25.232689",
+  "threshold": 0.6,
+  "total_frames": 46,
+  "matched_count": 45,
+  "alignments": {
+    "frame_0000_0.00s.png": {
+      "matched_screen": "Screen_001.png",
+      "similarity": 0.98,
+      "method": "visual_hash"
+    },
+    "frame_0065_130.00s.png": {
+      "matched_screen": "Screen_021.png",
+      "similarity": 0.973,
+      "method": "visual_hash"
+    },
+    "frame_0066_132.00s.png": {
+      "matched_screen": "Screen_022.png",
+      "similarity": 0.934,
+      "method": "visual_hash"
+    },
+    "frame_0074_148.00s.png": {
+      "matched_screen": "Screen_024.png",
+      "similarity": 0.965,
+      "method": "visual_hash"
+    },
+    "frame_0075_150.00s.png": {
+      "matched_screen": "Screen_025.png",
+      "similarity": 0.961,
+      "method": "visual_hash"
+    },
+    "frame_0106_212.00s.png": {
+      "matched_screen": "Screen_031.png",
+      "similarity": 0.941,
+      "method": "visual_hash"
+    },
+    "frame_0108_216.00s.png": {
+      "matched_screen": "Screen_001.png",
+      "similarity": 0.855,
+      "method": "visual_hash"
+    },
+    "frame_0111_222.00s.png": {
+      "matched_screen": "Screen_031.png",
+      "similarity": 0.949,
+      "method": "visual_hash"
+    },
+    "frame_0112_224.00s.png": {
+      "matched_screen": "Screen_033.png",
+      "similarity": 0.914,
+      "method": "visual_hash"
+    },
+    "frame_0114_228.00s.png": {
+      "matched_screen": "Screen_031.png",
+      "similarity": 0.938,
+      "method": "visual_hash"
+    },
+    "frame_0115_230.00s.png": {
+      "matched_screen": "Screen_034.png",
+      "similarity": 0.965,
+      "method": "visual_hash"
+    },
+    "frame_0117_234.00s.png": {
+      "matched_screen": "Screen_035.png",
+      "similarity": 0.938,
+      "method": "visual_hash"
+    },
+    "frame_0118_236.00s.png": {
+      "matched_screen": "Screen_001.png",
+      "similarity": 0.906,
+      "method": "visual_hash"
+    },
+    "frame_0123_246.00s.png": {
+      "matched_screen": "Screen_034.png",
+      "similarity": 0.938,
+      "method": "visual_hash"
+    },
+    "frame_0124_248.00s.png": {
+      "matched_screen": "Screen_038.png",
+      "similarity": 0.879,
+      "method": "visual_hash"
+    },
+    "frame_0126_252.00s.png": {
+      "matched_screen": "Screen_039.png",
+      "similarity": 0.824,
+      "method": "visual_hash"
+    },
+    "frame_0127_254.00s.png": {
+      "matched_screen": "Screen_040.png",
+      "similarity": 0.902,
+      "method": "visual_hash"
+    },
+    "frame_0128_256.00s.png": {
+      "matched_screen": "Screen_041.png",
+      "similarity": 0.797,
+      "method": "visual_hash"
+    },
+    "frame_0130_260.00s.png": {
+      "matched_screen": "Screen_042.png",
+      "similarity": 0.641,
+      "method": "visual_hash"
+    },
+    "frame_0132_264.00s.png": {
+      "matched_screen": null,
+      "similarity": 0.57,
+      "method": "visual_hash",
+      "note": "No match above threshold"
+    },
+    "frame_0133_266.00s.png": {
+      "matched_screen": "Screen_038.png",
+      "similarity": 0.785,
+      "method": "visual_hash"
+    },
+    "frame_0141_282.00s.png": {
+      "matched_screen": "Screen_064.png",
+      "similarity": 0.793,
+      "method": "visual_hash"
+    },
+    "frame_0142_284.00s.png": {
+      "matched_screen": "Screen_054.png",
+      "similarity": 0.832,
+      "method": "visual_hash"
+    },
+    "frame_0143_286.00s.png": {
+      "matched_screen": "Screen_046.png",
+      "similarity": 0.914,
+      "method": "visual_hash"
+    },
+    "frame_0145_290.00s.png": {
+      "matched_screen": "Screen_032.png",
+      "similarity": 0.625,
+      "method": "visual_hash"
+    },
+    "frame_0146_292.00s.png": {
+      "matched_screen": "Screen_047.png",
+      "similarity": 0.645,
+      "method": "visual_hash"
+    },
+    "frame_0148_296.00s.png": {
+      "matched_screen": "Screen_045.png",
+      "similarity": 0.781,
+      "method": "visual_hash"
+    },
+    "frame_0150_300.00s.png": {
+      "matched_screen": "Screen_046.png",
+      "similarity": 0.883,
+      "method": "visual_hash"
+    },
+    "frame_0151_302.00s.png": {
+      "matched_screen": "Screen_048.png",
+      "similarity": 0.969,
+      "method": "visual_hash"
+    },
+    "frame_0161_322.00s.png": {
+      "matched_screen": "Screen_046.png",
+      "similarity": 0.914,
+      "method": "visual_hash"
+    },
+    "frame_0163_326.00s.png": {
+      "matched_screen": "Screen_068.png",
+      "similarity": 0.871,
+      "method": "visual_hash"
+    },
+    "frame_0181_362.00s.png": {
+      "matched_screen": "Screen_046.png",
+      "similarity": 0.918,
+      "method": "visual_hash"
+    },
+    "frame_0182_364.00s.png": {
+      "matched_screen": "Screen_046.png",
+      "similarity": 0.828,
+      "method": "visual_hash"
+    },
+    "frame_0183_366.00s.png": {
+      "matched_screen": "Screen_001.png",
+      "similarity": 0.863,
+      "method": "visual_hash"
+    },
+    "frame_0223_446.00s.png": {
+      "matched_screen": "Screen_064.png",
+      "similarity": 0.727,
+      "method": "visual_hash"
+    },
+    "frame_0224_448.00s.png": {
+      "matched_screen": "Screen_058.png",
+      "similarity": 0.844,
+      "method": "visual_hash"
+    },
+    "frame_0251_502.00s.png": {
+      "matched_screen": "Screen_044.png",
+      "similarity": 0.93,
+      "method": "visual_hash"
+    },
+    "frame_0252_504.00s.png": {
+      "matched_screen": "Screen_054.png",
+      "similarity": 0.809,
+      "method": "visual_hash"
+    },
+    "frame_0254_508.00s.png": {
+      "matched_screen": "Screen_046.png",
+      "similarity": 0.918,
+      "method": "visual_hash"
+    },
+    "frame_0255_510.00s.png": {
+      "matched_screen": "Screen_066.png",
+      "similarity": 0.855,
+      "method": "visual_hash"
+    },
+    "frame_0331_662.00s.png": {
+      "matched_screen": "Screen_081.png",
+      "similarity": 0.898,
+      "method": "visual_hash"
+    },
+    "frame_0332_664.00s.png": {
+      "matched_screen": "Screen_080.png",
+      "similarity": 0.926,
+      "method": "visual_hash"
+    },
+    "frame_0356_712.00s.png": {
+      "matched_screen": "Screen_089.png",
+      "similarity": 0.879,
+      "method": "visual_hash"
+    },
+    "frame_0358_716.00s.png": {
+      "matched_screen": "Screen_090.png",
+      "similarity": 0.746,
+      "method": "visual_hash"
+    },
+    "frame_0366_732.00s.png": {
+      "matched_screen": "Screen_093.png",
+      "similarity": 0.898,
+      "method": "visual_hash"
+    },
+    "frame_0368_736.00s.png": {
+      "matched_screen": "Screen_092.png",
+      "similarity": 0.895,
+      "method": "visual_hash"
+    }
+  }
+}

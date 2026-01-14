@@ -1,0 +1,179 @@
+{
+  "app_name": "Cal_AI",
+  "total_screenshots": 6,
+  "analyzed_at": "2025-12-24T10:00:00",
+  "model": "claude-opus-4-5-20251101",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "type": "VP",
+      "type_cn": "价值主张",
+      "elements": ["Headline", "Device_Mockup", "Gradient_BG", "Food_Image"],
+      "copywriting": {
+        "headline": "Snap, Track, Achieve",
+        "subheadline": "AI-Powered Calorie Tracking"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["primacy_effect", "novelty"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "首张截图强调AI扫描功能，用食物图片和设备框展示核心价值，'Snap, Track, Achieve'三词口号简洁有力"
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "type": "AI_DEMO",
+      "type_cn": "AI功能演示",
+      "elements": ["Device_Mockup", "App_UI", "Headline", "Icon_Set"],
+      "copywriting": {
+        "headline": "Just Snap A Photo",
+        "subheadline": "AI instantly recognizes your food"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.0
+      },
+      "analysis": "展示AI扫描流程，突出'即拍即识'的便捷性，认知流畅性高"
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "type": "RESULT_PREVIEW",
+      "type_cn": "效果预览",
+      "elements": ["Device_Mockup", "App_UI", "Headline", "Stat_Number"],
+      "copywriting": {
+        "headline": "Track Your Progress",
+        "subheadline": "Detailed nutrition breakdown"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["expectation_anchoring"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "展示营养数据仪表盘，锚定用户对追踪效果的预期"
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "type": "PERSONALIZATION",
+      "type_cn": "个性化展示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Personalized Plans",
+        "subheadline": "Tailored to your goals"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["endowment_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "展示个性化计划设置，激活承诺一致性"
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "type": "SOCIAL_PROOF",
+      "type_cn": "社会证明",
+      "elements": ["Headline", "Rating_Stars", "Review_Quote", "Download_Count"],
+      "copywriting": {
+        "headline": "Join Millions",
+        "subheadline": "Trusted by health enthusiasts"
+      },
+      "psychology": {
+        "cialdini": ["social_proof"],
+        "cognitive_biases": ["bandwagon_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 4.5,
+        "readability": 5.0
+      },
+      "analysis": "社会证明页面，展示用户评价和下载量，增强信任"
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "type": "FREE_TRIAL",
+      "type_cn": "免费试用提示",
+      "elements": ["Headline", "CTA_Text", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Start Your Journey",
+        "subheadline": "7-day free trial"
+      },
+      "psychology": {
+        "cialdini": ["reciprocity"],
+        "cognitive_biases": ["loss_aversion"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "免费试用引导，利用互惠原则促成转化"
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → AI_DEMO → RESULT_PREVIEW → PERSONALIZATION → SOCIAL_PROOF → FREE_TRIAL",
+    "strengths": [
+      "AI功能突出，差异化明显",
+      "视觉一致性高，品牌感强",
+      "序列逻辑清晰，符合用户决策路径"
+    ],
+    "weaknesses": [
+      "社会证明位置偏后，可考虑前置",
+      "缺少权威背书元素"
+    ],
+    "recommendations": [
+      "可在P2-P3位置增加媒体奖项",
+      "考虑添加用户成功案例"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 1,
+      "AI_DEMO": 1,
+      "RESULT_PREVIEW": 1,
+      "PERSONALIZATION": 1,
+      "SOCIAL_PROOF": 1,
+      "FREE_TRIAL": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 4,
+      "Headline": 6,
+      "App_UI": 3,
+      "Gradient_BG": 2,
+      "Rating_Stars": 1,
+      "Review_Quote": 1
+    },
+    "psychology_coverage": {
+      "cialdini": ["authority", "commitment", "social_proof", "reciprocity"],
+      "cognitive_biases": ["primacy_effect", "novelty", "cognitive_fluency", "expectation_anchoring", "bandwagon_effect", "loss_aversion"]
+    }
+  }
+}
+

@@ -1,0 +1,2688 @@
+{
+  "app": "Noom",
+  "appId": "noom",
+  "total_screens": 114,
+  "analyzed_at": "2025-12-23T05:21:12.916308",
+  "taxonomy_version": "3.0",
+  "analysis_method": "gpt-5.2 + claude-opus-4-5",
+  "phases": [
+    {
+      "id": "trust-building",
+      "name": "信任建立",
+      "nameEn": "Trust Building",
+      "purpose": "包含 11 个页面",
+      "startIndex": 1,
+      "endIndex": 11,
+      "dominantTypes": [
+        "Q",
+        "X",
+        "L",
+        "W"
+      ],
+      "psychologyTactics": [
+        "Permission Pre-priming",
+        "Brand Recognition",
+        "First Impression",
+        "Value Proposition",
+        "Social Proof"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "goal-setting",
+      "name": "目标设定",
+      "nameEn": "Goal Setting",
+      "purpose": "包含 16 个页面",
+      "startIndex": 12,
+      "endIndex": 34,
+      "dominantTypes": [
+        "Q",
+        "V"
+      ],
+      "psychologyTactics": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure",
+        "Trust Building",
+        "Value Proposition"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "data-collection-a",
+      "name": "数据收集A",
+      "nameEn": "Data Collection A",
+      "purpose": "包含 7 个页面",
+      "startIndex": 19,
+      "endIndex": 31,
+      "dominantTypes": [
+        "S",
+        "L",
+        "R",
+        "W"
+      ],
+      "psychologyTactics": [
+        "Social Proof",
+        "Trust Building",
+        "Authority",
+        "Value Proposition",
+        "Labor Illusion"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "data-collection",
+      "name": "数据收集",
+      "nameEn": "Data Collection",
+      "purpose": "包含 34 个页面",
+      "startIndex": 35,
+      "endIndex": 68,
+      "dominantTypes": [
+        "Q",
+        "V",
+        "L",
+        "R"
+      ],
+      "psychologyTactics": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure",
+        "Goal Setting",
+        "Value Proposition"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "feature-showcase",
+      "name": "功能展示",
+      "nameEn": "Feature Showcase",
+      "purpose": "包含 4 个页面",
+      "startIndex": 75,
+      "endIndex": 85,
+      "dominantTypes": [
+        "V"
+      ],
+      "psychologyTactics": [
+        "Value Proposition",
+        "Trust Building",
+        "Reciprocity",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "final-setup",
+      "name": "最终设置",
+      "nameEn": "Final Setup",
+      "purpose": "包含 19 个页面",
+      "startIndex": 69,
+      "endIndex": 91,
+      "dominantTypes": [
+        "Q",
+        "L",
+        "R",
+        "C"
+      ],
+      "psychologyTactics": [
+        "Labor Illusion",
+        "Value Proposition",
+        "Trust Building",
+        "Body Data",
+        "Personalization"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "results",
+      "name": "结果展示",
+      "nameEn": "Results",
+      "purpose": "包含 7 个页面",
+      "startIndex": 93,
+      "endIndex": 105,
+      "dominantTypes": [
+        "R",
+        "L"
+      ],
+      "psychologyTactics": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Value Proposition",
+        "Scarcity"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "conversion",
+      "name": "转化",
+      "nameEn": "Conversion",
+      "purpose": "包含 16 个页面",
+      "startIndex": 92,
+      "endIndex": 114,
+      "dominantTypes": [
+        "P",
+        "X",
+        "W",
+        "V"
+      ],
+      "psychologyTactics": [
+        "Brand Recognition",
+        "First Impression",
+        "Trust Building",
+        "Commitment & Consistency",
+        "Goal Setting"
+      ],
+      "keyInsights": []
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "Q→Q→Q→V",
+      "name": "问题-价值穿插",
+      "occurrences": 3,
+      "positions": [
+        11,
+        72,
+        82
+      ],
+      "interpretation": "每3-4个问题后穿插1个价值页，缓解问卷疲劳"
+    },
+    {
+      "pattern": "L→R",
+      "name": "加载-结果",
+      "occurrences": 2,
+      "positions": [
+        28,
+        42
+      ],
+      "interpretation": "加载动画后展示结果，创造期待感"
+    }
+  ],
+  "summary": {
+    "total_pages": 114,
+    "phase_distribution": {
+      "trust-building": {
+        "count": 11,
+        "percentage": 10
+      },
+      "goal-setting": {
+        "count": 16,
+        "percentage": 14
+      },
+      "data-collection-a": {
+        "count": 7,
+        "percentage": 6
+      },
+      "data-collection": {
+        "count": 34,
+        "percentage": 30
+      },
+      "final-setup": {
+        "count": 19,
+        "percentage": 17
+      },
+      "feature-showcase": {
+        "count": 4,
+        "percentage": 4
+      },
+      "conversion": {
+        "count": 16,
+        "percentage": 14
+      },
+      "results": {
+        "count": 7,
+        "percentage": 6
+      }
+    },
+    "by_type": {
+      "X": {
+        "count": 6,
+        "label": "Permission",
+        "color": "#6B7280"
+      },
+      "W": {
+        "count": 5,
+        "label": "Welcome",
+        "color": "#E5E5E5"
+      },
+      "Q": {
+        "count": 54,
+        "label": "Question",
+        "color": "#3B82F6"
+      },
+      "L": {
+        "count": 13,
+        "label": "Loading",
+        "color": "#1F2937"
+      },
+      "V": {
+        "count": 17,
+        "label": "Value",
+        "color": "#22C516"
+      },
+      "S": {
+        "count": 3,
+        "label": "Social",
+        "color": "#EAB308"
+      },
+      "R": {
+        "count": 8,
+        "label": "Result",
+        "color": "#A855F7"
+      },
+      "C": {
+        "count": 2,
+        "label": "Commit",
+        "color": "#D97706"
+      },
+      "G": {
+        "count": 2,
+        "label": "Gamified",
+        "color": "#14B8A6"
+      },
+      "P": {
+        "count": 4,
+        "label": "Paywall",
+        "color": "#EF4444"
+      }
+    }
+  },
+  "screens": [
+    {
+      "index": 1,
+      "filename": "0001.png",
+      "primary_type": "X",
+      "secondary_type": "W",
+      "phase": "trust-building",
+      "psychology": [
+        "Permission Pre-priming",
+        "Brand Recognition",
+        "First Impression"
+      ],
+      "ui_pattern": "System Permission Dialog",
+      "copy": {
+        "headline": "NOOM",
+        "subheadline": "\"Noom\" 想给你发送通知",
+        "cta": "Get Started / Log In"
+      },
+      "insight": "系统通知权限请求叠加在欢迎页上，采用iOS原生弹窗样式。背景展示品牌视觉（大拇指上的小人攀爬象征进步），权限请求时机选在用户首次打开时，可能影响授权率",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 2,
+      "filename": "0002.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": ["Permission Pre-priming"],
+      "ui_pattern": "System Network Permission Dialog (Chinese)",
+      "copy": {
+        "headline": "允许 Noom 使用无线数据？",
+        "subheadline": "关闭无线数据时，部分功能可能无法使用",
+        "cta": "无线局域网与蜂窝网络 / 仅限无线局域网 / 不允许"
+      },
+      "insight": "中文系统网络权限弹窗，在 Welcome 页面叠加显示，用户需选择网络访问权限",
+      "confidence": 0.95,
+      "analyzed_by": "claude-opus-4-5 (re-analyzed)"
+    },
+    {
+      "index": 3,
+      "filename": "0003.png",
+      "primary_type": "W",
+      "secondary_type": "V",
+      "phase": "trust-building",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Value Proposition",
+        "Social Proof"
+      ],
+      "ui_pattern": "Hero Image with CTA",
+      "copy": {
+        "headline": "Results that last",
+        "subheadline": "Powered by psychology to unlock the secret to sustainable weight loss.",
+        "cta": "Get Started"
+      },
+      "insight": "Noom 品牌欢迎页，通过「thumbs up」手势暗示成功与认可，两个人物向上攀登象征进步与互助支持，结合上升曲线强化「持久效果」的价值主张，心理学驱动的定位建立差异化权威感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 4,
+      "filename": "0004.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Commitment & Consistency",
+        "Progressive Disclosure",
+        "Trust Building",
+        "Privacy Assurance"
+      ],
+      "ui_pattern": "Account Registration Form",
+      "copy": {
+        "headline": "Sign up for Noom",
+        "subheadline": null,
+        "cta": "Continue"
+      },
+      "insight": "账号注册页，用户已完成前期问卷后收集账号信息，提供邮箱注册和第三方快捷登录（Apple/Facebook），底部明示隐私条款建立信任",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 5,
+      "filename": "0005.png",
+      "primary_type": "L",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Labor Illusion",
+        "Commitment & Consistency",
+        "Trust Building"
+      ],
+      "ui_pattern": "Full-screen Loading",
+      "copy": {
+        "headline": null,
+        "subheadline": "Signing you in...",
+        "cta": null
+      },
+      "insight": "登录过渡页，通过进度条和状态文案向用户展示系统正在处理，减少不确定性焦虑，强化用户已在流程中的承诺感",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 6,
+      "filename": "0006.png",
+      "primary_type": "L",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Labor Illusion",
+        "Commitment & Consistency",
+        "Brand Recognition",
+        "Trust Building"
+      ],
+      "ui_pattern": "Full-screen Loading with Progress Bar",
+      "copy": {
+        "headline": null,
+        "subheadline": "Signing you in...",
+        "cta": null
+      },
+      "insight": "登录过渡页，通过进度条和品牌图标降低用户等待焦虑，利用努力错觉让用户感知系统正在为其工作，已完成约85%进度暗示即将完成",
+      "confidence": 0.97,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 7,
+      "filename": "0007.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What is your weight loss goal?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "目标设定问题页，通过具体的减重范围选项（1-10kg/11-20kg/20kg+/维持体重）让用户明确承诺目标，增强后续付费转化时的承诺一致性",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 8,
+      "filename": "0008.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Gender Data",
+        "Personalization",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Single Choice Cards",
+      "copy": {
+        "headline": "What sex were you assigned at birth?",
+        "subheadline": "Hormones impact how our bodies metabolize food.",
+        "cta": null
+      },
+      "insight": "性别数据收集页，采用包容性措辞(assigned at birth)并提供Intersex选项，体现对多元性别的尊重。通过解释激素与代谢的关系，合理化数据收集需求，降低用户抵触感",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 9,
+      "filename": "0009.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Gender Data",
+        "Personalization",
+        "Progressive Disclosure",
+        "Privacy Assurance"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What is your gender identity?",
+        "subheadline": "People may identify themselves with more than just sex and hormones.",
+        "cta": "Next"
+      },
+      "insight": "性别认同问题页，NOOM采用包容性设计提供5个选项（Man/Woman/Non-binary/I use a different term/Prefer not to say），区分性别认同与生理性别，体现品牌对用户多元身份的尊重，同时收集数据用于个性化体验定制",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 10,
+      "filename": "0010.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Dropdown Selector",
+      "copy": {
+        "headline": "What is your age?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "年龄收集页，单题式向导设计，用于健康计划个性化配置，下拉选择器配合禁用态CTA确保数据完整性",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 11,
+      "filename": "0011.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Numeric Input",
+      "copy": {
+        "headline": "What's your height?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "身高输入页，收集用户身体数据用于计算BMI和制定个性化健康计划，采用公制单位(cm)输入框设计",
+      "confidence": 0.97,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 12,
+      "filename": "0012.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Numeric Input",
+      "copy": {
+        "headline": "What's your current weight?",
+        "subheadline": "We don't mean to pry, we just need to know so we can build a plan that's right for you.",
+        "cta": "Next"
+      },
+      "insight": "体重输入页，通过温暖的感谢语'Thank you for sharing! That's an important (and hard) first step!'减轻用户分享敏感数据的心理负担，增强信任感",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 13,
+      "filename": "0013.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Multi-Select Checklist",
+      "copy": {
+        "headline": "Do you have any of the following conditions?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "健康状况多选页，收集用户现有健康问题（已选择睾酮缺乏），用于个性化健康方案和风险筛查，体现对用户健康状态的全面关注",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 14,
+      "filename": "0014.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Trust Building",
+        "Value Proposition",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Affirmation Message",
+      "copy": {
+        "headline": "We're really glad you shared.",
+        "subheadline": "Weight loss is an important goal, but Noom's mission is helping people get healthier, whatever that is for them.",
+        "cta": "Next"
+      },
+      "insight": "情感确认页，在用户分享敏感信息后表达感谢和认可，同时传达品牌使命超越单纯减重，建立情感连接和信任",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 15,
+      "filename": "0015.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Have you ever been diagnosed with diabetes?",
+        "subheadline": "We ask this question to tailor your program with the right support.",
+        "cta": null
+      },
+      "insight": "健康状况收集页，询问糖尿病诊断历史以定制安全且针对性的健康计划，体现对用户健康风险的关注",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 16,
+      "filename": "0016.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What type of diabetes have you been diagnosed with?",
+        "subheadline": "Type 1 diabetes is when the body stops making insulin and it's often diagnosed in youth. Type 2 diabetes is when the body becomes resistant to insulin and it's usually diagnosed in adults.",
+        "cta": null
+      },
+      "insight": "健康状况问题页，收集用户糖尿病类型信息以提供针对性的健康管理方案。底部提供教育性说明帮助不确定的用户理解两种类型的区别，同时提供'I'm not sure'和'None of these'选项降低用户回答压力",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 17,
+      "filename": "0017.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Thanks for sharing your health history! Have you had your HbA1c tested in the last 6 months?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "健康数据收集页，询问用户HbA1c（糖化血红蛋白）检测历史，用于评估血糖管理状况，为糖尿病或代谢健康相关的个性化方案提供依据",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 18,
+      "filename": "0018.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Trust Building"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Do you have an active diagnosis of an eating disorder (e.g. bulimia, anorexia, or similar diagnosis)?",
+        "subheadline": null,
+        "cta": "Yes / No"
+      },
+      "insight": "健康筛查问题页，询问用户是否有进食障碍诊断。这是一个重要的安全筛查步骤，确保产品适合用户使用，同时展示品牌对用户健康的负责态度，建立信任感。",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 19,
+      "filename": "0019.png",
+      "primary_type": "S",
+      "secondary_type": "A",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Social Proof",
+        "Trust Building",
+        "Authority"
+      ],
+      "ui_pattern": "Statistics Display with Visual Metaphor",
+      "copy": {
+        "headline": "You're in trusted hands",
+        "subheadline": "You're not alone, we've helped 3,627,436 people lose weight!*",
+        "cta": "Continue"
+      },
+      "insight": "社会认同页面，通过精确用户数量(362万+)建立信任感。视觉隐喻(手托举攀登者+下降趋势线)暗示支持与减重成功。底部小字注明统计标准(减重至少2%)增加可信度，但标准较低(2%体重)实为心理锚定技巧",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 20,
+      "filename": "0020.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Numeric Input",
+      "copy": {
+        "headline": "What is your ideal weight that you want to reach?",
+        "subheadline": "Great! We're excited to help you hit your goals.",
+        "cta": "Next"
+      },
+      "insight": "目标体重输入页，通过让用户主动设定具体数字目标(70kg)来激发承诺一致性心理，同时提供推荐范围(65-81kg)作为参考锚点，验证用户目标的合理性并增强信心",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 21,
+      "filename": "0021.png",
+      "primary_type": "S",
+      "secondary_type": "V",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Social Proof",
+        "Value Proposition",
+        "Trust Building",
+        "Authority"
+      ],
+      "ui_pattern": "Comparison Chart",
+      "copy": {
+        "headline": "Noom creates long-term results through habit and behavior change, not restrictive dieting",
+        "subheadline": "Scientific Reports - 78% of participants using Noom lost weight over a 6 month study",
+        "cta": "Got it!"
+      },
+      "insight": "通过对比图展示Noom与限制性饮食的效果差异，结合科学研究数据(78%)增强可信度，强调行为改变带来的持久效果vs溜溜球效应",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 22,
+      "filename": "0022.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Multi-Select Checklist",
+      "copy": {
+        "headline": "What area do you want to focus on in your plan?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "目标偏好选择页，让用户选择减重计划的关注领域（营养/运动/习惯养成），通过用户主动选择增强承诺感和个性化体验",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 23,
+      "filename": "0023.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "goal-setting",
+      "psychology": [
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Personalization"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "Do you have an important event coming up?",
+        "subheadline": "Having something to look forward to can be a big motivator to stick to your plan.",
+        "cta": null
+      },
+      "insight": "目标事件选择页，通过将减重目标与具体生活事件（假期、婚礼、夏天等）绑定，利用承诺一致性原理增强用户动机和计划坚持度",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 24,
+      "filename": "0024.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Date Input",
+      "copy": {
+        "headline": "Exciting! We'll keep this important event in mind for your journey.",
+        "subheadline": "When is the vacation?",
+        "cta": "Next"
+      },
+      "insight": "目标日期设定页，通过询问具体假期时间创建明确的截止日期，利用承诺一致性原理让用户为目标设定时间约束，增强行动紧迫感和计划执行动力",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 25,
+      "filename": "0025.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "goal-setting",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Choice Cards",
+      "copy": {
+        "headline": "This is your plan, designed to work at your pace. So knowing you, as only you can, which pace would you prefer?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "节奏偏好选择页，通过让用户自主选择减重速度（快速/稳健/中间），增强用户对计划的掌控感和承诺度，为后续个性化方案奠定基础",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 26,
+      "filename": "0026.png",
+      "primary_type": "S",
+      "secondary_type": "V",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Social Proof",
+        "Trust Building",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Testimonial Card",
+      "copy": {
+        "headline": "Sticking to a plan can be hard. Noom makes it easy.",
+        "subheadline": "*Noom users that also adopt a healthy lifestyle typically lose 0.5-1 kgs per week",
+        "cta": "Got it!"
+      },
+      "insight": "用户证言页，通过真实用户Mike的故事展示Noom如何改变用户对食物和份量控制的认知，结合具体减重数据增强可信度",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 27,
+      "filename": "0027.png",
+      "primary_type": "L",
+      "secondary_type": "S",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Labor Illusion",
+        "Social Proof",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Progress Loading with Value Display",
+      "copy": {
+        "headline": "Lose twice as much weight with Noom vs. trying on your own",
+        "subheadline": "Based on a study over 12 weeks of active Noom users.",
+        "cta": null
+      },
+      "insight": "加载分析页，通过展示'2x效果'的研究数据在等待期间强化价值感知，Labor Illusion让用户相信系统正在认真分析其回答，同时利用社会证明（用户研究）增强可信度",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 28,
+      "filename": "0028.png",
+      "primary_type": "L",
+      "secondary_type": "S",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Labor Illusion",
+        "Social Proof",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Progress Bar with Social Proof",
+      "copy": {
+        "headline": "Lose twice as much weight with Noom vs. trying on your own",
+        "subheadline": "Based on a study over 12 weeks of active Noom users.",
+        "cta": null
+      },
+      "insight": "加载过渡页结合社会证明，通过2x数据对比强化Noom效果，进度条75%制造期待感，Labor Illusion让用户感知系统正在为其定制方案",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 29,
+      "filename": "0029.png",
+      "primary_type": "R",
+      "secondary_type": "P",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Loss Aversion"
+      ],
+      "ui_pattern": "Prediction Chart",
+      "copy": {
+        "headline": "WE PREDICT YOU'LL BE 70 kg by 5 Aug",
+        "subheadline": "And lose ~3 kg by the vacation!",
+        "cta": "Try for free"
+      },
+      "insight": "个性化结果展示页，通过可视化图表展示用户减重预测路径，标注vacation节点强化目标紧迫感，底部CTA暗示进入付费流程",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 30,
+      "filename": "0030.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Text Input",
+      "copy": {
+        "headline": "What is your preferred first name?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "姓名输入页，收集用户偏好称呼以建立个性化体验和情感连接，进度条显示已完成2步",
+      "confidence": 0.97,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 31,
+      "filename": "0031.png",
+      "primary_type": "W",
+      "secondary_type": "V",
+      "phase": "data-collection-a",
+      "psychology": [
+        "Progressive Disclosure",
+        "Personalization",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Quiz Introduction Card",
+      "copy": {
+        "headline": "Behavioral Profile Quiz",
+        "subheadline": "Your behavioral profile will help us better understand how you're thinking about your weight loss journey.",
+        "cta": "Start Your Quiz"
+      },
+      "insight": "行为测试引导页，通过预告即将进行的个性化评估来设定用户期望，强调'找到最适合你的方法'增强参与意愿",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 32,
+      "filename": "0032.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Slider Scale",
+      "copy": {
+        "headline": "I want to...",
+        "subheadline": "Drag the slider towards the statement you agree with most.",
+        "cta": "Next"
+      },
+      "insight": "行为画像问卷第1题，通过滑块让用户在'减重'和'健康生活方式'两个目标间表达偏好程度，收集用户动机类型以实现个性化方案匹配",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 33,
+      "filename": "0033.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Goal Setting"
+      ],
+      "ui_pattern": "Forced Choice Scale",
+      "copy": {
+        "headline": "Achieving my weight goal...",
+        "subheadline": "If both fit, choose one you agree with more. If neither fit, choose the one you're closest to agreeing with.",
+        "cta": "Next"
+      },
+      "insight": "行为档案测验问题，通过强制二选一量表了解用户对减重目标与生活其他领域关联性的认知，用于构建个性化行为干预策略",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 34,
+      "filename": "0034.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Body Data",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Likert Scale / Forced Choice",
+      "copy": {
+        "headline": "I would love my body...",
+        "subheadline": "If both fit, choose one you agree with more. If neither fit, choose the one you're closest to agreeing with.",
+        "cta": "Next"
+      },
+      "insight": "心理行为测评问题，通过对比两种身体接纳态度（无条件自爱 vs 条件性自爱）来评估用户的自我认知类型，帮助后续提供匹配的心理支持策略",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 35,
+      "filename": "0035.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice with Spectrum Scale",
+      "copy": {
+        "headline": "I think about my weight…",
+        "subheadline": "If both fit, choose one you agree with more. If neither fit, choose the one you're closest to agreeing with.",
+        "cta": "Next"
+      },
+      "insight": "行为心理测评问题，通过询问用户对体重的关注频率（全天候 vs 被动触发）来评估用户心理状态和动机类型，4档量表设计避免中立选项强制用户表态",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 36,
+      "filename": "0036.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Likert Scale Spectrum",
+      "copy": {
+        "headline": "The biggest barriers to achieving my weight goals are...",
+        "subheadline": "If both fit, choose one you agree with more. If neither fit, choose the one you're closest to agreeing with.",
+        "cta": "Next"
+      },
+      "insight": "行为档案问卷第5题，通过光谱式滑块让用户识别减重障碍来源（外部诱惑vs内部习惯），用于个性化干预策略定制",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 37,
+      "filename": "0037.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Spectrum Slider",
+      "copy": {
+        "headline": "Weight loss/management is...",
+        "subheadline": "If both fit, choose one you agree with more. If neither fit, choose the one you're closest to agreeing with.",
+        "cta": "Next"
+      },
+      "insight": "动机探测页，通过光谱滑块了解用户将减重视为终极目标还是达成其他健康目标的手段，用于后续个性化信息框架和价值呈现策略",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 38,
+      "filename": "0038.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Likert Scale",
+      "copy": {
+        "headline": "When it comes to working toward my weight goal...",
+        "subheadline": "If both fit, choose one you agree with more. If neither fit, choose the one you're closest to agreeing with.",
+        "cta": "Next"
+      },
+      "insight": "行为特征问卷第7题，通过李克特量表评估用户动力稳定性，用于匹配适合的激励策略和支持方案",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 39,
+      "filename": "0039.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Semantic Differential Scale",
+      "copy": {
+        "headline": "Good health is...",
+        "subheadline": "If both fit, choose one you agree with more. If neither fit, choose the one you're closest to agreeing with.",
+        "cta": "Next"
+      },
+      "insight": "行为档案问卷第8题，通过语义差异量表探索用户对健康的定义偏好：是追求积极的能量活力，还是避免消极的健康问题。这种心理测评帮助构建用户行为画像，用于后续个性化推荐",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 40,
+      "filename": "0040.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Likert Scale / Spectrum Slider",
+      "copy": {
+        "headline": "A weight loss program...",
+        "subheadline": "If both fit, choose one you agree with more. If neither fit, choose the one you're closest to agreeing with.",
+        "cta": "Next"
+      },
+      "insight": "行为特征量表题，通过二元对立选项评估用户对减重知识的自我认知水平，用于定制内容深度和教育策略",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 41,
+      "filename": "0041.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Spectrum Slider",
+      "copy": {
+        "headline": "When it comes to weight loss programs...",
+        "subheadline": "If both fit, choose one you agree with more. If neither fit, choose the one you're closest to agreeing with.",
+        "cta": "Next"
+      },
+      "insight": "行为偏好测评最后一题(10/10)，通过光谱滑块评估用户对外部指导vs自主减重的偏好程度，用于匹配个性化支持方案",
+      "confidence": 0.94,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 42,
+      "filename": "0042.png",
+      "primary_type": "L",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Labor Illusion",
+        "Personalization"
+      ],
+      "ui_pattern": "Loading Animation",
+      "copy": {
+        "headline": "Analyzing your profile...",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "加载过渡页，使用拼图图标暗示系统正在整合用户数据，Labor Illusion让用户感知后台正在进行复杂的个性化分析工作",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 43,
+      "filename": "0043.png",
+      "primary_type": "R",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Goal Setting"
+      ],
+      "ui_pattern": "Result Card with Next Steps",
+      "copy": {
+        "headline": "Motivated Self-Improver",
+        "subheadline": "Driven, knowledgeable and looking for the next edge. Adding a healthy baseline of psychology could help prevent you from burning out on your weight loss journey.",
+        "cta": "Next"
+      },
+      "insight": "行为画像结果页，通过个性化标签（Motivated Self-Improver）强化用户身份认同，同时预告下一步内容，保持用户参与动力",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 44,
+      "filename": "0044.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice with Illustration",
+      "copy": {
+        "headline": "Do you relate to the statement below?",
+        "subheadline": "\"My weight has affected my ability to socialize or engage with friends and family.\"",
+        "cta": "No / Yes"
+      },
+      "insight": "情感共鸣问题页，通过询问体重对社交的影响来识别用户痛点，建立情感连接。插图展示家人野餐场景被巨大西兰花包围，象征健康饮食与社交生活的关系，深化用户对改变的渴望。",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 45,
+      "filename": "0045.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice with Illustration",
+      "copy": {
+        "headline": "Do you relate to the statement below?",
+        "subheadline": "I have been thinking about weight loss for a while, but life is so busy I find myself putting convenience first.",
+        "cta": "Yes / No"
+      },
+      "insight": "心理画像问题页，通过情景陈述识别用户的行为模式和障碍（忙碌导致选择便利性），用于后续个性化方案匹配和内容推送，同时让用户自我承认问题以增强改变动机",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 46,
+      "filename": "0046.png",
+      "primary_type": "V",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Full-screen Value Statement",
+      "copy": {
+        "headline": "Ten minutes a day.",
+        "subheadline": "That's all Noom asks. (We're serious about small changes leading to big results.)",
+        "cta": "Next"
+      },
+      "insight": "降低门槛的价值主张页，通过具体的时间承诺（10分钟）减少用户心理阻力，同时建立小投入大回报的预期，为后续承诺铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 47,
+      "filename": "0047.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": ["Self-reflection", "Personalization"],
+      "ui_pattern": "Binary Choice with Illustration",
+      "copy": {
+        "headline": "Do you relate to the statement below?",
+        "subheadline": "I know what I should be doing to lose weight, but I need a way to do it that fits into MY life.",
+        "cta": "No / Yes"
+      },
+      "insight": "心理共情问卷，通过自我反思陈述让用户确认减重障碍，用水果插画增加亲和力",
+      "confidence": 0.95,
+      "analyzed_by": "claude-opus-4-5 (re-analyzed)"
+    },
+    {
+      "index": 48,
+      "filename": "0048.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Personalization",
+        "Trust Building"
+      ],
+      "ui_pattern": "Informational Card",
+      "copy": {
+        "headline": "Here's the thing:",
+        "subheadline": "When a diet lays down the law, it can be frustrating. Everything ends up being harder than it should be. Welcome to something different.",
+        "cta": "Next"
+      },
+      "insight": "价值差异化页面，通过批评传统节食方法的局限性来突出Noom的个性化定位，强调'不是一刀切'的方案，建立用户对产品独特价值的认知",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 49,
+      "filename": "0049.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "One trick to create a habit is decreasing the decision-making around it.",
+        "subheadline": "The most successful Noomers spend 5 minutes a day reading our lessons. When will you read your daily lesson?",
+        "cta": null
+      },
+      "insight": "习惯养成时间选择页，通过预先承诺具体时间点来降低日后决策负担，利用'成功用户'的社会暗示(5分钟/天)设定期望，引导用户做出行为承诺以增强后续一致性",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 50,
+      "filename": "0050.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Progress Visualization Chart",
+      "copy": {
+        "headline": "WE PREDICT YOU'LL BE 70 kg by 28 Jun",
+        "subheadline": "And lose ~3 kg by the vacation!",
+        "cta": "Next"
+      },
+      "insight": "个性化减重预测结果页，通过可视化图表展示从87kg到70kg的减重曲线，结合用户设定的假期里程碑（VACATION标记）增强目标感，「7kg by Feb」的进度承诺降低用户对长期目标的畏惧心理",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 51,
+      "filename": "0051.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Do you have any dietary restrictions or food allergies?",
+        "subheadline": null,
+        "cta": "Yes / No"
+      },
+      "insight": "饮食限制筛查页，通过简单的二元选择快速分流用户，为后续个性化营养建议收集关键健康信息，降低用户决策负担",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 52,
+      "filename": "0052.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Do you relate to the following statement?",
+        "subheadline": "I am usually multitasking while I eat (like watching tv or scrolling on my phone).",
+        "cta": "No / Yes"
+      },
+      "insight": "行为习惯评估页，通过询问用餐时是否分心多任务来了解用户的饮食行为模式。配合趣味插图（平衡木上边骑独轮车边抛鸡腿）生动诠释多任务场景，降低问题的负面判断感，为后续提供正念饮食建议做铺垫。",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 53,
+      "filename": "0053.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Educational Card",
+      "copy": {
+        "headline": "You and your environment.",
+        "subheadline": "HOW we eat can be as important as WHAT we eat. Most of us have created eating patterns that result in overeating. By breaking these patterns, we're able to eat the same foods while losing weight.",
+        "cta": "Next"
+      },
+      "insight": "教育性价值页面，通过行为科学概念（进食模式vs食物本身）传递核心价值主张：无需改变饮食内容即可减重，降低用户心理门槛",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 54,
+      "filename": "0054.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Do you relate to the following statement?",
+        "subheadline": "\"I usually clear my plate even if I'm already feeling full.\"",
+        "cta": "No / Yes"
+      },
+      "insight": "行为习惯自评问题，通过识别用户的进食模式（清盘习惯）来个性化饮食建议，配合幽默的清洁工清理盘子插图降低敏感话题的心理防御",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 55,
+      "filename": "0055.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Commitment & Consistency",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Do you relate to the following statement?",
+        "subheadline": "\"I've been able to eat healthier or exercise for a week or two but then I fall back to my old habits.\"",
+        "cta": "No / Yes"
+      },
+      "insight": "行为模式自我识别问题，通过让用户承认过去的失败经历（yo-yo循环），建立对Noom方法的需求认同，无限符号形状的甜甜圈视觉巧妙传达习惯循环概念",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 56,
+      "filename": "0056.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Trust Building",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Educational Card",
+      "copy": {
+        "headline": "One step at a time.",
+        "subheadline": "Most of us never learned how to create new habits and this is why yo-yo dieting happens. Trust us, it doesn't happen through a big overnight change. We'll help.",
+        "cta": "Next"
+      },
+      "insight": "教育性价值页面，解释为什么传统节食失败并暗示Noom的渐进式方法论，通过共情建立信任",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 57,
+      "filename": "0057.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Loss Aversion",
+        "Trust Building"
+      ],
+      "ui_pattern": "Educational Graph",
+      "copy": {
+        "headline": "Restrictive diets often fail, creating a \"yo-yo\" effect.",
+        "subheadline": "Traditional restrictive diets can help you lose weight in short bursts (aka the \"yo-yo\" effect), but ultimately don't help you keep the weight off. Noom can help you create long-term results through habit and behavior change, not restrictive dieting.",
+        "cta": "Next"
+      },
+      "insight": "价值教育页，通过可视化图表展示传统节食的失败模式（溜溜球效应），利用损失厌恶心理让用户认识到旧方法的问题，从而突出Noom行为改变方法的差异化价值",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 58,
+      "filename": "0058.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": ["Personalization", "Dietary Profiling"],
+      "ui_pattern": "Multi Select Checklist",
+      "copy": {
+        "headline": "In the last week, which of these foods have you eaten?",
+        "subheadline": "Noom doesn't follow a \"one-diet-fits-all\" approach, and what you're already eating can likely be adapted to your weight loss goals.",
+        "cta": "Next"
+      },
+      "insight": "饮食习惯问卷，收集近一周食物摄入（鸡肉、牛油果、鸡蛋等），强调个性化适配而非统一饮食方案",
+      "confidence": 0.95,
+      "analyzed_by": "claude-opus-4-5 (re-analyzed)"
+    },
+    {
+      "index": 59,
+      "filename": "0059.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Educational Card",
+      "copy": {
+        "headline": "Going back to the concept of caloric density",
+        "subheadline": "Studies have proven that caloric density (not calories) determines how full you feel. And how full you feel dictates how you eat, and how you lose weight.",
+        "cta": "Next"
+      },
+      "insight": "教育性价值展示页，通过科学公式（热量密度=卡路里/食物重量）和研究背书解释Noom的核心方法论——黄色食物分类系统，建立用户对产品独特价值的认知",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 60,
+      "filename": "0060.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Multi-Select Checkbox",
+      "copy": {
+        "headline": "Do you crave or enjoy any of the following?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "食物偏好收集页，通过了解用户对蜂蜜、酒、芝士、培根等高热量食物的喜好，为后续个性化饮食计划提供依据，帮助识别潜在的饮食挑战",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 61,
+      "filename": "0061.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Loss Aversion",
+        "Trust Building"
+      ],
+      "ui_pattern": "Educational Card",
+      "copy": {
+        "headline": "There's room for those and more with Noom!",
+        "subheadline": "We label them \"orange foods\" for simplicity, but none of these foods are \"bad foods\". They do have higher caloric density though, meaning they'll keep you less full.",
+        "cta": "Next"
+      },
+      "insight": "价值教育页，解释Noom的食物分类系统，强调没有'坏食物'的理念，用橙色菱形图标代表该类食物，通过非限制性饮食方法建立信任并降低用户对节食的恐惧心理",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 62,
+      "filename": "0062.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Multi-Select Checkbox",
+      "copy": {
+        "headline": "Lastly, which of these are foods you would eat?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "饮食偏好问题页，通过多选形式了解用户愿意接受的食物类型，用于生成个性化营养计划。'Lastly'暗示问卷即将结束，降低用户放弃率",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 63,
+      "filename": "0063.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Educational Card",
+      "copy": {
+        "headline": "Lastly, these are \"green foods\", or foods with the lowest caloric density.",
+        "subheadline": "Noom's Food Philosophy is simple: eat more food with a low caloric density. While it's ideal to eat \"green foods\", we know it's hard to just eat leaves (we're not rabbits). Noom will help you find balance to eat the foods you love and still lose weight!",
+        "cta": "Next"
+      },
+      "insight": "食物分类教育系列的最后一页，通过轻松幽默的语气（we're not rabbits）降低用户对饮食限制的心理抵触，强调平衡而非剥夺的核心价值主张",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 64,
+      "filename": "0064.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Informational Card with Pie Chart",
+      "copy": {
+        "headline": "For sustainable weight loss, it's not about cutting any foods out. Instead, it's about managing how much we eat of each.",
+        "subheadline": "In your program, we'll dive more into the best ways to feel full on less calories!",
+        "cta": "Next"
+      },
+      "insight": "价值教育页，通过三色饼图（绿/黄/红）介绍Noom的核心理念——食物分类系统，强调不限制任何食物而是管理比例，为后续深入学习做铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 65,
+      "filename": "0065.png",
+      "primary_type": "L",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Labor Illusion",
+        "Value Proposition",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Loading Animation with Value Messaging",
+      "copy": {
+        "headline": "WHY NOOM IS DIFFERENT",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "加载页面结合价值传递，使用牛顿摆创意视觉隐喻（健康食物与不健康食物的平衡/替换），底部显示'BUILDING PLAN..'强化个性化计划生成的努力错觉",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 66,
+      "filename": "0066.png",
+      "primary_type": "L",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Labor Illusion",
+        "Value Proposition",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Loading State with Value Messaging",
+      "copy": {
+        "headline": "Change your relationship with food in only 10 minutes a day",
+        "subheadline": "WHY NOOM IS DIFFERENT",
+        "cta": null
+      },
+      "insight": "加载页面结合价值传递，在构建个性化计划时通过展示核心价值主张（10分钟改变饮食关系）来保持用户参与度，书本与蔬菜的视觉隐喻强调知识驱动的健康方法",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 67,
+      "filename": "0067.png",
+      "primary_type": "L",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Labor Illusion",
+        "Value Proposition",
+        "Loss Aversion"
+      ],
+      "ui_pattern": "Loading Screen with Value Message",
+      "copy": {
+        "headline": "The best part? You can still eat your favorite foods. Nothing is off limits!",
+        "subheadline": "WHY NOOM IS DIFFERENT",
+        "cta": null
+      },
+      "insight": "加载页结合价值传递，在'BUILDING PLAN...'等待过程中强调Noom的差异化卖点——无需放弃喜爱的食物，用宝箱装满蔬果的视觉隐喻传达'丰盛而非剥夺'的理念，缓解用户对节食限制的焦虑",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 68,
+      "filename": "0068.png",
+      "primary_type": "V",
+      "secondary_type": "L",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Labor Illusion"
+      ],
+      "ui_pattern": "Educational Illustration with Loading State",
+      "copy": {
+        "headline": "We help you track green, yellow, and orange foods based on caloric density.",
+        "subheadline": "WHY NOOM IS DIFFERENT",
+        "cta": null
+      },
+      "insight": "价值展示与加载状态结合页，通过食物颜色分类系统（绿色低卡、黄色中卡、橙色高卡）展示Noom的核心差异化功能，底部'BUILDING PLAN...'表明正在后台生成个性化方案，利用Labor Illusion让用户感知系统正在为其努力工作",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 69,
+      "filename": "0069.png",
+      "primary_type": "L",
+      "secondary_type": "V",
+      "phase": "final-setup",
+      "psychology": [
+        "Labor Illusion",
+        "Value Proposition",
+        "Trust Building"
+      ],
+      "ui_pattern": "Loading State with Value Message",
+      "copy": {
+        "headline": "Don't worry if you mess up. We will be there every step of the way.",
+        "subheadline": "WHY NOOM IS DIFFERENT",
+        "cta": null
+      },
+      "insight": "加载页面展示品牌差异化价值，通过'体重秤+竖起大拇指'的视觉隐喻传递支持性承诺，底部显示'BUILDING PLAN...'表明正在生成个性化方案，利用等待时间强化用户对品牌包容性的认知",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 70,
+      "filename": "0070.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Do you have any physical limitations?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "身体限制评估页，收集用户健康状况以定制安全适合的运动计划，避免推荐不适当的锻炼内容",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 71,
+      "filename": "0071.png",
+      "primary_type": "R",
+      "secondary_type": "C",
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Loss Aversion"
+      ],
+      "ui_pattern": "Progress Visualization Chart",
+      "copy": {
+        "headline": "WE PREDICT YOU'LL BE 70 kg by 20 Jun",
+        "subheadline": "And lose ~3 kg by the vacation!",
+        "cta": "Next"
+      },
+      "insight": "个性化减重预测结果页，通过可视化时间线图表展示从87kg到70kg的目标路径，结合用户的vacation节点创造紧迫感，利用具体日期和里程碑强化承诺感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 72,
+      "filename": "0072.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Multi-Select Checklist",
+      "copy": {
+        "headline": "As we build your weight loss plan, what else do you want to explore?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "多选兴趣探索页，收集用户在减重之外的健康关注点（健康老化、代谢、消化、睡眠、压力、能量、情绪），用于个性化内容推荐和整体健康方案定制",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 73,
+      "filename": "0073.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Choice - Three Options",
+      "copy": {
+        "headline": "How has your motivation to lose weight changed over time?",
+        "subheadline": "Understanding how your emotions change over time helps us customize your program.",
+        "cta": null
+      },
+      "insight": "行为变化理解模块中的动机模式问题，通过了解用户动机波动特征来定制心理支持策略，三个选项覆盖稳定型、波动型和探索型用户",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 74,
+      "filename": "0074.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Choice - Three Options",
+      "copy": {
+        "headline": "Do you relate to the statement below?",
+        "subheadline": "I need some outside motivation. When I am feeling overwhelmed, it can be easy to give up.",
+        "cta": null
+      },
+      "insight": "行为改变心理评估问题，通过了解用户对外部激励的依赖程度和面对困难时的应对模式，为后续提供针对性的支持策略和激励机制做准备",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 75,
+      "filename": "0075.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Trust Building",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Statement Card",
+      "copy": {
+        "headline": "No one is perfect. (Except maybe Beyonce.)",
+        "subheadline": "Noom's tools and curriculum give you motivation when you need it, and forgiveness when you start trying to blame yourself.",
+        "cta": "Next"
+      },
+      "insight": "价值展示页，通过幽默的文案（Beyonce梗）建立亲和力，强调App提供情感支持（motivation和forgiveness），降低用户对失败的恐惧，传递非评判性的品牌态度",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 76,
+      "filename": "0076.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "final-setup",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "Let's better understand your current state of mind. At this moment, how motivated are you to reach your target weight?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "动机评估问题页，通过让用户自我评估动机水平（从'I'm ready'到'Taking it easy'），既收集心理状态数据用于个性化，又利用承诺一致性原则——选择高动机选项的用户更可能坚持计划",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 77,
+      "filename": "0077.png",
+      "primary_type": "C",
+      "secondary_type": "V",
+      "phase": "final-setup",
+      "psychology": [
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Motivational Prompt",
+      "copy": {
+        "headline": "A goal without a plan is just a wish.",
+        "subheadline": "Setting small goals allows for more frequent wins. Reaching these goals keeps you motivated. Staying motivated helps you crush more goals.",
+        "cta": "Set My First Goal"
+      },
+      "insight": "目标承诺引导页，通过名言引用和小目标理论教育用户，使用个性化称呼(Zino)增强连接感，为后续目标设定行为建立心理基础",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 78,
+      "filename": "0078.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "final-setup",
+      "psychology": [
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Personalization"
+      ],
+      "ui_pattern": "Multi-Select Checklist",
+      "copy": {
+        "headline": "In addition to your weight loss goal, what's a goal you would like to achieve with your program?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "目标设定问卷页，通过让用户选择额外目标（跑步、自信、健康、户外活动、穿衣合身等）强化承诺感，多选设计让用户投入更多心理资本",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 79,
+      "filename": "0079.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Informational Transition",
+      "copy": {
+        "headline": "Noom's psychology based approach is based on identifying thought patterns and building new habits.",
+        "subheadline": "In this next section, we want to understand how you already think about weight loss so we can better personalize your course.",
+        "cta": "Next"
+      },
+      "insight": "过渡说明页，向用户解释Noom的心理学方法论并预告下一环节将收集思维模式信息以实现个性化定制，为后续深度问题做铺垫",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 80,
+      "filename": "0080.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Let's say you're reaching for a snack. Which is the healthier choice?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "行为教育类问题，通过情景假设测试用户对健康饮食的认知（葡萄vs葡萄干），培养用户的健康决策能力，同时收集用户健康知识水平数据",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 81,
+      "filename": "0081.png",
+      "primary_type": "V",
+      "secondary_type": "G",
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Educational Card with Positive Feedback",
+      "copy": {
+        "headline": "You're right!",
+        "subheadline": "Grapes are the smarter snack. But wait, aren't raisins just dried grapes?",
+        "cta": "Next"
+      },
+      "insight": "教育性价值展示页，通过正向反馈（thumbs up图标）肯定用户选择，同时引入卡路里密度概念，预告后续学习内容，建立用户对app教学价值的期待",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 82,
+      "filename": "0082.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice - 3 Options",
+      "copy": {
+        "headline": "How can mindful eating help you?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "正念饮食目标选择题，通过让用户选择期望收益（减重/自我意识/两者皆是）来了解用户动机，同时教育用户正念饮食的多重价值",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 83,
+      "filename": "0083.png",
+      "primary_type": "Q",
+      "secondary_type": "V",
+      "phase": "final-setup",
+      "psychology": [
+        "Progressive Disclosure",
+        "Value Proposition",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Educational Feedback",
+      "copy": {
+        "headline": "Best Answer: Both",
+        "subheadline": "Mindful eating is the practice of eating with Intention and Attention.",
+        "cta": "Next"
+      },
+      "insight": "问答反馈页，用户回答正确后展示教育内容，通过解释'正念饮食'的两个核心要素（意图和注意力）强化学习效果，同时传递产品价值主张",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 84,
+      "filename": "0084.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Scientific studies have shown that daily weigh-ins promote long-term weight loss. When is the best time to weigh yourself?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "教育性问题页，通过科学研究背书引导用户了解最佳称重时机，同时收集用户习惯偏好，预选答案暗示正确选项为晨起空腹称重",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 85,
+      "filename": "0085.png",
+      "primary_type": "V",
+      "secondary_type": "A",
+      "phase": "feature-showcase",
+      "psychology": [
+        "Authority",
+        "Value Proposition",
+        "Commitment & Consistency",
+        "Trust Building"
+      ],
+      "ui_pattern": "Educational Feedback Card",
+      "copy": {
+        "headline": "You're right!",
+        "subheadline": "Weight can fluctuate daily based on the food we eat. It's best to weigh yourself at the same time, on the same scale, every day on an empty stomach.",
+        "cta": "Next"
+      },
+      "insight": "正向反馈页面，引用《国际行为营养与体育活动杂志》的研究来建立权威背书，强调每日称重的科学依据和价值，通过肯定用户答案强化承诺一致性",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 86,
+      "filename": "0086.png",
+      "primary_type": "G",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Commitment & Consistency",
+        "Personalization"
+      ],
+      "ui_pattern": "Milestone Celebration",
+      "copy": {
+        "headline": "Great job, Zino!",
+        "subheadline": "You have a strong foundation, and we'll continue to build upon this in your personalized program!",
+        "cta": "Next"
+      },
+      "insight": "阶段性里程碑庆祝页，在问答评估后给予正向反馈，通过奖杯图标和个性化称呼强化用户自我效能感，将已投入的时间成本转化为价值感，推动用户继续完成后续流程",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 87,
+      "filename": "0087.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "Where did you hear about us?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "获客渠道调研页，收集用户来源数据用于营销归因分析，包含搜索引擎、社交媒体、播客、朋友推荐等12个选项",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 88,
+      "filename": "0088.png",
+      "primary_type": "L",
+      "secondary_type": "R",
+      "phase": "final-setup",
+      "psychology": [
+        "Labor Illusion",
+        "Personalization",
+        "Trust Building",
+        "Social Proof"
+      ],
+      "ui_pattern": "Progress Analysis Screen",
+      "copy": {
+        "headline": "Analyzing Demographic Profile.",
+        "subheadline": "Sit tight! We're building your perfect plan based on millions of data points from successful Noom users",
+        "cta": null
+      },
+      "insight": "经典的Labor Illusion页面，通过展示7个分析维度(人口统计、减重目标、历史、营养、健身、整体健康、行为改变)的进度条，让用户感受到系统正在进行复杂的个性化分析工作。底部文案强调基于数百万成功用户数据，增强社会证明和结果可信度",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 89,
+      "filename": "0089.png",
+      "primary_type": "Q",
+      "secondary_type": "L",
+      "phase": "final-setup",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Labor Illusion"
+      ],
+      "ui_pattern": "Binary Choice with Background Loading",
+      "copy": {
+        "headline": "Is there a history of heart disease or diabetes in your extended family?",
+        "subheadline": null,
+        "cta": "YES / NO"
+      },
+      "insight": "家族病史问题叠加在分析加载界面上，同时收集健康数据并展示Labor Illusion效果，显示后台正在基于数百万用户数据构建个性化计划",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 90,
+      "filename": "0090.png",
+      "primary_type": "Q",
+      "secondary_type": "L",
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Binary Choice Modal",
+      "copy": {
+        "headline": "Do you eat at roughly the same time for each meal everyday?",
+        "subheadline": null,
+        "cta": "YES / NO"
+      },
+      "insight": "饮食习惯问题页，以模态弹窗形式出现在行为趋势匹配（Labor Illusion）加载页之上。询问用户是否有规律的用餐时间，用于个性化饮食计划。背景显示多个行为维度的匹配进度条，强化系统正在为用户分析数据的感知。",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 91,
+      "filename": "0091.png",
+      "primary_type": "Q",
+      "secondary_type": "L",
+      "phase": "final-setup",
+      "psychology": [
+        "Activity Level",
+        "Personalization",
+        "Labor Illusion"
+      ],
+      "ui_pattern": "Binary Choice with Loading Background",
+      "copy": {
+        "headline": "Are you typically on your feet or sitting for most of the day?",
+        "subheadline": null,
+        "cta": "ACTIVE, SEATED"
+      },
+      "insight": "活动水平问题页，在后台加载「Charting Best Fit Plan」时同步收集用户日常活动习惯数据，通过椅子图标暗示久坐选项，用于计算每日热量消耗和定制运动建议",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 92,
+      "filename": "0092.png",
+      "primary_type": "W",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Trust Building"
+      ],
+      "ui_pattern": "Splash Screen",
+      "copy": {
+        "headline": "WELCOME TO",
+        "subheadline": "NOOM WEIGHT",
+        "cta": null
+      },
+      "insight": "品牌欢迎页，极简设计建立专业感和信任，明确产品线定位，为后续高摩擦步骤做情绪铺垫",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 93,
+      "filename": "0093.png",
+      "primary_type": "R",
+      "secondary_type": null,
+      "phase": "results",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Full-screen Value Reveal",
+      "copy": {
+        "headline": "we've created a personalized plan",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "个性化结果宣告页，在问卷结束后告知用户方案已生成，通过'personalized'强化定制感，利用承诺一致性促使用户继续查看结果",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 94,
+      "filename": "0094.png",
+      "primary_type": "R",
+      "secondary_type": "C",
+      "phase": "results",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Result Statement",
+      "copy": {
+        "headline": "designed to get you to 70 kg by May 24",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "个性化结果展示页，将用户输入的数据转化为具体的目标体重和预计达成日期，通过明确的数字承诺增强用户动力和期望感",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 95,
+      "filename": "0095.png",
+      "primary_type": "C",
+      "secondary_type": "V",
+      "phase": "conversion",
+      "psychology": [
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Statement Display",
+      "copy": {
+        "headline": "and lose 4 kg by the vacation",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "目标承诺展示页，通过具体数字(4kg)和明确时间节点(vacation)强化用户的减重目标，利用承诺一致性原理增强用户动机",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 96,
+      "filename": "0096.png",
+      "primary_type": "W",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "First Impression",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Minimal Welcome Screen",
+      "copy": {
+        "headline": "Let's get started.",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "极简欢迎页面，采用简洁的过渡文案引导用户进入正式流程，营造轻松友好的开始氛围",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 97,
+      "filename": "0097.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "results",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Progress Chart with Timeline",
+      "copy": {
+        "headline": "WE PREDICT YOU'LL BE 70 kg by 24 May",
+        "subheadline": "And lose ~4 kg by the vacation!",
+        "cta": "Next"
+      },
+      "insight": "个性化预测结果页，通过可视化时间轴展示从86kg到70kg的减重路径，将用户假期目标与长期目标关联，利用具体日期和数字增强承诺感和可信度",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 98,
+      "filename": "0098.png",
+      "primary_type": "R",
+      "secondary_type": "P",
+      "phase": "results",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Scarcity",
+        "Loss Aversion",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Personalized Plan Summary with Countdown Timer",
+      "copy": {
+        "headline": "Zino's Personalized Plan",
+        "subheadline": "Your personalized plan has been saved for the next 15 minutes!",
+        "cta": null
+      },
+      "insight": "个性化计划结果页，展示用户定制的减重目标（20kg到5月24日）和进度曲线图。使用15分钟倒计时制造紧迫感和稀缺性，触发损失厌恶心理，推动用户快速决策进入付费环节",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 99,
+      "filename": "0099.png",
+      "primary_type": "P",
+      "secondary_type": "C",
+      "phase": "conversion",
+      "psychology": [
+        "Loss Aversion",
+        "Commitment & Consistency",
+        "Trust Building",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Trial Terms Review",
+      "copy": {
+        "headline": "REVIEW & START TRIAL",
+        "subheadline": "Free 7-day trial | Cancel any time in the app",
+        "cta": "Let's go"
+      },
+      "insight": "付费墙的条款确认页，通过详细披露订阅条款（$159.99/6个月）建立信任，同时利用7天免费试用降低用户心理门槛，强调可随时取消以减轻承诺压力",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 100,
+      "filename": "0100.png",
+      "primary_type": "P",
+      "secondary_type": "R",
+      "phase": "conversion",
+      "psychology": [
+        "Loss Aversion",
+        "Personalization",
+        "Commitment & Consistency",
+        "Trust Building"
+      ],
+      "ui_pattern": "Trial Paywall with Price Breakdown",
+      "copy": {
+        "headline": "VIEW PERSONALIZED PLAN",
+        "subheadline": "You'll have 1 week to see how Noom uses psychology to create lasting results.",
+        "cta": "REVIEW & START TRIAL"
+      },
+      "insight": "付费墙页面展示个性化计划详情与定价，采用7天免费试用降低决策门槛，明确显示试用后价格(US$159.99/6个月)和账单日期(Dec 29)，通过'Cancel any time in the app'减少用户顾虑，利用损失厌恶心理促进转化",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 101,
+      "filename": "0101.png",
+      "primary_type": "P",
+      "secondary_type": "C",
+      "phase": "conversion",
+      "psychology": [
+        "Loss Aversion",
+        "Commitment & Consistency",
+        "Trust Building",
+        "Scarcity"
+      ],
+      "ui_pattern": "Apple Pay Subscription Confirmation",
+      "copy": {
+        "headline": "免费试用 1 周",
+        "subheadline": "US$ 159.99/6 个月，2025年12月27日起收费",
+        "cta": "通过侧边按钮确认"
+      },
+      "insight": "Apple原生订阅确认弹窗，显示1周免费试用后每6个月$159.99的付费方案。背景页面展示取消政策和条款，增强透明度和信任感。使用免费试用降低决策门槛，利用损失厌恶心理促进转化",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 102,
+      "filename": "0102.png",
+      "primary_type": "P",
+      "secondary_type": "C",
+      "phase": "conversion",
+      "psychology": [
+        "Commitment & Consistency",
+        "Trust Building",
+        "Loss Aversion"
+      ],
+      "ui_pattern": "Purchase Confirmation Modal",
+      "copy": {
+        "headline": "REVIEW & START TRIAL",
+        "subheadline": "US$159.99 automatically every 6 months thereafter until I cancel",
+        "cta": "Let's go"
+      },
+      "insight": "付费确认成功页，弹窗显示'操作完成-你已成功地完成购买'，结合订阅条款说明（自动续费、取消政策、无部分退款），通过承诺一致性锁定用户决策",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 103,
+      "filename": "0103.png",
+      "primary_type": "L",
+      "secondary_type": null,
+      "phase": "results",
+      "psychology": [
+        "Labor Illusion",
+        "Commitment & Consistency",
+        "Personalization"
+      ],
+      "ui_pattern": "Full-screen Loading",
+      "copy": {
+        "headline": "Upgrading to your new program...",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "计划生成加载页，使用Labor Illusion让用户感知系统正在为其个性化处理，'Upgrading'暗示升级到更好的方案，强化前期选择的价值感",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 104,
+      "filename": "0104.png",
+      "primary_type": "L",
+      "secondary_type": null,
+      "phase": "results",
+      "psychology": [
+        "Labor Illusion",
+        "Commitment & Consistency",
+        "Brand Recognition"
+      ],
+      "ui_pattern": "Full-screen Loading with Progress Bar",
+      "copy": {
+        "headline": "Accessing your Noom account...",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "账户访问加载页，使用进度条和品牌标识（红色菱形）营造系统正在处理的感知，强化用户已进入Noom体系的归属感",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 105,
+      "filename": "0105.png",
+      "primary_type": "L",
+      "secondary_type": "W",
+      "phase": "results",
+      "psychology": [
+        "Labor Illusion",
+        "Commitment & Consistency",
+        "Brand Recognition"
+      ],
+      "ui_pattern": "Full-screen Loading with Status",
+      "copy": {
+        "headline": "Welcome back!",
+        "subheadline": "Accessing your Noom account...",
+        "cta": null
+      },
+      "insight": "回流用户账户恢复过渡页，通过明确的加载状态提示减少等待焦虑，Welcome back强化用户归属感和承诺一致性",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 106,
+      "filename": "0106.png",
+      "primary_type": "X",
+      "secondary_type": "V",
+      "phase": "conversion",
+      "psychology": [
+        "Permission Pre-priming",
+        "Value Proposition",
+        "Personalization"
+      ],
+      "ui_pattern": "System Permission Dialog with Health Integration",
+      "copy": {
+        "headline": "Track your activity automatically",
+        "subheadline": "Pair your Apple device with Noom to effortlessly track your steps and health data.",
+        "cta": "Continue"
+      },
+      "insight": "系统级App追踪权限请求弹窗叠加在Health数据集成页面上，背景展示Apple Health连接价值（Blood Glucose、Dietary Energy等），前景为iOS ATT追踪透明度框架的标准权限请求，中文界面显示'要求App不跟踪'和'允许'选项",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 107,
+      "filename": "0107.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Permission Pre-priming",
+        "Trust Building",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "System Permission Modal",
+      "copy": {
+        "headline": "Track your activity automatically",
+        "subheadline": "Pair your Apple device with Noom to effortlessly track your steps and health data.",
+        "cta": "Continue"
+      },
+      "insight": "Apple Health 权限请求页，通过展示具体数据类型（Active Energy、Blood Glucose、Dietary Energy）和'Turn On All'快捷选项，降低用户对健康数据授权的顾虑，红色箭头引导用户点击授权",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 108,
+      "filename": "0108.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": ["Permission Pre-priming", "Data Synchronization"],
+      "ui_pattern": "System HealthKit Permission Dialog (Chinese)",
+      "copy": {
+        "headline": "健康 - Noom 想要访问并更新你的健康数据",
+        "subheadline": null,
+        "cta": "全部打开 / 不允许 / 允许"
+      },
+      "insight": "中文 HealthKit 权限弹窗，在付费转化后请求，访问步数、蛋白质、活动能量、心率、睡眠等数据",
+      "confidence": 0.95,
+      "analyzed_by": "claude-opus-4-5 (re-analyzed)"
+    },
+    {
+      "index": 109,
+      "filename": "0109.png",
+      "primary_type": "X",
+      "secondary_type": "G",
+      "phase": "conversion",
+      "psychology": [
+        "Permission Pre-priming",
+        "Trust Building",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Success Confirmation",
+      "copy": {
+        "headline": "Connected!",
+        "subheadline": "We'll use Apple Health to keep your activity up-to-date.",
+        "cta": "Sounds good!"
+      },
+      "insight": "Apple Health 权限授权成功确认页，使用星星+勾选的成就感图标庆祝连接成功，强化用户的积极情绪并确认数据同步价值",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 110,
+      "filename": "0110.png",
+      "primary_type": "W",
+      "secondary_type": "V",
+      "phase": "conversion",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Personalization",
+        "Commitment & Consistency",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Welcome Screen with Illustration",
+      "copy": {
+        "headline": "Welcome to Noom",
+        "subheadline": "Congrats! Your journey toward your healthiest self has begun.",
+        "cta": "LET'S DO IT"
+      },
+      "insight": "欢迎页面在用户完成问卷后出现，确认其信息已被收集并用于个性化定制。'make it happen—together'强调合作关系，奶酪山配宇航员的超现实插画暗示目标可达成，建立积极情绪并推动用户进入下一阶段",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 111,
+      "filename": "0111.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Feature List with Visual",
+      "copy": {
+        "headline": "Everything you need to succeed is right here",
+        "subheadline": null,
+        "cta": "SUCCESS, PLEASE"
+      },
+      "insight": "价值展示页，通过三点核心价值（个性化课程、专家团队、实用工具）全面呈现产品能力，用奖杯视觉强化成功承诺，轻松语气（Tuesday cake）降低用户心理负担",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 112,
+      "filename": "0112.png",
+      "primary_type": "V",
+      "secondary_type": "W",
+      "phase": "conversion",
+      "psychology": [
+        "Progressive Disclosure",
+        "Value Proposition",
+        "Trust Building"
+      ],
+      "ui_pattern": "Onboarding Card Carousel",
+      "copy": {
+        "headline": "Excited? Overwhelmed? Don't worry!",
+        "subheadline": "In the coming days, we'll guide you through the key aspects of your Noom program, one at a time. As we do, you'll also start to learn about yourself and your habits and how to change them for the better.",
+        "cta": "AWESOME"
+      },
+      "insight": "引导式价值预告页，通过承认用户可能的复杂情绪来建立共情，同时预告渐进式学习体验，降低用户对复杂程序的焦虑感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 113,
+      "filename": "0113.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "conversion",
+      "psychology": [
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select Radio",
+      "copy": {
+        "headline": "Select how much time you want to spend on Noom lessons every day:",
+        "subheadline": "We recommend starting with 5 to 8 minutes per day. You can always keep going once you hit your goal.",
+        "cta": "I'VE GOT THIS"
+      },
+      "insight": "时间承诺选择页，通过让用户自主设定每日学习时长建立承诺感。推荐5-8分钟但默认选中最低选项1-4分钟，降低用户心理门槛，体现渐进式目标设定策略",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 114,
+      "filename": "0114.png",
+      "primary_type": "G",
+      "secondary_type": "D",
+      "phase": "conversion",
+      "psychology": [
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Progressive Disclosure",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Achievement Celebration Modal",
+      "copy": {
+        "headline": "Learning goal achieved!",
+        "subheadline": "1 lesson completed",
+        "cta": "Read / Listen"
+      },
+      "insight": "游戏化成就庆祝页面，展示用户完成第一个学习目标的进度。通过奖杯图标和'Goal achieved!'徽章强化正向反馈，同时展示今日计划和卡路里追踪功能，引导用户继续探索更多内容",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    }
+  ],
+  "flow_patterns": {},
+  "design_insights": {}
+}

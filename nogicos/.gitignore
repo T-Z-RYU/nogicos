@@ -1,0 +1,78 @@
+# API Keys (never commit!)
+api_keys.py
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Internal docs (not for public)
+CHANGELOG.md
+PROGRESS.md
+WORKFLOW.md
+CLAUDE.md
+.cursorrules
+
+# Data (runtime generated)
+data/
+*.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# Node
+node_modules/
+dist/
+
+# Test artifacts
+tests/screenshots/
+tests/self_healing_results/
+tests/self_test_results/
+tests/auto_test_results/
+tests/.pytest_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Temp files
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Reference/Benchmark repos (development only)
+reference/
+benchmarks/
+novnc-client/
+
+# Agent test outputs
+my_project/
+new_project/
+python_app/
+test_folder/
+
+# Windows artifacts
+50
+{const{message
+
+# Keep .github folder for CI
+!.github/

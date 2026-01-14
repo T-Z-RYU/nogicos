@@ -1,0 +1,236 @@
+{
+  "round": 56,
+  "timestamp": "2026-01-01T12:54:30.083082",
+  "summary": {
+    "passed": 2,
+    "failed": 13,
+    "issues": 15,
+    "fixes_applied": 8,
+    "is_stable": false
+  },
+  "results": [
+    {
+      "test_id": "test_001",
+      "prompt": "GET /health",
+      "test_type": "api",
+      "success": true,
+      "response_time": 28.4551043510437,
+      "issues": []
+    },
+    {
+      "test_id": "test_002",
+      "prompt": "POST /chat 发送简单问候消息 'hello'",
+      "test_type": "api",
+      "success": false,
+      "response_time": 69.5838713645935,
+      "issues": [
+        {
+          "type": "slow_response",
+          "severity": "low",
+          "location": "backend",
+          "description": "Response took 69.6s"
+        }
+      ]
+    },
+    {
+      "test_id": "test_003",
+      "prompt": "POST /chat 发送空消息",
+      "test_type": "api",
+      "success": false,
+      "response_time": 43.301594257354736,
+      "issues": [
+        {
+          "type": "slow_response",
+          "severity": "low",
+          "location": "backend",
+          "description": "Response took 43.3s"
+        }
+      ]
+    },
+    {
+      "test_id": "test_004",
+      "prompt": "POST /chat 发送包含特殊字符的消息 '!@#$%^&*()'",
+      "test_type": "api",
+      "success": false,
+      "response_time": 42.5130341053009,
+      "issues": [
+        {
+          "type": "slow_response",
+          "severity": "low",
+          "location": "backend",
+          "description": "Response took 42.5s"
+        }
+      ]
+    },
+    {
+      "test_id": "test_005",
+      "prompt": "POST /chat 发送中文消息 '你好，请帮我创建一个文件'",
+      "test_type": "api",
+      "success": true,
+      "response_time": 18.78194761276245,
+      "issues": []
+    },
+    {
+      "test_id": "test_006",
+      "prompt": "在聊天框输入 'hello' 并发送",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 11.382277727127075,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_007",
+      "prompt": "点击发送按钮但聊天框为空",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.559232711791992,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_008",
+      "prompt": "在聊天框输入超长文本（1000字符）",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.55386757850647,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_009",
+      "prompt": "快速连续发送多条消息",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.544914484024048,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_010",
+      "prompt": "页面刷新后检查聊天记录是否保持",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.540462970733643,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_011",
+      "prompt": "用户输入 '请帮我读取package.json文件' 完整流程",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 13.723122835159302,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_012",
+      "prompt": "用户输入 '执行ls命令查看当前目录' 完整流程",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 16.478389024734497,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_013",
+      "prompt": "用户输入 '读取一个不存在的文件test123.txt' 完整流程",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 16.262099742889404,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_014",
+      "prompt": "断网情况下发送消息 '你好'",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 45.78739786148071,
+      "issues": [
+        {
+          "type": "slow_response",
+          "severity": "low",
+          "location": "backend",
+          "description": "Response took 45.8s"
+        },
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_015",
+      "prompt": "用户输入包含换行的多行文本消息",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 60,
+      "issues": [
+        {
+          "type": "timeout",
+          "severity": "high",
+          "location": "backend",
+          "description": "API request timed out"
+        },
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    }
+  ]
+}

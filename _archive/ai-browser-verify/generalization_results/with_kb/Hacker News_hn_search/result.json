@@ -1,0 +1,14 @@
+{
+  "site_name": "Hacker News",
+  "site_url": "https://news.ycombinator.com",
+  "site_category": "tech_forum",
+  "task_id": "hn_search",
+  "task_description": "Search for 'machine learning' on this website",
+  "task_type": "search",
+  "knowledge_base": "with_kb",
+  "model": "gpt-5.2",
+  "start_time": "2025-12-25T09:23:38.006859",
+  "success": false,
+  "error": "Page.goto: net::ERR_CONNECTION_RESET at https://news.ycombinator.com/\nCall log:\n  - navigating to \"https://news.ycombinator.com/\", waiting until \"load\"\n",
+  "execution_time_seconds": 11.18
+}

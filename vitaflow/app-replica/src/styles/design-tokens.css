@@ -1,0 +1,162 @@
+/**
+ * Vitaflow Design System - Design Tokens
+ * 从 Figma 设计中提取的设计变量
+ */
+
+:root {
+  /* ========== 颜色系统 ========== */
+  
+  /* 主色 - Teal/青绿色 */
+  --color-primary: #2DD4BF;
+  --color-primary-light: #5EEAD4;
+  --color-primary-dark: #14B8A6;
+  
+  /* 强调色 */
+  --color-accent-pink: #F472B6;
+  --color-accent-coral: #FB7185;
+  --color-accent-blue: #38BDF8;
+  --color-accent-orange: #FB923C;
+  
+  /* 中性色 */
+  --color-background: #F5F5F5;
+  --color-surface: #FFFFFF;
+  --color-surface-secondary: #F8F8F8;
+  
+  /* 文字颜色 */
+  --color-text-primary: #1F2937;
+  --color-text-secondary: #6B7280;
+  --color-text-tertiary: #9CA3AF;
+  --color-text-muted: #D1D5DB;
+  
+  /* 状态颜色 */
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  
+  /* 进度条颜色 */
+  --color-progress-carbs: #FB923C;
+  --color-progress-fat: #F472B6;
+  --color-progress-protein: #38BDF8;
+  
+  /* ========== 字体系统 ========== */
+  
+  /* 字体家族 */
+  --font-family-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family-display: 'SF Pro Display', var(--font-family-sans);
+  
+  /* 字体大小 */
+  --font-size-xs: 11px;
+  --font-size-sm: 13px;
+  --font-size-base: 15px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 32px;
+  --font-size-4xl: 48px;
+  
+  /* 字重 */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  /* 行高 */
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+  
+  /* ========== 间距系统 ========== */
+  
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-16: 64px;
+  
+  /* 页面边距 */
+  --page-padding: 20px;
+  
+  /* ========== 圆角系统 ========== */
+  
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+  
+  /* ========== 阴影系统 ========== */
+  
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  
+  /* ========== 动画 ========== */
+  
+  --transition-fast: 150ms ease;
+  --transition-normal: 300ms ease;
+  --transition-slow: 500ms ease;
+  
+  /* ========== 尺寸 ========== */
+  
+  /* 设备宽度 */
+  --device-width: 402px;
+  --device-height: 874px;
+  
+  /* 状态栏高度 */
+  --status-bar-height: 62px;
+  
+  /* 底部导航高度 */
+  --bottom-nav-height: 98px;
+
+  /* 卡片尺寸 */
+  --calorie-card-height: 157px;
+  --macro-card-width: 112.67px;
+  --macro-card-height: 80px;
+  --macro-card-gap: 12px;
+  
+  /* 图标尺寸 */
+  --icon-sm: 16px;
+  --icon-md: 24px;
+  --icon-lg: 32px;
+  
+  /* 头像/缩略图尺寸 */
+  --avatar-sm: 36px;
+  --avatar-md: 48px;
+  --avatar-lg: 64px;
+
+  /* ========== Calendar Strip (from Framelink) ========== */
+  
+  /* 文字颜色 */
+  --calendar-text-default: #475569;
+  --calendar-text-selected: #0F172A;
+  --calendar-text-future: #94A3B8;
+  
+  /* 选中态 */
+  --calendar-selected-bg: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  --calendar-selected-shadow: 0px 2px 4px 0px rgba(15, 23, 42, 0.02), 0px 1px 2px 0px rgba(15, 23, 42, 0.03);
+  --calendar-selected-radius: 12px;
+  
+  /* 进度环 */
+  --calendar-ring-progress: rgba(251, 108, 131, 0.25);
+  --calendar-ring-today: rgba(97, 224, 189, 0.25);
+  --calendar-ring-selected: #61E0BD;
+  --calendar-ring-default: #E2E8F0;
+  --calendar-ring-future: rgba(226, 232, 240, 0.5);
+  --calendar-ring-width: 3.6px;
+  
+  /* 选中态发光 */
+  --calendar-selected-glow: 0px 0px 12px 0px rgba(7, 209, 236, 0.1);
+  
+  /* 布局 */
+  --calendar-item-width: 48px;
+  --calendar-item-gap: 8px;
+  --calendar-item-padding: 4px;
+  --calendar-circle-size: 36px;
+}

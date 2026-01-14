@@ -1,0 +1,506 @@
+/**
+ * Agent UI 设计 Tokens
+ * Phase 7.10: 设计规范
+ */
+
+:root {
+  /* ============== Agent 状态颜色 ============== */
+  --agent-idle: #6b7280;
+  --agent-thinking: #3b82f6;
+  --agent-executing: #10b981;
+  --agent-warning: #f59e0b;
+  --agent-error: #ef4444;
+  --agent-success: #00ff88;
+  --agent-paused: #8b5cf6;
+  --agent-confirm: #f97316;
+
+  /* ============== 风险等级颜色 ============== */
+  --risk-low: #10b981;
+  --risk-medium: #f59e0b;
+  --risk-high: #ef4444;
+  --risk-critical: #dc2626;
+
+  /* ============== 动画时长 ============== */
+  --agent-transition-fast: 150ms;
+  --agent-transition-normal: 300ms;
+  --agent-transition-slow: 500ms;
+  --agent-transition-slower: 800ms;
+
+  /* ============== 缓动函数 ============== */
+  --agent-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --agent-ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --agent-ease-elastic: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --agent-ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ============== 间距 ============== */
+  --agent-spacing-xs: 4px;
+  --agent-spacing-sm: 8px;
+  --agent-spacing-md: 16px;
+  --agent-spacing-lg: 24px;
+  --agent-spacing-xl: 32px;
+
+  /* ============== 圆角 ============== */
+  --agent-radius-sm: 4px;
+  --agent-radius-md: 8px;
+  --agent-radius-lg: 12px;
+  --agent-radius-xl: 16px;
+  --agent-radius-full: 9999px;
+
+  /* ============== 阴影 ============== */
+  --agent-shadow-glow: 0 0 20px rgba(0, 255, 136, 0.3);
+  --agent-shadow-glow-strong: 0 0 30px rgba(0, 255, 136, 0.5);
+  --agent-shadow-error: 0 0 20px rgba(239, 68, 68, 0.3);
+  --agent-shadow-warning: 0 0 20px rgba(245, 158, 11, 0.3);
+  --agent-shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --agent-shadow-elevated: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+
+  /* ============== 边框 ============== */
+  --agent-border-subtle: 1px solid rgba(255, 255, 255, 0.1);
+  --agent-border-medium: 1px solid rgba(255, 255, 255, 0.2);
+  --agent-border-strong: 1px solid rgba(255, 255, 255, 0.3);
+  --agent-border-glow: 1px solid var(--agent-success);
+
+  /* ============== 背景 ============== */
+  --agent-bg-primary: rgba(10, 10, 10, 0.95);
+  --agent-bg-secondary: rgba(20, 20, 20, 0.95);
+  --agent-bg-elevated: rgba(30, 30, 30, 0.95);
+  --agent-bg-overlay: rgba(0, 0, 0, 0.6);
+  --agent-bg-glass: rgba(255, 255, 255, 0.05);
+
+  /* ============== 文字颜色 ============== */
+  --agent-text-primary: rgba(255, 255, 255, 0.95);
+  --agent-text-secondary: rgba(255, 255, 255, 0.7);
+  --agent-text-muted: rgba(255, 255, 255, 0.5);
+  --agent-text-disabled: rgba(255, 255, 255, 0.3);
+
+  /* ============== 字体 ============== */
+  --agent-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --agent-font-mono: 'JetBrains Mono', 'Fira Code', 'Monaco', monospace;
+
+  /* ============== Z-Index ============== */
+  --agent-z-base: 1;
+  --agent-z-overlay: 100;
+  --agent-z-modal: 200;
+  --agent-z-tooltip: 300;
+  --agent-z-notification: 400;
+}
+
+/* ============== 与 NogicOS 现有 Overlay 风格统一 ============== */
+.agent-ui {
+  font-family: var(--agent-font-sans);
+  background: var(--agent-bg-primary);
+  border: var(--agent-border-subtle);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* ============== 状态指示器基础样式 ============== */
+.agent-status {
+  display: flex;
+  align-items: center;
+  gap: var(--agent-spacing-sm);
+  padding: var(--agent-spacing-sm) var(--agent-spacing-md);
+  border-radius: var(--agent-radius-md);
+  transition: all var(--agent-transition-normal) var(--agent-ease-out);
+}
+
+.agent-status.status-idle {
+  background: rgba(107, 114, 128, 0.1);
+  color: var(--agent-idle);
+}
+
+.agent-status.status-thinking {
+  background: rgba(59, 130, 246, 0.1);
+  color: var(--agent-thinking);
+}
+
+.agent-status.status-executing {
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--agent-executing);
+}
+
+.agent-status.status-confirm {
+  background: rgba(249, 115, 22, 0.1);
+  color: var(--agent-confirm);
+}
+
+.agent-status.status-failed {
+  background: rgba(239, 68, 68, 0.1);
+  color: var(--agent-error);
+}
+
+/* ============== 进度条样式 ============== */
+.agent-progress-bar {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--agent-radius-full);
+  overflow: hidden;
+  position: relative;
+}
+
+.agent-progress-bar__fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--agent-executing), var(--agent-success));
+  border-radius: var(--agent-radius-full);
+  transition: width var(--agent-transition-normal) var(--agent-ease-out);
+}
+
+.agent-progress-bar__shimmer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  animation: shimmer 2s linear infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* ============== 动画关键帧 ============== */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  75% {
+    transform: translateX(2px);
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* ============== 工具类 ============== */
+.agent-animate-pulse {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.agent-animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+.agent-animate-bounce {
+  animation: bounce 0.6s ease-in-out infinite;
+}
+
+.agent-animate-blink {
+  animation: blink 0.8s ease-in-out infinite;
+}
+
+.agent-animate-shake {
+  animation: shake 0.4s ease-in-out infinite;
+}
+
+/* ============================================================================
+ * 2026 顶级动效: Scroll-driven Animations (原生 CSS, 零 JS)
+ * 浏览器支持: Chrome 115+, Edge 115+, Safari 技术预览
+ * ============================================================================ */
+
+/* 列表项滚动入场动画 */
+@keyframes scroll-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scroll-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Scroll-driven Animation 类 */
+.scroll-animate-slide {
+  animation: scroll-slide-in linear both;
+  animation-timeline: view();
+  animation-range: entry 0% entry 100%;
+}
+
+.scroll-animate-fade {
+  animation: scroll-fade-in linear both;
+  animation-timeline: view();
+  animation-range: entry 0% entry 100%;
+}
+
+/* 渐进式可见性 - 滚动时渐变 */
+.scroll-reveal {
+  animation: scroll-fade-in linear both;
+  animation-timeline: view();
+  animation-range: entry 10% cover 30%;
+}
+
+/* 侧边栏列表项专用 */
+.sidebar-item-animate {
+  opacity: 0;
+  transform: translateX(-15px);
+  animation: scroll-slide-in ease-out both;
+  animation-timeline: view();
+  animation-range: entry 0% entry 80%;
+}
+
+/* 回退方案: 不支持 scroll-driven 时使用普通动画 */
+@supports not (animation-timeline: view()) {
+  .scroll-animate-slide,
+  .scroll-animate-fade,
+  .scroll-reveal,
+  .sidebar-item-animate {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ============================================================================
+ * 2026 顶级动效: View Transitions API
+ * 浏览器支持: Chrome 111+, Edge 111+, Safari 18+
+ * ============================================================================ */
+
+/* 默认过渡动画 */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.25s;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* 淡入淡出 */
+::view-transition-old(fade),
+::view-transition-new(fade) {
+  animation-duration: 0.2s;
+}
+
+/* 滑动过渡 */
+::view-transition-old(slide) {
+  animation: slide-out-to-left 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+::view-transition-new(slide) {
+  animation: slide-in-from-right 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes slide-out-to-left {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(-20px); opacity: 0; }
+}
+
+@keyframes slide-in-from-right {
+  from { transform: translateX(20px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+/* 缩放过渡 */
+::view-transition-old(scale),
+::view-transition-new(scale) {
+  animation-duration: 0.3s;
+}
+
+::view-transition-old(scale) {
+  animation: scale-out 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+::view-transition-new(scale) {
+  animation: scale-in 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes scale-out {
+  from { transform: scale(1); opacity: 1; }
+  to { transform: scale(0.95); opacity: 0; }
+}
+
+@keyframes scale-in {
+  from { transform: scale(1.05); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* 画布模式切换 - 特殊效果 */
+::view-transition-old(canvas-mode),
+::view-transition-new(canvas-mode) {
+  animation-duration: 0.4s;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(canvas-mode) {
+  animation: morph-out 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+::view-transition-new(canvas-mode) {
+  animation: morph-in 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes morph-out {
+  from { 
+    transform: scale(1); 
+    opacity: 1; 
+    filter: blur(0);
+  }
+  to { 
+    transform: scale(0.9); 
+    opacity: 0; 
+    filter: blur(4px);
+  }
+}
+
+@keyframes morph-in {
+  from { 
+    transform: scale(1.1); 
+    opacity: 0; 
+    filter: blur(4px);
+  }
+  to { 
+    transform: scale(1); 
+    opacity: 1; 
+    filter: blur(0);
+  }
+}
+
+/* ============================================================================
+ * 2026 顶级: 连线能量流动画 - 纯 CSS GPU 加速
+ * ============================================================================ */
+
+/* 能量流动 - 虚线向前移动 */
+@keyframes energy-flow {
+  from { stroke-dashoffset: 40; }
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes energy-flow-reverse {
+  from { stroke-dashoffset: 0; }
+  to { stroke-dashoffset: 40; }
+}
+
+/* 脉冲发光 - 线条呼吸 */
+@keyframes line-pulse {
+  0%, 100% { 
+    opacity: 0.6;
+    stroke-width: 2px;
+  }
+  50% { 
+    opacity: 1;
+    stroke-width: 3px;
+  }
+}
+
+/* 流动光点 */
+@keyframes glow-particle {
+  0% { 
+    opacity: 0;
+    offset-distance: 0%;
+  }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { 
+    opacity: 0;
+    offset-distance: 100%;
+  }
+}
+
+/* 连线流动类 */
+.connection-energy-flow {
+  stroke-dasharray: 8 12;
+  animation: energy-flow 0.8s linear infinite;
+  will-change: stroke-dashoffset;
+}
+
+.connection-energy-flow-reverse {
+  stroke-dasharray: 8 12;
+  animation: energy-flow-reverse 0.8s linear infinite;
+  will-change: stroke-dashoffset;
+}
+
+.connection-energy-flow-slow {
+  stroke-dasharray: 12 8;
+  animation: energy-flow 1.5s linear infinite;
+  will-change: stroke-dashoffset;
+}
+
+.connection-pulse {
+  animation: line-pulse 2s ease-in-out infinite;
+  will-change: opacity, stroke-width;
+}
+
+/* 流动光点 - 使用 CSS offset-path */
+.flow-particle {
+  animation: glow-particle 1.5s ease-in-out infinite;
+  will-change: offset-distance, opacity;
+}

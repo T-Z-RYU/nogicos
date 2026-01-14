@@ -1,0 +1,1633 @@
+{
+  "app_name": "MyFitnessPal",
+  "total_screenshots": 10,
+  "analyzed_at": "2025-12-24T13:56:52.982258",
+  "model": "claude-opus-4-5-20251101 / gpt-5.2",
+  "schema_version": "v2",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "The #1 Food\n& Nutrition\nTracking\nApp",
+          "subheadline": "",
+          "body_copy": [
+            "Now\nWith AI!"
+          ],
+          "cta_button": "",
+          "small_print": [
+            "myfitnesspal™",
+            "Plan",
+            "Meal Plan",
+            "Create",
+            "Breakfast",
+            "Yogurt & Granola",
+            "with almond butter",
+            "378 cal"
+          ],
+          "data_numbers": [
+            "#1",
+            "378"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#1F1F24",
+            "#FFFFFF"
+          ],
+          "color_mood": "muted",
+          "layout_type": "split_vertical",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "right"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "logo"
+          ],
+          "background_style": "image"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "VP",
+          "primary_cn": "价值主张",
+          "secondary": "AI_DEMO"
+        },
+        "message_strategy": {
+          "primary_message": "The #1 Food & Nutrition Tracking App",
+          "supporting_evidence": "用“#1”排名式断言 + 品牌露出“myfitnesspal™” + 叠加升级点“Now With AI!”来支撑主张",
+          "emotional_appeal": "trust",
+          "value_proposition": "强调其在“Food & Nutrition Tracking”品类中的领先地位，并传达产品能力升级（“Now With AI!”）"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority",
+            "social_proof"
+          ],
+          "cognitive_biases": [
+            "anchoring",
+            "primacy_effect",
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用“#1”作为强锚点建立权威/领先心智，再用“Now With AI!”制造功能升级的新鲜感；同时用清晰大字标题降低理解成本。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "左侧超大白色标题“The #1 Food & Nutrition Tracking App”，其次是紫色徽章“Now With AI!”与右侧倾斜的手机界面",
+          "information_density": "low",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#FFFFFF",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_offset",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 4.6,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "Now With AI!",
+            "The #1 Food & Nutrition Tracking App"
+          ],
+          "category_conventions": [
+            "大标题+一句话价值主张",
+            "食物摄影作为健康/营养类背景",
+            "手机界面露出核心场景（餐食/计划）"
+          ],
+          "innovations": [
+            "用徽章形状突出“Now With AI!”作为升级点（而非长段解释）"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注饮食记录与营养追踪的人群",
+          "对“AI”能力升级敏感、愿意尝试新功能的用户",
+          "需要餐食计划/记录入口（界面出现“Plan”“Meal Plan”“Breakfast”）的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "超大字号的单句价值主张",
+          "“#1/领先”式强锚点（若VitaFlow有可验证依据）",
+          "用徽章/贴纸突出单一升级点（如AI）",
+          "食物摄影+设备界面叠加的品类化表达"
+        ],
+        "avoid_elements": [
+          "无法证明的“#1”断言",
+          "在同一屏里同时抢焦点（大标题+大徽章+倾斜设备）导致信息竞争",
+          "设备界面文字过小导致不可读（如“Plan”“Meal Plan”等仅部分可见）"
+        ],
+        "adaptation_notes": "VitaFlow可采用“左侧大标题+右侧设备界面”的结构：主标题用一句话讲清核心收益；若有AI能力，用类似“Now With AI!”的短语做贴纸强化，但需控制贴纸尺寸避免遮挡关键界面内容；背景可用高质感食物/健康场景图，并确保标题区域有足够暗化/虚化以维持高对比可读性。"
+      }
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Never run out of\nideas again",
+          "subheadline": "",
+          "body_copy": [
+            "Groceries",
+            "Edit",
+            "More"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F4F7FB",
+            "#2E2A2A"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "full_bleed",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "tilted"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "image"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "VP",
+          "primary_cn": "价值主张",
+          "secondary": "CONTENT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "Never run out of ideas again",
+          "supporting_evidence": "用食物照片做场景化联想，并用界面露出“Groceries / Edit / More”来暗示可管理与扩展内容",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "持续提供灵感/点子，不会“用尽”"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "liking"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用一句高概括、低理解成本的承诺型标题（“Never run out…”）降低决策成本；用高质感食物图提升好感与联想，把“灵感”与具体使用场景绑定"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大号标题“Never run out of ideas again”，其次是倾斜的设备界面卡片（“Groceries”区域）",
+          "information_density": "low",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F4F7FB",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_offset",
+          "whitespace_usage": "generous",
+          "element_count": 4,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.4,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "倾斜的大面积设备卡片覆盖在食物场景图上，形成“灵感来自真实食物”的联想"
+          ],
+          "category_conventions": [
+            "大标题一句话价值主张",
+            "食物摄影作为健康/饮食类背景",
+            "用设备界面截图证明产品存在"
+          ],
+          "innovations": [
+            "用“Groceries”这一具体模块名做轻量功能暗示，但不堆叠功能点"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "需要饮食/做饭灵感的人",
+          "偏好简洁界面与轻量操作的人",
+          "对食物视觉质感敏感的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "一句话大标题承诺型文案",
+          "真实食物照片做场景化背景",
+          "倾斜设备截图制造动感与层次"
+        ],
+        "avoid_elements": [
+          "仅有抽象承诺但缺少可验证结果/具体收益的支撑",
+          "界面露出信息过少导致功能理解不充分"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“顶部一句话承诺 + 食物场景 + 设备截图”的结构，但标题应更贴近可量化收益（例如围绕计划、记录、达成等）；同时在设备截图中露出更明确的关键模块/结果卡片（如进度、计划、营养/训练摘要）以增强可理解性与说服力。"
+      }
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Scan Your Food",
+          "subheadline": "",
+          "body_copy": [
+            "Meal Scan",
+            "Scan a Meal",
+            "Scan a Barcode",
+            "Frappuccino",
+            "Serving Size",
+            "Number of Servings",
+            "Time",
+            "Meal",
+            "cal",
+            "Carbs",
+            "Fat",
+            "Protein",
+            "Lunch"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "1 grande",
+            "1",
+            "12:12 PM",
+            "408",
+            "63%",
+            "66 g",
+            "31%",
+            "14.3 g",
+            "6%",
+            "5.9 g"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#1E6FEA",
+            "#FFFFFF"
+          ],
+          "color_mood": "cool",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "AI_DEMO",
+          "primary_cn": "AI 功能演示",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "Scan Your Food",
+          "supporting_evidence": "通过“Meal Scan”界面中的取景框、以及“Scan a Meal”“Scan a Barcode”两种入口与识别结果页（Frappuccino + 营养数据）来支撑",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "用扫描方式记录食物，并得到营养数据结果展示"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用“Scan Your Food”的直接指令式标题 + 扫描取景框的强视觉隐喻，降低理解成本；同时展示识别后的具体条目与宏量营养数据，强化“扫完就有结果”的确定性"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Scan Your Food”与中部手机界面中的饮品照片（取景框围绕）",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1E6FEA",
+          "color_scheme": "monochromatic",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 4.6,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "同一张截图里同时呈现“Scan a Meal”和“Scan a Barcode”两种扫描入口",
+            "扫描取景框叠加在真实食物照片上，并直接连接到营养结果（408 cal / Carbs / Fat / Protein）"
+          ],
+          "category_conventions": [
+            "大标题 + 手机界面展示核心功能",
+            "用宏量营养（Carbs/Fat/Protein）与热量（cal）作为结果页关键指标"
+          ],
+          "innovations": [
+            "用悬浮卡片式入口（Scan a Meal / Scan a Barcode）在截图中做“可点击”的交互暗示"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "需要快速记录饮食的人（“Scan Your Food”）",
+          "关注宏量营养与热量的人（“408 cal”“Carbs”“Fat”“Protein”）",
+          "有外食/饮品记录场景的人（“Frappuccino”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "指令式强标题（如“Scan Your Food”）",
+          "扫描取景框覆盖在食物照片上的视觉隐喻",
+          "在同屏展示“入口动作”+“结果数据”（减少用户对流程的疑虑）",
+          "用悬浮小卡片突出关键入口（类似“Scan a Meal”“Scan a Barcode”）"
+        ],
+        "avoid_elements": [
+          "在截图中放入过多表单字段（如“Serving Size”“Number of Servings”“Time”“Meal”）导致信息分散",
+          "结果区数字过密时缺少更强的分组/强调（用户可能只记住“408 cal”而忽略其余）"
+        ],
+        "adaptation_notes": "VitaFlow 若也有“拍照识别/扫码录入”，可沿用“顶部一句话卖点 + 中部扫描场景 + 底部关键结果”的结构；将入口卡片数量控制在 1-2 个，并把最关键的 1 个结果指标做最大化呈现，其余指标做次级展示以保持层级清晰。"
+      }
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Try the Voice\nLogging Feature",
+          "subheadline": "",
+          "body_copy": [
+            "myfitnesspal",
+            "PREMIUM",
+            "Today",
+            "Edit",
+            "Calories",
+            "Remaining = Goal - Food + Exercise",
+            "Say the details",
+            "\"I had 1 cup of Greek\nyogurt, honey,\nand some grapes.\"",
+            "Dashboard",
+            "Diary",
+            "Plans",
+            "More"
+          ],
+          "cta_button": "Start Voice Logging",
+          "small_print": [],
+          "data_numbers": [
+            "9:41",
+            "1"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#1E6FE6",
+            "#FFFFFF"
+          ],
+          "color_mood": "cool",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [
+            "app_name"
+          ],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "HOW_IT_WORKS"
+        },
+        "message_strategy": {
+          "primary_message": "用语音快速记录饮食内容（Voice Logging）。",
+          "supporting_evidence": "用引号示例句（\"I had 1 cup of Greek yogurt, honey, and some grapes.\"）+ 明确 CTA（Start Voice Logging）来演示使用方式与入口。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "减少手动输入成本，让记录更快更省事。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用“可直接照说”的具体口播示例降低理解与行动门槛，并用单一强 CTA 促成首次尝试（从尝试到持续记录的承诺递进）。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Try the Voice Logging Feature”与底部高对比的主按钮“Start Voice Logging”（白底蓝按钮）",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1E6FE6",
+          "color_scheme": "monochromatic",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.5,
+          "clarity": 4.7,
+          "brand_consistency": 4.8,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Say the details”+ 引号口播示例句的“语音输入场景化”呈现",
+            "“Start Voice Logging”作为单一主行动按钮的强引导"
+          ],
+          "category_conventions": [
+            "大标题讲功能点 + 设备界面截图演示",
+            "用高对比主按钮强化转化"
+          ],
+          "innovations": [
+            "用“被高亮的词块”（如“1 cup”“some”）模拟识别/提取关键信息的感觉，强化“语音可用且可理解”的直觉"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "想更省事记录饮食的人（减少打字/搜索）",
+          "已有记录习惯、愿意尝试更快入口的人（直接“Start Voice Logging”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "“Try the … Feature”式功能导向大标题",
+          "单一强 CTA（按钮文案直接描述动作）",
+          "用一句真实可复述的示例输入展示使用方式",
+          "在示例中对关键信息做视觉强调（词块高亮）"
+        ],
+        "avoid_elements": [
+          "示例句过长导致信息拥挤、降低扫读效率",
+          "截图内出现过多与该功能无关的导航/页面元素（分散注意）"
+        ],
+        "adaptation_notes": "VitaFlow 若有语音/快速记录能力，可采用同构版式：顶部用一句话点明功能；中部用“Say the details”+ 一句示例输入展示可说什么；底部放唯一主按钮（如“Start …”）。示例中仅高亮 1–2 个关键字段（份量/食物/时间）以保持扫读清晰，并确保品牌主色在背景与按钮上形成一致的高对比。"
+      }
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Personalize\nYour Dashboard",
+          "subheadline": "",
+          "body_copy": [
+            "myfitnesspal",
+            "PREMIUM",
+            "Today",
+            "Edit",
+            "Logging Progress",
+            "Final push, let's go",
+            "Welcome! Logging what you eat is the first step toward your goals. Tap + to get started.",
+            "Macros",
+            "Carbohydrates",
+            "Fat",
+            "Protein",
+            "152g left",
+            "30g left",
+            "34g left",
+            "Steps",
+            "0",
+            "Goal: 10,000 steps",
+            "Exercise",
+            "100 cal",
+            "00:30 hr",
+            "Dashboard",
+            "Diary",
+            "Plans",
+            "More"
+          ],
+          "cta_button": "Edit",
+          "small_print": [
+            "Welcome! Logging what you eat is the first step toward your goals. Tap + to get started."
+          ],
+          "data_numbers": [
+            "10",
+            "/163g",
+            "14",
+            "/43g",
+            "32",
+            "/65g",
+            "152g",
+            "30g",
+            "34g",
+            "0",
+            "10,000",
+            "100 cal",
+            "00:30 hr"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#1E6FEA",
+            "#FFFFFF"
+          ],
+          "color_mood": "cool",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "app_name"
+          ],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "PERSONALIZATION",
+          "primary_cn": "个性化展示",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "可自定义仪表盘（Dashboard）以跟踪个人进度与关键指标。",
+          "supporting_evidence": "用“Personalize Your Dashboard”标题 + 应用内“Edit”入口 + “Macros/Steps/Exercise”等模块化卡片与环形进度数据来证明可定制与可追踪。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "把关键健康数据（Macros、Steps、Exercise）集中在一个可编辑的 Dashboard 上，便于日常跟踪。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "goal_gradient_effect"
+          ],
+          "persuasion_technique": "用“Edit”与模块化卡片呈现“可控/可定制”，并用进度环与“left”剩余量强化持续记录与接近目标的动机。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Personalize Your Dashboard”，其次是中部 iPhone 画面与前景浮层卡片“Macros”及三组环形进度。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1E6FEA",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 4.8,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Personalize Your Dashboard”与应用内“Edit”在同屏呼应，直接把“可定制”落到具体入口",
+            "用“Macros”浮层卡片突出关键模块（Carbohydrates/Fat/Protein）"
+          ],
+          "category_conventions": [
+            "使用手机机模展示真实 UI",
+            "用环形进度/数字统计展示健康数据",
+            "大标题 + 单一核心卖点的截图叙事"
+          ],
+          "innovations": [
+            "用前景浮层卡片（Macros）制造层级与聚焦，强化“可编辑模块”的概念"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注宏量营养素（Macros）的人群",
+          "需要日常记录与目标管理（Goal: 10,000 steps）的人群",
+          "偏好可视化进度与仪表盘式总览的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "大标题一句话点明单一卖点（如“Personalize Your Dashboard”）",
+          "机模居中 + 关键模块卡片前景放大（类似“Macros”浮层）",
+          "环形进度 + “left”剩余量的组合表达（进度与差距同屏）",
+          "在 UI 中露出真实操作入口（如“Edit”）增强可信度"
+        ],
+        "avoid_elements": [
+          "在同一张截图里露出过多次要导航文字（如底部多 Tab）导致注意力分散",
+          "小字说明过长、字号偏小导致可读性下降"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“可定制仪表盘”叙事：顶部用一句话主标题；中部用 VitaFlow 的 Dashboard 真实 UI；前景放大 1 个最强模块卡片（例如关键健康指标/计划模块），并在卡片内用环形进度与明确数字（目标/已完成/剩余）呈现，同时在 UI 中保留一个清晰的编辑入口（如“Edit”或等价按钮文案）。"
+      }
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Now with Meal Planner: Plan, Shop, Cook, Log.",
+          "subheadline": "",
+          "body_copy": [
+            "Dig in to\nMeal Planner",
+            "Say goodbye to guesswork and\nhello to tasty, simple home cooking."
+          ],
+          "cta_button": "Get started",
+          "small_print": [
+            "Premium+",
+            "Dashboard",
+            "Diary",
+            "Plan",
+            "More"
+          ],
+          "data_numbers": [],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#1E6FEA",
+            "#FFFFFF"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "USP"
+        },
+        "message_strategy": {
+          "primary_message": "Now with Meal Planner: Plan, Shop, Cook, Log.",
+          "supporting_evidence": "通过“Dig in to Meal Planner”页面文案与“Get started”按钮，以及食物成品图来支撑“Meal Planner”功能与家庭烹饪场景。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "用 Meal Planner 把“Plan, Shop, Cook, Log.”串成一体，减少“guesswork”，实现“tasty, simple home cooking.”"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "scarcity"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用“NEW”角标制造新功能的显著性与新鲜感；用四连动词“Plan, Shop, Cook, Log.”降低理解成本；用“Say goodbye to guesswork”将痛点对立化以推动尝试。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Now with Meal Planner: Plan, Shop, Cook, Log.”与右上角“NEW”角标，其次是手机内的“Dig in to Meal Planner”与“Get started”。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1E6FEA",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 4.6,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Now with Meal Planner: Plan, Shop, Cook, Log.”将用餐规划到记录的闭环直接写在主标题里",
+            "“NEW”角标强化新功能发布节点",
+            "手机内“Dig in to Meal Planner”+“Get started”呈现功能入口感"
+          ],
+          "category_conventions": [
+            "大标题+设备界面展示的商店截图范式",
+            "用食物照片强化健康饮食/烹饪场景",
+            "用CTA按钮样式（“Get started”）模拟可操作性"
+          ],
+          "innovations": [
+            "用四段动词并列（“Plan, Shop, Cook, Log.”）在一行内完成流程型卖点表达"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "想做“simple home cooking”的用户",
+          "需要减少“guesswork”的新手/忙碌人群",
+          "对“Meal Planner”与“Plan”入口有明确需求的饮食管理用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "“Now with …”式更新宣告标题结构",
+          "“NEW”角标用于版本更新/新功能曝光",
+          "动词并列的流程型短句（类似“Plan, Shop, Cook, Log.”）",
+          "设备居中+功能落地页+CTA的组合"
+        ],
+        "avoid_elements": [
+          "在同一张图里同时出现两套主标题（外部大标题与设备内大标题）导致信息竞争",
+          "仅用“NEW”但缺少更具体的新内容点（若空间允许）"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“Now with …”+“NEW”来发布关键能力更新；将核心闭环用 3-4 个动词并列呈现，并在设备内用一条痛点句（类似“Say goodbye to …”结构）+单一 CTA 强化转化；保持高对比背景与居中设备以确保在列表缩略图下仍可读。"
+      }
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Fitness &\nFood Diary",
+          "subheadline": "",
+          "body_copy": [
+            "EDIT",
+            "Today",
+            "22\ncal",
+            "75%\n4.8 g\nCarbs",
+            "9%\n0.2 g\nFat",
+            "17%\n1.1 g\nProtein",
+            "Lunch",
+            "444",
+            "Tomato\n1 large\n33",
+            "Mozzarella Cheese\n2 slices\n86",
+            "Arugula\n0.5 cup\n5",
+            "Pesto\n1 tablespoon\n80",
+            "Dave’s Killer Bread, 21 Whole Grains\n2 slices\n240",
+            "ADD FOOD",
+            "Dinner",
+            "360",
+            "Grilled Chicken\n120",
+            "Dashboard",
+            "Diary",
+            "Plans",
+            "More",
+            "0"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "22",
+            "75%",
+            "4.8 g",
+            "9%",
+            "0.2 g",
+            "17%",
+            "1.1 g",
+            "444",
+            "33",
+            "86",
+            "5",
+            "80",
+            "240",
+            "360",
+            "120",
+            "0"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#1E6FE6",
+            "#FFFFFF"
+          ],
+          "color_mood": "cool",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "DATA_PROOF"
+        },
+        "message_strategy": {
+          "primary_message": "记录饮食与健身日记，并展示当日营养与热量数据概览。",
+          "supporting_evidence": "通过“22 cal”圆环、宏量营养素百分比（“75% / 9% / 17%”）与克数（“4.8 g / 0.2 g / 1.1 g”），以及餐次条目与热量数字（如“Lunch 444”“Dinner 360”）来支撑。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "用结构化日记把每日饮食条目与营养数据集中呈现，便于快速记录与回顾。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用清晰的数字锚点（cal、百分比、克数、餐次总热量）降低理解成本，强化“记录=可量化管理”的心智。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Fitness & Food Diary”与中部悬浮的数据卡片（含“22 cal”圆环与宏量营养素百分比/克数）。",
+          "information_density": "high",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1E6FE6",
+          "color_scheme": "monochromatic",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.6,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "悬浮式宏量营养素汇总卡片（百分比 + 克数）叠加在日记列表之上",
+            "“22 cal”圆环与宏量占比颜色分段的组合呈现"
+          ],
+          "category_conventions": [
+            "用“Diary/Plans/Dashboard”底部导航表达健康管理信息架构",
+            "用餐次（“Lunch”“Dinner”）+ 食物条目 + 热量数字的清单式记录"
+          ],
+          "innovations": [
+            "用“数据卡片悬浮覆盖列表”的方式，把关键指标前置到同一屏的视觉中心"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "需要按餐记录食物并关注宏量营养素比例的人群",
+          "偏好用数字（cal、g、%）进行自我管理的用户",
+          "希望快速添加记录（“ADD FOOD”）的高频记录者"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "大标题 + 单一核心功能命名（如“Fitness & Food Diary”）",
+          "中心化设备展示 + 悬浮关键指标卡片",
+          "用圆环/百分比/克数做“当日概览”的数据化表达",
+          "在列表中展示真实条目与数值，增强可信度与可用性联想"
+        ],
+        "avoid_elements": [
+          "在同一张截图里同时塞入过多列表条目导致信息密度过高",
+          "缺少明确 CTA（当前仅见“ADD FOOD”为界面元素，非商店截图 CTA）"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“中心设备 + 悬浮数据卡”的结构，把 VitaFlow 的关键健康指标（例如当日目标完成度/核心指标汇总）放在卡片中；列表区域展示 3–5 条最具代表性的记录条目与数字，控制密度，并在截图文案层加入更明确的行动导向短句（保持与界面文案区分）。"
+      }
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P8",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Track Macros",
+          "subheadline": "",
+          "body_copy": [
+            "Nutrition",
+            "EXPORT",
+            "Calories",
+            "Nutrients",
+            "Macros",
+            "Day view",
+            "Today",
+            "35%",
+            "40%",
+            "25%",
+            "Carbohydrates (158g)",
+            "10.938",
+            "25%",
+            "Fat (158g)",
+            "1.983",
+            "25%",
+            "Protein (158g)",
+            "2.050",
+            "25%",
+            "Foods Highest In Carbohydrates",
+            "Foods Highest In Fat",
+            "Foods Highest In Protein"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "35%",
+            "40%",
+            "25%",
+            "158g",
+            "10.938",
+            "25%",
+            "158g",
+            "1.983",
+            "25%",
+            "158g",
+            "2.050",
+            "25%"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#1E6FE6",
+            "#FFFFFF"
+          ],
+          "color_mood": "cool",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "pie_chart",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "DATA_PROOF"
+        },
+        "message_strategy": {
+          "primary_message": "Track Macros",
+          "supporting_evidence": "用“Macros”页的饼图（35%/40%/25%）与列表数据（Carbohydrates/Fat/Protein、(158g)、10.938/1.983/2.050、25%）来展示可量化的宏量营养追踪能力",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "用可视化图表与数字明细来追踪宏量营养（Macros）"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用单一强动词标题“Track”+饼图百分比与列表数字明细，降低理解成本并用具体数值作为锚点强化“可追踪、可量化”的感知"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Track Macros”与中部的饼图（35%/40%/25%）",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1E6FE6",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 5,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.6,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.2
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "在同一视图中同时呈现“Macros”饼图百分比（35%/40%/25%）与分项列表（Carbohydrates/Fat/Protein、(158g)、10.938/1.983/2.050、25%）"
+          ],
+          "category_conventions": [
+            "用饼图展示宏量营养占比",
+            "用列表展示三大宏量营养（Carbohydrates/Fat/Protein）"
+          ],
+          "innovations": [
+            "将“Foods Highest In …”作为下方延伸内容入口（Foods Highest In Carbohydrates/Foods Highest In Fat/Foods Highest In Protein）"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注宏量营养比例的人群（Macros）",
+          "偏好用图表+数字快速复盘的人群（35%/40%/25%、10.938/1.983/2.050）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "大标题+单一核心动作动词结构（如“Track …”）",
+          "饼图（pie chart）+列表明细的组合呈现",
+          "在同屏展示百分比与分项名称（Carbohydrates/Fat/Protein）以提升可读性"
+        ],
+        "avoid_elements": [
+          "在商店截图中出现难以解释的数值字段（如“10.938”“1.983”“2.050”）而缺少单位/含义说明",
+          "列表中重复出现“25%”导致信息噪音"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“中心设备界面+饼图+分项列表”的结构，把关键指标（如宏量营养/能量/目标完成度）用清晰单位与含义标注；标题保持短句式（动词+对象），并减少重复百分比或为其增加解释性标签以提升截图自解释能力。"
+      }
+    },
+    {
+      "index": 9,
+      "filename": "screenshot_09.png",
+      "position": "P9",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "All In Sync",
+          "subheadline": "",
+          "body_copy": [],
+          "cta_button": "",
+          "small_print": [
+            "GARMI",
+            "C25K"
+          ],
+          "data_numbers": [
+            "26.22"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#1E6FE6",
+            "#2AA9E0"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "full_bleed",
+          "device_mockup": {
+            "present": false,
+            "type": "none",
+            "position": "none"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "illustration"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "INTEGRATION",
+          "primary_cn": "生态整合",
+          "secondary": "USP"
+        },
+        "message_strategy": {
+          "primary_message": "All In Sync",
+          "supporting_evidence": "通过多个第三方运动/健康应用图标的集合来暗示“同步/整合”",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "把多来源的运动与健康数据/记录集中同步到一起"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "bandwagon"
+          ],
+          "persuasion_technique": "用“多应用图标围绕”的视觉隐喻，快速建立“兼容很多平台/都能同步”的直觉认知，降低用户对迁移与连接成本的担忧。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部居中的大标题“All In Sync”，其次是画面中央偏下的黄色骑行图标",
+          "information_density": "low",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1E6FE6",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "absent"
+        },
+        "layout_pattern": {
+          "template_type": "floating_elements",
+          "whitespace_usage": "generous",
+          "element_count": 10,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.2,
+          "brand_consistency": 3.6,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "用大量第三方应用图标做“同步生态”表达",
+            "仅用一句“All In Sync”完成信息定调"
+          ],
+          "category_conventions": [
+            "用大标题+强对比背景快速传达单一卖点",
+            "用图标/徽标暗示兼容与连接"
+          ],
+          "innovations": [
+            "弱文案、强隐喻：用“图标矩阵/漂浮”替代传统的列表式兼容说明"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "使用多平台记录运动的人群",
+          "跑步/骑行/健康数据追踪用户",
+          "在意跨应用数据整合与同步体验的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "一句话主标题聚焦单一利益点（如同步/整合）",
+          "用“第三方图标墙/漂浮图标”做兼容性背书",
+          "高对比纯色背景提升可读性与停留率"
+        ],
+        "avoid_elements": [
+          "出现被裁切/不完整的文字（如“GARMI”）",
+          "缺少明确说明导致用户不清楚“同步什么、怎么同步”",
+          "图标过多但无分组，可能造成识别负担"
+        ],
+        "adaptation_notes": "VitaFlow 若强调“与多平台数据同步”，可沿用“单句大标题 + 多平台图标”的结构；同时建议补充一行可抄录的具体说明（例如列出关键平台名称或“Connect in 1 tap”类短句），并确保所有平台名称完整露出，避免裁切造成不专业观感。"
+      }
+    },
+    {
+      "index": 10,
+      "filename": "screenshot_10.png",
+      "position": "P10",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Explore\nExciting Features",
+          "subheadline": "",
+          "body_copy": [
+            "Scan barcodes",
+            "Set custom calorie and\nmacro goals",
+            "Customize your\ndashboard to track\nimportant macro and\nmicronutrients",
+            "Net Carbs mode",
+            "Integrated intermittent\nfasting tracker"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#2F6FEA",
+            "#1F5FD8"
+          ],
+          "color_mood": "cool",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": false,
+            "type": "none",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "USP"
+        },
+        "message_strategy": {
+          "primary_message": "集中罗列可探索的功能点，强调功能覆盖面与可定制性。",
+          "supporting_evidence": "用图标+要点清单的方式列出 5 个具体功能（扫码、目标设置、仪表盘自定义、净碳水模式、间歇性断食追踪）。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "提供多种饮食/营养追踪相关功能，并支持自定义目标与仪表盘。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "primacy_effect"
+          ],
+          "persuasion_technique": "用“Explore Exciting Features”作为总括标题，配合图标化清单降低理解成本（快速扫读），并通过多功能罗列制造“功能很全”的印象。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部居中的大标题“Explore Exciting Features”，其次是左侧彩色圆形图标+右侧功能要点列表。",
+          "information_density": "medium",
+          "hierarchy_score": 4.4
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#2F6FEA",
+          "color_scheme": "monochromatic",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "editorial",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.2,
+          "clarity": 4.6,
+          "brand_consistency": 4.3,
+          "uniqueness": 3.2
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "Net Carbs mode",
+            "Integrated intermittent\nfasting tracker"
+          ],
+          "category_conventions": [
+            "大标题+功能要点清单",
+            "图标辅助理解",
+            "纯色背景提升可读性"
+          ],
+          "innovations": [
+            "用多色圆形图标在单色背景上做功能分组与节奏变化（但整体仍是常规清单式呈现）。"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "需要记录饮食/营养的人群",
+          "关注宏量营养素与微量营养素的人群",
+          "低碳/控碳（Net Carbs）人群",
+          "间歇性断食实践者",
+          "偏好“自定义目标/仪表盘”的数据型用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "“大标题 + 5 条功能要点”结构用于快速传达功能覆盖面",
+          "左侧统一尺寸的圆形图标系统（提升扫读效率）",
+          "高对比白字+纯色背景（App Store 小屏也清晰）",
+          "将长句拆行以适配移动端阅读"
+        ],
+        "avoid_elements": [
+          "只有清单、缺少产品界面/结果画面支撑（说服力偏弱）",
+          "标题较泛（“Explore Exciting Features”信息密度不高）",
+          "功能点过于同质时容易与竞品截图雷同"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“标题+要点清单+图标”的高可读模板，但建议把标题改为更具体的价值表达，并在要点旁加入 1 个关键界面缩略图或局部放大（例如某个追踪面板/结果卡片）来增强可信度与差异化；同时优先突出 VitaFlow 最独特的 1-2 个功能点放在清单前两条。"
+      }
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → VP → AI_DEMO → CORE_FUNC → PERSONALIZATION → CORE_FUNC → CORE_FUNC → CORE_FUNC → INTEGRATION → CORE_FUNC",
+    "sequence_cluster": "ai_driven",
+    "narrative_arc": "从VP开始，以CORE_FUNC结束",
+    "strengths": [
+      "视觉吸引力高 (4.5/5)",
+      "信息传达清晰 (4.6/5)"
+    ],
+    "weaknesses": [],
+    "key_takeaways": [
+      "扫描取景框覆盖在食物照片上的视觉隐喻",
+      "大标题 + 单一核心功能命名（如“Fitness & Food Diary”）",
+      "指令式强标题（如“Scan Your Food”）",
+      "大标题一句话点明单一卖点（如“Personalize Your Dashboard”）",
+      "单一强 CTA（按钮文案直接描述动作）"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 2,
+      "AI_DEMO": 1,
+      "CORE_FUNC": 5,
+      "PERSONALIZATION": 1,
+      "INTEGRATION": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 8,
+      "Food_Image": 4,
+      "Data_Viz": 7,
+      "logo": 1,
+      "Human": 3,
+      "app_name": 2
+    },
+    "psychology_coverage": {
+      "cialdini": [
+        "commitment",
+        "liking",
+        "scarcity",
+        "social_proof",
+        "authority"
+      ],
+      "cognitive_biases": [
+        "goal_gradient_effect",
+        "novelty",
+        "anchoring",
+        "cognitive_fluency",
+        "primacy_effect",
+        "bandwagon"
+      ]
+    },
+    "design_score_averages": {
+      "visual_appeal": 4.45,
+      "clarity": 4.59,
+      "brand_consistency": 4.44,
+      "uniqueness": 3.44
+    }
+  }
+}

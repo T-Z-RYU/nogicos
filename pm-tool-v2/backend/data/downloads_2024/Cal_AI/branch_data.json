@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "fork_points": [
+    {
+      "index": 2,
+      "name": ""
+    }
+  ],
+  "merge_points": [],
+  "branches": [
+    {
+      "id": "branch_20251220062323_0",
+      "name": "减重",
+      "color": "#22c55e",
+      "fork_from": 2,
+      "screens": [
+        2,
+        3,
+        4
+      ],
+      "merge_to": null
+    },
+    {
+      "id": "branch_20251221044515_1",
+      "name": "分支2",
+      "color": "#22c55e",
+      "fork_from": 2,
+      "screens": [
+        2,
+        3,
+        4
+      ],
+      "merge_to": null
+    }
+  ],
+  "updated_at": "2025-12-21T04:45:15.266179"
+}

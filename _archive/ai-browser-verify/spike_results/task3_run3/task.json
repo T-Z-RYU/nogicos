@@ -1,0 +1,4 @@
+{
+  "type": "prod",
+  "task": "Click on the 'new' link in the navigation, then return the title of the first news item."
+}

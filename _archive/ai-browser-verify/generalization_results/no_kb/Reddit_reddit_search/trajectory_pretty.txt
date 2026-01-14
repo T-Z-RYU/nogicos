@@ -1,0 +1,298 @@
+<state 0>
+URL: /r/programming/
+Title: programming
+
+document: "programming" {
+  link: "popular", url: "/r/popular/";
+  link: "all", url: "/r/all/";
+  link: "users", url: "/users/";
+  link: "AskReddit", url: "/r/AskReddit/";
+  link: "pics", url: "/r/pics/";
+  link: "funny", url: "/r/funny/";
+  link: "movies", url: "/r/movies/";
+  link: "worldnews", url: "/r/worldnews/";
+  link: "news", url: "/r/news/";
+  link: "todayilearned", url: "/r/todayilearned/";
+  link: "nottheonion", url: "/r/nottheonion/";
+  link: "explainlikeimfive", url: "/r/explainlikeimfive/";
+  link: "mildlyinteresting", url: "/r/mildlyinteresting/";
+  link: "DIY", url: "/r/DIY/";
+  link: "videos", url: "/r/videos/";
+  link: "more »", url: "/subreddits/";
+  link: "programming", url: "/";
+  link: "programming", url: "/r/programming/";
+  link: "hot", url: "/r/programming/";
+  link: "new", url: "/r/programming/new/";
+  link: "rising", url: "/r/programming/rising/";
+  link: "controversial", url: "/r/programming/controversial/";
+  link: "top", url: "/r/programming/top/";
+  link: "wiki", url: "/r/programming/wiki/";
+  link: "Log in", url: "https://www.reddit.com/login";
+  link: "sign up", url: "https://www.reddit.com/login";
+  search {
+    textbox: "search";
+    button: "Submit";
+  };
+
+  link: "Submit a new link", url: "/r/programming/submit";
+  link: "Get an ad-free experience with special benefits, and directly support Reddit. get reddit premium", url: "/premium";
+  heading: "programming", level: 1 {
+    link: "programming", url: "/r/programming/";
+  };
+
+  link: "join", url: "";
+  link: "/r/programming", url: "/r/programming";
+  link: "computer programming", url: "http://en.wikipedia.org/wiki/Computer_programming";
+  link: "reddiquette", url: "https://www.reddit.com/help/reddiquette";
+  link: "/r/learnprogramming", url: "/r/learnprogramming";
+  link: "/r/cscareerquestions", url: "/r/cscareerquestions";
+  link: "Stack Overflow", url: "https://stackoverflow.com/";
+  main {
+    link: "Welcome to Reddit, the front page of the internet. Become a Redditor and join one of thousands of communities.", url: "/login";
+    link: "×", url: "";
+    button: "upvote";
+    button: "downvote";
+    link: "Zelda: Twilight Princess Has Been Decompiled", url: "https://www.timeextension.com/news/2025/12/zelda-twilight-princess-has-been-decompiled";
+    link: "timeextension.com", url: "/domain/timeextension.com/";
+    link: "r_retrohacking_mod2", url: "/user/r_retrohacking_mod2";
+    link: "8 comments", url: "/r/programming/comments/1pussnd/zelda_twilight_princess_has_been_decompiled/";
+    link: "share", url: "javascript:...";
+    link: "save", url: "";
+    link: "hide", url: "javascript:...";
+    link: "report", url: "javascript:...";
+    button: "upvote";
+    button: "downvote";
+    link, url: "https://alb.reddit.com/cr";
+    link: "Your 6-month Angular migration is now in year two. You're not alone.", url: "https://alb.reddit.com/cr";
+    link: "herodevs", url: "/user/herodevs";
+    link: "save", url: "";
+    link: "report", url: "javascript:...";
+    link: "about", url: "javascript:...";
+    button: "upvote";
+    button: "downvote";
+    link: "How We Reduced a 1.5GB Database by 99%", url: "https://cardogio.substack.com/p/database-optimization-corgi";
+    link: "cardogio.substack.com", url: "/domain/cardogio.substack.com/";
+    link: "Moist_Test1013", url: "/user/Moist_Test1013";
+    link: "144 comments", url: "/r/programming/comments/1puavnz/how_we_reduced_a_15gb_database_by_99/";
+    link: "share", url: "javascript:...";
+    link: "save", url: "";
+    link: "hide", url: "javascript:...";
+    link: "report", url: "javascript:...";
+    button: "upvote";
+    button: "downvote";
+    link: "Fifty problems with standard web APIs in 2025", url: "https://zerotrickpony.com/articles/browser-bugs/";
+    link: "zerotrickpony.com", url: "/domain/zerotrickpony.com/";
+    link: "Ok-Tune-1346", url: "/user/Ok-Tune-1346";
+    link: "39 comments", url: "/r/programming/comments/1pu5zhy/fifty_problems_with_standard_web_apis_in_2025/";
+    link: "share", url: "javascript:...";
+    link: "save", url: "";
+    link: "hide", url: "javascript:...";
+    link: "report", url: "javascript:...";
+    button: "upvote";
+    button: "downvote";
+    link: "I built a script-based pipeline to generate animations from text", url: "https://www.example.com";
+    link: "example.com", url: "/domain/example.com/";
+    link: "Ok-Bodybuilder-3337", url: "/user/Ok-Bodybuilder-3337";
+    link: "1 comment", url: "/r/programming/comments/1pv1ofp/i_built_a_scriptbased_pipeline_to_generate/";
+    link: "share", url: "javascript:...";
+    link: "save", url: "";
+    link: "hide", url: "javascript:...";
+    link: "report", url: "javascript:...";
+    button: "upvote";
+    button: "downvote";
+    link: "Fabrice Bellard Releases MicroQuickJS", url: "https://github.com/bellard/mquickjs/blob/main/README.md";
+    link: "github.com", url: "/domain/github.com/";
+    link: "Ok-Tune-1346", url: "/user/Ok-Tune-1346";
+    link: "9 comments", url: "/r/programming/comments/1pu1ois/fabrice_bellard_releases_microquickjs/";
+    link: "share", url: "javascript:...";
+    link: "save", url: "";
+    link: "hide", url: "javascript:...";
+    link: "report", url: "javascript:...";
+    button: "upvote";
+    button: "downvote";
+    link: "LLVM considering an AI tool policy, AI bot for fixing build system breakage proposed", url: "https://www.phoronix.com/news/LLVM-AI-Tool-Policy-RFC";
+    link: "phoronix.com", url: "/domain/phoronix.com/";
+    link: "Fcking_Chuck", url: "/user/Fcking_Chuck";
+    link: "60 comments", url: "/r/programming/comments/1ptwvch/llvm_considering_an_ai_tool_policy_ai_bot_for/";
+    link: "share", url: "javascript:...";
+    link: "save", url: "";
+    link: "hide", url: "javascript:...";
+    link: "report", url: "javascript:...";
+    button: "upvote";
+    button: "downvote";
+    link: "Specification addressing inefficiencies in crawling of structured content for AI", url: "https://github.com/crawlcore/scp-protocol";
+    link: "github.com", url: "/domain/github.com/";
+    link: "AdhesivenessCrazy950", url: "/user/AdhesivenessCrazy950";
+    link: "4 comments", url: "/r/programming/comments/1puyk3x/specification_addressing_inefficiencies_in/";
+    link: "share", url: "javascript:...";
+    link: "save", url: "";
+    link: "hide", url: "javascript:...";
+    link: "report", url: "javascript:...";
+    link: "Numbers Every Programmer Should Know", url: "https://youtu.be/EikOKSBnWaQ";
+  };
+};
+
+</state 0>
+
+<reasoning>
+We need to perform a search for the query 'machine learning' using the on-page search form. The accessibility tree shows a `search` region containing a textbox named 'search' and a button named 'Submit'. No knowledge_base functions are available (functions list is empty), so we will use direct Playwright actions. We'll fill the textbox and click Submit, expecting navigation to search results; clicking submit should be the last action that triggers navigation, followed by a wait for load.
+</reasoning>
+
+<code>
+import asyncio
+
+async def act(page):
+    # Fill the search box with the query
+    search_region = page.get_by_role("search")
+    await search_region.get_by_role("textbox", name="search").fill("machine learning")
+
+    # Submit the search (likely navigates to results)
+    async with page.expect_navigation():
+        await search_region.get_by_role("button", name="Submit").click()
+
+</code>
+
+---
+
+<state 1>
+URL: /r/programming/search?q=machine+learning
+Title: programming: search results - machine learning
+
+document: "programming: search results - machine learning" {
+  link: "popular", url: "/r/popular/";
+  link: "all", url: "/r/all/";
+  link: "users", url: "/users/";
+  link: "AskReddit", url: "/r/AskReddit/";
+  link: "pics", url: "/r/pics/";
+  link: "funny", url: "/r/funny/";
+  link: "movies", url: "/r/movies/";
+  link: "worldnews", url: "/r/worldnews/";
+  link: "news", url: "/r/news/";
+  link: "todayilearned", url: "/r/todayilearned/";
+  link: "nottheonion", url: "/r/nottheonion/";
+  link: "explainlikeimfive", url: "/r/explainlikeimfive/";
+  link: "mildlyinteresting", url: "/r/mildlyinteresting/";
+  link: "DIY", url: "/r/DIY/";
+  link: "videos", url: "/r/videos/";
+  link: "more »", url: "/subreddits/";
+  link: "programming", url: "/";
+  link: "programming", url: "/r/programming/";
+  link: "Log in", url: "https://www.reddit.com/login";
+  link: "sign up", url: "https://www.reddit.com/login";
+  link: "Submit a new link", url: "/r/programming/submit";
+  link: "Get an ad-free experience with special benefits, and directly support Reddit. get reddit premium", url: "/premium";
+  heading: "programming", level: 1 {
+    link: "programming", url: "/r/programming/";
+  };
+
+  link: "join", url: "";
+  link: "/r/programming", url: "/r/programming";
+  link: "computer programming", url: "http://en.wikipedia.org/wiki/Computer_programming";
+  link: "reddiquette", url: "https://www.reddit.com/help/reddiquette";
+  link: "/r/learnprogramming", url: "/r/learnprogramming";
+  link: "/r/cscareerquestions", url: "/r/cscareerquestions";
+  link: "Stack Overflow", url: "https://stackoverflow.com/";
+  link: "/r/ProgrammerHumor/", url: "/r/ProgrammerHumor/";
+  main {
+    search {
+      textbox: "search";
+      button: "Search";
+      checkbox: "limit my search to r/programming";
+      link: "advanced search: by author, subreddit...", url: "https://www.reddit.com/wiki/search";
+    };
+
+    link: "Getting into Machine Learning", url: "/r/learnmachinelearning/comments/1pgo6xr/getting_into_machine_learning/";
+    link: "18 comments", url: "/r/learnmachinelearning/comments/1pgo6xr/getting_into_machine_learning/";
+    link: "Working_Dress9277", url: "/user/Working_Dress9277";
+    link: "r/learnmachinelearning", url: "/r/learnmachinelearning/";
+    link: "I switched to Machine Learning and I am LOST", url: "/r/learnmachinelearning/comments/1oiqsax/i_switched_to_machine_learning_and_i_am_lost/";
+    link: "43 comments", url: "/r/learnmachinelearning/comments/1oiqsax/i_switched_to_machine_learning_and_i_am_lost/";
+    link: "Hertz314159", url: "/user/Hertz314159";
+    link: "r/learnmachinelearning", url: "/r/learnmachinelearning/";
+    link: "Best resources to learn Machine Learning deeply in 2–3 months?", url: "/r/learnmachinelearning/comments/1mtjv2v/best_resources_to_learn_machine_learning_deeply/";
+    link: "78 comments", url: "/r/learnmachinelearning/comments/1mtjv2v/best_resources_to_learn_machine_learning_deeply/";
+    link: "vansh596", url: "/user/vansh596";
+    link: "r/learnmachinelearning", url: "/r/learnmachinelearning/";
+    link: "How do you learn machine learning?", url: "/r/computerscience/comments/1p05aon/how_do_you_learn_machine_learning/";
+    link: "40 comments", url: "/r/computerscience/comments/1p05aon/how_do_you_learn_machine_learning/";
+    link: "ShortImplement4486", url: "/user/ShortImplement4486";
+    link: "r/computerscience", url: "/r/computerscience/";
+  };
+};
+
+</state 1>
+
+<terminate_with_result>
+machine learning
+</terminate_with_result>
+
+---
+
+<state 2>
+URL: /r/programming/search?q=machine+learning
+Title: programming: search results - machine learning
+
+document: "programming: search results - machine learning" {
+  link: "popular", url: "/r/popular/";
+  link: "all", url: "/r/all/";
+  link: "users", url: "/users/";
+  link: "AskReddit", url: "/r/AskReddit/";
+  link: "pics", url: "/r/pics/";
+  link: "funny", url: "/r/funny/";
+  link: "movies", url: "/r/movies/";
+  link: "worldnews", url: "/r/worldnews/";
+  link: "news", url: "/r/news/";
+  link: "todayilearned", url: "/r/todayilearned/";
+  link: "nottheonion", url: "/r/nottheonion/";
+  link: "explainlikeimfive", url: "/r/explainlikeimfive/";
+  link: "mildlyinteresting", url: "/r/mildlyinteresting/";
+  link: "DIY", url: "/r/DIY/";
+  link: "videos", url: "/r/videos/";
+  link: "more »", url: "/subreddits/";
+  link: "programming", url: "/";
+  link: "programming", url: "/r/programming/";
+  link: "Log in", url: "https://www.reddit.com/login";
+  link: "sign up", url: "https://www.reddit.com/login";
+  link: "Submit a new link", url: "/r/programming/submit";
+  link: "Get an ad-free experience with special benefits, and directly support Reddit. get reddit premium", url: "/premium";
+  heading: "programming", level: 1 {
+    link: "programming", url: "/r/programming/";
+  };
+
+  link: "join", url: "";
+  link: "/r/programming", url: "/r/programming";
+  link: "computer programming", url: "http://en.wikipedia.org/wiki/Computer_programming";
+  link: "reddiquette", url: "https://www.reddit.com/help/reddiquette";
+  link: "/r/learnprogramming", url: "/r/learnprogramming";
+  link: "/r/cscareerquestions", url: "/r/cscareerquestions";
+  link: "Stack Overflow", url: "https://stackoverflow.com/";
+  link: "/r/ProgrammerHumor/", url: "/r/ProgrammerHumor/";
+  main {
+    search {
+      textbox: "search";
+      button: "Search";
+      checkbox: "limit my search to r/programming";
+      link: "advanced search: by author, subreddit...", url: "https://www.reddit.com/wiki/search";
+    };
+
+    link: "Getting into Machine Learning", url: "/r/learnmachinelearning/comments/1pgo6xr/getting_into_machine_learning/";
+    link: "18 comments", url: "/r/learnmachinelearning/comments/1pgo6xr/getting_into_machine_learning/";
+    link: "Working_Dress9277", url: "/user/Working_Dress9277";
+    link: "r/learnmachinelearning", url: "/r/learnmachinelearning/";
+    link: "I switched to Machine Learning and I am LOST", url: "/r/learnmachinelearning/comments/1oiqsax/i_switched_to_machine_learning_and_i_am_lost/";
+    link: "43 comments", url: "/r/learnmachinelearning/comments/1oiqsax/i_switched_to_machine_learning_and_i_am_lost/";
+    link: "Hertz314159", url: "/user/Hertz314159";
+    link: "r/learnmachinelearning", url: "/r/learnmachinelearning/";
+    link: "Best resources to learn Machine Learning deeply in 2–3 months?", url: "/r/learnmachinelearning/comments/1mtjv2v/best_resources_to_learn_machine_learning_deeply/";
+    link: "78 comments", url: "/r/learnmachinelearning/comments/1mtjv2v/best_resources_to_learn_machine_learning_deeply/";
+    link: "vansh596", url: "/user/vansh596";
+    link: "r/learnmachinelearning", url: "/r/learnmachinelearning/";
+    link: "How do you learn machine learning?", url: "/r/computerscience/comments/1p05aon/how_do_you_learn_machine_learning/";
+    link: "40 comments", url: "/r/computerscience/comments/1p05aon/how_do_you_learn_machine_learning/";
+    link: "ShortImplement4486", url: "/user/ShortImplement4486";
+    link: "r/computerscience", url: "/r/computerscience/";
+  };
+};
+
+</state 2>
+

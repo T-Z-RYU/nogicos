@@ -1,0 +1,906 @@
+<state 0>
+URL: /
+Title: Hacker News
+
+document: "Hacker News" {
+  table {
+    rowgroup {
+      row: "Hacker Newsnew | past | comments | ask | show | jobs | submit login" {
+        cell: "Hacker Newsnew | past | comments | ask | show | jobs | submit login" {
+          table {
+            rowgroup {
+              row: "Hacker Newsnew | past | comments | ask | show | jobs | submit login" {
+                cell {
+                  link, url: "";
+                };
+
+                cell: "Hacker Newsnew | past | comments | ask | show | jobs | submit" {
+                  link: "Hacker News", url: "news";
+                  link: "new", url: "newest";
+                  link: "past", url: "front";
+                  link: "comments", url: "newcomments";
+                  link: "ask", url: "ask";
+                  link: "show", url: "show";
+                  link: "jobs", url: "jobs";
+                  link: "submit", url: "submit";
+                };
+
+                cell: "login" {
+                  link: "login", url: "login?goto=news";
+                };
+              };
+            };
+          };
+        };
+      };
+
+      row;
+      row: "1. upvote Maybe the default settings are too high (raptitude.com) 182 points by htk 2 hours ago | hide | 56 comments 2. upvote MiniMax M2.1: Built for Real-World Complex Tasks, Multi-Language Programming (minimaxi.com) 28 points by 110 55 minutes ago | hide | 4 comments 3. upvote Python 3.15’s interpreter for Windows x86-64 should hopefully be 15% faster (fidget-spinner.github.io) 321 points by lumpa 12 hours ago | hide | 104 comments 4. upvote Fahrplan – 39C3 (ccc.de) 136 points by rurban 7 hours ago | hide | 15 comments 5. upvote Paperbacks and TikTok (calnewport.com) 61 points by zdw 5 hours ago | hide | 31 comments 6. upvote The entire New Yorker archive is now digitized (newyorker.com) 338 points by thm 13 hours ago | hide | 50 comments 7. upvote CUDA Tile Open Sourced (github.com/nvidia) 144 points by JonChesterfield 9 hours ago | hide | 45 comments 8. upvote Archiving Git branches as tags (octavore.com) 82 points by octavore 7 hours ago | hide | 22 comments 9. upvote Asahi Linux with Sway on the MacBook Air M2 (2024) (lawrence.lu) 184 points by andsoitis 11 hours ago | hide | 162 comments 10. upvote The Program 2025 annual review: How much money does an audio drama podcast make? (programaudioseries.com) 39 points by I-M-S 4 hours ago | hide | 12 comments 11. upvote Critical vulnerability in LangChain – CVE-2025-68664 (cyata.ai) 71 points by shahartal 7 hours ago | hide | 47 comments 12. upvote Show HN: Lamp Carousel – DIY kinetic sculpture powered by lamp heat (2024) (widloski.com) 67 points by Evidlo 8 hours ago | hide | 12 comments 13. upvote I sell onions on the Internet (2019) (deepsouthventures.com) 366 points by sogen 9 hours ago | hide | 111 comments 14. upvote Phoenix: A modern X server written from scratch in Zig (dec05eba.com) 628 points by snvzz 1 day ago | hide | 382 comments 15. upvote Reinventing the dial-up modem (2019) (saket.me) 6 points by todsacerdoti 2 hours ago | hide | 1 comment 16. upvote When a driver challenges the kernel's assumptions (online.fr) 5 points by todsacerdoti 1 hour ago | hide | discuss 17. upvote Choosing the Right Python Docker Image for Finance Workloads (jiripik.com) 8 points by jiripik 2 hours ago | hide | 3 comments 18. upvote Google is 'gradually rolling out' option to change your gmail.com address (9to5google.com) 100 points by geox 4 hours ago | hide | 92 comments 19. upvote Alzheimer’s disease can be reversed in animal models? Study (case.edu) 425 points by thunderbong 10 hours ago | hide | 106 comments 20. upvote Tell HN: Merry Christmas 1888 points by basilikum 1 day ago | hide | 406 comments 21. upvote Geometric Algorithms for Translucency Sorting in Minecraft [pdf] (douira.dev) 34 points by HeliumHydride 7 hours ago | hide | 7 comments 22. upvote We invited a man into our home at Christmas and he stayed with us for 45 years (bbc.co.uk) 923 points by rajeshrajappan 15 hours ago | hide | 219 comments 23. Clearspace (YC W23) Is Hiring a Founding Network Engineer (VPN and Proxy) (ycombinator.com) 8 hours ago | hide 24. upvote Toys with the highest play-time and lowest clean-up-time (joannabregan.substack.com) 292 points by surprisetalk 12 hours ago | hide | 156 comments 25. upvote Dasharo TrustRoot Ephemeral Key Incident (3mdeb.com) 14 points by pietrushnic 3 hours ago | hide | 2 comments 26. upvote Fabrice Bellard Releases MicroQuickJS (github.com/bellard) 1438 points by Aissen 2 days ago | hide | 540 comments 27. upvote Show HN: Minimalist editor that lives in browser, stores everything in the URL (github.com/antonmedv) 437 points by medv 1 day ago | hide | 160 comments 28. upvote Who Watches the Waymos? I do [video] (youtube.com) 270 points by notgloating 1 day ago | hide | 99 comments 29. upvote Show HN: Exploring Mathematics with Python (psu.ac.th) 242 points by Andrew2565 1 day ago | hide | 24 comments 30. upvote Memory Safety (memorysafety.org) 47 points by pmaddams 4 hours ago | hide | 50 comments More" {
+        cell: "1. upvote Maybe the default settings are too high (raptitude.com) 182 points by htk 2 hours ago | hide | 56 comments 2. upvote MiniMax M2.1: Built for Real-World Complex Tasks, Multi-Language Programming (minimaxi.com) 28 points by 110 55 minutes ago | hide | 4 comments 3. upvote Python 3.15’s interpreter for Windows x86-64 should hopefully be 15% faster (fidget-spinner.github.io) 321 points by lumpa 12 hours ago | hide | 104 comments 4. upvote Fahrplan – 39C3 (ccc.de) 136 points by rurban 7 hours ago | hide | 15 comments 5. upvote Paperbacks and TikTok (calnewport.com) 61 points by zdw 5 hours ago | hide | 31 comments 6. upvote The entire New Yorker archive is now digitized (newyorker.com) 338 points by thm 13 hours ago | hide | 50 comments 7. upvote CUDA Tile Open Sourced (github.com/nvidia) 144 points by JonChesterfield 9 hours ago | hide | 45 comments 8. upvote Archiving Git branches as tags (octavore.com) 82 points by octavore 7 hours ago | hide | 22 comments 9. upvote Asahi Linux with Sway on the MacBook Air M2 (2024) (lawrence.lu) 184 points by andsoitis 11 hours ago | hide | 162 comments 10. upvote The Program 2025 annual review: How much money does an audio drama podcast make? (programaudioseries.com) 39 points by I-M-S 4 hours ago | hide | 12 comments 11. upvote Critical vulnerability in LangChain – CVE-2025-68664 (cyata.ai) 71 points by shahartal 7 hours ago | hide | 47 comments 12. upvote Show HN: Lamp Carousel – DIY kinetic sculpture powered by lamp heat (2024) (widloski.com) 67 points by Evidlo 8 hours ago | hide | 12 comments 13. upvote I sell onions on the Internet (2019) (deepsouthventures.com) 366 points by sogen 9 hours ago | hide | 111 comments 14. upvote Phoenix: A modern X server written from scratch in Zig (dec05eba.com) 628 points by snvzz 1 day ago | hide | 382 comments 15. upvote Reinventing the dial-up modem (2019) (saket.me) 6 points by todsacerdoti 2 hours ago | hide | 1 comment 16. upvote When a driver challenges the kernel's assumptions (online.fr) 5 points by todsacerdoti 1 hour ago | hide | discuss 17. upvote Choosing the Right Python Docker Image for Finance Workloads (jiripik.com) 8 points by jiripik 2 hours ago | hide | 3 comments 18. upvote Google is 'gradually rolling out' option to change your gmail.com address (9to5google.com) 100 points by geox 4 hours ago | hide | 92 comments 19. upvote Alzheimer’s disease can be reversed in animal models? Study (case.edu) 425 points by thunderbong 10 hours ago | hide | 106 comments 20. upvote Tell HN: Merry Christmas 1888 points by basilikum 1 day ago | hide | 406 comments 21. upvote Geometric Algorithms for Translucency Sorting in Minecraft [pdf] (douira.dev) 34 points by HeliumHydride 7 hours ago | hide | 7 comments 22. upvote We invited a man into our home at Christmas and he stayed with us for 45 years (bbc.co.uk) 923 points by rajeshrajappan 15 hours ago | hide | 219 comments 23. Clearspace (YC W23) Is Hiring a Founding Network Engineer (VPN and Proxy) (ycombinator.com) 8 hours ago | hide 24. upvote Toys with the highest play-time and lowest clean-up-time (joannabregan.substack.com) 292 points by surprisetalk 12 hours ago | hide | 156 comments 25. upvote Dasharo TrustRoot Ephemeral Key Incident (3mdeb.com) 14 points by pietrushnic 3 hours ago | hide | 2 comments 26. upvote Fabrice Bellard Releases MicroQuickJS (github.com/bellard) 1438 points by Aissen 2 days ago | hide | 540 comments 27. upvote Show HN: Minimalist editor that lives in browser, stores everything in the URL (github.com/antonmedv) 437 points by medv 1 day ago | hide | 160 comments 28. upvote Who Watches the Waymos? I do [video] (youtube.com) 270 points by notgloating 1 day ago | hide | 99 comments 29. upvote Show HN: Exploring Mathematics with Python (psu.ac.th) 242 points by Andrew2565 1 day ago | hide | 24 comments 30. upvote Memory Safety (memorysafety.org) 47 points by pmaddams 4 hours ago | hide | 50 comments More" {
+          table {
+            rowgroup {
+              row: "1. upvote Maybe the default settings are too high (raptitude.com)" {
+                cell: "1.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Maybe the default settings are too high (raptitude.com)" {
+                  link: "Maybe the default settings are too high", url: "https://www.raptitude.com/2025/12/maybe-the-default-settings-are-too-high/";
+                  link: "raptitude.com", url: "from?site=raptitude.com";
+                };
+              };
+
+              row: "182 points by htk 2 hours ago | hide | 56 comments" {
+                cell;
+                cell: "182 points by htk 2 hours ago | hide | 56 comments" {
+                  link: "htk", url: "user?id=htk";
+                  link: "2 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "56 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "2. upvote MiniMax M2.1: Built for Real-World Complex Tasks, Multi-Language Programming (minimaxi.com)" {
+                cell: "2.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "MiniMax M2.1: Built for Real-World Complex Tasks, Multi-Language Programming (minimaxi.com)" {
+                  link: "MiniMax M2.1: Built for Real-World Complex Tasks, Multi-Language Programming", url: "https://www.minimaxi.com/news/minimax-m21";
+                  link: "minimaxi.com", url: "from";
+                };
+              };
+
+              row: "28 points by 110 55 minutes ago | hide | 4 comments" {
+                cell;
+                cell: "28 points by 110 55 minutes ago | hide | 4 comments" {
+                  link: "110", url: "user?id=110";
+                  link: "55 minutes ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "4 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "3. upvote Python 3.15’s interpreter for Windows x86-64 should hopefully be 15% faster (fidget-spinner.github.io)" {
+                cell: "3.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Python 3.15’s interpreter for Windows x86-64 should hopefully be 15% faster (fidget-spinner.github.io)" {
+                  link: "Python 3.15’s interpreter for Windows x86-64 should hopefully be 15% faster", url: "https://fidget-spinner.github.io/posts/no-longer-sorry.html";
+                  link: "fidget-spinner.github.io", url: "from?site=fidget-spinner.github.io";
+                };
+              };
+
+              row: "321 points by lumpa 12 hours ago | hide | 104 comments" {
+                cell;
+                cell: "321 points by lumpa 12 hours ago | hide | 104 comments" {
+                  link: "lumpa", url: "user";
+                  link: "12 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "104 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "4. upvote Fahrplan – 39C3 (ccc.de)" {
+                cell: "4.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Fahrplan – 39C3 (ccc.de)" {
+                  link: "Fahrplan – 39C3", url: "https://fahrplan.events.ccc.de/congress/2025/fahrplan/";
+                  link: "ccc.de", url: "from?site=ccc.de";
+                };
+              };
+
+              row: "136 points by rurban 7 hours ago | hide | 15 comments" {
+                cell;
+                cell: "136 points by rurban 7 hours ago | hide | 15 comments" {
+                  link: "rurban", url: "user?id=rurban";
+                  link: "7 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "15 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "5. upvote Paperbacks and TikTok (calnewport.com)" {
+                cell: "5.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Paperbacks and TikTok (calnewport.com)" {
+                  link: "Paperbacks and TikTok", url: "https://calnewport.com/on-paperbacks-and-tiktok/";
+                  link: "calnewport.com", url: "from?site=calnewport.com";
+                };
+              };
+
+              row: "61 points by zdw 5 hours ago | hide | 31 comments" {
+                cell;
+                cell: "61 points by zdw 5 hours ago | hide | 31 comments" {
+                  link: "zdw", url: "user?id=zdw";
+                  link: "5 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "31 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "6. upvote The entire New Yorker archive is now digitized (newyorker.com)" {
+                cell: "6.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "The entire New Yorker archive is now digitized (newyorker.com)" {
+                  link: "The entire New Yorker archive is now digitized", url: "https://www.newyorker.com/news/press-room/the-entire-new-yorker-archive-is-now-fully-digitized";
+                  link: "newyorker.com", url: "from";
+                };
+              };
+
+              row: "338 points by thm 13 hours ago | hide | 50 comments" {
+                cell;
+                cell: "338 points by thm 13 hours ago | hide | 50 comments" {
+                  link: "thm", url: "user?id=thm";
+                  link: "13 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "50 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "7. upvote CUDA Tile Open Sourced (github.com/nvidia)" {
+                cell: "7.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "CUDA Tile Open Sourced (github.com/nvidia)" {
+                  link: "CUDA Tile Open Sourced", url: "https://github.com/NVIDIA/cuda-tile";
+                  link: "github.com/nvidia", url: "from?site=github.com%2Fnvidia";
+                };
+              };
+
+              row: "144 points by JonChesterfield 9 hours ago | hide | 45 comments" {
+                cell;
+                cell: "144 points by JonChesterfield 9 hours ago | hide | 45 comments" {
+                  link: "JonChesterfield", url: "user?id=JonChesterfield";
+                  link: "9 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "45 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "8. upvote Archiving Git branches as tags (octavore.com)" {
+                cell: "8.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Archiving Git branches as tags (octavore.com)" {
+                  link: "Archiving Git branches as tags", url: "https://etc.octavore.com/2025/12/archiving-git-branches-as-tags/";
+                  link: "octavore.com", url: "from";
+                };
+              };
+
+              row: "82 points by octavore 7 hours ago | hide | 22 comments" {
+                cell;
+                cell: "82 points by octavore 7 hours ago | hide | 22 comments" {
+                  link: "octavore", url: "user";
+                  link: "7 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "22 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "9. upvote Asahi Linux with Sway on the MacBook Air M2 (2024) (lawrence.lu)" {
+                cell: "9.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Asahi Linux with Sway on the MacBook Air M2 (2024) (lawrence.lu)" {
+                  link: "Asahi Linux with Sway on the MacBook Air M2 (2024)", url: "https://daniel.lawrence.lu/blog/2024-12-01-asahi-linux-with-sway-on-the-macbook-air-m2/";
+                  link: "lawrence.lu", url: "from";
+                };
+              };
+
+              row: "184 points by andsoitis 11 hours ago | hide | 162 comments" {
+                cell;
+                cell: "184 points by andsoitis 11 hours ago | hide | 162 comments" {
+                  link: "andsoitis", url: "user";
+                  link: "11 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "162 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "10. upvote The Program 2025 annual review: How much money does an audio drama podcast make? (programaudioseries.com)" {
+                cell: "10.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "The Program 2025 annual review: How much money does an audio drama podcast make? (programaudioseries.com)" {
+                  link: "The Program 2025 annual review: How much money does an audio drama podcast make?", url: "https://programaudioseries.com/the-program-results-7/";
+                  link: "programaudioseries.com", url: "from?site=programaudioseries.com";
+                };
+              };
+
+              row: "39 points by I-M-S 4 hours ago | hide | 12 comments" {
+                cell;
+                cell: "39 points by I-M-S 4 hours ago | hide | 12 comments" {
+                  link: "I-M-S", url: "user";
+                  link: "4 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "12 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "11. upvote Critical vulnerability in LangChain – CVE-2025-68664 (cyata.ai)" {
+                cell: "11.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Critical vulnerability in LangChain – CVE-2025-68664 (cyata.ai)" {
+                  link: "Critical vulnerability in LangChain – CVE-2025-68664", url: "https://cyata.ai/blog/langgrinch-langchain-core-cve-2025-68664/";
+                  link: "cyata.ai", url: "from";
+                };
+              };
+
+              row: "71 points by shahartal 7 hours ago | hide | 47 comments" {
+                cell;
+                cell: "71 points by shahartal 7 hours ago | hide | 47 comments" {
+                  link: "shahartal", url: "user";
+                  link: "7 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "47 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "12. upvote Show HN: Lamp Carousel – DIY kinetic sculpture powered by lamp heat (2024) (widloski.com)" {
+                cell: "12.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Show HN: Lamp Carousel – DIY kinetic sculpture powered by lamp heat (2024) (widloski.com)" {
+                  link: "Show HN: Lamp Carousel – DIY kinetic sculpture powered by lamp heat (2024)", url: "https://evan.widloski.com/posts/spinners/";
+                  link: "widloski.com", url: "from";
+                };
+              };
+
+              row: "67 points by Evidlo 8 hours ago | hide | 12 comments" {
+                cell;
+                cell: "67 points by Evidlo 8 hours ago | hide | 12 comments" {
+                  link: "Evidlo", url: "user";
+                  link: "8 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "12 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "13. upvote I sell onions on the Internet (2019) (deepsouthventures.com)" {
+                cell: "13.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "I sell onions on the Internet (2019) (deepsouthventures.com)" {
+                  link: "I sell onions on the Internet (2019)", url: "https://www.deepsouthventures.com/i-sell-onions-on-the-internet/";
+                  link: "deepsouthventures.com", url: "from?site=deepsouthventures.com";
+                };
+              };
+
+              row: "366 points by sogen 9 hours ago | hide | 111 comments" {
+                cell;
+                cell: "366 points by sogen 9 hours ago | hide | 111 comments" {
+                  link: "sogen", url: "user?id=sogen";
+                  link: "9 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "111 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "14. upvote Phoenix: A modern X server written from scratch in Zig (dec05eba.com)" {
+                cell: "14.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Phoenix: A modern X server written from scratch in Zig (dec05eba.com)" {
+                  link: "Phoenix: A modern X server written from scratch in Zig", url: "https://git.dec05eba.com/phoenix/about/";
+                  link: "dec05eba.com", url: "from";
+                };
+              };
+
+              row: "628 points by snvzz 1 day ago | hide | 382 comments" {
+                cell;
+                cell: "628 points by snvzz 1 day ago | hide | 382 comments" {
+                  link: "snvzz", url: "user";
+                  link: "1 day ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "382 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "15. upvote Reinventing the dial-up modem (2019) (saket.me)" {
+                cell: "15.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Reinventing the dial-up modem (2019) (saket.me)" {
+                  link: "Reinventing the dial-up modem (2019)", url: "https://saket.me/dtmf-tones/";
+                  link: "saket.me", url: "from";
+                };
+              };
+
+              row: "6 points by todsacerdoti 2 hours ago | hide | 1 comment" {
+                cell;
+                cell: "6 points by todsacerdoti 2 hours ago | hide | 1 comment" {
+                  link: "todsacerdoti", url: "user";
+                  link: "2 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "1 comment", url: "item";
+                };
+              };
+
+              row;
+              row: "16. upvote When a driver challenges the kernel's assumptions (online.fr)" {
+                cell: "16.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "When a driver challenges the kernel's assumptions (online.fr)" {
+                  link: "When a driver challenges the kernel's assumptions", url: "http://miod.online.fr/software/openbsd/stories/udl.html";
+                  link: "online.fr", url: "from?site=online.fr";
+                };
+              };
+
+              row: "5 points by todsacerdoti 1 hour ago | hide | discuss" {
+                cell;
+                cell: "5 points by todsacerdoti 1 hour ago | hide | discuss" {
+                  link: "todsacerdoti", url: "user";
+                  link: "1 hour ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "discuss", url: "item";
+                };
+              };
+
+              row;
+              row: "17. upvote Choosing the Right Python Docker Image for Finance Workloads (jiripik.com)" {
+                cell: "17.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Choosing the Right Python Docker Image for Finance Workloads (jiripik.com)" {
+                  link: "Choosing the Right Python Docker Image for Finance Workloads", url: "https://jiripik.com/2025/12/19/choosing-the-right-python-docker-image-for-finance-workloads/";
+                  link: "jiripik.com", url: "from";
+                };
+              };
+
+              row: "8 points by jiripik 2 hours ago | hide | 3 comments" {
+                cell;
+                cell: "8 points by jiripik 2 hours ago | hide | 3 comments" {
+                  link: "jiripik", url: "user";
+                  link: "2 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "3 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "18. upvote Google is 'gradually rolling out' option to change your gmail.com address (9to5google.com)" {
+                cell: "18.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Google is 'gradually rolling out' option to change your gmail.com address (9to5google.com)" {
+                  link: "Google is 'gradually rolling out' option to change your gmail.com address", url: "https://9to5google.com/2025/12/24/google-change-gmail-addresses/";
+                  link: "9to5google.com", url: "from";
+                };
+              };
+
+              row: "100 points by geox 4 hours ago | hide | 92 comments" {
+                cell;
+                cell: "100 points by geox 4 hours ago | hide | 92 comments" {
+                  link: "geox", url: "user?id=geox";
+                  link: "4 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "92 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "19. upvote Alzheimer’s disease can be reversed in animal models? Study (case.edu)" {
+                cell: "19.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Alzheimer’s disease can be reversed in animal models? Study (case.edu)" {
+                  link: "Alzheimer’s disease can be reversed in animal models? Study", url: "https://case.edu/news/new-study-shows-alzheimers-disease-can-be-reversed-achieve-full-neurological-recovery-not-just-prevented-or-slowed-animal-models";
+                  link: "case.edu", url: "from?site=case.edu";
+                };
+              };
+
+              row: "425 points by thunderbong 10 hours ago | hide | 106 comments" {
+                cell;
+                cell: "425 points by thunderbong 10 hours ago | hide | 106 comments" {
+                  link: "thunderbong", url: "user";
+                  link: "10 hours ago", url: "item";
+                  link: "hide", url: "hide?goto=news";
+                  link: "106 comments", url: "item";
+                };
+              };
+
+              row;
+              row: "20. upvote Tell HN: Merry Christmas" {
+                cell: "20.";
+                cell: "upvote" {
+                  link: "upvote", url: "vote?how=up&goto=news";
+                };
+
+                cell: "Tell HN: Merry Christmas" {
+                  link: "Tell HN: Merry Christmas", url: "item";
+                };
+              };
+            };
+          };
+        };
+      };
+    };
+  };
+};
+
+</state 0>
+
+<reasoning>
+I need to click on the search/hn search link to search for 'AI'. Looking at the accessibility tree, I don't see a direct 'search' link on the main navigation. However, I know that Hacker News has a search feature through hn.algolia.com or through a link at the bottom of the page. Let me scroll down to find a search link, or I can navigate directly to the HN Search page. Looking at the current page, I don't see a search link in the header. The common way to search HN is to go to hn.algolia.com. Let me navigate there directly.
+</reasoning>
+
+<code>
+await page.goto('https://hn.algolia.com/', timeout=15000)
+</code>
+
+---
+
+<state 1>
+URL: /
+Title: All | Search powered by Algolia
+
+document: "All | Search powered by Algolia" {
+  main {
+    link, url: "https://news.ycombinator.com";
+    link: "Search Hacker News", url: "/";
+    searchbox: "Search stories by title, url or author";
+    link: "Algolia Logo", url: "https://www.algolia.com/developers/?utm_source=hackernews&utm_medium=referral";
+    link, url: "/settings";
+    combobox: "Stories", expanded: False;
+    combobox: "Popularity", expanded: False;
+    combobox: "All time", expanded: False;
+    combobox, expanded: False;
+    article {
+      link: "Stephen Hawking has died", url: "https://news.ycombinator.com/item";
+      link: "(http://www.bbc.com/news/uk-43396008)", url: "http://www.bbc.com/news/uk-43396008";
+      link: "6015 points", url: "https://news.ycombinator.com/item";
+      link: "Cogito", url: "https://news.ycombinator.com/user?id=Cogito";
+      link: "8 years ago", url: "https://news.ycombinator.com/item";
+      link: "436 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "A Message to Our Customers", url: "https://news.ycombinator.com/item";
+      link: "(http://www.apple.com/customer-letter/)", url: "http://www.apple.com/customer-letter/";
+      link: "5771 points", url: "https://news.ycombinator.com/item";
+      link: "epaga", url: "https://news.ycombinator.com/user?id=epaga";
+      link: "10 years ago", url: "https://news.ycombinator.com/item";
+      link: "967 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "OpenAI's board has fired Sam Altman", url: "https://news.ycombinator.com/item";
+      link: "(https://openai.com/blog/openai-announces-leadership-transition)", url: "https://openai.com/blog/openai-announces-leadership-transition";
+      link: "5710 points", url: "https://news.ycombinator.com/item";
+      link: "davidbarker", url: "https://news.ycombinator.com/user";
+      link: "2 years ago", url: "https://news.ycombinator.com/item";
+      link: "2530 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Backdoor in upstream xz/liblzma leading to SSH server compromise", url: "https://news.ycombinator.com/item";
+      link: "(https://www.openwall.com/lists/oss-security/2024/03/29/4)", url: "https://www.openwall.com/lists/oss-security/2024/03/29/4";
+      link: "4549 points", url: "https://news.ycombinator.com/item";
+      link: "rkta", url: "https://news.ycombinator.com/user?id=rkta";
+      link: "2 years ago", url: "https://news.ycombinator.com/item";
+      link: "1849 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "CrowdStrike Update: Windows Bluescreen and Boot Loops", url: "https://news.ycombinator.com/item";
+      link: "(https://old.reddit.com/r/crowdstrike/comments/1e6vmkf/bsod_error_in_latest_crowdstrike_update/)", url: "https://old.reddit.com/r/crowdstrike/comments/1e6vmkf/bsod_error_in_latest_crowdstrike_update/";
+      link: "4489 points", url: "https://news.ycombinator.com/item";
+      link: "BLKNSLVR", url: "https://news.ycombinator.com/user";
+      link: "1 year ago", url: "https://news.ycombinator.com/item";
+      link: "3859 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Steve Jobs has passed away.", url: "https://news.ycombinator.com/item";
+      link: "(http://www.apple.com/stevejobs/)", url: "http://www.apple.com/stevejobs/";
+      link: "4338 points", url: "https://news.ycombinator.com/item";
+      link: "patricktomas", url: "https://news.ycombinator.com/user?id=patricktomas";
+      link: "14 years ago", url: "https://news.ycombinator.com/item";
+      link: "363 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Bram Moolenaar has died", url: "https://news.ycombinator.com/item";
+      link: "(https://groups.google.com/g/vim_announce/c/tWahca9zkt4)", url: "https://groups.google.com/g/vim_announce/c/tWahca9zkt4";
+      link: "4310 points", url: "https://news.ycombinator.com/item";
+      link: "wufocaculura", url: "https://news.ycombinator.com/user";
+      link: "2 years ago", url: "https://news.ycombinator.com/item";
+      link: "428 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Mechanical Watch", url: "https://news.ycombinator.com/item";
+      link: "(https://ciechanow.ski/mechanical-watch/)", url: "https://ciechanow.ski/mechanical-watch/";
+      link: "4298 points", url: "https://news.ycombinator.com/item";
+      link: "todsacerdoti", url: "https://news.ycombinator.com/user";
+      link: "4 years ago", url: "https://news.ycombinator.com/item";
+      link: "413 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "YouTube-dl has received a DMCA takedown from RIAA", url: "https://news.ycombinator.com/item";
+      link: "(https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md)", url: "https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md";
+      link: "4240 points", url: "https://news.ycombinator.com/item";
+      link: "phantop", url: "https://news.ycombinator.com/user?id=phantop";
+      link: "5 years ago", url: "https://news.ycombinator.com/item";
+      link: "1443 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Reflecting on one very, very strange year at Uber", url: "https://news.ycombinator.com/item";
+      link: "(https://www.susanjfowler.com/blog/2017/2/19/reflecting-on-one-very-strange-year-at-uber)", url: "https://www.susanjfowler.com/blog/2017/2/19/reflecting-on-one-very-strange-year-at-uber";
+      link: "4107 points", url: "https://news.ycombinator.com/item";
+      link: "grey-area", url: "https://news.ycombinator.com/user?id=grey-area";
+      link: "9 years ago", url: "https://news.ycombinator.com/item";
+      link: "1013 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Google’s copying of the Java SE API was fair use [pdf]", url: "https://news.ycombinator.com/item";
+      link: "(https://www.supremecourt.gov/opinions/20pdf/18-956_d18f.pdf)", url: "https://www.supremecourt.gov/opinions/20pdf/18-956_d18f.pdf";
+      link: "4103 points", url: "https://news.ycombinator.com/item";
+      link: "pdoconnell", url: "https://news.ycombinator.com/user?id=pdoconnell";
+      link: "5 years ago", url: "https://news.ycombinator.com/item";
+      link: "932 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article;
+  };
+};
+
+</state 1>
+
+<reasoning>
+I'm on the Hacker News Search page (hn.algolia.com). I can see a searchbox that says 'Search stories by title, url or author'. I need to search for 'AI' and return the title of the first search result. Let me type 'AI' in the search box and then check the results.
+</reasoning>
+
+<code>
+await page.get_by_role("searchbox", name="Search stories by title, url or author").first.fill("AI", timeout=15000)
+await page.keyboard.press("Enter")
+await page.wait_for_timeout(2000)
+</code>
+
+<exception>
+'TypeError': Keyboard.press() got an unexpected keyword argument 'timeout'
+</exception>
+
+---
+
+<state 2>
+URL: /
+Title: All | Search powered by Algolia
+
+document: "All | Search powered by Algolia" {
+  main {
+    link, url: "https://news.ycombinator.com";
+    link: "Search Hacker News", url: "/";
+    searchbox: "Search stories by title, url or author";
+    link: "Algolia Logo", url: "https://www.algolia.com/developers/?utm_source=hackernews&utm_medium=referral";
+    link, url: "/settings";
+    combobox: "Stories", expanded: False;
+    combobox: "Popularity", expanded: False;
+    combobox: "All time", expanded: False;
+    combobox, expanded: False;
+    article {
+      link: "Airfoil", url: "https://news.ycombinator.com/item";
+      link: "(https://ciechanow.ski/airfoil/)", url: "https://ciechanow.ski/airfoil/";
+      link: "2544 points", url: "https://news.ycombinator.com/item";
+      link: "todsacerdoti", url: "https://news.ycombinator.com/user";
+      link: "2 years ago", url: "https://news.ycombinator.com/item";
+      link: "296 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Open source AI is the path forward", url: "https://news.ycombinator.com/item";
+      link: "(https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/)", url: "https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/";
+      link: "2360 points", url: "https://news.ycombinator.com/item";
+      link: "atgctg", url: "https://news.ycombinator.com/user";
+      link: "1 year ago", url: "https://news.ycombinator.com/item";
+      link: "887 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "My AI skeptic friends are all nuts", url: "https://news.ycombinator.com/item";
+      link: "(https://fly.io/blog/youre-all-nuts/)", url: "https://fly.io/blog/youre-all-nuts/";
+      link: "2356 points", url: "https://news.ycombinator.com/item";
+      link: "tabletcorry", url: "https://news.ycombinator.com/user?id=tabletcorry";
+      link: "7 months ago", url: "https://news.ycombinator.com/item";
+      link: "2826 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Gemini AI", url: "https://news.ycombinator.com/item";
+      link: "(https://deepmind.google/technologies/gemini/)", url: "https://deepmind.google/technologies/gemini/";
+      link: "2135 points", url: "https://news.ycombinator.com/item";
+      link: "dmotz", url: "https://news.ycombinator.com/user";
+      link: "2 years ago", url: "https://news.ycombinator.com/item";
+      link: "1602 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Bypassing airport security via SQL injection", url: "https://news.ycombinator.com/item";
+      link: "(https://ian.sh/tsa)", url: "https://ian.sh/tsa";
+      link: "2004 points", url: "https://news.ycombinator.com/item";
+      link: "iancarroll", url: "https://news.ycombinator.com/user?id=iancarroll";
+      link: "1 year ago", url: "https://news.ycombinator.com/item";
+      link: "440 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Air Con: $1697 for an on/off switch", url: "https://news.ycombinator.com/item";
+      link: "(https://blog.hopefullyuseful.com/blog/advantage-air-ezone-tablet-diy-repair/)", url: "https://blog.hopefullyuseful.com/blog/advantage-air-ezone-tablet-diy-repair/";
+      link: "2001 points", url: "https://news.ycombinator.com/item";
+      link: "ranebo", url: "https://news.ycombinator.com/user?id=ranebo";
+      link: "1 year ago", url: "https://news.ycombinator.com/item";
+      link: "478 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone", url: "https://news.ycombinator.com/item";
+      link: "(https://ai.googleblog.com/2018/05/duplex-ai-system-for-natural-conversation.html)", url: "https://ai.googleblog.com/2018/05/duplex-ai-system-for-natural-conversation.html";
+      link: "1875 points", url: "https://news.ycombinator.com/item";
+      link: "ivank", url: "https://news.ycombinator.com/user?id=ivank";
+      link: "8 years ago", url: "https://news.ycombinator.com/item";
+      link: "750 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Paper Airplane Designs", url: "https://news.ycombinator.com/item";
+      link: "(https://www.foldnfly.com/)", url: "https://www.foldnfly.com/";
+      link: "1753 points", url: "https://news.ycombinator.com/item";
+      link: "wilsonfiifi", url: "https://news.ycombinator.com/user";
+      link: "7 years ago", url: "https://news.ycombinator.com/item";
+      link: "206 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'", url: "https://news.ycombinator.com/item";
+      link: "(https://www.theregister.com/2025/08/21/aws_ceo_entry_level_jobs_opinion/)", url: "https://www.theregister.com/2025/08/21/aws_ceo_entry_level_jobs_opinion/";
+      link: "1697 points", url: "https://news.ycombinator.com/item";
+      link: "JustExAWS", url: "https://news.ycombinator.com/user";
+      link: "4 months ago", url: "https://news.ycombinator.com/item";
+      link: "744 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "The young, inexperienced engineers aiding DOGE", url: "https://news.ycombinator.com/item";
+      link: "(https://www.wired.com/story/elon-musk-government-young-engineers/)", url: "https://www.wired.com/story/elon-musk-government-young-engineers/";
+      link: "1683 points", url: "https://news.ycombinator.com/item";
+      link: "medler", url: "https://news.ycombinator.com/user?id=medler";
+      link: "11 months ago", url: "https://news.ycombinator.com/item";
+      link: "2991 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Zoom terms now allow training AI on user content with no opt out", url: "https://news.ycombinator.com/item";
+      link: "(https://explore.zoom.us/en/terms/)", url: "https://explore.zoom.us/en/terms/";
+      link: "1581 points", url: "https://news.ycombinator.com/item";
+      link: "isodev", url: "https://news.ycombinator.com/user";
+      link: "2 years ago", url: "https://news.ycombinator.com/item";
+      link: "511 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Show HN: I'm an airline pilot – I built interactive graphs/globes of my flights", url: "https://news.ycombinator.com/item";
+      link: "(https://jameshard.ing/pilot)", url: "https://jameshard.ing/pilot";
+      link: "1539 points", url: "https://news.ycombinator.com/item";
+      link: "jamesharding", url: "https://news.ycombinator.com/user";
+      link: "6 months ago", url: "https://news.ycombinator.com/item";
+      link: "197 comments", url: "https://news.ycombinator.com/item";
+      link: "https://jameshard.ing/pilot/globes/all", url: "https://jameshard.ing/pilot/globes/all";
+    };
+  };
+};
+
+</state 2>
+
+<terminate_with_result>
+Stephen Hawking has died
+</terminate_with_result>
+
+---
+
+<state 3>
+URL: /
+Title: All | Search powered by Algolia
+
+document: "All | Search powered by Algolia" {
+  main {
+    link, url: "https://news.ycombinator.com";
+    link: "Search Hacker News", url: "/";
+    searchbox: "Search stories by title, url or author";
+    link: "Algolia Logo", url: "https://www.algolia.com/developers/?utm_source=hackernews&utm_medium=referral";
+    link, url: "/settings";
+    combobox: "Stories", expanded: False;
+    combobox: "Popularity", expanded: False;
+    combobox: "All time", expanded: False;
+    combobox, expanded: False;
+    article {
+      link: "Airfoil", url: "https://news.ycombinator.com/item";
+      link: "(https://ciechanow.ski/airfoil/)", url: "https://ciechanow.ski/airfoil/";
+      link: "2544 points", url: "https://news.ycombinator.com/item";
+      link: "todsacerdoti", url: "https://news.ycombinator.com/user";
+      link: "2 years ago", url: "https://news.ycombinator.com/item";
+      link: "296 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Open source AI is the path forward", url: "https://news.ycombinator.com/item";
+      link: "(https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/)", url: "https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/";
+      link: "2360 points", url: "https://news.ycombinator.com/item";
+      link: "atgctg", url: "https://news.ycombinator.com/user";
+      link: "1 year ago", url: "https://news.ycombinator.com/item";
+      link: "887 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "My AI skeptic friends are all nuts", url: "https://news.ycombinator.com/item";
+      link: "(https://fly.io/blog/youre-all-nuts/)", url: "https://fly.io/blog/youre-all-nuts/";
+      link: "2356 points", url: "https://news.ycombinator.com/item";
+      link: "tabletcorry", url: "https://news.ycombinator.com/user?id=tabletcorry";
+      link: "7 months ago", url: "https://news.ycombinator.com/item";
+      link: "2826 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Gemini AI", url: "https://news.ycombinator.com/item";
+      link: "(https://deepmind.google/technologies/gemini/)", url: "https://deepmind.google/technologies/gemini/";
+      link: "2135 points", url: "https://news.ycombinator.com/item";
+      link: "dmotz", url: "https://news.ycombinator.com/user";
+      link: "2 years ago", url: "https://news.ycombinator.com/item";
+      link: "1602 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Bypassing airport security via SQL injection", url: "https://news.ycombinator.com/item";
+      link: "(https://ian.sh/tsa)", url: "https://ian.sh/tsa";
+      link: "2004 points", url: "https://news.ycombinator.com/item";
+      link: "iancarroll", url: "https://news.ycombinator.com/user?id=iancarroll";
+      link: "1 year ago", url: "https://news.ycombinator.com/item";
+      link: "440 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Air Con: $1697 for an on/off switch", url: "https://news.ycombinator.com/item";
+      link: "(https://blog.hopefullyuseful.com/blog/advantage-air-ezone-tablet-diy-repair/)", url: "https://blog.hopefullyuseful.com/blog/advantage-air-ezone-tablet-diy-repair/";
+      link: "2001 points", url: "https://news.ycombinator.com/item";
+      link: "ranebo", url: "https://news.ycombinator.com/user?id=ranebo";
+      link: "1 year ago", url: "https://news.ycombinator.com/item";
+      link: "478 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone", url: "https://news.ycombinator.com/item";
+      link: "(https://ai.googleblog.com/2018/05/duplex-ai-system-for-natural-conversation.html)", url: "https://ai.googleblog.com/2018/05/duplex-ai-system-for-natural-conversation.html";
+      link: "1875 points", url: "https://news.ycombinator.com/item";
+      link: "ivank", url: "https://news.ycombinator.com/user?id=ivank";
+      link: "8 years ago", url: "https://news.ycombinator.com/item";
+      link: "750 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Paper Airplane Designs", url: "https://news.ycombinator.com/item";
+      link: "(https://www.foldnfly.com/)", url: "https://www.foldnfly.com/";
+      link: "1753 points", url: "https://news.ycombinator.com/item";
+      link: "wilsonfiifi", url: "https://news.ycombinator.com/user";
+      link: "7 years ago", url: "https://news.ycombinator.com/item";
+      link: "206 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'", url: "https://news.ycombinator.com/item";
+      link: "(https://www.theregister.com/2025/08/21/aws_ceo_entry_level_jobs_opinion/)", url: "https://www.theregister.com/2025/08/21/aws_ceo_entry_level_jobs_opinion/";
+      link: "1697 points", url: "https://news.ycombinator.com/item";
+      link: "JustExAWS", url: "https://news.ycombinator.com/user";
+      link: "4 months ago", url: "https://news.ycombinator.com/item";
+      link: "744 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "The young, inexperienced engineers aiding DOGE", url: "https://news.ycombinator.com/item";
+      link: "(https://www.wired.com/story/elon-musk-government-young-engineers/)", url: "https://www.wired.com/story/elon-musk-government-young-engineers/";
+      link: "1683 points", url: "https://news.ycombinator.com/item";
+      link: "medler", url: "https://news.ycombinator.com/user?id=medler";
+      link: "11 months ago", url: "https://news.ycombinator.com/item";
+      link: "2991 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Zoom terms now allow training AI on user content with no opt out", url: "https://news.ycombinator.com/item";
+      link: "(https://explore.zoom.us/en/terms/)", url: "https://explore.zoom.us/en/terms/";
+      link: "1581 points", url: "https://news.ycombinator.com/item";
+      link: "isodev", url: "https://news.ycombinator.com/user";
+      link: "2 years ago", url: "https://news.ycombinator.com/item";
+      link: "511 comments", url: "https://news.ycombinator.com/item";
+    };
+
+    article {
+      link: "Show HN: I'm an airline pilot – I built interactive graphs/globes of my flights", url: "https://news.ycombinator.com/item";
+      link: "(https://jameshard.ing/pilot)", url: "https://jameshard.ing/pilot";
+      link: "1539 points", url: "https://news.ycombinator.com/item";
+      link: "jamesharding", url: "https://news.ycombinator.com/user";
+      link: "6 months ago", url: "https://news.ycombinator.com/item";
+      link: "197 comments", url: "https://news.ycombinator.com/item";
+      link: "https://jameshard.ing/pilot/globes/all", url: "https://jameshard.ing/pilot/globes/all";
+    };
+  };
+};
+
+</state 3>
+

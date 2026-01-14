@@ -1,0 +1,40 @@
+{
+  "app_name": "Fitbit",
+  "track_name": "Fitbit: Health & Fitness",
+  "subtitle": "",
+  "bundle_id": "com.fitbit.FitbitMobile",
+  "average_rating": 4.51671,
+  "rating_count": 614923,
+  "price": 0.0,
+  "formatted_price": "Free",
+  "file_size": "292.7 MB",
+  "file_size_bytes": "306931712",
+  "release_date": "2011-10-18T04:18:41Z",
+  "current_version_date": "2025-12-03T23:34:31Z",
+  "version": "4.58",
+  "description": "See the big picture on your health and fitness journey with the Fitbit app. Find easy ways to get active, sleep better, stress less and eat healthier.\n\nTrack the stats you care about across health, fitness and sleep, and change your goals as your routines evolve. Stay motivated with energizing workout content for your body and mind. See how far you’ve come with a glance at your personal goal progress and how you stack up to friends and family. Unlock even more possibilities when you sync up with...",
+  "developer": "Google",
+  "primary_genre": "Health & Fitness",
+  "screenshot_urls": [
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/c3/41/e1/c341e166-73e2-83a1-0545-ea7f1d5945be/274f5bf6-892a-48a7-8ab7-66556aa4256c_01.jpg/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a5/61/31/a5613188-a206-e63f-0da1-494ab79bffec/24b8774e-25dd-438c-a9af-6e5ec022bcd0_02.jpg/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/74/89/d3/7489d3e5-8894-5863-9949-0f615da2f490/80f141f0-bf24-49ad-8c18-2d1f20df9dd8_app_enUK_iOS_6.5_NB23_01_Coach_Tab_Usecase_07.jpg/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/52/80/ea/5280ea34-a88f-f9c5-362a-4bff394197cf/8b26c774-ad40-462b-bf02-0fb76a835352_04.jpg/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/aa/ce/ffaaceb9-fb0f-d929-2850-f743bf72f2b1/fb93087e-da31-4246-a0e7-de8452501f67_Usecase_09.jpg/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/51/ba/2a/51ba2ac4-df6f-9872-d046-d1c1c95a6e56/1806f837-ca96-40ad-ae83-900d6a3941ba_06.jpg/1284x2778bb.jpg"
+  ],
+  "ipad_screenshot_urls": [],
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/05/36/72053623-a734-a0e5-b744-a95902de6c88/AppIcon-0-1x_U007emarketing-0-0-0-1-0-0-sRGB-0-85-220-0.png/512x512bb.jpg",
+  "store_url": "https://apps.apple.com/us/app/fitbit-health-fitness/id462638897?uo=4",
+  "fetched_at": "2025-12-16T03:54:11.145136",
+  "screenshots_downloaded": true,
+  "screenshots_source": "webpage",
+  "downloaded_files": [
+    "screenshot_01.png",
+    "screenshot_02.png",
+    "screenshot_03.png",
+    "screenshot_04.png",
+    "screenshot_05.png",
+    "screenshot_06.png"
+  ]
+}

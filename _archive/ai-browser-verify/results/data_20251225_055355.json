@@ -1,0 +1,74 @@
+[
+  {
+    "scenario": "reddit",
+    "task": "Find the top post on r/technology",
+    "model": "gemini-3-flash",
+    "with_knowledge_base": false,
+    "success": true,
+    "execution_time": 2.017989158630371,
+    "steps_taken": 5,
+    "llm_calls": 5,
+    "error": "模拟模式 - SkillWeaver 未安装",
+    "timestamp": "2025-12-25T05:53:50.167043"
+  },
+  {
+    "scenario": "reddit",
+    "task": "Find the top post on r/technology",
+    "model": "gemini-3-flash",
+    "with_knowledge_base": true,
+    "success": true,
+    "execution_time": 0.5027079582214355,
+    "steps_taken": 2,
+    "llm_calls": 1,
+    "error": "模拟模式 - 知识库不存在",
+    "timestamp": "2025-12-25T05:53:50.669896"
+  },
+  {
+    "scenario": "github",
+    "task": "Search for 'skillweaver' repository",
+    "model": "gemini-3-flash",
+    "with_knowledge_base": false,
+    "success": true,
+    "execution_time": 2.0116994380950928,
+    "steps_taken": 5,
+    "llm_calls": 5,
+    "error": "模拟模式 - SkillWeaver 未安装",
+    "timestamp": "2025-12-25T05:53:52.681631"
+  },
+  {
+    "scenario": "github",
+    "task": "Search for 'skillweaver' repository",
+    "model": "gemini-3-flash",
+    "with_knowledge_base": true,
+    "success": true,
+    "execution_time": 0.5101428031921387,
+    "steps_taken": 2,
+    "llm_calls": 1,
+    "error": "模拟模式 - 知识库不存在",
+    "timestamp": "2025-12-25T05:53:53.191856"
+  },
+  {
+    "scenario": "uniswap",
+    "task": "Navigate to the swap interface",
+    "model": "claude-opus-4-5-20251124",
+    "with_knowledge_base": false,
+    "success": true,
+    "execution_time": 2.0043630599975586,
+    "steps_taken": 5,
+    "llm_calls": 5,
+    "error": "模拟模式 - SkillWeaver 未安装",
+    "timestamp": "2025-12-25T05:53:55.196264"
+  },
+  {
+    "scenario": "uniswap",
+    "task": "Navigate to the swap interface",
+    "model": "claude-opus-4-5-20251124",
+    "with_knowledge_base": true,
+    "success": true,
+    "execution_time": 0.5082967281341553,
+    "steps_taken": 2,
+    "llm_calls": 1,
+    "error": "模拟模式 - 知识库不存在",
+    "timestamp": "2025-12-25T05:53:55.704637"
+  }
+]

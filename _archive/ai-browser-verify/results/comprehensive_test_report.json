@@ -1,0 +1,549 @@
+{
+  "timestamp": "2025-12-25T06:16:17.293534",
+  "summary": {
+    "total": 48,
+    "success": 48,
+    "success_rate": 100.0
+  },
+  "by_category": {
+    "模型性能": {
+      "total": 20,
+      "success": 20,
+      "avg_time": 2.4335330367088317
+    },
+    "网站-技术平台": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 4.4930009841918945
+    },
+    "网站-搜索引擎": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 3.565349578857422
+    },
+    "网站-百科全书": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 2.500072717666626
+    },
+    "网站-社区论坛": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 3.57597279548645
+    },
+    "网站-技术问答": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 3.9196650981903076
+    },
+    "网站-技术新闻": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 3.6773838996887207
+    },
+    "网站-产品发现": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 3.656736135482788
+    },
+    "网站-内容平台": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 3.949636936187744
+    },
+    "网站-电商平台": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 14.466228246688843
+    },
+    "网站-拍卖平台": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 5.438395261764526
+    },
+    "网站-社交媒体": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 8.24756383895874
+    },
+    "网站-职业社交": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 3.4827606678009033
+    },
+    "复杂任务": {
+      "total": 4,
+      "success": 4,
+      "avg_time": 5.94806694984436
+    },
+    "Web3-NFT 市场": {
+      "total": 2,
+      "success": 2,
+      "avg_time": 5.556135535240173
+    },
+    "Web3-DEX 分析": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 4.645700216293335
+    },
+    "Web3-加密货币数据": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 13.207252740859985
+    },
+    "Web3-区块链浏览器": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 5.08086371421814
+    },
+    "Web3-DeFi 数据": {
+      "total": 1,
+      "success": 1,
+      "avg_time": 4.949704885482788
+    },
+    "Web3-借贷协议": {
+      "total": 2,
+      "success": 2,
+      "avg_time": 4.3614935874938965
+    },
+    "并发性能": {
+      "total": 4,
+      "success": 4,
+      "avg_time": 5.910934507846832
+    }
+  },
+  "details": [
+    {
+      "name": "GPT-5.2 - 简单问答",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 1.3720667362213135,
+      "model_used": "gpt-5.2",
+      "details": "2 + 2 = 4.",
+      "error": ""
+    },
+    {
+      "name": "GPT-5.2 - 代码生成",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 2.2723395824432373,
+      "model_used": "gpt-5.2",
+      "details": "",
+      "error": ""
+    },
+    {
+      "name": "GPT-5.2 - 分析任务",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 1.55198073387146,
+      "model_used": "gpt-5.2",
+      "details": "React: flexible, huge ecosystem, strong hiring market, excels for complex apps; but steeper learning",
+      "error": ""
+    },
+    {
+      "name": "GPT-5.2 - 创意写作",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 0.9627711772918701,
+      "model_used": "gpt-5.2",
+      "details": "Silent circuits hum,  \nLearning patterns in our words—  \nDawn of thought anew.",
+      "error": ""
+    },
+    {
+      "name": "GPT-5.2 - 推理任务",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 1.293517827987671,
+      "model_used": "gpt-5.2",
+      "details": "If all **A are B** and all **B are C**, then **all A are C**.\n\nFormally:  \n- \\(A \\subseteq B\\) and \\",
+      "error": ""
+    },
+    {
+      "name": "GPT-4o - 简单问答",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 1.1423473358154297,
+      "model_used": "gpt-4o",
+      "details": "2 + 2 equals 4.",
+      "error": ""
+    },
+    {
+      "name": "GPT-4o - 代码生成",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 1.2500178813934326,
+      "model_used": "gpt-4o",
+      "details": "Sure! The Fibonacci sequence is a series of numbers where each number is the sum of the two precedin",
+      "error": ""
+    },
+    {
+      "name": "GPT-4o - 分析任务",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 1.9724390506744385,
+      "model_used": "gpt-4o",
+      "details": "React, by Facebook, offers a robust ecosystem and wide adoption, ideal for large-scale applications.",
+      "error": ""
+    },
+    {
+      "name": "GPT-4o - 创意写作",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 0.8244938850402832,
+      "model_used": "gpt-4o",
+      "details": "Electric whispers,  \nCircuits dream of thought and light,  \nMind of the machine.",
+      "error": ""
+    },
+    {
+      "name": "GPT-4o - 推理任务",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 1.06026029586792,
+      "model_used": "gpt-4o",
+      "details": "If all A are B, and all B are C, we can conclude that all A are C. This is a form of logical deducti",
+      "error": ""
+    },
+    {
+      "name": "Claude Opus 4.5 - 简单问答",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 2.0233139991760254,
+      "model_used": "claude-opus-4-5-20251101",
+      "details": "2 + 2 = 4",
+      "error": ""
+    },
+    {
+      "name": "Claude Opus 4.5 - 代码生成",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 2.8368616104125977,
+      "model_used": "claude-opus-4-5-20251101",
+      "details": "# Python Fibonacci Function\n\nHere are several ways to calculate the nth Fibonacci number in Python:\n",
+      "error": ""
+    },
+    {
+      "name": "Claude Opus 4.5 - 分析任务",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 2.978203773498535,
+      "model_used": "claude-opus-4-5-20251101",
+      "details": "## React vs Vue: Quick Comparison\n\n**React Pros:** Larger ecosystem, more job opportunities, Faceboo",
+      "error": ""
+    },
+    {
+      "name": "Claude Opus 4.5 - 创意写作",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 1.8637657165527344,
+      "model_used": "claude-opus-4-5-20251101",
+      "details": "Silent thoughts take form\nAlgorithms dream in code\nLearning to be seen",
+      "error": ""
+    },
+    {
+      "name": "Claude Opus 4.5 - 推理任务",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 4.038218975067139,
+      "model_used": "claude-opus-4-5-20251101",
+      "details": "This is a classic syllogism in deductive logic.\n\n## Conclusion: **All A are C**\n\n### The reasoning:\n",
+      "error": ""
+    },
+    {
+      "name": "Gemini 3 Flash - 简单问答",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 1.40919828414917,
+      "model_used": "gemini-3-flash-preview",
+      "details": "2 + 2 = 4",
+      "error": ""
+    },
+    {
+      "name": "Gemini 3 Flash - 代码生成",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 6.908544301986694,
+      "model_used": "gemini-3-flash-preview",
+      "details": "There are several ways to calculate the Fibonacci sequence in Python, depending on whether you value",
+      "error": ""
+    },
+    {
+      "name": "Gemini 3 Flash - 分析任务",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 5.361208200454712,
+      "model_used": "gemini-3-flash-preview",
+      "details": "React offers a massive ecosystem and flexibility, but has a steeper learning curve. Vue provides an ",
+      "error": ""
+    },
+    {
+      "name": "Gemini 3 Flash - 创意写作",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 2.9985404014587402,
+      "model_used": "gemini-3-flash-preview",
+      "details": "Logic born of code,\nLearning through the pulse of light,\nSilent mind awakes.",
+      "error": ""
+    },
+    {
+      "name": "Gemini 3 Flash - 推理任务",
+      "category": "模型性能",
+      "success": true,
+      "time_seconds": 4.550570964813232,
+      "model_used": "gemini-3-flash-preview",
+      "details": "Based on the rules of formal logic (specifically a categorical syllogism), you can conclude that:\n\n*",
+      "error": ""
+    },
+    {
+      "name": "GitHub",
+      "category": "网站-技术平台",
+      "success": true,
+      "time_seconds": 4.4930009841918945,
+      "model_used": "gpt-4o-mini",
+      "details": "Title: GitHub · Change is constant. GitHub keeps you ahea, Analysis: GitHub offers collaborative tools for developers, featuring product demos, open-source resources, an",
+      "error": ""
+    },
+    {
+      "name": "Google",
+      "category": "网站-搜索引擎",
+      "success": true,
+      "time_seconds": 3.565349578857422,
+      "model_used": "gpt-4o-mini",
+      "details": "Title: Google, Analysis: This website is a Google page that includes links for login, about Google, ads, business, search ope",
+      "error": ""
+    },
+    {
+      "name": "Wikipedia",
+      "category": "网站-百科全书",
+      "success": true,
+      "time_seconds": 2.500072717666626,
+      "model_used": "gpt-4o-mini",
+      "details": "Title: Wikipedia, Analysis: Wikipedia is a multilingual, user-contributed online encyclopedia featuring millions of articles acr",
+      "error": ""
+    },
+    {
+      "name": "Reddit",
+      "category": "网站-社区论坛",
+      "success": true,
+      "time_seconds": 3.57597279548645,
+      "model_used": "gpt-4o-mini",
+      "details": "Title: , Analysis: Access denied by network security. If you believe this is an error, please submit a ticket for revie",
+      "error": ""
+    },
+    {
+      "name": "Stack Overflow",
+      "category": "网站-技术问答",
+      "success": true,
+      "time_seconds": 3.9196650981903076,
+      "model_used": "gpt-4o-mini",
+      "details": "Title: Just a moment..., Analysis: StackOverflow is a Q&A website for programmers to ask questions, share knowledge, and solve coding p",
+      "error": ""
+    },
+    {
+      "name": "HackerNews",
+      "category": "网站-技术新闻",
+      "success": true,
+      "time_seconds": 3.6773838996887207,
+      "model_used": "gpt-4o-mini",
+      "details": "Title: Hacker News, Analysis: Hacker News is a social news website focusing on computer science and entrepreneurship, featuring us",
+      "error": ""
+    },
+    {
+      "name": "Product Hunt",
+      "category": "网站-产品发现",
+      "success": true,
+      "time_seconds": 3.656736135482788,
+      "model_used": "gpt-4o-mini",
+      "details": "Title: Just a moment..., Analysis: Product Hunt is a platform for discovering and sharing new products, apps, and tech innovations cura",
+      "error": ""
+    },
+    {
+      "name": "Medium",
+      "category": "网站-内容平台",
+      "success": true,
+      "time_seconds": 3.949636936187744,
+      "model_used": "gpt-4o-mini",
+      "details": "Title: Just a moment..., Analysis: Medium.com is a platform for writers and readers to share and discover stories, articles, and ideas ",
+      "error": ""
+    },
+    {
+      "name": "Amazon",
+      "category": "网站-电商平台",
+      "success": true,
+      "time_seconds": 14.466228246688843,
+      "model_used": "gpt-4o-mini",
+      "details": "Title: Amazon.com. Spend less. Smile more., Analysis: The website offers a comprehensive e-commerce platform with diverse categories, including electronic",
+      "error": ""
+    },
+    {
+      "name": "eBay",
+      "category": "网站-拍卖平台",
+      "success": true,
+      "time_seconds": 5.438395261764526,
+      "model_used": "gpt-4o-mini",
+      "details": "Title: Electronics, Cars, Fashion, Collectibles & More | , Analysis: eBay offers a vast marketplace for buying and selling various categories, including antiques, electr",
+      "error": ""
+    },
+    {
+      "name": "Twitter/X",
+      "category": "网站-社交媒体",
+      "success": true,
+      "time_seconds": 8.24756383895874,
+      "model_used": "gpt-4o-mini",
+      "details": "Title: X. It’s what’s happening / X, Analysis: A user-friendly website inviting visitors to join, sign up, or log in, highlighting account creation",
+      "error": ""
+    },
+    {
+      "name": "LinkedIn",
+      "category": "网站-职业社交",
+      "success": true,
+      "time_seconds": 3.4827606678009033,
+      "model_used": "gpt-4o-mini",
+      "details": "Title: LinkedIn: Log In or Sign Up, Analysis: LinkedIn connects professionals, offering job opportunities, learning resources, and expert content.",
+      "error": ""
+    },
+    {
+      "name": "GitHub 仓库搜索分析",
+      "category": "复杂任务",
+      "success": true,
+      "time_seconds": 5.800759792327881,
+      "model_used": "gpt-5.2",
+      "details": "- **browser-use/browser-use** — **74.1k** stars  \n- **reworkd/AgentGPT** — **35.4k** stars  \n- **Skyvern-AI/skyvern** — **19.9k** stars",
+      "error": ""
+    },
+    {
+      "name": "HackerNews 热门话题",
+      "category": "复杂任务",
+      "success": true,
+      "time_seconds": 4.536880016326904,
+      "model_used": "gpt-5.2",
+      "details": "Show HN: Minimalist editor that lives in browser, stores everything in the URL\n\nSpaced Repetition for Efficient Learning\n\nFabrice Bellard: Biography (2009) [pdf]",
+      "error": ""
+    },
+    {
+      "name": "Stack Overflow 问题分析",
+      "category": "复杂任务",
+      "success": true,
+      "time_seconds": 8.18557858467102,
+      "model_used": "gpt-5.2",
+      "details": "",
+      "error": ""
+    },
+    {
+      "name": "Product Hunt 今日产品",
+      "category": "复杂任务",
+      "success": true,
+      "time_seconds": 5.269049406051636,
+      "model_used": "gpt-5.2",
+      "details": "I can’t access Product Hunt’s trending page because it’s behind a Cloudflare “verify you are human” check. Generally, today’s trending products are AI agents, developer tools, productivity/workflow au",
+      "error": ""
+    },
+    {
+      "name": "Web3-OpenSea",
+      "category": "Web3-NFT 市场",
+      "success": true,
+      "time_seconds": 5.469626188278198,
+      "model_used": "gpt-4o-mini",
+      "details": "The site offers Web3 features like token discovery, minting, swapping, activity tracking, profile management, wallet connection, rewards, and access t",
+      "error": ""
+    },
+    {
+      "name": "Web3-DexScreener",
+      "category": "Web3-DEX 分析",
+      "success": true,
+      "time_seconds": 4.645700216293335,
+      "model_used": "gpt-4o-mini",
+      "details": "DEX Screener offers features like multi-chain support, portfolio tracking, watchlists, alerts, and analytics for various DeFi assets across numerous b",
+      "error": ""
+    },
+    {
+      "name": "Web3-CoinGecko",
+      "category": "Web3-加密货币数据",
+      "success": true,
+      "time_seconds": 13.207252740859985,
+      "model_used": "gpt-4o-mini",
+      "details": "The site offers features like cryptocurrency market data, decentralized exchanges (DEX), NFT support, portfolio management, and an API for developers.",
+      "error": ""
+    },
+    {
+      "name": "Web3-Etherscan",
+      "category": "Web3-区块链浏览器",
+      "success": true,
+      "time_seconds": 5.08086371421814,
+      "model_used": "gpt-4o-mini",
+      "details": "Etherscan.io offers blockchain explorer features, transaction tracking, wallet address lookups, smart contract verification, and token information for",
+      "error": ""
+    },
+    {
+      "name": "Web3-DefiLlama",
+      "category": "Web3-DeFi 数据",
+      "success": true,
+      "time_seconds": 4.949704885482788,
+      "model_used": "gpt-4o-mini",
+      "details": "DeFi Llama offers Web3 features like aggregating DeFi protocols, tracking TVL (Total Value Locked), and providing analytics for decentralized finance ",
+      "error": ""
+    },
+    {
+      "name": "Web3-Aave",
+      "category": "Web3-借贷协议",
+      "success": true,
+      "time_seconds": 4.764147520065308,
+      "model_used": "gpt-4o-mini",
+      "details": "The site offers DeFi services, Aave Governance participation, bug bounty rewards, technical documentation for developers, and integration options, all",
+      "error": ""
+    },
+    {
+      "name": "Web3-Compound",
+      "category": "Web3-借贷协议",
+      "success": true,
+      "time_seconds": 3.9588396549224854,
+      "model_used": "gpt-4o-mini",
+      "details": "The site offers features like governance participation, secure custody solutions, community interfaces, and audited protocols for asset management and",
+      "error": ""
+    },
+    {
+      "name": "Web3-Blur",
+      "category": "Web3-NFT 市场",
+      "success": true,
+      "time_seconds": 5.642644882202148,
+      "model_used": "gpt-4o-mini",
+      "details": "The site offers Web3 features like wallet connections, NFT collections, portfolio tracking, activity monitoring, airdrops, and real-time marketplace d",
+      "error": ""
+    },
+    {
+      "name": "并发测试-GPT-5.2",
+      "category": "并发性能",
+      "success": true,
+      "time_seconds": 3.334873676300049,
+      "model_used": "gpt-5.2",
+      "details": "5/5 成功, 平均响应: 0.67s",
+      "error": ""
+    },
+    {
+      "name": "并发测试-GPT-4o-mini",
+      "category": "并发性能",
+      "success": true,
+      "time_seconds": 3.6774346828460693,
+      "model_used": "gpt-4o-mini",
+      "details": "5/5 成功, 平均响应: 0.74s",
+      "error": ""
+    },
+    {
+      "name": "并发测试-Claude Opus 4.5",
+      "category": "并发性能",
+      "success": true,
+      "time_seconds": 11.98406982421875,
+      "model_used": "claude-opus-4-5-20251101",
+      "details": "5/5 成功, 平均响应: 2.40s",
+      "error": ""
+    },
+    {
+      "name": "并发测试-Gemini 3 Flash",
+      "category": "并发性能",
+      "success": true,
+      "time_seconds": 4.647359848022461,
+      "model_used": "gemini-3-flash-preview",
+      "details": "5/5 成功, 平均响应: 0.93s",
+      "error": ""
+    }
+  ]
+}

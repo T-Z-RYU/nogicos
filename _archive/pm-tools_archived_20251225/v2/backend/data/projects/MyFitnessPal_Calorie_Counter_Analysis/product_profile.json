@@ -1,0 +1,21 @@
+{
+  "app_name": "MyFitnessPal Calorie Counter",
+  "app_category": "饮食营养 (Nutrition & Diet)",
+  "sub_category": "卡路里追踪与饮食记录",
+  "target_users": "希望通过饮食管理实现减重、健身或健康饮食目标的成年人，注重便捷记录和营养分析",
+  "core_value": "通过便捷的食物记录和营养追踪，帮助用户达成体重和健康目标",
+  "business_model": "Freemium",
+  "estimated_stages": [
+    "Launch",
+    "Onboarding",
+    "Paywall",
+    "Home",
+    "Tracking",
+    "Core Features",
+    "Progress",
+    "Settings"
+  ],
+  "visual_style": "极简清新 (Minimalist)",
+  "primary_color": "蓝色",
+  "confidence": 0.95
+}

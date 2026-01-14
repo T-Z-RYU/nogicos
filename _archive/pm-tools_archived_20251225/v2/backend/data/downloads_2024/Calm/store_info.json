@@ -1,0 +1,47 @@
+{
+  "app_name": "Calm",
+  "track_name": "Calm",
+  "subtitle": "",
+  "bundle_id": "com.calm.calmapp",
+  "average_rating": 4.77497,
+  "rating_count": 1919505,
+  "price": 0.0,
+  "formatted_price": "Free",
+  "file_size": "176.3 MB",
+  "file_size_bytes": "184903680",
+  "release_date": "2013-02-22T20:09:23Z",
+  "current_version_date": "2025-12-12T23:01:51Z",
+  "version": "6.85.1",
+  "description": "** Best of 2018 Award Winner ** — Apple\n\n** 2017 App of the Year ** — Apple\n\n** Happiest App in the World ** — Center for Humane Technology\n\nCalm is the #1 app for Sleep, Meditation and Relaxation. Sleep better, relieve stress, lower anxiety and refocus your attention. Explore an extensive library of guided meditations, Sleep Stories, breathwork, exclusive music and stretching exercises.\n\nInvest in your mental health and choose a guided meditation session that fits within your busy schedule. Add...",
+  "developer": "Calm.com",
+  "primary_genre": "Health & Fitness",
+  "screenshot_urls": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/3a/ea/053aea44-3c5c-8143-fdd5-356a0d21fc8d/c50fb0d0-6318-4d60-ad87-87924afcf380_Screen_01_a.png/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7d/e4/71/7de47130-ed5d-b6f0-6950-9858bee92999/7a13d05d-3f0c-4af7-86b8-57a369d9ee44_Screen_02_a.png/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/0f/28/db0f2830-bc27-abe0-30b5-9d195a3bf0a2/4b77c7ca-128e-43b3-a80c-3337c62e1489_Screen_03_a.png/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/6a/bc/ff6abc49-7702-1818-9260-12ab3fe3cea6/dac9e900-7943-4ff4-8449-003ac65c4f94_Screen_04_a.png/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/74/3b/e6743b0a-5532-b5f4-a5e4-803fa9a0acab/d30c62a8-3f34-4fe7-8d1c-5578d2d097fe_Screen_05_a.png/1284x2778bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/35/34/ee3534f8-14d0-67d5-f2e1-d8cba432f5f3/306da896-21d1-4716-9c6f-b4a2b48e1e34_Screen_06_a.png/1284x2778bb.jpg"
+  ],
+  "ipad_screenshot_urls": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/cd/37/e8cd372b-4394-b693-35de-bb171a4d9d29/e176913e-04f1-4c85-b1c0-53676542cbc8_iPad_01.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/ad/68/22ad6832-469f-7f33-ead0-e10d174906e8/35d812f8-7501-44c5-9115-fd5095c6dabe_iPad_02.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/f4/21/ecf4212a-8d52-aebf-eaae-83a6fad79cdd/7adab6d0-250a-4cd0-b659-e0976532742f_iPad_03.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/c7/86/52c7862d-016c-94e7-4cc1-4a1bdc49d46f/2f99a35e-3515-4f28-8853-93a60e96db2e_iPad_04.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b8/ba/ea/b8baeaeb-8fe5-3535-c996-746cf0cc9e6c/e1dde81d-4773-45d5-9d94-be01fffac118_iPad_05.png/576x768bb.png",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/8c/5e/2a8c5eca-c012-d513-d622-75522f1d9d12/0e4cf3a5-6e10-4450-98e0-5250ecd2868b_iPad_06.png/576x768bb.png"
+  ],
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/c9/64/3bc96490-54a1-f132-7c87-7c702daf5334/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "store_url": "https://apps.apple.com/us/app/calm/id571800810?uo=4",
+  "fetched_at": "2025-12-16T03:53:50.662031",
+  "screenshots_downloaded": true,
+  "screenshots_source": "webpage",
+  "downloaded_files": [
+    "screenshot_01.png",
+    "screenshot_02.png",
+    "screenshot_03.png",
+    "screenshot_04.png",
+    "screenshot_05.png",
+    "screenshot_06.png"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "test_date": "2025-12-25T11:18:39.657244",
+  "model": "gpt-5.2",
+  "knowledge_base_path": "C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\debug_explore_output\\iter_1\\kb_post",
+  "test_tasks": [
+    {
+      "id": "search_task",
+      "name": "搜索任务",
+      "site_url": "https://news.ycombinator.com",
+      "task": "Search for 'rust programming' using the search feature on this website",
+      "expected_skill": "hn_search_from_footer"
+    },
+    {
+      "id": "comments_task",
+      "name": "评论任务",
+      "site_url": "https://news.ycombinator.com",
+      "task": "Open the comments page for the 5th story on this page",
+      "expected_skill": "open_hn_comments_thread_by_rank"
+    }
+  ],
+  "computer_use_results": [
+    {
+      "task_id": "search_task",
+      "task_name": "搜索任务",
+      "mode": "computer_use",
+      "use_knowledge_base": false,
+      "success": false,
+      "num_steps": 3,
+      "total_time_seconds": 134.23,
+      "used_kb_skill": false,
+      "llm_calls": 3
+    },
+    {
+      "task_id": "comments_task",
+      "task_name": "评论任务",
+      "mode": "computer_use",
+      "use_knowledge_base": false,
+      "success": true,
+      "num_steps": 2,
+      "total_time_seconds": 45.77,
+      "used_kb_skill": false,
+      "llm_calls": 2
+    }
+  ],
+  "skillweaver_results": [
+    {
+      "task_id": "search_task",
+      "task_name": "搜索任务",
+      "mode": "skillweaver",
+      "use_knowledge_base": true,
+      "success": false,
+      "error": "Timeout 16000ms exceeded.",
+      "total_time_seconds": 165.46
+    },
+    {
+      "task_id": "comments_task",
+      "task_name": "评论任务",
+      "mode": "skillweaver",
+      "use_knowledge_base": true,
+      "success": true,
+      "num_steps": 2,
+      "total_time_seconds": 71.16,
+      "used_kb_skill": true,
+      "llm_calls": 2
+    }
+  ],
+  "summary": {
+    "computer_use": {
+      "total_time": 180.0,
+      "total_steps": 5,
+      "success_count": 1,
+      "avg_time_per_task": 90.0
+    },
+    "skillweaver": {
+      "total_time": 236.62,
+      "total_steps": 2,
+      "success_count": 1,
+      "kb_skills_used": 1,
+      "avg_time_per_task": 118.31
+    },
+    "improvement": {
+      "time_saved_percent": -31.5,
+      "steps_saved_percent": 60.0,
+      "time_saved_seconds": -56.62
+    }
+  }
+}

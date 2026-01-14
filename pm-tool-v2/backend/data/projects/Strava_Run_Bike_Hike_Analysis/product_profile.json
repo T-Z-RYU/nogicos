@@ -1,0 +1,25 @@
+{
+  "app_name": "Strava Run Bike Hike",
+  "app_category": "运动追踪 (Sports Tracking)",
+  "sub_category": "跑步骑行户外运动社交",
+  "target_users": "热爱跑步、骑行、登山等户外运动的健身爱好者，注重运动数据记录和社交分享的活跃用户",
+  "core_value": "记录追踪户外运动数据，连接运动社区，与朋友分享挑战成就",
+  "business_model": "免费增值 (Freemium)",
+  "estimated_stages": [
+    "Launch",
+    "SignUp",
+    "Onboarding",
+    "Welcome",
+    "Home",
+    "Tracking",
+    "Core Features",
+    "Social",
+    "Content",
+    "Progress",
+    "Profile",
+    "Settings"
+  ],
+  "visual_style": "科技感 (Tech)",
+  "primary_color": "橙色",
+  "confidence": 0.95
+}

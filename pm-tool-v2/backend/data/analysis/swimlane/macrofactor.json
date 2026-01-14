@@ -1,0 +1,1291 @@
+{
+  "app": "MacroFactor",
+  "appId": "macrofactor",
+  "total_screens": 49,
+  "analyzed_at": "2025-12-23T08:18:29.683323",
+  "taxonomy_version": "3.0",
+  "analysis_method": "gpt-5.2 + claude-opus-4-5",
+  "phases": [
+    {
+      "id": "trust-building",
+      "name": "信任建立",
+      "nameEn": "Trust Building",
+      "purpose": "包含 4 个页面",
+      "startIndex": 1,
+      "endIndex": 4,
+      "dominantTypes": [
+        "X",
+        "V",
+        "C",
+        "W"
+      ],
+      "psychologyTactics": [
+        "Value Proposition",
+        "First Impression",
+        "Trust Building",
+        "Progressive Disclosure",
+        "Privacy Assurance"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "goal-setting",
+      "name": "目标设定",
+      "nameEn": "Goal Setting",
+      "purpose": "包含 8 个页面",
+      "startIndex": 7,
+      "endIndex": 14,
+      "dominantTypes": [
+        "Q"
+      ],
+      "psychologyTactics": [
+        "Gender Data",
+        "Personalization",
+        "Progressive Disclosure",
+        "Body Data",
+        "Activity Level"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "data-collection-a",
+      "name": "数据收集A",
+      "nameEn": "Data Collection A",
+      "purpose": "包含 2 个页面",
+      "startIndex": 5,
+      "endIndex": 6,
+      "dominantTypes": [
+        "X"
+      ],
+      "psychologyTactics": [
+        "Permission Pre-priming",
+        "Trust Building",
+        "Privacy Assurance"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "data-collection",
+      "name": "数据收集",
+      "nameEn": "Data Collection",
+      "purpose": "包含 15 个页面",
+      "startIndex": 15,
+      "endIndex": 29,
+      "dominantTypes": [
+        "Q",
+        "R",
+        "V",
+        "S"
+      ],
+      "psychologyTactics": [
+        "Activity Level",
+        "Personalization",
+        "Progressive Disclosure",
+        "Body Data",
+        "Value Proposition"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "feature-showcase",
+      "name": "功能展示",
+      "nameEn": "Feature Showcase",
+      "purpose": "包含 1 个页面",
+      "startIndex": 39,
+      "endIndex": 39,
+      "dominantTypes": [
+        "V"
+      ],
+      "psychologyTactics": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "final-setup",
+      "name": "最终设置",
+      "nameEn": "Final Setup",
+      "purpose": "包含 9 个页面",
+      "startIndex": 30,
+      "endIndex": 38,
+      "dominantTypes": [
+        "Q",
+        "R",
+        "L"
+      ],
+      "psychologyTactics": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Progressive Disclosure",
+        "Loss Aversion"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "conversion",
+      "name": "转化",
+      "nameEn": "Conversion",
+      "purpose": "包含 10 个页面",
+      "startIndex": 40,
+      "endIndex": 49,
+      "dominantTypes": [
+        "V",
+        "P",
+        "W",
+        "C"
+      ],
+      "psychologyTactics": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Personalization",
+        "Loss Aversion",
+        "Trust Building"
+      ],
+      "keyInsights": []
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "V→S",
+      "name": "价值-社会认同",
+      "occurrences": 1,
+      "positions": [
+        24
+      ],
+      "interpretation": "价值展示后跟随社会认同强化可信度"
+    },
+    {
+      "pattern": "L→R",
+      "name": "加载-结果",
+      "occurrences": 1,
+      "positions": [
+        37
+      ],
+      "interpretation": "加载动画后展示结果，创造期待感"
+    }
+  ],
+  "summary": {
+    "total_pages": 49,
+    "phase_distribution": {
+      "trust-building": {
+        "count": 4,
+        "percentage": 8
+      },
+      "data-collection-a": {
+        "count": 2,
+        "percentage": 4
+      },
+      "goal-setting": {
+        "count": 8,
+        "percentage": 16
+      },
+      "data-collection": {
+        "count": 15,
+        "percentage": 31
+      },
+      "final-setup": {
+        "count": 9,
+        "percentage": 18
+      },
+      "feature-showcase": {
+        "count": 1,
+        "percentage": 2
+      },
+      "conversion": {
+        "count": 10,
+        "percentage": 20
+      }
+    },
+    "by_type": {
+      "X": {
+        "count": 3,
+        "label": "Permission",
+        "color": "#6B7280"
+      },
+      "V": {
+        "count": 9,
+        "label": "Value",
+        "color": "#22C516"
+      },
+      "C": {
+        "count": 2,
+        "label": "Commit",
+        "color": "#D97706"
+      },
+      "W": {
+        "count": 2,
+        "label": "Welcome",
+        "color": "#E5E5E5"
+      },
+      "Q": {
+        "count": 19,
+        "label": "Question",
+        "color": "#3B82F6"
+      },
+      "R": {
+        "count": 9,
+        "label": "Result",
+        "color": "#A855F7"
+      },
+      "S": {
+        "count": 1,
+        "label": "Social",
+        "color": "#EAB308"
+      },
+      "L": {
+        "count": 1,
+        "label": "Loading",
+        "color": "#1F2937"
+      },
+      "P": {
+        "count": 3,
+        "label": "Paywall",
+        "color": "#EF4444"
+      }
+    }
+  },
+  "screens": [
+    {
+      "index": 1,
+      "filename": "0001.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [],
+      "ui_pattern": "Unknown",
+      "copy": {
+        "headline": null,
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "JSON parsing failed, using extracted type",
+      "confidence": 0.5,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 2,
+      "filename": "0002.png",
+      "primary_type": "V",
+      "secondary_type": "D",
+      "phase": "trust-building",
+      "psychology": [
+        "Value Proposition",
+        "First Impression",
+        "Trust Building",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Feature Preview with Device Mockup",
+      "copy": {
+        "headline": "DRIVEN BY SCIENCE, FEELS LIKE MAGIC",
+        "subheadline": null,
+        "cta": "Get Started"
+      },
+      "insight": "价值展示页，通过设备模拟图展示AI识别食物功能(AI Plate)，强调科学驱动的营养追踪能力，展示卡路里和宏量营养素分析界面，建立产品专业形象",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 3,
+      "filename": "0003.png",
+      "primary_type": "C",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Trust Building",
+        "Privacy Assurance",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Legal Agreement",
+      "copy": {
+        "headline": "PROTECTING YOUR PRIVACY",
+        "subheadline": "We will never sell your data or use ad networks to track you",
+        "cta": "Accept and Continue"
+      },
+      "insight": "隐私承诺页，通过明确声明不出售数据、不追踪用户来建立信任，要求用户同意服务条款和隐私政策后继续",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 4,
+      "filename": "0004.png",
+      "primary_type": "W",
+      "secondary_type": "V",
+      "phase": "trust-building",
+      "psychology": [
+        "Progressive Disclosure",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Numbered Steps Overview",
+      "copy": {
+        "headline": "LET'S GET STARTED",
+        "subheadline": "Your personalized program awaits",
+        "cta": "Go to Basics"
+      },
+      "insight": "Onboarding流程预览页，通过3步骤概览（Basics→Goal→Program）建立用户预期，强调个性化和代谢分析，降低用户心理负担",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 5,
+      "filename": "0005.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "data-collection-a",
+      "psychology": [
+        "Permission Pre-priming",
+        "Trust Building",
+        "Privacy Assurance"
+      ],
+      "ui_pattern": "Toggle Switch",
+      "copy": {
+        "headline": "Optionally sync your data",
+        "subheadline": "Sync your steps, weight, calories, macros, and micronutrients with Apple Health",
+        "cta": "Next"
+      },
+      "insight": "Apple Health 数据同步授权页，使用'Optionally'强调用户自主权，降低权限请求压力，通过明确列出同步内容增强透明度和信任感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 6,
+      "filename": "0006.png",
+      "primary_type": "X",
+      "secondary_type": null,
+      "phase": "data-collection-a",
+      "psychology": [],
+      "ui_pattern": "Unknown",
+      "copy": {
+        "headline": null,
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "JSON parsing failed, using extracted type",
+      "confidence": 0.5,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 7,
+      "filename": "0007.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Gender Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "What is your sex?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "极简性别选择页，仅提供男/女二元选项，使用生物学性别符号增强视觉识别，为后续健康/健身数据计算收集基础信息",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 8,
+      "filename": "0008.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Date Picker (Scroll Wheel)",
+      "copy": {
+        "headline": "When were you born?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "生日选择页，通过滚轮选择器收集用户出生日期，用于计算年龄相关的个性化推荐（如基础代谢率、健康建议等）。月份显示为日文格式（月），当前选中1995年6月15日",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 9,
+      "filename": "0009.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Scroll Picker",
+      "copy": {
+        "headline": "What is your height?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "身高数据收集页，使用滚轮选择器让用户精确选择身高（当前选中171cm），支持厘米/英尺切换，用于计算BMI和个性化健身/营养方案",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 10,
+      "filename": "0010.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Horizontal Slider Picker",
+      "copy": {
+        "headline": "What is your weight?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "体重收集页，提供公斤/磅单位切换，滑动选择器降低输入摩擦，用于计算BMI、热量需求等个性化健康指标",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 11,
+      "filename": "0011.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice with Icons",
+      "copy": {
+        "headline": "Have you ever weighed more than 100 Kilograms?",
+        "subheadline": "Your weight history can impact your current metabolism. MacroFactor's algorithms take this into account.",
+        "cta": "Next"
+      },
+      "insight": "体重历史问题页，收集用户最高体重信息以优化代谢算法计算，解释说明增强用户理解和信任",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 12,
+      "filename": "0012.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice List",
+      "copy": {
+        "headline": "How has your weight trended for the past few weeks?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "体重趋势问题页，通过了解用户近期体重变化（增加/减少/稳定/不确定）来评估当前状态，为制定个性化计划提供基础数据",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 13,
+      "filename": "0013.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Visual Grid Selection",
+      "copy": {
+        "headline": "What is your body fat level?",
+        "subheadline": "Use a visual assessment and don't worry about being too precise",
+        "cta": "Next"
+      },
+      "insight": "体脂率视觉评估页，通过9个身体轮廓图（3-4%至40%+）帮助用户自评体脂水平，降低精确输入门槛，用于制定个性化健身或营养计划",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 14,
+      "filename": "0014.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Activity Level",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "How often do you exercise?",
+        "subheadline": "Estimate the number of recreational sports, cardio, or resistance training sessions",
+        "cta": "Next"
+      },
+      "insight": "运动频率问卷页，通过4档活动等级选项（0/1-3/4-6/7+次/周）收集用户运动习惯，用于计算TDEE和制定个性化训练计划。日历图标递进填充的视觉设计直观传达频率概念。",
+      "confidence": 0.97,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 15,
+      "filename": "0015.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Activity Level",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Choice Cards",
+      "copy": {
+        "headline": "How active are you?",
+        "subheadline": "Select your level of physical activity outside of exercise during work and leisure time",
+        "cta": "Next"
+      },
+      "insight": "活动水平评估页，通过步数量化三个层级（久坐<5K、适度5K-15K、活跃>15K），用于计算TDEE和制定个性化运动/营养计划",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 16,
+      "filename": "0016.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Activity Level",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What is your experience level with lifting?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "健身经验等级选择页，通过4个明确分级（无经验/初学者/中级/高级）收集用户力量训练背景，用于定制适合其水平的训练计划",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 17,
+      "filename": "0017.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Activity Level",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What is your experience level with cardio?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "心肺运动经验等级选择页，通过4个明确的时间区间划分用户运动背景，用于制定个性化训练强度和课程难度",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 18,
+      "filename": "0018.png",
+      "primary_type": "R",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Body Data",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Result Display with Editable Field",
+      "copy": {
+        "headline": "Based on your answers, this is the estimate for how many Calories you burn each day, or what you'd eat to maintain weight.",
+        "subheadline": "Otherwise known as expenditure.",
+        "cta": "Got it"
+      },
+      "insight": "个性化TDEE计算结果展示页，显示用户每日热量消耗估算值2405kcal，可编辑修改，建立数据可信度的同时给予用户控制感",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 19,
+      "filename": "0019.png",
+      "primary_type": "R",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Body Data",
+        "Activity Level",
+        "Trust Building"
+      ],
+      "ui_pattern": "Result Display with Chat Interface",
+      "copy": {
+        "headline": "Based on your answers, this is the estimate for how many Calories you burn each day, or what you'd eat to maintain weight.",
+        "subheadline": "Otherwise known as expenditure.",
+        "cta": "Got it"
+      },
+      "insight": "个性化TDEE计算结果页，通过对话式UI解释算法依据（身高、体重、年龄、性别、活动水平），增强用户对数据可信度的认知，可编辑设计赋予用户控制感",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 20,
+      "filename": "0020.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Body Data",
+        "Activity Level",
+        "Trust Building",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Chat/Conversational UI with Result Display",
+      "copy": {
+        "headline": "2405 kcal",
+        "subheadline": "Based on your answers, this is the estimate for how many Calories you burn each day, or what you'd eat to maintain weight.",
+        "cta": "Is 2405 kcal right then? / How so?"
+      },
+      "insight": "个性化TDEE计算结果展示页，采用对话式UI增强互动感。通过解释计算方法（身高、体重、年龄、性别、活动水平）建立信任，强调理解能量支出对体重管理的重要性，引导用户深入了解并接受个性化数据。",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 21,
+      "filename": "0021.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Trust Building",
+        "Progressive Disclosure",
+        "Body Data",
+        "Activity Level"
+      ],
+      "ui_pattern": "Conversational UI / Chat Interface",
+      "copy": {
+        "headline": "Basics",
+        "subheadline": "Understanding your expenditure is key to managing your weight.",
+        "cta": "Got it / Advanced algorithm?"
+      },
+      "insight": "通过对话式界面展示个性化计算结果（2405 kcal），解释算法如何基于身高、体重、年龄、性别和活动水平估算消耗，同时预告高级算法将根据用户日志持续优化，建立科学可信度",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 22,
+      "filename": "0022.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Trust Building",
+        "Authority"
+      ],
+      "ui_pattern": "Conversational Chat Interface",
+      "copy": {
+        "headline": "Basics",
+        "subheadline": "Otherwise known as expenditure.",
+        "cta": "Got it / Advanced algorithm?"
+      },
+      "insight": "通过对话式界面解释2405 kcal热量消耗计算结果，强调研究团队的算法基于身高、体重、年龄、性别和活动水平，同时预告高级算法将根据用户记录进一步个性化调整，建立科学可信度",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 23,
+      "filename": "0023.png",
+      "primary_type": "V",
+      "secondary_type": "D",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Personalization",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Chat/Conversational UI",
+      "copy": {
+        "headline": "Basics",
+        "subheadline": "Our advanced algorithm will personalize it to your unique metabolism as you log your food and weight in the app.",
+        "cta": "Got it"
+      },
+      "insight": "对话式UI解释App核心算法价值，通过问答形式渐进披露个性化代谢追踪功能，2405kcal作为起点将随用户数据动态调整，建立对智能算法的信任",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 24,
+      "filename": "0024.png",
+      "primary_type": "V",
+      "secondary_type": "D",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Personalization",
+        "Trust Building",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Conversational Chat Interface",
+      "copy": {
+        "headline": "Basics",
+        "subheadline": "Our advanced algorithm will personalize it to your unique metabolism as you log your food and weight in the app.",
+        "cta": "Next"
+      },
+      "insight": "对话式界面解释算法价值，通过模拟问答形式（用户问'Advanced algorithm?'）展示个性化追踪功能，强调每周自动更新营养目标以适应代谢变化，建立用户对智能系统的信任",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 25,
+      "filename": "0025.png",
+      "primary_type": "S",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Social Proof",
+        "Trust Building",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Testimonial Cards",
+      "copy": {
+        "headline": "This program adapts to you based on the latest science, and it has helped thousands",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "社会证明页面，展示三位真实用户的五星好评证言，配合用户照片增强可信度，强调App的个性化适应能力和科学基础",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 26,
+      "filename": "0026.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select with Optional Input",
+      "copy": {
+        "headline": "How did you learn about us?",
+        "subheadline": "Let us know who sent you",
+        "cta": "Next"
+      },
+      "insight": "用户来源调查页，通过归因追踪了解获客渠道（YouTube/Reddit/Friend/Instagram等），同时支持联盟营销代码输入，用于营销效果分析和佣金结算",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 27,
+      "filename": "0027.png",
+      "primary_type": "R",
+      "secondary_type": "G",
+      "phase": "data-collection",
+      "psychology": [
+        "Progressive Disclosure",
+        "Goal Setting",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Stepper Progress",
+      "copy": {
+        "headline": "LET'S GET STARTED",
+        "subheadline": "Your personalized program awaits",
+        "cta": "Go to Goal"
+      },
+      "insight": "进度追踪页面，展示onboarding三步流程（Basics已完成，Goal待进行，Program待解锁），通过可视化进度条和步骤编号强化用户完成感和前进动力",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 28,
+      "filename": "0028.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Personalization"
+      ],
+      "ui_pattern": "Single Select Radio",
+      "copy": {
+        "headline": "What is your goal?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "目标设定页，通过让用户明确选择减重/维持/增重目标，触发承诺一致性心理，用户一旦做出选择更可能坚持完成后续流程",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 29,
+      "filename": "0029.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Slider with Numeric Display",
+      "copy": {
+        "headline": "What is your target weight?",
+        "subheadline": "What is your target goal rate?",
+        "cta": "Next"
+      },
+      "insight": "目标设定页，用户选择目标体重(90kg)和减重速率(每周0.4kg)，系统自动计算每日热量预算(2000kcal)和预计完成日期(2025年12月21日)，通过具体数字增强承诺感",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 30,
+      "filename": "0030.png",
+      "primary_type": "R",
+      "secondary_type": "C",
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Commitment & Consistency",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Summary Card Stack",
+      "copy": {
+        "headline": "Goal summary",
+        "subheadline": "We will adjust your calorie targets as needed to keep you on track",
+        "cta": "Next"
+      },
+      "insight": "个性化结果摘要页，展示用户的减重计划：目标体重90kg、每周减0.42%体重、每日2000kcal预算、预计2025年12月21日达成。通过具体数字和时间线强化承诺感，同时以'optimistic estimate'管理预期",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 31,
+      "filename": "0031.png",
+      "primary_type": "R",
+      "secondary_type": "G",
+      "phase": "final-setup",
+      "psychology": [
+        "Progressive Disclosure",
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Progress Checklist",
+      "copy": {
+        "headline": "LET'S GET STARTED",
+        "subheadline": "Your personalized program awaits",
+        "cta": "Go to Program"
+      },
+      "insight": "入职流程总结页，展示已完成的步骤（Basics、Goal）和当前步骤（Program），通过进度可视化强化用户的承诺感和成就感，引导用户进入最终的个性化方案",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 32,
+      "filename": "0032.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What is your preferred diet?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "饮食偏好选择页，提供4种饮食模式（均衡、低脂、低碳、生酮），每个选项配有图标和说明文字，默认选中Balanced选项，帮助App制定个性化营养计划",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 33,
+      "filename": "0033.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Loss Aversion"
+      ],
+      "ui_pattern": "Binary Choice with Warning",
+      "copy": {
+        "headline": "What calorie floor do you prefer?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "卡路里下限选择页，Standard Floor (1364卡) 为推荐选项带星标，Low Floor (909卡) 带警告图标并标注'proceed with caution'，通过风险提示引导用户选择更健康的标准选项",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 34,
+      "filename": "0034.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Activity Level",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What training will you do during this program?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "训练类型选择页，收集用户运动偏好以定制个性化健身/营养计划，四个选项从无运动到综合训练覆盖全部活动水平",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 35,
+      "filename": "0035.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Goal Setting"
+      ],
+      "ui_pattern": "Binary Choice Cards",
+      "copy": {
+        "headline": "How would you like to distribute Calories throughout the week?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "卡路里分配方式选择页，提供均匀分配和特定日期加餐两种策略，让用户根据生活习惯定制饮食计划，增强计划灵活性和可执行性",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 36,
+      "filename": "0036.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Body Data",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What is your preferred protein intake?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "蛋白质摄入偏好选择页，提供四个层级选项（Low/Moderate/High/Extra High），每个选项配有说明文字帮助用户理解，用于定制营养计划",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 37,
+      "filename": "0037.png",
+      "primary_type": "L",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Labor Illusion",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Animated Loading with Orbital Visualization",
+      "copy": {
+        "headline": "Set New Program",
+        "subheadline": "Adjusting plan to your information.",
+        "cta": "Done"
+      },
+      "insight": "加载页面使用轨道动画可视化，暗示复杂的计算过程正在进行。多彩圆点代表不同数据维度被整合，Labor Illusion让用户相信系统正在认真处理其个人信息，增加对最终结果的价值感知。Done按钮灰置表示处理未完成。",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 38,
+      "filename": "0038.png",
+      "primary_type": "R",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Weekly Macro Grid",
+      "copy": {
+        "headline": "Your macro program is ready",
+        "subheadline": "How was your program designed?",
+        "cta": "Done"
+      },
+      "insight": "个性化宏量营养素计划结果页，展示每日1948卡路里目标（111P蛋白质/64F脂肪/229C碳水），基于2365卡消耗量计算417卡热量缺口，实现每周0.42%体重减轻目标。透明展示计算逻辑增强信任。",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 39,
+      "filename": "0039.png",
+      "primary_type": "V",
+      "secondary_type": "D",
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Goal Setting",
+        "Personalization"
+      ],
+      "ui_pattern": "Feature Preview with App Mockup",
+      "copy": {
+        "headline": "MASTER YOUR METABOLISM",
+        "subheadline": "Lose weight. Gain muscle. Maintain results.",
+        "cta": "Continue"
+      },
+      "insight": "功能价值展示页，通过App界面预览展示Strategy策略功能，包含目标设定、coached program追踪、每日check-in等核心功能，强调代谢管理的三大价值承诺",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 40,
+      "filename": "0040.png",
+      "primary_type": "V",
+      "secondary_type": "D",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Personalization"
+      ],
+      "ui_pattern": "Feature Preview with Mock UI",
+      "copy": {
+        "headline": "LOG FOODS FASTER WITH AI",
+        "subheadline": null,
+        "cta": "Continue"
+      },
+      "insight": "功能价值展示页，通过模拟应用界面演示AI快速记录食物功能，展示扫描、搜索、AI识别等多种录入方式，以及收藏夹和最近记录等便捷功能，降低用户对食物记录繁琐性的顾虑",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 41,
+      "filename": "0041.png",
+      "primary_type": "V",
+      "secondary_type": "D",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Personalization"
+      ],
+      "ui_pattern": "Feature Preview with Dashboard Mock",
+      "copy": {
+        "headline": "TRACK MACRO & MICRONUTRIENTS",
+        "subheadline": null,
+        "cta": "Continue"
+      },
+      "insight": "功能价值展示页，通过模拟Dashboard界面展示追踪宏量和微量营养素的能力，包含每周营养数据可视化、卡路里/蛋白质/脂肪/碳水化合物追踪，以及维生素D和纤维等微量营养素监测，底部tagline强化减重、增肌、保持效果的价值承诺",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 42,
+      "filename": "0042.png",
+      "primary_type": "V",
+      "secondary_type": "D",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Loss Aversion",
+        "Trust Building",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Feature Preview with Data Visualization",
+      "copy": {
+        "headline": "NO MORE SCALE ANXIETY",
+        "subheadline": null,
+        "cta": "Continue"
+      },
+      "insight": "功能价值展示页，通过展示体重趋势追踪功能来消除用户对秤的焦虑感。使用真实的数据可视化界面预览（显示平均体重153.5lbs，7天减少1.6lbs）来展示App如何帮助用户理性看待体重波动，而非单次称重结果。底部标语'Lose weight. Gain muscle. Maintain results.'强化价值主张",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 43,
+      "filename": "0043.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Feature List",
+      "copy": {
+        "headline": "WHAT YOU GET",
+        "subheadline": null,
+        "cta": "Continue"
+      },
+      "insight": "功能价值展示页，通过6大核心功能（定制饮食计划、AI卡路里追踪、快速食物记录、代谢适配指导、营养素分析、体重趋势洞察）全面呈现App价值，采用图标+标题+描述的标准化布局，底部tagline强化目标导向",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 44,
+      "filename": "0044.png",
+      "primary_type": "P",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Loss Aversion",
+        "Scarcity",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Tiered Pricing with Anchor",
+      "copy": {
+        "headline": "CHOOSE A PLAN",
+        "subheadline": "Billed annually after trial",
+        "cta": "Subscribe & Start 7-Day Trial"
+      },
+      "insight": "付费墙页面采用经典三档定价策略，通过划线价$143.88锚定效应突出12个月方案50%折扣优惠，'Most Popular'标签和勋章图标引导用户选择年付方案，7天试用降低决策门槛",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 45,
+      "filename": "0045.png",
+      "primary_type": "P",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Loss Aversion",
+        "Scarcity",
+        "Reciprocity",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Subscription Plan Selection with Free Trial",
+      "copy": {
+        "headline": "CHOOSE A PLAN",
+        "subheadline": "Billed monthly after trial",
+        "cta": "按两下订阅 / 通过侧边按钮确认"
+      },
+      "insight": "付费墙页面展示三种订阅方案（1/6/12个月），当前选中月付方案$11.99/mo。App Store确认弹窗显示1周免费试用，2025年12月27日起收费。使用价格锚定策略（年付原价$143.88划线显示折后$71.99）强调长期订阅的价值感。",
+      "confidence": 0.98,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 46,
+      "filename": "0046.png",
+      "primary_type": "P",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Loss Aversion",
+        "Scarcity",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Subscription Plans with Success Modal",
+      "copy": {
+        "headline": "CHOOSE A PLAN",
+        "subheadline": "Billed monthly after trial",
+        "cta": "好"
+      },
+      "insight": "付费墙购买成功确认页，显示三档订阅方案（月付$11.99、年付$71.99、半年$47.99），弹窗提示'操作完成-你已成功地完成购买'，年付方案显示50%折扣划线价营造稀缺感",
+      "confidence": 0.97,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 47,
+      "filename": "0047.png",
+      "primary_type": "W",
+      "secondary_type": "L",
+      "phase": "conversion",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Social Login Options",
+      "copy": {
+        "headline": "YOU'RE IN. CREATE YOUR ACCOUNT TO CONTINUE.",
+        "subheadline": null,
+        "cta": "Continue with Apple / Continue with Google / Continue with Email"
+      },
+      "insight": "账号创建页面，结合欢迎语('You're in')暗示用户已通过某种筛选/邀请，加载动画表示正在准备内容，提供三种登录方式降低注册摩擦",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 48,
+      "filename": "0048.png",
+      "primary_type": "V",
+      "secondary_type": "C",
+      "phase": "conversion",
+      "psychology": [
+        "Progressive Disclosure",
+        "Commitment & Consistency",
+        "Goal Setting",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Timeline/Roadmap",
+      "copy": {
+        "headline": "FIRST 30 DAYS",
+        "subheadline": null,
+        "cta": "Continue"
+      },
+      "insight": "30天使用路线图页面，通过时间线形式展示App的适应过程和价值递进，设定明确的里程碑预期（Day 3更新、下周一check-in、30天完全对齐），既展示功能价值又引导用户承诺持续使用",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 49,
+      "filename": "0049.png",
+      "primary_type": "C",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Commitment & Consistency",
+        "Trust Building",
+        "Privacy Assurance"
+      ],
+      "ui_pattern": "Toggle Agreement",
+      "copy": {
+        "headline": "A reminder to diet responsibly, and a note about respecting your privacy",
+        "subheadline": "Health Disclaimer / Consumer Health Data Privacy",
+        "cta": "Accept and Continue"
+      },
+      "insight": "承诺确认页，通过健康免责声明和隐私政策的双重Toggle确认，建立用户信任并获得明确同意，强调数据安全和不出售数据的承诺",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    }
+  ],
+  "flow_patterns": {},
+  "design_insights": {}
+}

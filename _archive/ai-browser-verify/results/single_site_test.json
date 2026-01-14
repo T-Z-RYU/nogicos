@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-12-25T07:50:03.788950",
+  "model": "gpt-5.2",
+  "explore_time": 76.9927065372467,
+  "kb_generated": false,
+  "without_kb": {
+    "avg_time": 2.224727511405945,
+    "success_rate": 1.0
+  },
+  "with_kb": null
+}

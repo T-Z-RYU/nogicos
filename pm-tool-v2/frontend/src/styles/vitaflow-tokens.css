@@ -1,0 +1,316 @@
+/**
+ * VitaFlow Design Tokens v2.0
+ * 从 Figma 设计稿提取 - 2025.12.25
+ * 
+ * 🎨 配色系统：Slate 蓝灰阶（冷色调，与青绿主色搭配）
+ * 
+ * 使用方法：
+ * - 在全局 CSS 中 @import 此文件
+ * - 使用 var(--vf-xxx) 引用变量
+ */
+
+:root {
+  /* ============================================
+   * 🎨 Slate 灰阶系统 (基于 Tailwind CSS)
+   * ============================================
+   * 
+   * 设计原理：
+   * - Slate 是带蓝色调的灰阶
+   * - 与产品主色（青绿渐变）为同一冷色温度
+   * - 产生和谐统一的视觉感受
+   */
+  
+  /* Slate 灰阶色板 */
+  --vf-slate-50: #F8FAFC;
+  --vf-slate-100: #F1F5F9;
+  --vf-slate-200: #E2E8F0;
+  --vf-slate-300: #CBD5E1;
+  --vf-slate-400: #94A3B8;
+  --vf-slate-500: #64748B;
+  --vf-slate-600: #475569;
+  --vf-slate-700: #334155;
+  --vf-slate-800: #1E293B;
+  --vf-slate-900: #0F172A;
+  --vf-slate-950: #020617;
+  
+  /* ============================================
+   * 🎨 语义化颜色 (Semantic Colors)
+   * ============================================ */
+  
+  /* 背景色 */
+  --vf-bg-primary: var(--vf-slate-100);    /* 页面背景 #F1F5F9 */
+  --vf-bg-card: #FFFFFF;                    /* 卡片背景 - 白色 */
+  --vf-bg-input: var(--vf-slate-100);       /* 输入框背景 */
+  
+  /* 文字色 - 5级层次 */
+  --vf-text-primary: var(--vf-slate-900);   /* 主文字 #0F172A - 品牌名、主数字 */
+  --vf-text-strong: var(--vf-slate-800);    /* 强调文字 #1E293B - 食物名 */
+  --vf-text-label: var(--vf-slate-700);     /* 标签文字 #334155 - Calories/Carbs */
+  --vf-text-secondary: var(--vf-slate-600); /* 次要文字 #475569 - 辅助说明 */
+  --vf-text-muted: var(--vf-slate-500);     /* 数值文字 #64748B - 营养数值 */
+  --vf-text-tertiary: var(--vf-slate-400);  /* 弱化文字 #94A3B8 - 时间戳、未来日期 */
+  --vf-text-disabled: var(--vf-slate-300);  /* 禁用文字 #CBD5E1 */
+  --vf-text-white: #FFFFFF;                 /* 白色文字 - 用于深色背景 */
+  
+  /* 图标色 - 3级层次 */
+  --vf-icon-active: var(--vf-slate-900);    /* 选中图标 #0F172A */
+  --vf-icon-default: var(--vf-slate-600);   /* 默认图标 #475569 */
+  --vf-icon-muted: var(--vf-slate-400);     /* 弱化图标 #94A3B8 */
+  
+  /* 边框/分割线 */
+  --vf-border-default: var(--vf-slate-200); /* 默认边框 #E2E8F0 */
+  --vf-border-light: var(--vf-slate-100);   /* 轻边框 #F1F5F9 */
+  
+  /* 品牌色 */
+  --vf-brand-primary: var(--vf-slate-900);  /* 主色 - FAB按钮 */
+  
+  /* ============================================
+   * 🌈 功能色 (Functional Colors)
+   * ============================================ */
+  
+  /* 宏量营养素 */
+  --vf-macro-carbs: #FDCA91;       /* 碳水 - 橙色 */
+  --vf-macro-fat: #FB6C83;         /* 脂肪 - 粉红 */
+  --vf-macro-protein: #07D1EC;     /* 蛋白质 - 青色 */
+  
+  /* 宏量营养素 - 浅色版本（图标填充） */
+  --vf-macro-carbs-light: #FEEAD3;
+  --vf-macro-fat-light: #FCA1AF;
+  --vf-macro-protein-light: #9CEDF7;
+  
+  /* 进度环 */
+  --vf-progress-ring: #07D1EC;              /* 正常 - 青色 */
+  --vf-progress-ring-over: #FB6C83;         /* 超标 - 红色 */
+  --vf-progress-bg: var(--vf-slate-200);    /* 背景 #E2E8F0 */
+  
+  /* 状态色 */
+  --vf-state-success: #07D1EC;     /* 成功/正常 - 青色 */
+  --vf-state-warning: #FDCA91;     /* 警告 - 橙色 */
+  --vf-state-error: #FB6C83;       /* 错误/超标 - 红色 */
+  
+  /* 日历色 */
+  --vf-calendar-active: var(--vf-slate-900);   /* 当前日期 */
+  --vf-calendar-selected-bg: #07D1EC;          /* 选中日期背景 - 青色 */
+  --vf-calendar-complete: #FB6C83;             /* 已完成日期 */
+  --vf-calendar-circle: var(--vf-slate-200);   /* 日期圆圈背景 */
+  --vf-calendar-circle-future: var(--vf-slate-200); /* 未来日期圆圈（50%透明度）*/
+  
+  /* Health Score 颜色 */
+  --vf-health-score-good: #5DEFA6;    /* 健康评分圆环 - 绿色 */
+  --vf-health-metric-energy: #FAE338; /* 能量指标 - 黄色 */
+  --vf-health-metric-mind: #FB6CAC;   /* 精神指标 - 粉色 */
+  --vf-health-metric-nutrition: #A588EC; /* 营养指标 - 紫色 */
+  
+  /* Skin & Glow 指标色 */
+  --vf-skin-tooth: #FCA84B;           /* 牙齿健康 - 橙色 */
+  --vf-skin-brain: #FC4B83;           /* 大脑/精神 - 粉色 */
+  --vf-skin-feather: #04DC57;         /* 羽毛/轻盈 - 绿色 */
+  --vf-skin-yoga: #4BA9FC;            /* 瑜伽/身体 - 蓝色 */
+  --vf-skin-sleep: #C169FC;           /* 睡眠/休息 - 紫色 */
+  
+  /* Water 追踪颜色 */
+  --vf-water-gradient-start: #84DFFF;
+  --vf-water-gradient-end: #42A5F5;
+  --vf-water-progress-bg: rgba(255, 255, 255, 0.24);
+  
+  /* Steps 追踪颜色 */
+  --vf-steps-gradient-start: #FF8629;
+  --vf-steps-gradient-end: #FF7451;
+  
+  /* 删除状态颜色 */
+  --vf-delete-bg: var(--vf-slate-100);
+  --vf-delete-bg-confirm: #FFE0E5;
+  --vf-error-red: #FF1F41;
+  --vf-error-bg: var(--vf-slate-100);
+  
+  /* 遮罩层 */
+  --vf-overlay-bg: rgba(0, 0, 0, 0.5);
+  
+  /* ============================================
+   * 🌑 阴影系统 v2.0 - Slate 基色双层阴影
+   * ============================================
+   * 
+   * 设计原理：
+   * - 阴影基色：Slate-900 (#0F172A) → rgba(15, 23, 42, x)
+   * - 与 Slate 灰阶统一色调
+   * - 双层阴影产生"浮起感"
+   */
+  
+  /* 🔹 主卡片阴影 - Summary/Macro/Tracker 等大卡片 */
+  --vf-shadow-card: 
+    0px 1px 3px 0px rgba(15, 23, 42, 0.05),
+    0px 4px 12px -2px rgba(15, 23, 42, 0.03);
+  
+  /* 🔹 轻量阴影 - Meal卡片/Tab/日历选择器/Pagination Dots */
+  --vf-shadow-card-light: 
+    0px 1px 2px 0px rgba(15, 23, 42, 0.04),
+    0px 2px 4px -1px rgba(15, 23, 42, 0.03);
+  
+  /* 🔹 底部导航阴影 - 向上投射 */
+  --vf-shadow-nav: 
+    0px -1px 3px 0px rgba(15, 23, 42, 0.04),
+    0px -4px 12px -2px rgba(15, 23, 42, 0.03);
+  
+  /* 🔹 FAB 按钮阴影 - 最强立体感 */
+  --vf-shadow-fab: 
+    0px 2px 4px 0px rgba(15, 23, 42, 0.12),
+    0px 6px 16px -2px rgba(15, 23, 42, 0.08);
+  
+  /* 🔹 日历选中项阴影 */
+  --vf-shadow-calendar-selected: 
+    0px 1px 2px 0px rgba(15, 23, 42, 0.04),
+    0px 2px 4px -1px rgba(15, 23, 42, 0.03);
+  
+  /* 🔹 悬停/按压状态阴影 */
+  --vf-shadow-card-hover: 
+    0px 2px 6px 0px rgba(15, 23, 42, 0.08),
+    0px 8px 16px -4px rgba(15, 23, 42, 0.05);
+  
+  --vf-shadow-card-pressed: 
+    0px 0px 2px 0px rgba(15, 23, 42, 0.04),
+    0px 1px 2px -1px rgba(15, 23, 42, 0.02);
+  
+  /* ============================================
+   * 📏 间距系统 - 基于 4px/8px 网格
+   * ============================================ */
+  
+  --vf-spacing-0: 0px;
+  --vf-spacing-0-5: 2px;   /* 0.5× - 极小（底部导航图标与文字） */
+  --vf-spacing-1: 4px;     /* 1×   - 图标与文字 */
+  --vf-spacing-2: 8px;     /* 2×   - 基础单位 ⭐ */
+  --vf-spacing-3: 12px;    /* 3×   - 紧凑间距 */
+  --vf-spacing-4: 16px;    /* 4×   - 标准间距 ⭐ */
+  --vf-spacing-5: 20px;    /* 5×   - 舒适间距（页面边距）⭐ */
+  --vf-spacing-6: 24px;    /* 6×   - 分组间距 */
+  --vf-spacing-8: 32px;    /* 8×   - 区块间距 */
+  --vf-spacing-10: 40px;   /* 10×  - 大区块 */
+  --vf-spacing-12: 48px;   /* 12×  - 页面分隔 */
+  
+  /* 语义化间距 */
+  --vf-page-padding: 20px;    /* 页面边距 */
+  --vf-card-gap: 12px;        /* 卡片之间 */
+  --vf-section-gap: 16px;     /* 区块之间 */
+  
+  /* ============================================
+   * 📐 圆角系统 (Border Radius)
+   * ============================================ */
+  
+  --vf-radius-xs: 2px;        /* 极小 - Pagination dots */
+  --vf-radius-sm: 4px;        /* 小 - 按钮、标签 */
+  --vf-radius-md: 8px;        /* 中 - 图片、小组件 */
+  --vf-radius-lg: 12px;       /* 大 - 卡片、主要容器 ⭐ */
+  --vf-radius-xl: 24px;       /* 特大 - 底部导航 */
+  --vf-radius-full: 9999px;   /* 圆形 - FAB、Pill */
+  
+  /* ============================================
+   * 🔤 字体系统 (Typography)
+   * ============================================ */
+  
+  /* 字体族 */
+  --vf-font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  /* 字号 - 标准梯度 */
+  --vf-font-size-xs: 10px;    /* 小标签 */
+  --vf-font-size-sm: 11px;    /* 底部导航、营养数值 */
+  --vf-font-size-md: 12px;    /* 标签、日历文字 */
+  --vf-font-size-lg: 14px;    /* 食物名、单位 */
+  --vf-font-size-xl: 16px;    /* Status bar */
+  --vf-font-size-2xl: 18px;   /* Macro 数值、食物卡片卡路里 */
+  --vf-font-size-3xl: 28px;   /* 品牌名 */
+  --vf-font-size-4xl: 48px;   /* Hero 数字（主卡路里） */
+  
+  /* 字重 - 3级层次 */
+  --vf-font-weight-regular: 400;    /* 标签、单位、辅助文字 */
+  --vf-font-weight-medium: 500;     /* 品牌名、主数字、大部分文字 */
+  --vf-font-weight-semibold: 600;   /* 食物卡片卡路里、Status bar */
+  
+  /* 字间距 */
+  --vf-letter-spacing-tight: -0.4px;
+  --vf-letter-spacing-normal: -0.2px;
+  --vf-letter-spacing-title: -0.28px;
+  
+  /* ============================================
+   * 📱 组件尺寸 (Component Sizes)
+   * ============================================ */
+  
+  /* 底部导航 */
+  --vf-nav-height: 64px;
+  --vf-nav-item-width: 72.5px;
+  --vf-nav-fab-size: 56px;
+  --vf-nav-icon-size: 24px;
+  
+  /* 状态栏 */
+  --vf-status-bar-height: 62px;
+  
+  /* Home Indicator */
+  --vf-home-indicator-height: 34px;
+  --vf-home-indicator-width: 144px;
+  
+  /* 日历条 */
+  --vf-calendar-item-width: 48px;
+  --vf-calendar-dot-size: 36px;
+  
+  /* 卡片 */
+  --vf-card-padding: 16px;
+  --vf-card-padding-lg: 24px;
+  --vf-meal-card-height: 84px;
+  --vf-meal-thumb-size: 64px;
+  
+  /* 宏量营养素卡片 */
+  --vf-macro-card-width: 112.667px;
+  --vf-macro-card-height: 112px;
+  
+  /* 主卡路里卡片 */
+  --vf-summary-card-width: 362px;
+  --vf-summary-ring-size: 125px;
+  
+  /* 图标 */
+  --vf-icon-xs: 16px;
+  --vf-icon-sm: 22px;
+  --vf-icon-md: 24px;
+  --vf-icon-lg: 27px;
+  
+  /* 按钮/标签 */
+  --vf-tab-height: 32px;
+  --vf-header-icon-size: 40px;
+  
+  /* ============================================
+   * ⏱️ 动效系统 (Animation)
+   * ============================================ */
+  
+  --vf-transition-fast: 150ms ease;
+  --vf-transition-normal: 250ms ease;
+  --vf-transition-slow: 350ms ease;
+  
+  --vf-ease-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --vf-ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  
+  /* ============================================
+   * 📐 设备尺寸 (Device)
+   * ============================================ */
+  
+  --vf-device-width: 402px;
+  --vf-device-height: 874px;
+  --vf-safe-area-top: 62px;
+  --vf-safe-area-bottom: 34px;
+}
+
+/* ============================================
+ * 📋 设计系统速查表
+ * ============================================
+ * 
+ * 灰阶层级（从深到浅）：
+ * - slate-900 #0F172A → 主文字、品牌名、选中图标
+ * - slate-800 #1E293B → 食物名
+ * - slate-700 #334155 → 标签文字
+ * - slate-600 #475569 → 次要文字、默认图标
+ * - slate-500 #64748B → 数值文字
+ * - slate-400 #94A3B8 → 弱化文字、未选中图标
+ * - slate-200 #E2E8F0 → 边框、进度条背景
+ * - slate-100 #F1F5F9 → 页面背景
+ * 
+ * 字号梯度：10 → 11 → 12 → 14 → 16 → 18 → 28 → 48
+ * 字重层次：Regular 400 | Medium 500 | SemiBold 600
+ * 间距梯度：2 → 4 → 8 → 12 → 16 → 20 → 24 → 32
+ * 圆角梯度：2 → 4 → 8 → 12 → 24 → full
+ */

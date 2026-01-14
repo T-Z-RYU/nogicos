@@ -1,0 +1,83 @@
+{
+  "app_name": "MyFitnessPal",
+  "screenshot_index": 80,
+  "screenshot_filename": "0080.png",
+  "total_onboarding_screens": 93,
+  "position_percentage": 86.0,
+  
+  "classification": {
+    "functional_purpose": {
+      "primary_category": "Preference",
+      "secondary_type": "FoodReview",
+      "confidence": 0.94,
+      "description": "让用户审核和调整推荐的零食选项"
+    },
+    "funnel_stage": {
+      "stage": "Activation",
+      "position_in_funnel": "middle",
+      "description": "展示个性化食物推荐，提供价值预览"
+    },
+    "psychological_tactic": {
+      "primary_tactic": "Personalization",
+      "secondary_tactics": ["Reciprocity"],
+      "tactic_strength": "strong",
+      "description": "基于用户输入提供个性化食物推荐，先给予价值再要求付费"
+    },
+    "interaction_pattern": {
+      "primary_interaction": "Tap",
+      "is_skippable": true,
+      "input_effort": "low",
+      "description": "用户可以选择调整配对或直接继续"
+    },
+    "ui_pattern": {
+      "layout_type": "ListSelection",
+      "has_progress_indicator": true,
+      "has_illustration": true,
+      "has_animation": false,
+      "color_scheme": "light",
+      "description": "食物卡片列表，带图片和卡路里信息"
+    },
+    "commitment_level": {
+      "level": 2,
+      "commitment_type": "time",
+      "reversibility": "reversible",
+      "description": "审核推荐，可调整可跳过"
+    }
+  },
+  
+  "deep_analysis": {
+    "design_intent": "让用户参与食物选择，增强主人翁感和个性化体验。同时展示App的智能推荐能力",
+    "ux_observation": "带有真实食物图片增加吸引力，显示卡路里信息展示专业性。'Adjust pairing'选项给予用户控制感",
+    "conversion_impact": "positive",
+    "potential_issues": [
+      "图片可能不够吸引人影响用户感知"
+    ],
+    "best_practice_alignment": "符合'Show, Don't Tell'原则，通过实际内容展示而非描述来传递App价值"
+  },
+  
+  "raw_observation": {
+    "visible_text": [
+      "Review snacks",
+      "Edit anything that doesn't sound good to you",
+      "Whole Grain Crackers",
+      "118 cal",
+      "Adjust pairing",
+      "Pretzels",
+      "154 cal",
+      "Next"
+    ],
+    "ui_elements": [
+      "进度条（已完成第2段）",
+      "食物卡片（带图片）",
+      "卡路里标签",
+      "调整按钮",
+      "Next按钮"
+    ],
+    "brand_elements": [
+      "MyFitnessPal蓝色品牌色"
+    ]
+  },
+  
+  "analysis_method": "claude_opus_4.5",
+  "analyzed_at": "2025-12-22T00:00:00"
+}

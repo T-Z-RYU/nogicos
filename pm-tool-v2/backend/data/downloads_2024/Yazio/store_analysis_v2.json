@@ -1,0 +1,1298 @@
+{
+  "app_name": "Yazio",
+  "total_screenshots": 8,
+  "analyzed_at": "2025-12-24T14:20:24.001279",
+  "model": "claude-opus-4-5-20251101 / gpt-5.2",
+  "schema_version": "v2",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Fasting\nCalories\nWeight loss",
+          "subheadline": "",
+          "body_copy": [
+            "Today",
+            "Week 175",
+            "Summary",
+            "Eaten",
+            "Remaining",
+            "Carbs",
+            "Protein",
+            "Nutrition",
+            "Breakfast →",
+            "Lunch →",
+            "Dinner →",
+            "Diary",
+            "Recipes",
+            "Fasting"
+          ],
+          "cta_button": "",
+          "small_print": [
+            "AI",
+            "Fried eggs with mix...",
+            "AI",
+            "Farfalle pasta with ca..."
+          ],
+          "data_numbers": [
+            "9:41",
+            "2000",
+            "135",
+            "175",
+            "1,020",
+            "868",
+            "97 / 207 g",
+            "46 / 115 g",
+            "466 / 566 Cal",
+            "554 / 755 Cal"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9EEF0",
+            "#0B0D0E"
+          ],
+          "color_mood": "cool",
+          "layout_type": "split_vertical",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "right"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "illustration"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat",
+              "bar_chart"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "VP",
+          "primary_cn": "价值主张",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "Fasting / Calories / Weight loss 三个核心目标一图概括",
+          "supporting_evidence": "右侧界面用 “Summary / Eaten / Remaining” 的环形进度与宏量营养条（Carbs / Protein）以及 “Nutrition” 餐次列表来证明可追踪与管理",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "把 “Fasting、Calories、Weight loss” 相关的日常记录与进度汇总集中在一个清晰的仪表盘里"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "primacy_effect",
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用三条勾选清单式大词（Fasting / Calories / Weight loss）降低理解成本并建立“我也能做到”的行动承诺；再用 “Remaining / Eaten” 的数字与进度环作为锚点，让用户快速感知可量化管理"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "left_right",
+          "focal_point": "左上角三行加粗清单式文案（Fasting / Calories / Weight loss），其次是右侧手机内的环形进度（Remaining 868）",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0D0E",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "split_screen",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.5,
+          "clarity": 4.6,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“AI” 标签出现在餐次条目中",
+            "卡通形象与真实食物照片组合"
+          ],
+          "category_conventions": [
+            "手机界面 mockup 展示核心仪表盘",
+            "用进度环/条形进度呈现摄入与剩余",
+            "用大标题直接点出减脂相关关键词"
+          ],
+          "innovations": [
+            "用勾选清单式结构把多个目标（Fasting / Calories / Weight loss）并列，形成“功能覆盖面”第一眼认知"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注体重管理与热量记录的人群",
+          "需要同时管理禁食与饮食记录的人群",
+          "偏好清晰数据汇总（Remaining / Eaten）的人群",
+          "对轻松、可爱风格接受度高的人群"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "三行勾选清单式大标题结构",
+          "右侧用单一关键指标（Remaining）做强视觉锚点",
+          "用进度环 + 宏量条组合表达“可量化管理”",
+          "真实食物照片增强健康饮食联想"
+        ],
+        "avoid_elements": [
+          "标题只堆关键词但缺少差异化限定（容易同质化）",
+          "界面内信息过多时在小屏截图上可能影响可读性（如多行列表与小字截断）"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“勾选清单式”结构，但把三条改为更贴合产品的三项核心收益；同时保留一个最强的单指标（例如 Remaining/目标完成度）作为截图中心数据锚点，并确保小字（如 AI 标签与餐次描述）在缩略图下仍可辨识或减少截断"
+      }
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "4.6",
+          "subheadline": "App Store",
+          "body_copy": [
+            "Breakfast"
+          ],
+          "cta_button": "AI",
+          "small_print": [
+            "Profile",
+            "More"
+          ],
+          "data_numbers": [
+            "4.6",
+            "466 / 566 Cal"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9EEF0",
+            "#00F0C8"
+          ],
+          "color_mood": "cool",
+          "layout_type": "full_bleed",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "left"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "App Store"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "AI_DEMO",
+          "primary_cn": "AI 功能演示",
+          "secondary": "SOCIAL_PROOF"
+        },
+        "message_strategy": {
+          "primary_message": "通过“AI”识别餐食并记录“Breakfast”的热量进度（466 / 566 Cal），同时强调“4.6”评分。",
+          "supporting_evidence": "画面中用绿色扫描框覆盖食物照片，并在卡片上展示“Breakfast”“466 / 566 Cal”与“AI”；顶部用“4.6”与星级图形及“App Store”形成评分背书。",
+          "emotional_appeal": "trust",
+          "value_proposition": "用 AI 识别餐食并量化热量摄入进度，且在 App Store 评分为 4.6。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof"
+          ],
+          "cognitive_biases": [
+            "anchoring",
+            "cognitive_fluency",
+            "primacy_effect"
+          ],
+          "persuasion_technique": "用“4.6”评分与星级桂冠式图形做信任锚点（anchoring），再用“AI + 扫描框 + 结果卡片（Breakfast / 466 / 566 Cal）”把能力与产出直接可视化，降低理解成本（cognitive_fluency）。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "中心偏上的食物照片与绿色扫描框；其次是顶部“4.6”评分；再次是底部结果卡片“Breakfast 466 / 566 Cal”与“AI”。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#00F0C8",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_offset",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.4,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.8
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "绿色扫描框覆盖食物照片",
+            "结果卡片同时出现“Breakfast”“466 / 566 Cal”与“AI”"
+          ],
+          "category_conventions": [
+            "使用食物照片展示饮食记录场景",
+            "用评分数字做商店信任背书",
+            "用进度环/数值展示摄入进度"
+          ],
+          "innovations": [
+            "把“识别动作（扫描框）”与“识别结果（卡片）”在同一张截图里并置呈现"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注热量记录的人群",
+          "需要快速记录早餐/餐食的人群",
+          "偏好 AI 自动化记录的人群"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "食物照片+扫描框的“识别中”视觉语言",
+          "识别结果卡片（餐次名 + 数值进度）",
+          "顶部评分背书模块（数字+星级）",
+          "高对比强调色用于关键功能点"
+        ],
+        "avoid_elements": [
+          "左侧设备界面文字被裁切导致信息不完整/可读性下降",
+          "仅用“AI”作为按钮文字可能语义过泛（在不增加解释文案时）"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“食物照片+扫描框+结果卡片”的三段式叙事：在卡片中保留类似“餐次/指标进度”的结构（如与 VitaFlow 核心指标一致），并将强调色统一为 VitaFlow 品牌色；若要保留评分背书，确保评分模块与主卖点不抢焦点，且避免边缘 UI 被裁切影响可读性。"
+      }
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Easy Food\nScanning",
+          "subheadline": "",
+          "body_copy": [
+            "Scan a barcode",
+            "Good source of protein",
+            "Very high in sugars",
+            "Hold a barcode within the frame to scan it."
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "9:41"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9EEF1",
+            "#0B0B0C"
+          ],
+          "color_mood": "cool",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "hands_only"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "AI_DEMO",
+          "primary_cn": "AI 功能演示",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "通过扫描条形码即可快速获得食物的营养/健康提示。",
+          "supporting_evidence": "用“Scan a barcode”的界面状态、取景框扫描引导文案，以及两条结果标签“Good source of protein / Very high in sugars”来证明扫描后能给出判断。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "降低记录/判断食物营养信息的门槛：对准条码即可得到关键结论。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用“操作极简（Scan a barcode + 取景框提示）+ 立即可读的正/负结论标签（Good source of protein / Very high in sugars）”来制造低成本尝试与即时反馈的说服路径。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Easy Food Scanning”与手机屏幕中部的两条高饱和胶囊标签（绿色/粉色）",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0B0C",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.5,
+          "clarity": 4.6,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "扫描结果用两条“胶囊标签”直接给出可执行结论（“Good source of protein”“Very high in sugars”）"
+          ],
+          "category_conventions": [
+            "用手机样机展示核心功能",
+            "用大标题一句话概括能力（Easy Food Scanning）",
+            "用取景框+引导语说明扫描动作（Hold a barcode within the frame to scan it.）"
+          ],
+          "innovations": [
+            "同时呈现正向与负向的营养提示，形成对比，提升信息可读性与决策速度"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "需要快速判断食品健康属性的人群",
+          "偏好“扫一下就知道”的低操作成本用户",
+          "关注蛋白/糖等关键营养指标的饮食管理用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "大标题+单一核心动作（扫描）",
+          "取景框与操作提示文案（类似“Hold a barcode within the frame to scan it.”的结构）",
+          "高对比的结果标签（正/负并列）来表达“即时洞察”"
+        ],
+        "avoid_elements": [
+          "结果标签遮挡关键画面内容（标签覆盖在扫描区域上方，可能影响对“正在扫描”的理解）",
+          "缺少品牌元素导致记忆点偏弱（截图中未见 logo/icon/app name）"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“device_centered + 大标题 + 扫描取景框”的模板，把结果标签替换为 VitaFlow 的核心健康指标结论（保持一正一负或一建议一风险的并列结构），并在不增加文字负担的前提下加入可识别的品牌元素（如角标 logo/品牌色条）以提升系列截图一致性。"
+      }
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Intermittent\nfasting",
+          "subheadline": "",
+          "body_copy": [
+            "Intermittent Fasting",
+            "Fasting Tracker",
+            "You’re fasting!",
+            "End Fasting",
+            "Fasting start",
+            "Yesterday, 8:00 p.m.",
+            "Edit",
+            "Fasting end",
+            "Today, 12:00 p.m.",
+            "Edit",
+            "Your Stats",
+            "More",
+            "Diary",
+            "Recipes",
+            "Fasting",
+            "Profile"
+          ],
+          "cta_button": "End Fasting",
+          "small_print": [],
+          "data_numbers": [
+            "9:41",
+            "16:8",
+            "13 : 41 : 07",
+            "8:00 p.m.",
+            "12:00 p.m."
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9EEF1",
+            "#0F1723"
+          ],
+          "color_mood": "cool",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "RESULT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "展示「Intermittent fasting」的核心使用场景：正在进行断食计时与一键结束。",
+          "supporting_evidence": "用真实 App 界面呈现「Fasting Tracker」「You’re fasting!」、进度环与大号倒计时「13 : 41 : 07」，并给出「Fasting start / Fasting end」时间点与「16:8」方案标识。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "用清晰的计时与状态提示，帮助用户执行与管理间歇性断食。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用「You’re fasting!」的即时状态确认与醒目的倒计时/进度环，强化用户“正在进行中”的承诺感；以「End Fasting」降低下一步操作成本。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题「Intermittent fasting」与设备内的主卡片（倒计时「13 : 41 : 07」+「End Fasting」按钮）。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0F1723",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 4.6,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "在进度环中心使用动物头像（狐狸）作为状态视觉锚点",
+            "顶部有睡觉的卡通形象与“zzz”强化轻松氛围"
+          ],
+          "category_conventions": [
+            "用手机设备框展示真实 UI",
+            "用大号倒计时与进度环表达“进行中”的健康习惯追踪",
+            "用单一主 CTA（“End Fasting”）突出关键动作"
+          ],
+          "innovations": [
+            "将“断食进行中”做成拟物化/角色化的状态表达（动物头像+小图标）以降低严肃感"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "对「Intermittent Fasting」有明确需求的人群",
+          "偏好简单、可一眼读懂的计时与状态反馈的用户",
+          "可能偏好轻量、带一点趣味视觉元素的健康管理用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "设备居中 + 单一核心场景 UI 的截图策略",
+          "大号关键数据（倒计时/时长）作为主视觉信息",
+          "单一主 CTA 按钮强化“下一步”",
+          "用进度环/状态组件表达过程型目标"
+        ],
+        "avoid_elements": [
+          "在同一屏内出现过多次级导航文字（如底部多 Tab）导致注意力分散",
+          "装饰性元素过大抢占标题/核心数据注意力"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“核心场景一屏讲清”的结构：顶部用一句话点题（保持极短），中部放 VitaFlow 的关键过程指标（如进度环+核心数值），底部只保留一个最关键动作按钮；若加入趣味角色元素，需确保不遮挡核心数据与标题。"
+      }
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Reach your goal\nnow!",
+          "subheadline": "",
+          "body_copy": [
+            "Water Tracker",
+            "Water",
+            "Goal: 80.00 fl oz",
+            "88.00 fl oz",
+            "+ Water from food: 0 fl oz",
+            "Activities",
+            "More",
+            "Steps",
+            "Automatic Tracking",
+            "Connect",
+            "Track steps manually",
+            "Add new",
+            "361 Cal"
+          ],
+          "cta_button": "Connect",
+          "small_print": [
+            "9:41"
+          ],
+          "data_numbers": [
+            "80.00 fl oz",
+            "88.00 fl oz",
+            "0 fl oz",
+            "361 Cal",
+            "9:41"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#111111",
+            "#F2F4F6"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "VP",
+          "primary_cn": "价值主张",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "Reach your goal\nnow!",
+          "supporting_evidence": "通过应用界面中的饮水目标与当前饮水量（“Goal: 80.00 fl oz”“88.00 fl oz”）以及活动模块（“Steps”“Automatic Tracking”“Connect”）来支撑“达成目标”的可执行性。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "用可视化的目标与记录（饮水与步数）帮助用户达成健康目标。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "goal_gradient",
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用明确的目标数字（Goal）与当前进度数字（88.00 fl oz）制造“进度感”，并用“now!”强化立即行动的动机；同时展示“Automatic Tracking”降低执行成本。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "底部大标题“Reach your goal now!”与中部 iPhone 机模内的“88.00 fl oz”大数字区域。",
+          "information_density": "medium",
+          "hierarchy_score": 4.5
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#111111",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 3,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.5,
+          "clarity": 4.5,
+          "brand_consistency": 4.0,
+          "uniqueness": 3.5
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "在同一界面同时呈现“Water Tracker”与“Steps”模块（饮水+步数）"
+          ],
+          "category_conventions": [
+            "用大数字展示关键指标（如“88.00 fl oz”）",
+            "用强 CTA 按钮（“Connect”）引导连接/启用功能",
+            "用“Goal”表达目标导向"
+          ],
+          "innovations": [
+            "将饮水杯图标矩阵作为进度表达方式（比单一进度条更具象）"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "希望通过目标与数据来管理日常健康习惯的人群",
+          "对自动记录感兴趣的人群（“Automatic Tracking”“Connect”）",
+          "同时关注饮水与步数/热量的人群（“Steps”“361 Cal”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "大标题+强行动导向措辞（如“Reach your goal now!”的结构）",
+          "用“Goal + 当前值”的双数字结构强化进度感",
+          "在截图中露出关键 CTA 按钮（如“Connect”）"
+        ],
+        "avoid_elements": [
+          "截图内信息点过多导致主卖点分散（饮水、步数、热量同时出现）",
+          "缺少明确品牌标识露出（未见 logo/icon/app 名作为品牌资产）"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“目标+进度”的呈现方式：在机模中突出 1 个核心指标作为主焦点，并在底部用一句强动词标题承接；若展示多模块，建议在同一张图只保留一个主模块，其余作为弱化的辅助信息，避免分散注意力。"
+      }
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "New recipes\nweekly",
+          "subheadline": "",
+          "body_copy": [
+            "Filter",
+            "Reset",
+            "Popular Filters",
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Low Carb",
+            "High Protein",
+            "Quickly Prepared",
+            "Energy Value",
+            "1 serving, Cal",
+            "Meals",
+            "Snack",
+            "Dessert",
+            "Salad",
+            "Shake",
+            "Soup",
+            "Smoothie",
+            "See 678 Recipes",
+            "Preparation Method",
+            "Quickly Prepared",
+            "On The Go"
+          ],
+          "cta_button": "See 678 Recipes",
+          "small_print": [
+            "9:41"
+          ],
+          "data_numbers": [
+            "9:41",
+            "1",
+            "0",
+            "500",
+            "678"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9EEF1",
+            "#0F1B2A"
+          ],
+          "color_mood": "cool",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": true,
+            "style": "photo"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CONTENT_PREVIEW",
+          "primary_cn": "内容预览",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "New recipes\nweekly",
+          "supporting_evidence": "通过“Filter”界面展示可按“Popular Filters”、能量值（“Energy Value”滑杆）与“Meals”等维度筛选，并用“See 678 Recipes”体现可筛选出的食谱规模。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "持续更新的食谱内容（weekly），并提供清晰的筛选能力以快速找到符合目标的食谱。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用“New recipes weekly”制造持续新鲜感；用可视化筛选（分类标签+能量值滑杆）降低决策成本；用“See 678 Recipes”作为数量锚点，强化“选择很多且可立即查看”的感受。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“New recipes weekly”与中部居中的 iPhone 设备画面（深色界面+蓝色按钮“See 678 Recipes”）。",
+          "information_density": "high",
+          "hierarchy_score": 4.5
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0F1B2A",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 5,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.5,
+          "clarity": 4.5,
+          "brand_consistency": 5.0,
+          "uniqueness": 3.5
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“New recipes weekly”作为强更新频率承诺",
+            "筛选页内直接出现“See 678 Recipes”的结果规模提示"
+          ],
+          "category_conventions": [
+            "使用设备 mockup 展示真实 App 界面",
+            "用食物照片缩略图做分类入口",
+            "用标签/Chip 形式呈现“Meals”等分类"
+          ],
+          "innovations": [
+            "在筛选界面把“可查看的结果数量（See 678 Recipes）”作为强 CTA 直接呈现"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注饮食管理的人群（Low Carb / High Protein）",
+          "需要快速做饭的人群（Quickly Prepared / On The Go）",
+          "希望按餐次规划的人群（Breakfast / Lunch / Dinner / Snack 等）",
+          "在意热量控制的人群（Energy Value / Cal）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "大标题用一句话承诺内容供给频率（如 weekly）",
+          "用真实筛选界面做“内容规模+可控性”的证明",
+          "在 CTA 上直接显示结果数量（类似“See 678 Recipes”）",
+          "用食物照片缩略图+标签提升可扫读性"
+        ],
+        "avoid_elements": [
+          "在一张截图里堆叠过多筛选项导致信息密度过高",
+          "仅展示筛选而缺少最终内容列表/结果页的直观预期"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“更新频率承诺 + 筛选能力展示 + 结果数量 CTA”的结构：顶部用一句话强调内容持续更新；设备内展示关键筛选维度（如目标、时长、强度/饮食偏好等）；按钮文案采用“See XXX …”样式直接呈现可获得的内容规模，并保持高对比度按钮作为视觉锚点。"
+      }
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Sustainable\nweight loss",
+          "subheadline": "",
+          "body_copy": [],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "42 lb",
+            "24 lb"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9EEF0",
+            "#1FE6C3"
+          ],
+          "color_mood": "cool",
+          "layout_type": "card_based",
+          "device_mockup": {
+            "present": false,
+            "type": "none",
+            "position": "none"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "RESULT_PREVIEW",
+          "primary_cn": "效果预览",
+          "secondary": "DATA_PROOF"
+        },
+        "message_strategy": {
+          "primary_message": "Sustainable\nweight loss",
+          "supporting_evidence": "两组前后对比真人照片，并用“42 lb”“24 lb”的减重数字标签进行结果量化呈现",
+          "emotional_appeal": "achievement",
+          "value_proposition": "通过可持续的方式实现减重，并能看到明确的体型变化与减重数字结果"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof"
+          ],
+          "cognitive_biases": [
+            "anchoring",
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用“前后对比照 + 明确减重数字（lb）”作为锚点，快速让用户把产品与可见成果建立强关联，并用极少文字降低理解成本"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "上方第一组前后对比照片与左下角绿色“42 lb”标签；其次是下方第二组对比照片与右下角绿色“24 lb”标签；最后落到大标题“Sustainable weight loss”",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1FE6C3",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "floating_elements",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 4.0,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "两组真人前后对比照并列展示",
+            "绿色胶囊标签直接标注“42 lb”“24 lb”",
+            "右侧卡通形象（绿色毛绒角色）与星光点缀"
+          ],
+          "category_conventions": [
+            "使用“before/after”式的结果展示",
+            "用大标题一句话概括收益点",
+            "用数字结果强化可信度与冲击力"
+          ],
+          "innovations": [
+            "在偏严肃的减重结果图中加入卡通角色与闪光装饰，弱化压力感、增强亲和力"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注减重结果的人群",
+          "偏好“可持续”而非极端减重叙事的用户",
+          "对真人案例/对比照更容易被说服的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "“结果预览”式前后对比结构（若有合规授权素材）",
+          "用醒目的胶囊标签呈现关键结果数字",
+          "大字号、短句式收益标题（如截图中的结构）"
+        ],
+        "avoid_elements": [
+          "仅用“lb”单位而不做本地化（面向公制市场时）",
+          "缺少任何方法/过程信息导致“怎么做到的”不清晰",
+          "过度依赖真人身材对比可能引发合规/审核与用户反感风险"
+        ],
+        "adaptation_notes": "若 VitaFlow 主打健康管理/饮食运动闭环，可保留“结果数字标签 + 大标题”的高可读结构，但将结果表达更广义化（例如体重/围度/习惯达成等），并补一条可见的过程证据（如计划、打卡、趋势图）以降低“只展示结果”的单薄感；同时按目标市场将单位与表述本地化。"
+      }
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P8",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "More than 100M\nhappy users",
+          "subheadline": "",
+          "body_copy": [
+            "\"The best calorie counting app\non the market!\nStraightforward and\neasy to use!\"",
+            "\"Yazio helped me overcome\nmy inner couch potato. With\nthe app’s help, I lost 37 lb!\"",
+            "\"I strongly recommend the\napp! It’s perfect for losing\nweight quickly and in a\nhealthy way.\""
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "100M",
+            "37 lb"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9EEF0",
+            "#1F1F1F"
+          ],
+          "color_mood": "cool",
+          "layout_type": "card_based",
+          "device_mockup": {
+            "present": false,
+            "type": "none",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "illustration"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "SOCIAL_PROOF",
+          "primary_cn": "社会证明",
+          "secondary": "DATA_PROOF"
+        },
+        "message_strategy": {
+          "primary_message": "More than 100M happy users",
+          "supporting_evidence": "Three 5-star review cards with quoted testimonials and star icons, plus the numeric claim \"100M\" and a specific outcome \"37 lb\".",
+          "emotional_appeal": "trust",
+          "value_proposition": "A calorie counting app that is \"Straightforward and easy to use\" and supports weight loss \"quickly and in a healthy way.\""
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof"
+          ],
+          "cognitive_biases": [
+            "bandwagon",
+            "anchoring",
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "Use a large-scale adoption claim (\"More than 100M\") to create bandwagon credibility, then reinforce with concrete testimonial snippets (including a quantified result \"37 lb\") presented as easy-to-scan 5-star cards."
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "Top headline \"More than 100M happy users\", then the stacked black testimonial cards with teal star rows.",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1F1F1F",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "floating_elements",
+          "whitespace_usage": "generous",
+          "element_count": 4,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "Large-scale claim \"More than 100M happy users\" paired with stacked 5-star quote cards"
+          ],
+          "category_conventions": [
+            "Use of star ratings and testimonials as credibility builders",
+            "Outcome-oriented quote including a numeric result (\"37 lb\")"
+          ],
+          "innovations": [
+            "Minimalist, card-only social proof page without device mockup"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "People seeking a \"calorie counting app\"",
+          "Users who value simplicity (\"Straightforward and easy to use!\")",
+          "Weight-loss motivated users (\"losing weight quickly and in a healthy way\")"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "One-line mega social proof headline with a large number (e.g., \"More than 100M\")",
+          "Stacked testimonial cards with consistent 5-star visual markers",
+          "Include at least one testimonial with a concrete numeric outcome (like \"37 lb\")",
+          "High-contrast cards on a light background for fast scanning"
+        ],
+        "avoid_elements": [
+          "Overlong testimonial paragraphs that reduce scanability on small screens",
+          "Missing attribution context (no names/roles shown) if VitaFlow needs stronger credibility"
+        ],
+        "adaptation_notes": "For VitaFlow, keep the same structure: a bold adoption headline + 2–3 short, high-impact quotes in card format. Ensure quotes are tightly edited for one-screen readability and include at least one quantified outcome metric relevant to VitaFlow (e.g., adherence days, improved biomarker, minutes exercised), while maintaining the high-contrast card system and consistent star row styling."
+      }
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → AI_DEMO → AI_DEMO → CORE_FUNC → VP → CONTENT_PREVIEW → RESULT_PREVIEW → SOCIAL_PROOF",
+    "sequence_cluster": "ai_driven",
+    "narrative_arc": "从VP开始，以SOCIAL_PROOF结束",
+    "strengths": [
+      "视觉吸引力高 (4.5/5)",
+      "信息传达清晰 (4.6/5)"
+    ],
+    "weaknesses": [],
+    "key_takeaways": [
+      "三行勾选清单式大标题结构",
+      "大标题用一句话承诺内容供给频率（如 weekly）",
+      "右侧用单一关键指标（Remaining）做强视觉锚点",
+      "识别结果卡片（餐次名 + 数值进度）",
+      "设备居中 + 单一核心场景 UI 的截图策略"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 2,
+      "AI_DEMO": 2,
+      "CORE_FUNC": 1,
+      "CONTENT_PREVIEW": 1,
+      "RESULT_PREVIEW": 1,
+      "SOCIAL_PROOF": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 6,
+      "Food_Image": 6,
+      "Data_Viz": 8,
+      "Human": 4,
+      "App Store": 1
+    },
+    "psychology_coverage": {
+      "cialdini": [
+        "authority",
+        "commitment",
+        "social_proof"
+      ],
+      "cognitive_biases": [
+        "goal_gradient",
+        "novelty",
+        "anchoring",
+        "cognitive_fluency",
+        "primacy_effect",
+        "bandwagon"
+      ]
+    },
+    "design_score_averages": {
+      "visual_appeal": 4.47,
+      "clarity": 4.59,
+      "brand_consistency": 4.3,
+      "uniqueness": 3.58
+    }
+  }
+}

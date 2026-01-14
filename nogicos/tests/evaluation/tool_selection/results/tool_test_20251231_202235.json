@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-12-31T20:22:35.127983",
+  "total": 5,
+  "passed": 3,
+  "accuracy": 60.0,
+  "results": [
+    {
+      "test_id": "search_001",
+      "category": "搜索",
+      "success": true,
+      "expected": [
+        "grep_search"
+      ],
+      "actual": "grep_search",
+      "response": null
+    },
+    {
+      "test_id": "search_002",
+      "category": "搜索",
+      "success": false,
+      "expected": [
+        "glob_search"
+      ],
+      "actual": null,
+      "response": "<function_calls>\n<invoke name=\"glob_search\">\n<parameter name=\"pattern\">**/*.tsx</parameter>\n</invoke>\n</function_calls>\n"
+    },
+    {
+      "test_id": "search_003",
+      "category": "搜索",
+      "success": true,
+      "expected": [
+        "web_search"
+      ],
+      "actual": "web_search",
+      "response": null
+    },
+    {
+      "test_id": "file_001",
+      "category": "文件操作",
+      "success": true,
+      "expected": [
+        "read_file"
+      ],
+      "actual": "read_file",
+      "response": null
+    },
+    {
+      "test_id": "file_002",
+      "category": "文件操作",
+      "success": false,
+      "expected": [
+        "list_directory"
+      ],
+      "actual": null,
+      "response": "<function_calls>\n<invoke name=\"list_directory\">\n<parameter name=\"path\">src</parameter>\n</invoke>\n</function_calls>\n"
+    }
+  ]
+}

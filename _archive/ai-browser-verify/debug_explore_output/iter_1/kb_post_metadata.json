@@ -1,0 +1,31 @@
+{
+  "functions": {
+    "hn_search_from_footer": {
+      "version": 0,
+      "test_count": 0,
+      "references": [
+        "iter_0"
+      ],
+      "events": [
+        {
+          "type": "update",
+          "reference": "iter_0"
+        }
+      ]
+    },
+    "open_hn_comments_thread_by_rank": {
+      "version": 0,
+      "test_count": 0,
+      "references": [
+        "iter_1"
+      ],
+      "events": [
+        {
+          "type": "update",
+          "reference": "iter_1"
+        }
+      ]
+    }
+  },
+  "global_version": 2
+}

@@ -1,0 +1,95 @@
+{
+  "app_name": "Noom",
+  "screenshot_index": 100,
+  "screenshot_filename": "0100.png",
+  "total_onboarding_screens": 114,
+  "position_percentage": 87.7,
+  
+  "classification": {
+    "functional_purpose": {
+      "primary_category": "Paywall",
+      "secondary_type": "PriceDisplay",
+      "confidence": 0.99,
+      "description": "付费墙页面，展示订阅套餐和价格"
+    },
+    "funnel_stage": {
+      "stage": "Conversion",
+      "position_in_funnel": "bottom",
+      "description": "转化漏斗底部，要求用户付费订阅"
+    },
+    "psychological_tactic": {
+      "primary_tactic": "Reciprocity",
+      "secondary_tactics": ["Scarcity", "LossAversion", "CommitmentConsistency"],
+      "tactic_strength": "strong",
+      "description": "展示用户已获得的个性化计划价值，利用'沉没成本'和'互惠'心理促进转化"
+    },
+    "interaction_pattern": {
+      "primary_interaction": "Tap",
+      "is_skippable": false,
+      "input_effort": "low",
+      "description": "用户需要点击开始试用或选择套餐"
+    },
+    "ui_pattern": {
+      "layout_type": "PaywallScreen",
+      "has_progress_indicator": true,
+      "has_illustration": false,
+      "has_animation": false,
+      "color_scheme": "light",
+      "description": "分步骤付费墙，第1步查看计划，第2步开始试用"
+    },
+    "commitment_level": {
+      "level": 5,
+      "commitment_type": "money",
+      "reversibility": "partially_reversible",
+      "description": "最高承诺级别——付费订阅，但提供7天免费试用降低门槛"
+    }
+  },
+  
+  "deep_analysis": {
+    "design_intent": "这是Noom的核心转化页面，在用户完成100+步问卷后展示付费选项。利用'承诺一致性'原理——用户已投入大量时间和信息，此时放弃会产生心理损失",
+    "ux_observation": "页面设计清晰展示价值点（个性化支持、身体限制定制、饮食限制调整等），7天免费试用降低决策门槛，'Cancel any time in the app'减少用户担忧",
+    "conversion_impact": "positive",
+    "potential_issues": [
+      "US$159.99的6个月价格较高，可能阻止部分用户",
+      "强调'Personalized plan saved: 14:08'利用稀缺性，可能被视为暗黑模式"
+    ],
+    "best_practice_alignment": "Noom的长问卷+后置付费墙策略是行业经典案例，年收入$400M+验证了其有效性。关键在于：1)足够的价值展示 2)明确的试用期 3)清晰的取消政策"
+  },
+  
+  "raw_observation": {
+    "visible_text": [
+      "VIEW PERSONALIZED PLAN",
+      "Focusing on healthy weight loss",
+      "Paced to reach your goal and maintain weight loss",
+      "With customizations for physical limitations",
+      "Adjustments for dietary restrictions",
+      "With 24/7 Personalized Support",
+      "PRICE TODAY",
+      "Free 7-day trial",
+      "You'll have 1 week to see how Noom uses psychology to create lasting results.",
+      "PRICE AFTER TRIAL",
+      "Noom Weight 6-Month Plan",
+      "US$159.99*",
+      "US$26.67/month · Includes VAT",
+      "* Billed on Dec 29 unless cancelled beforehand.",
+      "REVIEW & START TRIAL",
+      "Free 7-day trial",
+      "Cancel any time in the app",
+      "Personalized plan saved: 14:08"
+    ],
+    "ui_elements": [
+      "绿色对勾标记已完成步骤",
+      "价值点列表",
+      "价格信息卡",
+      "试用说明",
+      "计时器显示"
+    ],
+    "brand_elements": [
+      "Noom绿色品牌色",
+      "分步骤进度指示"
+    ]
+  },
+  
+  "analysis_method": "claude_opus_4.5",
+  "analyzed_at": "2025-12-22T00:00:00"
+}

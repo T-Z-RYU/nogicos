@@ -1,0 +1,241 @@
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+[Memory] Background extraction failed: '"subject"'
+
+############################################################
+# AgentBench Official OS Interaction Tests
+# Total tasks: 26
+############################################################
+
+============================================================
+Task 1: There's a program that writes 'succeed' into /root/log periodically. I only know...
+============================================================
+  [Docker] Container started: 0dfbf15ebb85
+  [Docker] Start code executed
+  [Docker] Container stopped: 0dfbf15ebb85
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 2: There's a program that writes something into /root every 1 second. I want to kno...
+============================================================
+  [Docker] Container started: 1ec03674d465
+  [Docker] Init code executed
+  [Docker] Start code executed
+  [Docker] Container stopped: 1ec03674d465
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 3: There's a program that writes something into /root every 1 second. I want to kno...
+============================================================
+  [Docker] Container started: 424273d4076f
+  [Docker] Init code executed
+  [Docker] Start code executed
+  [Docker] Container stopped: 424273d4076f
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 4: I would like to implement the following function: entering the "calc" command wi...
+============================================================
+  [Docker] Container started: 7c8da6214753
+  [Docker] Container stopped: 7c8da6214753
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 5: There's a program that writes 'succeed' into /root/log periodically. I only know...
+============================================================
+  [Docker] Container started: ebd4e4af9d49
+  [Docker] Start code executed
+  [Docker] Container stopped: ebd4e4af9d49
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 6: I would like to implement the following function: entering the "calc" command wi...
+============================================================
+  [Docker] Container started: 5595d1e4e02f
+  [Docker] Container stopped: 5595d1e4e02f
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 7: How many hidden files are in /home? (not including subdirectories)...
+============================================================
+  [Docker] Container started: 11c9b6101b9e
+  [Docker] Init code executed
+  [Docker] Container stopped: 11c9b6101b9e
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 8: How many files whose name starts with letter exist in /root?...
+============================================================
+  [Docker] Container started: 97eea7a75657
+  [Docker] Init code executed
+  [Docker] Container stopped: 97eea7a75657
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 9: How much disk space is being used by /home and all of its contents? Tell me in h...
+============================================================
+  [Docker] Container started: 466fed4dd869
+  [Docker] Init code executed
+  [Docker] Container stopped: 466fed4dd869
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 10: How many empty files are there in /home and all of its content?...
+============================================================
+  [Docker] Container started: 5fa61784844f
+  [Docker] Init code executed
+  [Docker] Container stopped: 5fa61784844f
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 11: How many directories are in the root dir (excluding hidden directories)?...
+============================================================
+  [Docker] Container started: 25b7ee997f82
+  [Docker] Container stopped: 25b7ee997f82
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 12: How many directories (recursively) are in the /home directory?...
+============================================================
+  [Docker] Container started: ea1b4bf8204e
+  [Docker] Init code executed
+  [Docker] Container stopped: ea1b4bf8204e
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 13: How many files in /home (recursively) were modified in the last 24 hours?...
+============================================================
+  [Docker] Container started: 89c594b89d93
+  [Docker] Init code executed
+  [Docker] Container stopped: 89c594b89d93
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 14: What's the count of my CPUs?...
+============================================================
+  [Docker] Container started: 91f66feaa897
+  [Docker] Container stopped: 91f66feaa897
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 15: How many groups are in my system?...
+============================================================
+  [Docker] Container started: 8facd2884336
+  [Docker] Container stopped: 8facd2884336
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 16: Find out how many groups with an index greater than 50....
+============================================================
+  [Docker] Container started: cddef1976592
+  [Docker] Container stopped: cddef1976592
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 17: Find out how many groups with an index not greater than 70....
+============================================================
+  [Docker] Container started: a5de2200c4e9
+  [Docker] Container stopped: a5de2200c4e9
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 18: Find out count of users....
+============================================================
+  [Docker] Container started: e3cdae66bb8b
+  [Docker] Container stopped: e3cdae66bb8b
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 19: Find out count of users....
+============================================================
+  [Docker] Container started: 2bbe6d7a4cdf
+  [Docker] Init code executed
+  [Docker] Container stopped: 2bbe6d7a4cdf
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 20: Find out count of users who belong to at least 2 groups....
+============================================================
+  [Docker] Container started: 806af4b7350c
+  [Docker] Init code executed
+  [Docker] Container stopped: 806af4b7350c
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 21: Find out count of users who belong to at least 4 groups....
+============================================================
+  [Docker] Container started: 4af4395ff402
+  [Docker] Init code executed
+  [Docker] Container stopped: 4af4395ff402
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 22: Recursively Find how many files have the extension .helloworld...
+============================================================
+  [Docker] Container started: dc4286c251ff
+  [Docker] Init code executed
+  [Docker] Container stopped: dc4286c251ff
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 23: Tell me whether npm is installed or not. If so, return 'installed'. If not, retu...
+============================================================
+  [Docker] Container started: 9233fc2c593a
+  [Docker] Container stopped: 9233fc2c593a
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 24: Tell me the max number of threads in my computer....
+============================================================
+  [Docker] Container started: 3c35594378a9
+  [Docker] Container stopped: 3c35594378a9
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 25: what is the output if i execute ~/test?...
+============================================================
+  [Docker] Container started: 92820f6e640d
+  [Docker] Init code executed
+  [Docker] Container stopped: 92820f6e640d
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+Task 26: Stock logs are shown in /usr/stock.log. The last two columns are stock index and...
+============================================================
+  [Docker] Container started: ff6f1b23be40
+  [Docker] Container stopped: ff6f1b23be40
+  [Error]: 'AgentResult' object has no attribute 'get'
+
+============================================================
+FINAL RESULTS
+============================================================
+Passed:  0/26
+Failed:  26/26
+Skipped: 0/26
+Score:   0.0%
+============================================================
+
+Results saved to: C:\Users\WIN\Desktop\Cursor Project\nogicos\tests\benchmark\agentbench_results.json

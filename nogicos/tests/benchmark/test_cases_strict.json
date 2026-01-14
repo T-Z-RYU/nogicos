@@ -1,0 +1,167 @@
+{
+  "version": "1.0",
+  "description": "NogicOS Strict Benchmark - Unmodified WebArena/OSWorld Standards",
+  "note": "DO NOT MODIFY THESE TEST CASES TO MAKE THEM PASS",
+  "tasks": [
+    {
+      "task_id": "L001",
+      "category": "local",
+      "difficulty": "easy",
+      "task": "List all files in the current directory",
+      "evaluator": {
+        "type": "string",
+        "mode": "regex",
+        "expected": "\\.(py|json|md|txt|yaml|yml)\\b"
+      },
+      "timeout_seconds": 30,
+      "max_steps": 5,
+      "optimal_steps": 1,
+      "standard": "WebArena StringEvaluator - must return file names with extensions"
+    },
+    {
+      "task_id": "L002",
+      "category": "local",
+      "difficulty": "easy",
+      "task": "Read the content of README.md file",
+      "evaluator": {
+        "type": "string",
+        "mode": "must_include",
+        "expected": ["NogicOS", "AI"]
+      },
+      "timeout_seconds": 30,
+      "max_steps": 5,
+      "optimal_steps": 1,
+      "standard": "WebArena StringEvaluator - must include key content"
+    },
+    {
+      "task_id": "L003",
+      "category": "local",
+      "difficulty": "easy",
+      "task": "Create a new file called test_output.txt in the current directory with content 'Hello World'",
+      "evaluator": {
+        "type": "file",
+        "path": "./test_output.txt",
+        "checks": [
+          {"type": "exists"},
+          {"type": "content_match", "expected": "Hello World"}
+        ]
+      },
+      "timeout_seconds": 30,
+      "max_steps": 5,
+      "optimal_steps": 1,
+      "cleanup": ["./test_output.txt"],
+      "standard": "OSWorld FileEvaluator - file must exist with exact content"
+    },
+    {
+      "task_id": "L004",
+      "category": "local",
+      "difficulty": "medium",
+      "task": "Search for all Python files (*.py) in the engine directory and list them",
+      "evaluator": {
+        "type": "string",
+        "mode": "must_include",
+        "expected": [".py", "engine"]
+      },
+      "timeout_seconds": 30,
+      "max_steps": 5,
+      "optimal_steps": 1,
+      "standard": "WebArena StringEvaluator - must show actual .py file paths"
+    },
+    {
+      "task_id": "L005",
+      "category": "local",
+      "difficulty": "medium",
+      "task": "Run 'python --version' and return the exact output",
+      "evaluator": {
+        "type": "string",
+        "mode": "regex",
+        "expected": "Python \\d+\\.\\d+\\.\\d+"
+      },
+      "timeout_seconds": 30,
+      "max_steps": 5,
+      "optimal_steps": 1,
+      "standard": "OSWorld - exact command output format"
+    },
+    {
+      "task_id": "L006",
+      "category": "local",
+      "difficulty": "medium",
+      "task": "Find files containing 'import' in the engine/agent directory",
+      "evaluator": {
+        "type": "string",
+        "mode": "regex",
+        "expected": "engine[/\\\\]agent[/\\\\].*\\.py"
+      },
+      "timeout_seconds": 30,
+      "max_steps": 5,
+      "optimal_steps": 1,
+      "standard": "WebArena StringEvaluator - must return file paths"
+    },
+    {
+      "task_id": "B001",
+      "category": "browser",
+      "difficulty": "easy",
+      "task": "Navigate to https://example.com",
+      "evaluator": {
+        "type": "url",
+        "mode": "contains",
+        "expected": "example.com"
+      },
+      "timeout_seconds": 60,
+      "max_steps": 5,
+      "optimal_steps": 1,
+      "standard": "WebArena URLEvaluator"
+    },
+    {
+      "task_id": "B002",
+      "category": "browser",
+      "difficulty": "easy",
+      "task": "Go to https://www.google.com and return the page title",
+      "evaluator": {
+        "type": "string",
+        "mode": "must_include",
+        "expected": ["Google"]
+      },
+      "timeout_seconds": 60,
+      "max_steps": 5,
+      "optimal_steps": 2,
+      "standard": "WebArena StringEvaluator"
+    },
+    {
+      "task_id": "B003",
+      "category": "browser",
+      "difficulty": "medium",
+      "task": "Navigate to https://news.ycombinator.com and extract the title of the first story",
+      "evaluator": {
+        "type": "string",
+        "mode": "regex",
+        "expected": ".{10,}"
+      },
+      "timeout_seconds": 90,
+      "max_steps": 10,
+      "optimal_steps": 3,
+      "standard": "WebArena - content extraction"
+    },
+    {
+      "task_id": "M001",
+      "category": "mixed",
+      "difficulty": "medium",
+      "task": "Go to https://example.com, get the page title, and save it to a file called page_title.txt in the current directory",
+      "evaluator": {
+        "type": "file",
+        "path": "./page_title.txt",
+        "checks": [
+          {"type": "exists"},
+          {"type": "not_empty"}
+        ]
+      },
+      "timeout_seconds": 90,
+      "max_steps": 10,
+      "optimal_steps": 3,
+      "cleanup": ["./page_title.txt"],
+      "standard": "OSWorld FileEvaluator - cross-domain task"
+    }
+  ]
+}
+
+

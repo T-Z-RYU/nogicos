@@ -1,0 +1,183 @@
+{
+  "app_name": "Calm",
+  "total_screenshots": 6,
+  "analyzed_at": "2025-12-24T10:00:00",
+  "model": "claude-opus-4-5-20251101",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "type": "VP",
+      "type_cn": "价值主张",
+      "elements": ["Headline", "Device_Mockup", "Gradient_BG", "Illustration"],
+      "copywriting": {
+        "headline": "Sleep More. Stress Less.",
+        "subheadline": "Find your calm"
+      },
+      "psychology": {
+        "cialdini": ["liking"],
+        "cognitive_biases": ["primacy_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 5.0,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "情感化价值主张，直击用户痛点：睡眠和压力问题"
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "type": "CORE_FUNC",
+      "type_cn": "核心功能",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Guided Meditations",
+        "subheadline": "Thousands of programs"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "核心冥想功能展示，强调内容丰富度"
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "type": "SOCIAL_PROOF",
+      "type_cn": "社会证明",
+      "elements": ["Headline", "Rating_Stars", "Award_Badge", "Review_Quote"],
+      "copywriting": {
+        "headline": "#1 App for Sleep",
+        "subheadline": "App of the Year Winner"
+      },
+      "psychology": {
+        "cialdini": ["social_proof", "authority"],
+        "cognitive_biases": ["bandwagon_effect", "halo_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 5.0,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "强力社会证明，App Store年度最佳应用"
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "type": "PERSONALIZATION",
+      "type_cn": "个性化展示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Daily Calm",
+        "subheadline": "Personalized for you"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["endowment_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "每日个性化推荐，培养用户习惯"
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "type": "AUTHORITY",
+      "type_cn": "权威背书",
+      "elements": ["Headline", "Media_Logo", "Illustration"],
+      "copywriting": {
+        "headline": "As Featured In",
+        "subheadline": "Trusted by experts"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["halo_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "媒体权威背书，增强品牌信任"
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "type": "FREE_TRIAL",
+      "type_cn": "免费试用提示",
+      "elements": ["Headline", "CTA_Text", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Start Your Free Trial",
+        "subheadline": "7 days free, cancel anytime"
+      },
+      "psychology": {
+        "cialdini": ["reciprocity"],
+        "cognitive_biases": ["loss_aversion"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "清晰的免费试用引导，降低转化阻力"
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → CORE_FUNC → SOCIAL_PROOF → PERSONALIZATION → AUTHORITY → FREE_TRIAL",
+    "strengths": [
+      "情感化价值主张，品牌调性一致",
+      "社会证明前置（P3位置）",
+      "App of the Year 强背书",
+      "整体设计简洁优雅"
+    ],
+    "weaknesses": [
+      "未展示AI相关功能",
+      "6张截图内容相对有限"
+    ],
+    "recommendations": [
+      "可增加用户故事或成功案例",
+      "考虑展示睡眠追踪等数据功能"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 1,
+      "CORE_FUNC": 1,
+      "SOCIAL_PROOF": 1,
+      "PERSONALIZATION": 1,
+      "AUTHORITY": 1,
+      "FREE_TRIAL": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 3,
+      "Headline": 6,
+      "App_UI": 2,
+      "Gradient_BG": 2,
+      "Illustration": 2,
+      "Rating_Stars": 1,
+      "Award_Badge": 1,
+      "Review_Quote": 1,
+      "Media_Logo": 1
+    },
+    "psychology_coverage": {
+      "cialdini": ["liking", "authority", "social_proof", "commitment", "reciprocity"],
+      "cognitive_biases": ["primacy_effect", "cognitive_fluency", "bandwagon_effect", "halo_effect", "endowment_effect", "loss_aversion"]
+    }
+  }
+}
+

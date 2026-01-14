@@ -1,0 +1,84 @@
+{
+  "app_name": "Noom",
+  "screenshot_index": 10,
+  "screenshot_filename": "0010.png",
+  "total_onboarding_screens": 114,
+  "position_percentage": 8.8,
+  
+  "classification": {
+    "functional_purpose": {
+      "primary_category": "Identity",
+      "secondary_type": "AgeInput",
+      "confidence": 0.98,
+      "description": "收集用户年龄信息，用于个性化计划"
+    },
+    "funnel_stage": {
+      "stage": "Commitment",
+      "position_in_funnel": "middle",
+      "description": "用户已开始填写信息，正在逐步投入"
+    },
+    "psychological_tactic": {
+      "primary_tactic": "CommitmentConsistency",
+      "secondary_tactics": ["ProgressAchievement", "Personalization"],
+      "tactic_strength": "moderate",
+      "description": "利用进度条和已完成的步骤增强用户继续的意愿"
+    },
+    "interaction_pattern": {
+      "primary_interaction": "SingleChoice",
+      "is_skippable": false,
+      "input_effort": "low",
+      "description": "下拉选择器，用户只需点击选择年龄"
+    },
+    "ui_pattern": {
+      "layout_type": "Form",
+      "has_progress_indicator": true,
+      "has_illustration": false,
+      "has_animation": false,
+      "color_scheme": "light",
+      "description": "简洁的表单布局，顶部有分段进度指示器"
+    },
+    "commitment_level": {
+      "level": 3,
+      "commitment_type": "information",
+      "reversibility": "partially_reversible",
+      "description": "提供个人年龄信息，中等承诺"
+    }
+  },
+  
+  "deep_analysis": {
+    "design_intent": "收集用户年龄数据用于计算基础代谢率（BMR）和制定个性化减重计划",
+    "ux_observation": "界面极度简洁，每页只问一个问题，降低认知负荷。进度条显示这是多步问卷的一部分（DEMOGRAPHIC PROFILE）",
+    "conversion_impact": "positive",
+    "potential_issues": [
+      "Next按钮在未选择时呈灰色禁用状态，符合预期",
+      "进度条设计清晰，用户知道自己在流程中的位置"
+    ],
+    "best_practice_alignment": "符合Noom著名的'长问卷策略'——利用承诺一致性原理，用户投入越多越不愿放弃。行业案例证明这种策略能显著提升转化率"
+  },
+  
+  "raw_observation": {
+    "visible_text": [
+      "NOOM",
+      "DEMOGRAPHIC PROFILE",
+      "What is your age?",
+      "Age",
+      "Next"
+    ],
+    "ui_elements": [
+      "品牌Logo",
+      "返回箭头",
+      "分段进度条（8段）",
+      "问题标题",
+      "下拉选择器",
+      "禁用状态的Next按钮"
+    ],
+    "brand_elements": [
+      "Noom Logo",
+      "品牌青绿色进度条",
+      "极简设计风格"
+    ]
+  },
+  
+  "analysis_method": "claude_opus_4.5",
+  "analyzed_at": "2025-12-22T00:00:00"
+}

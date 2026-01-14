@@ -1,0 +1,308 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "PM Lab" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e11]: PM Lab
+      - generic [ref=e12]:
+        - heading "导航" [level=3] [ref=e13]
+        - navigation [ref=e14]:
+          - link "全部项目" [ref=e15] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e16]:
+              - img [ref=e17]
+              - generic [ref=e20]: 全部项目
+      - generic [ref=e21]:
+        - heading "工具" [level=3] [ref=e22]
+        - navigation [ref=e23]:
+          - link "Onboarding" [ref=e24] [cursor=pointer]:
+            - /url: /onboarding
+            - generic [ref=e25]:
+              - img [ref=e26]
+              - generic [ref=e28]: Onboarding
+          - link "排序" [ref=e29] [cursor=pointer]:
+            - /url: /sort
+            - generic [ref=e30]:
+              - img [ref=e31]
+              - generic [ref=e34]: 排序
+          - link "分类" [ref=e35] [cursor=pointer]:
+            - /url: /classify
+            - generic [ref=e36]:
+              - img [ref=e37]
+              - generic [ref=e41]: 分类
+          - link "商店对比" [ref=e42] [cursor=pointer]:
+            - /url: /store
+            - generic [ref=e43]:
+              - img [ref=e44]
+              - generic [ref=e48]: 商店对比
+      - generic [ref=e49]:
+        - heading "项目 23" [level=3] [ref=e50]:
+          - text: 项目
+          - generic [ref=e51]: "23"
+        - generic [ref=e52]:
+          - link "F [Mobbin] Fitbit 384" [ref=e53] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FFitbit
+            - generic [ref=e54]:
+              - generic [ref=e55]: F
+              - generic [ref=e56]: "[Mobbin] Fitbit"
+              - generic [ref=e57]: "384"
+          - link "Y [SD] Yazio 247" [ref=e58] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FYazio
+            - generic [ref=e59]:
+              - generic [ref=e60]: "Y"
+              - generic [ref=e61]: "[SD] Yazio"
+              - generic [ref=e62]: "247"
+          - link "M MyFitnessPal 200" [ref=e63] [cursor=pointer]:
+            - /url: /project/MyFitnessPal_Calorie_Counter_Analysis
+            - generic [ref=e64]:
+              - generic [ref=e65]: M
+              - generic [ref=e66]: MyFitnessPal
+              - generic [ref=e67]: "200"
+          - link "P Peloton 200" [ref=e68] [cursor=pointer]:
+            - /url: /project/Peloton_Analysis
+            - generic [ref=e69]:
+              - generic [ref=e70]: P
+              - generic [ref=e71]: Peloton
+              - generic [ref=e72]: "200"
+          - link "R Runna 200" [ref=e73] [cursor=pointer]:
+            - /url: /project/Runna_Running_Training_Plans_Analysis
+            - generic [ref=e74]:
+              - generic [ref=e75]: R
+              - generic [ref=e76]: Runna
+              - generic [ref=e77]: "200"
+          - link "S Strava 200" [ref=e78] [cursor=pointer]:
+            - /url: /project/Strava_Run_Bike_Hike_Analysis
+            - generic [ref=e79]:
+              - generic [ref=e80]: S
+              - generic [ref=e81]: Strava
+              - generic [ref=e82]: "200"
+          - link "L [SD] LoseIt 200" [ref=e83] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FLoseIt
+            - generic [ref=e84]:
+              - generic [ref=e85]: L
+              - generic [ref=e86]: "[SD] LoseIt"
+              - generic [ref=e87]: "200"
+          - link "M [SD] MacroFactor 200" [ref=e88] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FMacroFactor
+            - generic [ref=e89]:
+              - generic [ref=e90]: M
+              - generic [ref=e91]: "[SD] MacroFactor"
+              - generic [ref=e92]: "200"
+          - link "M [SD] MyFitnessPal 200" [ref=e93] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FMyFitnessPal
+            - generic [ref=e94]:
+              - generic [ref=e95]: M
+              - generic [ref=e96]: "[SD] MyFitnessPal"
+              - generic [ref=e97]: "200"
+          - link "N [SD] Noom 200" [ref=e98] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FNoom
+            - generic [ref=e99]:
+              - generic [ref=e100]: "N"
+              - generic [ref=e101]: "[SD] Noom"
+              - generic [ref=e102]: "200"
+          - link "P [SD] Peloton 200" [ref=e103] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FPeloton
+            - generic [ref=e104]:
+              - generic [ref=e105]: P
+              - generic [ref=e106]: "[SD] Peloton"
+              - generic [ref=e107]: "200"
+          - link "R [SD] Runna 200" [ref=e108] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FRunna
+            - generic [ref=e109]:
+              - generic [ref=e110]: R
+              - generic [ref=e111]: "[SD] Runna"
+              - generic [ref=e112]: "200"
+          - link "S [SD] Strava 200" [ref=e113] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FStrava
+            - generic [ref=e114]:
+              - generic [ref=e115]: S
+              - generic [ref=e116]: "[SD] Strava"
+              - generic [ref=e117]: "200"
+          - link "F Flo 198" [ref=e118] [cursor=pointer]:
+            - /url: /project/Flo_Period_Pregnancy_Tracker_Analysis
+            - generic [ref=e119]:
+              - generic [ref=e120]: F
+              - generic [ref=e121]: Flo
+              - generic [ref=e122]: "198"
+          - link "A [SD] AllTrails 198" [ref=e123] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FAllTrails
+            - generic [ref=e124]:
+              - generic [ref=e125]: A
+              - generic [ref=e126]: "[SD] AllTrails"
+              - generic [ref=e127]: "198"
+          - link "F [SD] Flo 198" [ref=e128] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FFlo
+            - generic [ref=e129]:
+              - generic [ref=e130]: F
+              - generic [ref=e131]: "[SD] Flo"
+              - generic [ref=e132]: "198"
+          - link "C [Mobbin] Cal_AI 139" [ref=e133] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FCal_AI
+            - generic [ref=e134]:
+              - generic [ref=e135]: C
+              - generic [ref=e136]: "[Mobbin] Cal_AI"
+              - generic [ref=e137]: "139"
+          - link "W [SD] WeightWatchers 137" [ref=e138] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FWeightWatchers
+            - generic [ref=e139]:
+              - generic [ref=e140]: W
+              - generic [ref=e141]: "[SD] WeightWatchers"
+              - generic [ref=e142]: "137"
+          - link "H [SD] Headspace 131" [ref=e143] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FHeadspace
+            - generic [ref=e144]:
+              - generic [ref=e145]: H
+              - generic [ref=e146]: "[SD] Headspace"
+              - generic [ref=e147]: "131"
+          - link "C Calm 120" [ref=e148] [cursor=pointer]:
+            - /url: /project/Calm_Analysis
+            - generic [ref=e149]:
+              - generic [ref=e150]: C
+              - generic [ref=e151]: Calm
+              - generic [ref=e152]: "120"
+          - link "C [SD] Calm 120" [ref=e153] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FCalm
+            - generic [ref=e154]:
+              - generic [ref=e155]: C
+              - generic [ref=e156]: "[SD] Calm"
+              - generic [ref=e157]: "120"
+          - link "L [SD] LADDER 113" [ref=e158] [cursor=pointer]:
+            - /url: /project/downloads_2024%2FLADDER
+            - generic [ref=e159]:
+              - generic [ref=e160]: L
+              - generic [ref=e161]: "[SD] LADDER"
+              - generic [ref=e162]: "113"
+          - link "C Cal AI 93" [ref=e163] [cursor=pointer]:
+            - /url: /project/Cal_AI_-_Calorie_Tracker_Analysis
+            - generic [ref=e164]:
+              - generic [ref=e165]: C
+              - generic [ref=e166]: Cal AI
+              - generic [ref=e167]: "93"
+      - link "设置" [ref=e169] [cursor=pointer]:
+        - /url: /settings
+        - generic [ref=e170]:
+          - img [ref=e171]
+          - generic [ref=e174]: 设置
+    - main [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - heading "项目列表 Projects" [level=3] [ref=e179]:
+            - text: 项目列表
+            - generic [ref=e180]: Projects
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - generic [ref=e183]: 已标记 (4)
+              - button "Fitbit 2" [ref=e184] [cursor=pointer]:
+                - img [ref=e185]
+                - generic [ref=e188]: Fitbit
+                - generic [ref=e189]: "2"
+              - button "Yazio 84" [ref=e190] [cursor=pointer]:
+                - img [ref=e191]
+                - generic [ref=e194]: Yazio
+                - generic [ref=e195]: "84"
+              - button "Cal_AI 37" [ref=e196] [cursor=pointer]:
+                - img [ref=e197]
+                - generic [ref=e200]: Cal_AI
+                - generic [ref=e201]: "37"
+              - button "WeightWatchers 40" [ref=e202] [cursor=pointer]:
+                - img [ref=e203]
+                - generic [ref=e206]: WeightWatchers
+                - generic [ref=e207]: "40"
+            - generic [ref=e208]:
+              - generic [ref=e209]: 未标记 (19)
+              - button "MyFitnessPal 200" [ref=e210] [cursor=pointer]:
+                - img [ref=e211]
+                - generic [ref=e213]: MyFitnessPal
+                - generic [ref=e214]: "200"
+              - button "Peloton 200" [ref=e215] [cursor=pointer]:
+                - img [ref=e216]
+                - generic [ref=e218]: Peloton
+                - generic [ref=e219]: "200"
+              - button "Runna 200" [ref=e220] [cursor=pointer]:
+                - img [ref=e221]
+                - generic [ref=e223]: Runna
+                - generic [ref=e224]: "200"
+              - button "Strava 200" [ref=e225] [cursor=pointer]:
+                - img [ref=e226]
+                - generic [ref=e228]: Strava
+                - generic [ref=e229]: "200"
+              - button "LoseIt 200" [ref=e230] [cursor=pointer]:
+                - img [ref=e231]
+                - generic [ref=e233]: LoseIt
+                - generic [ref=e234]: "200"
+              - button "MacroFactor 200" [ref=e235] [cursor=pointer]:
+                - img [ref=e236]
+                - generic [ref=e238]: MacroFactor
+                - generic [ref=e239]: "200"
+              - button "MyFitnessPal 200" [ref=e240] [cursor=pointer]:
+                - img [ref=e241]
+                - generic [ref=e243]: MyFitnessPal
+                - generic [ref=e244]: "200"
+              - button "Noom 200" [ref=e245] [cursor=pointer]:
+                - img [ref=e246]
+                - generic [ref=e248]: Noom
+                - generic [ref=e249]: "200"
+              - button "Peloton 200" [ref=e250] [cursor=pointer]:
+                - img [ref=e251]
+                - generic [ref=e253]: Peloton
+                - generic [ref=e254]: "200"
+              - button "Runna 200" [ref=e255] [cursor=pointer]:
+                - img [ref=e256]
+                - generic [ref=e258]: Runna
+                - generic [ref=e259]: "200"
+              - button "Strava 200" [ref=e260] [cursor=pointer]:
+                - img [ref=e261]
+                - generic [ref=e263]: Strava
+                - generic [ref=e264]: "200"
+              - button "Flo 198" [ref=e265] [cursor=pointer]:
+                - img [ref=e266]
+                - generic [ref=e268]: Flo
+                - generic [ref=e269]: "198"
+              - button "AllTrails 198" [ref=e270] [cursor=pointer]:
+                - img [ref=e271]
+                - generic [ref=e273]: AllTrails
+                - generic [ref=e274]: "198"
+              - button "Flo 198" [ref=e275] [cursor=pointer]:
+                - img [ref=e276]
+                - generic [ref=e278]: Flo
+                - generic [ref=e279]: "198"
+              - button "Headspace 131" [ref=e280] [cursor=pointer]:
+                - img [ref=e281]
+                - generic [ref=e283]: Headspace
+                - generic [ref=e284]: "131"
+              - button "Calm 120" [ref=e285] [cursor=pointer]:
+                - img [ref=e286]
+                - generic [ref=e288]: Calm
+                - generic [ref=e289]: "120"
+              - button "Calm 120" [ref=e290] [cursor=pointer]:
+                - img [ref=e291]
+                - generic [ref=e293]: Calm
+                - generic [ref=e294]: "120"
+              - button "LADDER 113" [ref=e295] [cursor=pointer]:
+                - img [ref=e296]
+                - generic [ref=e298]: LADDER
+                - generic [ref=e299]: "113"
+              - button "Cal AI 93" [ref=e300] [cursor=pointer]:
+                - img [ref=e301]
+                - generic [ref=e303]: Cal AI
+                - generic [ref=e304]: "93"
+          - generic [ref=e305]:
+            - generic [ref=e306]:
+              - generic [ref=e307]: 项目 Projects
+              - generic [ref=e308]: "23"
+            - generic [ref=e309]:
+              - generic [ref=e310]: 已标记 Marked
+              - generic [ref=e311]: "4"
+        - generic [ref=e312]:
+          - heading "Onboarding 分析" [level=1] [ref=e314]
+          - generic [ref=e316]:
+            - img [ref=e317]
+            - paragraph [ref=e319]: 从左侧选择一个项目来标记 Onboarding 范围
+  - button "Open Next.js Dev Tools" [ref=e325] [cursor=pointer]:
+    - img [ref=e326]
+  - alert [ref=e329]
+```

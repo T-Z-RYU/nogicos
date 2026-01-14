@@ -1,0 +1,245 @@
+/**
+ * Cursor-Style Chat Theme
+ * Based on observed Cursor IDE chat interface
+ */
+
+:root {
+  /* === Background Colors === */
+  --chat-bg-primary: #181818;
+  --chat-bg-secondary: #1e1e1e;
+  --chat-bg-tertiary: #252526;
+  --chat-bg-user-message: #2a2a2a;
+  --chat-bg-code: #1e1e1e;
+  --chat-bg-diff-add: #1e3a1e;
+  --chat-bg-diff-del: #3d2020;
+  
+  /* === Text Colors === */
+  --chat-text-primary: #e0e0e0;
+  --chat-text-secondary: #858585;
+  --chat-text-muted: #5a5a5a;
+  --chat-text-thinking: #9a9a9a;
+  
+  /* === Accent Colors === */
+  --chat-accent-green: #4ec9b0;
+  --chat-accent-red: #f14c4c;
+  --chat-accent-blue: #3794ff;
+  --chat-accent-purple: #c586c0;
+  --chat-accent-yellow: #dcdcaa;
+  --chat-accent-orange: #ce9178;
+  --chat-accent-cyan: #9cdcfe;
+  
+  /* === Border Colors === */
+  --chat-border: #3c3c3c;
+  --chat-border-light: rgba(255, 255, 255, 0.06);
+  --chat-border-hover: rgba(255, 255, 255, 0.15);
+  
+  /* === Syntax Highlighting (VS Code Dark+) === */
+  --syntax-keyword: #569cd6;
+  --syntax-function: #dcdcaa;
+  --syntax-string: #ce9178;
+  --syntax-variable: #9cdcfe;
+  --syntax-number: #b5cea8;
+  --syntax-comment: #6a9955;
+  --syntax-class: #4ec9b0;
+  --syntax-operator: #d4d4d4;
+  --syntax-command: #c586c0;
+  
+  /* === Font === */
+  --chat-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --chat-font-mono: "Cascadia Code", Consolas, "Courier New", monospace;
+  --chat-font-size-base: 13px;
+  --chat-font-size-sm: 12px;
+  --chat-font-size-xs: 11px;
+  --chat-line-height: 1.5;
+  
+  /* === Spacing === */
+  --chat-spacing-xs: 4px;
+  --chat-spacing-sm: 8px;
+  --chat-spacing-md: 12px;
+  --chat-spacing-lg: 16px;
+  --chat-spacing-xl: 24px;
+  
+  /* === Border Radius === */
+  --chat-radius-sm: 4px;
+  --chat-radius-md: 6px;
+  --chat-radius-lg: 8px;
+}
+
+/* === Base Chat Styles === */
+.chat-container {
+  background: var(--chat-bg-primary);
+  color: var(--chat-text-primary);
+  font-family: var(--chat-font-sans);
+  font-size: var(--chat-font-size-base);
+  line-height: var(--chat-line-height);
+}
+
+/* === Message Styles === */
+.chat-message-user {
+  background: var(--chat-bg-user-message);
+  border-left: 2px solid var(--chat-border);
+  padding: var(--chat-spacing-md) var(--chat-spacing-lg);
+  margin: var(--chat-spacing-sm) 0;
+  border-radius: var(--chat-radius-md);
+}
+
+.chat-message-ai {
+  padding: var(--chat-spacing-md) 0;
+}
+
+/* === Thinking Block === */
+.chat-thinking {
+  color: var(--chat-text-secondary);
+  font-size: var(--chat-font-size-base);
+  cursor: pointer;
+  padding: var(--chat-spacing-xs) 0;
+}
+
+.chat-thinking-header {
+  display: flex;
+  align-items: center;
+  gap: var(--chat-spacing-sm);
+}
+
+.chat-thinking-content {
+  color: var(--chat-text-thinking);
+  font-size: var(--chat-font-size-base);
+  line-height: var(--chat-line-height);
+  padding: var(--chat-spacing-sm) 0;
+  white-space: pre-wrap;
+}
+
+/* === Code Block === */
+.chat-code-block {
+  background: var(--chat-bg-code);
+  border-radius: var(--chat-radius-md);
+  padding: var(--chat-spacing-md) var(--chat-spacing-lg);
+  margin: var(--chat-spacing-sm) 0;
+  overflow-x: auto;
+  font-family: var(--chat-font-mono);
+  font-size: var(--chat-font-size-base);
+}
+
+.chat-code-header {
+  display: flex;
+  align-items: center;
+  gap: var(--chat-spacing-sm);
+  color: var(--chat-text-secondary);
+  font-size: var(--chat-font-size-sm);
+  margin-bottom: var(--chat-spacing-sm);
+}
+
+.chat-code-filename {
+  color: var(--chat-text-primary);
+}
+
+.chat-code-stats-add {
+  color: var(--chat-accent-green);
+}
+
+.chat-code-stats-del {
+  color: var(--chat-accent-red);
+}
+
+/* === Diff Lines === */
+.chat-diff-add {
+  background: var(--chat-bg-diff-add);
+  border-left: 3px solid var(--chat-accent-green);
+  padding-left: var(--chat-spacing-sm);
+}
+
+.chat-diff-del {
+  background: var(--chat-bg-diff-del);
+  border-left: 3px solid var(--chat-accent-red);
+  padding-left: var(--chat-spacing-sm);
+}
+
+/* === Inline Code === */
+.chat-code-inline {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2px 6px;
+  border-radius: var(--chat-radius-sm);
+  font-family: var(--chat-font-mono);
+  font-size: var(--chat-font-size-sm);
+  color: var(--syntax-string);
+}
+
+/* === Terminal Block === */
+.chat-terminal {
+  background: var(--chat-bg-code);
+  border-radius: var(--chat-radius-md);
+  padding: var(--chat-spacing-md) var(--chat-spacing-lg);
+  font-family: var(--chat-font-mono);
+  font-size: var(--chat-font-size-base);
+}
+
+.chat-terminal-header {
+  color: var(--chat-text-secondary);
+  font-size: var(--chat-font-size-sm);
+  margin-bottom: var(--chat-spacing-sm);
+}
+
+.chat-terminal-prompt {
+  color: var(--syntax-command);
+}
+
+.chat-terminal-command {
+  color: var(--chat-text-primary);
+}
+
+.chat-terminal-path {
+  color: var(--syntax-string);
+}
+
+/* === Streaming Cursor === */
+@keyframes cursor-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.chat-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background: var(--chat-text-primary);
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  animation: cursor-blink 1s infinite;
+}
+
+/* === Tool Status === */
+.chat-tool-status {
+  color: var(--chat-text-secondary);
+  font-size: var(--chat-font-size-base);
+  padding: var(--chat-spacing-xs) 0;
+}
+
+/* === Links === */
+.chat-link {
+  color: var(--chat-accent-blue);
+  text-decoration: underline;
+}
+
+.chat-link:hover {
+  color: var(--chat-accent-cyan);
+}
+
+/* === Scrollbar === */
+.chat-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.chat-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.chat-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.chat-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+

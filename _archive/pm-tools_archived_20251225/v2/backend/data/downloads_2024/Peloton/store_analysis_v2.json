@@ -1,0 +1,1406 @@
+{
+  "app_name": "Peloton",
+  "total_screenshots": 9,
+  "analyzed_at": "2025-12-24T14:05:41.185748",
+  "model": "claude-opus-4-5-20251101 / gpt-5.2",
+  "schema_version": "v2",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "CALL YOURSELF A RUNNER",
+          "subheadline": "",
+          "body_copy": [],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "780K RATINGS",
+            "4.9"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0F0F12",
+            "#FFFFFF"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": false,
+            "type": "none",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "app_name"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "SOCIAL_PROOF",
+          "primary_cn": "社会证明",
+          "secondary": "VP"
+        },
+        "message_strategy": {
+          "primary_message": "用高评分与大量评价为“CALL YOURSELF A RUNNER”这一主张建立可信度与吸引力。",
+          "supporting_evidence": "“780K RATINGS”与“4.9”及星级图形共同作为量化背书。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "让用户把自己定义为“RUNNER”，并通过强社会证明降低尝试门槛、增强信任。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof",
+            "authority"
+          ],
+          "cognitive_biases": [
+            "anchoring",
+            "bandwagon",
+            "cognitive_fluency",
+            "primacy_effect"
+          ],
+          "persuasion_technique": "用“780K RATINGS”作为规模锚点，再用“4.9”与星级作为质量锚点，形成“很多人用且评价很高”的快速判断路径。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "画面中部的大字标题“CALL YOURSELF A RUNNER”，其次是下方两块数据背书卡片（“780K RATINGS”“4.9”+星级）。",
+          "information_density": "low",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0F0F12",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "editorial",
+          "whitespace_usage": "generous",
+          "element_count": 5,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 4.8,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“CALL YOURSELF A RUNNER”这种身份宣言式文案",
+            "将“780K RATINGS”“4.9”做成独立描边卡片强化可读性"
+          ],
+          "category_conventions": [
+            "黑底+大标题的强对比信息传达",
+            "用评分/评价数做社会证明",
+            "使用星级图形强化“评分”识别速度"
+          ],
+          "innovations": [
+            "把社会证明放在非常靠前且占比很高的位置（接近主视觉信息量）"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "对跑步/训练身份认同敏感的人群",
+          "在意口碑与评分、希望降低选择风险的用户",
+          "偏好简洁、强品牌感视觉的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "大字号、短句式身份/结果导向主标题",
+          "将关键社会证明（评分/评价数）做成高对比“卡片”模块",
+          "极简配色提升信息读取速度"
+        ],
+        "avoid_elements": [
+          "仅有口号+评分、缺少功能/结果细节时，可能导致用户不理解产品具体做什么",
+          "过度依赖黑底大字在同质化截图流中可能缺乏差异点"
+        ],
+        "adaptation_notes": "VitaFlow 可保留“身份/目标宣言 + 社会证明卡片”的结构，但在同一屏补充1个可验证的核心利益点（例如关键功能或结果指标），并确保评分/评价数与主卖点形成因果关联（为什么能达到该目标）。"
+      }
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "UNLOCK\nYOUR\nBEST RUN",
+          "subheadline": "",
+          "body_copy": [],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#1A1A1C",
+            "#F2F2F2"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": false,
+            "type": "none",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "VP",
+          "primary_cn": "价值主张",
+          "secondary": "RESULT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "UNLOCK YOUR BEST RUN",
+          "supporting_evidence": "使用一张高情绪张力的运动后人像特写（汗水、微笑、仰角）来暗示“跑出最佳状态/突破表现”",
+          "emotional_appeal": "achievement",
+          "value_proposition": "帮助用户解锁/达成更好的跑步表现与状态"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "liking",
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "primacy_effect",
+            "novelty"
+          ],
+          "persuasion_technique": "用极简一句话口号+强情绪人像（运动后满足感）建立“我也能做到”的代入感；不提供细节以降低理解成本，把注意力集中在结果导向的承诺上"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大字号标题“UNLOCK YOUR BEST RUN”，其次为画面中央偏下的人像面部特写（汗水与笑容）",
+          "information_density": "low",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1A1A1C",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "absent"
+        },
+        "layout_pattern": {
+          "template_type": "full_bleed",
+          "whitespace_usage": "balanced",
+          "element_count": 2,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 3.8,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "仅用一句口号级文案“UNLOCK YOUR BEST RUN”+运动后人像特写来传达跑步提升"
+          ],
+          "category_conventions": [
+            "大标题结果导向口号",
+            "使用真实人物运动照片营造动机与情绪"
+          ],
+          "innovations": [
+            "在健康健身类截图中刻意不展示界面/功能点，以情绪与身份认同驱动点击兴趣"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "跑步人群",
+          "追求表现提升/突破PB的训练型用户",
+          "偏好情绪激励与自我成就叙事的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "超大字号、强对比的单句价值主张",
+          "真实人物高质感运动摄影（汗水/表情）",
+          "极简信息结构（低信息密度）"
+        ],
+        "avoid_elements": [
+          "完全不展示产品界面导致“这是什么App”理解成本上升",
+          "缺少任何可验证支撑（功能点/数据/场景）在转化阶段可能乏力"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“单句口号+人物情绪”的开场策略，但建议在同一张或下一张截图补上最小化的产品证据（例如一张设备/界面卡片或1个关键指标），以在保持冲击力的同时提升可理解性与可信度。"
+      }
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Try Thousands\nof Workouts",
+          "subheadline": "Take strength, cardio, Pilates, meditation,\noutdoor running, & more.",
+          "body_copy": [
+            "Try “Beyoncé”",
+            "0 weeks\nStreak",
+            "M T W T F S S",
+            "4/5\nActive days",
+            "1h 27m / 3h 30m\nActive time",
+            "0\nWorkouts",
+            "Your Plan",
+            "Today is a cardio day. Let’s go!",
+            "Top Pick",
+            "5 min Upper Body Warm Up",
+            "Ally Love",
+            "View weekly plan",
+            "Track",
+            "Community",
+            "You"
+          ],
+          "cta_button": "View weekly plan",
+          "small_print": [],
+          "data_numbers": [
+            "9:41",
+            "0",
+            "0 weeks",
+            "4/5",
+            "1h 27m",
+            "3h 30m",
+            "5 min"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0B0B0D",
+            "#FFFFFF"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CONTENT_PREVIEW",
+          "primary_cn": "内容预览",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "Try Thousands\nof Workouts",
+          "supporting_evidence": "通过“Take strength, cardio, Pilates, meditation,\noutdoor running, & more.”列举内容类型，并用应用内“Your Plan”“Top Pick”“5 min Upper Body Warm Up”等具体内容卡片做展示",
+          "emotional_appeal": "excitement",
+          "value_proposition": "提供大量训练内容选择，并覆盖多种训练/身心类别"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "liking",
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "novelty",
+            "anchoring"
+          ],
+          "persuasion_technique": "用“Thousands”作为规模锚点（anchoring），再用清晰的类别清单降低理解成本（cognitive_fluency），并用“Your Plan / Today is a cardio day. Let’s go!”把内容与日常执行绑定以推动持续使用（commitment）"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Try Thousands of Workouts”，其次为中部 iPhone 机模内的训练内容卡片（含人物动作画面）",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0B0D",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 4.5,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "Try “Beyoncé”"
+          ],
+          "category_conventions": [
+            "大标题+副标题的卖点结构",
+            "居中 iPhone 机模展示真实界面",
+            "用训练视频/课程卡片作为内容证明",
+            "用环形进度与统计（Active days / Active time / Workouts）呈现追踪感"
+          ],
+          "innovations": [
+            "在截图中直接露出搜索框文案（Try “Beyoncé”）作为内容丰富度与可探索性的暗示"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "想要多类型训练选择的人（strength, cardio, Pilates, meditation, outdoor running）",
+          "偏好“Your Plan”式日程/计划驱动的人",
+          "对短时课程感兴趣的人（“5 min Upper Body Warm Up”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "超大主标题+一句副标题列举覆盖范围",
+          "居中机模+真实界面内容卡片（内容预览）",
+          "用“Top Pick”类标签强化精选感",
+          "用进度环/数字统计做轻量数据证明"
+        ],
+        "avoid_elements": [
+          "在截图中放入与产品无关或不可控的特定专有名词搜索示例（如“Try “Beyoncé””）",
+          "界面内文字过多导致主卖点被分散（如同时出现多块统计+底部导航+多行卡片信息）"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“主标题强调规模/覆盖面 + 副标题列举关键场景”的结构，并在机模中优先露出 1 个最能代表核心价值的内容卡片；若要展示数据，建议保留 1–2 个最关键的数字/环形进度以维持聚焦。"
+      }
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Watch Yourself\nImprove",
+          "subheadline": "",
+          "body_copy": [
+            "See your improvements, boost your fitness,\nand celebrate every step forward."
+          ],
+          "cta_button": "",
+          "small_print": [
+            "12:00",
+            "HERE NOW  43",
+            "AlwaysOnTheGlow",
+            "F  ·  40s  ·  Bay Area",
+            "# TogetherWeGoFar",
+            "Pressed2BeBest",
+            "F  ·  40s  ·  Bay Area",
+            "# TogetherWeGoFar",
+            "Racerx76",
+            "F  ·  40s  ·  Bay Area",
+            "# TogetherWeGoFar",
+            "SelenaSEA",
+            "F  ·  40s  ·  Bay Area",
+            "# TogetherWeGoFar",
+            "Bombmomma",
+            "F  ·  40s  ·  Bay Area",
+            "# TogetherWeGoFar"
+          ],
+          "data_numbers": [
+            "12:00",
+            "43",
+            "40s"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0B0C0E",
+            "#FFFFFF"
+          ],
+          "color_mood": "cool",
+          "layout_type": "device_mockup",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "RESULT_PREVIEW",
+          "primary_cn": "效果预览",
+          "secondary": "SOCIAL_PROOF"
+        },
+        "message_strategy": {
+          "primary_message": "Watch Yourself Improve",
+          "supporting_evidence": "通过训练视频画面 + “HERE NOW  43”在线人数 + 用户列表与话题标签“# TogetherWeGoFar”来暗示可见的进步与群体训练氛围。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "让用户“看见”自己的进步，并在训练过程中获得激励与庆祝感。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof",
+            "unity"
+          ],
+          "cognitive_biases": [
+            "bandwagon",
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用“HERE NOW  43”与多人用户列表制造“正在发生/很多人一起练”的从众与陪伴感，同时用大标题把收益（Improve）直接前置，降低理解成本。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "底部大标题“Watch Yourself Improve”，其次是手机屏幕中的教练训练画面与“HERE NOW  43”。",
+          "information_density": "medium",
+          "hierarchy_score": 4.4
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0C0E",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.3,
+          "clarity": 4.4,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“HERE NOW  43”实时在线感",
+            "用户列表中统一出现的“# TogetherWeGoFar”群体标签",
+            "训练视频画面与社交列表同屏呈现"
+          ],
+          "category_conventions": [
+            "大字号收益型标题（Improve）",
+            "手机样机居中展示核心界面",
+            "深色背景+白字高对比以突出文案"
+          ],
+          "innovations": [
+            "把“进步”与“同场在线的人”放在同一张图里，兼顾结果导向与社交氛围。"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "偏好跟练/课程式训练的人群",
+          "需要外部激励与陪伴感的健身用户",
+          "对社区氛围与一起训练（# TogetherWeGoFar）有兴趣的人"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "大标题直接表达收益（Improve）",
+          "用“实时在线/正在进行”数字做轻量社会证明（如“HERE NOW  43”这种形式）",
+          "把核心使用场景（视频/训练）与社区/同伴信息同屏展示"
+        ],
+        "avoid_elements": [
+          "列表信息过多导致小字可读性下降（多行用户名+地区+标签）",
+          "过度依赖深色背景导致在App Store缩略图下细节丢失"
+        ],
+        "adaptation_notes": "若VitaFlow也有“过程可视化/进步追踪”，可复用“结果导向大标题 + 真实界面截图”的结构；若有社区或同伴机制，可加入类似“HERE NOW  43”的实时数字，但需控制列表条目数量与字号，确保缩略图下仍能读到关键收益点。"
+      }
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "RUN\nANYTIME\nANYWHERE",
+          "subheadline": "",
+          "body_copy": [],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0F1012",
+            "#F2F2F2"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "full_bleed",
+          "device_mockup": {
+            "present": false,
+            "type": "none",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "VP",
+          "primary_cn": "价值主张",
+          "secondary": "USP"
+        },
+        "message_strategy": {
+          "primary_message": "RUN\nANYTIME\nANYWHERE",
+          "supporting_evidence": "以运动人物的动态照片（跑步姿态、出汗细节）来支撑“随时随地跑”的场景与可达性",
+          "emotional_appeal": "achievement",
+          "value_proposition": "强调跑步的自由度与不受时间地点限制的可执行性"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用极简、强动词的短句口号（RUN + ANYTIME/ANYWHERE）降低理解成本，并用高质量人物运动特写强化代入感与行动联想"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "center_out",
+          "focal_point": "画面中部偏下的大号白色标题“RUN ANYTIME ANYWHERE”，其次是右侧人物面部与上半身的运动特写",
+          "information_density": "low",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0F1012",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "absent"
+        },
+        "layout_pattern": {
+          "template_type": "full_bleed",
+          "whitespace_usage": "generous",
+          "element_count": 2,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 3.5,
+          "uniqueness": 3.2
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "仅用一句口号级主标题“RUN\nANYTIME\nANYWHERE”+人物运动特写，几乎不展示任何App界面"
+          ],
+          "category_conventions": [
+            "使用真实人物运动摄影",
+            "用大字标题传达核心利益点",
+            "深色背景+高对比白字的运动品牌化表达"
+          ],
+          "innovations": [
+            "弱功能信息、强情绪与场景自由度的“品牌海报式”截图策略"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "跑步/有氧训练人群",
+          "偏好简洁、强动机驱动的健身用户",
+          "对“随时随地训练”诉求强的忙碌人群"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "大号、短句、强动词的主标题结构",
+          "高对比（深底白字）提升可读性",
+          "人物运动特写增强代入感与情绪张力",
+          "低信息密度的“海报式”单点传播页"
+        ],
+        "avoid_elements": [
+          "完全不展示产品界面/核心功能（可能降低对App能力的理解）",
+          "缺少品牌元素（logo/app名）导致记忆点不足",
+          "缺少具体利益点量化或功能支撑文案"
+        ],
+        "adaptation_notes": "VitaFlow 可保留“口号式主标题+人物场景”的强情绪框架，但建议在不破坏极简风格的前提下加入：1) 角落放置 VitaFlow logo/产品名；2) 增加一行可验证的功能短语（例如与健康管理/训练计划相关的核心能力，需在截图中真实出现的原文）；3) 若VitaFlow偏数据/健康管理，可在同版式中加入极简的1-2个关键指标模块以补足功能理解。"
+      }
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Never Miss\nAnother Rep",
+          "subheadline": "Use step-by-step workout plans\nwhether you’re home or at the gym.",
+          "body_copy": [
+            "Recommended for you",
+            "Try “Beyoncé”",
+            "10 min Full Body Stretch",
+            "Aditi Shah",
+            "Get a personalized weekly plan",
+            "Custom plans tailored to your fitness goals",
+            "Personalized plan",
+            "Boost cardio\nfitness",
+            "Home",
+            "Classes",
+            "Track",
+            "Community",
+            "You"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "9:41",
+            "10 min"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0B0C10",
+            "#FFFFFF"
+          ],
+          "color_mood": "cool",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "PERSONALIZATION"
+        },
+        "message_strategy": {
+          "primary_message": "Never Miss Another Rep",
+          "supporting_evidence": "Use step-by-step workout plans\nwhether you’re home or at the gym.",
+          "emotional_appeal": "achievement",
+          "value_proposition": "通过“step-by-step workout plans”帮助用户在不同场景（home / gym）稳定完成训练，不漏动作/次数。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "loss_aversion"
+          ],
+          "persuasion_technique": "用结果导向的否定式承诺（“Never Miss Another Rep”）制造“避免损失”的动机，并用“step-by-step workout plans”降低执行成本、提升可预期性。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "底部大标题“Never Miss Another Rep”与中部 iPhone 机模（App 界面卡片区）",
+          "information_density": "medium",
+          "hierarchy_score": 4.5
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0C10",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 5,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.5,
+          "clarity": 4.5,
+          "brand_consistency": 5.0,
+          "uniqueness": 3.5
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Never Miss Another Rep”这种强结果承诺式标题",
+            "界面中同时出现“Get a personalized weekly plan”与“Recommended for you”的推荐/个性化信号"
+          ],
+          "category_conventions": [
+            "大标题 + 一句解释性副标题",
+            "iPhone 机模展示真实 App 界面",
+            "深色背景突出内容与对比度"
+          ],
+          "innovations": [
+            "用“rep”这一训练语汇做记忆点，直接对准健身人群的核心痛点（漏动作/漏次数）"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "偏力量/训练计划执行人群（“Rep”）",
+          "需要结构化指导的用户（“step-by-step workout plans”）",
+          "在家与健身房两种场景切换的用户（“home”/“gym”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "大字号、强承诺式标题（结果导向）",
+          "一句话副标题解释“怎么做到”（机制说明）",
+          "深色底 + 高对比排版提升可读性",
+          "机模内展示关键界面（推荐/计划/内容卡片）"
+        ],
+        "avoid_elements": [
+          "标题只讲口号但缺少可量化或更具体的收益点（截图层面）",
+          "机模内信息较多时，外部文案不要再堆叠过多概念"
+        ],
+        "adaptation_notes": "若适配到 VitaFlow，可沿用“强结果标题 + 机制副标题 + 机模界面佐证”的结构：标题聚焦用户最在意的健康/习惯结果；副标题用一句话说明通过何种“step-by-step”或“personalized plan”实现；机模中优先露出与该结果直接相关的关键卡片与路径。"
+      }
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Discover\nCommunity",
+          "subheadline": "Push past limits by sharing workouts\nand wins with others.",
+          "body_copy": [
+            "Community",
+            "Teams",
+            "Feed",
+            "Challenges",
+            "Discover teams",
+            "Hit fitness goals with people like you.",
+            "Search",
+            "Official teams",
+            "Train with instructors in select teams",
+            "Cross Training",
+            "Move for Life",
+            "Based on your Leaderboard Tag",
+            "Popular with",
+            "# TogetherWeGoFar",
+            "Classes",
+            "Track"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "9:41",
+            "+5",
+            "1.1K",
+            "12",
+            "1.1K",
+            "12"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0B0B0D",
+            "#FFFFFF"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "SOCIAL_PROOF",
+          "primary_cn": "社交/社区",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "通过社区与他人分享训练与成果，从而突破极限。",
+          "supporting_evidence": "用“Community”页面的真实界面来支撑：Teams/Feed/Challenges 结构、\"Discover teams\" 引导、\"Official teams\" 与具体团队卡片（\"Cross Training\"、\"Move for Life\"）以及可见的参与数字（\"1.1K\"、\"12\"）。",
+          "emotional_appeal": "belonging",
+          "value_proposition": "在 App 内找到团队与官方团队，与相似的人一起训练并获得持续动力。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof",
+            "unity",
+            "authority"
+          ],
+          "cognitive_biases": [
+            "bandwagon",
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用“Discover Community/Discover teams”把用户带入“和别人一起更容易坚持”的叙事，并用“Official teams”与可见参与数字（如“1.1K”）降低决策成本、强化从众与归属感。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Discover Community”，其次是居中的 iPhone 机身与屏内横幅“Discover teams”。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0B0D",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.6,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Based on your Leaderboard Tag” 的个性化分发入口",
+            "“Official teams” 的官方团队分层"
+          ],
+          "category_conventions": [
+            "大标题 + 副标题的价值点陈述",
+            "用设备 mockup 展示真实 UI",
+            "用团队/社区卡片承载内容与参与数据"
+          ],
+          "innovations": [
+            "把“Leaderboard Tag”作为社区内容推荐依据（在截图中以文案形式直接露出）"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "希望通过社群获得训练动力的人群",
+          "偏好团队/挑战机制的健身用户",
+          "愿意跟随“instructors”的用户（“Train with instructors in select teams”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "大标题 + 一句话副标题的清晰叙事结构",
+          "设备居中展示真实 UI（降低理解成本）",
+          "用卡片承载“可加入的对象”并露出参与数字（如“1.1K”）",
+          "“Official …” 分层（官方/精选）增强可信度"
+        ],
+        "avoid_elements": [
+          "在商店截图中出现过多导航与底部 Tab 文案导致信息分散（如“Classes”“Track”等）",
+          "核心卖点与屏内内容不一致时造成理解跳跃（标题讲 Community，但屏内信息点较多）"
+        ],
+        "adaptation_notes": "若 VitaFlow 也有社群/挑战功能，可沿用“Discover …”式标题与“分享/一起坚持”的副标题，并在机身 UI 中突出一个单一高价值模块（例如团队挑战卡片）+ 1-2 个关键数字；若 VitaFlow 主打健康管理而非社交，则可把该结构迁移为“Discover Insights/Discover Plans”等同样的“发现式”叙事，但避免露出过多与卖点无关的导航元素。"
+      }
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P8",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Learn From\nYour Progress",
+          "subheadline": "Get personalized insights that guide your\nnext move and help you train smarter.",
+          "body_copy": [
+            "alwaysontheglow",
+            "Progress",
+            "History",
+            "Achievements",
+            "Your plan",
+            "You mix strength and running, but\nyour runs are shorter than the\n20–30 min target—try a longer run\nto boost endurance!",
+            "Update plan",
+            "Update active days",
+            "You might benefit from adding 2 active days\nto your plan. If you update your active days\nnow, you’ll see the changes in next week’s\nworkouts.",
+            "3\n\ndays",
+            "5\n\ndays",
+            "Update plan",
+            "Maybe later"
+          ],
+          "cta_button": "Update plan",
+          "small_print": [
+            "Maybe later"
+          ],
+          "data_numbers": [
+            "9:41",
+            "20–30",
+            "2",
+            "3",
+            "5"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0B0B0D",
+            "#FFFFFF"
+          ],
+          "color_mood": "muted",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "app_name"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "DATA_PROOF",
+          "primary_cn": "数据证明",
+          "secondary": "PERSONALIZATION"
+        },
+        "message_strategy": {
+          "primary_message": "通过进度数据生成个性化洞察，并据此更新训练计划。",
+          "supporting_evidence": "界面内的具体建议文案（例如“20–30 min target”“adding 2 active days”）与可执行的“Update plan”操作，以及“3 → 5 days”的数值变化预览。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "用个性化洞察指导下一步训练，让训练更聪明。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "把建议直接绑定到可执行动作（“Update plan”），并用明确的前后对比数值（“3 → 5 days”）降低决策成本、推动用户立即调整计划。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "底部大标题“Learn From Your Progress”与居中的 iPhone 设备画面（弹窗“Update active days”区域）。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "left",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0B0D",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.5,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "在同一屏内同时呈现“洞察建议 + 计划更新弹窗 + 数值变化（3 → 5 days）”的闭环"
+          ],
+          "category_conventions": [
+            "大标题+副标题的营销文案结构",
+            "居中设备样机展示核心界面",
+            "深色背景突出白色标题与产品界面"
+          ],
+          "innovations": [
+            "用“Update active days”这种具体可操作的微决策点来承载“personalized insights”的承诺"
+          ]
+        },
+        "competitive_positioning": "specialist",
+        "target_audience_signals": [
+          "有训练习惯、会同时进行力量与跑步的人群（“You mix strength and running”）",
+          "关注训练计划结构与周期调整的人群（“active days”“next week’s workouts”）",
+          "偏好数据与建议驱动训练的人群（“20–30 min target”“3 → 5 days”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "“大标题利益点 + 一句副标题解释”的文案结构",
+          "用产品内弹窗/卡片展示“建议→行动”的闭环（如“Update plan”）",
+          "用简单的前后对比数字强化改变的可见性（如“3 → 5 days”）",
+          "深色背景+高对比标题提升商店浏览可读性"
+        ],
+        "avoid_elements": [
+          "界面内出现过多层级（顶部导航+卡片+弹窗）导致信息竞争",
+          "关键卖点只在界面小字里出现，商店层面的主信息不够“可扫读”"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“Learn From Your Progress”这种结果导向标题策略：在截图中用一个清晰的“洞察卡片/弹窗”展示具体建议，并配合一个可执行按钮文案（例如同样形式的“Update plan”），同时用一个最小化的数字对比（如“X → Y”）让用户一眼看到调整带来的变化。"
+      }
+    },
+    {
+      "index": 9,
+      "filename": "screenshot_09.png",
+      "position": "P9",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "RUN\nSTRONGER\nRUN\nLONGER",
+          "subheadline": "",
+          "body_copy": [],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0B0B0C",
+            "#F2F2F2"
+          ],
+          "color_mood": "muted",
+          "layout_type": "full_bleed",
+          "device_mockup": {
+            "present": false,
+            "type": "none",
+            "position": "none"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo/illustration/hands_only/silhouette/none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "VP",
+          "primary_cn": "价值主张",
+          "secondary": "USP"
+        },
+        "message_strategy": {
+          "primary_message": "强调跑步能力提升：更强、更久",
+          "supporting_evidence": "用运动员人物大片（奔跑/训练氛围）与强对比的大字标语来支撑",
+          "emotional_appeal": "achievement",
+          "value_proposition": "帮助用户提升跑步表现（力量与耐力）"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "liking"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "primacy_effect"
+          ],
+          "persuasion_technique": "用极简口号+强视觉人物形象制造“我也能变强/跑更久”的自我投射与目标感（动机型标语）"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "center_out",
+          "focal_point": "画面中部偏下的超大白色标题“RUN STRONGER RUN LONGER”，其次是人物面部与上半身",
+          "information_density": "low",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0B0C",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "absent"
+        },
+        "layout_pattern": {
+          "template_type": "full_bleed",
+          "whitespace_usage": "balanced",
+          "element_count": 2,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 3.0,
+          "uniqueness": 3.2
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "仅用一句强动机口号作为唯一文案信息点（无功能点/无界面）"
+          ],
+          "category_conventions": [
+            "使用运动员人物大片",
+            "黑底+白字的高对比健身风格标语"
+          ],
+          "innovations": [
+            "极度克制的信息量（几乎不讲功能），把整页当作品牌海报来做"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "跑步人群",
+          "追求表现提升（力量/耐力）的训练型用户",
+          "偏好强烈动机与竞技感视觉的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "全屏人物大片+高对比大标题",
+          "短句动词开头的目标导向口号",
+          "低信息密度的“海报式”一页用于情绪定调"
+        ],
+        "avoid_elements": [
+          "缺少品牌标识/产品名导致归属感弱",
+          "完全不展示App界面会降低对“这是App能做什么”的理解"
+        ],
+        "adaptation_notes": "VitaFlow可保留“海报式动机页”作为第1或第2张情绪定调，但建议加入最小化品牌元素（如App名/图标）并在不破坏极简的前提下补一条可验证的功能锚点（例如一句极短副标题或小字功能点），以提升ASO转化时的可理解性。"
+      }
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "SOCIAL_PROOF → VP → CONTENT_PREVIEW → RESULT_PREVIEW → VP → CORE_FUNC → SOCIAL_PROOF → DATA_PROOF → VP",
+    "sequence_cluster": "social_first",
+    "narrative_arc": "从SOCIAL_PROOF开始，以VP结束",
+    "strengths": [
+      "视觉吸引力高 (4.4/5)",
+      "信息传达清晰 (4.6/5)"
+    ],
+    "weaknesses": [],
+    "key_takeaways": [
+      "用产品内弹窗/卡片展示“建议→行动”的闭环（如“Update plan”）",
+      "“大标题利益点 + 一句副标题解释”的文案结构"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "SOCIAL_PROOF": 2,
+      "VP": 3,
+      "CONTENT_PREVIEW": 1,
+      "RESULT_PREVIEW": 1,
+      "CORE_FUNC": 1,
+      "DATA_PROOF": 1
+    },
+    "element_frequency": {
+      "Data_Viz": 5,
+      "Human": 9,
+      "app_name": 2,
+      "Device_Mockup": 5
+    },
+    "psychology_coverage": {
+      "cialdini": [
+        "commitment",
+        "liking",
+        "social_proof",
+        "unity",
+        "authority"
+      ],
+      "cognitive_biases": [
+        "novelty",
+        "loss_aversion",
+        "anchoring",
+        "cognitive_fluency",
+        "primacy_effect",
+        "bandwagon"
+      ]
+    },
+    "design_score_averages": {
+      "visual_appeal": 4.44,
+      "clarity": 4.61,
+      "brand_consistency": 4.24,
+      "uniqueness": 3.43
+    }
+  }
+}

@@ -1,0 +1,1094 @@
+{
+  "app": "WeightWatchers",
+  "appId": "weightwatchers",
+  "total_screens": 40,
+  "analyzed_at": "2025-12-23T09:00:34.292813",
+  "taxonomy_version": "3.0",
+  "analysis_method": "gpt-5.2 + claude-opus-4-5",
+  "phases": [
+    {
+      "id": "trust-building",
+      "name": "信任建立",
+      "nameEn": "Trust Building",
+      "purpose": "包含 4 个页面",
+      "startIndex": 1,
+      "endIndex": 4,
+      "dominantTypes": [
+        "Q",
+        "L",
+        "W"
+      ],
+      "psychologyTactics": [
+        "Brand Recognition",
+        "First Impression",
+        "Labor Illusion",
+        "Value Proposition",
+        "Personalization"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "goal-setting",
+      "name": "目标设定",
+      "nameEn": "Goal Setting",
+      "purpose": "包含 8 个页面",
+      "startIndex": 5,
+      "endIndex": 12,
+      "dominantTypes": [
+        "Q"
+      ],
+      "psychologyTactics": [
+        "Gender Data",
+        "Personalization",
+        "Progressive Disclosure",
+        "Trust Building",
+        "Body Data"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "data-collection",
+      "name": "数据收集",
+      "nameEn": "Data Collection",
+      "purpose": "包含 12 个页面",
+      "startIndex": 13,
+      "endIndex": 24,
+      "dominantTypes": [
+        "V",
+        "P",
+        "Q",
+        "L"
+      ],
+      "psychologyTactics": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure",
+        "Value Proposition",
+        "Authority"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "feature-showcase",
+      "name": "功能展示",
+      "nameEn": "Feature Showcase",
+      "purpose": "包含 1 个页面",
+      "startIndex": 26,
+      "endIndex": 26,
+      "dominantTypes": [
+        "V"
+      ],
+      "psychologyTactics": [
+        "Value Proposition",
+        "Authority",
+        "Trust Building",
+        "Personalization"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "final-setup",
+      "name": "最终设置",
+      "nameEn": "Final Setup",
+      "purpose": "包含 7 个页面",
+      "startIndex": 25,
+      "endIndex": 32,
+      "dominantTypes": [
+        "Q",
+        "R",
+        "W"
+      ],
+      "psychologyTactics": [
+        "Personalization",
+        "Trust Building",
+        "Privacy Assurance",
+        "Commitment & Consistency",
+        "Value Proposition"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "results",
+      "name": "结果展示",
+      "nameEn": "Results",
+      "purpose": "包含 2 个页面",
+      "startIndex": 36,
+      "endIndex": 38,
+      "dominantTypes": [
+        "R"
+      ],
+      "psychologyTactics": [
+        "Personalization",
+        "Authority",
+        "Trust Building",
+        "Body Data",
+        "Goal Setting"
+      ],
+      "keyInsights": []
+    },
+    {
+      "id": "conversion",
+      "name": "转化",
+      "nameEn": "Conversion",
+      "purpose": "包含 6 个页面",
+      "startIndex": 33,
+      "endIndex": 40,
+      "dominantTypes": [
+        "Q",
+        "V",
+        "W"
+      ],
+      "psychologyTactics": [
+        "Personalization",
+        "Body Data",
+        "Privacy Assurance",
+        "Progressive Disclosure",
+        "Commitment & Consistency"
+      ],
+      "keyInsights": []
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "Q→Q→Q→V",
+      "name": "问题-价值穿插",
+      "occurrences": 1,
+      "positions": [
+        11
+      ],
+      "interpretation": "每3-4个问题后穿插1个价值页，缓解问卷疲劳"
+    },
+    {
+      "pattern": "L→R",
+      "name": "加载-结果",
+      "occurrences": 1,
+      "positions": [
+        18
+      ],
+      "interpretation": "加载动画后展示结果，创造期待感"
+    }
+  ],
+  "summary": {
+    "total_pages": 40,
+    "phase_distribution": {
+      "trust-building": {
+        "count": 4,
+        "percentage": 10
+      },
+      "goal-setting": {
+        "count": 8,
+        "percentage": 20
+      },
+      "data-collection": {
+        "count": 12,
+        "percentage": 30
+      },
+      "final-setup": {
+        "count": 7,
+        "percentage": 18
+      },
+      "feature-showcase": {
+        "count": 1,
+        "percentage": 2
+      },
+      "conversion": {
+        "count": 6,
+        "percentage": 15
+      },
+      "results": {
+        "count": 2,
+        "percentage": 5
+      }
+    },
+    "by_type": {
+      "L": {
+        "count": 2,
+        "label": "Loading",
+        "color": "#1F2937"
+      },
+      "W": {
+        "count": 3,
+        "label": "Welcome",
+        "color": "#E5E5E5"
+      },
+      "Q": {
+        "count": 20,
+        "label": "Question",
+        "color": "#3B82F6"
+      },
+      "V": {
+        "count": 7,
+        "label": "Value",
+        "color": "#22C516"
+      },
+      "R": {
+        "count": 4,
+        "label": "Result",
+        "color": "#A855F7"
+      },
+      "P": {
+        "count": 4,
+        "label": "Paywall",
+        "color": "#EF4444"
+      }
+    }
+  },
+  "screens": [
+    {
+      "index": 1,
+      "filename": "0001.png",
+      "primary_type": "L",
+      "secondary_type": "W",
+      "phase": "trust-building",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Labor Illusion"
+      ],
+      "ui_pattern": "Splash Screen with Loading Indicator",
+      "copy": {
+        "headline": null,
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "WW (Weight Watchers) 应用启动加载页，紫色品牌色配合白色圆形 Logo，底部显示加载指示器，建立品牌认知的同时暗示正在准备个性化内容",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 2,
+      "filename": "0002.png",
+      "primary_type": "W",
+      "secondary_type": "V",
+      "phase": "trust-building",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Value Proposition",
+        "Personalization"
+      ],
+      "ui_pattern": "Multi-Option Selection",
+      "copy": {
+        "headline": "WW",
+        "subheadline": "Get back to feeling like you-care designed for your menopause journey.",
+        "cta": "Signup for WW for Menopause program"
+      },
+      "insight": "WW品牌欢迎页，针对更年期女性的细分市场定位，提供三种不同项目选择（更年期专项、积分计划、减重药物），通过差异化入口实现用户分流和精准匹配",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 3,
+      "filename": "0003.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Goal Setting",
+        "Personalization",
+        "Commitment & Consistency",
+        "Privacy Assurance"
+      ],
+      "ui_pattern": "Single Select List",
+      "copy": {
+        "headline": "What is your weight-loss goal?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "体重目标选择页，通过让用户明确减重目标(1-20磅/21-50磅/50+磅/维持/不确定)建立承诺感，底部隐私声明增强信任，为后续个性化方案奠定基础",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 4,
+      "filename": "0004.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "trust-building",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Trust Building",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Date Input Field",
+      "copy": {
+        "headline": "What's your date of birth?",
+        "subheadline": "We're required by pharmacy regulations to collect your date of birth in order to fill your prescription.",
+        "cta": "Next"
+      },
+      "insight": "出生日期收集页，通过引用药房法规合规要求来建立信任并解释数据收集的必要性，降低用户对隐私敏感信息的抵触",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 5,
+      "filename": "0005.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Gender Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "What was your sex assigned at birth?",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "WeightWatchers使用出生时指定性别而非当前性别认同，这是因为生理性别对基础代谢率、热量需求和体重管理算法有直接影响，体现了科学严谨性与包容性措辞的平衡",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 6,
+      "filename": "0006.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure",
+        "Trust Building"
+      ],
+      "ui_pattern": "Dropdown Selector",
+      "copy": {
+        "headline": "What state do you live in?",
+        "subheadline": "Let's make sure medication is available in your area.",
+        "cta": "Next"
+      },
+      "insight": "地理位置收集页，用于确认药物服务在用户所在州的可用性，体现合规性和个性化服务",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 7,
+      "filename": "0007.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Numeric Input Fields",
+      "copy": {
+        "headline": "What's your height?",
+        "subheadline": "We'll use this to help find the right medication for you.",
+        "cta": "完成"
+      },
+      "insight": "身高体重收集页，用于计算BMI和评估适合的减重药物方案，属于WeightWatchers药物减重服务流程",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 8,
+      "filename": "0008.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Trust Building",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Are you currently pregnant or breastfeeding?",
+        "subheadline": null,
+        "cta": "No / Yes"
+      },
+      "insight": "孕期/哺乳状态筛查页，用于健康安全分流和个性化计划调整，体现产品专业性和对特殊人群的关注",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 9,
+      "filename": "0009.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "Have you used weight-loss medication within the past 6 months?",
+        "subheadline": "This includes GLP-1s like Wegovy®, Mounjaro®, or Saxenda® (including compounded GLP-1s), as well as Contrave®, Phentermine®, or Qsymia®.",
+        "cta": null
+      },
+      "insight": "医疗用药史筛查问题，用于评估用户是否正在使用GLP-1类减重药物或其他处方减肥药，以便提供安全、合适的个性化方案，避免药物冲突风险",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 10,
+      "filename": "0010.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Personalization",
+        "Body Data",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Multi-Select Checkbox List",
+      "copy": {
+        "headline": "What weight loss medication?",
+        "subheadline": "Choose all that apply.",
+        "cta": "Next"
+      },
+      "insight": "GLP-1类减重药物使用情况收集页，列出Wegovy、Saxenda、Zepbound、Ozempic、Mounjaro等主流品牌及复合制剂，用于了解用户当前用药状态以提供匹配的支持方案",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 11,
+      "filename": "0011.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Numeric Input",
+      "copy": {
+        "headline": "What was your weight prior to starting the weight loss medication?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "体重数据收集页，询问用户服用减肥药物前的体重，用于追踪药物效果和个性化方案制定",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 12,
+      "filename": "0012.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "goal-setting",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Multi-Select Checkbox List",
+      "copy": {
+        "headline": "Have you ever been diagnosed with any of the following?",
+        "subheadline": "Choose all that apply.",
+        "cta": "Next"
+      },
+      "insight": "代谢健康状况问卷页，收集用户既往诊断信息（糖尿病、高血脂、脂肪肝、PCOS等），用于评估健康风险并定制个性化减重方案，体现Weight Watchers向综合代谢健康管理的转型",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 13,
+      "filename": "0013.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Multi-Select Checkbox",
+      "copy": {
+        "headline": "Are you taking any of the following medications?",
+        "subheadline": "Choose all that apply.",
+        "cta": "Next"
+      },
+      "insight": "药物筛查页面，收集用户糖尿病相关药物使用情况（胰岛素、磺脲类药物），这对于提供安全的减重计划至关重要，因为某些GLP-1药物与降糖药存在相互作用风险",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 14,
+      "filename": "0014.png",
+      "primary_type": "V",
+      "secondary_type": "A",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Authority",
+        "Trust Building",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Feature Showcase with Device Mockup",
+      "copy": {
+        "headline": "Expert guidance at every step",
+        "subheadline": "Check in with your Clinician regularly to make sure your treatment plan is working, discuss symptom management, and ask Qs.",
+        "cta": "Next"
+      },
+      "insight": "价值展示页，通过手机App界面实景图展示WW的食物指导功能，强调'Clinician'专业临床医生支持，结合权威背书与功能价值传递，建立用户对治疗计划专业性的信任",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 15,
+      "filename": "0015.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Personalization",
+        "Authority",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Feature Showcase with Visual Grid",
+      "copy": {
+        "headline": "Tailored app to help you feel your best",
+        "subheadline": "Get personalized nutrition targets, expert-designed fitness plans, and 1:1 nutrition counseling with a Registered Dietitian.",
+        "cta": "Next"
+      },
+      "insight": "价值展示页，通过5个标注为0点的食物分类图展示WW的零点食物系统，强调个性化营养目标和注册营养师1对1咨询的专业服务，底部瑜伽女性图片传递健康生活方式愿景",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 16,
+      "filename": "0016.png",
+      "primary_type": "V",
+      "secondary_type": "S",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Social Proof",
+        "Privacy Assurance",
+        "Trust Building"
+      ],
+      "ui_pattern": "Phone Mockup Demo",
+      "copy": {
+        "headline": "Support when and where you need it",
+        "subheadline": "Meet your dedicated Care Team",
+        "cta": "Next"
+      },
+      "insight": "价值展示页，通过App界面截图展示体重追踪功能（-11.1 lbs成果）、进度图表和里程碑徽章，强调'Always private'隐私保障，同时用真实用户数据作为隐性社会证明",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 17,
+      "filename": "0017.png",
+      "primary_type": "A",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": ["Commitment & Consistency", "Account Creation"],
+      "ui_pattern": "Registration Form",
+      "copy": {
+        "headline": "Create an account to see your results",
+        "subheadline": "We may use your email address to send you emails with tips, recipes, offers...",
+        "cta": "weightwatchers.com"
+      },
+      "insight": "注册表单页，收集姓名、邮箱、密码，通过「查看结果」作为价值承诺驱动注册转化",
+      "confidence": 0.95,
+      "analyzed_by": "claude-opus-4-5 (re-analyzed)"
+    },
+    {
+      "index": 18,
+      "filename": "0018.png",
+      "primary_type": "L",
+      "secondary_type": "S",
+      "phase": "data-collection",
+      "psychology": [
+        "Labor Illusion",
+        "Social Proof",
+        "Personalization",
+        "Trust Building"
+      ],
+      "ui_pattern": "Progress Ring with Testimonials",
+      "copy": {
+        "headline": "Finding your treatment match...",
+        "subheadline": null,
+        "cta": null
+      },
+      "insight": "GLP-1减重治疗匹配加载页，78%进度环配合用户证言轮播，Labor Illusion让用户感知系统正在认真分析匹配方案，同时展示真实用户评价强化信任",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 19,
+      "filename": "0019.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Personalization",
+        "Value Proposition",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Personalized Result Card",
+      "copy": {
+        "headline": "Here's your personalized treatment plan, zino!",
+        "subheadline": "How WeightWatchers supports your weight health goals",
+        "cta": "Choose Plan"
+      },
+      "insight": "个性化结果展示页，用用户名称创造定制感，同时通过功能清单（科学营养计划、追踪器、11000+食谱、350+ ZeroPoint食品）预览价值，为付费墙转化做铺垫",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 20,
+      "filename": "0020.png",
+      "primary_type": "P",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Scarcity",
+        "Loss Aversion",
+        "Value Proposition",
+        "Reciprocity"
+      ],
+      "ui_pattern": "Promotional Paywall with Feature List",
+      "copy": {
+        "headline": "6 months free",
+        "subheadline": "Kickstart your weight-loss journey now.",
+        "cta": "Join now"
+      },
+      "insight": "付费墙页面采用限时优惠策略（Hurry, offer ends soon!）制造紧迫感，6个月免费的大幅优惠触发损失厌恶心理，同时展示会员权益（科学营养计划、11000+食谱）强化价值感知",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 21,
+      "filename": "0021.png",
+      "primary_type": "P",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Loss Aversion",
+        "Commitment & Consistency",
+        "Scarcity",
+        "Value Proposition"
+      ],
+      "ui_pattern": "Subscription Checkout",
+      "copy": {
+        "headline": "Last step before starting your weight-loss journey",
+        "subheadline": "Your membership summary",
+        "cta": "Buy 6, Get 12 Months - WeightWatchers® Membership"
+      },
+      "insight": "订阅结账页，使用价格锚定（$23划掉显示$11）制造价值感，'Buy 6 Get 12'强调稀缺优惠，自动续费条款要求用户主动承诺，结合损失厌恶心理促成转化",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 22,
+      "filename": "0022.png",
+      "primary_type": "P",
+      "secondary_type": "V",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Loss Aversion",
+        "Scarcity",
+        "Social Proof"
+      ],
+      "ui_pattern": "Upsell Modal",
+      "copy": {
+        "headline": "Upgrade to Workshops and save today!",
+        "subheadline": "Get face-to-face support with Workshops",
+        "cta": "Continue to Check out"
+      },
+      "insight": "升级付费墙弹窗，通过展示Workshop附加价值（面对面支持、专家指导、社群学习）推动用户升级到更高价位的订阅方案。采用阶梯定价策略（$11→$22→$45）降低首月门槛，同时强调Points功能仍然包含以减少升级顾虑。",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 23,
+      "filename": "0023.png",
+      "primary_type": "P",
+      "secondary_type": "C",
+      "phase": "data-collection",
+      "psychology": [
+        "Commitment & Consistency",
+        "Trust Building",
+        "Loss Aversion"
+      ],
+      "ui_pattern": "Order Review / Confirmation",
+      "copy": {
+        "headline": "Review your new order",
+        "subheadline": "this will replace the WeightWatchers® membership you just purchased",
+        "cta": null
+      },
+      "insight": "订阅升级确认页，展示会员升级详情（12个月WW会员+工作坊），升级费$0强调免费升级价值，下次账单日期2026年1月显示长期承诺，保留免费礼品权益降低用户顾虑",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 24,
+      "filename": "0024.png",
+      "primary_type": "V",
+      "secondary_type": "S",
+      "phase": "data-collection",
+      "psychology": [
+        "Value Proposition",
+        "Authority",
+        "Trust Building",
+        "Loss Aversion"
+      ],
+      "ui_pattern": "Feature Benefits List",
+      "copy": {
+        "headline": "Good News!",
+        "subheadline": "Many insurance providers include dietitian visits at $0 out-of-pocket",
+        "cta": "See if I qualify"
+      },
+      "insight": "价值展示页，强调保险覆盖的免费营养师服务，通过列举600+合作保险计划建立信任，利用$0费用的损失厌恶心理驱动用户行动",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 25,
+      "filename": "0025.png",
+      "primary_type": "Q",
+      "secondary_type": "C",
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Trust Building",
+        "Privacy Assurance",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Form Input with Search + Date Picker + Checkbox Agreement",
+      "copy": {
+        "headline": "Let's check your insurance coverage",
+        "subheadline": "We work with 600+ insurance plans! Enter your insurance provider and your birthday to get an instant coverage check.",
+        "cta": "Continue"
+      },
+      "insight": "保险信息收集页，通过'600+保险计划'建立信任，收集生日数据用于资格验证，同时要求用户勾选同意条款形成承诺机制，'I don't have insurance'选项降低用户流失",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 26,
+      "filename": "0026.png",
+      "primary_type": "V",
+      "secondary_type": "A",
+      "phase": "feature-showcase",
+      "psychology": [
+        "Value Proposition",
+        "Authority",
+        "Trust Building",
+        "Personalization"
+      ],
+      "ui_pattern": "Feature Highlight Card",
+      "copy": {
+        "headline": "Health insurance is not required",
+        "subheadline": "Access Registered Dietitians with WeightWatchers' discounted self-pay, 30-minute visits, offering flexible scheduling and ongoing support.",
+        "cta": "See visit options"
+      },
+      "insight": "价值展示页，强调无需保险即可获得注册营养师服务，通过展示专业人员照片和视频访问功能建立权威感，降低用户获取专业服务的门槛",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 27,
+      "filename": "0027.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Commitment & Consistency",
+        "Value Proposition",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Confirmation Card",
+      "copy": {
+        "headline": "Thank you, zino! Your order is confirmed.",
+        "subheadline": "Kickstart your journey in the app",
+        "cta": "Download on the App Store"
+      },
+      "insight": "订单确认结果页，展示用户账户信息并引导下载App开始使用，通过列出后续步骤（设置资料、探索食谱、预约咨询）建立承诺感和价值期待",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 28,
+      "filename": "0028.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Email Input with Magic Link",
+      "copy": {
+        "headline": "Let's sign you in",
+        "subheadline": "Welcome back!",
+        "cta": "Email magic link"
+      },
+      "insight": "登录页面，提供密码登录和魔法链接两种方式，收集用户邮箱信息以完成身份验证，降低登录摩擦",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 29,
+      "filename": "0029.png",
+      "primary_type": "W",
+      "secondary_type": "Q",
+      "phase": "final-setup",
+      "psychology": [
+        "First Impression",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Welcome Screen with Image",
+      "copy": {
+        "headline": "Welcome, zino!",
+        "subheadline": "First, we'll customize your program with a few questions about you. Then we'll guide you through the basics so you can start your journey strong 💪",
+        "cta": "Next"
+      },
+      "insight": "个性化欢迎页，使用用户名称建立亲密感，预告接下来的问卷流程，通过两人愉快烹饪的场景传达健康生活方式的积极氛围",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 30,
+      "filename": "0030.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Date Picker Wheel",
+      "copy": {
+        "headline": "What is your date of birth?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "出生日期选择页，使用iOS原生滚轮选择器收集用户年龄信息，当前选中1994年1月30日，用于计算年龄相关的个性化推荐和健康指标",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 31,
+      "filename": "0031.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Gender Data",
+        "Personalization",
+        "Progressive Disclosure",
+        "Privacy Assurance"
+      ],
+      "ui_pattern": "Binary Choice",
+      "copy": {
+        "headline": "What is your sex assigned at birth?",
+        "subheadline": "We use this information to calculate your personalized Points Budget based on your body's nutritional needs.",
+        "cta": "Next"
+      },
+      "insight": "Weight Watchers 的生理性别收集页，使用包容性语言「sex assigned at birth」而非「biological sex」，并明确解释数据用途（计算个性化积分预算），通过透明说明降低用户隐私顾虑，底部「Why are we asking this?」链接进一步增强信任",
+      "confidence": 0.96,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 32,
+      "filename": "0032.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "final-setup",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Privacy Assurance"
+      ],
+      "ui_pattern": "Binary Choice with Opt-out",
+      "copy": {
+        "headline": "Are you living with either type 1 or type 2 diabetes?",
+        "subheadline": "(This does not include prediabetes or gestational diabetes.)",
+        "cta": "Next"
+      },
+      "insight": "健康状况筛查页，收集糖尿病信息用于个性化健康/饮食方案。提供'不愿回答'选项体现隐私尊重，底部'Why are we asking this?'链接增强透明度和信任",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 33,
+      "filename": "0033.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Personalization",
+        "Body Data",
+        "Privacy Assurance"
+      ],
+      "ui_pattern": "Binary Choice with Opt-out",
+      "copy": {
+        "headline": "Are you currently taking any GLP-1 medications like Semaglutide (Ozempic, Wegovy) or Tirzepatide (Mounjaro, Zepbound)?",
+        "subheadline": "We'll use this information to tailor your plan.",
+        "cta": "Next"
+      },
+      "insight": "GLP-1药物使用情况调查页，通过提供'不回答'选项降低敏感问题的流失率，同时收集关键医疗信息以定制减重方案",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 34,
+      "filename": "0034.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Dual Input Fields",
+      "copy": {
+        "headline": "How tall are you?",
+        "subheadline": null,
+        "cta": "Next"
+      },
+      "insight": "身高输入页，采用英制单位（ft/in）双输入框设计，用于计算BMI、基础代谢率等健康指标，为后续个性化方案提供关键身体数据",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 35,
+      "filename": "0035.png",
+      "primary_type": "Q",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Body Data",
+        "Personalization",
+        "Commitment & Consistency"
+      ],
+      "ui_pattern": "Numeric Input",
+      "copy": {
+        "headline": "What is your current weight?",
+        "subheadline": "Treat this as a fresh starting point for measuring your progress.",
+        "cta": "Next"
+      },
+      "insight": "体重输入页，收集用户身体数据用于个性化计划制定。副标题采用「fresh starting point」框架，降低用户对当前体重的心理负担，暗示这是改变的起点而非评判",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 36,
+      "filename": "0036.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "results",
+      "psychology": [
+        "Personalization",
+        "Authority",
+        "Trust Building",
+        "Body Data"
+      ],
+      "ui_pattern": "Result Notification",
+      "copy": {
+        "headline": "We can help you maintain your weight and develop healthy habits.",
+        "subheadline": "Because your weight is on the lower end according to the World Health Organization, your Points Budget will be automatically set to keep your weight steady.",
+        "cta": "Done"
+      },
+      "insight": "基于用户体重数据的个性化结果页，引用WHO权威标准说明用户处于偏低体重范围，自动调整为维持体重模式而非减重，同时建议咨询医生，体现负责任的健康引导",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 37,
+      "filename": "0037.png",
+      "primary_type": "W",
+      "secondary_type": "V",
+      "phase": "conversion",
+      "psychology": [
+        "Brand Recognition",
+        "First Impression",
+        "Value Proposition",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Welcome Screen with Visual Preview",
+      "copy": {
+        "headline": "Welcome to WeightWatchers!",
+        "subheadline": "We're so happy you're here 🤤 To get you started, we'll walk you through the GLP-1 Companion Program basics and highlight some key tools you'll use on your journey.",
+        "cta": "Lets go!"
+      },
+      "insight": "GLP-1药物配套计划的欢迎页，通过健康蔬菜图片和零点值食物标签预览核心功能，针对使用减重药物的用户群体，强调营养工具支持",
+      "confidence": 0.95,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 38,
+      "filename": "0038.png",
+      "primary_type": "R",
+      "secondary_type": "V",
+      "phase": "results",
+      "psychology": [
+        "Personalization",
+        "Goal Setting",
+        "Value Proposition",
+        "Progressive Disclosure"
+      ],
+      "ui_pattern": "Progress Rings Dashboard",
+      "copy": {
+        "headline": "Your tailored program",
+        "subheadline": "Your program includes daily nutrition and activity targets designed to support your weight loss journey.",
+        "cta": "Lets go!"
+      },
+      "insight": "个性化结果展示页，通过多环进度图可视化每日营养目标（蛋白质37/75g、蔬果3/4份、水6/8杯），专为GLP-1药物用户设计，强调营养充足的重要性",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 39,
+      "filename": "0039.png",
+      "primary_type": "V",
+      "secondary_type": "R",
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Goal Setting",
+        "Trust Building"
+      ],
+      "ui_pattern": "Info Cards",
+      "copy": {
+        "headline": "A deeper look at your nutrition targets",
+        "subheadline": "Focus on hitting your daily nutrition targets to help minimize side effects and feel your best.",
+        "cta": "Lets go!"
+      },
+      "insight": "GLP-1药物配套营养指南页，通过三个目标卡片（蛋白质、果蔬、水分）解释营养追踪的价值，帮助用户理解为何需要达成这些目标以减少药物副作用",
+      "confidence": 0.88,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    },
+    {
+      "index": 40,
+      "filename": "0040.png",
+      "primary_type": "V",
+      "secondary_type": null,
+      "phase": "conversion",
+      "psychology": [
+        "Value Proposition",
+        "Progressive Disclosure",
+        "Personalization"
+      ],
+      "ui_pattern": "Educational Explainer",
+      "copy": {
+        "headline": "Points® in the GLP-1 Program",
+        "subheadline": "How Points® work",
+        "cta": null
+      },
+      "insight": "功能价值说明页，向GLP-1用户解释Points积分系统的运作机制：饱和脂肪和添加糖会增加分值，而纤维、蛋白质和不饱和脂肪会降低分值。通过可视化的食物图片和数字标注，帮助用户理解复杂的营养信息如何简化为单一积分值。",
+      "confidence": 0.92,
+      "analyzed_by": "gpt-5.2 + claude-opus-4-5"
+    }
+  ],
+  "flow_patterns": {},
+  "design_insights": {}
+}

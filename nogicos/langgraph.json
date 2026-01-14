@@ -1,0 +1,12 @@
+{
+  "$schema": "https://langchain-ai.github.io/langgraph/schemas/langgraph.schema.json",
+  "graphs": {
+    "nogicos": "./engine/langgraph_wrapper.py:graph"
+  },
+  "env": ".env",
+  "python_version": "3.12",
+  "dependencies": [
+    "."
+  ]
+}
+

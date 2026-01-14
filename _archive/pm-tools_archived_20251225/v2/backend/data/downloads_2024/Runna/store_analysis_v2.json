@@ -1,0 +1,1747 @@
+{
+  "app_name": "Runna",
+  "total_screenshots": 10,
+  "analyzed_at": "2025-12-24T14:11:16.452992",
+  "model": "claude-opus-4-5-20251101 / gpt-5.2",
+  "schema_version": "v2",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Runna",
+          "subheadline": "by STRAVA",
+          "body_copy": [
+            "Join over 5 million other runners\nfrom around the world."
+          ],
+          "cta_button": "",
+          "small_print": [
+            "WATCH",
+            "GARMIN",
+            "fitbit",
+            "COROS",
+            "STRAVA",
+            "App Store",
+            "App of the Year",
+            "2024 Finalist"
+          ],
+          "data_numbers": [
+            "5 million",
+            "9:41",
+            "26.2",
+            "2/19",
+            "54/600 mi",
+            "APR 15, 2024",
+            "In 16 weeks",
+            "4:10:00-4:17:00",
+            "00:39:00",
+            "284M",
+            "7:10",
+            "7:00",
+            "7:03",
+            "7:03/MI",
+            "TOTAL DIST: 2.62MI",
+            "2024"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#F2F2F2",
+            "#111111"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat",
+              "progress_bar"
+            ]
+          },
+          "brand_elements": [
+            "logo",
+            "app_name"
+          ],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "SOCIAL_PROOF",
+          "primary_cn": "社会证明",
+          "secondary": "AUTHORITY"
+        },
+        "message_strategy": {
+          "primary_message": "通过“Join over 5 million other runners from around the world.”强调大规模用户采用与全球跑者社群。",
+          "supporting_evidence": "“5 million”规模数字 + “App Store App of the Year 2024 Finalist”权威背书 + 右侧生态/平台标识（“WATCH / GARMIN / fitbit / COROS / STRAVA”）与设备界面展示。",
+          "emotional_appeal": "trust",
+          "value_proposition": "让用户加入全球跑者，并在训练计划与跑步数据呈现上获得可信赖的体验与生态兼容性。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof",
+            "authority",
+            "unity"
+          ],
+          "cognitive_biases": [
+            "bandwagon",
+            "anchoring",
+            "cognitive_fluency",
+            "primacy_effect"
+          ],
+          "persuasion_technique": "用“5 million”作为锚点制造从众效应（bandwagon），再叠加“App Store App of the Year 2024 Finalist”进行权威验证（authority），并用多平台标识降低兼容性顾虑、提升信任与决策流畅度。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大字“Runna”品牌标识，其次是中部 iPhone 训练计划界面与右下角手表数据界面。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#F2F2F2",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 4.8,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“by STRAVA”联合品牌露出",
+            "“App Store App of the Year 2024 Finalist”月桂徽章式权威背书",
+            "同屏展示 iPhone 训练计划 + 手表跑步数据界面"
+          ],
+          "category_conventions": [
+            "用大数字做社会证明（“5 million”）",
+            "用设备 mockup 展示核心界面",
+            "用兼容平台 Logo 降低使用门槛（“WATCH / GARMIN / fitbit / COROS / STRAVA”）"
+          ],
+          "innovations": [
+            "将“生态兼容”与“权威奖项”在同一屏并列呈现，形成双重信任闭环（可用性 + 可信度）。"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "跑者（“Join over 5 million other runners from around the world.”）",
+          "有训练计划需求的人群（“Boston Marathon Plan”）",
+          "使用运动手表/多平台记录的人群（“WATCH / GARMIN / fitbit / COROS / STRAVA”）",
+          "目标赛事/长距离训练用户（“26.2”与“Boston Marathon”语境）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "一句话社会证明主张（类似“Join over X …”结构）",
+          "权威背书徽章化呈现（奖项/媒体/认证）",
+          "多生态兼容 Logo 列表（用于降低切换成本与疑虑）",
+          "双设备/双场景界面同屏（主 App + 可穿戴/小组件）"
+        ],
+        "avoid_elements": [
+          "在首屏放入过多界面小字导致不可读（如训练计划卡片内大量细节）",
+          "仅用品牌与背书而弱化“具体能解决什么问题”的功能句（若品类竞争激烈会不够直接）"
+        ],
+        "adaptation_notes": "VitaFlow 若为健康健身类，可复用“规模数字 + 权威背书 + 生态兼容”三件套：主标题下用一句话明确用户收益（保持像“Join over 5 million…”一样短），右侧用可穿戴/健康平台兼容标识（如有），底部用奖项/认证/机构合作做徽章；同时用 1 个主界面 + 1 个关键结果/数据界面（例如趋势、评分、完成度）来替代过多细节小字。"
+      }
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Personalized Plans",
+          "subheadline": "Get plans based on your goals.",
+          "body_copy": [
+            "What is your goal?",
+            "Pick a goal that you think suits you best",
+            "Race",
+            "Get your personalized training plan built around an upcoming race",
+            "Run a specific distance",
+            "Choose your distance, from 5k all the way up to an ultramarathon",
+            "Run a first 5k",
+            "General training",
+            "Post-natal plan",
+            "Functional fitness",
+            "Post-injury recovery",
+            "Post-race recovery"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "9:41",
+            "5k"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9E9EA",
+            "#1F232A"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "PERSONALIZATION",
+          "primary_cn": "个性化展示",
+          "secondary": "HOW_IT_WORKS"
+        },
+        "message_strategy": {
+          "primary_message": "提供基于目标的个性化计划选择。",
+          "supporting_evidence": "通过“What is your goal?”的目标选择列表与具体目标项（如“Race”“Run a specific distance”等）来展示可定制的计划入口。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "用户选择目标后即可获得与目标匹配的训练计划。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "commitment"
+          ],
+          "persuasion_technique": "用“先选目标”的低门槛交互让用户做出初始承诺（选择其一），并用清晰的选项卡片降低决策成本。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Personalized Plans”与居中的 iPhone 设备屏幕（“What is your goal?”列表卡片）。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1F232A",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "absent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 3,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.2
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "以“goal picker”形式集中展示多种目标（含“Post-natal plan”“Post-injury recovery”“Post-race recovery”）"
+          ],
+          "category_conventions": [
+            "大标题 + 副标题解释卖点",
+            "居中设备框展示真实 App 界面",
+            "用卡片列表呈现功能/路径"
+          ],
+          "innovations": [
+            "用图标（如🏁、⛰️等）为目标选项做快速语义提示，强化扫读效率"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "有明确训练目标的人群（如“Race”“Run a specific distance”）",
+          "初学者（“Run a first 5k”）",
+          "需要恢复/特殊阶段计划的人群（“Post-natal plan”“Post-injury recovery”“Post-race recovery”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "“大标题 + 一句副标题”直接定义页面主题",
+          "设备居中 + App 内关键路径界面（目标选择/偏好选择）",
+          "卡片式选项列表，便于扫读与理解“可个性化”"
+        ],
+        "avoid_elements": [
+          "选项过多导致信息拥挤（列表过长在截图中会显得细小）",
+          "缺少品牌识别元素导致记忆点不足"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“Personalized Plans / Get plans based on your goals.”这种结构：在 P2 展示“选择目标/偏好”的关键一步，并用卡片列出 6–8 个最强相关目标；同时加入 VitaFlow 的品牌色/图标作为轻量点缀以增强识别度，保持与深色设备界面的高对比可读性。"
+      }
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Live Audio Coaching",
+          "subheadline": "Get feedback during workouts.",
+          "body_copy": [
+            "LAP 3/10",
+            "400m @ 7:10/mi",
+            "UP NEXT",
+            "400m @7:00/mi",
+            "302m",
+            "LAP DISTANCE",
+            "1:19",
+            "LAP TIME",
+            "7:03",
+            "LAP PACE",
+            "3.31MI",
+            "TOTAL DISTANCE",
+            "28:26",
+            "TOTAL TIME",
+            "8:35",
+            "AVG PACE",
+            "“Keep going, Ed!”",
+            "GPS",
+            "Travelodge",
+            "Pause",
+            "Next Lap"
+          ],
+          "cta_button": "Next Lap",
+          "small_print": [
+            "9:41"
+          ],
+          "data_numbers": [
+            "3/10",
+            "400m",
+            "7:10/mi",
+            "7:00/mi",
+            "302m",
+            "1:19",
+            "7:03",
+            "3.31MI",
+            "28:26",
+            "8:35",
+            "9:41"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0F0F10",
+            "#E9E9EA"
+          ],
+          "color_mood": "cool",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat",
+              "progress_ring"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "HOW_IT_WORKS"
+        },
+        "message_strategy": {
+          "primary_message": "Live Audio Coaching：在运动过程中获得反馈。",
+          "supporting_evidence": "用跑步训练界面中的配速/距离/时间等实时数据（如“400m @ 7:10/mi”“LAP 3/10”“LAP PACE”）以及语音气泡““Keep going, Ed!””来证明“反馈”是进行中的、可感知的。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "把训练中的指导（音频反馈）与关键指标同屏呈现，帮助用户在运动当下调整节奏并完成分段训练。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用“Live Audio Coaching”+“Get feedback during workouts.”的直给文案降低理解成本，并通过醒目的目标配速“400m @ 7:10/mi”作为锚点，让用户把“反馈”与“可执行的训练目标/分段进度（LAP 3/10）”强绑定。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Live Audio Coaching”与手机屏幕内高亮绿色的“400m @ 7:10/mi”",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#00D26A",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.6,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "语音反馈气泡““Keep going, Ed!””+波形可视化",
+            "训练分段提示“LAP 3/10”与“UP NEXT”同屏"
+          ],
+          "category_conventions": [
+            "用设备框展示真实 App 界面",
+            "用大标题+副标题在首屏解释功能",
+            "用高对比色突出关键指标（配速/目标）"
+          ],
+          "innovations": [
+            "把“音频教练”用可视化波形与直接引语具象化，而不是只写功能点"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "进行跑步分段训练/间歇训练的人（“LAP 3/10”“Next Lap”）",
+          "关注配速与训练执行的人（“LAP PACE”“AVG PACE”“400m @ 7:10/mi”）",
+          "希望训练中被即时鼓励/纠正的人（“Get feedback during workouts.”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "大标题+一句副标题的直给解释结构",
+          "在界面中用单一高亮色突出“当前关键指标/下一步”",
+          "用“引语气泡+波形”把“音频/教练/反馈”具象化"
+        ],
+        "avoid_elements": [
+          "在截图里堆叠过多小字号指标（如多组 pace/time/distance 同时出现）导致信息分散",
+          "仅用深色界面而缺少品牌识别元素（截图外层未见 logo/icon/app_name）"
+        ],
+        "adaptation_notes": "若 VitaFlow 也有“实时指导/提醒/语音反馈”，可复用“功能名大标题 + 一句解释”并在手机界面中用高亮色突出“当前建议/下一步动作”，同时用引语气泡呈现反馈内容；若 VitaFlow 偏健康管理而非跑步分段训练，则应把“UP NEXT/Next Lap”替换为你们的关键流程节点文案，并减少同屏指标数量以保持聚焦。"
+      }
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Fits Your Schedule",
+          "subheadline": "Move workouts whenever you want.",
+          "body_copy": [
+            "Training Calendar",
+            "Save",
+            "10 Feb - 16 Feb",
+            "WEEK 2",
+            "Total: 5.1 / 29.5mi",
+            "Reset",
+            "MON",
+            "10",
+            "TUE",
+            "11",
+            "Progression Run",
+            "5.1mi • 33m 52s",
+            "WED",
+            "12",
+            "Dropset Legs",
+            "40m",
+            "Add",
+            "THU",
+            "13",
+            "4mi Easy Run",
+            "4mi",
+            "FRI",
+            "14",
+            "800m Repeats",
+            "6.5mi",
+            "SAT",
+            "15",
+            "Add",
+            "SUN",
+            "16",
+            "14mi Long Run",
+            "14mi",
+            "17 Feb - 23 Feb",
+            "WEEK 3",
+            "Total: 32.2mi",
+            "Reset",
+            "MON",
+            "17",
+            "Add",
+            "TUE",
+            "18",
+            "5mi Easy",
+            "5mi",
+            "WED",
+            "19",
+            "Tempo 2-1",
+            "6mi",
+            "THU",
+            "Core Circu"
+          ],
+          "cta_button": "Add",
+          "small_print": [],
+          "data_numbers": [
+            "9:41",
+            "10 Feb - 16 Feb",
+            "WEEK 2",
+            "5.1 / 29.5mi",
+            "10",
+            "11",
+            "5.1mi",
+            "33m 52s",
+            "12",
+            "40m",
+            "13",
+            "4mi",
+            "14",
+            "800m",
+            "6.5mi",
+            "15",
+            "16",
+            "14mi",
+            "17 Feb - 23 Feb",
+            "WEEK 3",
+            "32.2mi",
+            "17",
+            "18",
+            "5mi",
+            "19",
+            "2-1",
+            "6mi"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9E9EA",
+            "#1F2329"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "HOW_IT_WORKS"
+        },
+        "message_strategy": {
+          "primary_message": "训练计划可以按你的时间安排灵活调整。",
+          "supporting_evidence": "用“Training Calendar”的周视图日程列表与“Add / Reset”等操作入口，展示可编辑、可移动的训练安排。",
+          "emotional_appeal": "simplicity",
+          "value_proposition": "用日历化的训练编排降低执行门槛，让训练更容易融入日程。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "loss_aversion"
+          ],
+          "persuasion_technique": "用清晰的日历结构与可操作控件（如“Add”“Reset”）把“可调整”具体化，降低理解成本并暗示错过/打乱计划可随时修正。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Fits Your Schedule”与居中的手机界面（Training Calendar 列表）",
+          "information_density": "high",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1F2329",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 3,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.6,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.2
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "以“Training Calendar”周计划为核心的可编辑训练编排界面"
+          ],
+          "category_conventions": [
+            "大标题+副标题解释卖点",
+            "居中手机机模展示核心界面",
+            "用列表呈现训练条目与数据（里程/时长）"
+          ],
+          "innovations": [
+            "用“Reset”“Add”等明确操作控件在截图内直接强化“可调整”的功能感"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "有固定训练计划的跑者/综合训练用户",
+          "需要在工作生活中灵活挪动训练安排的人",
+          "偏好结构化周计划管理的人"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "“大标题+一句副标题”直给利益点",
+          "居中机模+真实核心界面截图",
+          "在界面内露出关键操作入口以证明可控性（如“Add”“Reset”）",
+          "用周维度结构呈现“可安排/可调整”"
+        ],
+        "avoid_elements": [
+          "界面文字过密导致信息负担偏高",
+          "底部内容被截断（如“Core Circu”）影响专业感与可读性"
+        ],
+        "adaptation_notes": "若适配到 VitaFlow，可用同样的“日程/计划可调整”叙事：标题强调时间适配，机模内展示可拖拽/改期/补做的计划视图，并确保关键条目完整露出（避免截断），同时减少非关键小字以提升一眼读懂的转化效率。"
+      }
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Fully Customizable",
+          "subheadline": "You’re always in complete control.",
+          "body_copy": [
+            "Set your training preferences",
+            "We’ve customized your training volume and difficulty for you. You can revisit this later in ‘Manage Plan’.",
+            "TRAINING VOLUME",
+            "Progressive",
+            "DIFFICULTY",
+            "Challenging",
+            "EDIT PREFERENCES",
+            "Continue"
+          ],
+          "cta_button": "Continue",
+          "small_print": [
+            "We’ve customized your training volume and difficulty for you. You can revisit this later in ‘Manage Plan’."
+          ],
+          "data_numbers": [
+            "9:41"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9E9E9",
+            "#0F0F10"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "PERSONALIZATION",
+          "primary_cn": "个性化展示",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "Fully Customizable / You’re always in complete control.",
+          "supporting_evidence": "通过应用内页面“Set your training preferences”以及可编辑项（“TRAINING VOLUME / Progressive”“DIFFICULTY / Challenging”“EDIT PREFERENCES”）来证明可自定义与可控。",
+          "emotional_appeal": "control/security/simplicity",
+          "value_proposition": "让用户设置并随时调整训练偏好（训练量与难度），保持对计划的掌控。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "loss_aversion"
+          ],
+          "persuasion_technique": "用“Fully Customizable”“You’re always in complete control.”建立掌控感承诺；再用可见的偏好项与“EDIT PREFERENCES”降低行动成本，暗示不设置/不调整会失去对训练的控制。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Fully Customizable”，其次是居中的 iPhone 机模与屏内主标题“Set your training preferences”，最后落到按钮“Continue”。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0F0F10",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 4.3,
+          "uniqueness": 3.2
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "用“Set your training preferences”页面直接展示“TRAINING VOLUME / Progressive”“DIFFICULTY / Challenging”的可编辑偏好卡片"
+          ],
+          "category_conventions": [
+            "大标题+副标题的价值点陈述",
+            "居中 iPhone 机模展示真实界面",
+            "底部主 CTA 按钮（“Continue”）"
+          ],
+          "innovations": [
+            "在截图中同时呈现“已为你定制”（We’ve customized...）与“你仍可编辑”（EDIT PREFERENCES）的双重叙事"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "希望训练计划可控、可调整的人群",
+          "对训练量与难度敏感、需要明确设置入口的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "“Fully Customizable”式的强主标题+控制感副标题结构",
+          "用真实设置页截图证明“可自定义”而非仅口号",
+          "将关键偏好做成两列卡片（类似“TRAINING VOLUME”“DIFFICULTY”）以便快速扫读",
+          "保留清晰主 CTA（类似“Continue”）强化下一步"
+        ],
+        "avoid_elements": [
+          "在商店截图中放入过多应用内小字说明（如较长段落）导致缩略图可读性下降",
+          "缺少明确品牌标识（logo/icon/app_name）导致记忆点不足"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“Fully Customizable / You’re always in complete control.”这种“掌控感”叙事，但需替换为 VitaFlow 的关键可调维度（例如训练目标/恢复/饮食/提醒等），并在截图中用 2–3 个最核心的可编辑卡片直观呈现，同时在画面角落加入 VitaFlow 的 logo 或产品名以增强品牌识别。"
+      }
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Workout Variety",
+          "subheadline": "Mix it up to keep things interesting.",
+          "body_copy": [
+            "Choose a workout",
+            "All",
+            "Saved",
+            "Run",
+            "Easy Run",
+            "Tempo Run",
+            "Intervals",
+            "Hill Run",
+            "Long Run",
+            "Time Trial",
+            "Parkrun",
+            "Race",
+            "Workout",
+            "Strength",
+            "Pilates",
+            "Mobility"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "9:41"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9E9EA",
+            "#0F0F10"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "CONTENT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "Workout Variety",
+          "supporting_evidence": "通过“Choose a workout”界面展示多种训练类型与分类（如 Run、Workout）以及具体选项（如 Easy Run、Tempo Run、Strength、Pilates、Mobility）。",
+          "emotional_appeal": "curiosity",
+          "value_proposition": "提供多样化训练选择，让训练“Mix it up to keep things interesting.”"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "liking"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用“Workout Variety”+“Mix it up to keep things interesting.”的简短利益点文案，配合彩色卡片式选项网格，让用户快速感知“选择很多、切换很方便”。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Workout Variety”与中部 iPhone 机模内的“Choose a workout”卡片网格",
+          "information_density": "medium",
+          "hierarchy_score": 4.5
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0F0F10",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 5,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.5,
+          "clarity": 4.5,
+          "brand_consistency": 5.0,
+          "uniqueness": 3.5
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Choose a workout”内以彩色卡片网格呈现多种跑步细分（Easy Run/Tempo Run/Intervals/Hill Run/Long Run/Time Trial/Parkrun/Race）与训练类型（Strength/Pilates/Mobility）"
+          ],
+          "category_conventions": [
+            "大标题 + 副标题解释卖点",
+            "iPhone 机模展示真实产品界面",
+            "卡片式功能入口用于表达“选择丰富”"
+          ],
+          "innovations": [
+            "在深色界面中用高饱和度彩色卡片做功能分组与区分，强化“Variety”的直观感受"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "需要多种跑步训练结构的人（如 Easy Run、Tempo Run、Intervals）",
+          "希望补充训练的人（Strength、Pilates、Mobility）",
+          "偏好快速选择、少阅读成本的用户（网格入口+短文案）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "“大标题 + 一句副标题利益点”结构",
+          "机模居中展示核心选择界面",
+          "彩色卡片网格用于表达“内容/方案很多且易选”"
+        ],
+        "avoid_elements": [
+          "在截图页中出现过多同层级入口导致用户不知从何开始（网格项过多时）",
+          "缺少明确下一步引导（本页无按钮式 CTA）"
+        ],
+        "adaptation_notes": "若 VitaFlow 也强调“方案多/可组合”，可复用“Variety”叙事：用居中机模展示“选择/推荐”页，并用彩色卡片区分不同模块；同时可在卡片区或标题区补充一个更明确的下一步引导（例如在界面内呈现可点击的主路径入口），以降低选择成本。"
+      }
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "All Your Stats",
+          "subheadline": "Track your progress over time.",
+          "body_copy": [
+            "Activities",
+            "Workouts",
+            "Performance",
+            "18-24 Nov 2024",
+            "VIEW BY: WEEK",
+            "MILES",
+            "TIME",
+            "RUNS",
+            "Personal Records",
+            "Today",
+            "Plan",
+            "Activities",
+            "Community",
+            "Support"
+          ],
+          "cta_button": "",
+          "small_print": [
+            "Sep",
+            "Oct",
+            "Nov",
+            "0km"
+          ],
+          "data_numbers": [
+            "9:41",
+            "18-24 Nov 2024",
+            "28.2",
+            "4h 21m",
+            "6",
+            "30",
+            "15",
+            "0km",
+            "1K",
+            "4:25",
+            "May 13, 2024",
+            "1MI",
+            "7:26",
+            "Sep 1, 2024",
+            "2MI",
+            "16:24",
+            "Nov 26, 2021",
+            "5K",
+            "27:49",
+            "5MI",
+            "45:22",
+            "10K",
+            "57:06"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9E9EA",
+            "#0F1114"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "bar_chart",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "DATA_PROOF",
+          "primary_cn": "数据证明",
+          "secondary": "RESULT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "All Your Stats",
+          "supporting_evidence": "通过“18-24 Nov 2024”的周维度数据（MILES 28.2 / TIME 4h 21m / RUNS 6）、柱状趋势图，以及“Personal Records”徽章记录（如 1K、1MI、2MI、5K、5MI、10K）来支撑。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "Track your progress over time."
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用可量化的周统计（MILES/TIME/RUNS）与“Personal Records”里程碑徽章，把训练成果具体化，降低理解成本并强化持续记录的动机。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“All Your Stats”与居中的 iPhone 设备屏幕（含周数据与柱状图）。",
+          "information_density": "high",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0F1114",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.6,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Personal Records”以六边形徽章形式呈现（1K/1MI/2MI/5K/5MI/10K）并附带具体成绩与日期"
+          ],
+          "category_conventions": [
+            "用趋势图（柱状图）展示时间序列进展",
+            "用关键指标卡片展示汇总数据（MILES/TIME/RUNS）",
+            "深色模式界面展示数据面板"
+          ],
+          "innovations": [
+            "将“记录徽章 + 具体成绩 + 日期”与周趋势图放在同一屏，形成“趋势 + 里程碑”的组合叙事"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "跑步/耐力训练用户（MILES、RUNS、1MI、5K、10K）",
+          "关注长期进步与复盘的用户（Track your progress over time. / VIEW BY: WEEK）",
+          "偏好数据化训练反馈的用户（周汇总 + 趋势图 + 个人纪录）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "“大标题 + 一句解释”结构（All Your Stats / Track your progress over time.）",
+          "设备居中展示核心数据面板",
+          "“汇总指标 + 趋势图”组合用于证明可追踪与可量化",
+          "“Personal Records”式里程碑模块（徽章/卡片化）"
+        ],
+        "avoid_elements": [
+          "在截图中放入过多小字号细节（如多处日期、刻度、底部导航文字）导致信息密度偏高",
+          "关键卖点只停留在泛化表述（如 All Your Stats）而缺少更具体的差异点文案"
+        ],
+        "adaptation_notes": "若适配到 VitaFlow，可保留“汇总指标 + 趋势图 + 里程碑”的证据链，但将指标替换为 VitaFlow 的核心健康/健身指标，并减少非关键小字（例如底部导航与过密刻度），让主标题与关键数字成为第一眼焦点。"
+      }
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P8",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Strength Training",
+          "subheadline": "Get stronger and faster.",
+          "body_copy": [
+            "Part 2",
+            "SUPERSET",
+            "Repeat 3X",
+            "Perform 1 set of each exercise in turn with 30 seconds rests after each set",
+            "Equipment required: Dumbbell, Box, Kettlebell",
+            "EXERCISES",
+            "LOG",
+            "Floor Seated Double Arm Shoulder Press",
+            "Dumbbell",
+            "Lats",
+            "10 reps",
+            "Squat to Calf Raise",
+            "Bodyweight",
+            "Quadriceps",
+            "10 reps",
+            "Plank",
+            "Dumbbell",
+            "Core",
+            "Pause / Stop",
+            "Next Part"
+          ],
+          "cta_button": "Next Part",
+          "small_print": [],
+          "data_numbers": [
+            "9:41",
+            "8:41",
+            "Part 2",
+            "Repeat 3X",
+            "1",
+            "30",
+            "10 reps",
+            "10 reps"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9E9E9",
+            "#0F141A"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "illustration"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "HOW_IT_WORKS"
+        },
+        "message_strategy": {
+          "primary_message": "Strength Training",
+          "supporting_evidence": "通过训练流程与动作清单界面（如“SUPERSET”“Repeat 3X”“Equipment required: Dumbbell, Box, Kettlebell”“10 reps”“Pause / Stop”“Next Part”）来展示可执行的力量训练编排与跟练控制。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "Get stronger and faster."
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用清晰的结构化训练信息（Part、SUPERSET、Repeat 3X、器械要求、每项“10 reps”）降低理解成本，并用“Next Part”推动用户持续完成训练流程。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Strength Training”与居中的手机屏幕（屏内大号时间“8:41”与底部“Next Part”按钮区域）",
+          "information_density": "high",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0F141A",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.6,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“SUPERSET”与“Repeat 3X”的训练结构标签",
+            "“Equipment required: Dumbbell, Box, Kettlebell”的器械前置说明",
+            "动作卡片内同时呈现动作名 + 器械/部位标签（如“Dumbbell”“Lats”“Bodyweight”“Quadriceps”“Core”）+ “10 reps”"
+          ],
+          "category_conventions": [
+            "大标题+副标题的商店截图文案结构",
+            "手机居中展示真实产品界面",
+            "底部主操作按钮（如“Pause / Stop”“Next Part”）突出可跟练"
+          ],
+          "innovations": [
+            "在商店截图中直接展示训练编排细节（如“Perform 1 set...”“30 seconds rests”“Repeat 3X”）而非仅展示概念性卖点"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注力量训练的人群（“Strength Training”）",
+          "希望按计划跟练、分段完成训练的人（“Part 2”“Next Part”）",
+          "有器械或愿意按器械准备训练的人（“Equipment required: Dumbbell, Box, Kettlebell”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "大标题 + 一句副标题的清晰价值表达",
+          "设备居中、直接展示核心流程界面",
+          "用结构化标签强化训练方法（如“SUPERSET”“Repeat 3X”）",
+          "在卡片中同时呈现动作/目标部位/次数等关键信息"
+        ],
+        "avoid_elements": [
+          "屏内信息过密导致缩略图可读性下降（大量小字如“Perform 1 set...”）",
+          "关键卖点过度依赖界面细节文字，离开放大查看时识别困难"
+        ],
+        "adaptation_notes": "若适配到 VitaFlow，可保留“标题+副标题+设备居中”的骨架，并将屏内小字压缩为更少但更大的关键指标（例如仅保留类似“Repeat 3X”“10 reps”这类强信号），把流程控制（类似“Next Part”）作为视觉锚点来表达“可跟练/可推进”的体验。"
+      }
+    },
+    {
+      "index": 9,
+      "filename": "screenshot_09.png",
+      "position": "P9",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Community",
+          "subheadline": "Connect with runners of all abilities.",
+          "body_copy": [
+            "Community",
+            "Most Popular",
+            "Shahna",
+            "Top Contributor",
+            "3h",
+            "Another Great Day",
+            "Having a blast 🥳",
+            "8km Easy Run",
+            "Orapa, Botswana",
+            "Distance",
+            "8.00km",
+            "Pace",
+            "6:18/km",
+            "Time",
+            "50:29",
+            "Katie Goble",
+            "Wow so cool!",
+            "Today",
+            "Plan",
+            "Activites",
+            "Community",
+            "Support"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "9:41",
+            "3h",
+            "8km",
+            "8.00km",
+            "6:18/km",
+            "50:29",
+            "26",
+            "4"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9E9E9",
+            "#1F2328"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "SOCIAL_PROOF",
+          "primary_cn": "社会证明",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "Community",
+          "supporting_evidence": "Connect with runners of all abilities. + 信息流帖子（“Another Great Day”）+ 互动数据（“26”“4”）+ 评论（“Wow so cool!”）+ 身份标识（“Top Contributor”）",
+          "emotional_appeal": "belonging",
+          "value_proposition": "Connect with runners of all abilities."
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof",
+            "liking",
+            "unity"
+          ],
+          "cognitive_biases": [
+            "bandwagon",
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用“Community/Connect”作为主标题与副标题建立群体归属感，并用可见互动（“26”“4”）与身份标签（“Top Contributor”）降低加入门槛、强化社区活跃与可信度。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Community”与中部 iPhone 机身内的大幅运动照片卡片（含“8.00km”“6:18/km”“50:29”）",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1F2328",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "subtle"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 4.4,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Top Contributor”身份标签",
+            "将跑步数据（“8.00km”“6:18/km”“50:29”）叠加在运动照片卡片上"
+          ],
+          "category_conventions": [
+            "大标题 + 一句话副标题的商店截图结构",
+            "设备居中展示 App 界面",
+            "用互动数据与评论呈现社区氛围"
+          ],
+          "innovations": [
+            "在社区信息流中直接展示运动记录卡片（含地点“Orapa, Botswana”）以增强内容真实感"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "跑步人群（“Connect with runners of all abilities.”）",
+          "喜欢分享训练记录与互动的用户（“26”“4”“Wow so cool!”）",
+          "关注训练指标的用户（“Distance”“Pace”“Time”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "“Community”+ 一句话副标题的清晰信息框架",
+          "设备居中 + 大留白提升可读性",
+          "用真实互动数据（点赞/评论数）做社区活跃度证明",
+          "用“Top Contributor”类标签做身份激励"
+        ],
+        "avoid_elements": [
+          "底部导航文字出现拼写问题（截图中为“Activites”）",
+          "界面内信息层级过多导致主卖点被稀释（帖子标题、数据、评论、导航同时出现）"
+        ],
+        "adaptation_notes": "若 VitaFlow 也有社区/打卡功能，可复用“Community/Connect…”式标题结构，并在信息流卡片中展示可量化的健康数据（如时长/频率/完成度）与互动数；同时加入类似“Top Contributor”的贡献者体系，但需确保界面文案与导航命名一致且无拼写错误。"
+      }
+    },
+    {
+      "index": 10,
+      "filename": "screenshot_10.png",
+      "position": "P10",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "24/7 Support",
+          "subheadline": "Get help whenever you need it.",
+          "body_copy": [
+            "Ben",
+            "Active 10m ago",
+            "Oct 30, 2024",
+            "I’m excited that race day is nearly here! Thanks for all of your help so far 😊. How many gels do you think I need to take? I’ve been practising and I’m not sure I can handle more than two 😬",
+            "Hey Dom, great question. Normally I’d say you want to take at least 3 gels an hour, so probably 10 in total for your marathon. That said, if your stomach can’t handle more than a couple of gels, you can always try real foods instead, like bananas and peanut butter.",
+            "Message..."
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "24/7",
+            "9:41",
+            "10m",
+            "30",
+            "2024",
+            "3",
+            "10",
+            "two"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#E9E9E9",
+            "#0F0F10"
+          ],
+          "color_mood": "neutral",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "solid"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "USP",
+          "primary_cn": "独特卖点",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "提供“24/7 Support”，用户随时都能获得帮助。",
+          "supporting_evidence": "用聊天界面示例（与“Ben”的对话、在线状态“Active 10m ago”、具体建议内容）来证明支持是实时且可执行的。",
+          "emotional_appeal": "security",
+          "value_proposition": "在关键训练/比赛场景中，随时获得及时、具体的指导与答疑。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority",
+            "liking"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用具体对话场景把“支持”具象化：提出明确问题（gels 数量）并给出可量化建议（“at least 3 gels an hour”“probably 10 in total”），降低用户对服务质量的不确定性。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“24/7 Support”，其次是居中的手机 mockup 与聊天气泡内容。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0F0F10",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "absent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 3,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.4,
+          "clarity": 4.7,
+          "brand_consistency": 4.2,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“24/7 Support”作为主标题直接承诺服务可用性",
+            "用真实聊天式长文本展示建议的“可操作性”（包含具体数字建议）"
+          ],
+          "category_conventions": [
+            "用手机 mockup 承载核心功能界面",
+            "用大标题 + 副标题的商店截图叙事结构"
+          ],
+          "innovations": [
+            "用“Active 10m ago”这类状态信息强化“随时可联系”的感知"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "耐力运动/跑步人群（出现“race day”“marathon”）",
+          "需要训练与补给建议的用户（出现“gels”“bananas and peanut butter”）",
+          "偏好随时答疑与陪伴式指导的用户（“24/7 Support”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "用“24/7 Support”这种强承诺型标题做单点卖点页",
+          "用对话截图证明服务质量（包含时间/在线状态/具体建议）",
+          "黑暗模式界面 + 浅灰背景的高对比展示，突出屏幕内容"
+        ],
+        "avoid_elements": [
+          "对话文案过长导致关键信息（承诺点/结果点）被淹没",
+          "缺少品牌元素导致截图系列识别度不足"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“标题承诺 + 聊天场景证明”的结构：顶部用一句话承诺支持能力（如全天候/快速响应），手机内用1问1答的短对话呈现“可执行建议”，并在对话中保留可量化信息（数字/时间）来增强可信度；同时在背景或角落加入 VitaFlow 的固定品牌标识以提升系列一致性。"
+      }
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "SOCIAL_PROOF → PERSONALIZATION → CORE_FUNC → CORE_FUNC → PERSONALIZATION → CORE_FUNC → DATA_PROOF → CORE_FUNC → SOCIAL_PROOF → USP",
+    "sequence_cluster": "social_first",
+    "narrative_arc": "从SOCIAL_PROOF开始，以USP结束",
+    "strengths": [
+      "视觉吸引力高 (4.5/5)",
+      "信息传达清晰 (4.6/5)"
+    ],
+    "weaknesses": [],
+    "key_takeaways": [
+      "用“24/7 Support”这种强承诺型标题做单点卖点页",
+      "用对话截图证明服务质量（包含时间/在线状态/具体建议）",
+      "“Fully Customizable”式的强主标题+控制感副标题结构",
+      "用真实设置页截图证明“可自定义”而非仅口号",
+      "设备居中 + App 内关键路径界面（目标选择/偏好选择）"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "SOCIAL_PROOF": 2,
+      "PERSONALIZATION": 2,
+      "CORE_FUNC": 4,
+      "DATA_PROOF": 1,
+      "USP": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 10,
+      "Data_Viz": 6,
+      "logo": 1,
+      "app_name": 1,
+      "Human": 4
+    },
+    "psychology_coverage": {
+      "cialdini": [
+        "liking",
+        "commitment",
+        "social_proof",
+        "unity",
+        "authority"
+      ],
+      "cognitive_biases": [
+        "commitment",
+        "novelty",
+        "loss_aversion",
+        "anchoring",
+        "cognitive_fluency",
+        "primacy_effect",
+        "bandwagon"
+      ]
+    },
+    "design_score_averages": {
+      "visual_appeal": 4.45,
+      "clarity": 4.64,
+      "brand_consistency": 4.42,
+      "uniqueness": 3.37
+    }
+  }
+}

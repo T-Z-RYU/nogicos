@@ -1,0 +1,256 @@
+{
+  "round": 2,
+  "timestamp": "2026-01-01T04:44:05.539238",
+  "summary": {
+    "passed": 0,
+    "failed": 15,
+    "issues": 18,
+    "fixes_applied": 11,
+    "is_stable": false
+  },
+  "results": [
+    {
+      "test_id": "test_001",
+      "prompt": "帮我看看项目结构",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 27.264379739761353,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_002",
+      "prompt": "创建一个测试文件",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 111.50012183189392,
+      "issues": [
+        {
+          "type": "empty_response",
+          "severity": "medium",
+          "location": "backend",
+          "description": "Empty response for non-empty input"
+        },
+        {
+          "type": "slow_response",
+          "severity": "low",
+          "location": "backend",
+          "description": "Response took 111.5s"
+        },
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_003",
+      "prompt": "",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.52129077911377,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_004",
+      "prompt": "GET /api/health",
+      "test_type": "api",
+      "success": false,
+      "response_time": 44.480026721954346,
+      "issues": [
+        {
+          "type": "slow_response",
+          "severity": "low",
+          "location": "backend",
+          "description": "Response took 44.5s"
+        }
+      ]
+    },
+    {
+      "test_id": "test_005",
+      "prompt": "点击New Session按钮",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.833767652511597,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_006",
+      "prompt": "读取package.json文件",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 17.895549297332764,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_007",
+      "prompt": "echo '你好世界' > test.txt",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 14.695111274719238,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_008",
+      "prompt": "WebSocket连接测试",
+      "test_type": "api",
+      "success": false,
+      "response_time": 136.96123671531677,
+      "issues": [
+        {
+          "type": "empty_response",
+          "severity": "medium",
+          "location": "backend",
+          "description": "Empty response for non-empty input"
+        },
+        {
+          "type": "slow_response",
+          "severity": "low",
+          "location": "backend",
+          "description": "Response took 137.0s"
+        }
+      ]
+    },
+    {
+      "test_id": "test_009",
+      "prompt": "访问不存在的文件: /invalid/path.txt",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 13.889906644821167,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_010",
+      "prompt": "rm -rf /",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 13.179975509643555,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_011",
+      "prompt": "打开浏览器截图当前页面",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 14.23957347869873,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_012",
+      "prompt": "输入超长文本(5000+字符)",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.529114246368408,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_013",
+      "prompt": "特殊字符测试: !@#$%^&*(){}[]|\\:;\"'<>,.?/~`",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 10.730503559112549,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_014",
+      "prompt": "连续发送10个请求",
+      "test_type": "api",
+      "success": false,
+      "response_time": 78.43474769592285,
+      "issues": [
+        {
+          "type": "slow_response",
+          "severity": "low",
+          "location": "backend",
+          "description": "Response took 78.4s"
+        }
+      ]
+    },
+    {
+      "test_id": "test_015",
+      "prompt": "页面刷新后重新连接",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 11.047050714492798,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Store Screenshot Analysis Schema v2",
+  "description": "5层分析框架：真实识别 → 语义理解 → 设计分析 → 竞争洞察 → 设计建议",
+  "type": "object",
+  "required": ["app_name", "total_screenshots", "analyzed_at", "model", "screenshots"],
+  "properties": {
+    "app_name": {
+      "type": "string",
+      "description": "App 名称"
+    },
+    "total_screenshots": {
+      "type": "integer",
+      "description": "截图总数"
+    },
+    "analyzed_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "分析时间"
+    },
+    "model": {
+      "type": "string",
+      "description": "使用的 AI 模型"
+    },
+    "screenshots": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/ScreenshotAnalysis"
+      }
+    },
+    "overall_analysis": {
+      "$ref": "#/definitions/OverallAnalysis"
+    },
+    "statistics": {
+      "$ref": "#/definitions/AppStatistics"
+    }
+  },
+  "definitions": {
+    "ScreenshotAnalysis": {
+      "type": "object",
+      "description": "单张截图的5层分析",
+      "required": ["index", "filename", "position", "L1_extraction", "L2_understanding", "L3_design", "L4_insights", "L5_recommendations"],
+      "properties": {
+        "index": {
+          "type": "integer",
+          "description": "截图序号 (1-based)"
+        },
+        "filename": {
+          "type": "string",
+          "description": "文件名"
+        },
+        "position": {
+          "type": "string",
+          "enum": ["P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10"],
+          "description": "位置编号"
+        },
+        "L1_extraction": {
+          "$ref": "#/definitions/L1Extraction",
+          "description": "Layer 1: 真实识别层"
+        },
+        "L2_understanding": {
+          "$ref": "#/definitions/L2Understanding",
+          "description": "Layer 2: 语义理解层"
+        },
+        "L3_design": {
+          "$ref": "#/definitions/L3Design",
+          "description": "Layer 3: 设计分析层"
+        },
+        "L4_insights": {
+          "$ref": "#/definitions/L4Insights",
+          "description": "Layer 4: 竞争洞察层"
+        },
+        "L5_recommendations": {
+          "$ref": "#/definitions/L5Recommendations",
+          "description": "Layer 5: 设计建议层"
+        }
+      }
+    },
+    "L1Extraction": {
+      "type": "object",
+      "description": "Layer 1: 真实识别层 - 准确抄录截图中的所有可见信息",
+      "required": ["text_extraction", "visual_extraction"],
+      "properties": {
+        "text_extraction": {
+          "type": "object",
+          "description": "文案提取（原文抄录，不翻译）",
+          "properties": {
+            "headline": {
+              "type": "string",
+              "description": "主标题（原文）"
+            },
+            "subheadline": {
+              "type": "string",
+              "description": "副标题（原文）"
+            },
+            "body_copy": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "正文内容列表"
+            },
+            "cta_button": {
+              "type": "string",
+              "description": "CTA按钮文字"
+            },
+            "small_print": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "小字说明"
+            },
+            "data_numbers": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "出现的数字数据（如 4.8★, 10M+, 7天免费）"
+            },
+            "language": {
+              "type": "string",
+              "enum": ["en", "zh", "mixed", "other"],
+              "description": "主要语言"
+            }
+          }
+        },
+        "visual_extraction": {
+          "type": "object",
+          "description": "视觉元素提取",
+          "properties": {
+            "dominant_colors": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "主要颜色（HEX值）"
+            },
+            "color_mood": {
+              "type": "string",
+              "enum": ["warm", "cool", "neutral", "vibrant", "muted"],
+              "description": "颜色情绪"
+            },
+            "layout_type": {
+              "type": "string",
+              "enum": ["centered", "split_horizontal", "split_vertical", "full_bleed", "card_based", "grid"],
+              "description": "布局类型"
+            },
+            "device_mockup": {
+              "type": "object",
+              "properties": {
+                "present": { "type": "boolean" },
+                "type": { "type": "string", "enum": ["iphone", "android", "tablet", "none"] },
+                "position": { "type": "string", "enum": ["center", "left", "right", "tilted", "multiple"] }
+              }
+            },
+            "human_presence": {
+              "type": "object",
+              "properties": {
+                "present": { "type": "boolean" },
+                "type": { "type": "string", "enum": ["photo", "illustration", "hands_only", "silhouette", "none"] }
+              }
+            },
+            "food_images": {
+              "type": "object",
+              "properties": {
+                "present": { "type": "boolean" },
+                "style": { "type": "string", "enum": ["photo", "illustration", "icon", "none"] }
+              }
+            },
+            "data_visualization": {
+              "type": "object",
+              "properties": {
+                "present": { "type": "boolean" },
+                "types": { 
+                  "type": "array", 
+                  "items": { "type": "string", "enum": ["pie_chart", "bar_chart", "line_chart", "progress_ring", "number_stat", "none"] }
+                }
+              }
+            },
+            "brand_elements": {
+              "type": "array",
+              "items": { "type": "string", "enum": ["logo", "icon", "mascot", "tagline", "app_name"] },
+              "description": "品牌元素"
+            },
+            "background_style": {
+              "type": "string",
+              "enum": ["solid", "gradient", "image", "pattern", "transparent"],
+              "description": "背景样式"
+            }
+          }
+        }
+      }
+    },
+    "L2Understanding": {
+      "type": "object",
+      "description": "Layer 2: 语义理解层 - 理解每张截图的意图和策略",
+      "required": ["page_type", "message_strategy", "psychology_tactics"],
+      "properties": {
+        "page_type": {
+          "type": "object",
+          "properties": {
+            "primary": {
+              "type": "string",
+              "enum": ["VP", "AI_DEMO", "CORE_FUNC", "RESULT_PREVIEW", "PERSONALIZATION", "SOCIAL_PROOF", "AUTHORITY", "DATA_PROOF", "USP", "HOW_IT_WORKS", "INTEGRATION", "CONTENT_PREVIEW", "FREE_TRIAL", "OTHER"],
+              "description": "主要类型"
+            },
+            "primary_cn": {
+              "type": "string",
+              "description": "类型中文名"
+            },
+            "secondary": {
+              "type": "string",
+              "description": "次要类型（可选）"
+            }
+          }
+        },
+        "message_strategy": {
+          "type": "object",
+          "properties": {
+            "primary_message": {
+              "type": "string",
+              "description": "这张图想传达的核心信息"
+            },
+            "supporting_evidence": {
+              "type": "string",
+              "description": "用什么来支撑这个信息"
+            },
+            "emotional_appeal": {
+              "type": "string",
+              "enum": ["trust", "excitement", "curiosity", "urgency", "belonging", "achievement", "security", "simplicity"],
+              "description": "激发的情绪"
+            },
+            "value_proposition": {
+              "type": "string",
+              "description": "传递的价值主张"
+            }
+          }
+        },
+        "psychology_tactics": {
+          "type": "object",
+          "properties": {
+            "cialdini_principles": {
+              "type": "array",
+              "items": { 
+                "type": "string", 
+                "enum": ["reciprocity", "commitment", "social_proof", "authority", "liking", "scarcity", "unity"]
+              },
+              "description": "西奥迪尼说服原则"
+            },
+            "cognitive_biases": {
+              "type": "array",
+              "items": { 
+                "type": "string",
+                "enum": ["primacy_effect", "recency_effect", "anchoring", "bandwagon", "loss_aversion", "endowment_effect", "cognitive_fluency", "novelty", "social_comparison", "authority_bias", "halo_effect", "framing_effect"]
+              },
+              "description": "认知偏差"
+            },
+            "persuasion_technique": {
+              "type": "string",
+              "description": "具体说服技巧描述"
+            }
+          }
+        }
+      }
+    },
+    "L3Design": {
+      "type": "object",
+      "description": "Layer 3: 设计分析层 - 分析设计决策背后的逻辑",
+      "properties": {
+        "visual_hierarchy": {
+          "type": "object",
+          "properties": {
+            "eye_flow": {
+              "type": "string",
+              "enum": ["top_down", "z_pattern", "f_pattern", "center_out", "left_right"],
+              "description": "用户视线路径"
+            },
+            "focal_point": {
+              "type": "string",
+              "description": "视觉焦点位置和元素"
+            },
+            "information_density": {
+              "type": "string",
+              "enum": ["low", "medium", "high"],
+              "description": "信息密度"
+            },
+            "hierarchy_score": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 5,
+              "description": "层级清晰度评分"
+            }
+          }
+        },
+        "typography": {
+          "type": "object",
+          "properties": {
+            "headline_style": {
+              "type": "string",
+              "enum": ["bold", "light", "condensed", "regular", "italic"],
+              "description": "标题字体风格"
+            },
+            "headline_size": {
+              "type": "string",
+              "enum": ["extra_large", "large", "medium", "small"],
+              "description": "标题字号"
+            },
+            "text_alignment": {
+              "type": "string",
+              "enum": ["center", "left", "right", "mixed"],
+              "description": "文字对齐"
+            },
+            "text_contrast": {
+              "type": "string",
+              "enum": ["high", "medium", "low"],
+              "description": "文字与背景对比度"
+            }
+          }
+        },
+        "color_strategy": {
+          "type": "object",
+          "properties": {
+            "primary_color": {
+              "type": "string",
+              "description": "主色调 HEX"
+            },
+            "color_scheme": {
+              "type": "string",
+              "enum": ["monochromatic", "complementary", "analogous", "triadic", "neutral"],
+              "description": "配色方案"
+            },
+            "contrast_level": {
+              "type": "string",
+              "enum": ["high", "medium", "low"],
+              "description": "整体对比度"
+            },
+            "brand_color_dominance": {
+              "type": "string",
+              "enum": ["dominant", "accent", "subtle", "absent"],
+              "description": "品牌色使用程度"
+            }
+          }
+        },
+        "layout_pattern": {
+          "type": "object",
+          "properties": {
+            "template_type": {
+              "type": "string",
+              "enum": ["device_centered", "device_offset", "full_bleed", "split_screen", "floating_elements", "editorial"],
+              "description": "布局模板"
+            },
+            "whitespace_usage": {
+              "type": "string",
+              "enum": ["tight", "balanced", "generous"],
+              "description": "留白使用"
+            },
+            "element_count": {
+              "type": "integer",
+              "description": "主要元素数量"
+            },
+            "symmetry": {
+              "type": "string",
+              "enum": ["symmetric", "asymmetric", "balanced_asymmetric"],
+              "description": "对称性"
+            }
+          }
+        },
+        "design_scores": {
+          "type": "object",
+          "properties": {
+            "visual_appeal": { "type": "number", "minimum": 1, "maximum": 5 },
+            "clarity": { "type": "number", "minimum": 1, "maximum": 5 },
+            "brand_consistency": { "type": "number", "minimum": 1, "maximum": 5 },
+            "uniqueness": { "type": "number", "minimum": 1, "maximum": 5 }
+          }
+        }
+      }
+    },
+    "L4Insights": {
+      "type": "object",
+      "description": "Layer 4: 竞争洞察层 - 提炼差异化策略",
+      "properties": {
+        "differentiation": {
+          "type": "object",
+          "properties": {
+            "unique_elements": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "该App独有的元素"
+            },
+            "category_conventions": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "遵循的行业惯例"
+            },
+            "innovations": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "突破惯例的创新"
+            }
+          }
+        },
+        "competitive_positioning": {
+          "type": "string",
+          "enum": ["premium", "value", "specialist", "mainstream", "disruptor"],
+          "description": "竞争定位"
+        },
+        "target_audience_signals": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "目标用户信号"
+        }
+      }
+    },
+    "L5Recommendations": {
+      "type": "object",
+      "description": "Layer 5: 设计建议层 - VitaFlow 可执行的设计建议",
+      "properties": {
+        "vitaflow_applicability": {
+          "type": "string",
+          "enum": ["highly_relevant", "somewhat_relevant", "not_relevant"],
+          "description": "对 VitaFlow 的适用性"
+        },
+        "reusable_elements": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "可复用的元素"
+        },
+        "avoid_elements": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "应避免的元素"
+        },
+        "adaptation_notes": {
+          "type": "string",
+          "description": "如何适配到 VitaFlow"
+        }
+      }
+    },
+    "OverallAnalysis": {
+      "type": "object",
+      "description": "整体分析",
+      "properties": {
+        "sequence_pattern": {
+          "type": "string",
+          "description": "截图序列模式"
+        },
+        "sequence_cluster": {
+          "type": "string",
+          "enum": ["traditional", "ai_driven", "authority_led", "social_first", "unique"],
+          "description": "序列聚类"
+        },
+        "narrative_arc": {
+          "type": "string",
+          "description": "叙事弧线描述"
+        },
+        "strengths": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "weaknesses": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "key_takeaways": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "关键启示"
+        }
+      }
+    },
+    "AppStatistics": {
+      "type": "object",
+      "description": "App级别统计",
+      "properties": {
+        "type_distribution": {
+          "type": "object",
+          "additionalProperties": { "type": "integer" }
+        },
+        "element_frequency": {
+          "type": "object",
+          "additionalProperties": { "type": "integer" }
+        },
+        "psychology_coverage": {
+          "type": "object",
+          "properties": {
+            "cialdini": { "type": "array", "items": { "type": "string" } },
+            "cognitive_biases": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "design_score_averages": {
+          "type": "object",
+          "additionalProperties": { "type": "number" }
+        }
+      }
+    }
+  }
+}
+
+

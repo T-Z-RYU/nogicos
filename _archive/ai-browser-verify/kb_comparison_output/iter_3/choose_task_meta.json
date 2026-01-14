@@ -1,0 +1,7 @@
+{
+  "task": {
+    "type": "explore",
+    "task": "Search DuckDuckGo for a query and optionally open the first result"
+  },
+  "reasoning": "Candidate useful skills (as Python function shortcuts) based on current DuckDuckGo homepage AX tree (search box, Search button, Menu, Learn about DuckDuckGo, Duck.ai):\n\n1) Skill: \u201cSearch DuckDuckGo for a query (optionally open first result)\u201d\n   - Why useful: core, high-frequency action; can compress typing + submit + (optional) open first result.\n   - Steps (actions):\n     1. Focus \u201cSearch with DuckDuckGo\u201d combobox (click) = 1\n     2. Type query = 1\n     3. Press Enter / click Search = 1\n     4. (Optional) Click first result = 1\n     Total actions: 3\u20134\n   - Usefulness (1\u20135): 5\n   - Expected actions: 4 (worst case with opening first result)\n   - Sum rating: 5 + 4 = 9\n\n2) Skill: \u201cOpen the About DuckDuckGo page\u201d\n   - Steps: click \u201cLearn about DuckDuckGo\u201d link = 1\n   - Usefulness: 2 (low frequency)\n   - Expected actions: 1\n   - Sum: 3\n\n3) Skill: \u201cOpen Duck.ai from the homepage\u201d\n   - Steps: click \u201cDuck.ai\u201d link = 1\n   - Usefulness: 3 (somewhat common)\n   - Expected actions: 1\n   - Sum: 4\n\n4) Skill: \u201cOpen the site menu and navigate to a selected section\u201d (generic)\n   - Steps (estimated):\n     1. Click Menu button = 1\n     2. Click desired menu item = 1\n     Total actions: 2\n   - Usefulness: 3 (moderately common)\n   - Expected actions: 2\n   - Sum: 5\n\nHighest sum rating is #1 (9)."
+}

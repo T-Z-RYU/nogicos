@@ -1,0 +1,215 @@
+{
+  "round": 26,
+  "timestamp": "2026-01-01T07:56:02.172280",
+  "summary": {
+    "passed": 5,
+    "failed": 10,
+    "issues": 12,
+    "fixes_applied": 9,
+    "is_stable": false
+  },
+  "results": [
+    {
+      "test_id": "test_001",
+      "prompt": "Hello, can you help me test the system?",
+      "test_type": "api",
+      "success": true,
+      "response_time": 16.733495950698853,
+      "issues": []
+    },
+    {
+      "test_id": "test_002",
+      "prompt": "list files in current directory",
+      "test_type": "api",
+      "success": true,
+      "response_time": 18.090527057647705,
+      "issues": []
+    },
+    {
+      "test_id": "test_003",
+      "prompt": "execute command: echo 'test'",
+      "test_type": "api",
+      "success": true,
+      "response_time": 12.591817378997803,
+      "issues": []
+    },
+    {
+      "test_id": "test_004",
+      "prompt": "read file that doesn't exist: nonexistent.txt",
+      "test_type": "api",
+      "success": true,
+      "response_time": 11.17802357673645,
+      "issues": []
+    },
+    {
+      "test_id": "test_005",
+      "prompt": "",
+      "test_type": "api",
+      "success": true,
+      "response_time": 6.640509128570557,
+      "issues": []
+    },
+    {
+      "test_id": "test_006",
+      "prompt": "Hello World",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 11.501060485839844,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_007",
+      "prompt": "show me the files",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.532722473144531,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_008",
+      "prompt": "run ls command",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.537662506103516,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_009",
+      "prompt": "invalid command xyz123",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.536446809768677,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_010",
+      "prompt": "测试中文输入：你好世界",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.628872394561768,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_011",
+      "prompt": "Help me create a file and then read it",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 22.766080141067505,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_012",
+      "prompt": "Execute 'pwd' command and show me the current directory",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 16.621504068374634,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_013",
+      "prompt": "Chat with me and then help me check system status",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 39.00475597381592,
+      "issues": [
+        {
+          "type": "slow_response",
+          "severity": "low",
+          "location": "backend",
+          "description": "Response took 39.0s"
+        },
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_014",
+      "prompt": "特殊字符测试: !@#$%^&*()_+{}|:<>?[]\\;'\",./-=`~",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 15.476755142211914,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_015",
+      "prompt": "Perform a complex task: create a Python script, run it, and show the output",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 34.74445462226868,
+      "issues": [
+        {
+          "type": "slow_response",
+          "severity": "low",
+          "location": "backend",
+          "description": "Response took 34.7s"
+        },
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "app_name": "Runna",
+  "total_screenshots": 10,
+  "analyzed_at": "2025-12-24T10:20:00",
+  "model": "claude-opus-4-5-20251101",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "type": "VP",
+      "type_cn": "价值主张",
+      "elements": ["Headline", "Device_Mockup", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Your Personal Running Coach",
+        "subheadline": "AI-powered training plans"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["primacy_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 5.0,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "AI私教定位，差异化明显"
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "type": "AI_DEMO",
+      "type_cn": "AI功能演示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "AI Adapts to You",
+        "subheadline": "Plans that evolve with your progress"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["cognitive_fluency", "novelty"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "AI自适应训练展示"
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "type": "PERSONALIZATION",
+      "type_cn": "个性化展示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Built for Your Goals",
+        "subheadline": "5K, 10K, marathon & more"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["endowment_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "目标导向的个性化计划"
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "type": "SOCIAL_PROOF",
+      "type_cn": "社会证明",
+      "elements": ["Headline", "Rating_Stars", "Download_Count"],
+      "copywriting": {
+        "headline": "4.9★ App Store",
+        "subheadline": "Loved by runners worldwide"
+      },
+      "psychology": {
+        "cialdini": ["social_proof"],
+        "cognitive_biases": ["bandwagon_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "4.9星高评分社会证明"
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "type": "RESULT_PREVIEW",
+      "type_cn": "效果预览",
+      "elements": ["Device_Mockup", "App_UI", "Stat_Number"],
+      "copywriting": {
+        "headline": "See Your Progress",
+        "subheadline": "Pace, distance & improvement"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["expectation_anchoring"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "训练进度追踪"
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "type": "AUTHORITY",
+      "type_cn": "权威背书",
+      "elements": ["Headline", "Human_Photo", "Expert_Name"],
+      "copywriting": {
+        "headline": "Expert Coaching Team",
+        "subheadline": "From Olympic athletes"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["halo_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "奥运选手教练团队背书"
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7_plus",
+      "type": "USP",
+      "type_cn": "差异化卖点",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Guided Audio Runs",
+        "subheadline": "Voice coaching in your ear"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["convenience"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "语音指导差异化功能"
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P7_plus",
+      "type": "INTEGRATION",
+      "type_cn": "设备集成",
+      "elements": ["Device_Mockup", "Icon_Set"],
+      "copywriting": {
+        "headline": "Connect Your Watch",
+        "subheadline": "Apple, Garmin, Polar & more"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["compatibility_assurance"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "设备兼容性展示"
+    },
+    {
+      "index": 9,
+      "filename": "screenshot_09.png",
+      "position": "P7_plus",
+      "type": "DATA_PROOF",
+      "type_cn": "数据证明",
+      "elements": ["Headline", "Stat_Number"],
+      "copywriting": {
+        "headline": "93% Hit Their Goals",
+        "subheadline": "Proven training methodology"
+      },
+      "psychology": {
+        "cialdini": ["social_proof"],
+        "cognitive_biases": ["specificity_bias"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "93%目标达成率的数据证明"
+    },
+    {
+      "index": 10,
+      "filename": "screenshot_10.png",
+      "position": "P7_plus",
+      "type": "FREE_TRIAL",
+      "type_cn": "免费试用提示",
+      "elements": ["Headline", "CTA_Text", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Start Your Free Trial",
+        "subheadline": "14 days free"
+      },
+      "psychology": {
+        "cialdini": ["reciprocity"],
+        "cognitive_biases": ["loss_aversion"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "14天免费试用，超越行业标准"
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → AI_DEMO → PERSONALIZATION → SOCIAL_PROOF → RESULT_PREVIEW → AUTHORITY → USP → INTEGRATION → DATA_PROOF → FREE_TRIAL",
+    "strengths": [
+      "AI私教定位差异化",
+      "93%目标达成率数据",
+      "14天免费试用（超长）",
+      "奥运选手教练背书"
+    ],
+    "weaknesses": [
+      "与Strava/Nike Run等竞争激烈",
+      "截图数量较多"
+    ],
+    "recommendations": [
+      "可精简至8张",
+      "强化AI差异化"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 1,
+      "AI_DEMO": 1,
+      "PERSONALIZATION": 1,
+      "SOCIAL_PROOF": 1,
+      "RESULT_PREVIEW": 1,
+      "AUTHORITY": 1,
+      "USP": 1,
+      "INTEGRATION": 1,
+      "DATA_PROOF": 1,
+      "FREE_TRIAL": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 6,
+      "Headline": 10,
+      "App_UI": 5,
+      "Gradient_BG": 2,
+      "Rating_Stars": 1,
+      "Download_Count": 1,
+      "Human_Photo": 1,
+      "Stat_Number": 2,
+      "Icon_Set": 1
+    },
+    "psychology_coverage": {
+      "cialdini": ["authority", "commitment", "social_proof", "reciprocity"],
+      "cognitive_biases": ["primacy_effect", "cognitive_fluency", "novelty", "endowment_effect", "bandwagon_effect", "expectation_anchoring", "halo_effect", "specificity_bias", "loss_aversion"]
+    }
+  }
+}
+

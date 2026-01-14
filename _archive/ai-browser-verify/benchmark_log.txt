@@ -1,0 +1,965 @@
+======================================================================
+  SkillWeaver 知识库对比与泛化能力测试
+  Knowledge Base Comparison & Generalization Benchmark
+======================================================================
+时间: 2025-12-25 07:38:09
+模型: gpt-5.2
+测试网站数: 6
+每个测试运行次数: 3
+
+
+[1/6] 测试网站: HackerNews
+
+######################################################################
+  开始测试: HackerNews (news)
+######################################################################
+
+[Phase 1] 探索阶段 - AI 学习网站操作
+
+============================================================
+  EXPLORE: HackerNews (news)
+  URL: https://news.ycombinator.com
+  迭代次数: 5
+============================================================
+
+警告: 无法删除旧目录 C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\explore_output\hackernews，继续...
+命令: C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\python.exe -m skillweaver.explore news.ycombinator.com C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\explore_output\hackernews...
+  C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\lm.py:34: FutureWarning: 
+  
+  All support for the `google.generativeai` package has ended. It will no longer be receiving 
+  updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+  See README for more details:
+  
+  https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+  
+    import google.generativeai as genai
+  made new_page
+  went to http://news.ycombinator.com
+  Iteration: 0
+  Iteration: 1
+  Iteration: 2
+  Iteration: 3
+  Iteration: 4
+  Error: [WinError 183] 当文件已存在时，无法创建该文件。: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_output\\hackernews/iter_0'
+  Traceback (most recent call last):
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 507, in inner
+      await explore(
+      ...<14 lines>...
+      )
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 386, in explore
+      await asyncio.gather(
+          *[_find_worker_and_run_iteration() for _ in range(iterations)]
+      )
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 362, in __wakeup
+      future.result()
+      ~~~~~~~~~~~~~^^
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 289, in __step_run_and_handle_result
+      result = coro.send(None)
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 358, in _find_worker_and_run_iteration
+      await _run_explore_iteration(
+      ...<13 lines>...
+      )
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 191, in _run_explore_iteration
+      os.makedirs(iter_dir)
+      ~~~~~~~~~~~^^^^^^^^^^
+    File "<frozen os>", line 236, in makedirs
+  FileExistsError: [WinError 183] 当文件已存在时，无法创建该文件。: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_output\\hackernews/iter_0'
+  
+
+探索完成: 耗时 6.4s | 成功: True
+知识库生成: 否
+
+[Phase 2] 基准测试阶段 - 执行 3 次对比
+
+  测试 A: 无知识库
+    运行 1/3... 成功 (1.9s, 0 步)
+    运行 2/3... 成功 (1.9s, 0 步)
+    运行 3/3... 成功 (2.0s, 0 步)
+
+  测试 B: 跳过（无知识库）
+
+  --- HackerNews 结果摘要 ---
+  无KB平均时间: 1.9s | 成功率: 100%
+
+[2/6] 测试网站: GitHub
+
+######################################################################
+  开始测试: GitHub (productivity)
+######################################################################
+
+[Phase 1] 探索阶段 - AI 学习网站操作
+
+============================================================
+  EXPLORE: GitHub (productivity)
+  URL: https://github.com
+  迭代次数: 5
+============================================================
+
+命令: C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\python.exe -m skillweaver.explore github.com C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\explore_output\github...
+  C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\lm.py:34: FutureWarning: 
+  
+  All support for the `google.generativeai` package has ended. It will no longer be receiving 
+  updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+  See README for more details:
+  
+  https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+  
+    import google.generativeai as genai
+  made new_page
+  went to http://github.com
+  Iteration: 0
+  Task proposal:
+  
+  New skill ideas for this GitHub (logged-out) homepage:
+  
+  1) Skill: “Search GitHub from the header search box for a query”
+     - Usefulness (1–5): 5 (very frequent; saves multiple interactions; core navigation task)
+     - Steps (count actions):
+       1. Click “Search or jump to…”
+       2. Type query
+       3. Press Enter / submit
+       => Actions = 3
+     - Sum rating = 5 + 3 = 8
+  
+  2) Skill: “Go to GitHub Pricing page from the global nav”
+     - Usefulness: 2 (common but mostly a single navigation)
+     - Steps:
+       1. Click “Pricing”
+       => Actions = 1
+     - Sum rating = 2 + 1 = 3
+  
+  3) Skill: “Open the GitHub Copilot free trial page from homepage CTA”
+     - Usefulness: 3 (somewhat common; still mostly a single click)
+     - Steps:
+       1. Click “Try GitHub Copilot free”
+       => Actions = 1
+     - Sum rating = 3 + 1 = 4
+  
+  4) Skill: “Navigate to the latest Universe recap page”
+     - Usefulness: 2 (time-bound; informational)
+     - Steps:
+       1. Click “Explore the latest tools from Universe '25”
+       => Actions = 1
+     - Sum rating = 2 + 1 = 3
+  
+  Highest sum rating is #1 (8).
+  Task:
+  {
+    "type": "explore",
+    "task": "Search GitHub from the header search box for a query"
+  }
+  🔍 Retrieved Task-Relevant Functions: 
+  2025-12-25T07:38:43.176418 Step 0
+  ⏳ Executing 0
+  💭 Step-by-step reasoning:
+  We need to use the header search control. On GitHub homepage, there is a button named "Search or jump to…" that opens the search input/command palette. Plan: click that button, then type a query into the resulting search textbox and press Enter to navigate to results. Since no knowledge_base functions are provided, use direct Playwright role-based selectors. Use a full get_by_role path: document -> button for the initial click. After opening, locate the search textbox by role/name and fill. Then press Enter and wait for navigation.
+  🛠️ Generated code:
+  import asyncio
+  from playwright.async_api import Page
+  
+  
+  async def act(page: Page):
+      # Open the header search UI
+      await page.get_by_role("button", name="Search or jump to…").click()
+  
+      # In the opened search interface, type the query and submit
+      # (The textbox name can vary; try common accessible names used by GitHub.)
+      search_box = page.get_by_role("textbox", name="Search")
+      try:
+          await search_box.wait_for(timeout=1500)
+      except Exception:
+          search_box = page.get_by_role("textbox", name="Search or jump to…")
+          await search_box.wait_for(timeout=5000)
+  
+      await search_box.fill("playwright")
+      await search_box.press("Enter")
+      await page.wait_for_load_state("domcontentloaded")
+  
+  2025-12-25T07:38:57.008224 Step 1
+  ⏳ Executing 1
+  💭 Step-by-step reasoning:
+  We need to use the header search button "Search or jump to…" then enter a query and submit. Prior run failed due to a non-UTF-8 ellipsis character in source; use ASCII "..." in selectors to avoid encoding issues. Also follow the rule to use the full .get_by_role() path by anchoring the button under the top-level document locator. After opening, try locating the textbox by role "combobox" or "textbox" with common names, then type a sample query and press Enter. Navigation to results should be last action (press Enter).
+  🛠️ Generated code:
+  import asyncio
+  from playwright.async_api import Page
+  
+  
+  async def act(page: Page):
+      # Open header search (use ASCII "..." to avoid encoding issues)
+      await page.get_by_role("document").get_by_role("button", name="Search or jump to...").click()
+  
+      # The search control GitHub opens can be exposed as a combobox or textbox.
+      search = page.get_by_role("combobox", name="Search")
+      try:
+          await search.wait_for(timeout=1500)
+      except Exception:
+          search = page.get_by_role("textbox", name="Search")
+          await search.wait_for(timeout=5000)
+  
+      await search.fill("playwright")
+  
+      # Submit search; this should navigate away, so make it the last action.
+      await search.press("Enter")
+  
+  2025-12-25T07:39:10.540430 Step 2
+  ⏳ Executing 2
+  💭 Step-by-step reasoning:
+  We are on GitHub homepage and need to use the header search box. The accessibility tree shows a top-level button named “Search or jump to…”. We should click it, then interact with the resulting search input (likely a combobox/textbox) and submit the query with Enter. Use role-based selectors, and avoid ambiguous single get_by_role by anchoring from the document.
+  🛠️ Generated code:
+  from playwright.async_api import Page
+  
+  
+  async def act(page: Page):
+      # Open the header search UI
+      await page.get_by_role("document").get_by_role("button", name="Search or jump to…").click()
+  
+      # After opening, GitHub typically exposes the input as a combobox or textbox.
+      # Try common accessible names.
+      search_locator = page.get_by_role("combobox", name="Search")
+      try:
+          await search_locator.wait_for(timeout=1500)
+      except Exception:
+          search_locator = page.get_by_role("textbox", name="Search")
+          try:
+              await search_locator.wait_for(timeout=1500)
+          except Exception:
+              search_locator = page.get_by_role("combobox", name="Search or jump to…")
+              try:
+                  await search_locator.wait_for(timeout=1500)
+              except Exception:
+                  search_locator = page.get_by_role("textbox", name="Search or jump to…")
+                  await search_locator.wait_for(timeout=5000)
+  
+      await search_locator.fill("playwright")
+  
+      # Submit search (expected navigation) — last action
+      await search_locator.press("Enter")
+  
+  2025-12-25T07:39:25.418537 Step 3
+  ⏳ Executing 3
+  💭 Step-by-step reasoning:
+  The page shows a single top-level button labeled “Search or jump to…” in the header. To search GitHub from the header search, we should click that button to open the search UI, then find the newly opened search input (it may be exposed as a combobox or textbox) and enter a query, submitting with Enter. Prior attempts failed due to non-UTF-8 ellipsis characters in source code, so we will avoid typing the ellipsis by matching only the ASCII portion “Search or jump to” in the accessible name (substring match). We will also anchor the button selection from the document to reduce ambiguity, and we will not perform actions after pressing Enter (navigation).
+  🛠️ Generated code:
+  from playwright.async_api import Page
+  
+  
+  async def act(page: Page):
+      # Open the header search UI (avoid using the ellipsis character to prevent encoding issues)
+      await page.get_by_role("document").get_by_role("button", name="Search or jump to").click()
+  
+      # Locate the opened search input (GitHub may expose it as a combobox or textbox)
+      search = page.get_by_role("combobox", name="Search")
+      if await search.count() == 0:
+          search = page.get_by_role("textbox", name="Search")
+      if await search.count() == 0:
+          search = page.get_by_role("combobox", name="Search or jump to")
+      if await search.count() == 0:
+          search = page.get_by_role("textbox", name="Search or jump to")
+  
+      await search.wait_for(state="visible", timeout=5000)
+      await search.fill("playwright")
+  
+      # Submit search (navigation expected) — last action
+      await search.press("Enter")
+  
+  2025-12-25T07:39:40.255872 Step 4
+  ⏳ Executing 4
+  💭 Step-by-step reasoning:
+  We must search GitHub from the header search button. Prior runs failed due to a non-UTF-8 ellipsis character embedded in the source; avoid any non-ASCII punctuation in our Python source by matching only the substring “Search or jump to” (Playwright name matching is substring/case-insensitive). Use a full .get_by_role() path: anchor from the top-level document to the button. After clicking, the search input may appear as a combobox or textbox; locate one of those and submit the query with Enter (navigation expected, so last action is pressing Enter).
+  🛠️ Generated code:
+  from playwright.async_api import Page
+  
+  
+  async def act(page: Page):
+      # Open the header search UI (avoid using the ellipsis character in source)
+      await page.get_by_role("document").get_by_role("button", name="Search or jump to").click()
+  
+      # GitHub search UI may expose the input as a combobox or textbox
+      search = page.get_by_role("combobox", name="Search")
+      if await search.count() == 0:
+          search = page.get_by_role("textbox", name="Search")
+      if await search.count() == 0:
+          search = page.get_by_role("combobox", name="Search or jump to")
+      if await search.count() == 0:
+          search = page.get_by_role("textbox", name="Search or jump to")
+  
+      await search.wait_for(state="visible", timeout=5000)
+      await search.fill("playwright")
+  
+      # Submit (navigation expected) - last action
+      await search.press("Enter")
+  
+  2025-12-25T07:39:57.467006 Step 5
+  ⏳ Executing 5
+  💭 Step-by-step reasoning:
+  We are on GitHub homepage and need to perform a search using the header search control. The accessibility tree shows a top-level button named “Search or jump to…”. To avoid non-UTF-8 ellipsis issues, match only the ASCII substring “Search or jump to”. Click the button to open the search UI, then fill the visible search input (likely exposed as a combobox named “Search”), and press Enter to submit. Pressing Enter should navigate, so it must be the last action.
+  🛠️ Generated code:
+  from playwright.async_api import Page
+  
+  
+  async def act(page: Page):
+      # Open the header search UI (avoid using the ellipsis character in source)
+      await page.get_by_role("document").get_by_role("button", name="Search or jump to").click()
+  
+      # In the opened UI, the input is typically exposed as a combobox named "Search"
+      search = page.get_by_role("combobox", name="Search")
+      await search.wait_for(state="visible", timeout=5000)
+  
+      await search.fill("playwright")
+  
+      # Submit search (navigation expected) — last action
+      await search.press("Enter")
+  
+  2025-12-25T07:40:09.880931 Step 6
+  ⏳ Executing 6
+  💭 Step-by-step reasoning:
+  We need to use GitHub’s header search. The accessibility tree shows a top-level button named “Search or jump to…”. Prior runs failed due to non-UTF-8 characters, so we must ensure the Python source is pure ASCII by using unicode escapes (\u2026) when needed. Click the search button, then wait for the search input that appears (commonly a combobox/textbox with name containing “Search”), fill a query, and press Enter to submit (last action due to navigation).
+  🛠️ Generated code:
+  from playwright.async_api import Page
+  
+  
+  async def act(page: Page):
+      # Open header search (use ASCII + unicode escape for ellipsis to avoid encoding issues)
+      await page.get_by_role("document").get_by_role(
+          "button", name="Search or jump to\u2026"
+      ).click()
+  
+      # After opening, GitHub typically exposes the search input as a combobox.
+      search = page.get_by_role("combobox", name="Search")
+      if await search.count() == 0:
+          search = page.get_by_role("textbox", name="Search")
+  
+      await search.wait_for(state="visible", timeout=5000)
+      await search.fill("playwright")
+  
+      # Submit search (navigation expected) — last action
+      await search.press("Enter")
+  
+  2025-12-25T07:40:23.404616 Step 7
+  ⏳ Executing 7
+  💭 Step-by-step reasoning:
+  We need to use the header search control. The accessibility tree shows a top-level button named "Search or jump to…". Prior attempts hit SyntaxError due to a non-UTF-8 character in the source file; to eliminate this, ensure the Python source declares UTF-8 encoding at the top. Then click the search button, wait for the search input that appears (likely a combobox named "Search"), fill the query, and press Enter (navigation expected; last action).
+  🛠️ Generated code:
+  # -*- coding: utf-8 -*-
+  from playwright.async_api import Page
+  
+  
+  async def act(page: Page):
+      # Open the header search UI
+      await page.get_by_role("document").get_by_role("button", name="Search or jump to…").click()
+  
+      # The search field commonly appears as a combobox named "Search"
+      search = page.get_by_role("combobox", name="Search")
+      await search.wait_for(state="visible", timeout=5000)
+  
+      await search.fill("playwright")
+  
+      # Submit search (navigation expected) — last action
+      await search.press("Enter")
+  
+  2025-12-25T07:40:36.463411 Step 8
+  ⏳ Executing 8
+  💭 Step-by-step reasoning:
+  We are on GitHub homepage. The header contains a button labeled “Search or jump to…”. We should click that button (anchored from the document to avoid ambiguity), then wait for the search input that appears (commonly exposed as a combobox). Fill the query and press Enter to submit; pressing Enter may navigate, so it should be the last action. To avoid any source-encoding issues, do not include the ellipsis character in string literals; rely on substring matching with "Search or jump to".
+  🛠️ Generated code:
+  from playwright.async_api import Page
+  
+  
+  async def act(page: Page):
+      # Open the header search UI (avoid using the ellipsis character in code)
+      await page.get_by_role("document").get_by_role("button", name="Search or jump to").click()
+  
+      # The opened search field is typically exposed as a combobox (fallback to textbox)
+      search = page.get_by_role("combobox", name="Search")
+      if await search.count() == 0:
+          search = page.get_by_role("textbox", name="Search")
+  
+      await search.wait_for(state="visible", timeout=5000)
+  
+      # Enter the query and submit (navigation expected) — last action
+      await search.fill("playwright")
+      await search.press("Enter")
+  
+  Error in iteration 0: [Errno 2] No such file or directory: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_output\\github/iter_0/009_state_screenshot.png'
+  Traceback (most recent call last):
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 219, in _run_explore_iteration
+      (states, actions) = await attempt_task(
+                          ^^^^^^^^^^^^^^^^^^^
+      ...<8 lines>...
+      )  # type: ignore
+      ^
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\attempt_task.py", line 219, in attempt_task
+      states[-1].save(store_dir, f"{step+1:03d}_state")
+      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\environment\state.py", line 60, in save
+      self.screenshot.save(f"{out_dir}/{prefix}_screenshot.png")
+      ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\PIL\Image.py", line 2566, in save
+      fp = builtins.open(filename, "w+b")
+  FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_output\\github/iter_0/009_state_screenshot.png'
+  
+  Iteration: 1
+  Iteration: 2
+  Iteration: 3
+  Iteration: 4
+  Error: [Errno 2] No such file or directory: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_output\\github/iter_0/error.txt'
+  Traceback (most recent call last):
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 219, in _run_explore_iteration
+      (states, actions) = await attempt_task(
+                          ^^^^^^^^^^^^^^^^^^^
+      ...<8 lines>...
+      )  # type: ignore
+      ^
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\attempt_task.py", line 219, in attempt_task
+      states[-1].save(store_dir, f"{step+1:03d}_state")
+      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\environment\state.py", line 60, in save
+      self.screenshot.save(f"{out_dir}/{prefix}_screenshot.png")
+      ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\PIL\Image.py", line 2566, in save
+      fp = builtins.open(filename, "w+b")
+  FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_output\\github/iter_0/009_state_screenshot.png'
+  
+  During handling of the above exception, another exception occurred:
+  
+  Traceback (most recent call last):
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 507, in inner
+      await explore(
+      ...<14 lines>...
+      )
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 386, in explore
+      await asyncio.gather(
+          *[_find_worker_and_run_iteration() for _ in range(iterations)]
+      )
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 362, in __wakeup
+      future.result()
+      ~~~~~~~~~~~~~^^
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 289, in __step_run_and_handle_result
+      result = coro.send(None)
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 358, in _find_worker_and_run_iteration
+      await _run_explore_iteration(
+      ...<13 lines>...
+      )
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 280, in _run_explore_iteration
+      with open(f"{iter_dir}/error.txt", "w", encoding="utf-8") as f:
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_output\\github/iter_0/error.txt'
+  
+
+探索完成: 耗时 148.8s | 成功: True
+知识库生成: 否
+
+[Phase 2] 基准测试阶段 - 执行 3 次对比
+
+  测试 A: 无知识库
+    运行 1/3... 成功 (1.9s, 0 步)
+    运行 2/3... 成功 (2.1s, 0 步)
+    运行 3/3... 成功 (1.9s, 0 步)
+
+  测试 B: 跳过（无知识库）
+
+  --- GitHub 结果摘要 ---
+  无KB平均时间: 2.0s | 成功率: 100%
+
+[3/6] 测试网站: Reddit
+
+######################################################################
+  开始测试: Reddit (social)
+######################################################################
+
+[Phase 1] 探索阶段 - AI 学习网站操作
+
+============================================================
+  EXPLORE: Reddit (social)
+  URL: https://www.reddit.com
+  迭代次数: 5
+============================================================
+
+警告: 无法删除旧目录 C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\explore_output\reddit，继续...
+命令: C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\python.exe -m skillweaver.explore www.reddit.com C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\explore_output\reddit...
+  C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\lm.py:34: FutureWarning: 
+  
+  All support for the `google.generativeai` package has ended. It will no longer be receiving 
+  updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+  See README for more details:
+  
+  https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+  
+    import google.generativeai as genai
+  made new_page
+  went to http://www.reddit.com
+  Iteration: 0
+  Task proposal:
+  
+  New useful skills to learn on this Reddit page (no login/account actions):
+  
+  1) Skill: "Search Reddit for keywords and restrict to a specific subreddit"
+     - What it does: Uses the top "Find anything" search box, submits query, then refines results to a given subreddit (e.g., r/apple) and optionally sorts.
+     - Usefulness (1-5): 5 (very common; saves multiple refine/sort steps)
+     - Steps (click/type count):
+       1. Click search box (1)
+       2. Type query (1)
+       3. Press Enter / click search (1)
+       4. Click subreddit filter or add "subreddit:" refinement (1)
+       5. Optionally choose sort (Best/New/Top) (1)
+       Total actions: 4–5
+     - Sum rating: 5 + (approx. 5) = 10
+  
+  2) Skill: "Open first trending search result card"
+     - What it does: Clicks one of the trending topic cards (e.g., worldnews Ukraine peace) to open its search page.
+     - Usefulness: 2 (lightweight; somewhat common)
+     - Steps:
+       1. Click the desired trending card (1)
+       Total actions: 1
+     - Sum rating: 2 + 1 = 3
+  
+  3) Skill: "Browse popular communities and open a selected community"
+     - What it does: In the right rail, clicks "See more" then selects a community from the expanded list.
+     - Usefulness: 3 (useful discovery, moderate frequency)
+     - Steps:
+       1. Click "See more" (1)
+       2. Click selected community link (1)
+       Total actions: 2
+     - Sum rating: 3 + 2 = 5
+  
+  4) Skill: "Open a post and copy its permalink"
+     - What it does: Opens a post from the feed and copies the canonical URL to clipboard (for sharing elsewhere).
+     - Usefulness: 4 (common sharing task; a couple steps)
+     - Steps:
+       1. Click post title to open (1)
+       2. Click share / copy link (2 actions: open share menu + copy) (2)
+       Total actions: 3
+     - Sum rating: 4 + 3 = 7
+  
+  Highest sum rating: Skill (1) with total 10.
+  
+  Proposed Python function name and parameters:
+  - search_in_subreddit(query: str, subreddit: str, sort: str = "relevance") -> None
+    (sort could map to Best/New/Top if available on results page)
+  Task:
+  {
+    "type": "explore",
+    "task": "Search Reddit for keywords and restrict to a specific subreddit"
+  }
+  🔍 Retrieved Task-Relevant Functions: 
+  2025-12-25T07:41:29.403391 Step 0
+  Received `terminate` action.
+  Iteration: 1
+  Iteration: 2
+  Iteration: 3
+  Iteration: 4
+  Error: [WinError 183] 当文件已存在时，无法创建该文件。: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_output\\reddit/iter_1'
+  Traceback (most recent call last):
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 507, in inner
+      await explore(
+      ...<14 lines>...
+      )
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 386, in explore
+      await asyncio.gather(
+          *[_find_worker_and_run_iteration() for _ in range(iterations)]
+      )
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 362, in __wakeup
+      future.result()
+      ~~~~~~~~~~~~~^^
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 289, in __step_run_and_handle_result
+      result = coro.send(None)
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 358, in _find_worker_and_run_iteration
+      await _run_explore_iteration(
+      ...<13 lines>...
+      )
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 191, in _run_explore_iteration
+      os.makedirs(iter_dir)
+      ~~~~~~~~~~~^^^^^^^^^^
+    File "<frozen os>", line 236, in makedirs
+  FileExistsError: [WinError 183] 当文件已存在时，无法创建该文件。: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_output\\reddit/iter_1'
+  
+
+探索完成: 耗时 63.5s | 成功: True
+知识库生成: 否
+
+[Phase 2] 基准测试阶段 - 执行 3 次对比
+
+  测试 A: 无知识库
+    运行 1/3... 成功 (1.8s, 0 步)
+    运行 2/3... 成功 (2.0s, 0 步)
+    运行 3/3... 成功 (1.8s, 0 步)
+
+  测试 B: 跳过（无知识库）
+
+  --- Reddit 结果摘要 ---
+  无KB平均时间: 1.9s | 成功率: 100%
+
+[4/6] 测试网站: Amazon
+
+######################################################################
+  开始测试: Amazon (ecommerce)
+######################################################################
+
+[Phase 1] 探索阶段 - AI 学习网站操作
+
+============================================================
+  EXPLORE: Amazon (ecommerce)
+  URL: https://www.amazon.com
+  迭代次数: 5
+============================================================
+
+命令: C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\python.exe -m skillweaver.explore www.amazon.com C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\explore_output\amazon...
+  C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\lm.py:34: FutureWarning: 
+  
+  All support for the `google.generativeai` package has ended. It will no longer be receiving 
+  updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+  See README for more details:
+  
+  https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+  
+    import google.generativeai as genai
+  made new_page
+  went to http://www.amazon.com
+  Iteration: 0
+  Could not get tree for frame: Frame.evaluate: TypeError: Cannot read properties of null (reading 'children')
+      at _getAccessibilityTree (eval at evaluate (:290:30), <anonymous>:1155:32)
+      at Object.getAccessibilityTree (eval at evaluate (:290:30), <anonymous>:1202:18)
+      at eval (eval at evaluate (:290:30), <anonymous>:1:31)
+      at eval (<anonymous>)
+      at UtilityScript.evaluate (<anonymous>:290:30)
+      at UtilityScript.<anonymous> (<anonymous>:1:44)
+  Could not get tree for frame: Frame.evaluate: TypeError: Cannot read properties of null (reading 'children')
+      at _getAccessibilityTree (eval at evaluate (:290:30), <anonymous>:1155:32)
+      at Object.getAccessibilityTree (eval at evaluate (:290:30), <anonymous>:1202:18)
+      at eval (eval at evaluate (:290:30), <anonymous>:1:31)
+      at eval (<anonymous>)
+      at UtilityScript.evaluate (<anonymous>:290:30)
+      at UtilityScript.<anonymous> (<anonymous>:1:44)
+  Task proposal:
+  
+  Proposed useful skills (shortcuts) for Amazon.sg homepage/search:
+  
+  1) Skill: “Search within a department and submit”
+     - What it does: Select a department from the search category dropdown, enter a query, and click Go.
+     - Usefulness (1–5): 5 (very frequent + compresses repeated steps for targeted searches)
+     - Steps/actions:
+       1. Click department dropdown
+       2. Select department option
+       3. Click search box
+       4. Type query
+       5. Click Go
+       => 5 actions
+     - Sum rating: 5 + 5 = 10
+  
+  2) Skill: “Open Today’s Deals and apply a deal filter (e.g., category)”
+     - What it does: Navigate to Today’s Deals then apply at least one filter (common in deal browsing).
+     - Usefulness: 4
+     - Steps/actions (from homepage):
+       1. Click “Today’s Deals”
+       2. Click a filter (e.g., category/discount)
+       3. (Optional typical) Click apply/confirm if needed
+       => 2–3 actions (count 3)
+     - Sum rating: 4 + 3 = 7
+  
+  3) Skill: “Change shopping language to a chosen language and return to home/search”
+     - What it does: Open language preferences and switch language.
+     - Usefulness: 3 (useful but not frequent)
+     - Steps/actions:
+       1. Click language link (EN)
+       2. Select language option
+       3. Click save/confirm
+       => 3 actions
+     - Sum rating: 3 + 3 = 6
+  
+  4) Skill: “Set delivery location (postal code) from header”
+     - What it does: Open the ‘Delivering to… Update location’ flow and set postal code (where available).
+     - Usefulness: 4 (important, but not done daily)
+     - Steps/actions (estimated typical):
+       1. Click “Update location”
+       2. Type postal code
+       3. Click apply/confirm
+       => 3 actions
+     - Sum rating: 4 + 3 = 7
+  
+  5) Skill: “Navigate to a top department page from the primary nav (e.g., Electronics) and open a subcategory”
+     - What it does: Click a department then choose a subcategory (where present).
+     - Usefulness: 3
+     - Steps/actions:
+       1. Click department link
+       2. Click subcategory link
+       => 2 actions
+     - Sum rating: 3 + 2 = 5
+  
+  Highest sum rating: (1) “Search within a department and submit” = 10
+  
+  Task:
+  {
+    "type": "explore",
+    "task": "Search within a department and submit"
+  }
+  🔍 Retrieved Task-Relevant Functions: 
+  2025-12-25T07:42:35.386264 Step 0
+  ⏳ Executing 0
+  💭 Step-by-step reasoning:
+  We need to perform a search within a department and submit. On Amazon header search has a department combobox (select) default All Departments, searchbox, and Go button. Also there appears a modal “Choosing your Amazon website” with links “Stay on Amazon.sg” and “Go to Amazon.com”. We must stay on Amazon.sg (and not change language). First click “Stay on Amazon.sg” if present to dismiss modal. Then in the navigation->search group: select a specific department (choose e.g. "Electronics"), fill the search box with a generic query (e.g. "headphones"), then click Go button using full role path via the search group to avoid ambiguity. Clicking Go navigates, so it should be last action.
+  🛠️ Generated code:
+  import asyncio
+  
+  async def act(page):
+      # If the regional modal is present, ensure we remain on Amazon.sg
+      stay_link = page.get_by_role("link", name="Stay on Amazon.sg")
+      if await stay_link.count() > 0:
+          await stay_link.first.click()
+          await page.wait_for_load_state("domcontentloaded")
+  
+      # Interact with the search controls within the Primary navigation
+      primary_nav = page.get_by_role("navigation", name="Primary")
+      search_region = primary_nav.get_by_role("search")
+  
+      # Choose a department (example: Electronics)
+      dept_combo = search_region.get_by_role("combobox")
+      await dept_combo.select_option(label="Electronics")
+  
+      # Enter a query
+      await search_region.get_by_role("searchbox", name="Search Amazon.sg").fill("headphones")
+  
+      # Submit the search (last action due to navigation)
+      await search_region.get_by_role("button", name="Go").click()
+  
+  2025-12-25T07:43:00.182426 Step 1
+  Received `terminate` action.
+  Successful attempt! Updating knowledge base...
+  Resulting code:
+  from playwright.async_api import Page
+  
+  
+  async def amazon_sg_search_within_department(page: Page, department_name: str, query: str) -> None:
+      """Search Amazon.sg within a selected department and submit the search.
+  
+      This skill:
+      1) Opens the Amazon.sg homepage.
+      2) (If present) dismisses the “Choosing your Amazon website” interstitial by clicking
+         “Stay on Amazon.sg”.
+      3) Uses the header search box (scoped to the Primary navigation) to:
+         - select a department from the department dropdown
+         - fill the search query
+         - click the "Go" button to submit (triggers navigation)
+  
+      Parameters
+      ----------
+      page:
+          Playwright page.
+      department_name:
+          The visible label of the department in the dropdown (e.g., "Electronics", "Books").
+          Note: this must match an option label available in the dropdown.
+      query:
+          Search keywords to enter into the searchbox.
+  
+      Expected behavior / notes
+      -------------------------
+      - Unexpected but useful: Amazon.sg may show an interstitial panel offering
+        “Stay on Amazon.sg” vs “Go to Amazon.com”. This skill checks for the link
+        "Stay on Amazon.sg" and clicks it if found.
+      - The department dropdown is a native <select>. Use `select_option(label=...)`.
+      - The final click on "Go" navigates to a results page; do not perform actions that
+        assume the old page state immediately after clicking without waiting.
+  
+      Usage log
+      ---------
+      - 2025-12-24: Selected department "Electronics", searched for "headphones", clicked "Go".
+        The results page displayed successfully. The “Stay on Amazon.sg” interstitial was
+        present and had to be dismissed.
+      """
+      await page.goto("/")
+  
+      # Dismiss the occasional regional interstitial if it appears.
+      stay_link = page.get_by_role("link", name="Stay on Amazon.sg")
+      if await stay_link.count() > 0:
+          await stay_link.first.click()
+          await page.wait_for_load_state("domcontentloaded")
+  
+      primary_nav = page.get_by_role("navigation", name="Primary")
+      search_region = primary_nav.get_by_role("search")
+  
+      # Department dropdown (native select)
+      await search_region.get_by_role("combobox").select_option(label=department_name)
+  
+      # Query
+      await search_region.get_by_role("searchbox", name="Search Amazon.sg").fill(query)
+  
+      # Submit (navigation)
+      await search_region.get_by_role("button", name="Go").click()
+  Retrying...
+  Violations were:
+   - Only `async` function definitions are permitted in your response. If you need to import something, place it *inside* the function body.
+  Resulting code:
+  async def amazon_sg_search_within_department(page, department_name: str, query: str) -> None:
+      """Search Amazon.sg within a selected department and submit the search.
+  
+      What this skill does
+      --------------------
+      1) Opens the Amazon.sg homepage.
+      2) If a regional interstitial appears ("Stay on Amazon.sg" vs "Go to Amazon.com"),
+         it clicks "Stay on Amazon.sg" to proceed on Amazon.sg.
+      3) In the header search bar (scoped to the "Primary" navigation):
+         - selects a department from the department dropdown (<select>)
+         - fills the search query
+         - clicks the "Go" button to submit the search (this triggers navigation)
+  
+      Parameters
+      ----------
+      page:
+          Playwright Page object.
+      department_name:
+          Visible label of the department option (e.g., "Electronics", "Books").
+          This must match an existing option label in the dropdown.
+      query:
+          Search keywords to enter.
+  
+      Notes / unexpected behavior
+      ---------------------------
+      - Amazon.sg may sometimes show a region-selection interstitial on the homepage.
+        Observed link text: "Stay on Amazon.sg". Clicking it dismisses the interstitial.
+      - The department dropdown behaves like a native <select>, so `select_option(label=...)`
+        is the most reliable interaction.
+      - Clicking "Go" navigates to a results page. If you need to interact with results
+        immediately after calling this skill, wait for navigation/load state in the caller.
+  
+      Usage log
+      ---------
+      - 2025-12-24: Selected department "Electronics", searched "headphones", clicked "Go".
+        Results page displayed successfully. The "Stay on Amazon.sg" interstitial was present
+        and had to be dismissed.
+      """
+      await page.goto("/")
+  
+      # Dismiss the occasional regional interstitial if it appears.
+      stay_link = page.get_by_role("link", name="Stay on Amazon.sg")
+      if await stay_link.count() > 0:
+          await stay_link.first.click()
+          await page.wait_for_load_state("domcontentloaded")
+  
+      primary_nav = page.get_by_role("navigation", name="Primary")
+      search_region = primary_nav.get_by_role("search")
+  
+      # Select department (native select control).
+      await search_region.get_by_role("combobox").select_option(label=department_name)
+  
+      # Enter query.
+      await search_region.get_by_role("searchbox", name="Search Amazon.sg").fill(query)
+  
+      # Submit search (navigation).
+      await search_region.get_by_role("button", name="Go").click()
+  Iteration: 1
+  Iteration: 2
+  Iteration: 3
+  Iteration: 4
+  Error: [WinError 183] 当文件已存在时，无法创建该文件。: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_output\\amazon/iter_1'
+  Traceback (most recent call last):
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 507, in inner
+      await explore(
+      ...<14 lines>...
+      )
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 386, in explore
+      await asyncio.gather(
+          *[_find_worker_and_run_iteration() for _ in range(iterations)]
+      )
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 362, in __wakeup
+      future.result()
+      ~~~~~~~~~~~~~^^
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 289, in __step_run_and_handle_result
+      result = coro.send(None)
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 358, in _find_worker_and_run_iteration
+      await _run_explore_iteration(
+      ...<13 lines>...
+      )
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 191, in _run_explore_iteration
+      os.makedirs(iter_dir)
+      ~~~~~~~~~~~^^^^^^^^^^
+    File "<frozen os>", line 236, in makedirs
+  FileExistsError: [WinError 183] 当文件已存在时，无法创建该文件。: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_output\\amazon/iter_1'
+  
+
+探索完成: 耗时 92.2s | 成功: True
+知识库生成: 是
+知识库路径: C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\explore_output\amazon\iter_0
+
+[Phase 2] 基准测试阶段 - 执行 3 次对比
+
+  测试 A: 无知识库
+    运行 1/3... 成功 (2.0s, 0 步)
+    运行 2/3... 成功 (2.0s, 0 步)
+    运行 3/3... 成功 (2.0s, 0 步)
+
+  测试 B: 有知识库
+    运行 1/3... 成功 (2.1s, 0 步)
+    运行 2/3... 成功 (1.9s, 0 步)
+    运行 3/3... 成功 (2.1s, 0 步)
+
+  --- Amazon 结果摘要 ---
+  无KB平均时间: 2.0s | 成功率: 100%
+  有KB平均时间: 2.0s | 成功率: 100%
+  加速比: 1.01x
+
+[5/6] 测试网站: DuckDuckGo
+
+######################################################################
+  开始测试: DuckDuckGo (search)
+######################################################################
+
+[Phase 1] 探索阶段 - AI 学习网站操作
+
+============================================================
+  EXPLORE: DuckDuckGo (search)
+  URL: https://duckduckgo.com
+  迭代次数: 5
+============================================================
+
+警告: 无法删除旧目录 C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\explore_output\duckduckgo，继续...
+命令: C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\python.exe -m skillweaver.explore duckduckgo.com C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\explore_output\duckduckgo...
+  C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\lm.py:34: FutureWarning: 
+  
+  All support for the `google.generativeai` package has ended. It will no longer be receiving 
+  updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+  See README for more details:
+  
+  https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+  
+    import google.generativeai as genai
+  made new_page
+  went to http://duckduckgo.com
+  Iteration: 0
+  Iteration: 1
+  Iteration: 2
+  Iteration: 3
+  Iteration: 4
+  Error: [WinError 183] 当文件已存在时，无法创建该文件。: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_output\\duckduckgo/iter_0'
+  Traceback (most recent call last):
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 507, in inner
+      await explore(
+      ...<14 lines>...
+      )
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 386, in explore
+      await asyncio.gather(
+          *[_find_worker_and_run_iteration() for _ in range(iterations)]
+      )
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 362, in __wakeup
+      future.result()
+      ~~~~~~~~~~~~~^^
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 289, in __step_run_and_handle_result
+      result = coro.send(None)
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 358, in _find_worker_and_run_iteration
+      await _run_explore_iteration(
+      ...<13 lines>...
+      )
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 191, in _run_explore_iteration
+      os.makedirs(iter_dir)
+      ~~~~~~~~~~~^^^^^^^^^^
+    File "<frozen os>", line 236, in makedirs
+  FileExistsError: [WinError 183] 当文件已存在时，无法创建该文件。: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_output\\duckduckgo/iter_0'
+  
+
+探索完成: 耗时 5.9s | 成功: True
+知识库生成: 否
+
+[Phase 2] 基准测试阶段 - 执行 3 次对比
+
+  测试 A: 无知识库
+    运行 1/3... 成功 (2.2s, 0 步)
+    运行 2/3... 成功 (2.0s, 0 步)
+    运行 3/3... 

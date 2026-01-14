@@ -1,0 +1,215 @@
+{
+  "round": 28,
+  "timestamp": "2026-01-01T08:08:53.128247",
+  "summary": {
+    "passed": 5,
+    "failed": 10,
+    "issues": 12,
+    "fixes_applied": 6,
+    "is_stable": false
+  },
+  "results": [
+    {
+      "test_id": "test_001",
+      "prompt": "hello",
+      "test_type": "api",
+      "success": true,
+      "response_time": 6.155675411224365,
+      "issues": []
+    },
+    {
+      "test_id": "test_002",
+      "prompt": "读取文件 /etc/passwd",
+      "test_type": "api",
+      "success": true,
+      "response_time": 28.9081974029541,
+      "issues": []
+    },
+    {
+      "test_id": "test_003",
+      "prompt": "执行命令 ls -la",
+      "test_type": "api",
+      "success": true,
+      "response_time": 17.108985900878906,
+      "issues": []
+    },
+    {
+      "test_id": "test_004",
+      "prompt": "",
+      "test_type": "api",
+      "success": true,
+      "response_time": 13.456867933273315,
+      "issues": []
+    },
+    {
+      "test_id": "test_005",
+      "prompt": "你好，今天天气怎么样？",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 11.0409095287323,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_006",
+      "prompt": "帮我创建一个新文件test.txt",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.54186749458313,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_007",
+      "prompt": "运行 echo 'Hello World'",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.546464204788208,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_008",
+      "prompt": "!@#$%^&*()",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.534863471984863,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_009",
+      "prompt": "查看当前目录下的文件",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 17.079647541046143,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_010",
+      "prompt": "创建一个Python脚本并运行",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 48.203598976135254,
+      "issues": [
+        {
+          "type": "slow_response",
+          "severity": "low",
+          "location": "backend",
+          "description": "Response took 48.2s"
+        },
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_011",
+      "prompt": "告诉我系统信息",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 24.83631157875061,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_012",
+      "prompt": "读取不存在的文件 /nonexistent/file.txt",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 13.733461141586304,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_013",
+      "prompt": "计算1+1等于多少",
+      "test_type": "api",
+      "success": true,
+      "response_time": 9.57784628868103,
+      "issues": []
+    },
+    {
+      "test_id": "test_014",
+      "prompt": "执行一个会产生大量输出的命令",
+      "test_type": "ui",
+      "success": false,
+      "response_time": 10.531281471252441,
+      "issues": [
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    },
+    {
+      "test_id": "test_015",
+      "prompt": "测试网络连通性 ping google.com",
+      "test_type": "e2e",
+      "success": false,
+      "response_time": 43.14391541481018,
+      "issues": [
+        {
+          "type": "slow_response",
+          "severity": "low",
+          "location": "backend",
+          "description": "Response took 43.1s"
+        },
+        {
+          "type": "ui_error",
+          "severity": "high",
+          "location": "frontend",
+          "description": "UI test failed: Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"textarea, input"
+        }
+      ]
+    }
+  ]
+}

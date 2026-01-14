@@ -1,0 +1,80 @@
+{
+  "app_name": "Yazio",
+  "screenshot_index": 90,
+  "screenshot_filename": "0090.png",
+  "total_onboarding_screens": 98,
+  "position_percentage": 91.8,
+  
+  "classification": {
+    "functional_purpose": {
+      "primary_category": "Paywall",
+      "secondary_type": "ValueReminder",
+      "confidence": 0.93,
+      "description": "付费墙前的价值提醒页面，使用损失厌恶策略"
+    },
+    "funnel_stage": {
+      "stage": "Conversion",
+      "position_in_funnel": "bottom",
+      "description": "转化前最后的说服环节"
+    },
+    "psychological_tactic": {
+      "primary_tactic": "LossAversion",
+      "secondary_tactics": ["Personalization", "Authority"],
+      "tactic_strength": "strong",
+      "description": "强调'错过'功能的损失，使用对比手法展示两种选择的差异"
+    },
+    "interaction_pattern": {
+      "primary_interaction": "PassiveRead",
+      "is_skippable": false,
+      "input_effort": "none",
+      "description": "阅读后点击继续"
+    },
+    "ui_pattern": {
+      "layout_type": "FullScreenIllustration",
+      "has_progress_indicator": false,
+      "has_illustration": true,
+      "has_animation": false,
+      "color_scheme": "light",
+      "description": "食物插画配合对比文案"
+    },
+    "commitment_level": {
+      "level": 1,
+      "commitment_type": "time",
+      "reversibility": "reversible",
+      "description": "阅读页面，无额外承诺"
+    }
+  },
+  
+  "deep_analysis": {
+    "design_intent": "在付费墙之前展示'放弃'vs'继续'的对比，利用损失厌恶心理增加用户对付费的接受度",
+    "ux_observation": "😩表情暗示不使用App的消极结果，🚀表情暗示使用后的积极未来。'proven to deliver results'增加权威感",
+    "conversion_impact": "positive",
+    "potential_issues": [
+      "文案略显负面，可能引起部分用户反感",
+      "没有具体数据支持'proven to deliver results'的声明"
+    ],
+    "best_practice_alignment": "使用损失厌恶是经典转化策略，但应该有实际数据或案例支撑'proven'声明"
+  },
+  
+  "raw_observation": {
+    "visible_text": [
+      "The first step is always the hardest, but sometimes it helps to envision the future. We see two options.",
+      "Go without Yazio, but miss out on our great features proven to deliver results.",
+      "Let us guide you on your journey and help you create healthy habits and reach your goals!",
+      "Continue"
+    ],
+    "ui_elements": [
+      "返回按钮",
+      "食物插画（胡萝卜、碗、苹果、西兰花、面包）",
+      "😩 和 🚀 表情符号",
+      "Continue按钮"
+    ],
+    "brand_elements": [
+      "Yazio黑色按钮风格",
+      "彩色食物emoji插画"
+    ]
+  },
+  
+  "analysis_method": "claude_opus_4.5",
+  "analyzed_at": "2025-12-22T00:00:00"
+}

@@ -1,0 +1,483 @@
+{
+  "product": "Cal AI - Calorie Tracker",
+  "source": "screensdesign.com",
+  "source_url": "https://screensdesign.com/apps/cal-ai-calorie-tracker/",
+  "downloaded_at": "2025-12-13T17:37:54.463808",
+  "total": 93,
+  "order_source": "timeline",
+  "order_reliable": true,
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "Screen_001.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 2,
+      "filename": "Screen_002.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 3,
+      "filename": "Screen_003.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 4,
+      "filename": "Screen_004.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 5,
+      "filename": "Screen_005.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 6,
+      "filename": "Screen_006.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 7,
+      "filename": "Screen_007.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 8,
+      "filename": "Screen_008.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 9,
+      "filename": "Screen_009.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 10,
+      "filename": "Screen_010.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 11,
+      "filename": "Screen_011.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 12,
+      "filename": "Screen_012.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 13,
+      "filename": "Screen_013.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 14,
+      "filename": "Screen_014.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 15,
+      "filename": "Screen_015.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 16,
+      "filename": "Screen_016.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 17,
+      "filename": "Screen_017.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 18,
+      "filename": "Screen_018.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 19,
+      "filename": "Screen_019.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 20,
+      "filename": "Screen_020.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 21,
+      "filename": "Screen_021.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 22,
+      "filename": "Screen_022.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 23,
+      "filename": "Screen_023.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 24,
+      "filename": "Screen_024.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 25,
+      "filename": "Screen_025.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 26,
+      "filename": "Screen_026.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 27,
+      "filename": "Screen_027.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 28,
+      "filename": "Screen_028.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 29,
+      "filename": "Screen_029.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 30,
+      "filename": "Screen_030.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 31,
+      "filename": "Screen_031.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 32,
+      "filename": "Screen_032.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 33,
+      "filename": "Screen_033.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 34,
+      "filename": "Screen_034.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 35,
+      "filename": "Screen_035.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 36,
+      "filename": "Screen_036.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 37,
+      "filename": "Screen_037.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 38,
+      "filename": "Screen_038.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 39,
+      "filename": "Screen_039.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 40,
+      "filename": "Screen_040.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 41,
+      "filename": "Screen_041.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 42,
+      "filename": "Screen_042.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 43,
+      "filename": "Screen_043.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 44,
+      "filename": "Screen_044.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 45,
+      "filename": "Screen_045.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 46,
+      "filename": "Screen_046.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 47,
+      "filename": "Screen_047.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 48,
+      "filename": "Screen_048.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 49,
+      "filename": "Screen_049.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 50,
+      "filename": "Screen_050.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 51,
+      "filename": "Screen_051.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 52,
+      "filename": "Screen_052.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 53,
+      "filename": "Screen_053.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 54,
+      "filename": "Screen_054.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 55,
+      "filename": "Screen_055.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 56,
+      "filename": "Screen_056.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 57,
+      "filename": "Screen_057.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 58,
+      "filename": "Screen_058.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 59,
+      "filename": "Screen_059.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 60,
+      "filename": "Screen_060.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 61,
+      "filename": "Screen_061.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 62,
+      "filename": "Screen_062.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 63,
+      "filename": "Screen_063.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 64,
+      "filename": "Screen_064.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 65,
+      "filename": "Screen_065.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 66,
+      "filename": "Screen_066.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 67,
+      "filename": "Screen_067.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 68,
+      "filename": "Screen_068.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 69,
+      "filename": "Screen_069.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 70,
+      "filename": "Screen_070.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 71,
+      "filename": "Screen_071.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 72,
+      "filename": "Screen_072.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 73,
+      "filename": "Screen_073.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 74,
+      "filename": "Screen_074.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 75,
+      "filename": "Screen_075.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 76,
+      "filename": "Screen_076.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 77,
+      "filename": "Screen_077.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 78,
+      "filename": "Screen_078.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 79,
+      "filename": "Screen_079.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 80,
+      "filename": "Screen_080.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 81,
+      "filename": "Screen_081.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 82,
+      "filename": "Screen_082.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 83,
+      "filename": "Screen_083.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 84,
+      "filename": "Screen_084.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 85,
+      "filename": "Screen_085.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 86,
+      "filename": "Screen_086.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 87,
+      "filename": "Screen_087.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 88,
+      "filename": "Screen_088.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 89,
+      "filename": "Screen_089.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 90,
+      "filename": "Screen_090.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 91,
+      "filename": "Screen_091.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 92,
+      "filename": "Screen_092.png",
+      "order_source": "video_timeline"
+    },
+    {
+      "index": 93,
+      "filename": "Screen_093.png",
+      "order_source": "video_timeline"
+    }
+  ],
+  "verification": {
+    "checked_at": "2025-12-13T17:37:54.465446",
+    "order_reliable": true,
+    "timeline_x_monotonic": true,
+    "warnings": []
+  },
+  "order_corrected": true
+}

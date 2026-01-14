@@ -1,0 +1,28 @@
+{
+  "api_tests": {
+    "openai": {
+      "success": true,
+      "time": 1.8316185474395752,
+      "model": "gpt-5.2"
+    },
+    "anthropic": {
+      "success": true,
+      "time": 3.3681421279907227,
+      "model": "claude-opus-4-5-20251101"
+    },
+    "google": {
+      "success": true,
+      "time": 1.7301051616668701,
+      "model": "gemini-3-flash-preview"
+    }
+  },
+  "browser_ai": {
+    "success": true,
+    "total_time": 3.2518632411956787,
+    "ai_time": 1.4733028411865234
+  },
+  "web3": {
+    "success": false,
+    "time": 0
+  }
+}

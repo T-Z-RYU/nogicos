@@ -1,0 +1,11 @@
+{
+  "task_id": "comments_task",
+  "task_name": "评论任务",
+  "mode": "computer_use",
+  "use_knowledge_base": false,
+  "success": true,
+  "num_steps": 2,
+  "total_time_seconds": 45.77,
+  "used_kb_skill": false,
+  "llm_calls": 2
+}

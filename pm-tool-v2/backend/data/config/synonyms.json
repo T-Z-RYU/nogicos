@@ -1,0 +1,163 @@
+{
+  "version": "1.0",
+  "description": "同义词映射表 - 帮助AI识别不同表达方式",
+  "last_updated": "2025-12-14",
+  
+  "stages": {
+    "Onboarding": ["引导", "新手引导", "首次启动", "入门", "Welcome Flow", "First Run", "FTUE"],
+    "Core": ["核心", "主功能", "Main", "Primary", "核心功能"]
+  },
+  
+  "modules": {
+    "Welcome": ["欢迎", "启动", "介绍", "Launch", "Intro", "价值主张", "产品介绍"],
+    "Profile": ["身份", "个人信息", "用户信息", "User Info", "Personal Info", "资料收集"],
+    "Goal": ["目标", "目标设定", "Goal Setting", "目标选择", "Target"],
+    "Preference": ["偏好", "喜好", "习惯", "Preferences", "Habits", "偏好设置"],
+    "Permission": ["权限", "授权", "Permissions", "授权请求", "系统权限"],
+    "Growth": ["增长", "运营", "归因", "Attribution", "推荐", "Referral"],
+    "Initialization": ["初始化", "加载", "Loading", "Setup", "配置中", "准备中"],
+    "Paywall": ["付费墙", "订阅", "Subscription", "付费", "Premium", "Pro", "会员"],
+    "Registration": ["注册", "登录", "Sign Up", "Sign In", "Login", "账号", "Account"],
+    "Dashboard": ["首页", "主页", "Home", "概览", "Overview", "仪表盘", "汇总"],
+    "Tracking": ["记录", "追踪", "Log", "Track", "日志", "输入"],
+    "Progress": ["进度", "统计", "Analytics", "图表", "Charts", "趋势", "Trends"],
+    "Content": ["内容", "文章", "Articles", "教程", "Tips", "资讯"],
+    "Social": ["社交", "好友", "Friends", "社区", "Community", "动态"],
+    "Settings": ["设置", "配置", "Settings", "Preferences", "选项", "Options"]
+  },
+  
+  "features": {
+    "Splash": ["启动页", "Launch Screen", "闪屏", "开屏", "启动屏"],
+    "ValueProp": ["价值主张", "产品价值", "Value Proposition", "产品介绍", "功能介绍"],
+    "FeaturePreview": ["功能预览", "Feature Tour", "功能展示", "产品演示"],
+    "GenderSelect": ["性别选择", "选择性别", "Gender Selection", "性别"],
+    "BirthdayInput": ["生日输入", "出生日期", "Birthday", "Date of Birth"],
+    "AgeInput": ["年龄输入", "年龄", "Age Input", "How old"],
+    "HeightInput": ["身高输入", "身高", "Height", "How tall"],
+    "WeightInput": ["体重输入", "体重", "Weight", "Current weight"],
+    "BodyMetrics": ["身体数据", "体型", "Body Stats", "BMI"],
+    "DirectionSelect": ["目标方向", "减重增重", "Lose/Gain", "Goal Direction"],
+    "TargetInput": ["目标值", "目标体重", "Target Weight", "Goal Weight"],
+    "PaceSelect": ["速度选择", "减重速度", "Rate", "Pace", "Speed"],
+    "TimelineSelect": ["时间线", "期限", "Timeline", "By when", "Deadline"],
+    "MotivationDisplay": ["激励展示", "动力", "Motivation", "Encouragement"],
+    "FrequencySelect": ["频率选择", "多久一次", "How often", "Frequency"],
+    "TypeSelect": ["类型选择", "种类选择", "Type Selection", "Category"],
+    "BarrierIdentify": ["障碍识别", "挑战", "Barriers", "Challenges", "Obstacles"],
+    "ExperienceCheck": ["经验检查", "是否用过", "Experience", "Previous apps"],
+    "NotificationAsk": ["通知请求", "推送权限", "Notification Permission", "Push"],
+    "LocationAsk": ["位置请求", "定位权限", "Location Permission", "GPS"],
+    "TrackingAsk": ["追踪请求", "IDFA", "App Tracking", "ATT"],
+    "HealthAsk": ["健康权限", "HealthKit", "Health Access", "Apple Health"],
+    "ChannelSurvey": ["渠道调研", "来源调查", "How did you hear", "Attribution Survey"],
+    "ReferralInput": ["推荐码输入", "邀请码", "Referral Code", "Promo Code"],
+    "ReferralInvite": ["邀请好友", "推荐好友", "Invite Friends", "Share"],
+    "Loading": ["加载中", "载入中", "Loading", "Please wait"],
+    "Calculating": ["计算中", "生成中", "Calculating", "Generating"],
+    "SetupComplete": ["设置完成", "准备就绪", "All Set", "Ready"],
+    "ValueReminder": ["价值提醒", "功能提醒", "Value Reminder", "Benefits"],
+    "PlanSelect": ["套餐选择", "方案选择", "Choose Plan", "Select Plan"],
+    "PriceDisplay": ["价格展示", "定价", "Pricing", "Price"],
+    "TrialOffer": ["试用优惠", "免费试用", "Free Trial", "Try for Free"],
+    "Confirmation": ["确认", "订阅确认", "Confirm", "Subscription Confirm"],
+    "MethodSelect": ["方式选择", "登录方式", "Sign In Method", "Continue with"],
+    "EmailInput": ["邮箱输入", "Email", "Email Address", "Enter email"],
+    "PasswordInput": ["密码输入", "Password", "Create password", "Enter password"],
+    "OAuthApple": ["Apple登录", "Sign in with Apple", "Continue with Apple"],
+    "OAuthGoogle": ["Google登录", "Sign in with Google", "Continue with Google"],
+    "Verification": ["验证", "验证码", "Verify", "OTP", "Confirm email"],
+    "Overview": ["概览", "总览", "Overview", "Summary", "At a glance"],
+    "Summary": ["汇总", "摘要", "Summary", "Daily Summary", "Today"],
+    "FoodSearch": ["食物搜索", "搜索食物", "Search Food", "Find food"],
+    "FoodDetail": ["食物详情", "营养详情", "Food Detail", "Nutrition Info"],
+    "FoodLog": ["食物记录", "记录食物", "Log Food", "Add food"],
+    "PhotoScan": ["拍照扫描", "AI扫描", "Scan Food", "Take photo"],
+    "ManualInput": ["手动输入", "自定义", "Manual Entry", "Custom food"],
+    "WeeklyChart": ["周图表", "本周", "Weekly", "This Week"],
+    "MonthlyChart": ["月图表", "本月", "Monthly", "This Month"],
+    "TrendAnalysis": ["趋势分析", "趋势", "Trends", "Progress over time"],
+    "HistoryList": ["历史列表", "历史记录", "History", "Past entries"],
+    "ArticleList": ["文章列表", "资讯列表", "Articles", "Blog"],
+    "ArticleDetail": ["文章详情", "文章内容", "Article", "Read more"],
+    "FriendList": ["好友列表", "好友", "Friends", "Connections"],
+    "ActivityFeed": ["动态流", "活动", "Activity", "Feed", "Updates"],
+    "AccountInfo": ["账户信息", "个人资料", "Account", "My Profile"],
+    "Achievements": ["成就", "徽章", "Achievements", "Badges", "Milestones"],
+    "Subscription": ["订阅管理", "会员", "Subscription", "Manage subscription"],
+    "Notification": ["通知设置", "提醒", "Notifications", "Reminders"],
+    "Privacy": ["隐私设置", "隐私", "Privacy", "Data settings"]
+  },
+  
+  "roles": {
+    "Entry": ["入口", "首页", "Entry", "Landing", "Home"],
+    "Browse": ["浏览", "列表", "Browse", "List", "Explore"],
+    "Detail": ["详情", "查看", "Detail", "View", "Info"],
+    "Action": ["操作", "编辑", "Action", "Edit", "Input"],
+    "Result": ["结果", "完成", "Result", "Done", "Success"],
+    "Modal": ["弹窗", "对话框", "Modal", "Popup", "Dialog", "Sheet"]
+  },
+  
+  "transitions": {
+    "push": ["前进", "进入", "Push", "Navigate to", "Go to"],
+    "pop": ["返回", "后退", "Pop", "Back", "Go back"],
+    "modal": ["弹出", "弹窗", "Modal", "Present", "Show"],
+    "tab": ["切换", "Tab切换", "Tab", "Switch tab"],
+    "replace": ["替换", "Replace", "Redirect"]
+  },
+  
+  "screen_type_mapping": {
+    "_description": "旧screen_type到新三层结构的映射，用于数据迁移",
+    "Welcome": {"stage": "Onboarding", "module": "Welcome", "feature": null},
+    "Onboarding_Intro": {"stage": "Onboarding", "module": "Welcome", "feature": "ValueProp"},
+    "Onboarding_Profile": {"stage": "Onboarding", "module": "Profile", "feature": null},
+    "Onboarding_Goal": {"stage": "Onboarding", "module": "Goal", "feature": null},
+    "Onboarding_Personalization": {"stage": "Onboarding", "module": "Preference", "feature": null},
+    "Onboarding_Permission": {"stage": "Onboarding", "module": "Permission", "feature": null},
+    "Onboarding_Loading": {"stage": "Onboarding", "module": "Initialization", "feature": "Loading"},
+    "Paywall": {"stage": "Onboarding", "module": "Paywall", "feature": null},
+    "Subscription": {"stage": "Onboarding", "module": "Paywall", "feature": "PlanSelect"},
+    "Registration": {"stage": "Onboarding", "module": "Registration", "feature": null},
+    "Login": {"stage": "Onboarding", "module": "Registration", "feature": "MethodSelect"},
+    "Home": {"stage": "Core", "module": "Dashboard", "feature": "Overview"},
+    "Dashboard": {"stage": "Core", "module": "Dashboard", "feature": "Overview"},
+    "Tracking": {"stage": "Core", "module": "Tracking", "feature": null},
+    "Food_Log": {"stage": "Core", "module": "Tracking", "feature": "FoodLog"},
+    "Food_Search": {"stage": "Core", "module": "Tracking", "feature": "FoodSearch"},
+    "Progress": {"stage": "Core", "module": "Progress", "feature": null},
+    "Analytics": {"stage": "Core", "module": "Progress", "feature": "TrendAnalysis"},
+    "Profile": {"stage": "Core", "module": "Profile", "feature": "AccountInfo"},
+    "Settings": {"stage": "Core", "module": "Settings", "feature": null},
+    "Social": {"stage": "Core", "module": "Social", "feature": null},
+    "Content": {"stage": "Core", "module": "Content", "feature": null}
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

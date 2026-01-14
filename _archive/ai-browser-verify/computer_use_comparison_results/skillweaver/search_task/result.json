@@ -1,0 +1,9 @@
+{
+  "task_id": "search_task",
+  "task_name": "搜索任务",
+  "mode": "skillweaver",
+  "use_knowledge_base": true,
+  "success": false,
+  "error": "Timeout 16000ms exceeded.",
+  "total_time_seconds": 165.46
+}

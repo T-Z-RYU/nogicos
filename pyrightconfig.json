@@ -1,0 +1,22 @@
+{
+  "exclude": [
+    "_archive",
+    "_temp",
+    "**/node_modules",
+    "**/dist",
+    "**/build",
+    "**/__pycache__",
+    "nogicos/reference",
+    "nogicos/logs",
+    "pm-tool-v2",
+    "vitaflow",
+    "docs"
+  ],
+  "include": [
+    "nogicos/engine",
+    "nogicos/hive_server.py"
+  ],
+  "reportMissingImports": false,
+  "reportMissingTypeStubs": false,
+  "pythonVersion": "3.11"
+}

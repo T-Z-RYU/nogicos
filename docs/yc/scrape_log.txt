@@ -1,0 +1,69 @@
+Total companies to scrape: 1265
+[0/1265] Processing... (ETA: 0.0 min)
+[50/1265] Processing... (ETA: 27.4 min)
+  Checkpoint saved: 100 companies, 0 errors
+[100/1265] Processing... (ETA: 25.6 min)
+[150/1265] Processing... (ETA: 25.4 min)
+  Checkpoint saved: 200 companies, 0 errors
+[200/1265] Processing... (ETA: 25.4 min)
+[250/1265] Processing... (ETA: 26.0 min)
+  Checkpoint saved: 300 companies, 0 errors
+[300/1265] Processing... (ETA: 25.2 min)
+[350/1265] Processing... (ETA: 24.1 min)
+  Checkpoint saved: 400 companies, 0 errors
+[400/1265] Processing... (ETA: 22.9 min)
+[450/1265] Processing... (ETA: 21.7 min)
+  Checkpoint saved: 500 companies, 0 errors
+[500/1265] Processing... (ETA: 20.1 min)
+[550/1265] Processing... (ETA: 18.7 min)
+  Checkpoint saved: 600 companies, 0 errors
+[600/1265] Processing... (ETA: 17.1 min)
+[650/1265] Processing... (ETA: 15.8 min)
+  Checkpoint saved: 700 companies, 0 errors
+[700/1265] Processing... (ETA: 14.4 min)
+[750/1265] Processing... (ETA: 13.0 min)
+  Checkpoint saved: 800 companies, 0 errors
+[800/1265] Processing... (ETA: 11.6 min)
+[850/1265] Processing... (ETA: 10.3 min)
+  Checkpoint saved: 900 companies, 0 errors
+[900/1265] Processing... (ETA: 9.0 min)
+[950/1265] Processing... (ETA: 7.7 min)
+  Checkpoint saved: 1000 companies, 0 errors
+[1000/1265] Processing... (ETA: 6.5 min)
+[1050/1265] Processing... (ETA: 5.2 min)
+  Checkpoint saved: 1100 companies, 0 errors
+[1100/1265] Processing... (ETA: 4.0 min)
+[1150/1265] Processing... (ETA: 2.8 min)
+  Checkpoint saved: 1200 companies, 0 errors
+[1200/1265] Processing... (ETA: 1.6 min)
+[1250/1265] Processing... (ETA: 0.4 min)
+
+=== Complete ===
+Total: 1265 companies
+Errors: 0
+Saved to: C:\Users\WIN\Desktop\Cursor Project\docs\yc\yc_founders_2024_2026.json
+Total founders found: 2455
+
+Top schools mentioned:
+  Stanford: 47
+  Berkeley: 42
+  MIT: 34
+  Harvard: 31
+  Penn: 15
+  Cornell: 13
+  Princeton: 13
+  Yale: 8
+  CMU: 7
+  Columbia: 7
+
+Top companies mentioned:
+  Google: 42
+  Amazon: 27
+  Meta: 27
+  Microsoft: 21
+  Apple: 18
+  Tesla: 12
+  Stripe: 11
+  Facebook: 11
+  Uber: 9
+  DeepMind: 3

@@ -1,0 +1,276 @@
+{
+  "app_name": "MyFitnessPal",
+  "total_screenshots": 10,
+  "analyzed_at": "2025-12-24T10:00:00",
+  "model": "claude-opus-4-5-20251101",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "type": "VP",
+      "type_cn": "价值主张",
+      "elements": ["Headline", "Badge_Text", "Device_Mockup", "Gradient_BG"],
+      "copywriting": {
+        "headline": "The #1 Food & Nutrition Tracking App",
+        "subheadline": "Now With AI"
+      },
+      "psychology": {
+        "cialdini": ["authority", "social_proof"],
+        "cognitive_biases": ["primacy_effect", "anchoring"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 5.0,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "首张截图用'#1 App'徽章锚定市场地位，结合'Now With AI'突出技术升级"
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "type": "AI_DEMO",
+      "type_cn": "AI功能演示",
+      "elements": ["Device_Mockup", "App_UI", "Headline", "Food_Image"],
+      "copywriting": {
+        "headline": "Scan Your Food",
+        "subheadline": "AI-powered instant recognition"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "AI扫描功能演示，展示真实食物识别场景"
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "type": "CORE_FUNC",
+      "type_cn": "核心功能",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Log Your Meals",
+        "subheadline": "Track calories, macros & more"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "核心记录功能展示，强调全面的营养追踪"
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "type": "RESULT_PREVIEW",
+      "type_cn": "效果预览",
+      "elements": ["Device_Mockup", "App_UI", "Stat_Number"],
+      "copywriting": {
+        "headline": "See Your Progress",
+        "subheadline": "Weekly insights"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["expectation_anchoring"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.0
+      },
+      "analysis": "数据仪表盘展示，锚定用户对追踪效果的预期"
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "type": "HOW_IT_WORKS",
+      "type_cn": "使用流程",
+      "elements": ["Device_Mockup", "App_UI", "Icon_Set"],
+      "copywriting": {
+        "headline": "Set Your Goals",
+        "subheadline": "Easy 3-step setup"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "简化的目标设置流程，降低使用门槛"
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "type": "PERSONALIZATION",
+      "type_cn": "个性化展示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Personalized Plans",
+        "subheadline": "AI-powered recommendations"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["endowment_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "个性化计划展示，强化用户投入感"
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7_plus",
+      "type": "SOCIAL_PROOF",
+      "type_cn": "社会证明",
+      "elements": ["Headline", "Rating_Stars", "Download_Count"],
+      "copywriting": {
+        "headline": "200M+ Downloads",
+        "subheadline": "World's most popular"
+      },
+      "psychology": {
+        "cialdini": ["social_proof"],
+        "cognitive_biases": ["bandwagon_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "强大的社会证明，2亿+下载量"
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P7_plus",
+      "type": "AUTHORITY",
+      "type_cn": "权威背书",
+      "elements": ["Headline", "Media_Logo", "Award_Badge"],
+      "copywriting": {
+        "headline": "As Seen In",
+        "subheadline": "Featured by top media"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["halo_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "媒体背书页面，展示权威认可"
+    },
+    {
+      "index": 9,
+      "filename": "screenshot_09.png",
+      "position": "P7_plus",
+      "type": "DATA_PROOF",
+      "type_cn": "数据证明",
+      "elements": ["Headline", "Stat_Number", "Illustration"],
+      "copywriting": {
+        "headline": "14M+ Food Database",
+        "subheadline": "Largest food library"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["specificity_bias"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "数据库规模证明，强化产品实力"
+    },
+    {
+      "index": 10,
+      "filename": "screenshot_10.png",
+      "position": "P7_plus",
+      "type": "FREE_TRIAL",
+      "type_cn": "免费试用提示",
+      "elements": ["Headline", "CTA_Text", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Start Free Today",
+        "subheadline": "Premium features included"
+      },
+      "psychology": {
+        "cialdini": ["reciprocity"],
+        "cognitive_biases": ["loss_aversion"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "免费试用引导，利用互惠原则"
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → AI_DEMO → CORE_FUNC → RESULT_PREVIEW → HOW_IT_WORKS → PERSONALIZATION → SOCIAL_PROOF → AUTHORITY → DATA_PROOF → FREE_TRIAL",
+    "strengths": [
+      "#1 App 定位强烈，权威感十足",
+      "10张截图内容丰富，覆盖全面",
+      "AI功能前置，紧跟行业趋势",
+      "社会证明数据惊人（2亿+下载）"
+    ],
+    "weaknesses": [
+      "截图数量较多，可能造成信息过载",
+      "后期截图设计相对平淡"
+    ],
+    "recommendations": [
+      "可精简至6-8张，提高信息密度",
+      "考虑在前3张加入用户评价"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 1,
+      "AI_DEMO": 1,
+      "CORE_FUNC": 1,
+      "RESULT_PREVIEW": 1,
+      "HOW_IT_WORKS": 1,
+      "PERSONALIZATION": 1,
+      "SOCIAL_PROOF": 1,
+      "AUTHORITY": 1,
+      "DATA_PROOF": 1,
+      "FREE_TRIAL": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 6,
+      "Headline": 10,
+      "App_UI": 6,
+      "Gradient_BG": 2,
+      "Badge_Text": 1,
+      "Rating_Stars": 1,
+      "Download_Count": 2,
+      "Media_Logo": 1,
+      "Award_Badge": 1,
+      "Stat_Number": 2
+    },
+    "psychology_coverage": {
+      "cialdini": ["authority", "social_proof", "commitment", "reciprocity"],
+      "cognitive_biases": ["primacy_effect", "anchoring", "cognitive_fluency", "expectation_anchoring", "bandwagon_effect", "halo_effect", "loss_aversion"]
+    }
+  }
+}
+

@@ -1,0 +1,276 @@
+{
+  "app_name": "LADDER",
+  "total_screenshots": 10,
+  "analyzed_at": "2025-12-24T10:15:00",
+  "model": "claude-opus-4-5-20251101",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "type": "VP",
+      "type_cn": "价值主张",
+      "elements": ["Headline", "Device_Mockup", "Gradient_BG", "Human_Photo"],
+      "copywriting": {
+        "headline": "Train Like a Pro",
+        "subheadline": "Elite strength training programs"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["primacy_effect", "aspiration"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 5.0,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "专业运动员训练定位，高端感十足"
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "type": "AUTHORITY",
+      "type_cn": "权威背书",
+      "elements": ["Headline", "Human_Photo", "Celebrity_Name"],
+      "copywriting": {
+        "headline": "From LeBron James",
+        "subheadline": "World-class athlete programs"
+      },
+      "psychology": {
+        "cialdini": ["authority", "liking"],
+        "cognitive_biases": ["halo_effect", "celebrity_endorsement"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 5.0,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "勒布朗·詹姆斯名人背书，顶级权威"
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "type": "PERSONALIZATION",
+      "type_cn": "个性化展示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Personalized Programs",
+        "subheadline": "Tailored to your level"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["endowment_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "个性化训练计划"
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "type": "CORE_FUNC",
+      "type_cn": "核心功能",
+      "elements": ["Device_Mockup", "App_UI", "Headline", "Video_Preview"],
+      "copywriting": {
+        "headline": "HD Video Workouts",
+        "subheadline": "Step-by-step guidance"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "高清视频训练内容"
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "type": "RESULT_PREVIEW",
+      "type_cn": "效果预览",
+      "elements": ["Device_Mockup", "App_UI", "Stat_Number"],
+      "copywriting": {
+        "headline": "Track Your Progress",
+        "subheadline": "See your gains"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["expectation_anchoring"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "训练进度追踪"
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "type": "SOCIAL_PROOF",
+      "type_cn": "社会证明",
+      "elements": ["Headline", "Rating_Stars", "Review_Quote"],
+      "copywriting": {
+        "headline": "4.9★ App Store",
+        "subheadline": "Loved by fitness enthusiasts"
+      },
+      "psychology": {
+        "cialdini": ["social_proof"],
+        "cognitive_biases": ["bandwagon_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "4.9星高评分社会证明"
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7_plus",
+      "type": "USP",
+      "type_cn": "差异化卖点",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Expert Coaches",
+        "subheadline": "Learn from the best"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["expert_trust"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "专业教练团队差异化"
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P7_plus",
+      "type": "HOW_IT_WORKS",
+      "type_cn": "使用流程",
+      "elements": ["Device_Mockup", "Icon_Set"],
+      "copywriting": {
+        "headline": "3 Steps to Start",
+        "subheadline": "Quick & easy setup"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "3步快速上手"
+    },
+    {
+      "index": 9,
+      "filename": "screenshot_09.png",
+      "position": "P7_plus",
+      "type": "DATA_PROOF",
+      "type_cn": "数据证明",
+      "elements": ["Headline", "Stat_Number"],
+      "copywriting": {
+        "headline": "1000+ Workouts",
+        "subheadline": "New content weekly"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["abundance_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "1000+训练内容丰富度"
+    },
+    {
+      "index": 10,
+      "filename": "screenshot_10.png",
+      "position": "P7_plus",
+      "type": "FREE_TRIAL",
+      "type_cn": "免费试用提示",
+      "elements": ["Headline", "CTA_Text", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Start Free Today",
+        "subheadline": "7-day premium trial"
+      },
+      "psychology": {
+        "cialdini": ["reciprocity"],
+        "cognitive_biases": ["loss_aversion"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "免费试用引导"
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → AUTHORITY → PERSONALIZATION → CORE_FUNC → RESULT_PREVIEW → SOCIAL_PROOF → USP → HOW_IT_WORKS → DATA_PROOF → FREE_TRIAL",
+    "strengths": [
+      "勒布朗·詹姆斯顶级名人背书",
+      "权威背书前置（P2位置）",
+      "专业教练团队差异化",
+      "高端定位清晰"
+    ],
+    "weaknesses": [
+      "社会证明位置偏后",
+      "缺少AI功能"
+    ],
+    "recommendations": [
+      "可将社会证明前移",
+      "考虑AI训练推荐功能"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 1,
+      "AUTHORITY": 1,
+      "PERSONALIZATION": 1,
+      "CORE_FUNC": 1,
+      "RESULT_PREVIEW": 1,
+      "SOCIAL_PROOF": 1,
+      "USP": 1,
+      "HOW_IT_WORKS": 1,
+      "DATA_PROOF": 1,
+      "FREE_TRIAL": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 6,
+      "Headline": 10,
+      "App_UI": 5,
+      "Gradient_BG": 2,
+      "Human_Photo": 2,
+      "Rating_Stars": 1,
+      "Review_Quote": 1,
+      "Stat_Number": 2,
+      "Icon_Set": 1,
+      "Video_Preview": 1
+    },
+    "psychology_coverage": {
+      "cialdini": ["authority", "liking", "commitment", "social_proof", "reciprocity"],
+      "cognitive_biases": ["primacy_effect", "halo_effect", "endowment_effect", "cognitive_fluency", "expectation_anchoring", "bandwagon_effect", "loss_aversion"]
+    }
+  }
+}
+

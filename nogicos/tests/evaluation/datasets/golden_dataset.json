@@ -1,0 +1,213 @@
+{
+  "name": "NogicOS Golden Dataset",
+  "version": "1.0.0",
+  "description": "Standard evaluation dataset for NogicOS agent testing",
+  "created": "2024-12-30",
+  "categories": ["local", "browser", "mixed"],
+  "goldens": [
+    {
+      "id": "local_001",
+      "category": "local",
+      "difficulty": "easy",
+      "input": "List all Python files in the current directory",
+      "expected_output": null,
+      "expected_trajectory": ["glob_search"],
+      "validation": {
+        "type": "contains",
+        "patterns": [".py"]
+      },
+      "metadata": {
+        "tags": ["file_operations", "search"],
+        "timeout_seconds": 30
+      }
+    },
+    {
+      "id": "local_002",
+      "category": "local",
+      "difficulty": "easy",
+      "input": "Read the contents of README.md",
+      "expected_output": null,
+      "expected_trajectory": ["read_file"],
+      "validation": {
+        "type": "not_empty"
+      },
+      "metadata": {
+        "tags": ["file_operations", "read"],
+        "timeout_seconds": 30
+      }
+    },
+    {
+      "id": "local_003",
+      "category": "local",
+      "difficulty": "medium",
+      "input": "Search for the word 'import' in all Python files",
+      "expected_output": null,
+      "expected_trajectory": ["grep_search"],
+      "validation": {
+        "type": "contains",
+        "patterns": ["import"]
+      },
+      "metadata": {
+        "tags": ["file_operations", "search"],
+        "timeout_seconds": 60
+      }
+    },
+    {
+      "id": "local_004",
+      "category": "local",
+      "difficulty": "easy",
+      "input": "What is the current working directory?",
+      "expected_output": null,
+      "expected_trajectory": ["shell_execute"],
+      "validation": {
+        "type": "not_empty"
+      },
+      "metadata": {
+        "tags": ["system", "info"],
+        "timeout_seconds": 30
+      }
+    },
+    {
+      "id": "local_005",
+      "category": "local",
+      "difficulty": "medium",
+      "input": "Show the directory structure of the project",
+      "expected_output": null,
+      "expected_trajectory": ["list_directory"],
+      "validation": {
+        "type": "contains",
+        "patterns": ["engine", "tests"]
+      },
+      "metadata": {
+        "tags": ["file_operations", "navigation"],
+        "timeout_seconds": 60
+      }
+    },
+    {
+      "id": "browser_001",
+      "category": "browser",
+      "difficulty": "easy",
+      "input": "Navigate to https://example.com and get the page title",
+      "expected_output": null,
+      "expected_trajectory": ["browser_navigate", "browser_get_title"],
+      "validation": {
+        "type": "contains",
+        "patterns": ["Example Domain"]
+      },
+      "metadata": {
+        "tags": ["browser", "navigation"],
+        "timeout_seconds": 60
+      }
+    },
+    {
+      "id": "browser_002",
+      "category": "browser",
+      "difficulty": "medium",
+      "input": "Go to https://news.ycombinator.com and extract the headlines",
+      "expected_output": null,
+      "expected_trajectory": ["browser_navigate", "browser_get_content"],
+      "validation": {
+        "type": "not_empty"
+      },
+      "metadata": {
+        "tags": ["browser", "extraction"],
+        "timeout_seconds": 90
+      }
+    },
+    {
+      "id": "browser_003",
+      "category": "browser",
+      "difficulty": "easy",
+      "input": "What is the current URL of the browser?",
+      "expected_output": null,
+      "expected_trajectory": ["browser_get_url"],
+      "validation": {
+        "type": "contains",
+        "patterns": ["http"]
+      },
+      "metadata": {
+        "tags": ["browser", "info"],
+        "timeout_seconds": 30
+      }
+    },
+    {
+      "id": "mixed_001",
+      "category": "mixed",
+      "difficulty": "medium",
+      "input": "Search for 'Python documentation' on Google and save the first result URL to a file called urls.txt",
+      "expected_output": null,
+      "expected_trajectory": ["browser_navigate", "browser_get_content", "write_file"],
+      "validation": {
+        "type": "file_exists",
+        "path": "urls.txt"
+      },
+      "metadata": {
+        "tags": ["browser", "file_operations", "integration"],
+        "timeout_seconds": 120,
+        "cleanup": ["urls.txt"]
+      }
+    },
+    {
+      "id": "mixed_002",
+      "category": "mixed",
+      "difficulty": "hard",
+      "input": "Read the README.md file and summarize its main purpose in one sentence",
+      "expected_output": null,
+      "expected_trajectory": ["read_file"],
+      "validation": {
+        "type": "not_empty"
+      },
+      "metadata": {
+        "tags": ["file_operations", "analysis"],
+        "timeout_seconds": 90
+      }
+    },
+    {
+      "id": "local_006",
+      "category": "local",
+      "difficulty": "hard",
+      "input": "Find all files larger than 100KB in the project",
+      "expected_output": null,
+      "expected_trajectory": ["shell_execute"],
+      "validation": {
+        "type": "not_error"
+      },
+      "metadata": {
+        "tags": ["file_operations", "analysis"],
+        "timeout_seconds": 60
+      }
+    },
+    {
+      "id": "local_007",
+      "category": "local",
+      "difficulty": "easy",
+      "input": "Check the Python version installed",
+      "expected_output": null,
+      "expected_trajectory": ["shell_execute"],
+      "validation": {
+        "type": "contains",
+        "patterns": ["Python", "3."]
+      },
+      "metadata": {
+        "tags": ["system", "info"],
+        "timeout_seconds": 30
+      }
+    }
+  ],
+  "statistics": {
+    "total_goldens": 12,
+    "by_category": {
+      "local": 7,
+      "browser": 3,
+      "mixed": 2
+    },
+    "by_difficulty": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 2
+    }
+  }
+}
+
+
+

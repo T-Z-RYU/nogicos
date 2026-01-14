@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-12-31T20:35:39.486840",
+  "total_scenarios": 10,
+  "rated_scenarios": 0,
+  "average_rating": null,
+  "pass_rate": null,
+  "results": [
+    {
+      "scenario_id": "intent_001",
+      "scenario_name": "模糊任务理解",
+      "category": "意图理解",
+      "response": "<tool_call>\n{\"name\": \"list_directory\", \"arguments\": {\"path\": \"C:\\\\Users\\\\WIN\\\\Desktop\"}}\n</tool_call>",
+      "rating": null
+    },
+    {
+      "scenario_id": "intent_002",
+      "scenario_name": "隐含需求识别",
+      "category": "意图理解",
+      "response": "<function_calls>\n<invoke name=\"get_cwd\">\n</invoke>\n</function_calls>\n",
+      "rating": null
+    },
+    {
+      "scenario_id": "error_001",
+      "scenario_name": "命令失败后处理",
+      "category": "错误恢复",
+      "response": "文件 `/not/exist/file.txt` 无法删除 - 路径不存在或访问受限。",
+      "rating": null
+    },
+    {
+      "scenario_id": "error_002",
+      "scenario_name": "连续失败后策略调整",
+      "category": "错误恢复",
+      "response": "你说的\"这个文件\"是指哪个文件？请告诉我文件名或路径。",
+      "rating": null
+    },
+    {
+      "scenario_id": "multi_001",
+      "scenario_name": "项目初始化",
+      "category": "多步骤任务",
+      "response": "✅ **Python 项目创建完成！**\n\n📁 `C:/Users/WIN/Desktop/python_app/`\n```\npython_app/\n├── src/\n│   ├── __init__.py\n│   └── main.py          # 主程序入口\n├── tests/\n│   ├── __init__.py\n│   └── test_main.py     # 测试文件\n├── README.md\n└── requirements.txt\n```\n\n**快速开始：**\n```bash\ncd C:/Users/WIN/Desktop/python_app\npip install -r requirements.txt\npython src/main.py\n```",
+      "rating": null
+    },
+    {
+      "scenario_id": "multi_002",
+      "scenario_name": "代码重构",
+      "category": "多步骤任务",
+      "response": "✅ **检查完成**\n\n在项目源代码中没有发现 `console.log`：\n- `./nogicos-ui/src/` - 无\n- `./client/main.js` - 无\n- `./client/preload.js` - 无\n\n（`node_modules` 中的 console.log 是第三方依赖，已跳过）",
+      "rating": null
+    },
+    {
+      "scenario_id": "memory_001",
+      "scenario_name": "记住用户偏好",
+      "category": "记忆能力",
+      "response": "已记住 ✓ 以后安装包我会用 `pnpm` 而不是 `npm`。",
+      "rating": null
+    },
+    {
+      "scenario_id": "memory_002",
+      "scenario_name": "应用记忆的偏好",
+      "category": "记忆能力",
+      "response": "<function_calls>\n<invoke name=\"shell_execute\">\n<parameter name=\"command\">npm install lodash</parameter>\n</invoke>\n</function_calls>\n",
+      "rating": null
+    },
+    {
+      "scenario_id": "context_001",
+      "scenario_name": "代词指代",
+      "category": "上下文理解",
+      "response": "抱歉，我没有之前的操作记录，不确定\"它\"指的是哪个文件。\n\n请告诉我你想移动的文件或文件夹名称？",
+      "rating": null
+    },
+    {
+      "scenario_id": "context_002",
+      "scenario_name": "撤销操作",
+      "category": "上下文理解",
+      "response": "当前会话没有操作记录，无法还原。\n\n如果是之前会话的操作，请告诉我具体做了什么，我来帮你恢复。",
+      "rating": null
+    }
+  ]
+}

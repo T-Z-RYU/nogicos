@@ -1,0 +1,1731 @@
+{
+  "app_name": "Strava",
+  "total_screenshots": 10,
+  "analyzed_at": "2025-12-24T14:16:29.518753",
+  "model": "claude-opus-4-5-20251101 / gpt-5.2",
+  "schema_version": "v2",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Apple Watch\nApp of the Year",
+          "subheadline": "Winner",
+          "body_copy": [
+            "STRAVA",
+            "Home",
+            "Arby Isabelle Abrahan",
+            "Today at 8:05 AM · San Francisco, CA",
+            "Squad Run",
+            "Maeve Macintosh · Great to see you out!",
+            "1 Like",
+            "Add a comment…",
+            "Coastal Trail Climb",
+            "-2s\nahead",
+            "PR"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "8:05",
+            "10:12",
+            "-2s",
+            "1"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#1A1A1A",
+            "#B33A2B"
+          ],
+          "color_mood": "muted",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "progress_ring",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "logo",
+            "app_name"
+          ],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "AUTHORITY",
+          "primary_cn": "权威背书",
+          "secondary": "INTEGRATION"
+        },
+        "message_strategy": {
+          "primary_message": "Apple Watch\nApp of the Year\nWinner",
+          "supporting_evidence": "顶部 Apple 标志 + “Apple Watch App of the Year Winner”桂冠符号；下方展示 iPhone 界面与 Apple Watch 界面同屏（“Coastal Trail Climb”“-2s ahead”“PR”）",
+          "emotional_appeal": "trust",
+          "value_proposition": "以“Apple Watch App of the Year Winner”建立可信度，并用手表端实时表现（“-2s ahead”“PR”）暗示运动表现追踪与 Apple Watch 体验"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority"
+          ],
+          "cognitive_biases": [
+            "primacy_effect",
+            "anchoring",
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用权威奖项标题（“Apple Watch App of the Year Winner”）作为首屏最大信息锚点，降低用户决策成本；再用设备画面补充“这是一款在 Apple Watch 上体验很强的运动 App”。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "上方居中大标题“Apple Watch App of the Year”与“Winner”；其次是中部“STRAVA”；最后落到下方设备画面（iPhone feed + Apple Watch 圆环与“-2s ahead”）",
+          "information_density": "medium",
+          "hierarchy_score": 4.7
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#1A1A1A",
+          "color_scheme": "neutral",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 4,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 4.8,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Apple Watch\nApp of the Year\nWinner”权威奖项背书",
+            "iPhone + Apple Watch 双设备同屏展示（含“-2s ahead”“PR”圆环）"
+          ],
+          "category_conventions": [
+            "首屏用大标题一句话传达核心卖点/背书",
+            "用设备 mockup 展示真实产品界面"
+          ],
+          "innovations": [
+            "把“奖项背书”作为 P1 的唯一主叙事，弱化功能解释，直接用权威建立信任"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "Apple Watch 用户",
+          "跑步/户外运动人群（界面出现“Squad Run”“Coastal Trail Climb”）",
+          "关注成绩与对比反馈的人群（“-2s ahead”“PR”）",
+          "偏好社交运动动态的人群（“Home”“1 Like”“Add a comment…”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "权威背书式 P1（奖项/媒体/平台推荐）作为最大标题",
+          "极简信息结构：背书标题 + 品牌名 + 关键界面预览",
+          "双端/多端能力同屏展示（如手机 + 可穿戴/健康平台）"
+        ],
+        "avoid_elements": [
+          "在 P1 放入过多界面小字导致不可读（如动态流里的细碎文本）",
+          "背书与产品能力脱节（只有奖项但看不出与核心功能关系）"
+        ],
+        "adaptation_notes": "若 VitaFlow 有可验证背书（平台推荐、奖项、权威机构合作），可采用同样的“背书大标题 + VitaFlow + 关键结果界面”结构；下方界面建议优先展示最能一眼读懂的健康结果/趋势（用大数字/环形进度等），并减少类似“Home/评论/地点时间”等非核心信息占比。"
+      }
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Get motivated by\nthe community",
+          "subheadline": "",
+          "body_copy": [
+            "Activities",
+            "Discussion",
+            "© Mapbox © OpenStreetMap",
+            "Richmond",
+            "Berkeley",
+            "San Francisco",
+            "Squad Run",
+            "Arby Isabelle Abrahan  ·  1 day ago  ·  9.56 mi",
+            "5",
+            "Kim Cooper  ·  1 day ago",
+            "Let’s goooooo!!",
+            "1 Like",
+            "Angelica Stewart  ·  1 day ago",
+            "W😮W! Absolutely crushed it",
+            "1 Like",
+            "Peter Brust  ·  1 day ago",
+            "Appreciate you captain! 🤘",
+            "1 Like",
+            "Add a comment",
+            "Send",
+            "Home",
+            "Maps",
+            "Record",
+            "Groups",
+            "You"
+          ],
+          "cta_button": "Send",
+          "small_print": [
+            "© Mapbox © OpenStreetMap"
+          ],
+          "data_numbers": [
+            "1 day ago",
+            "9.56 mi",
+            "5",
+            "1 Like"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0F0F10",
+            "#E24B2D"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "SOCIAL_PROOF",
+          "primary_cn": "社会证明",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "Get motivated by the community",
+          "supporting_evidence": "通过“Discussion”页面里的活动贴（“Squad Run”）、多人头像、评论内容与点赞（“1 Like”）来展示真实互动氛围。",
+          "emotional_appeal": "belonging",
+          "value_proposition": "用社区互动与鼓励提升运动动力与坚持度。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof",
+            "liking",
+            "unity"
+          ],
+          "cognitive_biases": [
+            "bandwagon",
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用可视化的群体参与信号（多人头像、评论串、点赞数、活动距离“9.56 mi”）降低理解成本，让用户直观看到“有人在一起运动并互相鼓励”。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Get motivated by the community”，其次是居中的手机机身与屏幕内的“Squad Run”讨论卡片。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#E24B2D",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.4,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "以“Discussion”社区讨论串作为主画面内容",
+            "活动贴结合地图轨迹与距离“9.56 mi”"
+          ],
+          "category_conventions": [
+            "大标题+设备居中展示App界面",
+            "深色UI突出运动/户外氛围"
+          ],
+          "innovations": [
+            "用真实对话语气的评论（如“Let’s goooooo!!”）强化社区感，而不是只展示功能列表"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "需要外部激励与陪伴感的运动用户",
+          "喜欢组队/社群互动的跑步或户外运动人群",
+          "对活动记录（距离、路线）也有需求的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "“动机来源”式标题（围绕坚持/激励）",
+          "用真实社区内容（评论串+点赞）做社会证明",
+          "设备居中+深色UI+高对比标题的结构"
+        ],
+        "avoid_elements": [
+          "屏幕内文字过多导致在小尺寸预览时可读性下降",
+          "过度依赖头像/评论细节来传达卖点（缩略图信息损失较大）"
+        ],
+        "adaptation_notes": "若适配到 VitaFlow，可保留“社区激励”叙事结构：顶部用一句话点明价值主张；屏幕内减少长评论，优先保留可一眼读懂的互动指标（如点赞/评论数）与关键场景（例如挑战/打卡/小组），并确保缩略图下仍能识别核心信息。"
+      }
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Track your\nworkouts",
+          "subheadline": "",
+          "body_copy": [
+            "Hide",
+            "Run",
+            "Choose a Sport",
+            "Your Top Sports",
+            "Run",
+            "Ride",
+            "Workout",
+            "Yoga",
+            "Foot Sports",
+            "Run",
+            "Trail Run",
+            "SEA CLIFF",
+            "PRESIDIO\nTERRACE",
+            "RICHMOND\nDISTRICT",
+            "GoldenGate\nPark",
+            "SUNSET\nDISTRICT",
+            "COLE\nVALLEY",
+            "CASTRO\nDISTRICT"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#1F1F1F",
+            "#E24B1A"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": false,
+            "types": []
+          },
+          "brand_elements": [],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "HOW_IT_WORKS"
+        },
+        "message_strategy": {
+          "primary_message": "Track your\nworkouts",
+          "supporting_evidence": "用地图路线轨迹（橙色路径）与“Choose a Sport / Your Top Sports / Foot Sports”等运动选择界面来展示可记录与分类运动。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "提供运动记录能力，并支持按运动类型进行选择与管理。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用“Track your workouts”一句话直给利益点，并用真实界面（路线轨迹+运动分类入口）作为功能证据，降低理解成本。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部居中的大标题“Track your workouts”，其次是居中手机屏幕中的橙色路线轨迹与运动选择模块。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#E24B1A",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 2,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 4.6,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "地图路线轨迹（橙色路径）与运动类型选择同屏呈现"
+          ],
+          "category_conventions": [
+            "大标题+手机机模展示核心界面",
+            "用路线轨迹表达“记录运动”"
+          ],
+          "innovations": [
+            "在同一张截图里同时强调“记录（地图轨迹）”与“分类入口（Choose a Sport / Your Top Sports / Foot Sports）”"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "跑步/骑行等户外运动用户（界面含“Run”“Ride”“Trail Run”）",
+          "希望快速开始记录的人（标题直接“Track your workouts”）",
+          "偏好深色模式与高对比视觉的人群（深色UI+高饱和橙色强调）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "一句话大标题直给核心收益点（如“Track your workouts”）",
+          "居中机模+真实功能界面作为证据",
+          "用高对比强调色突出关键路径/关键状态"
+        ],
+        "avoid_elements": [
+          "界面内文字过多且偏小导致在商店缩略图下可读性下降（如地图地名与列表项）",
+          "缺少品牌标识元素（未见logo/icon/app_name）导致记忆点不足"
+        ],
+        "adaptation_notes": "若适配到 VitaFlow，可沿用“顶部大标题+居中机模”的结构，把 VitaFlow 的关键结果或关键动作用单一高对比强调色突出；同时在画面角落加入清晰的品牌元素（logo 或 app name），并控制机模内可见小字数量，优先保留1-2个最能证明卖点的模块。"
+      }
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Share with\nfriends",
+          "subheadline": "",
+          "body_copy": [
+            "Home",
+            "Arby Isabelle Abrahan",
+            "Today at 8:05 AM · San Francisco, CA",
+            "Squad Run",
+            "Distance",
+            "6.75 mi",
+            "Time",
+            "57m 56s",
+            "Elevation",
+            "124 ft",
+            "Achievements",
+            "12 gave kudos",
+            "1 comment",
+            "Maeve Macintosh · Great to see you out!",
+            "1 Like",
+            "Add a comment...",
+            "Home",
+            "Maps",
+            "Record",
+            "Groups",
+            "You"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "8:05 AM",
+            "6.75",
+            "57m 56s",
+            "124",
+            "3",
+            "12",
+            "1",
+            "1"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0B0B0C",
+            "#C24A1C"
+          ],
+          "color_mood": "warm",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "SOCIAL_PROOF",
+          "primary_cn": "社会证明",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "Share with\nfriends",
+          "supporting_evidence": "以动态流形式展示运动记录可被互动：\"12 gave kudos\"、\"1 comment\"，并呈现一次活动的关键数据（\"Distance 6.75 mi\"、\"Time 57m 56s\"、\"Elevation 124 ft\"）与\"Achievements\"。",
+          "emotional_appeal": "belonging",
+          "value_proposition": "把运动记录发布到社区/好友动态中，获得互动与反馈。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof",
+            "liking",
+            "unity"
+          ],
+          "cognitive_biases": [
+            "bandwagon",
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用“真实动态流+互动计数（kudos/comment）+好友评论”把“可分享、有人回应”具象化，降低理解成本并强化社交参与感。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Share with friends”，其次是居中的手机屏幕内大卡片标题“Squad Run”和卡片中的跑步照片。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0B0C",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 3,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.7,
+          "brand_consistency": 4.4,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "以社交动态流呈现运动记录（含“kudos/comment”互动与好友评论）",
+            "“Squad Run”强调群体/小队场景"
+          ],
+          "category_conventions": [
+            "用手机机模展示真实 UI",
+            "用关键运动指标（Distance/Time/Elevation）做功能可视化"
+          ],
+          "innovations": [
+            "把“分享”卖点直接落在可互动的内容形态（动态+评论），而非仅用分享图标或口号"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "喜欢与朋友一起运动/组队的人群（“Squad Run”“Groups”）",
+          "需要外部反馈与互动激励的跑步/户外运动用户（“12 gave kudos”“1 comment”）",
+          "偏好记录与复盘数据的用户（Distance/Time/Elevation）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "大标题一句话点明场景利益点（如分享/互动）",
+          "用“真实 UI + 真实内容卡片”承载卖点",
+          "用互动数字（kudos/comment/like）做轻量社会证明"
+        ],
+        "avoid_elements": [
+          "截图内文字过多导致缩略图可读性下降（如大量导航与细节文案同时出现）",
+          "把关键卖点仅放在 UI 内部小字（需要依赖放大查看）"
+        ],
+        "adaptation_notes": "若 VitaFlow 也有社交/陪伴/打卡机制，可用“动态卡片”展示一次健康行为（如饮食/饮水/训练/睡眠）并叠加可见互动计数（点赞/评论/鼓励），标题保持类似“Share with friends”的强动词短句；若 VitaFlow 更偏个人健康管理，则可把互动替换为“与家人共享/与教练共享/与医生共享”的共享对象与收益点，并保留“关键指标一行展示”的结构。"
+      }
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Improve with\npersonalized data",
+          "subheadline": "",
+          "body_copy": [
+            "Progress",
+            "Ride",
+            "Distance",
+            "Time",
+            "Elevation",
+            "Total Distance",
+            "384.6 mi",
+            "12%",
+            "3/17/25 – today",
+            "292.1 mi",
+            "12/17/24 – 3/16/25",
+            "65 mi",
+            "32 mi",
+            "16 mi",
+            "0 mi",
+            "MAR",
+            "APR",
+            "MAY",
+            "Prior 3 months",
+            "Your progress at a glance",
+            "You’ve logged 12% more distance\nthan in the previous time period.",
+            "Home",
+            "Maps",
+            "Record",
+            "Groups",
+            "You"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "384.6 mi",
+            "12%",
+            "3/17/25",
+            "292.1 mi",
+            "12/17/24",
+            "3/16/25",
+            "65 mi",
+            "32 mi",
+            "16 mi",
+            "0 mi",
+            "3"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0B0B0C",
+            "#E24B1E"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "bar_chart",
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "DATA_PROOF",
+          "primary_cn": "数据证明",
+          "secondary": "RESULT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "通过个性化数据与对比统计来帮助用户提升表现",
+          "supporting_evidence": "用“Total Distance”的周期对比（384.6 mi vs 292.1 mi）与“12%”提升提示，以及折线/面积趋势图来支撑",
+          "emotional_appeal": "achievement",
+          "value_proposition": "把运动记录转化为可对比、可追踪的进步数据，帮助用户持续改进"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "anchoring",
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用明确的前后周期对比与百分比增幅（“12%”）制造可量化的进步感，并用趋势图降低理解成本，促使用户持续记录以维持增长"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Improve with personalized data”与居中 iPhone 设备内的“384.6 mi”核心数据区",
+          "information_density": "high",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#E24B1E",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.4,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.4
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Prior 3 months”对比开关式呈现",
+            "在同一视图中并列展示两段时间范围（“3/17/25 – today”与“12/17/24 – 3/16/25”）"
+          ],
+          "category_conventions": [
+            "用大数字+百分比变化展示进步",
+            "用趋势图呈现训练/运动数据",
+            "深色背景+高饱和强调色突出关键指标"
+          ],
+          "innovations": [
+            "把“Your progress at a glance”总结卡片与图表放在同一页面，形成“数据+结论”的闭环"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "关注骑行/运动记录与进步对比的用户（界面含“Ride”“Total Distance”）",
+          "偏好数据化训练反馈与周期复盘的人群",
+          "习惯在 App 内查看趋势图与统计指标的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "highly_relevant",
+        "reusable_elements": [
+          "“Improve with …”式结果导向标题结构",
+          "核心指标大数字+百分比变化的对比呈现",
+          "趋势图+总结卡片（类似“Your progress at a glance”）的组合",
+          "深色底+高对比强调色用于突出关键数据"
+        ],
+        "avoid_elements": [
+          "信息密度过高导致缩略图可读性下降（大量小字与坐标刻度）",
+          "日期范围与单位过多分散注意力"
+        ],
+        "adaptation_notes": "VitaFlow 可沿用“个性化数据带来提升”的叙事：在截图中用 1 个核心健康指标（如某项可量化指标）做“当前周期 vs 上一周期”的并列对比，保留百分比变化与一句话总结卡片；在缩略图层面减少坐标刻度与小字，把可读性集中在“核心数字 + %变化 + 结论句”。"
+      }
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Discover\nnew routes",
+          "subheadline": "",
+          "body_copy": [
+            "Corte Madera",
+            "Search",
+            "Routes",
+            "Length",
+            "Elevation",
+            "Surface",
+            "Tiburon",
+            "Sausalito",
+            "Marin Headlands",
+            "Bobcat Trail - Marincello Trail",
+            "From your location",
+            "Made for you",
+            "18 Routes",
+            "Home",
+            "Maps",
+            "Record",
+            "Groups",
+            "You",
+            "3D"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "26.71 mi",
+            "2,601 ft",
+            "2h 9m",
+            "18"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0F141A",
+            "#D24A1C"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "CORE_FUNC",
+          "primary_cn": "核心功能展示",
+          "secondary": "PERSONALIZATION"
+        },
+        "message_strategy": {
+          "primary_message": "Discover new routes",
+          "supporting_evidence": "地图路线高亮展示 + 路线卡片信息（“Bobcat Trail - Marincello Trail”、距离/爬升/时长）+ “From your location” + “Made for you”",
+          "emotional_appeal": "curiosity",
+          "value_proposition": "在地图中发现并筛选路线，并提供基于位置与偏好的路线推荐"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "novelty"
+          ],
+          "persuasion_technique": "用“Discover new routes”作为单一强主张，并用真实地图路径高亮与路线卡片（含关键指标与“Made for you”）降低理解成本、强化“可立即使用/可探索”的直觉"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部居中的大标题“Discover new routes”，其次为居中手机屏内的橙色路线轨迹与底部路线卡片",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#D24A1C",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.5,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "路线卡片中出现“Made for you”与“From your location”的组合表达"
+          ],
+          "category_conventions": [
+            "大标题 + 设备居中展示核心界面",
+            "用高对比色高亮运动路线轨迹",
+            "用路线卡片呈现关键指标（距离/爬升/时长）"
+          ],
+          "innovations": [
+            "在同一屏内同时呈现筛选项（“Routes / Length / Elevation / Surface”）与推荐卡片，强化“可探索+可筛选+可推荐”的一体化感知"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "骑行/户外路线探索用户（界面含自行车图标与路线指标）",
+          "偏好基于位置快速找路线的人群（“From your location”）",
+          "希望获得个性化推荐的人群（“Made for you”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "单一强主标题（短句、动词开头）",
+          "设备居中 + 真实产品界面作为主视觉",
+          "用高对比强调色突出“关键路径/关键结果”",
+          "卡片化信息承载关键指标（数字+单位）"
+        ],
+        "avoid_elements": [
+          "界面内文字过多导致截图信息噪音上升（如筛选项与底部导航同时出现时）",
+          "关键卖点只停留在抽象动词而缺少更明确的收益指标（若品类需要更强结果导向）"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“Discover new routes”这种结构：用动词+结果名词做主标题；主视觉用 App 核心界面（例如健康数据/计划/趋势）并用品牌强调色高亮关键结果；底部用卡片呈现 2–3 个最关键的数字指标（与单位保持清晰可读），并加入类似“Made for you”的个性化短语（保持原文风格为短词组）。"
+      }
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Improve faster\nwith AI insights",
+          "subheadline": "",
+          "body_copy": [
+            "Athlete Intelligence",
+            "Nice work on a challenging\nroute! Your pace was 13\nseconds faster than your\n30-day average.",
+            "You held a steady heart rate and nailed your\npacing. Now you're just 4.3 miles away from\nreaching your weekly goal.",
+            "Share feedback"
+          ],
+          "cta_button": "Got It",
+          "small_print": [
+            "Seven Hills",
+            "WASHINGTON\nVILLAGE",
+            "4th St"
+          ],
+          "data_numbers": [
+            "13",
+            "30-day",
+            "4.3"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0F0F10",
+            "#FF5A00"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "icon"
+          ],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "AI_DEMO",
+          "primary_cn": "AI 功能演示",
+          "secondary": "RESULT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "用 AI 洞察帮助你更快进步，并给出本次运动表现的具体反馈。",
+          "supporting_evidence": "在“Athlete Intelligence”卡片中用对比数据（“13 seconds faster than your 30-day average.”）与目标进度（“4.3 miles away”）支撑。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "把运动记录转化为可执行的个性化洞察与进步反馈。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority",
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "anchoring",
+            "cognitive_fluency",
+            "loss_aversion"
+          ],
+          "persuasion_technique": "用“30-day average”作为锚点对比当前表现，并用“weekly goal”进度差距制造继续训练的动机，同时以清晰的单句结论降低理解成本。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Improve faster with AI insights”，其次是手机内的洞察卡片大段加粗结论与橙色按钮“Got It”。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#FF5A00",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.4,
+          "brand_consistency": 4.8,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Athlete Intelligence”洞察卡片式总结",
+            "将路线地图与 AI 文本洞察同屏呈现"
+          ],
+          "category_conventions": [
+            "使用手机机模展示真实 App 界面",
+            "用大标题+核心收益点的截图结构",
+            "用高对比 CTA 按钮引导"
+          ],
+          "innovations": [
+            "把“30-day average”对比与“weekly goal”差距合并在同一段洞察叙事中"
+          ]
+        },
+        "competitive_positioning": "premium",
+        "target_audience_signals": [
+          "关注配速与路线的跑步/户外运动用户",
+          "有周期性训练习惯（30-day average、weekly goal）的人群",
+          "偏好数据反馈与复盘的进阶运动者"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "“Improve faster …”式的结果导向标题结构",
+          "卡片化 AI 洞察（结论加粗 + 解释补充）",
+          "用可量化对比（如“13 seconds faster…/30-day average”）增强说服力",
+          "高对比主色 CTA 按钮"
+        ],
+        "avoid_elements": [
+          "正文段落过长导致在小屏上阅读压力增大",
+          "地图细节文字（如地名/街道名）在商店截图中可能分散注意力"
+        ],
+        "adaptation_notes": "若适配到 VitaFlow，可保留“AI insights + 量化对比 + 目标进度差距”的叙事结构，但将背景从地图替换为与 VitaFlow 核心场景更相关的主界面（例如健康指标/计划进度），并把洞察文案压缩为更短的两段：一段结论（加粗数字），一段行动建议。"
+      }
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P8",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Sync with\nyour devices",
+          "subheadline": "",
+          "body_copy": [
+            "Seven Hills",
+            "4th St",
+            "WASHINGTON\nVILLAGE",
+            "Max Wayne",
+            "Today at 5:23 AM · Boulder, Colorado",
+            "Sunrise Strides with Emma",
+            "Distance",
+            "2.83 mi",
+            "Moving Time",
+            "25:52",
+            "Calories",
+            "315 Cal",
+            "Garmin Forerunne",
+            "TIMER",
+            "25:32",
+            "DISTANCE",
+            "2.83",
+            "PACE",
+            "9:00",
+            "155",
+            "GARMIN",
+            "LIGHT",
+            "UP",
+            "DOWN",
+            "BACK",
+            "START\nSTOP"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "5:23 AM",
+            "2.83",
+            "25:52",
+            "315",
+            "25:32",
+            "9:00",
+            "155"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0B0B0C",
+            "#C23A1A"
+          ],
+          "color_mood": "muted",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [
+            "GARMIN"
+          ],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "INTEGRATION",
+          "primary_cn": "生态整合",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "Sync with\nyour devices",
+          "supporting_evidence": "用手机端运动记录页面与手表端同一组关键数据（TIMER / DISTANCE / PACE / 155）叠加展示，直观证明“设备同步”。",
+          "emotional_appeal": "security",
+          "value_proposition": "把运动数据在不同设备间打通，记录与查看更连续一致。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "authority"
+          ],
+          "cognitive_biases": [
+            "cognitive_fluency",
+            "anchoring"
+          ],
+          "persuasion_technique": "用“真实设备外观 + 同步后的同一组关键指标”作为可视化证据，降低理解成本，并用可识别的设备品牌元素建立可信度。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Sync with your devices”，其次是居中的手机地图轨迹（橙色路线），最后落到右下角叠加的手表表盘数据（25:32 / 2.83 / 9:00 / 155）。",
+          "information_density": "high",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0B0C",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "balanced_asymmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.4,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.8
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "手机界面与可穿戴设备（手表）实物叠加同屏呈现",
+            "地图轨迹（橙色路线）与运动关键指标同时出现"
+          ],
+          "category_conventions": [
+            "用大标题一句话概括单页卖点",
+            "用设备 mockup 展示 App 实际界面",
+            "用关键数据（Distance / Moving Time / Calories）强化“运动记录”场景"
+          ],
+          "innovations": [
+            "用“手表表盘数据”作为同步证明的视觉锚点，而不是仅用文字说明"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "使用可穿戴设备记录运动的人群",
+          "跑步/户外运动用户（地图轨迹、Pace、Distance）",
+          "关注训练数据连续性与设备互通的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "单页单卖点：用一句话标题直给利益点",
+          "“App 界面 + 外部设备/生态”同屏叠加，快速传达整合能力",
+          "用少量关键数字做证据（如时长/距离/心率）"
+        ],
+        "avoid_elements": [
+          "界面内文字过多导致信息密度偏高（地图标注、模块标题、多个指标同时出现）",
+          "被遮挡/截断的文字（如“Garmin Forerunne”）影响专业感与可读性"
+        ],
+        "adaptation_notes": "若 VitaFlow 也有设备/平台同步能力，可采用同样的“主标题 + 手机界面 + 设备/平台徽标或界面叠加”的结构；同步证据建议只保留 2–3 个最关键指标，并确保所有品牌/设备名称不被遮挡或截断。"
+      }
+    },
+    {
+      "index": 9,
+      "filename": "screenshot_09.png",
+      "position": "P9",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Compete\nagainst millions",
+          "subheadline": "",
+          "body_copy": [
+            "Segment",
+            "Leaderboards",
+            "All-Time",
+            "All-Time (Men)",
+            "All-Time (Women)",
+            "This Ye",
+            "4:27",
+            "CR",
+            "Arby Abrahan",
+            "RANK",
+            "ATHLETE",
+            "TIME, SPEED",
+            "May 8, 2024",
+            "7:21 /mi",
+            "Peter Brust",
+            "March 8, 2022",
+            "4:32",
+            "7:29 /mi",
+            "Amy Johnson",
+            "April 4, 2024",
+            "4:37",
+            "7:37 /mi",
+            "James McMillan",
+            "July 18, 2021",
+            "4:38",
+            "7:39 /mi",
+            "You have the Course Record!",
+            "Home",
+            "Maps",
+            "Record",
+            "Groups",
+            "You"
+          ],
+          "cta_button": "",
+          "small_print": [],
+          "data_numbers": [
+            "4:27",
+            "May 8, 2024",
+            "7:21 /mi",
+            "2",
+            "4:32",
+            "March 8, 2022",
+            "7:29 /mi",
+            "3",
+            "4:37",
+            "April 4, 2024",
+            "7:37 /mi",
+            "4",
+            "4:38",
+            "July 18, 2021",
+            "7:39 /mi"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0B0B0D",
+            "#C23A1E"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": true,
+            "type": "photo"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "SOCIAL_PROOF",
+          "primary_cn": "社会证明",
+          "secondary": "CORE_FUNC"
+        },
+        "message_strategy": {
+          "primary_message": "通过排行榜与大量用户进行成绩竞争",
+          "supporting_evidence": "以“Leaderboards”页面、排名列表（RANK/ATHLETE/TIME, SPEED）、“You have the Course Record!”与具体成绩/配速数据来支撑",
+          "emotional_appeal": "achievement",
+          "value_proposition": "提供分段排行榜对比与记录展示，强化竞技与成就感"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "social_proof",
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "bandwagon",
+            "anchoring"
+          ],
+          "persuasion_technique": "用“Compete against millions”制造规模感，并用排行榜名次与具体时间/配速作为可对比的锚点，促使用户参与记录与挑战"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Compete against millions”与居中的手机屏幕（Leaderboards/4:27）",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#0B0B0D",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "dominant"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "balanced",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.5,
+          "brand_consistency": 4.8,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“You have the Course Record!”",
+            "“CR”标识与冠军皇冠图标结合的记录展示"
+          ],
+          "category_conventions": [
+            "大标题+设备机模展示核心页面",
+            "用排行榜/排名强化竞技属性"
+          ],
+          "innovations": [
+            "在排行榜页内突出个人“Course Record”状态提示，强化即时成就反馈"
+          ]
+        },
+        "competitive_positioning": "mainstream",
+        "target_audience_signals": [
+          "喜欢对比成绩与排名的跑步/运动记录用户",
+          "在意配速（/mi）与分段成绩的用户",
+          "偏好竞技与挑战动机的用户"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "大标题一句话价值点（如竞争/成就）+居中机模",
+          "用“记录/里程碑”状态文案强化成就反馈（类似“Course Record”）",
+          "排行榜/排名模块化信息结构（RANK/ATHLETE/TIME, SPEED）"
+        ],
+        "avoid_elements": [
+          "界面文字过小导致信息可读性下降（列表区细节在商店缩略图下易丢失）",
+          "顶部筛选标签被截断（如“This Ye”）影响专业感"
+        ],
+        "adaptation_notes": "若 VitaFlow 主打健康管理而非竞技，可保留“里程碑/记录”式成就反馈与可量化数据展示，但将“Compete”语义替换为更贴近健康目标的结果表达；同时确保筛选标签与关键数据在截图安全区内完整呈现、字号在缩略图下仍可读。"
+      }
+    },
+    {
+      "index": 10,
+      "filename": "screenshot_10.png",
+      "position": "P10",
+      "model_used": "gpt-5.2",
+      "L1_extraction": {
+        "text_extraction": {
+          "headline": "Or focus\non you",
+          "subheadline": "",
+          "body_copy": [
+            "See your top times from each year, progression\nover time and more."
+          ],
+          "cta_button": "View 400m Analysis",
+          "small_print": [
+            "You",
+            "Best Efforts",
+            "Run",
+            "400m",
+            "1/2 mile",
+            "1K",
+            "1 mile",
+            "PR",
+            "Home",
+            "Maps",
+            "Record",
+            "Groups",
+            "You"
+          ],
+          "data_numbers": [
+            "400m",
+            "1/2 mile",
+            "1K",
+            "1 mile",
+            "1:09",
+            "4:38 /mi",
+            "1:14",
+            "4:56 /mi",
+            "1:26",
+            "5:46 /mi",
+            "2",
+            "3"
+          ],
+          "language": "en"
+        },
+        "visual_extraction": {
+          "dominant_colors": [
+            "#0B0B0C",
+            "#FF5A00"
+          ],
+          "color_mood": "vibrant",
+          "layout_type": "centered",
+          "device_mockup": {
+            "present": true,
+            "type": "iphone",
+            "position": "center"
+          },
+          "human_presence": {
+            "present": false,
+            "type": "none"
+          },
+          "food_images": {
+            "present": false,
+            "style": "none"
+          },
+          "data_visualization": {
+            "present": true,
+            "types": [
+              "number_stat"
+            ]
+          },
+          "brand_elements": [],
+          "background_style": "gradient"
+        }
+      },
+      "L2_understanding": {
+        "page_type": {
+          "primary": "PERSONALIZATION",
+          "primary_cn": "个性化展示",
+          "secondary": "RESULT_PREVIEW"
+        },
+        "message_strategy": {
+          "primary_message": "Or focus on you",
+          "supporting_evidence": "通过“Best Efforts”页面展示个人项目（Run）在不同距离（400m、1/2 mile、1K、1 mile）的最佳成绩与配速，并提供“View 400m Analysis”入口。",
+          "emotional_appeal": "achievement",
+          "value_proposition": "让用户查看个人最佳表现与长期进步（“progression over time”），并进行单项分析。"
+        },
+        "psychology_tactics": {
+          "cialdini_principles": [
+            "commitment"
+          ],
+          "cognitive_biases": [
+            "goal_gradient",
+            "cognitive_fluency"
+          ],
+          "persuasion_technique": "用个人“PR”与清晰的时间/配速数字（如“1:09”“4:38 /mi”）强化成就反馈，并用单一明确按钮“View 400m Analysis”推动继续深入查看。"
+        }
+      },
+      "L3_design": {
+        "visual_hierarchy": {
+          "eye_flow": "top_down",
+          "focal_point": "顶部大标题“Or focus on you”与手机屏幕中间的“PR”徽章及大号成绩“1:09”。",
+          "information_density": "medium",
+          "hierarchy_score": 4.6
+        },
+        "typography": {
+          "headline_style": "bold",
+          "headline_size": "extra_large",
+          "text_alignment": "center",
+          "text_contrast": "high"
+        },
+        "color_strategy": {
+          "primary_color": "#FF5A00",
+          "color_scheme": "complementary",
+          "contrast_level": "high",
+          "brand_color_dominance": "accent"
+        },
+        "layout_pattern": {
+          "template_type": "device_centered",
+          "whitespace_usage": "generous",
+          "element_count": 6,
+          "symmetry": "symmetric"
+        },
+        "design_scores": {
+          "visual_appeal": 4.6,
+          "clarity": 4.4,
+          "brand_consistency": 4.7,
+          "uniqueness": 3.6
+        }
+      },
+      "L4_insights": {
+        "differentiation": {
+          "unique_elements": [
+            "“Best Efforts”聚合视图",
+            "“PR”徽章式强调",
+            "“View 400m Analysis”将单项成绩直接引向分析页"
+          ],
+          "category_conventions": [
+            "用设备框展示真实 App 界面",
+            "用大号关键数据（时间/配速）做结果呈现",
+            "底部导航栏露出以暗示信息架构"
+          ],
+          "innovations": [
+            "用“Or focus on you”把叙事从功能转向自我导向（个人表现/进步）"
+          ]
+        },
+        "competitive_positioning": "specialist",
+        "target_audience_signals": [
+          "跑步用户（“Run”）",
+          "关注 PB/PR 的训练型用户（“PR”）",
+          "在意配速与分段距离对比的用户（“4:38 /mi”“400m”“1K”）"
+        ]
+      },
+      "L5_recommendations": {
+        "vitaflow_applicability": "somewhat_relevant",
+        "reusable_elements": [
+          "以“你”为主语的用户中心标题策略（如“Or focus on you”）",
+          "用“徽章 + 大数字”突出关键成果（类似“PR”+“1:09”）",
+          "单一强 CTA 按钮引导深入分析（类似“View 400m Analysis”）",
+          "用分段/标签切换呈现不同维度（类似“400m / 1/2 mile / 1K / 1 mile”）"
+        ],
+        "avoid_elements": [
+          "截图内信息层级过多导致小字可读性下降（如多处距离标签、列表项与配速同时出现）",
+          "仅用抽象口号而缺少更直接的功能解释（标题与功能之间需要更强连接）"
+        ],
+        "adaptation_notes": "VitaFlow 可复用“用户中心 + 结果证明”的结构：顶部用以用户为中心的短标题；中部用徽章/高亮卡片展示一个最关键的健康指标结果；底部用单一 CTA 引导进入该指标的“Analysis”页，并用标签切换展示不同时间段/维度。"
+      }
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "AUTHORITY → SOCIAL_PROOF → CORE_FUNC → SOCIAL_PROOF → DATA_PROOF → CORE_FUNC → AI_DEMO → INTEGRATION → SOCIAL_PROOF → PERSONALIZATION",
+    "sequence_cluster": "authority_led",
+    "narrative_arc": "从AUTHORITY开始，以PERSONALIZATION结束",
+    "strengths": [
+      "视觉吸引力高 (4.6/5)",
+      "信息传达清晰 (4.5/5)"
+    ],
+    "weaknesses": [],
+    "key_takeaways": [
+      "“Improve with …”式结果导向标题结构",
+      "核心指标大数字+百分比变化的对比呈现"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "AUTHORITY": 1,
+      "SOCIAL_PROOF": 3,
+      "CORE_FUNC": 2,
+      "DATA_PROOF": 1,
+      "AI_DEMO": 1,
+      "INTEGRATION": 1,
+      "PERSONALIZATION": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 10,
+      "Data_Viz": 9,
+      "Human": 6,
+      "logo": 1,
+      "app_name": 1,
+      "icon": 1,
+      "GARMIN": 1
+    },
+    "psychology_coverage": {
+      "cialdini": [
+        "liking",
+        "commitment",
+        "social_proof",
+        "unity",
+        "authority"
+      ],
+      "cognitive_biases": [
+        "goal_gradient",
+        "novelty",
+        "loss_aversion",
+        "anchoring",
+        "cognitive_fluency",
+        "primacy_effect",
+        "bandwagon"
+      ]
+    },
+    "design_score_averages": {
+      "visual_appeal": 4.6,
+      "clarity": 4.51,
+      "brand_consistency": 4.69,
+      "uniqueness": 3.56
+    }
+  }
+}

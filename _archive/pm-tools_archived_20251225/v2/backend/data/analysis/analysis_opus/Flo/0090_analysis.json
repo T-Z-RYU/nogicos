@@ -1,0 +1,52 @@
+{
+  "app_name": "Flo",
+  "screenshot_index": 90,
+  "screenshot_filename": "0090.png",
+  "total_onboarding_screens": 100,
+  "position_percentage": 90.0,
+  
+  "classification": {
+    "functional_purpose": {
+      "primary_category": "Plan",
+      "secondary_type": "SetupComplete",
+      "confidence": 0.95
+    },
+    "funnel_stage": {
+      "stage": "Activation",
+      "position_in_funnel": "bottom"
+    },
+    "psychological_tactic": {
+      "primary_tactic": "ProgressAchievement",
+      "secondary_tactics": ["Personalization"],
+      "tactic_strength": "moderate"
+    },
+    "interaction_pattern": {
+      "primary_interaction": "PassiveRead",
+      "is_skippable": false,
+      "input_effort": "none"
+    },
+    "ui_pattern": {
+      "layout_type": "Calculator",
+      "has_progress_indicator": true,
+      "has_illustration": true,
+      "has_animation": true,
+      "color_scheme": "branded"
+    },
+    "commitment_level": {
+      "level": 1,
+      "commitment_type": "time",
+      "reversibility": "reversible"
+    }
+  },
+  
+  "deep_analysis": {
+    "design_intent": "欢迎用户完成设置，准备进入主应用。加载动画展示系统正在准备个性化内容",
+    "ux_observation": "'Welcome to Flo!'文案和动画Logo创造积极的入口体验",
+    "conversion_impact": "positive",
+    "potential_issues": [],
+    "best_practice_alignment": "符合首次价值体验的最佳实践，在正式进入前给用户成就感"
+  },
+  
+  "analysis_method": "claude_opus_4.5",
+  "analyzed_at": "2025-12-22T00:00:00"
+}

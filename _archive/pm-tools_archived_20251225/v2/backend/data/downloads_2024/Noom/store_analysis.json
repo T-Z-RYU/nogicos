@@ -1,0 +1,229 @@
+{
+  "app_name": "Noom",
+  "total_screenshots": 8,
+  "analyzed_at": "2025-12-24T10:00:00",
+  "model": "claude-opus-4-5-20251101",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "screenshot_01.png",
+      "position": "P1",
+      "type": "VP",
+      "type_cn": "价值主张",
+      "elements": ["Headline", "Device_Mockup", "Gradient_BG", "Illustration"],
+      "copywriting": {
+        "headline": "Lose Weight for Good",
+        "subheadline": "Psychology-based approach"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["primacy_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "强调'永久减重'的长期价值，心理学方法作为差异化卖点"
+    },
+    {
+      "index": 2,
+      "filename": "screenshot_02.png",
+      "position": "P2",
+      "type": "USP",
+      "type_cn": "差异化卖点",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Not a Diet, A Lifestyle",
+        "subheadline": "Change your relationship with food"
+      },
+      "psychology": {
+        "cialdini": ["unity"],
+        "cognitive_biases": ["contrast_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "与传统节食区分，强调生活方式改变"
+    },
+    {
+      "index": 3,
+      "filename": "screenshot_03.png",
+      "position": "P3",
+      "type": "PERSONALIZATION",
+      "type_cn": "个性化展示",
+      "elements": ["Device_Mockup", "App_UI", "Headline"],
+      "copywriting": {
+        "headline": "Your Personalized Plan",
+        "subheadline": "Built around your life"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["endowment_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "个性化计划展示，强调适应用户生活"
+    },
+    {
+      "index": 4,
+      "filename": "screenshot_04.png",
+      "position": "P4",
+      "type": "SOCIAL_PROOF",
+      "type_cn": "社会证明",
+      "elements": ["Headline", "Stat_Number", "Review_Quote"],
+      "copywriting": {
+        "headline": "50M+ Users",
+        "subheadline": "Join the community"
+      },
+      "psychology": {
+        "cialdini": ["social_proof"],
+        "cognitive_biases": ["bandwagon_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "5000万用户的强力社会证明"
+    },
+    {
+      "index": 5,
+      "filename": "screenshot_05.png",
+      "position": "P5",
+      "type": "DATA_PROOF",
+      "type_cn": "数据证明",
+      "elements": ["Headline", "Stat_Number", "Illustration"],
+      "copywriting": {
+        "headline": "78% Keep Weight Off",
+        "subheadline": "Scientifically proven"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["specificity_bias"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "具体数据证明效果，78%维持减重成果"
+    },
+    {
+      "index": 6,
+      "filename": "screenshot_06.png",
+      "position": "P6",
+      "type": "AUTHORITY",
+      "type_cn": "权威背书",
+      "elements": ["Headline", "Media_Logo"],
+      "copywriting": {
+        "headline": "Featured In",
+        "subheadline": "Trusted by media"
+      },
+      "psychology": {
+        "cialdini": ["authority"],
+        "cognitive_biases": ["halo_effect"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "媒体报道背书"
+    },
+    {
+      "index": 7,
+      "filename": "screenshot_07.png",
+      "position": "P7_plus",
+      "type": "HOW_IT_WORKS",
+      "type_cn": "使用流程",
+      "elements": ["Device_Mockup", "Icon_Set", "Headline"],
+      "copywriting": {
+        "headline": "How It Works",
+        "subheadline": "3 simple steps"
+      },
+      "psychology": {
+        "cialdini": ["commitment"],
+        "cognitive_biases": ["cognitive_fluency"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.0,
+        "brand_consistency": 5.0,
+        "readability": 4.5
+      },
+      "analysis": "简化的使用流程说明"
+    },
+    {
+      "index": 8,
+      "filename": "screenshot_08.png",
+      "position": "P7_plus",
+      "type": "FREE_TRIAL",
+      "type_cn": "免费试用提示",
+      "elements": ["Headline", "CTA_Text", "Gradient_BG"],
+      "copywriting": {
+        "headline": "Start Your Free Trial",
+        "subheadline": "Cancel anytime"
+      },
+      "psychology": {
+        "cialdini": ["reciprocity"],
+        "cognitive_biases": ["loss_aversion"]
+      },
+      "design_scores": {
+        "visual_hierarchy": 4.5,
+        "brand_consistency": 5.0,
+        "readability": 5.0
+      },
+      "analysis": "免费试用引导"
+    }
+  ],
+  "overall_analysis": {
+    "sequence_pattern": "VP → USP → PERSONALIZATION → SOCIAL_PROOF → DATA_PROOF → AUTHORITY → HOW_IT_WORKS → FREE_TRIAL",
+    "strengths": [
+      "心理学方法差异化明显",
+      "数据证明有力（78%维持率）",
+      "社会证明数据强（5000万用户）",
+      "生活方式定位独特"
+    ],
+    "weaknesses": [
+      "缺少AI功能展示",
+      "视觉设计相对保守"
+    ],
+    "recommendations": [
+      "可增加用户成功故事",
+      "考虑加入AI功能展示"
+    ]
+  },
+  "statistics": {
+    "type_distribution": {
+      "VP": 1,
+      "USP": 1,
+      "PERSONALIZATION": 1,
+      "SOCIAL_PROOF": 1,
+      "DATA_PROOF": 1,
+      "AUTHORITY": 1,
+      "HOW_IT_WORKS": 1,
+      "FREE_TRIAL": 1
+    },
+    "element_frequency": {
+      "Device_Mockup": 4,
+      "Headline": 8,
+      "App_UI": 2,
+      "Gradient_BG": 2,
+      "Illustration": 2,
+      "Stat_Number": 2,
+      "Review_Quote": 1,
+      "Media_Logo": 1,
+      "Icon_Set": 1
+    },
+    "psychology_coverage": {
+      "cialdini": ["authority", "unity", "commitment", "social_proof", "reciprocity"],
+      "cognitive_biases": ["primacy_effect", "contrast_effect", "endowment_effect", "bandwagon_effect", "specificity_bias", "halo_effect", "cognitive_fluency", "loss_aversion"]
+    }
+  }
+}
+

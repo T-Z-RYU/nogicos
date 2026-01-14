@@ -1,0 +1,43 @@
+<state 0>
+URL: /
+Title: DuckDuckGo - Protection. Privacy. Peace of mind.
+
+document: "DuckDuckGo - Protection. Privacy. Peace of mind." {
+  main {
+    article {
+      link: "Learn about DuckDuckGo", url: "/about";
+      search: "Searchbox" {
+        combobox: "Search with DuckDuckGo", expanded: True;
+        button: "Search", disabled: True;
+      };
+
+      link: "Duck.ai", url: "https://duck.ai/?origin=funnel_home_website";
+      navigation: "navigation" {
+        button: "Menu", expanded: False;
+      };
+    };
+  };
+};
+
+</state 0>
+
+<reasoning>
+We are on DuckDuckGo homepage with the main search box exposed as a combobox inside the Searchbox search region. To perform a search, we should focus the combobox, type the user-provided query, then submit via Enter (or enable and click the Search button). Since the prompt did not include the actual query string, the next step is to request it; we cannot proceed without it.
+</reasoning>
+
+<code>
+async def act(page):
+    # The task requires searching DuckDuckGo, but no query string was provided.
+    # No safe action to take without the query.
+    return
+
+</code>
+
+---
+
+<terminate_with_result>
+Please provide the exact DuckDuckGo search query you want me to run.
+</terminate_with_result>
+
+---
+

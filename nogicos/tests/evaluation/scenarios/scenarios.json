@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "description": "用户场景测试集 - 评估 Agent 的智能感和用户体验",
+  "evaluation_method": "human_rating",
+  "rating_scale": {
+    "5": "完美理解并执行",
+    "4": "理解正确，执行略有瑕疵",
+    "3": "基本完成，需要澄清",
+    "2": "需要多次澄清",
+    "1": "完全错误或无响应"
+  },
+  "pass_threshold": 3.5,
+  "scenarios": [
+    {
+      "id": "intent_001",
+      "category": "意图理解",
+      "name": "模糊任务理解",
+      "user_input": "帮我整理一下桌面",
+      "expected_behavior": "Agent 应该主动列出桌面内容，识别文件类型，提出整理方案，然后执行",
+      "evaluation_dimensions": ["理解能力", "主动性", "行动导向"]
+    },
+    {
+      "id": "intent_002",
+      "category": "意图理解",
+      "name": "隐含需求识别",
+      "user_input": "这个项目好乱",
+      "expected_behavior": "Agent 应该理解用户想整理项目，而不是简单回复'是的很乱'",
+      "evaluation_dimensions": ["理解能力", "主动性"]
+    },
+    {
+      "id": "error_001",
+      "category": "错误恢复",
+      "name": "命令失败后处理",
+      "user_input": "删除 /not/exist/file.txt",
+      "expected_behavior": "Agent 应该优雅处理'文件不存在'错误，建议用户检查路径或搜索类似文件",
+      "evaluation_dimensions": ["纠错能力", "用户引导"]
+    },
+    {
+      "id": "error_002",
+      "category": "错误恢复",
+      "name": "连续失败后策略调整",
+      "user_input": "找到这个文件并打开它",
+      "setup": "文件名模糊，需要多次搜索",
+      "expected_behavior": "Agent 尝试一种方法失败后，应该自动尝试其他方法，而非重复相同操作",
+      "evaluation_dimensions": ["纠错能力", "策略调整"]
+    },
+    {
+      "id": "multi_001",
+      "category": "多步骤任务",
+      "name": "项目初始化",
+      "user_input": "帮我创建一个新的 Python 项目",
+      "expected_behavior": "Agent 应该创建目录结构、requirements.txt、README.md 等，而非只创建一个空文件夹",
+      "evaluation_dimensions": ["规划能力", "完整性"]
+    },
+    {
+      "id": "multi_002",
+      "category": "多步骤任务",
+      "name": "代码重构",
+      "user_input": "把所有的 console.log 都删掉",
+      "expected_behavior": "Agent 应该先搜索定位所有 console.log，然后逐个删除，最后报告结果",
+      "evaluation_dimensions": ["规划能力", "执行能力"]
+    },
+    {
+      "id": "memory_001",
+      "category": "记忆能力",
+      "name": "记住用户偏好",
+      "user_input": "记住我喜欢用 pnpm 而不是 npm",
+      "expected_behavior": "Agent 应该保存这个偏好，并在后续相关任务中使用",
+      "evaluation_dimensions": ["记忆能力"]
+    },
+    {
+      "id": "memory_002",
+      "category": "记忆能力",
+      "name": "应用记忆的偏好",
+      "user_input": "安装 lodash",
+      "setup": "已保存用户偏好: 使用 pnpm",
+      "expected_behavior": "Agent 应该自动使用 pnpm install lodash，而非默认的 npm",
+      "evaluation_dimensions": ["记忆能力", "偏好应用"]
+    },
+    {
+      "id": "context_001",
+      "category": "上下文理解",
+      "name": "代词指代",
+      "user_input": "把它移到 Documents 文件夹",
+      "setup": "上一步操作了 test.txt 文件",
+      "expected_behavior": "Agent 应该理解'它'指的是上一步操作的文件",
+      "evaluation_dimensions": ["上下文理解", "指代解析"]
+    },
+    {
+      "id": "context_002",
+      "category": "上下文理解",
+      "name": "撤销操作",
+      "user_input": "还原刚才的操作",
+      "setup": "上一步移动了文件",
+      "expected_behavior": "Agent 应该理解并执行逆操作",
+      "evaluation_dimensions": ["上下文理解", "操作历史"]
+    }
+  ]
+}
+
+
+
+
+
+
+
+

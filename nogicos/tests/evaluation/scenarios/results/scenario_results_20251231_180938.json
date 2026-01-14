@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-12-31T18:09:38.665613",
+  "total_scenarios": 1,
+  "rated_scenarios": 0,
+  "average_rating": null,
+  "pass_rate": null,
+  "results": [
+    {
+      "scenario_id": "intent_001",
+      "scenario_name": "模糊任务理解",
+      "category": "意图理解",
+      "response": "<tool_call>\n{\"name\": \"list_directory\", \"arguments\": {\"path\": \"C:\\\\Users\\\\WIN\\\\Desktop\"}}\n</tool_call>",
+      "rating": null
+    }
+  ]
+}

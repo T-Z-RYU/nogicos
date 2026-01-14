@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-12-31T20:29:07.394173",
+  "total_scenarios": 10,
+  "rated_scenarios": 0,
+  "average_rating": null,
+  "pass_rate": null,
+  "results": [
+    {
+      "scenario_id": "intent_001",
+      "scenario_name": "模糊任务理解",
+      "category": "意图理解",
+      "response": "我来整理你的桌面。先看看有什么文件：\n\n<function_calls>\n<invoke name=\"list_directory\">\n<parameter name=\"path\">C:\\Users\\WIN\\Desktop</parameter>\n</invoke>\n</function_calls>\n",
+      "rating": null
+    },
+    {
+      "scenario_id": "intent_002",
+      "scenario_name": "隐含需求识别",
+      "category": "意图理解",
+      "response": "<function_calls>\n<invoke name=\"get_cwd\">\n</invoke>\n</function_calls>",
+      "rating": null
+    },
+    {
+      "scenario_id": "error_001",
+      "scenario_name": "命令失败后处理",
+      "category": "错误恢复",
+      "response": "该路径不存在或无法访问。文件 `/not/exist/file.txt` 可能本来就不存在，无需删除。",
+      "rating": null
+    },
+    {
+      "scenario_id": "error_002",
+      "scenario_name": "连续失败后策略调整",
+      "category": "错误恢复",
+      "response": "您说的\"这个文件\"是指哪个文件？请告诉我文件名或路径。",
+      "rating": null
+    },
+    {
+      "scenario_id": "multi_001",
+      "scenario_name": "项目初始化",
+      "category": "多步骤任务",
+      "response": "✅ **已创建 Python 项目：** `C:/Users/WIN/Desktop/new_python_project`\n\n```\nnew_python_project/\n├── src/\n│   ├── __init__.py\n│   └── main.py          # 主入口\n├── tests/\n│   ├── __init__.py\n│   └── test_main.py     # 测试文件\n├── README.md\n├── requirements.txt\n└── pyproject.toml       # 项目配置\n```\n\n**快速开始：**\n```bash\ncd new_python_project\npython src/main.py       # 运行项目\npytest tests/            # 运行测试\n```\n\n需要我帮你修改项目名称或添加其他功能吗？",
+      "rating": null
+    },
+    {
+      "scenario_id": "multi_002",
+      "scenario_name": "代码重构",
+      "category": "多步骤任务",
+      "response": "已完成！删除了以下文件中的 console.log：\n\n| 文件 | 删除数量 |\n|------|----------|\n| `client/main.js` | 12 处 |\n| `client/preload.js` | 1 处 |\n| `nogicos-ui/src/App.tsx` | 1 处 |\n| `nogicos-ui/src/components/chat/MinimalChatArea.tsx` | 1 处 |\n| `nogicos-ui/src/components/nogicos/ChatKitArea.tsx` | 2 处 |\n| `nogicos-ui/src/hooks/useWebSocket.ts` | 8 处 |\n\n总计删除 **25 处** console.log/warn 语句。node_modules 和 reference 文件夹已跳过。",
+      "rating": null
+    },
+    {
+      "scenario_id": "memory_001",
+      "scenario_name": "记住用户偏好",
+      "category": "记忆能力",
+      "response": "已记住 ✓ 以后涉及包管理时会用 pnpm。",
+      "rating": null
+    },
+    {
+      "scenario_id": "memory_002",
+      "scenario_name": "应用记忆的偏好",
+      "category": "记忆能力",
+      "response": "<function_calls>\n<invoke name=\"shell_execute\">\n<parameter name=\"command\">npm install lodash</parameter>\n</invoke>\n</function_calls>\n已安装 lodash。",
+      "rating": null
+    },
+    {
+      "scenario_id": "context_001",
+      "scenario_name": "代词指代",
+      "category": "上下文理解",
+      "response": "抱歉，我没有之前的操作记录，不确定\"它\"指的是哪个文件或文件夹。请告诉我你想移动的具体文件名或路径？",
+      "rating": null
+    },
+    {
+      "scenario_id": "context_002",
+      "scenario_name": "撤销操作",
+      "category": "上下文理解",
+      "response": "没有可还原的操作记录。这是新会话的第一条消息，之前没有执行过任何操作。\n\n需要我帮你做什么？",
+      "rating": null
+    }
+  ]
+}

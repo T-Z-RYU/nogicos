@@ -1,0 +1,250 @@
+======================================================================
+  SkillWeaver 快速泛化测试 (3 网站)
+======================================================================
+时间: 2025-12-25 07:43:16
+模型: gpt-5.2
+
+
+[1/3] HackerNews
+
+######################################################################
+  测试: HackerNews
+######################################################################
+
+============================================================
+  EXPLORE: HackerNews (news)
+============================================================
+  目录被占用，等待重试 (1/3)...
+  目录被占用，等待重试 (2/3)...
+  目录被占用，等待重试 (3/3)...
+  C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\lm.py:34: FutureWarning:
+  
+  All support for the `google.generativeai` package has ended. It will no longer be receiving
+  updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+  See README for more details:
+  
+  https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+  
+    import google.generativeai as genai
+  made new_page
+  went to http://news.ycombinator.com
+  Iteration: 0
+  Iteration: 1
+  Iteration: 2
+  Error: [WinError 183] 当文件已存在时，无法创建该文件。: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_quick\\hackernews/iter_0'
+  Traceback (most recent call last):
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 507, in inner
+      await explore(
+      ...<14 lines>...
+      )
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 386, in explore
+      await asyncio.gather(
+          *[_find_worker_and_run_iteration() for _ in range(iterations)]
+      )
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 362, in __wakeup
+      future.result()
+      ~~~~~~~~~~~~~^^
+    File "C:\Users\WIN\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py", line 289, in __step_run_and_handle_result
+      result = coro.send(None)
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 358, in _find_worker_and_run_iteration
+      await _run_explore_iteration(
+      ...<13 lines>...
+      )
+    File "C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\explore.py", line 191, in _run_explore_iteration
+      os.makedirs(iter_dir)
+      ~~~~~~~~~~~^^^^^^^^^^
+    File "<frozen os>", line 236, in makedirs
+  FileExistsError: [WinError 183] 当文件已存在时，无法创建该文件。: 'C:\\Users\\WIN\\Desktop\\Cursor Project\\ai-browser-verify\\explore_quick\\hackernews/iter_0'
+  
+
+  探索完成: 6.3s | KB: 否
+
+  [无KB测试]
+    运行 1/2... OK (1.9s)
+    运行 2/2... OK (2.0s)
+
+  --- 结果 ---
+  无KB: 2.0s | 100%
+
+[2/3] DuckDuckGo
+
+######################################################################
+  测试: DuckDuckGo
+######################################################################
+
+============================================================
+  EXPLORE: DuckDuckGo (search)
+============================================================
+  C:\Users\WIN\Desktop\Cursor Project\ai-browser-verify\SkillWeaver\skillweaver\lm.py:34: FutureWarning:
+  
+  All support for the `google.generativeai` package has ended. It will no longer be receiving
+  updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+  See README for more details:
+  
+  https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+  
+    import google.generativeai as genai
+  made new_page
+  went to http://duckduckgo.com
+  Iteration: 0
+  Task proposal:
+  
+  Website context from AX tree: DuckDuckGo homepage with a main search combobox (expanded), a Search button, link to /about, link to Duck.ai, and a Menu button. Useful shortcuts should compress multiple interactions (typing + submitting + optionally filtering via query operators).
+  
+  Candidate skills (name → usefulness rating 1-5; estimated actions; sum = usefulness+actions):
+  
+  1) “Search DuckDuckGo with safe search level and time filter”
+  - What it does: fills the search box with a query plus operators/params for safe search (e.g., strict/moderate/off) and time range (day/week/month/year), then submits.
+  - Steps (actions): click search box (1) + type query (1) + press Enter/click Search (1) = 3 actions. (Operator insertion is internal.)
+  - Usefulness: 5 (common need; compresses remembering operators/filters)
+  - Actions: 3
+  - Sum: 8
+  
+  2) “Search DuckDuckGo for an exact phrase on a specific site”
+  - What it does: constructs query with quotes + site: operator, submits.
+  - Steps: click search box (1) + type phrase/site (1) + submit (1) = 3
+  - Usefulness: 4
+  - Actions: 3
+  - Sum: 7
+  
+  3) “Search DuckDuckGo for file type (PDF/CSV/etc.) within a site”
+  - What it does: builds query with site: + filetype: then submits.
+  - Steps: click (1) + type (1) + submit (1) = 3
+  - Usefulness: 4
+  - Actions: 3
+  - Sum: 7
+  
+  4) “Open Duck.ai from the DuckDuckGo header”
+  - Steps: click Duck.ai link (1)
+  - Usefulness: 2 (single click; low compression)
+  - Actions: 1
+  - Sum: 3
+  
+  5) “Open the About page to learn about DuckDuckGo”
+  - Steps: click Learn about DuckDuckGo (1)
+  - Usefulness: 1 (single click)
+  - Actions: 1
+  - Sum: 2
+  
+  Highest sum: Skill #1 (8).
+  Task:
+  {
+    "type": "explore",
+    "task": "Search DuckDuckGo with safe search level and time filter"
+  }
+  🔍 Retrieved Task-Relevant Functions:
+  2025-12-25T07:43:53.596026 Step 0
+  Received `terminate` action.
+  Iteration: 1
+  Task proposal:
+  
+  Candidate skills (as Python shortcuts) and ratings:
+  
+  1) "Search DuckDuckGo for a query"
+     - What it does: Focus search box, enter query, submit.
+     - Steps (actions): (1) click search box, (2) type query, (3) press Enter/click Search.
+     - Usefulness (1-5): 5 (core frequent task; compresses multiple interactions)
+     - Expected actions: 3
+     - Sum rating: 5 + 3 = 8
+  
+  2) "Search DuckDuckGo with safe search level"
+     - What it does: Run a search and set Safe Search via URL param (e.g., safe=on/moderate/off) before submitting.
+     - Steps (actions): (1) click search box, (2) type query, (3) submit (Enter), (4) adjust safe-search (likely via URL manipulation or subsequent setting).
+     - Usefulness: 3 (useful but setting may not be exposed on homepage UI)
+     - Expected actions: 4
+     - Sum rating: 3 + 4 = 7
+  
+  3) "Open DuckDuckGo About page"
+     - What it does: Click “Learn about DuckDuckGo”.
+     - Steps (actions): (1) click link.
+     - Usefulness: 1 (single click; not a good shortcut)
+     - Expected actions: 1
+     - Sum rating: 2
+  
+  4) "Open Duck.ai from the homepage"
+     - What it does: Click Duck.ai link.
+     - Steps (actions): (1) click Duck.ai link.
+     - Usefulness: 2 (still mostly a single click)
+     - Expected actions: 1
+     - Sum rating: 3
+  
+  5) "Open the main menu"
+     - What it does: Click Menu button.
+     - Steps (actions): (1) click Menu.
+     - Usefulness: 2 (single click; limited)
+     - Expected actions: 1
+     - Sum rating: 3
+  
+  Highest sum rating: Skill #1 with score 8.
+  
+  Proposed Python function concept:
+  - def search_duckduckgo(query: str) -> None
+    Focuses the Searchbox combobox labeled “Search with DuckDuckGo”, types query, submits the search.
+  Task:
+  {
+    "type": "explore",
+    "task": "Search DuckDuckGo for a query"
+  }
+  🔍 Retrieved Task-Relevant Functions:
+  2025-12-25T07:44:24.123502 Step 0
+  Received `terminate` action.
+  Iteration: 2
+  Task proposal:
+  
+  Candidate skills (Python-function shortcuts) for DuckDuckGo homepage:
+  
+  1) "Search DuckDuckGo for a query"
+     - What it does: Runs a search from the homepage search box.
+     - Steps: (1) Click search box (2) Type query (3) Press Enter/click Search
+     - Actions = 3
+     - Usefulness (1-5): 5 (core site function, very frequent)
+     - Sum rating = 5 + 3 = 8
+  
+  2) "Search DuckDuckGo with a site filter (site:domain)"
+     - What it does: Searches within a specific website by automatically composing `site:example.com query`.
+     - Steps: (1) Click search box (2) Type composed query (3) Press Enter
+     - Actions = 3
+     - Usefulness: 4 (common power-user workflow)
+     - Sum rating = 4 + 3 = 7
+  
+  3) "Search DuckDuckGo with an exact phrase"
+     - What it does: Wraps user text in quotes to search an exact phrase.
+     - Steps: (1) Click search box (2) Type quoted phrase (3) Press Enter
+     - Actions = 3
+     - Usefulness: 3 (useful but less frequent)
+     - Sum rating = 3 + 3 = 6
+  
+  4) "Open Duck.ai in a new tab"
+     - What it does: Navigates to Duck.ai from the header link.
+     - Steps: (1) Click Duck.ai link
+     - Actions = 1 (single click) => disallowed as ‘simply a single click’, so not a good shortcut skill.
+  
+  5) "Open the About page to learn about DuckDuckGo"
+     - What it does: Uses the Learn about DuckDuckGo link.
+     - Steps: (1) Click Learn about DuckDuckGo
+     - Actions = 1 (single click) => disallowed.
+  
+  Highest sum rating: Skill #1 with 8.
+  Task:
+  {
+    "type": "explore",
+    "task": "Search DuckDuckGo for a query"
+  }
+  🔍 Retrieved Task-Relevant Functions:
+  2025-12-25T07:44:49.900519 Step 0
+  ⏳ Executing 0
+  💭 Step-by-step reasoning:
+  We are on DuckDuckGo homepage with the main searchbox exposed as a combobox named “Search with DuckDuckGo”. To perform a search, we should focus the combobox, fill the query text, then submit (press Enter). The Search button is currently disabled, so Enter is the reliable submission method. The user did not provide the query string, so we must ask for it rather than guessing.
+  🛠️ Generated code:
+  async def act(page):
+      # No query provided; cannot perform a search without the user’s search terms.
+      pass
+  
+  2025-12-25T07:44:58.415756 Step 1
+  Received `terminate` action.
+
+  探索完成: 96.3s | KB: 否
+
+  [无KB测试]
+    运行 1/2... OK (2.1s)
+    运行 2/2... 

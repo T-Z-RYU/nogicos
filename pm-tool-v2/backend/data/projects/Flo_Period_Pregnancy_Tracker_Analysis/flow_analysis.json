@@ -1,0 +1,24 @@
+{
+  "app_type": "健康医疗/女性健康App",
+  "onboarding": {
+    "start": 1,
+    "end": 45,
+    "steps": [
+      "启动页/Logo",
+      "权限申请",
+      "个人信息收集",
+      "健康目标设定",
+      "用户画像建立",
+      "功能介绍引导"
+    ]
+  },
+  "paywall": {
+    "position": 35,
+    "in_onboarding": true
+  },
+  "core_start": 46,
+  "summary": "采用渐进式Onboarding设计，在用户建立基本画像后适时引入付费转化，注重个性化体验建立",
+  "project": "Flo_Period_Pregnancy_Tracker_Analysis",
+  "total_screenshots": 198,
+  "analyzed_at": "2025-12-13T20:40:37.328860"
+}

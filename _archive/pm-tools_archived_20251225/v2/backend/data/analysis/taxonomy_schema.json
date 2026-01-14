@@ -1,0 +1,344 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Onboarding Screenshot Analysis Schema",
+  "description": "6维度分类体系，用于分析健康App的Onboarding截图",
+  "version": "2.0",
+  "created_at": "2025-12-22",
+  
+  "definitions": {
+    "functional_purpose": {
+      "type": "object",
+      "description": "维度1：功能目的 - 这个页面做什么",
+      "properties": {
+        "primary_category": {
+          "type": "string",
+          "enum": [
+            "Value",
+            "Identity", 
+            "Goal",
+            "Preference",
+            "Plan",
+            "Permission",
+            "Paywall",
+            "Registration",
+            "Growth"
+          ],
+          "descriptions": {
+            "Value": "价值传递：Splash、ValueProp、FeatureHighlight、Testimonial",
+            "Identity": "身份采集：Gender、Age、Birthday、Height、Weight、BodyMetrics",
+            "Goal": "目标设定：DirectionSelect、TargetValue、Timeline、Motivation",
+            "Preference": "偏好收集：DietType、ActivityLevel、ExerciseType、Lifestyle",
+            "Plan": "计划生成：Loading、Calculating、PlanSummary、PersonalizedResult",
+            "Permission": "权限请求：Notification、Location、Camera、Health、Tracking",
+            "Paywall": "付费转化：ValueReminder、PlanSelect、PriceDisplay、TrialOffer、Discount",
+            "Registration": "账户注册：MethodSelect、Email、Password、OAuth、Verification",
+            "Growth": "增长运营：ChannelSurvey、ReferralCode、RateRequest"
+          }
+        },
+        "secondary_type": {
+          "type": "string",
+          "description": "具体页面类型"
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "required": ["primary_category", "secondary_type", "confidence"]
+    },
+    
+    "funnel_stage": {
+      "type": "object",
+      "description": "维度2：漏斗阶段 - 在用户决策旅程中的位置",
+      "properties": {
+        "stage": {
+          "type": "string",
+          "enum": ["Awareness", "Consideration", "Commitment", "Activation", "Conversion"],
+          "descriptions": {
+            "Awareness": "让用户了解产品价值",
+            "Consideration": "让用户评估是否适合自己",
+            "Commitment": "让用户做出小承诺（填信息、设目标）",
+            "Activation": "让用户完成首次价值体验",
+            "Conversion": "让用户付费或注册"
+          }
+        },
+        "position_in_funnel": {
+          "type": "string",
+          "enum": ["top", "middle", "bottom"]
+        }
+      },
+      "required": ["stage", "position_in_funnel"]
+    },
+    
+    "psychological_tactic": {
+      "type": "object",
+      "description": "维度3：心理策略 - 使用了什么说服技巧",
+      "properties": {
+        "primary_tactic": {
+          "type": "string",
+          "enum": [
+            "SocialProof",
+            "CommitmentConsistency",
+            "Scarcity",
+            "LossAversion",
+            "Personalization",
+            "ProgressAchievement",
+            "Authority",
+            "Reciprocity",
+            "None"
+          ],
+          "descriptions": {
+            "SocialProof": "社会认同：用户数、评价、名人背书",
+            "CommitmentConsistency": "承诺一致性：小承诺 → 大承诺",
+            "Scarcity": "稀缺性：限时优惠、名额有限",
+            "LossAversion": "损失厌恶：错过什么、不行动的代价",
+            "Personalization": "个性化：为你定制、专属计划",
+            "ProgressAchievement": "进度成就：完成度、里程碑",
+            "Authority": "权威性：专家、科学、认证",
+            "Reciprocity": "互惠：先给价值再要求",
+            "None": "无明显心理策略"
+          }
+        },
+        "secondary_tactics": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "SocialProof",
+              "CommitmentConsistency",
+              "Scarcity",
+              "LossAversion",
+              "Personalization",
+              "ProgressAchievement",
+              "Authority",
+              "Reciprocity"
+            ]
+          }
+        },
+        "tactic_strength": {
+          "type": "string",
+          "enum": ["strong", "moderate", "weak", "none"]
+        }
+      },
+      "required": ["primary_tactic", "tactic_strength"]
+    },
+    
+    "interaction_pattern": {
+      "type": "object",
+      "description": "维度4：交互模式 - 用户如何与页面交互",
+      "properties": {
+        "primary_interaction": {
+          "type": "string",
+          "enum": [
+            "PassiveRead",
+            "SingleChoice",
+            "MultipleChoice",
+            "TextInput",
+            "NumberInput",
+            "Slider",
+            "DatePicker",
+            "Toggle",
+            "SystemModal",
+            "Tap"
+          ],
+          "descriptions": {
+            "PassiveRead": "纯展示阅读",
+            "SingleChoice": "单选",
+            "MultipleChoice": "多选",
+            "TextInput": "文本输入",
+            "NumberInput": "数字输入",
+            "Slider": "滑块",
+            "DatePicker": "日期选择",
+            "Toggle": "开关",
+            "SystemModal": "系统弹窗",
+            "Tap": "点击继续"
+          }
+        },
+        "is_skippable": {
+          "type": "boolean",
+          "description": "是否可跳过"
+        },
+        "input_effort": {
+          "type": "string",
+          "enum": ["none", "low", "medium", "high"],
+          "description": "用户输入努力程度"
+        }
+      },
+      "required": ["primary_interaction", "is_skippable", "input_effort"]
+    },
+    
+    "ui_pattern": {
+      "type": "object",
+      "description": "维度5：UI模式 - 页面的视觉呈现方式",
+      "properties": {
+        "layout_type": {
+          "type": "string",
+          "enum": [
+            "FullScreenIllustration",
+            "Carousel",
+            "ListSelection",
+            "CardSelection",
+            "IconGrid",
+            "Form",
+            "Calculator",
+            "SummaryCard",
+            "PaywallScreen",
+            "SystemDialog",
+            "ChatBubble",
+            "ProgressDisplay"
+          ],
+          "descriptions": {
+            "FullScreenIllustration": "全屏插画",
+            "Carousel": "轮播图",
+            "ListSelection": "列表选择",
+            "CardSelection": "卡片选择",
+            "IconGrid": "图标网格",
+            "Form": "表单",
+            "Calculator": "计算/加载动画",
+            "SummaryCard": "摘要卡片",
+            "PaywallScreen": "付费墙",
+            "SystemDialog": "系统对话框",
+            "ChatBubble": "对话气泡",
+            "ProgressDisplay": "进度展示"
+          }
+        },
+        "has_progress_indicator": {
+          "type": "boolean"
+        },
+        "has_illustration": {
+          "type": "boolean"
+        },
+        "has_animation": {
+          "type": "boolean"
+        },
+        "color_scheme": {
+          "type": "string",
+          "enum": ["light", "dark", "branded", "mixed"]
+        }
+      },
+      "required": ["layout_type", "has_progress_indicator", "has_illustration"]
+    },
+    
+    "commitment_level": {
+      "type": "object",
+      "description": "维度6：承诺梯度 - 用户需要付出多少",
+      "properties": {
+        "level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "descriptions": {
+            "1": "无承诺：纯阅读或点击继续",
+            "2": "低承诺：简单选择（性别、目标方向）",
+            "3": "中承诺：输入个人信息（身高、体重）",
+            "4": "高承诺：连接账户、授予权限",
+            "5": "最高承诺：付费、注册"
+          }
+        },
+        "commitment_type": {
+          "type": "string",
+          "enum": ["time", "information", "permission", "money", "identity"]
+        },
+        "reversibility": {
+          "type": "string",
+          "enum": ["reversible", "partially_reversible", "irreversible"]
+        }
+      },
+      "required": ["level", "commitment_type"]
+    }
+  },
+  
+  "type": "object",
+  "properties": {
+    "app_name": {
+      "type": "string"
+    },
+    "screenshot_index": {
+      "type": "integer"
+    },
+    "screenshot_filename": {
+      "type": "string"
+    },
+    "total_onboarding_screens": {
+      "type": "integer"
+    },
+    "position_percentage": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    
+    "classification": {
+      "type": "object",
+      "properties": {
+        "functional_purpose": { "$ref": "#/definitions/functional_purpose" },
+        "funnel_stage": { "$ref": "#/definitions/funnel_stage" },
+        "psychological_tactic": { "$ref": "#/definitions/psychological_tactic" },
+        "interaction_pattern": { "$ref": "#/definitions/interaction_pattern" },
+        "ui_pattern": { "$ref": "#/definitions/ui_pattern" },
+        "commitment_level": { "$ref": "#/definitions/commitment_level" }
+      },
+      "required": [
+        "functional_purpose",
+        "funnel_stage",
+        "psychological_tactic",
+        "interaction_pattern",
+        "ui_pattern",
+        "commitment_level"
+      ]
+    },
+    
+    "deep_analysis": {
+      "type": "object",
+      "properties": {
+        "design_intent": {
+          "type": "string",
+          "description": "设计意图分析"
+        },
+        "ux_observation": {
+          "type": "string",
+          "description": "用户体验观察"
+        },
+        "conversion_impact": {
+          "type": "string",
+          "enum": ["positive", "neutral", "negative", "uncertain"],
+          "description": "对转化的预期影响"
+        },
+        "potential_issues": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "潜在问题"
+        },
+        "best_practice_alignment": {
+          "type": "string",
+          "description": "与行业最佳实践的对齐程度"
+        }
+      }
+    },
+    
+    "raw_observation": {
+      "type": "object",
+      "properties": {
+        "visible_text": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "ui_elements": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "brand_elements": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  },
+  "required": [
+    "app_name",
+    "screenshot_index",
+    "screenshot_filename",
+    "classification"
+  ]
+}

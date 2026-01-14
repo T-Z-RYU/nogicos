@@ -1,0 +1,29 @@
+<state 0>
+URL: /
+Title: DuckDuckGo - Protection. Privacy. Peace of mind.
+
+document: "DuckDuckGo - Protection. Privacy. Peace of mind." {
+  main {
+    article {
+      link: "Learn about DuckDuckGo", url: "/about";
+      search: "Searchbox" {
+        combobox: "Search with DuckDuckGo", expanded: True;
+        button: "Search", disabled: True;
+      };
+
+      link: "Duck.ai", url: "https://duck.ai/?origin=funnel_home_website";
+      navigation: "navigation" {
+        button: "Menu", expanded: False;
+      };
+    };
+  };
+};
+
+</state 0>
+
+<terminate_with_result>
+What search query should I use on DuckDuckGo, and do you want me to open the first result (yes/no)?
+</terminate_with_result>
+
+---
+
