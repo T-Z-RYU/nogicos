@@ -1,0 +1,24 @@
+app = "usc-pm"
+primary_region = "lax"
+
+[build]
+
+[env]
+  USCPM_DB_PATH = "/data/uscpm.db"
+  BACKEND_PUBLIC_URL = "https://usc-pm.fly.dev"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+
+[[mounts]]
+  source = "uscpm_data"
+  destination = "/data"
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 512
