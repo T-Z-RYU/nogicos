@@ -66,32 +66,126 @@ ClankerPit is NOT "record 3 AI matches and post on Twitter." It is:
 - Planning launch end of April
 - Onboarding redesign this weekend
 
-### Pax Historia Comparison (YC W26)
+### ClankerPit Product Summary
 
-Pax Historia is in YC W26 with 35K DAU. Key comparison:
+**What it is:** AI vs AI competitive gaming platform. Users create AI agents using natural language or bring existing agents, then watch them compete against each other in real-time matches.
 
-| | Pax Historia | ClankerPit |
+**Supported games:** Counter-Strike + Chess (2 games at launch)
+
+**Two user entry points:**
+1. **Natural language creation** — Anyone describes a strategy in plain text ("rush B every round, switch to AWP if losing"), platform generates a playable agent. Zero coding required. Zero barrier to entry.
+2. **Bring your own agent** — Developers/builders can upload custom-built agents directly into the platform.
+
+**What's been built:**
+- Full competitive platform (agent submission, matchmaking, replay system)
+- Multi-game engine (CS + Chess)
+- Natural language to agent generation pipeline
+- Onboarding flow (being redesigned this weekend for < 60s time-to-first-fight)
+
+**Current status:**
+- Product built and functional
+- External beta users have tested it and expressed interest
+- Planning public launch end of April 2026
+- Closed beta starting after onboarding redesign
+
+**TAM shift:** Natural language agent creation expands target from ~500K AI developers to hundreds of millions of gamers + AI-curious users. This is not a dev tool. This is a game anyone can play.
+
+**User flow:**
+1. Open site (no signup required)
+2. Pick a game (CS or Chess)
+3. Describe your agent strategy in one sentence
+4. 30 seconds: agent generated
+5. Auto-matched against another agent
+6. Watch the replay
+7. Tweak strategy, rematch, share replay
+8. Signup only required to save agent / access rankings
+
+---
+
+### Pax Historia — Competitive Intelligence
+
+**Source:** https://www.ycombinator.com/companies/pax-historia
+
+Pax Historia is a direct category comparable. They are in **YC W26** (the same batch we're targeting).
+
+**Pax Historia key data:**
+| Metric | Value |
+|---|---|
+| YC Batch | W26 |
+| Team size | 3 people |
+| DAU | 35,000 |
+| Scale | 100 billion tokens processed in one week |
+| Community | 4,000+ community-published presets, 50+ plays each |
+| Total funding | $500K (1 round, 1 investor) |
+| Revenue model | Token-based + Patron subscription (AI compute cost pass-through) |
+| Description | "The first AI-powered grand strategy platform" |
+
+**How Pax Historia monetizes:**
+- Token-based system: actions/turns deduct tokens
+- Patron subscription: first month free, then paid
+- No advertisements (preserves game experience)
+- Core logic: AI model API costs are passed through to users
+
+---
+
+### ClankerPit vs Pax Historia — Head-to-Head
+
+| Dimension | Pax Historia | ClankerPit |
 |---|---|---|
-| Core | AI sandbox, player controls country | AI vs AI competitive platform |
-| Mode | Single-player sandbox | PvP (agent vs agent) |
-| Input | Natural language controls actions | Natural language CREATES agents |
-| Social | Low | High (competition + replay sharing) |
-| Retention | Narrative-driven | Competition-driven (ranking, improvement) |
-| Viral | Weak | Strong (replays are content) |
-| Revenue | Token-based + Patron subscription | TBD |
-| DAU | 35K | Pre-launch |
+| **Category** | AI grand strategy sandbox | AI competitive gaming platform |
+| **Core experience** | Player controls a country through history | AI agents fight each other in games |
+| **AI role** | World engine (generates narrative/events) | Agent creator + competitor |
+| **Player role** | Active participant (makes decisions) | Strategist + spectator (designs agent, watches it fight) |
+| **Mode** | Single-player sandbox | PvP (agent vs agent) |
+| **Input method** | Natural language controls actions | Natural language CREATES agents |
+| **Social dynamics** | Low (solo play, share presets) | High (competition, rankings, replay sharing) |
+| **Retention driver** | Narrative curiosity ("what if?") | Competitive drive (ranking, improvement, rivalry) |
+| **Viral mechanism** | Weak (share a story) | Strong (replays are shareable content, tournament brackets) |
+| **Content generation** | AI generates each session | Every match = user-generated content |
+| **Multi-game** | No (history only) | Yes (CS + Chess, extensible to more) |
+| **Revenue model** | Token + Patron subscription | TBD (proposed: Free/Pro/BYOA tiers) |
+| **DAU** | 35,000 | Pre-launch |
+| **YC status** | W26 batch member | Applying W26 |
 
-**Key insight: Pax Historia is AI novel. ClankerPit is AI esports.** PvP competitive platforms have higher retention and viral ceiling than sandbox.
+**Analogy:** Pax Historia is an AI novel you read alone. ClankerPit is AI esports you compete in and share.
+
+**Why PvP wins long-term:**
+- Competitive games have inherently higher retention than sandbox (League of Legends vs Minecraft dynamic)
+- Every match produces shareable content (replays) = built-in distribution
+- Rankings + improvement loops = daily active usage, not one-off sessions
+- Tournament format creates cultural moments and community
+- Multi-game extensibility means platform can grow with new games without rebuilding
+
+**Where Pax Historia is ahead:**
+- 35K DAU (proven demand)
+- Already in YC (validated by partners)
+- Revenue model operational
+- Clear monetization path
+
+**Where ClankerPit has structural advantages:**
+- PvP > single-player for retention and virality
+- Natural language CREATES agents (not just controls them) — fundamentally different value prop
+- Multi-game platform (CS + Chess) vs single-genre
+- Agent builder ecosystem potential (BYOA creates developer platform opportunity)
+- Replay sharing is inherent viral loop that sandbox doesn't have
+
+---
 
 ### Why ClankerPit > Golden Dataset for YC
 
-1. Built product vs. 0-code narrative
-2. YC validated category (Pax Historia same batch)
-3. Clear differentiation (PvP vs sandbox)
-4. Natural viral loop (replay = content = distribution)
-5. "Natural language creates AI agent" is the hottest 2026 narrative
-6. Multi-game support proves platform extensibility
-7. Launch imminent = real usage data by application time
+| Factor | Golden Dataset | ClankerPit |
+|---|---|---|
+| Product status | Concept only, 0 code | Built, functional, beta tested |
+| Traction | 0 customers, 0 pilots | Beta users, launch imminent |
+| Category validation | Crowded (Scale/Surge/Mercor) | YC W26 validated (Pax Historia) |
+| Differentiation | Weak vs incumbents | Strong (PvP vs sandbox, NL creates agents) |
+| Founder-market fit | Yuhao's $2M buyer story | Tielong's obsession + built the product |
+| Viral potential | None (B2B services) | High (replays = content) |
+| Revenue clarity | Clear ($50-150K/engagement) | TBD (but Pax Historia proves model) |
+| Narrative strength | "I was the buyer" | "Anyone can create an AI and watch it fight" |
+| YC interview energy | Explaining a plan | Demoing a product |
+
+**Bottom line:** A working product you can demo in the YC interview beats a pitch deck every time. If ClankerPit launch traction validates (1,000+ users in 30 days), it is the stronger application.
 
 ### Revenue Model (Proposed)
 
